@@ -3,193 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide Complet Anti-Chute : Actifs & Technique</title>
+    <title>Guide Complet : Stratégie Anti-Chute & Repousse</title>
     <style>
         body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            /* FOND GLOBAL (Gris-Bleu) */
-            background-color: #dbe4eb; 
+            /* VOTRE COULEUR DE FOND PRÉFÉRÉE */
+            background-color: #f4f6f8;
             margin: 0;
-            padding: 40px 20px;
+            padding: 20px;
         }
         .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: #ffffff;
+            max-width: 850px;
+            margin: 20px auto;
+            background-color: #fff;
             padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
         }
         
         /* TYPOGRAPHIE */
         h1 {
-            color: #1e3a8a;
+            color: #1a237e;
             text-align: center;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 3px solid #e0e0e0;
-            padding-bottom: 20px;
-            margin-bottom: 40px;
+            font-size: 1.8em;
         }
         h2 {
-            color: #374151;
-            border-left: 6px solid #3b82f6; /* Bleu vif */
+            color: #2c3e50;
+            border-left: 5px solid #3949ab;
             padding-left: 15px;
-            margin-top: 60px;
+            margin-top: 50px;
             margin-bottom: 25px;
-            font-size: 1.6em;
         }
-        h3 { color: #1e40af; margin-top: 20px; }
+        h3 { margin-top: 0; color: #3f51b5; }
 
-        /* BOXES D'INFORMATION */
-        .info-box {
+        /* BOX EXPLICATION DHT */
+        .dht-box {
+            background-color: #e8eaf6;
+            border: 1px solid #c5cae9;
+            border-radius: 10px;
             padding: 25px;
+            margin-bottom: 40px;
+        }
+        .dht-title {
+            font-weight: bold;
+            color: #1a237e;
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* BLOCS PRODUITS */
+        .card {
+            border: 1px solid #e0e0e0;
             border-radius: 12px;
             margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            overflow: hidden;
+            background: white;
         }
-        .dht-style { background-color: #eff6ff; border: 2px solid #bfdbfe; }
-        .romarin-style { background-color: #f0fdfa; border: 1px solid #ccfbf1; }
-        .micro-style { background-color: #fff7ed; border: 1px solid #ffedd5; }
+        .card-header { padding: 15px 25px; color: white; }
+        .card-header h3 { margin: 0; color: white; font-size: 1.4em; }
+        
+        .winner-header { background: linear-gradient(135deg, #2e7d32, #43a047); } /* Vert */
+        .runner-up-header { background: linear-gradient(135deg, #f9a825, #fbc02d); } /* Orange/Jaune */
+        
+        .card-body { padding: 25px; }
+
+        /* LISTES */
+        ul { list-style: none; padding: 0; }
+        li { padding-left: 30px; position: relative; margin-bottom: 10px; }
+        li::before { content: "🔹"; position: absolute; left: 0; color: #1976d2; }
+        .winner li::before { content: '✅'; }
+        .runner-up .bad::before { content: '❌'; }
 
         /* TABLEAU */
-        .table-wrapper {
-            overflow-x: auto;
-            margin: 30px 0;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-            border-radius: 10px;
-        }
-        table { width: 100%; border-collapse: collapse; background: white; }
-        th { padding: 18px; text-transform: uppercase; color: white; font-size: 0.9em; }
-        th.col-criteria { background-color: #334155; width: 25%; }
-        th.col-winner { background-color: #166534; width: 37.5%; font-size: 1.1em; }
-        th.col-loser { background-color: #64748b; width: 37.5%; }
-        td { padding: 15px; border-bottom: 1px solid #e2e8f0; vertical-align: middle; }
-        .win-cell { background-color: #f0fdf4; color: #15803d; font-weight: bold; border-left: 5px solid #22c55e; }
-        .lose-cell { background-color: #f8fafc; color: #64748b; border-left: 5px solid #cbd5e1; }
-
-        /* ÉTAPES PROTOCOLE */
-        .step-badge {
-            display: inline-block;
-            color: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            margin-right: 10px;
-            font-weight: bold;
-            min-width: 80px;
-            text-align: center;
-        }
-        .bg-green { background-color: #059669; }
-        .bg-orange { background-color: #d97706; }
-        .bg-blue { background-color: #2563eb; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; border-radius: 8px; overflow: hidden; }
+        th, td { padding: 12px 15px; border: 1px solid #e0e0e0; text-align: left; }
+        th { background-color: #eceff1; font-weight: 600; color: #37474f; }
+        td:nth-child(2) { background-color: #e8f5e9; font-weight: bold; color: #1b5e20; }
         
-        .protocol-row {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 15px;
-            padding-bottom: 15px;
-            border-bottom: 1px dashed #e5e7eb;
+        /* BOITES PROTOCOLES */
+        .method-box {
+            background-color: #fff3e0;
+            padding: 20px;
+            border-left: 5px solid #ef6c00;
+            color: #e65100;
+            border-radius: 6px;
+            margin-bottom: 20px;
         }
-        .protocol-row:last-child { border-bottom: none; }
-
-        /* AVERTISSEMENT */
-        .warning {
-            background-color: #fef2f2;
-            border-left: 5px solid #ef4444;
-            color: #991b1b;
+        .booster-box {
+            background-color: #e0f2f1;
+            padding: 20px;
+            border-left: 5px solid #00897b;
+            color: #004d40;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        .warning-box {
+            background-color: #ffebee;
             padding: 15px;
+            border-left: 5px solid #c62828;
+            color: #b71c1c;
+            border-radius: 6px;
             margin-top: 15px;
-            font-size: 0.95em;
+            font-size: 0.9em;
         }
+        .step { font-weight: bold; color: #d84315; display: block; margin-top: 15px; margin-bottom: 5px; text-transform: uppercase; font-size: 0.9em; letter-spacing: 0.5px; }
+
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Guide Ultime : Stratégie Anti-Chute</h1>
+        <h1>Stratégie Capillaire Complète</h1>
 
-        <!-- PARTIE 1 : LA CAUSE (DHT) -->
-        <div class="info-box dht-style">
-            <h3 style="margin-top:0;">1. Comprendre l'ennemi : La DHT</h3>
+        <!-- 1. EXPLICATION DHT -->
+        <div class="dht-box">
+            <span class="dht-title">🕵️ Comprendre l'ennemi : La DHT</span>
             <p>
-                L'alopécie androgénétique est causée par la <strong>Dihydrotestostérone (DHT)</strong>. Cette hormone "étouffe" le follicule pileux, le rendant de plus en plus fin jusqu'à sa disparition.
+                L'alopécie androgénétique est causée par la <strong>Dihydrotestostérone (DHT)</strong>. Cette hormone se fixe sur le follicule pileux et agit comme un garrot : elle le miniaturise progressivement.
             </p>
-            <p><strong>Règle d'or :</strong> Si votre produit ne bloque pas la DHT, il ne traite pas la cause, il ne fait que "maquiller" le cheveu existant.</p>
+            <p style="margin-bottom:0;">
+                👉 <strong>L'image à retenir :</strong> Le cheveu devient de plus en plus fin, comme étouffé, jusqu'à disparaître. Si votre produit ne bloque pas la DHT (via l'inhibition de la 5-alpha-réductase), vous ne traitez pas la cause réelle de la chute.
+            </p>
         </div>
 
-        <!-- PARTIE 2 : LE CHOIX DU PRODUIT -->
-        <h2>2. Le Verdict : Quel produit choisir ?</h2>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                    <tr>
-                        <th class="col-criteria">Critère</th>
-                        <th class="col-winner">🏆 COLAGEA<br><small>(Le Gagnant)</small></th>
-                        <th class="col-loser">NOVALIA<br><small>(Le Second)</small></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Cible</strong></td>
-                        <td class="win-cell">Chute Hormonale & Repousse</td>
-                        <td class="lose-cell">Santé & Beauté du cheveu</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Anti-DHT</strong></td>
-                        <td class="win-cell">✅ OUI (Palmier Nain + Courge)</td>
-                        <td class="lose-cell">❌ NON (Dosage insuffisant)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Dominante</strong></td>
-                        <td class="win-cell">Hydratation & Peptides</td>
-                        <td class="lose-cell">Tea Tree (Antiseptique)</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <!-- 2. COMPARATIF -->
+        <h2>🏆 Le Verdict : Colagea vs Novalia</h2>
 
-        <!-- PARTIE 3 : HUILE DE ROMARIN -->
-        <h2>3. Booster 1 : L'Huile de Romarin</h2>
-        <div class="info-box romarin-style">
-            <p>Le Romarin agit comme un puissant stimulant vasculaire (similaire au Minoxidil). Combiné aux peptides de Colagea, l'effet est décuplé.</p>
-            
-            <div style="margin: 20px 0;">
-                <div class="protocol-row">
-                    <span class="step-badge bg-blue">QUOTIDIEN</span>
-                    <div><strong>Appliquez Colagea</strong> (base aqueuse) sur cuir chevelu propre. Ne rincez pas.</div>
-                </div>
-                <div class="protocol-row">
-                    <span class="step-badge bg-green">HEBDO</span>
-                    <div><strong>Bain d'huile de Romarin</strong> (1 à 2 fois/semaine). Pose de 2h minimum avant le shampooing.</div>
-                </div>
+        <!-- COLAGEA -->
+        <div class="card winner">
+            <div class="card-header winner-header">
+                <h3>Le Gagnant : COLAGEA</h3>
             </div>
-
-            <div class="warning">
-                <strong>⚠️ IMPORTANT :</strong> L'eau ne traverse pas l'huile. Appliquez toujours Colagea (eau) AVANT l'huile si vous superposez les deux.
+            <div class="card-body">
+                <strong>Pourquoi c'est le choix scientifique :</strong>
+                <ul>
+                    <li><strong>Bloqueurs de DHT Puissants :</strong> Contient du <em>Palmier Nain</em> et de la <em>Graine de Courge</em> en haute concentration (début de liste INCI). C'est l'arme absolue contre la cause hormonale.</li>
+                    <li><strong>Stimulation Peptidique :</strong> Les peptides de cuivre (Copper Tripeptide-1) renforcent la taille du follicule.</li>
+                    <li><strong>Pénétration :</strong> Formule conçue pour traverser la barrière cutanée.</li>
+                </ul>
             </div>
         </div>
 
-        <!-- PARTIE 4 : MICRO-INFUSION -->
-        <h2>4. Booster 2 : La Micro-Infusion (Microneedling)</h2>
-        <div class="info-box micro-style">
-            <p>L'utilisation d'un <strong>Derma Stamp</strong> (tampon à aiguilles 1mm - 1.5mm) crée des micro-canaux qui permettent aux actifs de pénétrer 5 à 10 fois plus profondément.</p>
-
-            <h3>📅 Le Protocole Micro-Infusion :</h3>
-            <div class="protocol-row">
-                <span class="step-badge bg-orange">1x / SEMAINE</span>
-                <div>
-                    <strong>1. Désinfectez</strong> l'outil à l'alcool.<br>
-                    <strong>2. Appliquez Colagea</strong> sur cuir chevelu propre.<br>
-                    <strong>3. Tamponnez</strong> la zone (micro-perforations).<br>
-                    <strong>4. Ré-appliquez Colagea</strong> pour saturer les canaux.
-                </div>
+        <!-- NOVALIA -->
+        <div class="card runner-up">
+            <div class="card-header runner-up-header">
+                <h3>Le Second : NOVALIA</h3>
             </div>
-
-            <div class="warning">
-                <strong>🚫 Danger :</strong> N'appliquez JAMAIS d'huiles essentielles pures ou de produits irritants juste après une séance de microneedling. Attendez 24h avant de remettre de l'huile de romarin.
+            <div class="card-body">
+                <strong>Pourquoi c'est insuffisant pour l'alopécie :</strong>
+                <ul>
+                    <li><strong>Orientation "Beauté" :</strong> Excellente pour la qualité de la fibre (acides aminés) et l'assainissement (Tea Tree), mais pas pour la repousse hormonale.</li>
+                    <li class="bad"><strong>Carence en Bloqueurs :</strong> Le thé vert et le romarin sont présents en quantités trop faibles (fin de liste) pour inhiber efficacement la DHT.</li>
+                </ul>
             </div>
+        </div>
+
+        <!-- TABLEAU -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Critère</th>
+                    <th>COLAGEA</th>
+                    <th>NOVALIA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Cible Principale</strong></td>
+                    <td>Chute Hormonale (DHT)</td>
+                    <td>Santé & Tonicité</td>
+                </tr>
+                <tr>
+                    <td><strong>Anti-DHT</strong></td>
+                    <td>✅ OUI (Fort dosage)</td>
+                    <td>❌ NON (Traces)</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <!-- 3. PROTOCOLE QUOTIDIEN -->
+        <h2>⚙️ La Méthode Quotidienne : Micro-Infusion Colagea</h2>
+        <div class="method-box">
+            <strong>Le principe :</strong> Appliquer Colagea chaque jour à l'aide du dispositif de micro-infusion (tampon/applicateur). Cela permet de délivrer les actifs (peptides et bloqueurs DHT) directement au niveau du bulbe.
+        </div>
+
+        <h3>📅 Votre Routine de tous les jours</h3>
+        <ul>
+            <li><strong>Fréquence :</strong> Quotidienne (Matin ou Soir).</li>
+            <li><strong>Geste :</strong> Tamponnez doucement les zones dégarnies avec l'applicateur Colagea pour faire pénétrer le sérum.</li>
+            <li><strong>Hygiène :</strong> Désinfectez régulièrement l'embout de votre applicateur à l'alcool.</li>
+        </ul>
+
+
+        <!-- 4. BOOSTER HEBDOMADAIRE -->
+        <h2>🌿 Le Booster Hebdo : L'Huile de Romarin</h2>
+        <div class="booster-box">
+            <strong>Synergie Parfaite :</strong> Le Romarin est un puissant stimulant vasculaire. Utilisé en complément, il nourrit le cuir chevelu en profondeur.
+        </div>
+
+        <h3>⚠️ Règle d'Or : L'eau avant l'huile</h3>
+        <p>Ne mélangez pas tout. L'huile empêche le Colagea (base eau) de pénétrer si elle est mise avant.</p>
+
+        <span class="step">Option A : Le "Jour de Repos" (Recommandé)</span>
+        <ul>
+            <li>Une à deux fois par semaine (le week-end par exemple), remplacez votre application de Colagea par un <strong>bain d'huile de Romarin</strong>.</li>
+            <li>Laissez poser 2h minimum avant le shampooing.</li>
+        </ul>
+
+        <span class="step">Option B : Le Layering (Le Soir)</span>
+        <ol style="padding-left:20px;">
+            <li>Faites votre micro-infusion <strong>Colagea</strong>.</li>
+            <li>Laissez sécher complètement (15 minutes).</li>
+            <li>Appliquez quelques gouttes d'huile de Romarin par-dessus pour sceller l'hydratation la nuit.</li>
+        </ol>
+
+        <div class="warning-box">
+            <strong>Sécurité :</strong> Toujours diluer l'huile essentielle de romarin dans une huile neutre (Jojoba, Ricin) pour éviter les brûlures.
         </div>
 
     </div>
