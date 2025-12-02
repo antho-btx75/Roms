@@ -11,22 +11,23 @@
             color: #333;
             background-color: #f4f6f8;
             margin: 0;
-            padding: 10px;
+            padding: 10px; /* Marges externes réduites pour mobile */
         }
         .container {
             max-width: 850px;
             margin: 0 auto;
             background-color: #fff;
-            padding: 20px;
+            padding: 20px; /* Padding interne optimisé */
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
 
-        /* OPTIMISATION SPÉCIALE MOBILE */
+        /* OPTIMISATION MOBILE */
         @media (max-width: 600px) {
             body { padding: 5px; }
             .container { padding: 15px; }
             h1 { font-size: 1.4em; }
+            li { padding-left: 20px; } /* Gain de place sur les listes */
         }
         
         /* TYPOGRAPHIE */
@@ -57,7 +58,6 @@
             margin-bottom: 30px;
         }
         
-        /* NOUVELLE BOÎTE "PATIENCE" */
         .patience-box {
             background-color: #fffbeb;
             border: 1px solid #fde68a;
@@ -91,8 +91,8 @@
 
         /* LISTES */
         ul { list-style: none; padding: 0; margin: 0; }
-        li { padding-left: 25px; position: relative; margin-bottom: 8px; }
-        li::before { content: "🔹"; position: absolute; left: 0; color: #1976d2; font-size: 0.9em; }
+        li { padding-left: 25px; position: relative; margin-bottom: 10px; }
+        li::before { content: "🔹"; position: absolute; left: 0; color: #1976d2; font-size: 0.9em; top: 2px; }
         .winner li::before { content: '✅'; }
         .runner-up .bad::before { content: '❌'; }
 
@@ -102,16 +102,10 @@
         th { background-color: #eceff1; font-weight: 600; color: #37474f; }
         td:nth-child(2) { background-color: #e8f5e9; font-weight: bold; color: #1b5e20; }
         
-        /* BOITES PROTOCOLES */
-        .method-box {
-            background-color: #fff3e0; padding: 15px; border-left: 4px solid #ef6c00; color: #e65100; border-radius: 5px; margin-bottom: 20px;
-        }
-        .booster-box {
-            background-color: #e0f2f1; padding: 15px; border-left: 4px solid #00897b; color: #004d40; border-radius: 5px; margin-bottom: 20px;
-        }
-        .warning-box {
-            background-color: #ffebee; padding: 15px; border-left: 4px solid #c62828; color: #b71c1c; border-radius: 5px; margin-top: 15px; font-size: 0.9em;
-        }
+        /* PROTOCOLES */
+        .method-box { background-color: #fff3e0; padding: 15px; border-left: 4px solid #ef6c00; color: #e65100; border-radius: 5px; margin-bottom: 20px; }
+        .booster-box { background-color: #e0f2f1; padding: 15px; border-left: 4px solid #00897b; color: #004d40; border-radius: 5px; margin-bottom: 20px; }
+        .warning-box { background-color: #ffebee; padding: 15px; border-left: 4px solid #c62828; color: #b71c1c; border-radius: 5px; margin-top: 15px; font-size: 0.9em; }
         
         p { margin-bottom: 15px; margin-top: 0; }
 
@@ -122,11 +116,11 @@
     <div class="container">
         <h1>Stratégie Capillaire Complète</h1>
 
-        <!-- SECTION PATIENCE (AJOUTÉE ICI) -->
+        <!-- SECTION PATIENCE -->
         <div class="info-box patience-box">
             <span class="patience-title">📅 La Règle d'Or : Patience & Régularité</span>
             <p style="margin-bottom:0;">
-                Le cycle de vie du cheveu est long (plusieurs mois). Les premiers résultats visibles (cheveux plus denses, duvet...) n'apparaissent généralement qu'après <strong>3 à 6 mois</strong> d'utilisation assidue, que ce soit pour Colagea ou l'huile de Romarin. <strong>La clé du succès est la constance.</strong>
+                Le cycle de vie du cheveu est long. Les premiers résultats visibles (arrêt de la chute, repousse de duvet) n'apparaissent généralement qu'après <strong>3 à 6 mois</strong> d'utilisation assidue. Ne jugez pas l'efficacité avant cette période. <strong>La clé du succès est la constance.</strong>
             </p>
         </div>
 
@@ -137,7 +131,7 @@
                 L'alopécie androgénétique est causée par la <strong>Dihydrotestostérone (DHT)</strong>. Cette hormone se fixe sur le follicule pileux et agit comme un garrot : elle le miniaturise progressivement.
             </p>
             <p style="margin-bottom:0;">
-                👉 <strong>L'image à retenir :</strong> Le cheveu devient de plus en plus fin, comme étouffé, jusqu'à disparaître. Si votre produit ne bloque pas la DHT, vous ne traitez pas la cause réelle de la chute.
+                👉 <strong>Fait critique :</strong> Si votre produit ne bloque pas la conversion de la testostérone en DHT (via l'inhibition de la 5-alpha-réductase), vous ne traitez pas la cause, vous ne faites que "maquiller" le cheveu existant.
             </p>
         </div>
 
@@ -152,9 +146,9 @@
             <div class="card-body">
                 <strong>Pourquoi c'est le choix scientifique :</strong>
                 <ul>
-                    <li><strong>Bloqueurs de DHT Puissants :</strong> Contient du <em>Palmier Nain</em> et de la <em>Graine de Courge</em> en haute concentration.</li>
-                    <li><strong>Stimulation Peptidique :</strong> Les peptides de cuivre renforcent la taille du follicule.</li>
-                    <li><strong>Pénétration :</strong> Formule conçue pour traverser la barrière cutanée.</li>
+                    <li><strong>Bloqueurs de DHT Puissants :</strong> Contient du <em>Palmier Nain</em> (Saw Palmetto) et de la <em>Graine de Courge</em> en début de liste INCI. Ces ingrédients sont cliniquement prouvés pour inhiber l'enzyme responsable de la chute.</li>
+                    <li><strong>Stimulation Peptidique :</strong> Les peptides de cuivre renforcent l'ancrage et la taille du follicule.</li>
+                    <li><strong>Pénétration :</strong> Formule vectorisée pour traverser la barrière du cuir chevelu.</li>
                 </ul>
             </div>
         </div>
@@ -165,10 +159,11 @@
                 <h3>Le Second : NOVALIA</h3>
             </div>
             <div class="card-body">
-                <strong>Pourquoi c'est insuffisant pour l'alopécie :</strong>
+                <strong>Pourquoi il est inadapté à l'alopécie androgénétique :</strong>
                 <ul>
-                    <li><strong>Orientation "Beauté" :</strong> Excellent pour la qualité de la fibre mais pas pour la repousse hormonale.</li>
-                    <li class="bad"><strong>Carence en Bloqueurs :</strong> Actifs présents en quantités trop faibles pour inhiber efficacement la DHT.</li>
+                    <li class="bad"><strong>Cible manquée (Antiseptique vs Hormonal) :</strong> Son ingrédient principal est le <em>Tea Tree</em>. C'est un excellent antibactérien pour les pellicules, mais il n'a <strong>aucun effet</strong> sur le mécanisme hormonal de la DHT.</li>
+                    <li class="bad"><strong>Action superficielle :</strong> Novalia agit comme un "conditionneur" : il rend le cheveu existant plus beau grâce aux acides aminés, mais n'empêche pas le follicule de mourir à la racine.</li>
+                    <li class="bad"><strong>Dosage insuffisant :</strong> Les actifs anti-chute (Romarin, Thé vert) sont relégués en fin de liste, à l'état de traces.</li>
                 </ul>
             </div>
         </div>
@@ -184,14 +179,14 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><strong>Cible Principale</strong></td>
-                    <td>Chute Hormonale (DHT)</td>
-                    <td>Santé & Tonicité</td>
+                    <td><strong>Mécanisme</strong></td>
+                    <td>Inhibition DHT & Repousse</td>
+                    <td>Assainissement & Brillance</td>
                 </tr>
                 <tr>
-                    <td><strong>Anti-DHT</strong></td>
-                    <td>✅ OUI (Fort dosage)</td>
-                    <td>❌ NON (Traces)</td>
+                    <td><strong>Ingrédient Clé</strong></td>
+                    <td>✅ Palmier Nain (Anti-Hormonal)</td>
+                    <td>❌ Tea Tree (Antiseptique)</td>
                 </tr>
             </tbody>
         </table>
@@ -200,35 +195,35 @@
         <!-- 3. PROTOCOLE QUOTIDIEN -->
         <h2>⚙️ La Méthode Quotidienne : Colagea</h2>
         <div class="method-box">
-            <strong>Le principe :</strong> Appliquer Colagea chaque jour à l'aide du dispositif de micro-infusion pour délivrer les actifs directement au niveau du bulbe.
+            <strong>Le principe :</strong> Appliquer Colagea chaque jour à l'aide du dispositif de micro-infusion pour délivrer les actifs directement au niveau du bulbe, là où la DHT attaque.
         </div>
 
         <h3>📅 Votre Geste de tous les jours</h3>
         <ul>
-            <li><strong>Fréquence :</strong> Quotidienne (Matin ou Soir, au choix).</li>
-            <li><strong>Geste :</strong> Tamponnez doucement les zones dégarnies avec l'applicateur.</li>
-            <li><strong>Hygiène :</strong> Désinfectez régulièrement l'embout de votre applicateur.</li>
+            <li><strong>Fréquence :</strong> Quotidienne (Matin ou Soir).</li>
+            <li><strong>Geste :</strong> Tamponnez doucement les zones dégarnies avec l'applicateur. Insistez sur les golfes et le vertex.</li>
+            <li><strong>Hygiène :</strong> Désinfectez l'embout de l'applicateur à l'alcool après usage.</li>
         </ul>
 
 
         <!-- 4. RITUEL DU SOIR -->
         <h2>🌿 Le Rituel du Soir : L'Huile de Romarin</h2>
         <div class="booster-box">
-            <strong>Preuve Scientifique :</strong> Des études ont démontré que l'huile de romarin peut être <strong>aussi efficace que le Minoxidil 2%</strong> pour stimuler la repousse, en agissant comme un puissant vasodilatateur.
+            <strong>Preuve Scientifique :</strong> Des études comparatives (2015) ont démontré que l'huile de romarin est <strong>aussi efficace que le Minoxidil 2%</strong> sur 6 mois pour stimuler la repousse, grâce à son action vasodilatatrice intense.
         </div>
 
         <h3>📅 Comment l'intégrer chaque soir ?</h3>
         <p style="color:#d84315; font-weight:bold; font-size:0.95em;">⚠️ Règle d'Or : L'eau avant l'huile.</p>
-        <p style="font-size:0.95em;">Si vous inversez l'ordre, l'huile formera une barrière et Colagea ne pénétrera pas.</p>
+        <p style="font-size:0.95em;">L'huile crée un film occlusif. Si vous la mettez avant, le sérum aqueux (Colagea) ne pourra pas pénétrer.</p>
 
         <ol style="padding-left:20px; list-style-type: decimal;">
-            <li>Faites votre micro-infusion <strong>Colagea</strong> comme d'habitude.</li>
-            <li style="margin-top:10px;"><strong>Attendez 15 minutes</strong> que le produit sèche complètement. Étape cruciale.</li>
-            <li style="margin-top:10px;">Appliquez quelques gouttes d'<strong>huile de Romarin</strong> (diluée) par-dessus. Massez doucement pour sceller et laisser agir toute la nuit.</li>
+            <li>Faites votre micro-infusion <strong>Colagea</strong>.</li>
+            <li style="margin-top:10px;"><strong>Attendez 15 minutes</strong> que le sérum soit absorbé et sec.</li>
+            <li style="margin-top:10px;">Appliquez quelques gouttes d'<strong>huile de Romarin</strong> (toujours diluée) par-dessus. Massez pour sceller les actifs et laissez agir la nuit.</li>
         </ol>
 
         <div class="warning-box">
-            <strong>Sécurité :</strong> Toujours diluer l'huile essentielle de romarin dans une huile neutre (Jojoba, Ricin) pour éviter les brûlures.
+            <strong>Sécurité :</strong> L'huile essentielle de romarin est dermocaustique. Diluez-la toujours dans une huile végétale neutre (Jojoba, Ricin) avant application.
         </div>
 
     </div>
