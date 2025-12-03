@@ -67,28 +67,36 @@
 
         /* Table styles */
         .table-responsive {
-            overflow-x: auto; /* This is the key for horizontal scrolling */
-            -webkit-overflow-scrolling: touch; /* Improves scrolling experience on iOS */
+            overflow-x: auto; /* Défilement horizontal */
+            overflow-y: auto; /* Défilement vertical pour le sticky */
+            -webkit-overflow-scrolling: touch;
             margin-bottom: 30px;
+            max-height: 500px; /* IMPORTANT: Définit une hauteur maximale pour que overflow-y fonctionne */
+            border: 1px solid #ddd; /* Ajout d'une bordure pour visualiser le conteneur défilant */
+            border-radius: 5px;
         }
 
         .rupture-table {
-            width: 100%; /* Make table try to fit 100% of its container */
-            min-width: 700px; /* Crucial: force a minimum width for the table itself */
+            width: 100%; 
+            min-width: 700px; 
             border-collapse: collapse;
             margin: 0;
-            font-size: 0.85em; /* Smaller font for better fit */
+            font-size: 0.85em; 
         }
 
         .rupture-table thead th {
-            background-color: #5c6bc0; /* Dark purple/blue from image */
+            background-color: #5c6bc0; 
             color: white;
             padding: 12px 10px;
             text-align: left;
-            font-size: 0.9em; /* Slightly larger for headers */
+            font-size: 0.9em; 
             border: 1px solid #4a59a3;
-            white-space: normal; /* Allow header text to wrap */
-            vertical-align: middle; /* Align text vertically in header */
+            white-space: normal; 
+            vertical-align: middle;
+
+            position: sticky; /* Rendre l'en-tête collante */
+            top: 0; /* Colle l'en-tête en haut du conteneur parent défilant */
+            z-index: 2; /* S'assure que l'en-tête reste au-dessus du contenu du tableau */
         }
 
         .rupture-table tbody th,
@@ -97,9 +105,25 @@
             border: 1px solid #ddd;
             vertical-align: top;
             background-color: #fff;
-            white-space: normal; /* Allow content text to wrap */
-            word-break: break-word; /* Helps with long words in narrow cells */
+            white-space: normal; 
+            word-break: break-word; 
         }
+
+        /* Fixer la première colonne à gauche */
+        .rupture-table tbody th {
+            position: sticky;
+            left: 0; /* Colle la première colonne à gauche */
+            background-color: #f9f9f9; /* Couleur de fond pour qu'elle ne soit pas transparente */
+            z-index: 1; /* Moins prioritaire que l'en-tête horizontal, mais au-dessus des td */
+            border-right: 1px solid #ddd; /* Peut aider à marquer la séparation */
+        }
+        
+        /* La cellule d'angle (premier th de l'en-tête) doit être la plus prioritaire */
+        .rupture-table thead th:first-child {
+            left: 0;
+            z-index: 3; /* Restera au-dessus de tout en haut à gauche */
+        }
+
 
         /* Apply specific widths to columns to match visual layout */
         .rupture-table th:nth-child(1) { width: 18%; } /* Type de rupture */
@@ -111,13 +135,13 @@
 
 
         .rupture-table tbody tr:nth-child(even) {
-            background-color: #f9f9f9; /* Light grey for even rows */
+            background-color: #f9f9f9; 
         }
 
         /* Icon styling */
-        .icon-good { color: #4CAF50; font-weight: bold; } /* Green */
-        .icon-bad { color: #F44336; font-weight: bold; } /* Red */
-        .icon-warning { color: #FFC107; font-weight: bold; } /* Amber */
+        .icon-good { color: #4CAF50; font-weight: bold; } 
+        .icon-bad { color: #F44336; font-weight: bold; } 
+        .icon-warning { color: #FFC107; font-weight: bold; } 
 
         /* Summary blocks */
         .summary-block {
@@ -152,28 +176,26 @@
         }
 
         .best-option {
-            background-color: #e8f5e9; /* Light green */
+            background-color: #e8f5e9; 
             border: 1px solid #a5d6a7;
-            color: #2e7d32; /* Darker green text */
+            color: #2e7d32; 
         }
         .best-option .icon { color: #4CAF50; }
 
         .worst-for-employer {
-            background-color: #ffebee; /* Light red */
+            background-color: #ffebee; 
             border: 1px solid #ef9a9a;
-            color: #c62828; /* Darker red text */
+            color: #c62828; 
         }
         .worst-for-employer .icon { color: #F44336; }
 
         .best-for-employer {
-            background-color: #e3f2fd; /* Light blue (closest to green in image for this block) */
+            background-color: #e3f2fd; 
             border: 1px solid #90caf9;
-            color: #1976d2; /* Darker blue text */
+            color: #1976d2; 
         }
-        .best-for-employer .icon { color: #2196F3; } /* Or a green check like in image: #4CAF50 */
+        .best-for-employer .icon { color: #2196F3; } 
 
-        /* No specific @media queries for table structure on mobile,
-           as the goal is horizontal scrolling. Only general padding/font adjustments. */
         @media screen and (max-width: 768px) {
             body {
                 padding: 10px;
@@ -184,7 +206,6 @@
             .main-header h1 {
                 font-size: 1.3em;
             }
-            /* Table font size can be slightly smaller on very small screens if needed */
             .rupture-table {
                 font-size: 0.8em;
             }
@@ -231,21 +252,19 @@
                     </tr>
                     <tr>
                         <th>Licenciement cause réelle + préavis dispensé et payé</th>
-                        <!-- 1800€ ICP + 2296€ IL + 1950€ ICPé (nette) = 6046€ -->
                         <td>~6 046 € (1 800 € ICP + 2 296 € IL + 1 950 € ICPé)</td>
                         <td><span class="icon-good">✅</span> Dispense (ICPé versée, salarié ne travaille pas)</td>
                         <td><span class="icon-good">✅</span> Oui</td>
                         <td><span class="icon-good">✅</span> Très bonnes indemnités, pas de préavis à faire, chômage</td>
-                        <td><span class="icon-bad">❌</span> Coût total ~6 746 € (pas de service rendu pour ce montant)</td>
+                        <td><span class="icon-bad">❌</span> Coût total ~6 746 € (sans service rendu)</td>
                     </tr>
                     <tr>
                         <th>Licenciement cause réelle + préavis effectué</th>
-                        <!-- 1800€ ICP + 2296€ IL = 4096€. Le salarié perçoit en plus son salaire net de 1950€ pour le préavis travaillé. -->
                         <td>~4 096 € (1 800 € ICP + 2 296 € IL)</td>
                         <td><span class="icon-good">✅</span> Effectué (salaire net ~1 950 € perçu)</td>
                         <td><span class="icon-good">✅</span> Oui</td>
                         <td><span class="icon-good">✅</span> Préavis fait (salaire net ~1 950 € perçu) + indemnités (~4 096 €) + chômage. (Option réaliste)</td>
-                        <td><span class="icon-good">✅</span> Coût total ~6 746 € (service rendu pour ce montant)</td>
+                        <td><span class="icon-good">✅</span> Coût total ~6 746 € (avec service rendu)</td>
                     </tr>
                     <tr>
                         <th>Rupture conventionnelle</th>
@@ -270,236 +289,11 @@
         <div class="summary-block">
             <div class="summary-item best-option">
                 <span class="icon">🎯</span>
-                <p><strong>MEILLEURE OPTION POUR LE SALARIÉ:</strong> Licenciement cause réelle + préavis effectué (indemnités de ~4 096 € + salaire net ~1 950 € perçu pendant le préavis + chômage + coût de ~6 746 € avec contrepartie de service = option réaliste);</p>
+                <p><strong>MEILLEURE OPTION POUR LE SALARIÉ:</strong> Licenciement cause réelle + préavis effectué (indemnités de ~4 096 € + salaire net ~1 950 € perçu pendant le préavis + chômage + coût total pour l'employeur de ~6 746 € avec contrepartie de service = option réaliste);</p>
             </div>
             <div class="summary-item worst-for-employer">
                 <span class="icon">❌</span>
-                <p><strong>OPTION QUE L'EMPLOYEUR NE VEUT ABSOLUMENT PAS:</strong> Licenciement cause réelle + préavis dispensé et payé (coût de ~6 746 € pour l'employeur, sans service rendu)</p>
-            </div>
-            <div class= "summary-item best-for-employer">
-                <span class="icon">✅</span>
-                <p><strong>OPTION QUE L'EMPLOYEUR SOUHAITE ABSOLUMENT:</strong> Démission (coût nul)</p>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
-        }
-
-        .info-block strong {
-            color: #333;
-        }
-
-        /* Table styles */
-        .table-responsive {
-            overflow-x: auto; /* This is the key for horizontal scrolling */
-            -webkit-overflow-scrolling: touch; /* Improves scrolling experience on iOS */
-            margin-bottom: 30px;
-        }
-
-        .rupture-table {
-            width: 100%; /* Make table try to fit 100% of its container */
-            min-width: 700px; /* Crucial: force a minimum width for the table itself */
-            border-collapse: collapse;
-            margin: 0;
-            font-size: 0.85em; /* Smaller font for better fit */
-        }
-
-        .rupture-table thead th {
-            background-color: #5c6bc0; /* Dark purple/blue from image */
-            color: white;
-            padding: 12px 10px;
-            text-align: left;
-            font-size: 0.9em; /* Slightly larger for headers */
-            border: 1px solid #4a59a3;
-            white-space: normal; /* Allow header text to wrap */
-            vertical-align: middle; /* Align text vertically in header */
-        }
-
-        .rupture-table tbody th,
-        .rupture-table tbody td {
-            padding: 10px;
-            border: 1px solid #ddd;
-            vertical-align: top;
-            background-color: #fff;
-            white-space: normal; /* Allow content text to wrap */
-            word-break: break-word; /* Helps with long words in narrow cells */
-        }
-
-        /* Apply specific widths to columns to match visual layout */
-        .rupture-table th:nth-child(1) { width: 18%; } /* Type de rupture */
-        .rupture-table th:nth-child(2) { width: 18%; } /* Indemnités pour le SALARIÉ */
-        .rupture-table th:nth-child(3) { width: 10%; } /* Préavis */
-        .rupture-table th:nth-child(4) { width: 10%; } /* Accès Chômage */
-        .rupture-table th:nth-child(5) { width: 22%; } /* Conséquences pour le SALARIÉ */
-        .rupture-table th:nth-child(6) { width: 22%; } /* Conséquences pour l'EMPLOYEUR */
-
-
-        .rupture-table tbody tr:nth-child(even) {
-            background-color: #f9f9f9; /* Light grey for even rows */
-        }
-
-        /* Icon styling */
-        .icon-good { color: #4CAF50; font-weight: bold; } /* Green */
-        .icon-bad { color: #F44336; font-weight: bold; } /* Red */
-        .icon-warning { color: #FFC107; font-weight: bold; } /* Amber */
-
-        /* Summary blocks */
-        .summary-block {
-            margin-top: 20px;
-        }
-
-        .summary-item {
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            display: flex;
-            align-items: flex-start;
-            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
-            font-size: 0.9em;
-        }
-
-        .summary-item .icon {
-            font-size: 1.5em;
-            margin-right: 10px;
-            line-height: 1;
-            flex-shrink: 0;
-        }
-
-        .summary-item p {
-            margin: 0;
-            line-height: 1.5;
-        }
-
-        .summary-item strong {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .best-option {
-            background-color: #e8f5e9; /* Light green */
-            border: 1px solid #a5d6a7;
-            color: #2e7d32; /* Darker green text */
-        }
-        .best-option .icon { color: #4CAF50; }
-
-        .worst-for-employer {
-            background-color: #ffebee; /* Light red */
-            border: 1px solid #ef9a9a;
-            color: #c62828; /* Darker red text */
-        }
-        .worst-for-employer .icon { color: #F44336; }
-
-        .best-for-employer {
-            background-color: #e3f2fd; /* Light blue (closest to green in image for this block) */
-            border: 1px solid #90caf9;
-            color: #1976d2; /* Darker blue text */
-        }
-        .best-for-employer .icon { color: #2196F3; } /* Or a green check like in image: #4CAF50 */
-
-        /* No specific @media queries for table structure on mobile,
-           as the goal is horizontal scrolling. Only general padding/font adjustments. */
-        @media screen and (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-            .container {
-                padding: 15px;
-            }
-            .main-header h1 {
-                font-size: 1.3em;
-            }
-            /* Table font size can be slightly smaller on very small screens if needed */
-            .rupture-table {
-                font-size: 0.8em;
-            }
-            .rupture-table thead th {
-                font-size: 0.85em;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header class="main-header">
-            <span class="icon">📊</span>
-            <h1>Tableau Comparatif des Stratégies de Rupture</h1>
-        </header>
-
-        <div class="info-block">
-            <p><strong>Période:</strong> 03 Mai 2022 - 08 Janvier 2026 (fin de préavis)</p>
-            <p><strong>Salaire brut de référence:</strong> 2 650 €</p>
-            <p><strong>Ancienneté:</strong> 3 ans 8 mois 6 jours (3,6831 ans)</p>
-            <p><strong>Préavis:</strong> 1 mois</p>
-        </div>
-
-        <div class="table-responsive">
-            <table class="rupture-table">
-                <thead>
-                    <tr>
-                        <th>Type de rupture</th>
-                        <th>Indemnités nettes pour le SALARIÉ</th>
-                        <th>Préavis</th>
-                        <th>Accès Chômage</th>
-                        <th>Conséquences pour le SALARIÉ</th>
-                        <th>Conséquences pour l'EMPLOYEUR</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Licenciement pour faute grave/lourde</th>
-                        <td>0 €</td>
-                        <td>Non payé</td>
-                        <td><span class="icon-bad">❌</span> Non</td>
-                        <td><span class="icon-bad">❌</span> Réputation, difficile de retrouver emploi, pas d'indemnité</td>
-                        <td><span class="icon-good">✅</span> Pas d'indemnité, procédure lourde et risquée</td>
-                    </tr>
-                    <tr>
-                        <th>Licenciement cause réelle + préavis dispensé et payé</th>
-                        <!-- 1800€ ICP + 2296€ IL + 1950€ ICPé (nette) = 6046€ -->
-                        <td>~6 046 € (1 800 € ICP + 2 296 € IL + 1 950 € ICPé)</td>
-                        <td><span class="icon-good">✅</span> Dispense (ICPé versée, salarié ne travaille pas)</td>
-                        <td><span class="icon-good">✅</span> Oui</td>
-                        <td><span class="icon-good">✅</span> Très bonnes indemnités, pas de préavis à faire, chômage</td>
-                        <td><span class="icon-bad">❌</span> Coût maximal: ~6 746 € (même coût que préavis effectué, sans service)</td>
-                    </tr>
-                    <tr>
-                        <th>Licenciement cause réelle + préavis effectué</th>
-                        <!-- 1800€ ICP + 2296€ IL = 4096€. Le salarié perçoit en plus son salaire net de 1950€ pour le préavis travaillé. -->
-                        <td>~4 096 € (1 800 € ICP + 2 296 € IL)</td>
-                        <td><span class="icon-good">✅</span> Effectué (salaire net ~1 950 € perçu)</td>
-                        <td><span class="icon-good">✅</span> Oui</td>
-                        <td><span class="icon-good">✅</span> Préavis fait (salaire net ~1 950 € perçu) + indemnités (~4 096 €) + chômage. (Option réaliste)</td>
-                        <td><span class="icon-good">✅</span> Coût ~6 746 € (4 096 € d'indemnités + 2 650 € de salaire brut) acceptable car service rendu</td>
-                    </tr>
-                    <tr>
-                        <th>Rupture conventionnelle</th>
-                        <td>~4 096 € (2 296 € IL + 1 800 € ICP min légal ou négocié)</td>
-                        <td><span class="icon-good">✅</span> Négociable</td>
-                        <td><span class="icon-good">✅</span> Oui</td>
-                        <td><span class="icon-good">✅</span> Très bonnes indemnités, chômage, négociation</td>
-                        <td><span class="icon-warning">⚠️</span> Coût élevé (~4 096 €), procédure, risque de refus</td>
-                    </tr>
-                    <tr>
-                        <th>Démission</th>
-                        <td>0 €</td>
-                        <td><span class="icon-good">✅</span> Effectué</td>
-                        <td><span class="icon-bad">❌</span> Non</td>
-                        <td><span class="icon-bad">❌</span> Pas d'indemnité, pas de chômage, préavis à effectuer</td>
-                        <td><span class="icon-good">✅</span> Coût nul, pas de procédure, départ souhaité</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <div class="summary-block">
-            <div class="summary-item best-option">
-                <span class="icon">🎯</span>
-                <p><strong>MEILLEURE OPTION POUR LE SALARIÉ:</strong> Licenciement cause réelle + préavis effectué (indemnités de ~4 096 € + salaire net ~1 950 € perçu pendant le préavis + chômage + coût de ~6 746 € acceptable pour l'employeur car service rendu = option réaliste);</p>
-            </div>
-            <div class="summary-item worst-for-employer">
-                <span class="icon">❌</span>
-                <p><strong>OPTION QUE L'EMPLOYEUR NE VEUT ABSOLUMENT PAS:</strong> Licenciement cause réelle + préavis dispensé et payé (coût maximal pour l'employeur, ~6 746 €, sans service rendu)</p>
+                <p><strong>OPTION QUE L'EMPLOYEUR NE VEUT ABSOLUMENT PAS:</strong> Licenciement cause réelle + préavis dispensé et payé (coût total ~6 746 € pour l'employeur, sans service rendu)</p>
             </div>
             <div class="summary-item best-for-employer">
                 <span class="icon">✅</span>
