@@ -1,10 +1,9 @@
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
-
 ## Veuchs
 [Stratégie capillaire](https://antho-btx75.github.io/Roms/Veuchs.html)
 
 ## Taff
 [Négociations GFC](https://antho-btx75.github.io/Roms/RomainGFC.html)
+
 [Analyse des différentes ruptures](https://antho-btx75.github.io/Roms/RomainLic.html)
 
 ---
