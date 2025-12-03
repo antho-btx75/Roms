@@ -67,17 +67,17 @@
 
         /* Table styles */
         .table-responsive {
-            overflow-x: auto; /* Allows horizontal scrolling on small screens if needed */
+            overflow-x: auto; /* This is the key for horizontal scrolling */
             -webkit-overflow-scrolling: touch; /* Improves scrolling experience on iOS */
             margin-bottom: 30px;
         }
 
         .rupture-table {
-            width: 100%;
+            width: 100%; /* Make table try to fit 100% of its container */
+            min-width: 700px; /* Crucial: force a minimum width for the table itself */
             border-collapse: collapse;
             margin: 0;
-            white-space: nowrap; /* Prevent text wrapping in cells on larger screens */
-            min-width: 700px; /* Ensures minimum width for table content on desktop */
+            font-size: 0.85em; /* Smaller font for better fit */
         }
 
         .rupture-table thead th {
@@ -85,19 +85,30 @@
             color: white;
             padding: 12px 10px;
             text-align: left;
-            font-size: 0.8em;
+            font-size: 0.9em; /* Slightly larger for headers */
             border: 1px solid #4a59a3;
+            white-space: normal; /* Allow header text to wrap */
+            vertical-align: middle; /* Align text vertically in header */
         }
 
         .rupture-table tbody th,
         .rupture-table tbody td {
             padding: 10px;
             border: 1px solid #ddd;
-            font-size: 0.85em;
             vertical-align: top;
             background-color: #fff;
-            white-space: normal; /* Allow text to wrap within cells on desktop if content is long */
+            white-space: normal; /* Allow content text to wrap */
+            word-break: break-word; /* Helps with long words in narrow cells */
         }
+
+        /* Apply specific widths to columns to match visual layout */
+        .rupture-table th:nth-child(1) { width: 18%; } /* Type de rupture */
+        .rupture-table th:nth-child(2) { width: 18%; } /* Indemnités pour le SALARIÉ */
+        .rupture-table th:nth-child(3) { width: 10%; } /* Préavis */
+        .rupture-table th:nth-child(4) { width: 10%; } /* Accès Chômage */
+        .rupture-table th:nth-child(5) { width: 22%; } /* Conséquences pour le SALARIÉ */
+        .rupture-table th:nth-child(6) { width: 22%; } /* Conséquences pour l'EMPLOYEUR */
+
 
         .rupture-table tbody tr:nth-child(even) {
             background-color: #f9f9f9; /* Light grey for even rows */
@@ -161,7 +172,8 @@
         }
         .best-for-employer .icon { color: #2196F3; } /* Or a green check like in image: #4CAF50 */
 
-        /* Responsive table for mobile (stacks columns) */
+        /* No specific @media queries for table structure on mobile,
+           as the goal is horizontal scrolling. Only general padding/font adjustments. */
         @media screen and (max-width: 768px) {
             body {
                 padding: 10px;
@@ -172,75 +184,12 @@
             .main-header h1 {
                 font-size: 1.3em;
             }
+            /* Table font size can be slightly smaller on very small screens if needed */
             .rupture-table {
-                border: 0;
-                min-width: unset; /* Remove min-width on mobile */
+                font-size: 0.8em;
             }
-
-            .rupture-table thead {
-                display: none; /* Hide table header on mobile */
-            }
-
-            .rupture-table, .rupture-table tbody, .rupture-table tr {
-                display: block; /* Make table elements act like block elements */
-                width: 100%;
-            }
-
-            .rupture-table tr {
-                margin-bottom: 15px;
-                border: 1px solid #ddd;
-                border-radius: 5px;
-                overflow: hidden; /* Important for border-radius to apply correctly */
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            }
-
-            /* Style for the row header (e.g., "Licenciement pour faute grave/lourde") */
-            .rupture-table tbody th {
-                display: block;
-                text-align: left;
-                font-weight: bold;
-                color: #333;
-                background-color: #eef; /* Light blue/grey to make it stand out */
-                padding: 12px 10px; /* More padding for a clear header */
-                border-bottom: 1px solid #ccd;
-                font-size: 1em; /* Make it slightly larger than cell content */
-                white-space: normal; /* Allow header to wrap */
-            }
-            .rupture-table tbody th::before { /* Ensure no data-label on the row header */
-                content: none;
-            }
-
-            /* Style for data cells (td) */
-            .rupture-table tbody td {
-                position: relative; /* For absolute positioning of ::before */
-                padding: 8px 10px; /* Vertical padding, right padding for content */
-                padding-left: 140px; /* Crucial: make space for the data-label (120px label + 20px left padding) */
-                text-align: right; /* Content aligns right */
-                border-bottom: 1px solid #eee; /* Separator between data fields */
-                border-left: none;
-                border-right: none;
-                min-height: 40px; /* Ensure enough height for content and label */
-                box-sizing: border-box; /* Include padding in cell width */
-                white-space: normal; /* Allow cell content to wrap */
-            }
-            /* Remove bottom border for the last td in each tr */
-            .rupture-table tbody tr td:last-of-type {
-                border-bottom: none;
-            }
-
-            /* Style for the data-label (pseudo-element) */
-            .rupture-table tbody td::before {
-                content: attr(data-label);
-                position: absolute;
-                left: 10px; /* Position from left edge of td */
-                top: 8px; /* Align with top padding of td */
-                width: 120px; /* Fixed width for the label */
-                text-align: left;
-                font-weight: bold; /* Make labels stand out */
-                color: #555;
-                white-space: normal; /* Allow label to wrap */
-                line-height: 1.3; /* Improve readability for wrapped labels */
-                box-sizing: border-box; /* Include padding in width */
+            .rupture-table thead th {
+                font-size: 0.85em;
             }
         }
     </style>
@@ -273,52 +222,52 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th data-label="Type de rupture">Licenciement pour faute grave/lourde</th>
-                        <td data-label="Indemnités pour le SALARIÉ">0 €</td>
-                        <td data-label="Préavis">Non payé</td>
-                        <td data-label="Accès Chômage"><span class="icon-bad">❌</span> Non</td>
-                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-bad">❌</span> Réputation, difficile de retrouver emploi, pas d'indemnité</td>
-                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-good">✅</span> Pas d'indemnité, procédure lourde et risquée</td>
+                        <th>Licenciement pour faute grave/lourde</th>
+                        <td>0 €</td>
+                        <td>Non payé</td>
+                        <td><span class="icon-bad">❌</span> Non</td>
+                        <td><span class="icon-bad">❌</span> Réputation, difficile de retrouver emploi, pas d'indemnité</td>
+                        <td><span class="icon-good">✅</span> Pas d'indemnité, procédure lourde et risquée</td>
                     </tr>
                     <tr>
-                        <th data-label="Type de rupture">Licenciement cause réelle</th>
-                        <td data-label="Indemnités pour le SALARIÉ">~1 800 € (indemnités légales/conventionnelles)</td>
-                        <td data-label="Préavis">1 mois (payé ou effectué)</td>
-                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
-                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-warning">⚠️</span> Préavis à faire ou non payé si non effectué, indemnité faible</td>
-                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-warning">⚠️</span> Coût: 1 800 € + salaire préavis</td>
+                        <th>Licenciement cause réelle</th>
+                        <td>~1 800 € (indemnités légales/conventionnelles)</td>
+                        <td>1 mois (payé ou effectué)</td>
+                        <td><span class="icon-good">✅</span> Oui</td>
+                        <td><span class="icon-warning">⚠️</span> Préavis à faire ou non payé si non effectué, indemnité faible</td>
+                        <td><span class="icon-warning">⚠️</span> Coût: 1 800 € + salaire préavis</td>
                     </tr>
                     <tr>
-                        <th data-label="Type de rupture">Licenciement cause réelle + préavis dispensé et payé</th>
-                        <td data-label="Indemnités pour le SALARIÉ">~1 800 € + 2 650 € (préavis payé)</td>
-                        <td data-label="Préavis"><span class="icon-good">✅</span> Dispense</td>
-                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
-                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-good">✅</span> Bonnes indemnités, pas de préavis à faire, chômage</td>
-                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-bad">❌</span> Coût maximum: 1 800 € + 2 650 € (préavis)</td>
+                        <th>Licenciement cause réelle + préavis dispensé et payé</th>
+                        <td>~1 800 € + 2 650 € (préavis payé)</td>
+                        <td><span class="icon-good">✅</span> Dispense</td>
+                        <td><span class="icon-good">✅</span> Oui</td>
+                        <td><span class="icon-good">✅</span> Bonnes indemnités, pas de préavis à faire, chômage</td>
+                        <td><span class="icon-bad">❌</span> Coût maximum: 1 800 € + 2 650 € (préavis)</td>
                     </tr>
                     <tr>
-                        <th data-label="Type de rupture">Licenciement cause réelle + préavis effectué</th>
-                        <td data-label="Indemnités pour le SALARIÉ">~1 800 €</td>
-                        <td data-label="Préavis"><span class="icon-good">✅</span> Effectué</td>
-                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
-                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-good">✅</span> Préavis fait + indemnité + chômage. (Option réaliste)</td>
-                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-good">✅</span> Coût acceptable (1 800 €), service rendu pendant préavis</td>
+                        <th>Licenciement cause réelle + préavis effectué</th>
+                        <td>~1 800 €</td>
+                        <td><span class="icon-good">✅</span> Effectué</td>
+                        <td><span class="icon-good">✅</span> Oui</td>
+                        <td><span class="icon-good">✅</span> Préavis fait + indemnité + chômage. (Option réaliste)</td>
+                        <td><span class="icon-good">✅</span> Coût acceptable (1 800 €), service rendu pendant préavis</td>
                     </tr>
                     <tr>
-                        <th data-label="Type de rupture">Rupture conventionnelle</th>
-                        <td data-label="Indemnités pour le SALARIÉ">~4 096 € (2 650 € * 1.55 (mini légal))</td>
-                        <td data-label="Préavis"><span class="icon-good">✅</span> Négociable</td>
-                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
-                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-good">✅</span> Très bonnes indemnités, chômage, négociation</td>
-                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-bad">❌</span> Coût élevé (~4 096 €), procédure, risque de refus</td>
+                        <th>Rupture conventionnelle</th>
+                        <td>~4 096 € (2 650 € * 1.55 (mini légal))</td>
+                        <td><span class="icon-good">✅</span> Négociable</td>
+                        <td><span class="icon-good">✅</span> Oui</td>
+                        <td><span class="icon-good">✅</span> Très bonnes indemnités, chômage, négociation</td>
+                        <td><span class="icon-bad">❌</span> Coût élevé (~4 096 €), procédure, risque de refus</td>
                     </tr>
                     <tr>
-                        <th data-label="Type de rupture">Démission</th>
-                        <td data-label="Indemnités pour le SALARIÉ">0 €</td>
-                        <td data-label="Préavis"><span class="icon-good">✅</span> Effectué</td>
-                        <td data-label="Accès Chômage"><span class="icon-bad">❌</span> Non</td>
-                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-bad">❌</span> Pas d'indemnité, pas de chômage, préavis à effectuer</td>
-                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-good">✅</span> Coût nul, pas de procédure, départ souhaité</td>
+                        <th>Démission</th>
+                        <td>0 €</td>
+                        <td><span class="icon-good">✅</span> Effectué</td>
+                        <td><span class="icon-bad">❌</span> Non</td>
+                        <td><span class="icon-bad">❌</span> Pas d'indemnité, pas de chômage, préavis à effectuer</td>
+                        <td><span class="icon-good">✅</span> Coût nul, pas de procédure, départ souhaité</td>
                     </tr>
                 </tbody>
             </table>
