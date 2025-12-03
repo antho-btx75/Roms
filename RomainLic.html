@@ -5,254 +5,323 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau Comparatif des Stratégies de Rupture</title>
     <style>
+        /* Base styles */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 15px;
+            background-color: #f4f7f6;
             color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
+            line-height: 1.6;
         }
-        
-        .table-container {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Header */
+        .main-header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .main-header .icon {
+            font-size: 1.8em;
+            vertical-align: middle;
+            margin-right: 5px;
+            color: #4a90e2; /* A blue color similar to the image icon */
+        }
+
+        .main-header h1 {
+            font-size: 1.5em;
+            color: #333;
+            display: inline-block;
+            margin: 0;
+            vertical-align: middle;
+        }
+
+        /* Info block */
+        .info-block {
+            background-color: #fcfcfc;
+            border: 1px solid #eee;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .info-block p {
+            margin: 5px 0;
+        }
+
+        .info-block strong {
+            color: #333;
+        }
+
+        /* Table styles */
+        .table-responsive {
+            overflow-x: auto; /* Allows horizontal scrolling on small screens */
+            -webkit-overflow-scrolling: touch; /* Improves scrolling experience on iOS */
             margin-bottom: 30px;
         }
-        
-        table {
+
+        .rupture-table {
             width: 100%;
             border-collapse: collapse;
+            margin: 0;
+            white-space: nowrap; /* Prevent text wrapping in cells on larger screens */
+            min-width: 700px; /* Ensures minimum width for table content on desktop */
         }
-        
-        th {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+        .rupture-table thead th {
+            background-color: #5c6bc0; /* Dark purple/blue from image */
             color: white;
-            padding: 15px;
+            padding: 12px 10px;
             text-align: left;
-            font-weight: 600;
+            font-size: 0.8em;
+            border: 1px solid #4a59a3;
         }
-        
-        td {
-            padding: 12px 15px;
-            border-bottom: 1px solid #e0e0e0;
+
+        .rupture-table tbody th,
+        .rupture-table tbody td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-size: 0.85em;
+            vertical-align: top;
+            background-color: #fff;
         }
-        
-        tr:hover {
-            background-color: #f8f9fa;
+
+        .rupture-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9; /* Light grey for even rows */
         }
-        
-        .type-rupture {
-            font-weight: 600;
-            color: #2c3e50;
-        }
-        
-        .cout {
-            font-weight: 600;
-            color: #e74c3c;
-        }
-        
-        .preavis-oui {
-            color: #27ae60;
-            font-weight: 600;
-        }
-        
-        .preavis-non {
-            color: #e74c3c;
-            font-weight: 600;
-        }
-        
-        .chomage-oui {
-            color: #27ae60;
-            font-weight: 600;
-        }
-        
-        .chomage-non {
-            color: #e74c3c;
-            font-weight: 600;
-        }
-        
-        .option-salarie-excellente {
-            background-color: #d5f4e6;
-            color: #27ae60;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .option-salarie-bonne {
-            background-color: #e8f6f3;
-            color: #2ecc71;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .option-salarie-moyenne {
-            background-color: #fff9e6;
-            color: #f39c12;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .option-salarie-mauvaise {
-            background-color: #fdedec;
-            color: #e74c3c;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .option-employeur-excellente {
-            background-color: #d5f4e6;
-            color: #27ae60;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .option-employeur-bonne {
-            background-color: #e8f6f3;
-            color: #2ecc71;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .option-employeur-moyenne {
-            background-color: #fff9e6;
-            color: #f39c12;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .option-employeur-mauvaise {
-            background-color: #fdedec;
-            color: #e74c3c;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .header-section {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        .header-section h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        
-        .header-section .subtitle {
-            color: #7f8c8d;
-            font-size: 1.1em;
-        }
-        
-        .legende {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
+
+        /* Icon styling */
+        .icon-good { color: #4CAF50; font-weight: bold; } /* Green */
+        .icon-bad { color: #F44336; font-weight: bold; } /* Red */
+        .icon-warning { color: #FFC107; font-weight: bold; } /* Amber */
+
+        /* Summary blocks */
+        .summary-block {
             margin-top: 20px;
-            flex-wrap: wrap;
         }
-        
-        .legende-item {
+
+        .summary-item {
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
             display: flex;
-            align-items: center;
-            gap: 5px;
+            align-items: flex-start;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+            font-size: 0.9em;
         }
-        
-        .legende-color {
-            width: 20px;
-            height: 20px;
-            border-radius: 3px;
+
+        .summary-item .icon {
+            font-size: 1.5em;
+            margin-right: 10px;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .summary-item p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .summary-item strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .best-option {
+            background-color: #e8f5e9; /* Light green */
+            border: 1px solid #a5d6a7;
+            color: #2e7d32; /* Darker green text */
+        }
+        .best-option .icon { color: #4CAF50; }
+
+        .worst-for-employer {
+            background-color: #ffebee; /* Light red */
+            border: 1px solid #ef9a9a;
+            color: #c62828; /* Darker red text */
+        }
+        .worst-for-employer .icon { color: #F44336; }
+
+        .best-for-employer {
+            background-color: #e3f2fd; /* Light blue (closest to green in image for this block) */
+            border: 1px solid #90caf9;
+            color: #1976d2; /* Darker blue text */
+        }
+        .best-for-employer .icon { color: #2196F3; } /* Or a green check like in image: #4CAF50 */
+
+        /* Responsive table for mobile (stacks columns) */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+            .main-header h1 {
+                font-size: 1.3em;
+            }
+            .rupture-table {
+                border: 0;
+                min-width: unset; /* Remove min-width on mobile */
+            }
+
+            .rupture-table thead {
+                display: none; /* Hide table header on mobile */
+            }
+
+            .rupture-table, .rupture-table tbody, .rupture-table tr, .rupture-table td, .rupture-table th {
+                display: block; /* Make table elements act like block elements */
+                width: 100%;
+            }
+
+            .rupture-table tr {
+                margin-bottom: 15px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                overflow: hidden; /* Ensures borders/shadows apply correctly */
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            }
+
+            .rupture-table tbody th,
+            .rupture-table tbody td {
+                text-align: right; /* Align value to the right */
+                padding: 8px 10px;
+                position: relative;
+                padding-left: 50%; /* Make space for the data-label */
+                border: none; /* Remove individual cell borders */
+            }
+
+            .rupture-table tbody td::before,
+            .rupture-table tbody th::before {
+                /* Use data-label attribute to display column names */
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: calc(50% - 20px); /* Adjust width to fit */
+                padding-right: 10px;
+                white-space: normal; /* Allow label to wrap */
+                text-align: left; /* Align label to the left */
+                font-weight: bold;
+                color: #555;
+            }
+
+            .rupture-table tbody th {
+                 background-color: #f5f5f5; /* Slightly different background for row header */
+                 text-align: left;
+                 font-weight: bold;
+                 color: #333;
+                 padding-left: 10px; /* No data-label needed for the first cell, so no extra padding */
+            }
+            .rupture-table tbody th::before {
+                content: none; /* Hide data-label for the main row header */
+            }
         }
     </style>
 </head>
 <body>
-    <div class="header-section">
-        <h1>📊 Tableau Comparatif des Stratégies de Rupture</h1>
-        <div class="subtitle">Période : Mai 2022 - Décembre 2025 | Salaire brut : 2 600 € | 3 semaines de CP non pris</div>
-    </div>
+    <div class="container">
+        <header class="main-header">
+            <span class="icon">📊</span>
+            <h1>Tableau Comparatif des Stratégies de Rupture</h1>
+        </header>
 
-    <div class="table-container">
-        <table>
-            <thead>
-                <tr>
-                    <th>Type de Rupture</th>
-                    <th>Coût en Indemnités</th>
-                    <th>Préavis</th>
-                    <th>Droit au Chômage</th>
-                    <th>🟢 Meilleure option SALARIÉ</th>
-                    <th>🔴 Meilleure option EMPLOYEUR</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="type-rupture">Démission</td>
-                    <td class="cout">0 €</td>
-                    <td class="preavis-non">Non</td>
-                    <td class="chomage-non">❌ Non</td>
-                    <td class="option-salarie-mauvaise">❌ Perte chômage</td>
-                    <td class="option-employeur-excellente">✅✅ Coût nul</td>
-                </tr>
-                <tr>
-                    <td class="type-rupture">Licenciement faute grave/lourde</td>
-                    <td class="cout">~1 560 € (CP uniquement)</td>
-                    <td class="preavis-non">Non payé</td>
-                    <td class="chomage-oui">✅ Oui</td>
-                    <td class="option-salarie-mauvaise">❌ Perte indemnités</td>
-                    <td class="option-employeur-bonne">✅ Coût minimal</td>
-                </tr>
-                <tr>
-                    <td class="type-rupture">Licenciement cause réelle + préavis effectué</td>
-                    <td class="cout">~3 422 € (Ind. Lic. + CP)</td>
-                    <td class="preavis-oui">Travaillé</td>
-                    <td class="chomage-oui">✅ Oui</td>
-                    <td class="option-salarie-moyenne">🟡 Acceptable</td>
-                    <td class="option-employeur-moyenne">🟡 Équilibre coût/travail</td>
-                </tr>
-                <tr>
-                    <td class="type-rupture">Licenciement cause réelle + préavis DISPENSÉ</td>
-                    <td class="cout">~5 760 € (Ind. Lic. + CP + préavis payé)</td>
-                    <td class="preavis-oui">Payé mais non travaillé</td>
-                    <td class="chomage-oui">✅ Oui</td>
-                    <td class="option-salarie-excellente">✅✅ Option idéale</td>
-                    <td class="option-employeur-mauvaise">❌ Coût maximal</td>
-                </tr>
-                <tr>
-                    <td class="type-rupture">Rupture conventionnelle</td>
-                    <td class="cout">Négociable (~5 760 €)</td>
-                    <td class="preavis-oui">Généralement payé</td>
-                    <td class="chomage-oui">✅ Oui</td>
-                    <td class="option-salarie-bonne">✅ Excellente</td>
-                    <td class="option-employeur-mauvaise">❌ Coût élevé + formalités</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+        <div class="info-block">
+            <p><strong>Période:</strong> 03 Mai 2022 - 08 Janvier 2026 (fin de préavis)</p>
+            <p><strong>Salaire brut de référence:</strong> 2 650 €</p>
+            <p><strong>Ancienneté:</strong> 3 ans 8 mois 6 jours (3,6831 ans)</p>
+            <p><strong>Préavis:</strong> 1 mois</p>
+        </div>
 
-    <div class="legende">
-        <div class="legende-item">
-            <div class="legende-color" style="background-color: #d5f4e6;"></div>
-            <span>Excellente option</span>
+        <div class="table-responsive">
+            <table class="rupture-table">
+                <thead>
+                    <tr>
+                        <th>Type de rupture</th>
+                        <th>Indemnités pour le SALARIÉ</th>
+                        <th>Préavis</th>
+                        <th>Accès Chômage</th>
+                        <th>Conséquences pour le SALARIÉ</th>
+                        <th>Conséquences pour l'EMPLOYEUR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th data-label="Type de rupture">Licenciement pour faute grave/lourde</th>
+                        <td data-label="Indemnités pour le SALARIÉ">0 €</td>
+                        <td data-label="Préavis">Non payé</td>
+                        <td data-label="Accès Chômage"><span class="icon-bad">❌</span> Non</td>
+                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-bad">❌</span> Réputation, difficile de retrouver emploi, pas d'indemnité</td>
+                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-good">✅</span> Pas d'indemnité, procédure lourde et risquée</td>
+                    </tr>
+                    <tr>
+                        <th data-label="Type de rupture">Licenciement cause réelle</th>
+                        <td data-label="Indemnités pour le SALARIÉ">~1 800 € (indemnités légales/conventionnelles)</td>
+                        <td data-label="Préavis">1 mois (payé ou effectué)</td>
+                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
+                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-warning">⚠️</span> Préavis à faire ou non payé si non effectué, indemnité faible</td>
+                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-warning">⚠️</span> Coût: 1 800 € + salaire préavis</td>
+                    </tr>
+                    <tr>
+                        <th data-label="Type de rupture">Licenciement cause réelle + préavis dispensé et payé</th>
+                        <td data-label="Indemnités pour le SALARIÉ">~1 800 € + 2 650 € (préavis payé)</td>
+                        <td data-label="Préavis"><span class="icon-good">✅</span> Dispense</td>
+                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
+                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-good">✅</span> Bonnes indemnités, pas de préavis à faire, chômage</td>
+                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-bad">❌</span> Coût maximum: 1 800 € + 2 650 € (préavis)</td>
+                    </tr>
+                    <tr>
+                        <th data-label="Type de rupture">Licenciement cause réelle + préavis effectué</th>
+                        <td data-label="Indemnités pour le SALARIÉ">~1 800 €</td>
+                        <td data-label="Préavis"><span class="icon-good">✅</span> Effectué</td>
+                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
+                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-good">✅</span> Préavis fait + indemnité + chômage. (Option réaliste)</td>
+                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-good">✅</span> Coût acceptable (1 800 €), service rendu pendant préavis</td>
+                    </tr>
+                    <tr>
+                        <th data-label="Type de rupture">Rupture conventionnelle</th>
+                        <td data-label="Indemnités pour le SALARIÉ">~4 096 € (2 650 € * 1.55 (mini légal))</td>
+                        <td data-label="Préavis"><span class="icon-good">✅</span> Négociable</td>
+                        <td data-label="Accès Chômage"><span class="icon-good">✅</span> Oui</td>
+                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-good">✅</span> Très bonnes indemnités, chômage, négociation</td>
+                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-bad">❌</span> Coût élevé (~4 096 €), procédure, risque de refus</td>
+                    </tr>
+                    <tr>
+                        <th data-label="Type de rupture">Démission</th>
+                        <td data-label="Indemnités pour le SALARIÉ">0 €</td>
+                        <td data-label="Préavis"><span class="icon-good">✅</span> Effectué</td>
+                        <td data-label="Accès Chômage"><span class="icon-bad">❌</span> Non</td>
+                        <td data-label="Conséquences pour le SALARIÉ"><span class="icon-bad">❌</span> Pas d'indemnité, pas de chômage, préavis à effectuer</td>
+                        <td data-label="Conséquences pour l'EMPLOYEUR"><span class="icon-good">✅</span> Coût nul, pas de procédure, départ souhaité</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="legende-item">
-            <div class="legende-color" style="background-color: #e8f6f3;"></div>
-            <span>Bonne option</span>
-        </div>
-        <div class="legende-item">
-            <div class="legende-color" style="background-color: #fff9e6;"></div>
-            <span>Option moyenne</span>
-        </div>
-        <div class="legende-item">
-            <div class="legende-color" style="background-color: #fdedec;"></div>
-            <span>Mauvaise option</span>
-        </div>
-    </div>
 
-    <div style="margin-top: 30px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-        <h3>💡 Analyse Stratégique</h3>
-        <p><strong>Conflit d'intérêts total :</strong> L'employeur veut pousser à la démission (option #1 pour lui) tandis que le salarié veut obtenir un licenciement avec préavis payé (option #1 pour lui).</p>
-        <p><strong>Compromis réaliste :</strong> Le licenciement avec préavis effectué représente un équilibre acceptable pour les deux parties.</p>
+        <div class="summary-block">
+            <div class="summary-item best-option">
+                <span class="icon">🎯</span>
+                <p><strong>MEILLEURE OPTION POUR LE SALARIÉ:</strong> Licenciement cause réelle + préavis effectué (~4 096 € + chômage + coût acceptable pour l'employeur = option réaliste);</p>
+            </div>
+            <div class="summary-item worst-for-employer">
+                <span class="icon">❌</span>
+                <p><strong>OPTION QUE L'EMPLOYEUR NE VEUT ABSOLUMENT PAS:</strong> Licenciement cause réelle + préavis dispensé et payé (coût maximal)</p>
+            </div>
+            <div class="summary-item best-for-employer">
+                <span class="icon">✅</span>
+                <p><strong>OPTION QUE L'EMPLOYEUR SOUHAITE ABSOLUMENT:</strong> Démission (coût nul)</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
