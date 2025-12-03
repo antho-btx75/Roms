@@ -213,7 +213,7 @@
                 <thead>
                     <tr>
                         <th>Type de rupture</th>
-                        <th>Indemnités pour le SALARIÉ</th>
+                        <th>Indemnités nettes pour le SALARIÉ</th>
                         <th>Préavis</th>
                         <th>Accès Chômage</th>
                         <th>Conséquences pour le SALARIÉ</th>
@@ -230,36 +230,30 @@
                         <td><span class="icon-good">✅</span> Pas d'indemnité, procédure lourde et risquée</td>
                     </tr>
                     <tr>
-                        <th>Licenciement cause réelle</th>
-                        <td>~1 800 € (indemnités légales/conventionnelles)</td>
-                        <td>1 mois (payé ou effectué)</td>
-                        <td><span class="icon-good">✅</span> Oui</td>
-                        <td><span class="icon-warning">⚠️</span> Préavis à faire ou non payé si non effectué, indemnité faible</td>
-                        <td><span class="icon-warning">⚠️</span> Coût: 1 800 € + salaire préavis</td>
-                    </tr>
-                    <tr>
                         <th>Licenciement cause réelle + préavis dispensé et payé</th>
-                        <td>~1 800 € + 2 650 € (préavis payé)</td>
-                        <td><span class="icon-good">✅</span> Dispense</td>
+                        <!-- 1800€ ICP + 2296€ IL + 1950€ ICPé (nette) = 6046€ -->
+                        <td>~6 046 € (1 800 € ICP + 2 296 € IL + 1 950 € ICPé)</td>
+                        <td><span class="icon-good">✅</span> Dispense (ICPé versée, salarié ne travaille pas)</td>
                         <td><span class="icon-good">✅</span> Oui</td>
-                        <td><span class="icon-good">✅</span> Bonnes indemnités, pas de préavis à faire, chômage</td>
-                        <td><span class="icon-bad">❌</span> Coût maximum: 1 800 € + 2 650 € (préavis)</td>
+                        <td><span class="icon-good">✅</span> Très bonnes indemnités, pas de préavis à faire, chômage</td>
+                        <td><span class="icon-bad">❌</span> Coût maximal: ~6 746 € (même coût que préavis effectué, sans service)</td>
                     </tr>
                     <tr>
                         <th>Licenciement cause réelle + préavis effectué</th>
-                        <td>~1 800 €</td>
-                        <td><span class="icon-good">✅</span> Effectué</td>
+                        <!-- 1800€ ICP + 2296€ IL = 4096€. Le salarié perçoit en plus son salaire net de 1950€ pour le préavis travaillé. -->
+                        <td>~4 096 € (1 800 € ICP + 2 296 € IL)</td>
+                        <td><span class="icon-good">✅</span> Effectué (salaire net ~1 950 € perçu)</td>
                         <td><span class="icon-good">✅</span> Oui</td>
-                        <td><span class="icon-good">✅</span> Préavis fait + indemnité + chômage. (Option réaliste)</td>
-                        <td><span class="icon-good">✅</span> Coût acceptable (1 800 €), service rendu pendant préavis</td>
+                        <td><span class="icon-good">✅</span> Préavis fait (salaire net ~1 950 € perçu) + indemnités (~4 096 €) + chômage. (Option réaliste)</td>
+                        <td><span class="icon-good">✅</span> Coût ~6 746 € (4 096 € d'indemnités + 2 650 € de salaire brut) acceptable car service rendu</td>
                     </tr>
                     <tr>
                         <th>Rupture conventionnelle</th>
-                        <td>~4 096 € (2 650 € * 1.55 (mini légal))</td>
+                        <td>~4 096 € (2 296 € IL + 1 800 € ICP min légal ou négocié)</td>
                         <td><span class="icon-good">✅</span> Négociable</td>
                         <td><span class="icon-good">✅</span> Oui</td>
                         <td><span class="icon-good">✅</span> Très bonnes indemnités, chômage, négociation</td>
-                        <td><span class="icon-bad">❌</span> Coût élevé (~4 096 €), procédure, risque de refus</td>
+                        <td><span class="icon-warning">⚠️</span> Coût élevé (~4 096 €), procédure, risque de refus</td>
                     </tr>
                     <tr>
                         <th>Démission</th>
@@ -276,11 +270,11 @@
         <div class="summary-block">
             <div class="summary-item best-option">
                 <span class="icon">🎯</span>
-                <p><strong>MEILLEURE OPTION POUR LE SALARIÉ:</strong> Licenciement cause réelle + préavis effectué (~4 096 € + chômage + coût acceptable pour l'employeur = option réaliste);</p>
+                <p><strong>MEILLEURE OPTION POUR LE SALARIÉ:</strong> Licenciement cause réelle + préavis effectué (indemnités de ~4 096 € + salaire net ~1 950 € perçu pendant le préavis + chômage + coût de ~6 746 € acceptable pour l'employeur car service rendu = option réaliste);</p>
             </div>
             <div class="summary-item worst-for-employer">
                 <span class="icon">❌</span>
-                <p><strong>OPTION QUE L'EMPLOYEUR NE VEUT ABSOLUMENT PAS:</strong> Licenciement cause réelle + préavis dispensé et payé (coût maximal)</p>
+                <p><strong>OPTION QUE L'EMPLOYEUR NE VEUT ABSOLUMENT PAS:</strong> Licenciement cause réelle + préavis dispensé et payé (coût maximal pour l'employeur, ~6 746 €, sans service rendu)</p>
             </div>
             <div class="summary-item best-for-employer">
                 <span class="icon">✅</span>
