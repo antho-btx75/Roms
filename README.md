@@ -5,6 +5,8 @@
 [video Sanremo (code Gfcarrefour)](https://vimeo.com/1112710905?fl=pl&fe=sh)
 
 ## Taff
+[CV Romain](https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit)
+
 [Négociations GFC : 39h et maintien de salaire](https://antho-btx75.github.io/Roms/RomainGFC.html)
 
 [Analyse des différentes ruptures](https://antho-btx75.github.io/Roms/RomainLic.html)
