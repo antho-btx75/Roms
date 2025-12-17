@@ -2,7 +2,10 @@
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
 
 ## Voyages
-[video Sanremo (code Gfcarrefour)](https://vimeo.com/1112710905?fl=pl&fe=sh)
+[video Sanremo (mdp : Gfcarrefour)](https://vimeo.com/1112710905?fl=pl&fe=sh)
+
+[vidéo Menton/Monaco (mdp : Gfcarrefour)]
+(https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci)
 
 ## Taff
 [CV Romain](https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit)
