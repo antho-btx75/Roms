@@ -17,4 +17,3 @@
 
 [![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 [Win Roms, Win!💪🏻💙💜🍆💦](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
-Je serai toujours là pour toi mon gars, tu le sais, je t'aime comme j'ai jamais aimé quelqu'un. Tu comptes pour moi comme un trésor qu'on ne doit jamais négligé, tu es précieux, tu es rare, et même unique ❤️
