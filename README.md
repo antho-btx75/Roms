@@ -17,4 +17,3 @@
 
 [![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 [Win Roms, Win!💪🏻💙💜🍆💦](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
-Je serai toujours là pour toi tu le sais. T'es quelqu'un de tellement spécial pour moi, tu comptes énormément mon gars. Ce que je ressens pour toi est hors norme. C'est quelque chose qui ne peut être compris facilement, et encore plus difficile à dire avec des mots.
