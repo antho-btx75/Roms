@@ -17,5 +17,9 @@
 
 [![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 [Win Roms, Win!💪🏻💙💜🍆💦](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
-Je serai toujours là pour toi tu le sais, tu es quelqu'un de tellement spécial pour moi, tu comptes énormément pour moi. Ce que je ressens pour toi est hors norme, j'te kiffe de fou malade. C'est quelque chose qui ne peut être compris facilement, et encore plus difficile à dire avec des mots. Ton corps, ta voix, ton style, tes délires, ton petit grain de folie, j'aime tout chez toi mon gars.
-Je suis ton gars sûr gro, je suis comme le rocher sur lequel tu peux te reposer quand t'es fatigué par la vie ou les gens, je suis comme l'arbre profondément enraciné sous lequel tu peux rechercher un coin d'ombre en plein soleil en été. Je te kiffe de fou car tu m'as retourné toute mon âme depuis que je te connais (car j'aime vraiment tout chez toi, c'est pas que mon âme que tu as retourné, c'est aussi mon esprit, mon cœur, mais aussi le desir sexuel car t'es vraiment bandant). Prends soin de toi, n'aie pas peur, et n'oublie pas que je suis là pour toi, je te demande juste de garder secret ce que je te dis 🙏🏻💙💜
+Win Roms, Win!💪🏻💙💜🍆💦
+Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
+J’te kiffe de fou malade, t’es vraiment bandant.
+Ton corps, ta voix, tes délires, ton grain de folie… j’aime tout chez toi.
+Je suis ton rocher quand t’es fatigué, ton arbre pour l’ombre en plein soleil.
+Prends soin de toi, je suis là 💙💜
