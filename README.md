@@ -17,4 +17,4 @@
 
 [![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 [Win Roms, Win!💪🏻💙💜🍆💦](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
-Je serai toujours là pour toi tu le sais, tu es quelqu'un de tellement spécial pour moi, tu comptes énormément pour moi. Ce que je ressens pour toi est hors norme. C'est quelque chose qui ne peut être compris facilement, et encore plus difficile à dire avec des mots. J'aime tout chez toi mon gars.
+Je serai toujours là pour toi tu le sais, tu es quelqu'un de tellement spécial pour moi, tu comptes énormément pour moi. Ce que je ressens pour toi est hors normej'te kiffe de fou malade. C'est quelque chose qui ne peut être compris facilement, et encore plus difficile à dire avec des mots. Ta voix, ton corps, tes délires, ton petit grain de folie, j'aime tout chez toi mon gars.
