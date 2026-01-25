@@ -20,5 +20,5 @@
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
 J’te kiffe de fou malade, t’es vraiment bandant.
 Ton corps, ta voix, tes délires, ton grain de folie… j’aime tout chez toi.
-Je suis ton rocher quand t’es fatigué, ton arbre pour l’ombre en plein soleil.
+Je suis ton rocher quand t’es fatigué, ton arbre pour l’ombre en plein soleil, quand la vie ou les gens te soulent. Je suis ton gars sûr mon Roms.
 Prends soin de toi, je suis là 💙💜
