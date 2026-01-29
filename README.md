@@ -19,5 +19,5 @@
 [Win Roms, Win!💪🏻💙💜🍆💦](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars. J’te kiffe de fou malade, t’es vraiment bandant. Ton corps, ta voix, tes délires, ton grain de folie… j’aime tout chez toi.
-Gro t'as tellement baisé mon cerveau que je pourrai tout faire pour toi.
+Gro t'as tellement baisé mon cerveau que je pourrais tout faire pour toi.
 Je suis ton rocher où te reposer quand t’es fatigué, ton arbre pour l’ombre en plein soleil, où quand la vie ou les gens te soulent. Je suis ton gars sûr mon Roms. Je suis là et je le serai toujours pour toi 💙💜
