@@ -19,3 +19,5 @@
 [Win Roms, Win!💪🏻💙💜🍆💦](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars. J’te kiffe de fou malade, tu me fais trop bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens. T’es mon Roms et je suis ton Antho, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr mec. Je suis là et je serai toujours là pour toi 💙💜
+
+![Ma Queue, tu me rends vraiment zinzin mec ptdrrr](https://i.ibb.co/pB7YDbdS/Ma-Queue.jpg)
