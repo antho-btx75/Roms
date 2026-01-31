@@ -21,5 +21,3 @@
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars. J’te kiffe de fou malade, tu me fais trop bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi, c'est magnétique ce que je ressens pour toi, les mots ne suffisent pas. T'es mon Roms, ma personne préférée sur Terre, et je suis ton Antho, et c'est tout.
 Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour l’ombre en plein soleil. Je suis ton gars sûr mon Roms. Je suis là et je le serai toujours pour toi 💙💜
 
-[Tu me rends zinzin mec mdrr](https://i.ibb.co/pB7YDbdS/Ma-Queue.jpg)
-(en haut à gauche, "...", "ouvrir dans le navigateur")
