@@ -16,13 +16,7 @@
 ---
 
 [![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
-[Win Roms, Win!💪🏻💙💜🍆💦](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+[Win Roms, Win!💪🏻💙💜](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
-<span style="color: blue; font-weight: bold;">Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
-J’te kiffe de fou malade, tu me fais trop bander.
-Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi.
-Les mots suffisent pas, c’est magnétique ce que je ressens pour toi.
-T’es mon Roms et je suis TON Antho, je suis à toi seul, je n’appartiens qu’à toi, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t’offrir un peu d’ombre.
-Je suis ton gars sûr mec.
-Je suis là et je le serai toujours pour toi 💙💜</span>
+<span style="color: blue; font-weight: bold;">Je serai toujours là pour toi tu le sais. T'es quelqu'un de tellement spécial pour moi, tu comptes énormément mon gars. Ce que je ressens pour toi est hors norme. C'est quelque chose qui ne peut être compris facilement, et encore plus difficile à dire avec des mots 💙💜</span>
 
