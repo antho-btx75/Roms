@@ -23,3 +23,5 @@
 Quand on était en Italie et que je t'ai protégé, que j'ai fait passé tes genoux avant toute question de fric, tu as traversé la route pour me rejoindre, et tu as pose ta main sur la mienne alors que je tenais mon vélo... cette sensation de ta main posée sur la mienne, c'était la plus belle sensation au monde ptn. Pareil quand, dans le bus, j'ai senti ton corps pressé contre le mien pendant que tu me montrais Last War, et moi aussi j'ai exercé une pression contre ton corps. C'était magnétique mec, même toi tu disais que ça brûlait cette nuit là. Y a trop de choses que je peux pas dire avec des mots...
 
 [Face](https://drive.google.com/file/d/1lo4h6e1-SyUKOudufjnlJXc5U3zgvYET/view?usp=drivesdk) / [Dos](https://drive.google.com/file/d/1ioNcShvQ_kw4btCVBOnLdZXjFUmUSpGk/view?pli=1)
+
+(https://i.ibb.co/pB7YDbdS/Ma-Queue.jpg)
