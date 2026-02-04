@@ -22,6 +22,3 @@
 Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi PTN. T’es mon Roms et je suis TON Antho, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr mec. Je suis là et je serai toujours là pour toi 💙💜</span>
 
 [Face](https://drive.google.com/file/d/1R7ftsOh_ndDHtCeaDpLURBWutHdrIbuH/view?usp=drivesdk) / [Pile](https://drive.google.com/file/d/1km5x_pBOHKWJGLFOgg_vmmKkuN94Vwbt/view?usp=drivesdk)
-
-![Tu me rends zinzin mdrrr](
-https://i.ibb.co/5g78J2bL/IMG-20260204-013029.jpg)
