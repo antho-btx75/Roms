@@ -22,4 +22,4 @@
 
 [Face](https://drive.google.com/file/d/1R7ftsOh_ndDHtCeaDpLURBWutHdrIbuH/view?usp=drivesdk) / [Pile](https://drive.google.com/file/d/1km5x_pBOHKWJGLFOgg_vmmKkuN94Vwbt/view?usp=drivesdk)
 
-![Tu me rends zinzin mdrrr](https://drive.google.com/file/d/1_RPrdyZV4DBQr0sejHpCR7C-O-x5DDsY/view?usp=drivesdk)
+![Tu me rends zinzin mdrrr](https://ibb.co/TxC8Nr9t)
