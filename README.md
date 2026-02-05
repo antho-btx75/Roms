@@ -22,5 +22,3 @@
 
 [Côté teub](https://drive.google.com/file/d/1hzIg2BThK7JTuoIjEqiK-6___YJhluqz/view?usp=drivesdk)
  / [Côté fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
-
- j'ai envie de sentir ta présence... stp connecte toi sur Messenger dans les minutes à venir 🙏🏻❤️
