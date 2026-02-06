@@ -1,3 +1,6 @@
+## STP mon Romain 
+dans les 15mn qui viennent connecte toi sur Messenger. Je le serai aussi. Je ne viendrai pas te parler, ni sur Messenger ni sur snapchat, mais notre connexion simultanéee et silenceuse nous fera du bien à tous les deux... on verra juste la pastille verte
+
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
 
@@ -25,3 +28,5 @@
  
 
 [Côté bite](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk) / [Côté fion](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
+
+
