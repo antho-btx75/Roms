@@ -24,5 +24,4 @@
  / [Côté baltrou](https://drive.google.com/file/d/1zZyAfS9A2QA2cdKyAyhntKUc4A4QrM_A/view?usp=drivesdk)
  
 
-[Côté bite]
-(https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk) / [Côté fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk)
+[Côté bite](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk) / [Côté fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk)
