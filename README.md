@@ -1,5 +1,3 @@
-## Stp mon gars 
-je vais te demander un truc... si tout ce que je fais te semble chelou et que ça te plait pas, fais semblant d'envoyer un message sur Snapchat sans envoyer de message à 23h30, je verrai la notif et je mettrai fin à tout ça. A l'inverse, si tu kiffes ça, fais la même chose (fais semblant d'envoyer un message sur Snapchat, mais sans l'envoyer) vers minuit. Dans un cas comme dans l'autre tqt mec, tout sera discret et je ne viendrai pas te demander quoi que ce soit.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
