@@ -25,3 +25,8 @@ je vais te demander un truc... si tout ce que je fais te semble chelou et que ç
 
 [Côté zboub](https://drive.google.com/file/d/1ixJziFty35mLAMAX8RO_B3ymb32fEnSd/view?usp=drivesdk)
  / [Côté fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
+
+ [Côté queue]
+ (https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk)
+/ [Côté fion]
+(https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk)
