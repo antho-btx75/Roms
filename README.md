@@ -1,4 +1,6 @@
 ## En vrai de vrai...
+
+toi et moi on se connait trop bien mon Romain. Notre badge BFF sur snapchat n'est pas un hasard et j'espère qu'on va pas le perdre connement....
 Je vais te parler sans crainte ni honte, car je sais que cet espace est un espace secret, je ne sais même pas si tu regardes ou non gro c'est dire si tu n'as pas à avoir peur.
 Tout ce que je peux te dire c'est que oui, tu es très important pour moi, tu comptes plus à mes yeux que n'importe qui d'autre. 
 Quand tu avais mal à tes genoux en Italie j'ai spontanément été choqué quand Kevin privilégiait son argent avant ta santé, et crois moi mec, vraiment crois moi, quand à Sanremo tu as traversé la route pour poser ta main sur ma main, ça a été la sensation la plus profonde de mon existence. Ça a duré pas longtemps, et j'ai envie de pleurer quand je me rappelle ce moment en vrai. 
