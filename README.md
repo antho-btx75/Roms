@@ -1,4 +1,3 @@
-Protège toi mon Roms des personnes toxiques, des personnes qui ne font que des reproches, qui te font câbler en cherchant à te faire culpabiliser pour tout et te faire passer pour le méchant. Préserve-toi 🙏🏻
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
