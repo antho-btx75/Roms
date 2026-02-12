@@ -1,4 +1,3 @@
-Côté pro ou perso, je serai toujours là à tes côtés face à ceux qui te pètent les couilles. Force à toi mon Roms 💪🏻
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
