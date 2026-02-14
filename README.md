@@ -22,7 +22,7 @@
 [Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
 
-<span style="color: purple; font-weight: bold;">Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
+Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
 
 J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. 
 
@@ -33,7 +33,7 @@ Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des
 Si on se voit pas demain c'est pas grave frère. Je sais que t'es fatigué de ouf. En vrai de vrai oui tu me manques grave, mais je préfèrerais qu'on se capte en solo toi et moi. Mais pas un date amoureux mdrrr, un truc entre bonhommes, tranquille oklm. Ou avec vraiment peu de personnes, en qui on a confiance, sans prise de tête.
 Ptn j'ai réécouté ton vocal à l'instant, où tu parles de tous tes problèmes, du gris et tout, et ça me rend triste. Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
 
-Je suis là et je serai toujours là pour toi Roms 💙💜</span>
+Je suis là et je serai toujours là pour toi Roms 💙💜
 
 [Côté zgeg](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
  / [Côté Baltrou](https://drive.google.com/file/d/1kZMhpaftWByAtVuTqb34z8C3JIef295b/view?usp=drivesdk)
