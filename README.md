@@ -39,5 +39,4 @@ Je suis là et je serai toujours là pour toi Roms 💙💜</span>
  / [Côté Baltrou](https://drive.google.com/file/d/1kZMhpaftWByAtVuTqb34z8C3JIef295b/view?usp=drivesdk)
 
 
-[Côté teub]
-(https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk) / [Côté fiak](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk)
+[Côté teub](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk) / [Côté fiak](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk)
