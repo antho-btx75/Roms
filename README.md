@@ -10,6 +10,8 @@
 ## Taff
 [CV Romain](https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit)
 
+[Retour aux 39h contractuelles](https://antho-btx75.github.io/Roms/39hgfc.html)
+
 [Négociations GFC : 39h et maintien de salaire](https://antho-btx75.github.io/Roms/RomainGFC.html)
 
 [Analyse des différentes ruptures](https://antho-btx75.github.io/Roms/RomainLic.html)
