@@ -1,4 +1,4 @@
-Merci mon gars d'être venu. Laisse moi eteindre ton gris gro 🥺
+Merci mon gars d'être venu. Laisse moi enlever ton gris gro 🥺
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
