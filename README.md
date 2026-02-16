@@ -38,7 +38,7 @@ Ptn j'ai réécouté ton vocal à l'instant, où tu parles de tous tes problème
 
 Je suis là et je serai toujours là pour toi Roms 💙💜
 
-[Côté zgeg](https://drive.google.com/file/d/1z6Ii4Bz35tELLDNKp_R4etQiSjk1-4aV/view?usp=drivesdk)
+[Côté zgeg](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
  / [Côté fion](https://drive.google.com/file/d/1shIR5uCooxsdcWjAncfT_EDUQzgkUIu9/view?usp=drivesdk)
 
  [Côté fiak](https://drive.google.com/file/d/1zZyAfS9A2QA2cdKyAyhntKUc4A4QrM_A/view?usp=drivesdk) / [Cote teub](https://drive.google.com/file/d/1ixJziFty35mLAMAX8RO_B3ymb32fEnSd/view?usp=drivesdk)
