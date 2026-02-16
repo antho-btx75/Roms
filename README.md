@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-Je kiffe sentir ta présence mec, sentir ton soutien et ta force. J'ai l'impression d'être invincible avec toi et je veux tout te donner en échange, te protéger contre tout ce qui te rend gris.
+Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Quand t'es à côté de moi et que je t'écoute, j'ai l'impression d'être invincible avec toi et je veux tout te donner en échange, je veux te protéger contre tout ce qui te rend gris bordel.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
