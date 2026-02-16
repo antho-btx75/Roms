@@ -1,4 +1,4 @@
-(https://i.ibb.co/wFzFfbgy/IMG-20260216-112825.jpg)
+![Webpage pour ma personne préférée](https://i.ibb.co/wFzFfbgy/IMG-20260216-112825.jpg)
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
