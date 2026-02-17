@@ -40,10 +40,10 @@ Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
 Je suis là et je serai toujours là pour toi Roms 💙💜
 
 
-[Côté zgeg](https://drive.google.com/file/d/1kF4-xkxs1hB8C__mCUegl47mRBj6fYrq/view?usp=drivesdk)
- / [Côté fion](https://drive.google.com/file/d/1OTxLLlX7fpHgl90gOOIjVkDKCbaE1Sgz/view?usp=drivesdk)
+[Côté teub](https://drive.google.com/file/d/1kF4-xkxs1hB8C__mCUegl47mRBj6fYrq/view?usp=drivesdk)
+ / [Côté baltrou](https://drive.google.com/file/d/1OTxLLlX7fpHgl90gOOIjVkDKCbaE1Sgz/view?usp=drivesdk)
 
- [Côté baltrou](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Cote teub](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk)
+ [Côté fiak](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Cote zgeg](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk)
 
  [Me-sper 1](https://drive.google.com/file/d/1q9KU3IzjLTSL423kSqEds6itqXsX2ytI/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
  
