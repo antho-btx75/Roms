@@ -27,9 +27,20 @@ Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout t
 
 
 ## Toujours là pour toi mon Roms
+Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
 
-Je serai toujours là pour toi tu le sais.  
-T’es quelqu’un de tellement spécial pour moi, tu comptes énormément mon gars.  
-Ce que je ressens pour toi, c’est hors norme mon gars.
-C’est dur à dire avec des mots, et encore plus dur à comprendre, même si t'as capté depuis archi longtemps.  
-C’est dingue tout ce que tu m’as apporté et ce que tu as changé en moi depuis que je te connais 💙💜
+J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi tu me fais bander fort. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. 
+
+T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
+
+Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr. 
+
+Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
+
+Je suis là et je serai toujours là pour toi Roms 💙💜
+
+
+[Côté teub](https://drive.google.com/file/d/1kF4-xkxs1hB8C__mCUegl47mRBj6fYrq/view?usp=drivesdk)
+ / [Côté baltrou](https://drive.google.com/file/d/1OTxLLlX7fpHgl90gOOIjVkDKCbaE1Sgz/view?usp=drivesdk)
+
+ [Côté fiak](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Cote zgeg](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk)
