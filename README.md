@@ -40,7 +40,7 @@ Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
 Je suis là et je serai toujours là pour toi Roms 💙💜
 
 
-[Côté bite](https://drive.google.com/drive/folders/1RS3ihUdVxk0aODYo8ytGgj2kpoFl8YOo)
+[Côté bite](https://drive.google.com/file/d/16yAh1zjRWWaiW6IJnMAhJrYPhdvfQLeO/view?usp=drivesdk)
  / [Côté baltrou](https://drive.google.com/file/d/1OTxLLlX7fpHgl90gOOIjVkDKCbaE1Sgz/view?usp=drivesdk)
 
 [Jus 1](https://drive.google.com/file/d/1q9KU3IzjLTSL423kSqEds6itqXsX2ytI/view?usp=drivesdk) / [Jus 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
