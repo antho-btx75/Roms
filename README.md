@@ -1,3 +1,5 @@
+Mon gars si tu kiffes certains trucs que tu vois ici envoie moi un message banal sur Snapchat à 21h30, sans aucun rapport, dans le cas contraire envoie moi un message banal à 22h et je capterai.
+
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 ## Avant tout
