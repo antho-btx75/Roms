@@ -35,9 +35,9 @@ T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à
 
 Au delà des envies de baise je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr. 
 
-Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
+Je voudrais tellement BALAYER TOUT LE GRIS qu'il y a en toi mon gars...
 
-Je suis là et je serai toujours là pour toi Roms 💙💜
+Je suis là et je serai toujours là pour toi... mon Roms 💙💜
 
 
 [Côté teub](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk)
