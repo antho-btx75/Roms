@@ -1,9 +1,5 @@
-Mon gars si tu kiffes certains trucs que tu vois ici envoie moi un message banal sur Snapchat à 21h30 sans aucun rapport, et je continuerai, dans le cas contraire envoie moi un message banal à 22h et je capterai.
 
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
-
-## Avant tout
-Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
@@ -29,16 +25,8 @@ Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout t
 
 
 ## Toujours là pour toi mon Roms
-Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
-
-J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. 
-
-T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
-
-Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr. 
-
-Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
-
-Je suis là et je serai toujours là pour toi Roms 💙💜
-
-
+Je serai toujours là pour toi tu le sais.  
+T’es quelqu’un de tellement spécial pour moi, tu comptes énormément mon gars.  
+Ce que je ressens pour toi, c’est hors norme mon gars.
+C’est dur à dire avec des mots, et encore plus dur à comprendre, même si t'as capté depuis archi longtemps.  
+C’est dingue tout ce que tu m’as apporté et ce que tu as changé en moi depuis que je te connais 💙💜
