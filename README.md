@@ -29,7 +29,7 @@ Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout t
 ## Toujours là pour toi mon Roms
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
 
-J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi tu me fais bander fort. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. 
+J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi tu me fais bander fort. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
 T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es bandant de fou j'ai envie de baiser avec toi, on se pepom ou de l'anal, en actif ou passif la baise c'est toi qui choisis selon ce que tu kiffes frère.
 
