@@ -1,3 +1,5 @@
+Romain j'ai un truc tout con à te demander... si tu kiffes cet espace où je me confie à 200%, connecte toi silencieusement sur Messenger à 23h pile... je serai aussi connecté à 23h pile et ce sera pour moi un moyen de savoir si c'est ok pour toi ou non. Si je te vois connecté je ne dirai rien, absolument rien, que ce soit sur Messenger ou Snapchat. C'est juste une façon de pouvoir se dire certaines choses sans les dire en face à face.
+
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 ## Avant tout
