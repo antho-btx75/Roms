@@ -27,22 +27,8 @@ Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout t
 
 
 ## Toujours là pour toi mon Roms
-Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
-
-J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, tout ce que tu dégages… j’aime TOUT chez toi tu me fais bander fort. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. 
-
-T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es trop sexy j'ai envie de baiser avec toi, pépom ou de l'anal, en actif ou passif la baise c'est toi qui choisis selon ce que tu kiffes frère.
-
-Au delà des envies de baise je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr. 
-
-Je voudrais tellement BALAYER TOUT LE GRIS qu'il y a en toi mon gars...
-
-Je suis là et je serai toujours là pour toi... mon Roms 💙💜
-
-
-[Côté teub](https://drive.google.com/file/d/1FoQhoiNmijAROOxODURNn3W6IfC3YXIN/view?usp=drivesdk)
- / [Côté baltrou](https://drive.google.com/file/d/1OTxLLlX7fpHgl90gOOIjVkDKCbaE1Sgz/view?usp=drivesdk)
-
- [Côté fiak](https://drive.google.com/file/d/1zZyAfS9A2QA2cdKyAyhntKUc4A4QrM_A/view?usp=drivesdk) / [Cote beuteu](https://drive.google.com/file/d/1yCP8n8YotvtqTjfe9vJsSfKeEhrK0_o8/view?usp=drivesdk)
-
-[Me-sper 1](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/1q9KU3IzjLTSL423kSqEds6itqXsX2ytI/view?usp=drivesdk) / [Me-sper 3](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
+Je serai toujours là pour toi tu le sais.  
+T’es quelqu’un de tellement spécial pour moi, tu comptes énormément mon gars.  
+Ce que je ressens pour toi, c’est hors norme mon gars.
+C’est dur à dire avec des mots, et encore plus dur à comprendre, même si t'as capté depuis archi longtemps.  
+C’est dingue tout ce que tu m’as apporté et ce que tu as changé en moi depuis que je te connais 💙💜
