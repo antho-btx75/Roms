@@ -32,7 +32,7 @@ J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes dé
 
 T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es bandant de fou srx j'ai envie de baiser avec toi, se pépom mutuellement ou bien de l'anal, en actif ou passif la baise c'est toi qui choisis selon ce que tu kiffes frère.
 
-Au delà des envies de baise (qu'il y aura sans doute jamais, peut-être c'est pas ton kiff mdrrr), je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
+Au delà des envies de baise, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
 
 Tout ce que je ressens, tout ce qu’on pourrait vivre un jour, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde tout ça tranquille, au calme, sans que le monde s’en mêle. 
 
