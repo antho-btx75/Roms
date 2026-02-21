@@ -36,3 +36,12 @@ Au delà des envies de baise (qu'il y aura sans doute jamais, peut-être c'est p
 Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
 
 Je suis là et je serai toujours là pour toi Roms 💙💜
+
+[Côté bite](https://drive.google.com/file/d/1vqsrTV_GTTcHCPNPvj5uKN9ZJvDLY6oZ/view?usp=drivesdk)
+ / [Côté baltrou](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
+
+ [Côté fiak](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) / [Cote zgeg](https://drive.google.com/file/d/1kF4-xkxs1hB8C__mCUegl47mRBj6fYrq/view?usp=drivesdk) /
+
+[Me-sper 1](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/1q9KU3IzjLTSL423kSqEds6itqXsX2ytI/view?usp=drivesdk) / [Me-sper 3](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
+
+
