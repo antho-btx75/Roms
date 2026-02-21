@@ -30,7 +30,7 @@ Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu
 
 J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
-T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es bandant de fou srx j'ai envie de baiser avec toi, se pépom mutuellement ou bien de l'anal, en actif ou passif la baise c'est toi qui choisis selon ce que tu kiffes frère.
+T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à faire ça sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es bandant de fou srx j'ai envie de baiser avec toi, se pépom mutuellement ou bien de l'anal, en actif ou passif la baise c'est toi qui choisis selon ce que tu kiffes frère.
 
 Au delà des envies de baise, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
 
