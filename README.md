@@ -1,7 +1,5 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-Envoie moi un petit message sur Snapchat steuplé. J'ai besoin de te sentir présent. C'est le soir que j'ai le plus besoin de te sentir dans ma vie gro, et que j'ai le plus besoin d'être proche de toi.
-
 ## Avant tout...
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
