@@ -28,7 +28,7 @@
 ## Je serai toujours là mon Roms
 Je serai toujours là pour toi, tu le sais. T’es tellement spécial pour moi, tu comptes énormément mon gars, et ça fait 10 piges que t’as capté à quel point t’es unique à mes yeux gro.
 
-J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr. T'es le seul mec à faire autant d'effets sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
+J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr. T'es le seul mec à faire autant d'effets sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es bandant de fou srx j'ai envie de baiser avec toi, se pépom mutuellement ou bien de l'anal, en actif ou passif la baise c'est toi qui choisis selon ce que tu kiffes frère.
 
 Mais écoute-moi bien : c’est juste une envie, un désir brut qui me traverse, ça se contrôle pas, et c’est 100 % ok si ça reste exactement comme ça – un désir, un fantasme, un truc qui fait bander sans jamais devoir passer à l’acte. Ça change absolument rien à ce que t’es pour moi, à ce qu’on est tous les deux. T’as pas à te justifier, à avoir peur ou à te poser mille questions. T’es libre, toujours.
 
