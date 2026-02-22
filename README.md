@@ -26,17 +26,8 @@
 [Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
 ## Je serai toujours là mon Roms
-Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
-
-J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
-
-T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à faire ça sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
-
-Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
-
-Je voudrais tellement balayer tout le gris qu'il y a en toi mon gars...
-
-Tout ce que je ressens, tout ce qu’on pourrait vivre un jour, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde tout ça tranquille, au calme, sans que le monde s’en mêle. 
-
-Je suis là et je serai toujours là pour toi Roms 💙💜
-
+Je serai toujours là pour toi tu le sais.
+T’es quelqu’un de tellement spécial pour moi, tu comptes énormément mon gars.
+Ce que je ressens pour toi, c’est hors norme.
+C’est dur à dire avec des mots, et encore plus dur à comprendre, même si t'as capté depuis archi longtemps.
+C’est dingue tout ce que tu m’as apporté et ce que tu as changé en moi depuis que je te connais. 💙💜
