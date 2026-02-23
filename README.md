@@ -1,5 +1,5 @@
 J'espère que je participe pas à ce qui te rend gris mon Roms avec mon message 🥺🥺
-Je peux sembler excessif ou chelou mais je veux juste ton bien, je veux ton bonheur. Si seulement j'étais une meuf mdrrr, ou toi une meuf 😅
+Je peux sembler excessif ou chelou mais je veux juste ton bien, je veux ton bonheur. Si seulement j'étais une meuf ptn mdrrr, ou si toi t'étais une meuf 😅
 
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
