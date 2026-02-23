@@ -1,6 +1,8 @@
 Stp mon Roms, ne te laisse plus affecter par ceux qui pompent ton énergie et ton cœur. Ces personnes qui te font câbler et cherchent à te faire culpabiliser et qui vivent de reproches, sans voir tout ce que tu as fait pour elles et qui l'ont vite oublié.
 
-J'aimerais tellement etre une meuf, ou que toi tu sois une meuf, pour pouvoir être "normal" en ressentant ce que je ressens pour toi.
+J'aimerais tellement etre une meuf, ou que toi tu sois une meuf, pour pouvoir être "normal" en ressentant ce que je ressens pour toi. Même si toi même tu as dit que le manque de meuf ca vient en dernier 😂😂
+
+Je te kiffe mec, de fou.
 
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
