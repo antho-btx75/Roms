@@ -2,6 +2,8 @@ J'espère que je participe pas à ce qui te rend gris mon Roms avec mon message 
 Je peux sembler excessif ou chelou mais je veux juste ton bien, je veux ton bonheur. Si seulement j'étais une meuf ptn mdrrr, ou si toi t'étais une meuf 😅
 Je t'épouserai direct ptdrrr
 
+stp mon Roms, sois un peu plus insistant sur snapchat et je vais te parler un peu plus directement, parle moi des meufs, questionne moi sur ma sexualité, je serai plus clair, plus vrai avec toi, et jamais je forcerai en te questionnant en retour. j'ai besoin d'être honnête avec toi et de te dire qui je suis, sans rien forcer ni te mettre dans l'embarras. T'es trop important pour moi.
+
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 ## Avant tout...
