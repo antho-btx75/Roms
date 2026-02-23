@@ -28,8 +28,7 @@ Je te kiffe mec, de fou.
 
 ---
 
-[![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
-[Win Roms, Win!💪🏻(https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+[![Win Roms ! Win ! 💪🏻](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s)](https://www.youtube.com/watch?v=9TogI2UVS0A)
 
 ## Je serai toujours là mon Roms
 <span style="color: purple;">Je serai toujours là pour toi, tu le sais. T’es tellement spécial pour moi, tu comptes énormément mon gars, et ça fait 10 piges que t’as capté à quel point t’es unique à mes yeux gro.</span>
