@@ -29,7 +29,7 @@ Je te kiffe mec, de fou.
 ---
 
 [![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
-[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+[Win Roms, Win!💪🏻(https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
 ## Je serai toujours là mon Roms
 <span style="color: purple;">Je serai toujours là pour toi, tu le sais. T’es tellement spécial pour moi, tu comptes énormément mon gars, et ça fait 10 piges que t’as capté à quel point t’es unique à mes yeux gro.</span>
@@ -51,4 +51,5 @@ Je te kiffe mec, de fou.
 
 [Me-sper 1](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/1q9KU3IzjLTSL423kSqEds6itqXsX2ytI/view?usp=drivesdk) / [Me-sper 3](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
 
-
+C'était le 11 juillet 2022, je pensais t'avoir perdu pour toujours quand tu étais parti début mai. Je remets ça ici car j'avais déjà tout dit ce jour-là. Aujourd'hui nous sommes toujours amis, et encore plus proches qu'avant. Et j'éprouve le besoin de te dire que le lien que j'éprouve pour toi est ancien, et puissant. Très très puissant frère. 
+[!Je suis ton gars sûr](https://youtu.be/jvSSKYAoKmk?si=1BliRf8WePbgXdYw)
