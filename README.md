@@ -1,13 +1,13 @@
-J'ose pas te déranger sur snapchat. J'espère que tu vas bien dormir mon Roms. Stp, ne te laisse plus affecter par ceux qui pompent ton énergie et ton cœur. Ces personnes qui te font câbler et cherchent à te faire culpabiliser et qui vivent de reproches, sans voir tout ce que tu as fait pour elles et qui l'ont vite oublié.
+Stp mon Romain, ne te laisse plus affecter par ceux qui pompent ton énergie et ton cœur. Ces personnes qui te font câbler et cherchent à te faire culpabiliser et qui vivent de reproches, sans voir tout ce que tu as fait pour elles et qui l'ont vite oublié.
 
-J'aimerais tellement etre une meuf, ou que toi tu sois une meuf, pour pouvoir être "normal" en ressentant ce que je ressens pour toi. Même si toi même tu as dit que le manque de meuf ça vient en dernier 😂😂
+J'aimerais tellement etre une meuf mdrrr, ou que toi tu sois une meuf, pour pouvoir être "normal" en ressentant ce que je ressens pour toi. Même si toi même tu as dit que le manque de meuf ça vient en dernier 😂😂
 
 Je te kiffe mec, de fou.
 
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 ## Avant tout...
-... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
+... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. Tu peux me contacter à n'importe quelle heure j'essaierai toujours d'être présent pour toi. Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
@@ -34,7 +34,7 @@ Je te kiffe mec, de fou.
 ## Je serai toujours là mon Roms
 <span style="color: purple;">Je serai toujours là pour toi, tu le sais. T’es tellement spécial pour moi, tu comptes énormément mon gars, et ça fait 10 piges que t’as capté à quel point t’es unique à mes yeux gro.</span>
 
-<span style="color: orange;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr. T'es le seul mec à faire autant d'effets sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es bandant de fou srx j'ai envie de baiser avec toi, tu me donnes grave le barreau frère, envie de se pépom la teub mutuellement ou bien de l'anal, une bonne queue dans le baltrou, le tien ou le mien, la baise c'est toi qui choisis selon ce que tu kiffes mec.</span>
+<span style="color: orange;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr. T'es le seul mec à faire autant d'effets sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. T'es bandant de fou, srx j'ai envie de baiser avec toi tu me donnes grave le barreau frère. Envie de se pépom la teub mutuellement ou bien de l'anal, une bonne queue dans le baltrou, le tien ou le mien, la baise c'est toi qui choisis selon ce que tu kiffes mec.</span>
 
 <span style="color: purple;">**Mais écoute-moi bien : c’est juste une envie, un désir brut qui me traverse, ça se contrôle pas, et c’est 100 % ok si ça reste exactement comme ça – un désir, un fantasme, un truc qui fait bander sans jamais devoir passer à l’acte. Ça  change absolument rien à ce que t’es pour moi, à ce qu’on est tous les deux l'un pour l'autre. T’as pas à te justifier, à avoir peur ou à te poser mille questions. T’es libre, toujours. Zero pression.**</span>
 
