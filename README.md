@@ -52,7 +52,3 @@ Je te kiffe mec, de fou.
  [Côté fiak](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) / [Cote zgeg](https://drive.google.com/file/d/1kF4-xkxs1hB8C__mCUegl47mRBj6fYrq/view?usp=drivesdk) /
 
 [Me-sper 1](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/1q9KU3IzjLTSL423kSqEds6itqXsX2ytI/view?usp=drivesdk) / [Me-sper 3](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
-
-C'était le 11 juillet 2022, je pensais t'avoir perdu pour toujours quand tu étais parti début mai. Je remets ça ici car j'avais déjà tout dit ce jour-là. Aujourd'hui nous sommes toujours amis, et encore plus proches qu'avant. Et j'éprouve le besoin de te dire que le lien que j'éprouve pour toi est ancien, et puissant. Très très puissant frère. 
-
-[Je suis ton gars sûr](https://youtu.be/jvSSKYAoKmk?si=1BliRf8WePbgXdYw)
