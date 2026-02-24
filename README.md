@@ -1,4 +1,4 @@
-Stp mon Roms, ne te laisse plus affecter par ceux qui pompent ton énergie et ton cœur. Ces personnes qui te font câbler et cherchent à te faire culpabiliser et qui vivent de reproches, sans voir tout ce que tu as fait pour elles et qui l'ont vite oublié.
+J'ose pas te déranger sur snapchat. J'espère que tu vas bien dormir mon Roms. Stp, ne te laisse plus affecter par ceux qui pompent ton énergie et ton cœur. Ces personnes qui te font câbler et cherchent à te faire culpabiliser et qui vivent de reproches, sans voir tout ce que tu as fait pour elles et qui l'ont vite oublié.
 
 J'aimerais tellement etre une meuf, ou que toi tu sois une meuf, pour pouvoir être "normal" en ressentant ce que je ressens pour toi. Même si toi même tu as dit que le manque de meuf ça vient en dernier 😂😂
 
