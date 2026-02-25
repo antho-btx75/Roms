@@ -1,8 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 ## Ce que tu es pour moi 
-Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.## Ce que tu es pour moi
-... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
+Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
 
