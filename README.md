@@ -35,7 +35,8 @@ Je suis pour toujours TON Antho.
 **[Win Roms, Win ! 💪🏻](https://www.youtube.com/watch?v=9TogI2UVS0A)**
 
 ## Je serai toujours là mon Roms
-Je serai toujours là pour toi tu le sais.
+[Je serai toujours là pour toi tu le sais.](https://drive.google.com/file/d/1086zzalbmd-AGKj9_vl8pNkq8QtVaaWr/view?usp=drivesdk)
+
 T’es quelqu’un de tellement spécial pour moi, tu comptes énormément mon gars.
 Ce que je ressens pour toi, c’est hors norme.
 C’est dur à dire avec des mots, et encore plus dur à comprendre, même si t'as capté depuis archi longtemps.
