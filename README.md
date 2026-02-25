@@ -1,5 +1,9 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+
+J'ai fait un update plus light gro de cet espace mdr. Je me dis que peut-être ça participait aussi à ta déprime et je veux pas ajouter du gris 🥺
+Je sais bien que c'est intense ce que je ressens, c'est intense ce que j'exprime ici. Peut-être trop et ça peut te faire flipper. Si t'es plus à l'aise now avec la version soft, fais le moi savoir, dis le moi sans le dire ouvertement. Un truc tout bête du genre demain "ah j'ai un peu mieux dormi cette nuit". Je capterai sans évoquer directement cet espace. Si au contraire tu kiffais la version plus hard envoie moi un message sur Snapchat à 22h pile (sans rapport avec ça bien sûr). Je serai discret j'en parlerai pas directement, je répondrai juste normal à ton message 😅 
+
 ## Ce que tu es pour moi
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
 
