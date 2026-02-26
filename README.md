@@ -1,5 +1,8 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+Stp mon Romain, ne te laisse plus affecter par ceux qui pompent ton énergie et ton cœur. Ces personnes qui te font câbler et cherchent à te faire culpabiliser et qui vivent de reproches, sans voir tout ce que tu as fait pour elles et qui l’ont vite oublié.
+Surtout quand cela a aussi des implications directes dans nos projets, nos vacances etc. On a peu de congés dans une année, forcément ça pète les couilles quand tout merde à cause de personnes qui de toutes façons pètent les couilles de tout le monde…
+
 ## Ce que tu es pour moi
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
 
