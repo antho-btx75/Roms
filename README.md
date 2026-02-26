@@ -36,8 +36,6 @@ Je suis pour toujours TON Antho.
 
 <span style="color: green;">** Mais écoute-moi bien : c’est juste une envie, un désir brut qui me traverse, ça se contrôle pas, et c’est 100 % ok si ça reste exactement comme ça – un désir, un fantasme, un kiff qui fait bander sans jamais devoir passer à l’acte. Ça change absolument rien à ce que t’es pour moi, à ce qu’on est tous les deux l'un pour l'autre. Je te demande rien, t'as pas à réagir, à avoir peur ou à te poser mille questions mdrr. T’es libre, toujours. Zero pression. **</span>
 
-<span style="color: green;">J'aimerais tellement etre une meuf mdrrr, ou que toi tu sois une meuf, pour pouvoir être "normal" en ressentant ce que je ressens pour toi. Je te kiffe mec, de fou.</span>
-
 <span style="color: green;">Au-delà des envies de baise je suis ton rocher. Ton arbre quand t’as besoin d’ombre. Le gars qui sera toujours là, sans condition, sans jugement, sans attendre quoi que ce soit en retour. Quand la vie te rend gris, quand les gens te pètent les yeuCou, quand tout pèse trop lourd – repose-toi juste sur moi. Je te protègerai, je te soutiendrai, je te porterai si besoin. Et ça c'est pas négociable t'es trop important pour moi. Je suis vraiment ton gars sûr, le mec qui sera toujours à tes côtés Roms.</span>
 
 <span style="color: green;">Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde notre truc tranquille au calme, sans que le monde vienne foutre son nez dedans. C’est notre sanctuaire, et je le défendrai à mort.</span>
