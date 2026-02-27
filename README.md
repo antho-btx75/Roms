@@ -11,6 +11,10 @@ Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels q
 
 Je suis pour toujours TON Antho.
 
+J'essaie d'être toujours joyeux zt optimiste, même si au fond de moi je cache beaucoup de tristesse.
+
+Je me sens terriblement gris en ce moment frère...
+
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
 
