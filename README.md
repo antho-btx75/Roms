@@ -14,7 +14,7 @@ Aimer c'est ce que je fais depuis des années. C'est souffrir soi même au lieu 
 
 Moi je suis pour toujours TON Antho, mais un Antho souvent triste, très triste et dans l'incompréhension la plus totale devant beaucoup de choses que j'essaie vraiment de comprendre. J'essaie toujours d'être quelqu'un d'optimiste et de positif, que ce soit au taff ou dans mes relations avec les autres, j'essaie d'arranger tout le monde, à commencer par toi car je te kiffe de fou malade. Mais il y a en moi, derrière cette façade de positivité, une grande tristesse que je cache. Et le moindre truc qui vient me contrarier je suis gagné par cette tristesse, ces doutes etc.
 
-La vie me fatigue mon Romain, car j'ai compris depuis longtemps comment elle fonctionnait gro... Je suis là, j'observe, et je souffre, mais en silence.
+La vie me fatigue mon Romain, car j'ai compris depuis longtemps comment elle fonctionnait gro... Je suis là, j'observe, et je souffre, mais en silence. Mais on s'en branle de moi au final, un petit "force gro" et on passe à autre chose. Désolé mon Romain, je pense pas ce que j'écris, je sais que tu m'aimes bien. Un petit peu....
 
 ## Ce que tu es pour moi
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
