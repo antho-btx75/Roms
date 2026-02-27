@@ -6,9 +6,7 @@ Gro je suis fatigué, je suis gri moi aussi… car je sais que ça va faire la m
 
 Chuis trop trop GRIS ptn.... J'en veux pas après toi mon gars, surtout pas. C'est la situation qui me pète les couilles.
 
-Je suis pour toujours TON Antho, mais un Antho souvent triste, très triste et dans l'incompréhension la plus totale. J'essaie toujours d'être quelq'un d'optimiste et de positif, que ce soit au taff ou dans mes relations avec les autres, à commencer par toi. Mais il y a en moi, derrière cette façade de positivité, une grande tristesse que je cache. Et le moindre truc qui vient me contrarier je suis gagné par cette tristesse, ces doutes etc.
-
-
+Je suis pour toujours TON Antho, mais un Antho souvent triste, très triste et dans l'incompréhension la plus totale. J'essaie toujours d'être quelqu'un d'optimiste et de positif, que ce soit au taff ou dans mes relations avec les autres, j'essaie d'arranger tout le monde, à commencer par toi car je te kiffe de fou malade. Mais il y a en moi, derrière cette façade de positivité, une grande tristesse que je cache. Et le moindre truc qui vient me contrarier je suis gagné par cette tristesse, ces doutes etc.
 
 ## Ce que tu es pour moi
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
