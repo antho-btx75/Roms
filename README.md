@@ -17,11 +17,7 @@ Chuis trop trop GRIS ptn....
 
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
 
-Je suis pour toujours TON Antho.
-
-J'essaie d'être toujours joyeux zt optimiste, même si au fond de moi je cache beaucoup de tristesse.
-
-Je me sens terriblement gris en ce moment frère...
+Je suis pour toujours TON Antho, mais un Antho souvent triste.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
