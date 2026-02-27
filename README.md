@@ -2,7 +2,15 @@
 
 Stp mon Romain, ne te laisse plus affecter par ceux qui pompent ton énergie et ton cœur. Ces personnes qui te font câbler et cherchent à te faire culpabiliser et qui vivent de reproches, sans voir tout ce que tu as fait pour elles et qui l’ont vite oublié. Surtout quand cela a aussi des implications directes dans nos projets, nos vacances etc. On a peu de congés dans une année, forcément ça pète les couilles quand tout merde à cause de personnes qui de toutes façons pètent les couilles de tout le monde…
 
-C’est toi qui me parles de vacances en premier, comme une chose très urgente, il a dû faire zarma il était chaud dans un premier temps (en apparence) puis il a dû hésiter, et finalement dire non quand tu lui as dit que ça allait se faire, donc tu sais pas comment me le dire mais tu te rétractes, et au final tu repousses nos projets. Gro je suis fatigué, je suis gri moi aussi… 
+J'etais content mon Roms à l'idée de partir en vacs avec toi, même si je sais que c'est conditionné par la présence de Kevin.
+C’est toi qui me parles de vacances en premier, comme une chose de très urgente, et même si je sais que tes insomnies t'handicapent, j'imagine que l'une des raisons qu'on ne part plus c'est qu'il a dû faire zarma il était chaud dans un premier temps (en apparence), donc tu m'as parlé des vacs, puis il a dû hésiter, et finalement dire non quand tu lui as dit que ça allait se faire, donc tu savais pas comment me le dire sans me faire de la peine mais tu as fini par dire que tu ne voulais plus partir, et au final nos projets tombent à l'eau. 
+
+Gro je suis fatigué, je suis gri moi aussi… car je sais que ça va faire la meme chose avec le Japon. Le Japon c'est loin dans le temps donc pour me rassurer tu me dis "sûr sûr on y va", mais je sais que ça va faire pareil...
+
+J'ai l'impression que tout dépend de lui et au final je suis qu'un organisateur.
+
+Chuis trop trop GRIS ptn....
+
 
 ## Ce que tu es pour moi
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
