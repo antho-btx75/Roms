@@ -21,6 +21,8 @@ Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels q
 
 Je suis pour toujours TON Antho.
 
+Je vais lâcher le mot que tu n'aimes pas car il est trop fort, et il fait trop pédé, mais je t'aime de fou gro.
+
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
 
