@@ -56,3 +56,8 @@ Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comm
 
 Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💙💜
 
+[Zgeg](https://drive.google.com/file/d/1LLfezoVKCA_bIiiAZ-UMcs9MwMt4acPv/view?usp=drivesdk) / [Fiak presque rasé mdr](https://drive.google.com/file/d/1eS-JDodphUaiwP1tgaNte2Uba-rmKJSH/view?usp=drivesdk)
+
+[Teub](https://drive.google.com/file/d/1z6Ii4Bz35tELLDNKp_R4etQiSjk1-4aV/view?usp=drivesdk) / [Baltrou pas rasé mdr](https://drive.google.com/file/d/1kZMhpaftWByAtVuTqb34z8C3JIef295b/view?usp=drivesdk)
+
+[Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
