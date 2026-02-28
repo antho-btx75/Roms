@@ -1,19 +1,12 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-J'etais vraiment content mon Roms à l'idée de partir en vacs avec TOI, même si je sais que c'est conditionné par la présence de Kevin et que si il vient pas c'est mort pour nous. Mais c’est toi qui m'a parlé de vacances en premier, tu m'en as parlé comme d'une chose de très très urgente, même si t'avais déjà des pb d'insomnie. J'imagine que l'une des raisons qu'on ne part plus c'est que Kevin a dû faire zarma il était chaud dans un premier temps (en apparence), donc tu m'as parlé des vacs, puis quand tu as commencé à parler de fric ben il a dû hésiter et finalement dire non quand tu lui as dit que ça allait se faire, du coup tu savais pas comment me le dire sans me faire de la peine mais tu as fini par dire que tu ne voulais plus partir, et au final nos projets sont tombés à l'eau.
-
-![GRIS](https://i.ibb.co/Q7TvZy4R/IMG-20260227-224835.jpg)
-
-Gro je suis fatigué, je suis gri moi aussi… car je sais que ça va faire la meme chose avec le Japon. Le Japon c'est loin dans le temps donc pour me rassurer tu me dis "sûr sûr on y va", mais je sais que ça va faire pareil... J'ai l'impression que tout dépend de lui et au final je suis qu'un organisateur, le mec qui planifie et c'est tout...
-
-Chuis trop trop GRIS ptn.... J'en veux pas après toi mon gars, surtout pas. C'est la situation qui me pète les couilles. 
-
-Moi je suis pour toujours TON Antho, mais un Antho souvent triste, très triste et dans l'incompréhension la plus totale devant beaucoup de choses que j'essaie vraiment de comprendre. J'essaie toujours d'être quelqu'un d'optimiste et de positif, que ce soit au taff ou dans mes relations avec les autres, j'essaie d'arranger tout le monde, à commencer par toi car je te kiffe de fou malade. Mais il y a en moi, derrière cette façade de positivité, une grande tristesse que je cache. Et le moindre truc qui vient me contrarier je suis gagné par cette tristesse, ces doutes etc.
-
-## Ce que tu es pour moi
+Ce que tu es pour moi 
+Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.## Ce que tu es pour moi
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
 
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
+
+Je suis pour toujours TON Antho.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
@@ -34,12 +27,19 @@ Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels q
 
 ---
 
-[![Win Roms ! Win ! 💪🏻](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA)](https://www.youtube.com/watch?v=9TogI2UVS0A)  
-**[Win Roms, Win ! 💪🏻](https://www.youtube.com/watch?v=9TogI2UVS0A)**
+[![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
 ## Je serai toujours là mon Roms
-Je serai toujours là pour toi tu le sais.
-T’es quelqu’un de tellement spécial pour moi, tu comptes énormément mon gars.
-Ce que je ressens pour toi, c’est hors norme.
-C’est dur à dire avec des mots, et encore plus dur à comprendre, même si t'as capté depuis archi longtemps.
-C’est dingue tout ce que tu m’as apporté et ce que tu as changé en moi depuis que je te connais. 💙💜
+Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
+
+J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
+
+T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à faire ça sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
+
+Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
+
+Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde notre truc tranquille au calme, sans que le monde vienne foutre son nez dedans. C’est notre sanctuaire, et je le défendrai à mort.
+
+Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💙💜
+
