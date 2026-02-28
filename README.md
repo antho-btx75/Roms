@@ -1,1 +1,63 @@
-HTTP Error 404 Not Found 
+![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
+
+On partira peut-être pas en vacs cette fois-ci, mais j'espère qu'on se verra IRL pendant notre semaine de vacs commune 🥺
+
+Parfois c'est ça aussi qui me rend gris. On se voit pas beaucoup au final en vrai, même si je me sens très proche de toi mon gars. Y'a des trucs qui me font beaucoup de bien, notre badge BFF qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. C'est terrible l'attachement que j'ai pour toi ptn.
+
+En octobre dernier pendant mes 2 semaines de congés, je t'avais dit qu'on pourrait se faire un truc mais t'as pas rebondi sur ça. Pareil quand toi t'étais en congés je t'avais dit quand j'étais de repos, c'était une façon de te dire "tiens et si on captait un jour?"
+Du coup maintenant j'ai peur de te proposer un truc car je me dis que tu vas refuser 😭
+
+C'est pour ça que j'étais content à l'idée de partir en vacances ensemble. Mais bon tant pis, pas pour cette fois gro...
+Cest pas grave frère, et ne sois pas désolé, non c'est pas de ta faute. On contrôle pas tout dans la vie c'est ainsi. 
+
+J'aimerais vraiment partir au Japon avec toi. J'ai encore ce petit espoir en moi mdrrr
+T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as été génial de A à Z. Au Japon ce serait le kiff putain.
+Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms...
+
+## Ce que tu es pour moi 
+Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
+
+Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
+
+Je suis pour toujours TON Antho.
+
+## Veuchs
+[Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
+
+## Voyages
+[video Sanremo (mdp : Gfcarrefour)](https://vimeo.com/1112710905?fl=pl&fe=sh)
+
+[vidéo Menton/Monaco (mdp : Gfcarrefour)](https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci)
+
+## Taff
+[CV Romain](https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit)
+
+[Retour aux 39h contractuelles](https://antho-btx75.github.io/Roms/39hgfc.html)
+
+[Négociations GFC : 39h et maintien de salaire](https://antho-btx75.github.io/Roms/RomainGFC.html)
+
+[Analyse des différentes ruptures](https://antho-btx75.github.io/Roms/RomainLic.html)
+
+---
+
+[![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+
+## Je serai toujours là mon Roms
+Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
+
+J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
+
+T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à faire ça sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
+
+Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
+
+Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde notre truc tranquille au calme, sans que le monde vienne foutre son nez dedans. C’est notre sanctuaire, et je le défendrai à mort.
+
+Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💙💜
+
+[Zgeg](https://drive.google.com/file/d/1LLfezoVKCA_bIiiAZ-UMcs9MwMt4acPv/view?usp=drivesdk) / [Fiak presque rasé mdr](https://drive.google.com/file/d/1eS-JDodphUaiwP1tgaNte2Uba-rmKJSH/view?usp=drivesdk)
+
+[Teub](https://drive.google.com/file/d/1z6Ii4Bz35tELLDNKp_R4etQiSjk1-4aV/view?usp=drivesdk) / [Baltrou pas rasé mdr](https://drive.google.com/file/d/1kZMhpaftWByAtVuTqb34z8C3JIef295b/view?usp=drivesdk)
+
+[Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
