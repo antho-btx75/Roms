@@ -1,5 +1,18 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+On partira peut-être pas en vacs cette fois-ci, mais j'espère qu'on se verra IRL pendant notre semaine de vacs commune 🥺
+Parfois c'est ça aussi qui me rend gris. On se voit pas beaucoup au final en vrai, même si je me sens très proche de toi mon gars. Y'a des trucs qui me font beaucoup de bien, notre badge BFF qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. C'est terrible l'attachement que j'ai pour toi ptn.
+
+En octobre dernier pendant mes 2 semaines de congés, je t'avais dit qu'on pourrait se faire un truc mais t'as pas rebondi sur ça. Pareil quand toi t'étais en congés je t'avais dit quand j'étais de repos, c'était une façon de te dire "tiens et si on captait un jour?"
+Du coup maintenant j'ai peur de te proposer un truc car je me dis que tu vas refuser 😭
+
+C'est pour ça que j'étais content à l'idée de partir en vacances ensemble. Mais bon tant pis, pas pour cette fois gro...
+Cest pas grave frère, et ne sois pas désolé, non c'est pas de ta faute. On contrôle pas tout dans la vie c'est ainsi. 
+
+J'aimerais vraiment partir au Japon avec toi. J'ai encore ce petit espoir en moi mdrrr
+T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as été génial de A à Z. Au Japon ce serait le kiff putain.
+Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms...
+
 Ce que tu es pour moi 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.## Ce que tu es pour moi
 ... Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens. 
