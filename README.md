@@ -11,7 +11,7 @@ J'aimerais vraiment partir au Japon avec toi. J'ai encore ce petit espoir en moi
 T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as été génial de A à Z. Au Japon ce serait le kiff putain.
 Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms...
 
-C'est terrible l'attachement que j'ai pour toi ptn.
+C'est terrible l'attachement que j'ai pour toi ptn. Je vais lâcher le mot que tu n'aimes pas car il est trop fort, et il fait trop pédé mdrr, mais je t'aime de fou gro.
 
 ## Ce que tu es pour moi 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
@@ -19,8 +19,6 @@ Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout t
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
 
 Je suis pour toujours TON Antho.
-
-Je vais lâcher le mot que tu n'aimes pas car il est trop fort, et il fait trop pédé, mais je t'aime de fou gro.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
