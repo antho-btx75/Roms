@@ -9,7 +9,7 @@ Cest pas grave frère, et ne sois pas désolé, non c'est pas de ta faute. On co
 
 J'aimerais vraiment partir au Japon avec toi. J'ai encore ce petit espoir en moi mdrrr
 T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as été génial de A à Z. Au Japon ce serait le kiff putain.
-Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms...
+Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
 
 C'est terrible l'attachement que j'ai pour toi ptn. Je vais lâcher le mot que tu n'aimes pas car il est trop fort, et il fait trop pédé mdrr, mais je t'aime de fou gro.
 
