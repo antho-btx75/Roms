@@ -56,7 +56,7 @@ J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes dé
 
 T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à faire ça sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
 
-T'es bandant de fou srx j'ai envie de baiser avec toi tu me fais trop bander mec. Envie de se pépom la teub mutuellement ou bien de l’anal, une bonne queue dans le baltrou, le tien ou le mien, la baise c'est toi qui choisis selon ce que tu kiffes.
+T'es bandant de fou srx j'ai envie de baiser grave avec toi tu me fais trop bander mec. Envie de se pépom la teub mutuellement ou bien de la baise anale, une bonne queue dans le baltrou, le tien ou le mien, la baise c'est toi qui choisis selon ce que tu kiffes.
 
 Mais écoute-moi bien : c’est juste une envie, un désir brut qui me traverse, ça se contrôle pas, et c’est 100 % ok si ça reste exactement comme ça – un désir, un fantasme, un kiff qui fait bander sans jamais devoir passer à l’acte. Ça change absolument rien à ce que t’es pour moi, à ce qu’on est tous les deux l’un pour l’autre. T’as pas à réagir, à avoir peur ou à te poser mille questions. T’es libre, toujours. Même de lire ça en mode fantôme. Zero pression.
 
