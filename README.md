@@ -27,6 +27,8 @@ Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels q
 
 Je suis pour toujours TON Antho.
 
+![Mon gars](https://i.ibb.co/0p5QCmk0/IMG-20260302-000554.png)
+
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
 
