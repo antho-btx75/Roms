@@ -18,7 +18,7 @@ Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu a
 Au Japon ce serait le kiff putain.
 Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
 
-C'est terrible l'attachement que j'ai pour toi ptn. Je vais lâcher le mot que tu n'aimes pas car il est trop fort, et il fait trop pédé mdrr, mais je t'aime de fou gro.
+C'est terrible l'attachement que j'ai pour toi ptn. Je vais lâcher le mot que tu n'aimes pas car il est trop fort, et il fait trop pédé mdrr, mais JE T'AIME de fou gro.
 
 ## Ce que tu es pour moi 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
