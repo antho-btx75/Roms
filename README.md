@@ -10,7 +10,7 @@ Répète 4 à 8 fois.
 
 [Tuto Tiktok](https://vm.tiktok.com/ZNRmNnDjM/)
 
-Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des base scientifiques. Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
+Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des base scientifiques, c'est ce qu'on appelle la cohérence cardiaque. Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 
 Je ne me sens plus bien frère depuis que je sais que tu as ces problèmes. Je me sens tellement connecté à toi.
 
