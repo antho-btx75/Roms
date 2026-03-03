@@ -59,8 +59,8 @@ Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comm
 
 Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💙💜
 
-[Bite](https://drive.google.com/file/d/1vqsrTV_GTTcHCPNPvj5uKN9ZJvDLY6oZ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
+[Bite](https://drive.google.com/file/d/1vqsrTV_GTTcHCPNPvj5uKN9ZJvDLY6oZ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1kZMhpaftWByAtVuTqb34z8C3JIef295b/view?usp=drivesdk)
 
-[Teub](https://drive.google.com/file/d/1kF4-xkxs1hB8C__mCUegl47mRBj6fYrq/view?usp=drivesdk) / [Trou de balle](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk)
+[Teub](https://drive.google.com/file/d/16yAh1zjRWWaiW6IJnMAhJrYPhdvfQLeO/view?usp=drivesdk) / [Trou de balle](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) 
 
-[Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk)
+[Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
