@@ -10,9 +10,9 @@ Répète 4 à 8 fois.
 
 [Tuto Tiktok](https://vm.tiktok.com/ZNRmNnDjM/)
 
-Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des base scientifiques, c'est ce qu'on appelle la cohérence cardiaque. Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
+Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des bases scientifiques, c'est ce qu'on appelle la cohérence cardiaque. Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 
-Je ne me sens plus bien frère depuis que je sais que tu as ces problèmes. J'ai peur que tu souffres de dépression gro. Je me sens tellement connecté à toi.
+Je ne me sens plus bien frère depuis que je sais que tu as ces problèmes. J'ai peur que tu souffres de dépression gro. Je me sens tellement connecté à toi. Je ressens tout ce que ce que tu ressens, je t'assure c'est vrai, Roms.
 
 ## Ce que tu es pour moi 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
