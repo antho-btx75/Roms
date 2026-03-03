@@ -1,5 +1,12 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+## Ce que tu es pour moi 
+Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
+
+Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
+
+Je suis pour toujours TON Antho.
+
 Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Déjà en ligne, alors imagine en vrai mdrr.
 
 C'est pour ça que j'étais content à l'idée de partir en vacances ensemble. Mais bon tant pis, pas pour cette fois gro...
@@ -16,13 +23,6 @@ Au Japon ce serait le kiff putain.
 Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
 
 C'est terrible l'attachement que j'ai pour toi ptn. Je vais lâcher le mot que tu n'aimes pas car il est trop fort, et il fait trop pédé mdrr, mais JE T'AIME de fou gro.
-
-## Ce que tu es pour moi 
-Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
-
-Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
-
-Je suis pour toujours TON Antho.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
@@ -51,7 +51,7 @@ Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu
 
 J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
-T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à faire ça sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr. 
+T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à faire ça sur moi. Depuis que je te connais je suis Romainsexuel à 200% mdrrr 🍑🍆💦
 
 Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
 
