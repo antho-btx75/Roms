@@ -1,9 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-On partira peut-être pas en vacs cette fois-ci, mais j'espère qu'on se verra IRL pendant notre semaine de vacs commune 🥺
-Après je comprends si t'es fatigué, si tu dois d'abord régler certains problèmes, la sante surtout. Mais pense à moi si t'as un moment de libre. Je kiffe partager du temps avec toi gro. Déjà en ligne, alors imagine en vrai mdrr.
-
-Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. 
+Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Déjà en ligne, alors imagine en vrai mdrr.
 
 C'est pour ça que j'étais content à l'idée de partir en vacances ensemble. Mais bon tant pis, pas pour cette fois gro...
 Cest pas grave frère, et ne sois pas désolé, non c'est pas de ta faute. On contrôle pas tout dans la vie c'est ainsi. 
