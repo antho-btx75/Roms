@@ -1,5 +1,17 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+Essaie de te coucher tôt ce soir mon Romain. 
+Et si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 
+
+Inspire par le nez pendant 4 secondes.  
+Bloque ta respiration 7 secondes.  
+Expire lentement par la bouche pendant 8 secondes.
+Répète 4 à 8 fois.  
+
+Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des base scientifiques. Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
+
+Je ne me sens plus bien frère depuis que je sais que tu as ces problèmes. Je me sens tellement connecté à toi.
+
 ## Ce que tu es pour moi 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
