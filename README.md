@@ -7,6 +7,8 @@ Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels q
 
 Je suis pour toujours TON Antho.
 
+![Pour toi mon gars](https://i.ibb.co/tMMXK8Gz/image-9.jpg)
+
 Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.
 
 C'est pour ça que j'étais content à l'idée de partir en vacances ensemble. Mais bon tant pis, pas pour cette fois gro...
