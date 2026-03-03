@@ -64,7 +64,7 @@ C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie 
 [![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 [Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
 
-## Je serai toujours là mon Roms
+## Je serai toujours là pour toi, mon Roms 🙏🏻
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
 J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
