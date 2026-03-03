@@ -1,5 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+Mon gars, je sais que ce j'écris ici est fort, c'est ce que je ressens pour toi, mais j'aimerais pas être en partie responsable de tes insomnies. Je pense alléger le texte si c'est trop puissant à lire et à encaisser. D'autant plus que tu sais très bien tous les effets que tu fais sur moi depuis archi longtemps.
+
 ## Ce que tu es pour moi 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
