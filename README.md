@@ -7,7 +7,7 @@ Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels q
 
 Je suis pour toujours TON Antho.
 
-Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Déjà en ligne, alors imagine en vrai mdrr.
+Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.
 
 C'est pour ça que j'étais content à l'idée de partir en vacances ensemble. Mais bon tant pis, pas pour cette fois gro...
 Cest pas grave frère, et ne sois pas désolé, non c'est pas de ta faute. On contrôle pas tout dans la vie c'est ainsi. 
