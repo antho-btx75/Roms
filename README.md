@@ -1,5 +1,9 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+Dès qu'il est question de toi je suis toujours cho gro mdr
+
+
+
 Essaie de te coucher tôt ce soir mon Romain. 
 Et si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 
 
