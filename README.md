@@ -28,7 +28,7 @@ Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu a
 Au Japon ce serait le kiff putain.
 Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
 
-C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie pour toujours.
+C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également.
 
 ## Sommeil et cogitations 
 Si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 
