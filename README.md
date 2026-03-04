@@ -1,5 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+Dors bien mon Romain. Et n'oublie pas les techniques que j'ai mises ici si t'as du mal à dormir cette nuit. Et n'oublie pas que, quoi qu'il arrive, je suis là pour toi, et je le serai toujours, mon gars... 💙💜
+
 Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n'importe quoi 💪🏻
 
 ## Ce que tu es pour moi 💙💜
