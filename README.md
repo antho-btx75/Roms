@@ -2,22 +2,6 @@
 
 Dès qu'il est question de toi je suis toujours cho gro mdr
 
-
-
-Essaie de te coucher tôt ce soir mon Romain. 
-Et si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 
-
-Inspire par le nez pendant 4 secondes.  
-Bloque ta respiration 7 secondes.  
-Expire lentement par la bouche pendant 8 secondes.
-Répète 4 à 8 fois.  
-
-[Tuto Tiktok](https://vm.tiktok.com/ZNRmNnDjM/)
-
-Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des bases scientifiques, c'est ce qu'on appelle la cohérence cardiaque. Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
-
-Je ne me sens plus bien frère depuis que je sais que tu as ces problèmes. J'ai peur que tu souffres de dépression gro. Je me sens tellement connecté à toi. Je ressens tout ce que tu ressens, je t'assure c'est vrai, Roms.
-
 ## Ce que tu es pour moi 💙💜
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
@@ -45,6 +29,26 @@ Au Japon ce serait le kiff putain.
 Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
 
 C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie pour toujours.
+
+## Sommeil et cogitations 
+Si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 
+
+Inspire par le nez pendant 4 secondes.  
+Bloque ta respiration 7 secondes.  
+Expire lentement par la bouche pendant 8 secondes.
+Répète 4 à 8 fois.  
+
+[Tuto Tiktok](https://vm.tiktok.com/ZNRmNnDjM/)
+
+Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des bases scientifiques, c'est ce qu'on appelle la cohérence cardiaque. 
+
+Beaucoup de gens avec le même problème testent le "brown noise" (bruit marron profond, genre cascade lointaine ou ronron grave). Essaie celui-là par exemple, à faible volume (sans écouteurs) :
+
+[Bruit marron](https://youtu.be/MjZ5K8L5to8?si=Boj5kpopiLQmJT5y)
+
+Pratiquer la respiration 4-7-8 en écoutant un brown noise peut beaucoup aider pour calmer le mental.
+
+Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
