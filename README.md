@@ -60,8 +60,7 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 
 [vidéo Menton/Monaco (mdp : Gfcarrefour)](https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci)
 
-[TON T SHIRT LACOSTE MAUVE FRÈRE 🤣](
-https://drive.google.com/file/d/1STkYqj6xQlgAQ7J6nQRefJj4JpmchsUu/view?usp=drivesdk)
+[![Ton T shirt Lacoste mauve](https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg)](https://drive.google.com/file/d/1STkYqj6xQlgAQ7J6nQRefJj4JpmchsUu/view?usp=drivesdk)
 
 ## Taff
 [CV Romain](https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit)
