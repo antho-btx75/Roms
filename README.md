@@ -13,7 +13,7 @@ Je suis pour toujours TON Antho.
 
 ![Pour toi mon gars](https://i.ibb.co/tMMXK8Gz/image-9.jpg)
 
-Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse.
+[Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse.](https://drive.google.com/file/d/1086zzalbmd-AGKj9_vl8pNkq8QtVaaWr/view?usp=drivesdk)
 
 Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.
 
