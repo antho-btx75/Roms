@@ -4,7 +4,7 @@ Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, 
 
 Je suis là pour toi, et je le serai toujours, mon gars... 💙💜
 
-Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t'ai toujours en tête.
+Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t'ai toujours en tête. T'es en moi H24.
 
 Pour tes 30 piges je t'ai offert une casquette avec tes initiales, en 2023 un an après que tu sois parti de Carrefour, laisse moi t'offrir ce que je veux frère pour tes annivs. Tu m'as parlé d'une paire de chaussettes y'a 2 ans, en vrai de vrai même ça laisse moi te l'offrir mdrr. Ou une paire de pompes, sans me dire "mdrrr t'es fou". Oai chuis fou gro. Chuis fou de toi.
 
