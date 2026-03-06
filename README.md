@@ -6,6 +6,7 @@ Je suis là pour toi, et je le serai toujours, mon gars... 💙💜
 
 Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t'ai toujours en tête.
 
+Pour tes 30 piges je t'ai offert une casquette, laisse moi t'offrir ce que je veux frère. Tu m'as parlé d'une paire de chaussettes, en vrai de vrai même ça laisse moi de l'offrir mdrr. Ou une paire de pompes, sans me dire "mdrrr t'es fou". Oai chuis fou gro. Chuis fou de toi.
 
 ## Ce que tu es pour moi 💙💜
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
