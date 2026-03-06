@@ -99,7 +99,7 @@ Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comm
 Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💙💜
 
 
-Pile ou/et face, selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars. Je m'offre à toi à 100% .
+Pile ou/et face, selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%. C'est énorme les effets que tu fais sur moi.
 
 [Teub](https://drive.google.com/file/d/1v5mvrW6Z10raG4LF9KME-qovFxLheFDJ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
 
