@@ -87,11 +87,11 @@ Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu
 
 <span style="color: purple;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
-T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr 🍑🍆💦
+<span style="color: purple;">T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr 🍑🍆💦</span>
 
-T’es bandant de fou gro, srx. Tu dégages une vibe qui me donne envie de baiser grave avec toi. Se pépom la teub mutuellement ou de la baise pure, une bonne queue dans le baltrou (le mien ou le tien, c'est toi le boss là-dessus)... c’est un désir brut qui me traverse et je l'assume à 200 %.
+<span style="color: purple;">T’es bandant de fou gro, srx. Tu dégages une vibe qui me donne envie de baiser grave avec toi. Se pépom la teub mutuellement ou de la baise pure, une bonne queue dans le baltrou (le mien ou le tien, c'est toi le boss là-dessus)... c’est un désir brut qui me traverse et je l'assume à 200 %.</span>
 
-Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr)</span>, un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
+<span style="color: purple;">Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr)</span>, un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
 
 T’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici.
 
