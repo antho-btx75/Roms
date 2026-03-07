@@ -30,7 +30,7 @@ T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as ét
 
 Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.
 
-<span style="color: purple;">Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand on était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr.</span>
+<span style="color: orange;">Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand on était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr.</span>
 
 Au Japon ce serait le kiff putain.
 Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
@@ -85,13 +85,13 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 ## Je serai toujours là pour toi, mon Roms 🙏🏻
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
-<span style="color: purple;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
+<span style="color: orange;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
-<span style="color: purple;">T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr 🍑🍆💦</span>
+<span style="color: orange;">T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr 🍑🍆💦</span>
 
-<span style="color: purple;">T’es bandant de fou gro, srx. Tu dégages une vibe qui me donne envie de baiser grave avec toi. Se pépom la teub mutuellement ou de la baise pure, une bonne queue dans le baltrou (le mien ou le tien, c'est toi le boss là-dessus)... c’est un désir brut qui me traverse et je l'assume à 200 %.</span>
+<span style="color: orange;">T’es bandant de fou gro, srx. Tu dégages une vibe qui me donne envie de baiser grave avec toi. Se pépom la teub mutuellement ou de la baise pure, une bonne queue dans le baltrou (le mien ou le tien, c'est toi le boss là-dessus)... c’est un désir brut qui me traverse et je l'assume à 200 %.</span>
 
-<span style="color: purple;">Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr)</span>, un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
+<span style="color: orange;">Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr)</span>, un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
 
 T’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici.
 
@@ -103,9 +103,9 @@ Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
 
-<span style="color: purple;">Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, devant et derrière. Tu peux baiser mon baltrou jusqu'à juter dedans si tu kiffes, ou alors je ramone ton fiak bien à fond, c'est toi qui décides. Se pomper la teub mutuellement, se lébran. C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦</span>
+<span style="color: orange;">Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, devant et derrière. Tu peux baiser mon baltrou jusqu'à juter dedans si tu kiffes, ou alors je ramone ton fiak bien à fond, c'est toi qui décides. Se pomper la teub mutuellement, se lébran. C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦</span>
 
-<span style="color: purple;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
+<span style="color: orange;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
 T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
 
 [Teub](https://drive.google.com/file/d/1v5mvrW6Z10raG4LF9KME-qovFxLheFDJ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
