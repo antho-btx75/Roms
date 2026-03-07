@@ -1,6 +1,9 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-ça fait si mal d'essayer de comprendre gro. Ça fait mal de kiffer quelqu'un sa race, de l'aimer sur tous les plans, d'aimer son cœur, son âme, son corps, le désirer sexuellement, vouloir être toujours à ses côtés, le soutenir, l'aider et l'aimer. L'aimer, tout simplement. C'est ce que je ressens pour toi, mon gars.
+mon Romain, le nombre de fois où j'étais de fermeture et j'étais déjà debout dès 7h20 pour être en ligne sur Messenger et te répondre le plus vite possible sur snapchat pour toi... stp, demain matin envoie moi un petit message sur Snapchat pour mon dernier jour avant mes vacs vers 8h, même si tu te rendors ensuite jusqu'à 11h mdrr.
+J'ai tellement besoin de ton soutien, je te kiffe tellement mon gars. T'es tout pour moi mon Romain, t'es ma personne préférée, celle que je kiffe le plus au monde...
+
+Et ça fait si mal d'essayer de comprendre gro. Ça fait mal de kiffer quelqu'un sa race, de l'aimer sur tous les plans, d'aimer son cœur, son âme, son corps, le désirer sexuellement, vouloir être toujours à ses côtés, le soutenir, l'aider et l'aimer. L'aimer, tout simplement. C'est ce que je ressens pour toi, mon gars.
 
 J'ose même pas te demander si t'es aussi en vacances mon gars même si je me doute que tu dois l'être. J'ai tellement peur de souffrir si je te propose un truc pendant nos vacances en commun et que tu veux pas 🥺🥺
 
