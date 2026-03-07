@@ -2,7 +2,7 @@
 
 J'ose pas te demander si t'es aussi en vacances mon gars même si je me doute que tu dois l'être. J'ai tellement peur de souffrir si je te propose un truc pendant nos vacances en commun et que tu veux pas 🥺🥺
 
-T'as peut-être envie d'être tranquille ou bien de voir d'autres potes. Du coup cette semaine, censée être une semaine de repos, risque d'être assez fatiguante mentalement pour moi en vérité. Une semaine de congés mais sans Romain 😭😭
+T'as peut-être envie d'être tranquille ou bien de voir d'autres potes. Du coup cette semaine, censée être une semaine de repos, risque d'être assez fatiguante mentalement pour moi en vérité. Une semaine de congés mais sans Romain, c'est une torture mentale 😭😭
 
 Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n'importe quoi 💪🏻
 
