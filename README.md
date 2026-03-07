@@ -29,7 +29,7 @@ T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as ét
 
 Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.
 
-Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr.
+Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand ok était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr.
 
 Au Japon ce serait le kiff putain.
 Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
