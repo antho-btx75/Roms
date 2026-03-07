@@ -6,7 +6,9 @@ J'ose même pas te demander si t'es aussi en vacances mon gars même si je me do
 
 Et je sais que je vais souffrir gro. Ça fait 10 piges que j'ai mal.
 
-T'as peut-être envie d'être tranquille ou bien de voir d'autres potes. Du coup cette semaine, censée être une semaine de repos, risque d'être assez fatiguante mentalement pour moi en vérité. Une semaine de congés mais sans Romain, c'est une torture mentale 😭😭
+T'as peut-être envie d'être tranquille ou bien de voir d'autres potes. Du coup cette semaine, censée être une semaine de repos, risque d'être assez fatiguante mentalement pour moi en vérité. Une semaine de congés... mais sans Romain, c'est une torture mentale PTN 😭😭
+
+Chuis même pas encore en "vacances" et je suis deja ARCHI GRIS d'avance frère... Alors oui tu as raison, je les ai méritées ces vacances, car j'ai charbonné de fou depuis octobre. Mais je sais que je vais me sentir triste....
 
 Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n'importe quoi 💪🏻
 
