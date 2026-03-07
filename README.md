@@ -105,7 +105,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, devant et derrière. Tu peux baiser mon baltrou jusqu'à juter dedans si tu kiffes, ou alors je ramone ton fiak bien à fond, c'est toi qui décides. Se pomper la teub mutuellement, se lébran. C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
 Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
-T'as un pouvoir absolu sur moi 🥵🔥
+T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥
 
 [Teub](https://drive.google.com/file/d/1v5mvrW6Z10raG4LF9KME-qovFxLheFDJ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
 
