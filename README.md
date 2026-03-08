@@ -1,7 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 
-
 Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n'importe quoi 💪🏻
 
 Je suis là pour toi, et je le serai toujours, mon gars... 💙💜
@@ -87,13 +86,13 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 ## Je serai toujours là pour toi, mon Roms 🙏🏻
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
-<span style="color: red;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
+<span style="color: red;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Chaque centimètre carré de ta peau. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
 <span style="color: red;">T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr 🍑🍆💦</span>
 
 <span style="color: red;">T’es bandant de fou gro, srx. Tu dégages une vibe qui me donne envie de baiser grave avec toi. Se pépom la teub mutuellement ou de la baise pure, une bonne queue dans le baltrou (le mien ou le tien, c'est toi le boss là-dessus)... c’est un désir brut qui me traverse et je l'assume à 200 %.</span>
 
-<span style="color: red;">Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr)</span>, un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
+<span style="color: red;">Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr)</span>, un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer en silence sans rien dire.
 
 T’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici.
 
