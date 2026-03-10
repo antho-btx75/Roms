@@ -1,7 +1,5 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-On part demain gro je suis heureux ! On va enfin pouvoir se détendre et kiffer de fou mon gars.
-
 Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n'importe quoi 💪🏻
 
 Je suis là pour toi, et je le serai toujours, mon gars... 💙💜
