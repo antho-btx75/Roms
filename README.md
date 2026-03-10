@@ -1,5 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+il est en train de te faire câbler gro je le sens.. 😭😭😭
 
 Je suis là pour toi, et je le serai toujours, mon gars... 💙💜
 
