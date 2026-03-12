@@ -3,6 +3,8 @@
 Dors bien frère. Je suis heureux d'être avec toi mon gars.
 Escuze pour le liquide pré séminal. J'essaye de contrôler l'érection mais le precum j'peux pas mdr. 😅
 
+Il fait tellement noir viens on dort dans le même lit 🤣
+
 Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n'importe quoi 💪🏻
 
 Je suis là pour toi, et je le serai toujours, mon gars... 💙💜
