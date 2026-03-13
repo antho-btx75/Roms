@@ -1,7 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 Dors bien frère. Je suis heureux d'être avec toi mon gars.
-Escuze pour le liquide pré séminal. J'essaye de contrôler l'érection mais le precum j'peux pas mdr. 😅
+Escuze pour le liquide pré séminal. J'essaye de contrôler l'érection mais le precum j'peux pas tu me fais trop bander mdr. 😅
 
 Il fait tellement noir viens on dort dans le même lit rejoins moi gro 🤣
 Comme je t'ai dit chuis Romainsexuel, j'ai besoin de toi.
