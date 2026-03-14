@@ -2,11 +2,14 @@
 
 J'ai pas envie d'être à lundi. Je veux pas que ca s'arrête c'était trop bien d'être avec toi. 🥺🥺😭
 
-Je suis heureux d'être avec toi mon gars. J'ai kiffé sentir encore tout ton poids contre moi.
-Escuze pour le liquide pré séminal. J'essaye de contrôler l'érection mais le precum j'peux pas tu me fais trop bander mdr. 😅
+Je suis gris... 
 
-Il fait tellement noir viens on dort dans le même lit rejoins moi gro 🤣
-Comme je t'ai dit chuis Romainsexuel, j'ai besoin de toi.
+J'étais heureux d'être avec toi mon gars. J'ai kiffé sentir encore tout ton poids contre moi sur le canapé.
+
+Plus je passe du temps avec toi et plus je te kiffe gro. C'était vraiment cool ces jours passés ensemble. No prise de tête, on se complète bien. En vrai de vrai le seul truc qui me fout le seum c'est de pas être une meuf mdrr 😅
+
+
+Et esuze pour le liquide pré séminal. J'ai essayé de contrôler l'érection mais le precum j'peux pas tu me fais trop bander mdr. 😅
 
 Dès qu'il s'agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n'importe quoi 💪🏻
 
