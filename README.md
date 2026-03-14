@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-J'ai pas envie d'être à lundi. Jz veux pas que ca s'arrête c'était trop bien d'être avec toi. Je suis heureux d'être avec toi mon gars.
+J'ai pas envie d'être à lundi. Jz veux pas que ca s'arrête c'était trop bien d'être avec toi. Je suis heureux d'être avec toi mon gars. J'ai kiffé sentir encore tout ton poids contre moi.
 Escuze pour le liquide pré séminal. J'essaye de contrôler l'érection mais le precum j'peux pas tu me fais trop bander mdr. 😅
 
 Il fait tellement noir viens on dort dans le même lit rejoins moi gro 🤣
