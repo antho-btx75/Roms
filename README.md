@@ -8,7 +8,9 @@ J'étais heureux d'être avec toi mon gars. J'ai kiffé sentir encore tout ton p
 
 Plus je passe du temps avec toi et plus je te kiffe gro. C'était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s'entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c'est de pas être une meuf mdrr 😅 je ferais de toi le plus heureux des gars, sachant que je fais déjà le max en etant un mec 😂
 
-L'ensemble du Barça je te l'aurai acheté direct gars. Justement quand t'as dit que personne tz faisait des cadeaux je voulais encore plus te l'offrir 😭😭😭
+Tout à l'heure l'ensemble du Barça je te l'aurai acheté direct gars. Justement quand t'as dit que personne te faisait des cadeaux je voulais encore plus te l'offrir 😭😭😭
+
+T'aurais été tellement stylé dedans.
 
 T'es ma personne préférée EVER.
 
