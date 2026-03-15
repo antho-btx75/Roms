@@ -77,7 +77,7 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 
 ## Voyages
 
-[Vidéo Barcelona](https://vimeo.com/1173761871/397bbf4363?fl=pl&fe=sh)
+[Vidéo Barcelona 💙❤️](https://vimeo.com/1173761871/397bbf4363?fl=pl&fe=sh)
 
 [video Sanremo (mdp : Gfcarrefour)](https://vimeo.com/1112710905?fl=pl&fe=sh)
 
