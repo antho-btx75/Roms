@@ -6,7 +6,7 @@ Je suis gris...
 
 J'étais heureux d'être avec toi mon gars. J'ai kiffé sentir encore tout ton poids contre moi sur le canapé.
 
-Plus je passe du temps avec toi et plus je te kiffe gro. C'était vraiment cool ces jours passés ensemble. On était libres tous les deux. No prise de tête, on s'entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c'est de pas être une meuf mdrr 😅
+Plus je passe du temps avec toi et plus je te kiffe gro. C'était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s'entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c'est de pas être une meuf mdrr 😅
 
 
 Et excuse pour le liquide pré séminal sur mon short de nuit. J'ai essayé de contrôler l'érection mais le precum j'peux pas tu me fais trop bander mdr, Je m'en suis rendu compte en regardant mon short. 😅
