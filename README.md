@@ -38,10 +38,9 @@ Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse.
 
 Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.
 
-C'est pour ça que j'étais content à l'idée de partir en vacances ensemble. Mais bon tant pis, pas pour cette fois gro...
-Cest pas grave frère, et ne sois pas désolé, non c'est pas de ta faute. On contrôle pas tout dans la vie c'est ainsi. 
 
-J'aimerais vraiment partir au Japon avec toi. J'ai encore ce petit espoir en moi mdrrr.
+
+J'aimerais vraiment partir au Japon avec toi. 
 T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as été génial de A à Z.
 
 Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.
