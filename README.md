@@ -86,6 +86,9 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
 
 ## Voyages
+
+[Vidéo Barcelona](https://vimeo.com/1173761871/397bbf4363?fl=pl&fe=sh)
+
 [video Sanremo (mdp : Gfcarrefour)](https://vimeo.com/1112710905?fl=pl&fe=sh)
 
 [vidéo Menton/Monaco (mdp : Gfcarrefour)](https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci)
