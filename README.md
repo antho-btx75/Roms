@@ -10,7 +10,7 @@ L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as
 
 T’aurais été tellement stylé dedans.
 
-T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien oayer5 toi." En vrai c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et t'es tout en haut de la pyramide des gens que j'aime Roms.
+T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et t'es tout en haut de la pyramide des gens que j'aime Roms.
 
 Et excuse pour le liquide pré séminal sur mon short de nuit. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅
 
