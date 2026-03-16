@@ -15,7 +15,7 @@ T’aurais été tellement stylé dedans.
 
 T’es ma personne préférée EVER.
 
-Et excuse pour le liquide pré séminal sur mon short de nuit. J’ai essayé de contrôler l’érection mais le precum j’peux pas tu me fais trop bander mdr, Je m’en suis rendu compte en regardant mon short. 😅
+Et excuse pour le liquide pré séminal sur mon short de nuit. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander mdr](#Baise), Je m’en suis rendu compte en regardant mon short. 😅
 
 Dès qu’il s’agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n’importe quoi 💪🏻
 
@@ -126,6 +126,8 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 <span style="color: red;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
 T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
+
+## Baise
 
 [Teub](https://drive.google.com/file/d/1v5mvrW6Z10raG4LF9KME-qovFxLheFDJ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
 
