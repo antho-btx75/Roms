@@ -2,7 +2,7 @@
 
 Je suis gris… enfin gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie normale (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
-J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé.
+J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé. J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon gars.
 
 Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
 
@@ -10,7 +10,7 @@ L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as
 
 T’aurais été tellement stylé dedans.
 
-T’es ma personne préférée EVER.
+T’es ma personne préférée EVER, mon Romain.
 
 Et excuse pour le liquide pré séminal sur mon short de nuit. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅
 
