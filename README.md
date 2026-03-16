@@ -15,7 +15,7 @@ T’aurais été tellement stylé dedans.
 
 T’es ma personne préférée EVER.
 
-Et excuse pour le liquide pré séminal sur mon short de nuit. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅
+Et excuse pour le liquide pré séminal sur mon short de nuit. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅
 
 Dès qu’il s’agit de toi je suis toujours cho gro mdr. Tu peux compter sur moi, tout le temps présent, à toute heure et pour n’importe quoi 💪🏻
 
