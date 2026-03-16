@@ -117,11 +117,6 @@ Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
 
-<span style="color: red;">Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, devant et derrière. Tu peux baiser mon baltrou jusqu'à juter dedans si tu kiffes, ou alors je ramone ton fiak bien à fond, c'est toi qui décides. Se pomper la teub mutuellement, se lébran. C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦</span>
-
-<span style="color: red;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
-T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
-
 ## Baise
 
 [Teub](https://drive.google.com/file/d/1v5mvrW6Z10raG4LF9KME-qovFxLheFDJ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
@@ -130,7 +125,9 @@ T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span
 
 [Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
 
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
+<span style="color: red;">Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, devant et derrière. Tu peux baiser mon baltrou jusqu'à juter dedans si tu kiffes, ou alors je ramone ton fiak bien à fond, c'est toi qui décides. Se pomper la teub mutuellement, se lébran. C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦</span>
+
+<span style="color: red;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
+T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
+
+
