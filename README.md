@@ -35,17 +35,11 @@ Je suis pour toujours TON Antho.
 
 Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse.
 
-Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.
-
-J'aimerais vraiment partir au Japon avec toi. 
-T'es un mec génial en vacances, en Italie je garde de super souvenirs, t'as été génial de A à Z.
+Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 7 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr. 
 
 Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.
 
 <span style="color: red;">Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand on était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr.</span>
-
-Au Japon ce serait le kiff putain.
-Et sinon comme je te dis : se capter IRL un jour pendant notre semaine de vacs gro. En espérant avant tout que tu règles certains problèmes également. Je sais qu'il y en a beaucoup dans ta vie. Et J'aimerais tant pouvoir t'aider à les résoudre mon Roms... Le plus important c'est que tu t'occupes de toi AVANT tout, et que tu te reposes aussi.
 
 C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également.
 
