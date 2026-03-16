@@ -2,7 +2,7 @@
 
 Je suis gris… enfin gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie normale (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
-J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé. J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon gars, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣
+J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé. J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon Roms, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣
 
 Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai de vrai j'ai réellement kiffé ces films. A 200% !!
 
