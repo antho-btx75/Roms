@@ -2,6 +2,8 @@
 
 C'est dur d'être toujours fort mon gars... 
 
+Elle est étrange la vie. Les gens sont encore plus étranges. Mais je suis là, naviguant au milieu de ces étrangetés de l'existence, dans ce non sens dans lequel on cherche tous à trouver un sens.
+
 ![Gris](https://i.ibb.co/8DLVg9nM/Picsart-26-03-17-23-13-56-315.png)
 
 Parle moi sur Snapchat stp mon Rominou 🥺💙💜
