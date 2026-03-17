@@ -1,5 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+![Gris](https://drive.google.com/file/d/1JBLMcvABcmhde_0G8sdC7N3wG40rvsh0/view?usp=drivesdk)
+
 Parle moi sur Snapchat stp mon Rominou 🥺💙💜
 
  J'ai l'impression que tu es gris mon Romain. Ça m'enerve car j'ai l'impression qu'il y a des personnes qui te font câbler pour des conneries, et tu mérites pas de subir cette toxicité...
