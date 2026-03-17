@@ -1,5 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+Parle moi sur Snapchat stp mon Rominou 🥺💙💜
+
  J'ai l'impression que tu es gris mon Romain. Ça m'enerve car j'ai l'impression qu'il y a des personnes qui te font câbler pour des conneries, et tu mérites pas de subir cette toxicité...
 
 Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, chercher à te faire culpabiliser et tout... Confie toi gro, je veux pas que tu souffres.
