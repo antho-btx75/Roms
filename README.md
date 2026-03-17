@@ -1,5 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+C'est dur d'être toujours fort mon gars... 
+
 ![Gris](https://i.ibb.co/8DLVg9nM/Picsart-26-03-17-23-13-56-315.png)
 
 Parle moi sur Snapchat stp mon Rominou 🥺💙💜
