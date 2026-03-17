@@ -4,6 +4,8 @@
 
 Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, chercher à te faire culpabiliser et tout... Confie toi gro, je veux pas que tu souffres.
 
+C'est aussi ça qui me rend triste et gris par moment. On a du mal encore à se confier, à dire les mots, ce que l'on ressent réellement au fond de nous. C'est très difficile de rester prisonnier de l'image que l'on doit renvoyer, celle que la société nous impose. Il y a des choses à sortir qui sont difficiles à sortir. Moi aussi en vrai j'ai du mal, car j'ai peur de vraiment dire ce que j'ai au fond de moi. Et à l'inverse j'aimerais t'entendre dire des choses qui sont peut être tout aussi difficiles à dire.
+
 Je serai toujours là pour toi tu le sais.
 T’es quelqu’un de tellement spécial pour moi, tu comptes énormément mon gars.
 Ce que je ressens pour toi, c’est hors norme.
