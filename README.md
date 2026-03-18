@@ -23,10 +23,12 @@ L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as
 
 T’aurais été tellement stylé dedans.
 
+Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a fait chaud au cœur de savoir que ta mère s'intéressait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.
+
 ## Ce que tu es pour moi 💙💜
 T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et toi ptn mais t'es tout en haut de la pyramide des gens que j'aime Roms.
 
-Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅
+Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#bai en se), Je m’en suis rendu compte en regardant mon short. 😅
 
 Faut savoir que moi de base je suis pas pédé, juste des tendances bi, mais comme je dis plus bas depuis que je te connais je suis Romainsexuel mdrrr. Faut dire t'as tout pour toi, t'es gentil, t'es drôle, t'es beau, t'es sexy, t'es vrai, t'es profond et t'es surtout le seul mec avec qui je peux être moi-même. T'as ce truc qui balaye tout le gris autour de moi. T'es ma personne préférée parce que t'es unique, tout simplement. T’es un mec à part, avec une vibe que j'ai jamais vue ailleurs, et c'est ce mélange qui fait que je perds tout contrôle avec toi.
 
