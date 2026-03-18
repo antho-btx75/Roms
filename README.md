@@ -110,7 +110,8 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 
 
 [![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8)
-[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8)
+[Win Roms, Win! La réussite se compte en années, les défaites en heures
+Mais la patience est carrée donc le chemin est d'or 💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8)
 ## Je serai toujours là pour toi, mon Roms 🙏🏻
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
