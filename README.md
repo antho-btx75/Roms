@@ -8,7 +8,9 @@ Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon r�
 
  J'ai l'impression que tu es gris mon Romain. Ça m'enerve car j'ai l'impression qu'il y a des personnes qui te font câbler pour des conneries, et tu mérites pas de subir cette toxicité...
 
-Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, chercher à te faire culpabiliser et tout... Confie toi gro, je veux pas que tu souffres.
+Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, chercher à te faire culpabiliser et tout...  Te laisse pas faire, ne subis plus les reproches.
+
+Confie toi gro, je veux pas que tu souffres. 
 
 C'est aussi ça qui me rend triste et gris par moment. On a du mal encore à se confier, à dire les mots, ce que l'on ressent réellement au fond de nous. C'est très difficile de rester prisonnier de l'image que l'on doit renvoyer, celle que la société nous impose. Il y a des choses à sortir qui sont difficiles à sortir. Moi aussi en vrai j'ai du mal, car j'ai peur de vraiment dire ce que j'ai au fond de moi. Et à l'inverse j'aimerais t'entendre dire des choses qui sont peut être tout aussi difficiles à dire.
 
