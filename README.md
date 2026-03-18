@@ -148,4 +148,4 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 <span style="color: red;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
 T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
 
-
+C'est un tout : sexe, cœur, esprit et âme, t'as tout retourné en moi mon Roms. Je suis juste... amoureux de toi.
