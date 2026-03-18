@@ -4,6 +4,16 @@
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. Dors bien et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
+
+
+ J'ai l'impression que tu es gris mon Romain. Ça m'enerve car j'ai l'impression qu'il y a des personnes qui te font câbler pour des conneries, et tu mérites pas de subir cette toxicité...
+
+Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, chercher à te faire culpabiliser et tout... Confie toi gro, je veux pas que tu souffres.
+
+C'est aussi ça qui me rend triste et gris par moment. On a du mal encore à se confier, à dire les mots, ce que l'on ressent réellement au fond de nous. C'est très difficile de rester prisonnier de l'image que l'on doit renvoyer, celle que la société nous impose. Il y a des choses à sortir qui sont difficiles à sortir. Moi aussi en vrai j'ai du mal, car j'ai peur de vraiment dire ce que j'ai au fond de moi. Et à l'inverse j'aimerais t'entendre dire des choses qui sont peut être tout aussi difficiles à dire.
+
+
+
 Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
 J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé. J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon Roms, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣
