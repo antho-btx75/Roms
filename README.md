@@ -28,7 +28,9 @@ T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aime
 
 Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅
 
-Dès qu’il s’agit de toi je suis toujours cho gro mdr. Cho sur tous les plans, pas que le sexe, mais tout, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻
+Faut savoir que moi de base je suis pas pédé, juste des tendances bi, mais comme je dis plus bas depuis que je te connais je suis Romainsexuel mdrrr.
+
+Dès qu’il s’agit de toi je suis toujours cho gro. Cho sur tous les plans, pas que le sexe, mais tout, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux et que je veux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻
 
 Je suis là pour toi, et je le serai toujours, mon gars… 💙💜
 
