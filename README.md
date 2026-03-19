@@ -101,7 +101,7 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 
 
 [![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
-[Win Roms, Win!💪🏻]([https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
+[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
 La réussite se compte en années, les défaites en heures
 Mais la patience est carrée donc le chemin est d'or
 
