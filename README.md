@@ -10,7 +10,7 @@ J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout
 
 <span style="color: blue;">Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... </span>
 
-<span style="color: blue;">La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. Je suis ton soldat frère mdrrr.</span>
+<span style="color: blue;">La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. </span>
 
 Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai j'ai réellement kiffé ces films. A 200% !!
 
@@ -38,6 +38,8 @@ Pour tes 30 piges je t’ai offert une casquette avec tes initiales, en 2023 un 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
+
+Je suis ton soldat frère mdrrr.
 
 Je suis pour toujours TON Antho.
 
