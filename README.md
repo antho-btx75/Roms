@@ -8,7 +8,9 @@ Tu vis suffisamment dans un environnement toxique pour en plus en subir encore p
 
 Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
-J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé. J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon Roms, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣. Tu semblais surpris qu'il y avait 2 chambres. En vrai de vrai j'aurais dû louer un Airbnb avec une seule chambre 🤣
+J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé, quand tu m'expliquais les buffs apportés par certains persos avec des teams mixtes et que tu m'as dit "t'as rien capté"  car t'as vu que ton corps collé au mien me faisait du bien mdrr. Mais j'ai capté frère 😅🤣🤣
+
+J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon Roms, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣. Tu semblais surpris qu'il y avait 2 chambres. En vrai de vrai j'aurais dû louer un Airbnb avec une seule chambre 🤣
 
 Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... 
 
