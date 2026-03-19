@@ -4,7 +4,7 @@
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. Dors bien et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
-Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, chercher à te faire culpabiliser et tout… Te laisse pas faire, ne subis plus les reproches. Résiste ou confie-toi gro, je veux pas que tu souffres.
+Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, des personnes qui cherchent à te faire culpabiliser et tout… Te laisse pas faire, ne subis plus les reproches. Résiste ou confie-toi gro, je veux pas que tu souffres.
 
 Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
