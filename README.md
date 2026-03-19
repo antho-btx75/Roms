@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-## T'es mon Roms, je suis ton Antho 
+## T'es mon Roms, et je suis ton soldat, ton Antho 
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. Dors bien et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
@@ -10,7 +10,7 @@ J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout
 
 <span style="color: blue;">Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... </span>
 
-<span style="color: blue;">La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. </span>
+<span style="color: blue;">La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. Je suis ton soldat frère mdrrr.</span>
 
 Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai j'ai réellement kiffé ces films. A 200% !!
 
@@ -30,16 +30,14 @@ Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'ét
 
 Dès qu’il s’agit de toi je suis toujours cho gro mdr. Cho sur tous les plans, pas que le sexe, mais tout, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻
 
-Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t’ai toujours en tête. T’es en moi H24.
+Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t’ai toujours en tête. T’es en moi H24, et je suis ton soldat.
 
 Pour tes 30 piges je t’ai offert une casquette avec tes initiales, en 2023 un an après que tu sois parti de Carrefour, laisse moi t’offrir ce que je veux frère pour tes annivs. Tu m’as parlé d’une paire de chaussettes y’a 2 ans, en vrai de vrai même ça laisse moi te l’offrir mdrr. Des chaussettes, un slibard, ou une paire de pompes, peu importe le prix, sans me dire “mdrrr t’es fou”. On s’en branle du prix. Oai chuis fou gro. Chuis fou de toi 😅
 
-## Ce que tu es pour moi 💙💜
+## Ce que tu es pour moi : ma personne préférée 💙💜
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
-
-Je suis ton soldat frère mdrrr.
 
 Je suis pour toujours TON Antho.
 
