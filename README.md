@@ -24,7 +24,7 @@ Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barc
 
 Roms, quand on parlait de nos daronnes à Barcelone... le fait que tu donnes 1000 balles tous les mois à ta mère, je trouve ça tellement noble gro. Et quand je t'ai dit que c'était pareil pour moi, que c'était normal... c'est là que j'ai compris qu'on était vraiment pareil toi et moi. On a les mêmes valeurs, le même respect. T'es vraiment un mec bien, et c'est aussi pour ça que je te kiffe sur tous les plans.
 
-T<span style="color: purple;">’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et toi ptn mais t'es tout en haut de la pyramide des gens que j'aime Roms.</span>
+<span style="color: purple;">T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et toi ptn mais t'es tout en haut de la pyramide des gens que j'aime Roms.</span>
 
 <span style="color: purple;">Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅</span>
 
