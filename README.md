@@ -10,7 +10,7 @@ Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être
 
 <span style="color: red;">J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé, quand tu m'expliquais les buffs apportés par certains persos avec des teams mixtes et que tu m'as dit en riant : "t'as rien capté", car t'as bien vu que ton corps collé au mien me faisait grave du bien mdrr. J'étais guétifa de fou et c'est vrai que je devenais guedin en sentant ton corps pressé contre le mien mais tqt j'ai quand même capté frère 😅🤣🤣</span>
 
-Sur le moment c'est vrai que je ressentais qu'une chose : ton corps pressé contre le mien. Comme dans le Flixbus. Et j'ai kiffé ça ptn...
+<span style="color: red;">Sur le moment c'est vrai que je ressentais qu'une chose : ton corps pressé contre le mien. Comme dans le Flixbus. Et j'ai kiffé ça ptn...</span>
 
 J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon Roms, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣. Tu semblais surpris qu'il y avait 2 chambres. En vrai de vrai j'aurais dû louer un Airbnb avec une seule chambre 🤣
 
