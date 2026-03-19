@@ -4,22 +4,15 @@
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. Dors bien et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
-J'ai l'impression que tu es gris mon Romain. Ça m'enerve car j'ai l'impression qu'il y a des personnes qui te font câbler pour des conneries, et tu mérites pas de subir cette toxicité...
-
-Tu vis suffisamment dans un environnement toxique pour en plus en subir encore plus... toujours entendre des reproches, chercher à te faire culpabiliser et tout...  Te laisse pas faire, ne subis plus les reproches.
-
-Confie toi gro, je veux pas que tu souffres. 
-
-
 Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
-J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé. J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon Roms, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣
+J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé. J'ai peu dormi pendant nos vacs mais j'ai kiffé savoir que l'on dormait tous les deux sous le même toit mon Roms, et tes délires quand tu disais "pisser pisser pisser pisser" ça me faisait trop golri 🤣🤣🤣. Tu semblais surpris qu'il y avait 2 chambres. En vrai de vrai j'aurais dû louer un Airbnb avec une seule chambre 🤣
 
-<span style="color: blue;">Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... Tu semblais surpris qu'il y avait 2 chambres. En vrai de vrai j'aurais dû louer un Airbnb avec une seule chambre 🤣</span>
+<span style="color: blue;">Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... </span>
 
-<span style="color: blue;">La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir.</span>
+<span style="color: blue;">La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. Je suis ton soldat frère mdrrr.</span>
 
-Mais j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai de vrai j'ai réellement kiffé ces films. A 200% !!
+Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai j'ai réellement kiffé ces films. A 200% !!
 
 Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
 
@@ -27,25 +20,21 @@ L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as
 
 T’aurais été tellement stylé dedans.
 
-<span style="color: blue;">Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a fait chaud au cœur de savoir que ta mère s'intéressait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.</span>
+<span style="color: blue;">Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.</span>
 
 <span style="color: blue;">Roms, quand on parlait de nos daronnes à Barcelone... le fait que tu donnes 1000 balles tous les mois à ta mère, je trouve ça tellement noble gro. Et quand je t'ai dit que c'était pareil pour moi, que c'était normal... c'est là que j'ai compris qu'on était vraiment pareil toi et moi. On a les mêmes valeurs, le même respect. T'es vraiment un mec bien, et c'est aussi pour ça que je te kiffe sur tous les plans.</span>
 
-## Ce que tu es pour moi 💙💜
 T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et toi ptn mais t'es tout en haut de la pyramide des gens que j'aime Roms.
 
 Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum j’peux pas [tu me fais trop bander et mouiller du cul mdr](#baise), Je m’en suis rendu compte en regardant mon short. 😅
 
-<span style="color: blue;">Faut savoir que moi de base je suis pas pédé, juste des tendances bi, mais comme je dis plus bas depuis que je te connais je suis Romainsexuel mdrrr. Faut dire t'as tout pour toi, t'es gentil, t'es drôle, t'es beau, t'es sexy (t'as de putain de belles fesses mec, t'as un cul d'enfer comme avait dit Zinedine un jour à Carrefour mdr), surtout t'es vrai, t'es profond et t'es le seul mec avec qui je peux être moi-même. T'as ce truc qui balaye tout le gris autour de moi. T'es ma personne préférée parce que t'es unique, tout simplement. T’es un mec à part, avec une vibe que j'ai jamais vue ailleurs, et c'est ce mélange qui fait que je perds tout contrôle avec toi.</span>
-
-Dès qu’il s’agit de toi je suis toujours cho gro. Cho sur tous les plans, pas que le sexe, mais tout, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux et que je veux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻
-
-Je suis là pour toi, et je le serai toujours, mon gars… 💙💜
+Dès qu’il s’agit de toi je suis toujours cho gro mdr. Cho sur tous les plans, pas que le sexe, mais tout, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻
 
 Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t’ai toujours en tête. T’es en moi H24.
 
 Pour tes 30 piges je t’ai offert une casquette avec tes initiales, en 2023 un an après que tu sois parti de Carrefour, laisse moi t’offrir ce que je veux frère pour tes annivs. Tu m’as parlé d’une paire de chaussettes y’a 2 ans, en vrai de vrai même ça laisse moi te l’offrir mdrr. Des chaussettes, un slibard, ou une paire de pompes, peu importe le prix, sans me dire “mdrrr t’es fou”. On s’en branle du prix. Oai chuis fou gro. Chuis fou de toi 😅
 
+## Ce que tu es pour moi 💙💜
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
@@ -54,7 +43,7 @@ Je suis pour toujours TON Antho.
 
 ![Pour toi mon gars](https://i.ibb.co/tMMXK8Gz/image-9.jpg)
 
-Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse.
+Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse. Je suis là pour toi, et je le serai toujours, mon Romain… 💙💜
 
 Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 8 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr. 
 
@@ -109,9 +98,9 @@ Force, FORCE à toi mon Roms ! 🙏🏻🙏🏻
 [Analyse des différentes ruptures](https://antho-btx75.github.io/Roms/RomainLic.html)
 
 
-[![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8)
-[Win Roms, Win! La réussite se compte en années, les défaites en heures
-Mais la patience est carrée donc le chemin est d'or 💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8)
+[![Win Roms ! Win !](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FP8LuxXO8lQ4bBHd79bQEU_eCYJxTMu7gloNRYGCeUjwFZJl9rfHthA&s=10)](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=9TogI2UVS0A&list=RD9TogI2UVS0A&start_radio=1&pp=oAcB)
+
 ## Je serai toujours là pour toi, mon Roms 🙏🏻
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
@@ -135,11 +124,11 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 ## Baise
 
-[Baltrou pour mon Roms](https://drive.google.com/file/d/1vGBFKc4IroW0ds7-OaGga4sScF2l6vML/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/18V8aqCk80oHrsmm-OPUNpVFIMPw_DRCU/view?usp=drivesdk)
+[Baltrou pour mon Roms](https://drive.google.com/file/d/1vGBFKc4IroW0ds7-OaGga4sScF2l6vML/view?usp=drivesdk)
 
-[Teub](https://drive.google.com/file/d/1v5mvrW6Z10raG4LF9KME-qovFxLheFDJ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk)
+[Teub](https://drive.google.com/file/d/1v5mvrW6Z10raG4LF9KME-qovFxLheFDJ/view?usp=drivesdk) / [Fiak](https://drive.google.com/file/d/1hJ1aMnT308KUqa2X8s8Ex5EmlG7gBceg/view?usp=drivesdk)
 
-[Zboub](https://drive.google.com/file/d/1aM0Shn-AcOR0eytPkvbwiFutRI7bUdkJ/view?usp=drivesdk) / [Baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) 
+[Zgeg](https://drive.google.com/file/d/17tx4SFiH9BBifdYCxz_ABCSaGZMDywmS/view?usp=drivesdk) / [Baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) 
 
 [Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
 
@@ -148,4 +137,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 <span style="color: red;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
 T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
 
-C'est un tout : sexe, cœur, esprit et âme, t'as tout retourné en moi mon Roms. Je suis juste... amoureux de toi.
+C’est un tout : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms. Je suis juste… amoureux de toi.
+
+
+
