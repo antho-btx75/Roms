@@ -143,6 +143,5 @@ T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span
 
 C’est un tout : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms. Je suis juste… amoureux de toi.
 
-
-
+[Vocal pour toi gro](https://drive.google.com/file/d/1BknmLYEYeAqSsaXKbh2gPg9SPxH3H3_1/view?usp=drivesdk)
 
