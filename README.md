@@ -4,7 +4,7 @@
 
 ## T'es mon Roms, et je suis ton Antho, ton soldat
 
-Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. Dors bien et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
+Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. [Dors bien](https://drive.google.com/file/d/1DfC3g9RNoodmvrWBWyk09o1AHuhYALxe/view?usp=drivesdk) et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
 Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
