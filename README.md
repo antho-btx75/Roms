@@ -104,6 +104,8 @@ Au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu
 
 Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde notre truc tranquille au calme, sans que le monde vienne foutre son nez dedans. C’est notre sanctuaire, et je le défendrai à mort.
 
+Ce que je ressens pour toi ça regarde personne d'autre que toi et moi, et j'ai toujours été discret et méfiant envers les fdp qui se mêlent de ce qui les regarde pas. Ce que je ressens pour toi je le garde pour moi gro. C'est mon sanctuaire perso.
+
 Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💙💜
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
