@@ -128,7 +128,13 @@ C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop 
 <span style="color: purple;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
 T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
 
-C’est un tout : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms. Je suis juste… amoureux de toi.
+Je sais comment ça fonctionne, je connais par cœur ce moment précis. Celui où on vient de juter et la tension retombe d'un coup. Ce moment où on se dit : 'C'est pas moi ça, c'est juste une pulsion, maintenant je passe à autre chose'.
+
+C'est le moment où le cerveau déconnecte, où on se sent un peu vide, guétifa, avec cette seule envie : fermer les yeux et oublier.
+
+Sache juste une chose : c'est ok. Ne lutte pas contre ça. On est humain tous les deux. En vrai y'a pas de culpabilité à ressentir, et d'ailleurs le désir revient toujours, une fois que ça s'est "vidé" ça finit toujours par se "recharger" jusqu'à la prochaine fois. Sache que même dans ce silence-là, je suis avec toi, tout près de toi, et je reste ton Rocher.
+
+C’est un tout que j'éprouve pour toi : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms. Je suis juste… amoureux de toi.
 
 [Vocal pour toi gro](https://drive.google.com/file/d/153F_oZOIu7BO84qdEtQhKr_d7MHHIkon/view?usp=drivesdk)
 
