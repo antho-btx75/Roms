@@ -118,8 +118,12 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 [Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
 
-<span style="color: purple;">Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, [CÔTÉ BITE ET CÔTÉ CUL](https://drive.google.com/file/d/1U30Kwz6ZapdgjoiVJFGQNNd3KXgx-gdY/view?usp=drivesdk). Tu peux [baiser mon baltrou](https://drive.google.com/file/d/12AWsl6g4O9AGYa3L87oBxXHKiuHWPWsp/view?usp=drivesdk)
-jusqu'à juter dedans si tu kiffes, ou alors [je ramone ton fiak bien à fond](https://drive.google.com/file/d/1B9GiW0VZtR4GSG-bSMt10Oty4JUXPhrf/view?usp=drivesdk), c'est toi qui décides. [Se pomper la teub mutuellement](https://drive.google.com/file/d/1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO/view?usp=drivesdk) se lébran. C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦</span>
+<span style="color: purple;">Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, [côté bite et côté cul](https://drive.google.com/file/d/1U30Kwz6ZapdgjoiVJFGQNNd3KXgx-gdY/view?usp=drivesdk). 
+
+Tu peux [baiser mon baltrou](https://drive.google.com/file/d/12AWsl6g4O9AGYa3L87oBxXHKiuHWPWsp/view?usp=drivesdk)
+jusqu'à juter dedans si tu kiffes, ou alors [je ramone ton fiak bien à fond](https://drive.google.com/file/d/1B9GiW0VZtR4GSG-bSMt10Oty4JUXPhrf/view?usp=drivesdk), c'est toi qui décides. [Se pomper la teub mutuellement](https://drive.google.com/file/d/1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO/view?usp=drivesdk) se lébran. 
+
+C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦</span>
 
 <span style="color: purple;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
 T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
