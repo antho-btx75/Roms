@@ -9,7 +9,7 @@ Ce que je ressens pour toi, c’est hors norme.
 C’est dur à dire avec des mots, et encore plus dur à comprendre, même si t'as capté depuis archi longtemps.
 C’est dingue tout ce que tu m’as apporté et ce que tu as changé en moi depuis que je te connais. 💙💜
 
-Je veux redevenir ton gars sûr... mais on sait tous les deux ce qui me fait mouiller le cul et la vite quand je pense à toi. Je garde tes images de mâle dans un coin de ma tête, tes mains, ton corps, et ce que j'ai envie de sentir en moi. C'est là, c'est bloqué dans le Sanctuaire.
+Je veux redevenir ton gars sûr... mais on sait tous les deux ce qui me fait mouiller le cul et la bite quand je pense à toi. Je garde tes images de mâle dans un coin de ma tête, tes mains, ton corps, et ce que j'ai envie de sentir en moi. C'est là, c'est bloqué dans le Sanctuaire.
 
 ## Sommeil et cogitations 
 Si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 
