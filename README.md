@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-J'te kiffe de fou mon gars, t'es un mec incroyable c'est dingue ce que tu m'apportes. Je te serai loyal et fidèle jusqu'à la mort ptn.
+J'te kiffe de fou mon gars, t'es un mec incroyable c'est dingue ce que tu m'apportes.
 
 ## T'es mon Roms, et je suis ton Antho, ton soldat
 
