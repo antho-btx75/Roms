@@ -2,7 +2,7 @@
 
 J'te kiffe de fou mon gars, t'es un mec incroyable c'est dingue ce que tu m'apportes.
 
-## T'es mon Roms, et je suis ton Antho, TON SOLDAT 
+## T'es mon Roms, et je suis ton Antho, TON SOLDAT. Je suis à toi Roms 🫂
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. [Dors bien mon Romaiiin](https://drive.google.com/file/d/1EW8CwXjNvI5jZ3k36JtSecwO3bYhKtfD/view?usp=drivesdk) et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
