@@ -3,7 +3,7 @@
 [J'te kiffe de fou mon gars, t'es un mec incroyable c'est dingue ce que tu m'apportes.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk)
 
 Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c'est aussi un cadeau pour toi mon Roms 😅🥵🍆
-Je suis raide dingue de toi mon gars.
+[Je suis raide dingue de toi mon gars](#vocauxdebaise)
 
 ## T'es mon Roms, et je suis ton Antho, TON SOLDAT 💪🏻🫡
 
@@ -124,6 +124,8 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 [Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
 
 <span style="color: purple;">Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, [côté bite et côté cul](https://drive.google.com/file/d/1U30Kwz6ZapdgjoiVJFGQNNd3KXgx-gdY/view?usp=drivesdk). 
+
+## Vocaux de baise
 
 Tu peux [NEW] [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk)
 jusqu'à juter dedans si tu kiffes, ou alors [je ramone ton trou de balle bien à fond](https://drive.google.com/file/d/1mNesS2XR5V9TYffXK4_Ac3qfcZmLf15Y/view?usp=drivesdk), c'est toi qui décides. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
