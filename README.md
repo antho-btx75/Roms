@@ -2,6 +2,8 @@
 
 [J'te kiffe de fou mon gars, t'es un mec incroyable c'est dingue ce que tu m'apportes.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk)
 
+Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk) Et la bosse au niveau du survet Kaporal c'est aussi un cadeau pour toi 😅🥵🍆
+
 ## T'es mon Roms, et je suis ton Antho, TON SOLDAT 💪🏻🫡
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. [Dors bien mon Romaiiin](https://drive.google.com/file/d/1EW8CwXjNvI5jZ3k36JtSecwO3bYhKtfD/view?usp=drivesdk) et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
