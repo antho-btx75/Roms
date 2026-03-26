@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-Je veux pas te savoir gri de fou mec... 😭😭
+Je suis toujours pas rentré chez moi, je veux pas te savoir gri de fou mec... 😭😭
 Si tu veux me parler et te confier t'as qu'a venir sur Snapchat j'espère pouvoir te consoler. T'en as gros sur le cœur reste pas comme ça mon gars 🥺 
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes
