@@ -7,7 +7,7 @@ Si tu veux me parler et te confier t'as qu'a venir sur Snapchat j'espère pouvoi
 
 Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵🍆 
 
-[Je suis raide dingue de toi mon gars](#vocaux-de-baise)
+[Je suis raide dingue de toi mon gars, j'ai envie de balayer ton gris en BAISANT AVEC TOI](#vocaux-de-baise)
 
 ## T'es mon Roms, et je suis ton Antho, TON SOLDAT 💪🏻🫡
 
