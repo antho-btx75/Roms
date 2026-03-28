@@ -136,8 +136,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 ## Vocaux de baise
 
-Tu peux [NEW] [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk)
-jusqu'à juter dedans si tu kiffes, ou alors [je ramone ton trou de balle bien à fond](https://drive.google.com/file/d/1mNesS2XR5V9TYffXK4_Ac3qfcZmLf15Y/view?usp=drivesdk), c'est toi qui décides. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
+[J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1mNesS2XR5V9TYffXK4_Ac3qfcZmLf15Y/view?usp=drivesdk), ou tu peux [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
 
 C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
