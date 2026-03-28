@@ -1,8 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes. Et ça me fait mal... putain qu'est ce que ca me fait mal de te savoir [si gris](https://drive.google.com/file/d/1IEFKXlpPq4vzkt9HjXya5K1IvS3ezszH/view?usp=drivesdk).
-
-Mon Roms, stp, [reprends le contrôle de ta vie, c'est toi le boss, pas ceux qui te font câbler](https://drive.google.com/file/d/1mPtEs3p_sKaKPm1Hs9IpF0DPGLc7UYx7/view?usp=drivesdk)
+[J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes. 
 
 [Je suis raide dingue de toi mon gars, j'ai envie de balayer tout le gris en toi mon gars](#vocaux-de-baise)
 
