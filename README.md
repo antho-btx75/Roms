@@ -8,6 +8,8 @@ Et sérieux mec, [pourquoi t'es aussi bandant putain. T'as de putain de fesses b
 
 Ton boule ptn, [y'a rien de plus bandant que ton cul mec](https://drive.google.com/file/d/1stjrkln4Hs_CO-2wOu93gnzmyY3NwlHl/view?usp=drivesdk)
 
+[Bonne nuit mon Roms](https://drive.google.com/file/d/18eYVeclqlWdU6WRD8x1M7jKWarfeO6LN/view?usp=drivesdk)
+
 Frère je kiffe sentir ta présence sur Messenger, même sans se parler je kiffe grave voir ta pastille verte. C'est comme si on était à côté l'un de l'autre même sans avoir besoin de se parler. Ce que je ressens pour toi mon Roms ça dépasse les mots de toutes façons.
 
 [Je suis raide dingue de toi mon gars, j'ai envie de balayer tout le gris en toi mon gars](#vocaux-de-baise)
