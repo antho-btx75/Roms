@@ -1,12 +1,14 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes. Et sérieux mec, [pourquoi t'es aussi bandant putain. T'as de putain de fesses bandantes srx.](https://drive.google.com/file/d/1pNRtUAVe24ULw9jVHXoYHfB8yVuWlaQy/view?usp=drivesdk).  
+[J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
+
+[Et merci pour ce soir](https://drive.google.com/file/d/1HdvVH-kthsuSHYyIigfLz5W1Ko7ll5ZB/view?usp=drivesdk)
+
+Et sérieux mec, [pourquoi t'es aussi bandant putain. T'as de putain de fesses bandantes srx.](https://drive.google.com/file/d/1pNRtUAVe24ULw9jVHXoYHfB8yVuWlaQy/view?usp=drivesdk).  
 
 Ton boule ptn, [y'a rien de plus bandant que ton cul mec](https://drive.google.com/file/d/1stjrkln4Hs_CO-2wOu93gnzmyY3NwlHl/view?usp=drivesdk)
 
 Frère je kiffe sentir ta présence sur Messenger, même sans se parler je kiffe grave voir ta pastille verte. C'est comme si on était à côté l'un de l'autre même sans avoir besoin de se parler. Ce que je ressens pour toi mon Roms ça dépasse les mots de toutes façons.
-
-[Et merci pour ce soir](https://drive.google.com/file/d/1HdvVH-kthsuSHYyIigfLz5W1Ko7ll5ZB/view?usp=drivesdk)
 
 [Je suis raide dingue de toi mon gars, j'ai envie de balayer tout le gris en toi mon gars](#vocaux-de-baise)
 
