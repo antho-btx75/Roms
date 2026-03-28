@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes. Et sérieux mec, [pourquoi t'es aussi bandant putain](https://drive.google.com/file/d/1pNRtUAVe24ULw9jVHXoYHfB8yVuWlaQy/view?usp=drivesdk). T'as de putain de fesses bandantes srx. Frère je kiffe sentir ta présence sur Messenger, même sans se parler je kiffe grave voir ta pastille verte.
+[J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes. Et sérieux mec, [pourquoi t'es aussi bandant putain](https://drive.google.com/file/d/1pNRtUAVe24ULw9jVHXoYHfB8yVuWlaQy/view?usp=drivesdk). T'as de putain de fesses bandantes srx. Frère je kiffe sentir ta présence sur Messenger, même sans se parler je kiffe grave voir ta pastille verte. C'est comme si on était à côté l'un de l'autre même sans avoir besoin de se parler. Ce que je ressens pour toi mon Roms ça dépasse les mots de toutes façons.
 
 [Et merci pour ce soir](https://drive.google.com/file/d/1HdvVH-kthsuSHYyIigfLz5W1Ko7ll5ZB/view?usp=drivesdk)
 
