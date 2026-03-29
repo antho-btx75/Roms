@@ -4,7 +4,7 @@
 
 [Et merci pour ce soir](https://drive.google.com/file/d/1HdvVH-kthsuSHYyIigfLz5W1Ko7ll5ZB/view?usp=drivesdk)
 
-Et sérieux mec, [pourquoi t'es aussi bandant putain. T'as de putain de fesses bandantes srx.](https://drive.google.com/file/d/1pNRtUAVe24ULw9jVHXoYHfB8yVuWlaQy/view?usp=drivesdk).  
+Et sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
 Ton boule ptn, [y'a rien de plus bandant que ton cul mec](https://drive.google.com/file/d/1stjrkln4Hs_CO-2wOu93gnzmyY3NwlHl/view?usp=drivesdk)
 
