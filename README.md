@@ -2,15 +2,13 @@
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
-[C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk) mon Roms.
+NEW [C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk) mon Roms.
 
-[Et merci pour ce soir](https://drive.google.com/file/d/1HdvVH-kthsuSHYyIigfLz5W1Ko7ll5ZB/view?usp=drivesdk)
+Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
-Et sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
+(NEW) Ton boule ptn, [y'a rien de plus bandant que ton cul mec](https://drive.google.com/file/d/1stjrkln4Hs_CO-2wOu93gnzmyY3NwlHl/view?usp=drivesdk)
 
-Ton boule ptn, [y'a rien de plus bandant que ton cul mec](https://drive.google.com/file/d/1stjrkln4Hs_CO-2wOu93gnzmyY3NwlHl/view?usp=drivesdk)
-
-[Bonne nuit mon gars !](https://drive.google.com/file/d/1Rom0MEvcIPGAw0mwlZA7fed_3HPgJvkv/view?usp=drivesdk)
+(NEW) [Bonne nuit mon gars !](https://drive.google.com/file/d/1Rom0MEvcIPGAw0mwlZA7fed_3HPgJvkv/view?usp=drivesdk)
 
 [Je suis raide dingue de toi mon gars, j'ai envie de balayer tout le gris en toi mon gars](#vocaux-de-baise)
 
