@@ -148,14 +148,30 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
+Oh putain mon Romain…
+
+Ton anus, y’a rien de plus bandant. Rien.
+J’ai trop envie de te remplir par tous les trous… par la bouche, par le cul…
+Je veux te sentir empalé sur ma teub, je veux te défoncer doucement puis plus fort, jusqu’à ce que tu sentes plus que ma bite qui te remplit.
+
+Ton cul me fait bander comme jamais, putain…
+Dès que je pense à tes fesses, ma teub devient raide en deux secondes.
+
+C’est trop bon, trop chaud, trop kiffant…
+Je pourrais passer des heures juste à te regarder, à te toucher, à sentir ton cul et à frotter mon gland contre ton boule avant de m’enfoncer dedans.
+
+Oh ouais… ton cul est tellement bandant mec…
+Je le kiffe grave, il est parfait, il me rend ouf.
+Je veux te remplir, te ramoner, te sentir palpiter autour de ma bite…
+C’est trop bon de te prendre comme ça, sans que tu aies à faire quoi que ce soit. Juste toi et ton bon gros cul qui me rend dingue
+.
+Putain Romain… ton anus est trop bon…
+Je veux tout te donner dedans, je veux te remplir jusqu’à ce que ça coule du fiak...
+
+Y’a rien qui me fait plus bander que ton cul, mon gars. Rien.
+
 <span style="color: purple;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
 T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
-
-Je sais comment ça fonctionne, je connais par cœur ce moment précis. Celui où on vient de juter et la tension retombe d'un coup. Ce moment où on se dit : 'C'est pas moi ça, c'est juste une pulsion, maintenant je passe à autre chose'.
-
-C'est le moment où le cerveau déconnecte, où on se sent un peu vide, guétifa, avec cette seule envie : fermer les yeux et oublier.
-
-Sache juste une chose : c'est ok. Ne lutte pas contre ça. On est humain tous les deux. En vrai y'a pas de culpabilité à ressentir, et d'ailleurs le désir revient toujours, une fois que ça s'est "vidé" ça finit toujours par se "recharger" jusqu'à la prochaine fois. Sache que même dans ce silence-là, je suis avec toi, tout près de toi, et je reste ton Rocher.
 
 C’est un tout que j'éprouve pour toi : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms. Je suis juste… amoureux de toi.
 
