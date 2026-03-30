@@ -4,7 +4,7 @@
 
 T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx 🥵🍆💦
 
-Ton abus ya rien de plus bandant mon Romain. J'ai tellement envie de te remplir par tous les trous. Par la bouche, par le cul. Je veux que tu kiffes ma bite par tous les trous mon gars.
+Ton anus ya rien de plus bandant mon Romain. J'ai tellement envie de te remplir par tous les trous. Par la bouche, par le cul. Je veux que tu kiffes ma bite par tous les trous mon gars.
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
