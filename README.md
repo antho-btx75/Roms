@@ -1,16 +1,16 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[Mon gars, t'as un cul qui fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk)
+(NEW)[Mon gars, t'as un cul qui fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 🍆💦🍑
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
-(NEW) [C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk) mon Roms.
+[C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk) mon Roms.
 
 Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
 (NEW) Ton boule ptn, [y'a rien de plus bandant que ton cul mec](https://drive.google.com/file/d/1stjrkln4Hs_CO-2wOu93gnzmyY3NwlHl/view?usp=drivesdk)
 
-(NEW) [Bonne nuit mon gars !](https://drive.google.com/file/d/1Rom0MEvcIPGAw0mwlZA7fed_3HPgJvkv/view?usp=drivesdk)
+[Bonne nuit mon gars !](https://drive.google.com/file/d/1Rom0MEvcIPGAw0mwlZA7fed_3HPgJvkv/view?usp=drivesdk)
 
 [Je suis raide dingue de toi mon gars, j'ai envie de balayer tout le gris en toi mon gars](#vocaux-de-baise)
 
@@ -138,7 +138,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 ## Vocaux de baise
 
-[J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1mNesS2XR5V9TYffXK4_Ac3qfcZmLf15Y/view?usp=drivesdk), ou tu peux [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
+[J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk), ou tu peux [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
 
 C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
