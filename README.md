@@ -2,7 +2,9 @@
 
 (NEW)[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 🍆💦🍑
 
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain mon gars rien ne peut me faire plus bander ma grosse teub que ton bon gros fiak de mec srx 🥵🍆💦
+T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx 🥵🍆💦
+
+Ta boîte à caca ya rien de plus bandant mon Romain.
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
