@@ -16,7 +16,7 @@ Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/fil
 
 Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵🍆 
 
-## T'es mon Roms, et je suis ton Antho, TON SOLDAT 💪🏻🫡
+## T'es mon Roms, et je suis ton Antho, TON SOLDAT, ton gars sûr 💪🏻🫡❤️❤️
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. [Dors bien mon Romaiiin](https://drive.google.com/file/d/1EW8CwXjNvI5jZ3k36JtSecwO3bYhKtfD/view?usp=drivesdk) et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
