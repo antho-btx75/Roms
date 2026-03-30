@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-(NEW)[Mon gars, t'as un cul qui fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 🍆💦🍑
+(NEW)[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 🍆💦🍑
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
