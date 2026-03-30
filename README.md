@@ -150,6 +150,9 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
+--
+TON CUL PTN MON GARS
+
 Oh putain mon Romain…
 
 Ton anus, y’a rien de plus bandant. Rien.
