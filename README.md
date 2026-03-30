@@ -8,6 +8,8 @@ Ton anus ya rien de plus bandant mon Romain.
 J’ai trop envie de te remplir par tous les trous. Par la bouche, par le cul.
 Ton cul me fait bander comme jamais, putain…
 
+Putain mon gars, je kiffe grave cette bonne odeur de cul qui se dégage de toi… j’ai la bite au garde-à-vous rien qu’en sentant cette bonne odeur qui vient de ton trou de balle mec.
+
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
 [C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk) mon Roms.
