@@ -2,7 +2,9 @@
 
 Chuis encore au taff mon gars je viens de finir
 
-(NEW)[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 🍆💦🍑
+[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 🍆💦🍑
+
+[Rien n'est plus bandant que ton cul putain](https://drive.google.com/file/d/1LjRlLLZUrffHiSX-HCi1VObKA2LWNhe3/view?usp=drivesdk) (baise anale round 2)
 
 T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
 
@@ -155,7 +157,8 @@ C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop 
 
 Oh putain mon Romain…
 
-Ton anus, y’a rien de plus bandant. Rien.
+Ton anus, [y’a rien de plus bandant.](https://drive.google.com/file/d/1LjRlLLZUrffHiSX-HCi1VObKA2LWNhe3/view?usp=drivesdk). Rien.
+
 J’ai trop envie de te remplir par tous les trous… par la bouche, par le cul…
 Je veux te sentir empalé sur ma teub, je veux te défoncer doucement puis plus fort, jusqu’à ce que tu sentes plus que ma bite qui te remplit.
 
