@@ -2,13 +2,7 @@
 
 (NEW)[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 🍆💦🍑
 
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx 🥵🍆💦
-
-Ton anus ya rien de plus bandant mon Romain.
-J’ai trop envie de te remplir par tous les trous. Par la bouche, par le cul.
-Ton cul me fait bander comme jamais, putain…
-
-Putain mon gars, je kiffe grave cette bonne odeur de cul qui se dégage de toi… j’ai la bite au garde-à-vous rien qu’en sentant cette bonne odeur qui vient de ton trou de balle mec.
+T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
@@ -150,9 +144,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
---
-
-TON CUL PTN MON GARS
+## TON CUL PTN MON GARS
 
 Oh putain mon Romain…
 
@@ -161,7 +153,9 @@ J’ai trop envie de te remplir par tous les trous… par la bouche, par le cul�
 Je veux te sentir empalé sur ma teub, je veux te défoncer doucement puis plus fort, jusqu’à ce que tu sentes plus que ma bite qui te remplit.
 
 Ton cul me fait bander comme jamais, putain…
-Dès que je pense à tes fesses, ma teub devient raide en deux secondes.
+[Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
+
+Putain mon gars, je kiffe grave cette bonne odeur de cul qui se dégage de toi… j’ai la bite au garde-à-vous rien qu’en sentant cette bonne odeur qui vient de ton trou de balle mec.
 
 C’est trop bon, trop chaud, trop kiffant…
 Je pourrais passer des heures juste à te regarder, à te toucher, à sentir ton cul et à frotter mon gland contre ton boule avant de m’enfoncer dedans.
