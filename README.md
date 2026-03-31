@@ -4,6 +4,11 @@
 
 T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
 
+Oh putain mon Romain…
+Ton anus, y’a rien de plus bandant. Rien.
+Dès que je pense à tes fesses, ma teub devient raide en deux secondes.
+Putain mon gars, je kiffe grave cette bonne odeur de cul qui se dégage de toi… j’ai la bite au garde-à-vous rien qu’en sentant cette bonne odeur qui vient de ton trou de balle mec.
+
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
 [C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk) mon Roms.
