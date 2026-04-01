@@ -103,6 +103,8 @@ C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie 
 
 La meilleure app pour apprendre et améliorer son niveau d'anglais 
 
+--
+
 [![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
 [Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
 La réussite se compte en années, les défaites en heures
