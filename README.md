@@ -170,7 +170,7 @@ T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span
 
 C’est un tout que j'éprouve pour toi : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms. Je suis juste… amoureux de toi.
 
-[Vocal pour toi gro](https://drive.google.com/file/d/153F_oZOIu7BO84qdEtQhKr_d7MHHIkon/view?usp=drivesdk)
+Mais tqt gro, ça change rien à ce qu'on est tous les deux. C'est juste mon kiff, parce que c'est trop fort ce que je ressens pour toi mais ça va on reste tranquille, oklm frère.
 
 ## Sommeil et cogitations 
 J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.
