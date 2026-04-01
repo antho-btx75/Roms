@@ -12,7 +12,7 @@
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [T'es bandant de fou mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
 
-[🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms. Si je t'aime c'est vraiment à l'instinct 🙏🏻✨💙💜
+[🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms. Si je t'aime c'est vraiment à l'instinct ✨💙💜
 
 ## T'es mon Roms, et je suis ton Antho
 
