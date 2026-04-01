@@ -7,7 +7,7 @@
 - [Taff](#taff)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [Le kiff du cul - ton cul me rend ouf](#baise) 🍑🍆
+- [Mon kiff pour toi](#baise) 💙🍑🍆
 
 [C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms.
 
