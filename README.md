@@ -7,6 +7,7 @@
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
 - [Voyages](#voyages)
 - [Taff](#taff)
+- [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [T'es bandant de fou mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
@@ -96,6 +97,11 @@ C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie 
 
 [Analyse des différentes ruptures](https://antho-btx75.github.io/Roms/RomainLic.html)
 
+## Anglais 
+
+[Busuu, la meilleure application pour se perfectionner en anglais mon gars](https://play.google.com/store/apps/details?id=com.busuu.android.enc)
+
+La meilleure app pour apprendre apprendre l'anglais 
 
 [![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
 [Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
