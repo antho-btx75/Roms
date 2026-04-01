@@ -124,13 +124,13 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 [Mon zgeg bandant pour mon Roms](https://drive.google.com/file/d/1z6Ii4Bz35tELLDNKp_R4etQiSjk1-4aV/view?usp=drivesdk) / [Une bonne sucette pour mon Romain](https://drive.google.com/file/d/18V8aqCk80oHrsmm-OPUNpVFIMPw_DRCU/view?usp=drivesdk)
 
-[Baltrou pour mon Roms](https://drive.google.com/file/d/1vGBFKc4IroW0ds7-OaGga4sScF2l6vML/view?usp=drivesdk) / 
+[Baltrou](https://drive.google.com/file/d/1vGBFKc4IroW0ds7-OaGga4sScF2l6vML/view?usp=drivesdk) / 
 [Bite](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Teub et baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) 
 
 
 [Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
 
-Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul.
+Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire.
 
 ## Vocaux de baise
 
