@@ -10,8 +10,6 @@ Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/fil
 
 [Je suis raide dingue de toi mon gars, j'ai envie de balayer tout le gris en toi mon gars](#baise)
 
-Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵🍆 
-
 ## T'es mon Roms, et je suis ton Antho, TON SOLDAT, ton gars sûr 💪🏻🫡
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors. [Dors bien mon Romaiiin](https://drive.google.com/file/d/1EW8CwXjNvI5jZ3k36JtSecwO3bYhKtfD/view?usp=drivesdk) et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
@@ -31,6 +29,8 @@ Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment coo
 L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as dit que personne te faisait des cadeaux je voulais encore plus te l’offrir 😭😭😭
 
 T’aurais été tellement stylé dedans.
+
+Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵🍆 
 
 Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.
 
