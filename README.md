@@ -136,7 +136,7 @@ Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je
 
 [J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), ou tu peux [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
 
-C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
+C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
 ## TON CUL PTN MON GARS
 
