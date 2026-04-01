@@ -9,7 +9,7 @@
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [Mon kiff pour toi](#baise) 💙🍑🍆
 
-[C'est trop fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms.
+[C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms.
 
 ## T'es mon Roms, et je suis ton Antho
 
