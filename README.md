@@ -7,7 +7,7 @@
 - [Taff](#taff)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [Mon kiff pour toi](#mon-désir-pour-toi) 💙🍑🍆
+- [T'es bandant de fou mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
 
 [C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms.
 
@@ -123,7 +123,7 @@ Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
 
-## Mon désir pour toi
+## T'es trop bandant mon gars
 
 Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
