@@ -110,7 +110,7 @@ Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu
 
 Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici.
 
-Au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
+Car au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
 
 Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde notre truc tranquille au calme, sans que le monde vienne foutre son nez dedans. C’est notre sanctuaire, et je le défendrai à mort.
 
