@@ -1,15 +1,8 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[Rien n'est plus bandant que ton cul putain](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk) (NEW baise anale round 2) 🍑💦🍆
+[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
 
-[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 
-
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
-
-Oh putain mon Romain…
-Ton anus, y’a rien de plus bandant. Rien.
-Dès que je pense à tes fesses, ma teub devient raide en deux secondes.
-Putain mon gars, je kiffe grave cette bonne odeur de cul qui se dégage de toi… j’ai la bite au garde-à-vous rien qu’en sentant cette bonne odeur qui vient de ton trou de balle mec.
+[T'es trop sexy](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk) j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
 
 [J'te kiffe de fou mon gars.](https://drive.google.com/file/d/1xldUFfkA8P8xKxdHgVkB_HN8YmTDmdxK/view?usp=drivesdk) T'es un mec incroyable c'est dingue ce que tu m'apportes.
 
@@ -143,7 +136,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 ## Vocaux de baise
 
-[J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk), ou tu peux [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
+[J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), ou tu peux [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère. [NEW] [Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
 
 C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
@@ -151,7 +144,7 @@ C'est toi le boss gro. C'est énorme les effets que tu fais sur moi, c'est trop 
 
 Oh putain mon Romain…
 
-Ton anus, [y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk). Rien.
+Ton bon gros boule, [y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk). Rien. 🍑💦🍆
 
 J’ai trop envie de te remplir par tous les trous… par la bouche, par le cul…
 Je veux te sentir empalé sur ma teub, je veux te défoncer doucement puis plus fort, jusqu’à ce que tu sentes plus que ma bite qui te remplit.
