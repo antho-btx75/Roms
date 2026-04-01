@@ -4,8 +4,6 @@
 
 [Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk) 
 
-[Bonne nuit Rominou](https://drive.google.com/file/d/1ROf-AVb7YrrbXEQ9f-EnDfLf5C5AwWLo/view?usp=drivesdk). Je te love de fou mec.
-
 T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
 
 Oh putain mon Romain…
