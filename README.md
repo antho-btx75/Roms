@@ -1,8 +1,8 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
-- [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-preferee-💙-💜)
-- [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout-💪🏻)
+- [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-preferee)
+- [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
 - [Voyages](#voyages)
 - [Taff](#taff)
 - [Veuchs](#veuchs)
@@ -51,7 +51,7 @@ Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis a
 
 Pour tes 30 piges je t’ai offert une casquette avec tes initiales, en 2023 un an après que tu sois parti de Carrefour, laisse moi t’offrir ce que je veux frère pour tes annivs. Tu m’as parlé d’une paire de chaussettes y’a 2 ans, en vrai de vrai même ça laisse moi te l’offrir mdrr. Des chaussettes, un slibard, ou une paire de pompes, peu importe le prix, sans me dire “mdrrr t’es fou”. On s’en branle du prix. Oai chuis fou gro. Chuis fou de toi 😅
 
-## Tu es ma personne préférée 💙💜
+## Tu es ma personne préférée 
 Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.
 
 Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. 
@@ -100,7 +100,7 @@ C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie 
 La réussite se compte en années, les défaites en heures
 Mais la patience est carrée donc le chemin est d'or
 
-## Je suis ton Rocher avant tout 💪🏻
+## Je suis ton Rocher avant tout 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
 <span style="color: purple;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
@@ -111,7 +111,7 @@ T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à
 
 T’es bandant de fou gro, srx. Tu dégages une vibe qui me donne envie de baiser grave avec toi. Se pépom la teub mutuellement ou de la baise pure, une bonne queue dans le baltrou (le mien ou le tien, c'est toi le boss là-dessus)... c’est un désir brut qui me traverse et je l'assume à 200 %.
 
-Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici.
+Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici 💪🏻
 
 Car au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
 
@@ -119,7 +119,7 @@ Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comm
 
 Ce que je ressens pour toi ça regarde personne d'autre que toi et moi, et j'ai toujours été discret et méfiant envers les fdp qui se mêlent de ce qui les regarde pas. Ce que je ressens pour toi je le garde pour moi gro. C'est mon sanctuaire perso.
 
-Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💙💜
+Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💪🏻💪🏻
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
 
