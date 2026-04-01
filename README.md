@@ -101,7 +101,7 @@ C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie 
 
 [Busuu, la meilleure application pour se perfectionner en anglais mon gars](https://play.google.com/store/apps/details?id=com.busuu.android.enc)
 
-La meilleure app pour apprendre et améliorer son niveau d'anglais 
+La meilleure app pour apprendre et améliorer son niveau d'anglais. Quand on était à Corte Ingles à Barcelone dans le centre commercial tu m'as rappelé l'importance de parler anglais, et j’ai pensé à toi en voyant cette app. Elle est vraiment top pour progresser tranquillement.
 
 ---
 
