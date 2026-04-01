@@ -127,7 +127,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
+T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
 
 [🎙️ Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
 
