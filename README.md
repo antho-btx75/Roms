@@ -9,7 +9,7 @@
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [T'es bandant de fou mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
 
-[C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms.
+[🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms.
 
 ## T'es mon Roms, et je suis ton Antho
 
@@ -125,11 +125,11 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 ## T'es trop bandant mon gars
 
-Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
+Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
 T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma grosse teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
 
-[Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
+[🎙️ Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
 
 [Mon zgeg bandant pour toi](https://drive.google.com/file/d/1z6Ii4Bz35tELLDNKp_R4etQiSjk1-4aV/view?usp=drivesdk) / [Une bonne sucette](https://drive.google.com/file/d/18V8aqCk80oHrsmm-OPUNpVFIMPw_DRCU/view?usp=drivesdk)
 
@@ -140,8 +140,8 @@ T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon ga
 
 Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul. 
 
-[J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), ou tu peux [baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère.
-[Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
+[🎙️ J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), ou tu peux [🎙️ baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère.
+[🎙️ Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
 
 C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
@@ -149,13 +149,13 @@ C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffe
 
 Oh putain mon Romain…
 
-Ton bon gros boule, [y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk). Rien. 🍑💦🍆
+Ton bon gros boule, [🎙️ y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk). Rien. 🍑💦🍆
 
 J’ai trop envie de te remplir par tous les trous… par la bouche, par le cul…
 Je veux te sentir empalé sur ma teub, je veux te défoncer doucement puis plus fort, jusqu’à ce que tu sentes plus que ma bite qui te remplit.
 
 Ton cul me fait bander comme jamais, putain…
-[Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
+[🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
 
 Putain mon gars, je kiffe grave cette bonne odeur de cul qui se dégage de toi… j’ai la bite au garde-à-vous rien qu’en sentant cette bonne odeur qui vient de ton trou de balle mec.
 
