@@ -7,7 +7,7 @@
 - [Taff](#taff)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [Mon kiff pour toi](#baise) 💙🍑🍆
+- [Mon kiff pour toi](#mon-désir-pour-toi) 💙🍑🍆
 
 [C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon Roms.
 
@@ -123,7 +123,7 @@ Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
 
-## Baise
+## Mon désir pour toi
 
 Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
@@ -131,7 +131,7 @@ T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon ga
 
 [Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
 
-[Mon zgeg bandant pour mon Roms](https://drive.google.com/file/d/1z6Ii4Bz35tELLDNKp_R4etQiSjk1-4aV/view?usp=drivesdk) / [Une bonne sucette pour mon Romain](https://drive.google.com/file/d/18V8aqCk80oHrsmm-OPUNpVFIMPw_DRCU/view?usp=drivesdk)
+[Mon zgeg bandant pour toi](https://drive.google.com/file/d/1z6Ii4Bz35tELLDNKp_R4etQiSjk1-4aV/view?usp=drivesdk) / [Une bonne sucette](https://drive.google.com/file/d/18V8aqCk80oHrsmm-OPUNpVFIMPw_DRCU/view?usp=drivesdk)
 
 [Baltrou](https://drive.google.com/file/d/1vGBFKc4IroW0ds7-OaGga4sScF2l6vML/view?usp=drivesdk) / 
 [Bite](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Teub et baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) 
