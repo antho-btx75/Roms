@@ -10,7 +10,9 @@ Sérieux mec, [pourquoi t'es aussi bandant putain.](https://drive.google.com/fil
 
 [Je suis raide dingue de toi mon gars, j'ai envie de balayer tout le gris en toi mon gars](#baise)
 
-## T'es mon Roms, et je suis ton Antho, TON SOLDAT, ton gars sûr 💪🏻🫡
+## T'es mon Roms, et je suis ton Antho
+
+TON SOLDAT, ton gars sûr 💪🏻🫡
 
 Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors, et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
