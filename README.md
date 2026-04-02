@@ -2,8 +2,6 @@
 
 Bonne journée mon gars ✨
 toujours au taff mec 😫
-j'attends mon bus, en attendant je te tiens compagnie mon gars en silence sur Messenger 💪🏻
-je te kiffe mon Roms
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
