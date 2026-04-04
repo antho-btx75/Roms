@@ -10,7 +10,7 @@
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
+- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars), y'a une bonne odeur de bite et de cul entre nous mon gars 💙🍑🍆
 
 [🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon gars.
 
