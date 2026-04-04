@@ -10,7 +10,7 @@
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [T'es bandant de fou mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
+- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
 
 [🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon gars.
 
@@ -137,11 +137,11 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars) 🥵🍆💦
-
-[🎙️ Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
+T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars), et j'ai trop envie que tu me ramones mon fiak 🥵🍆💦
 
 [🎙️ Putain mon gars, ramone bien mon cul](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk)
+
+[🎙️ Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
 
 [Teub](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk)
 
