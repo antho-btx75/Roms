@@ -159,7 +159,7 @@ C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffe
 
 ## DES ENVIES DE BAISE AVEC TOI PTN
 
-Oh putain mon Romain…
+Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gars.
 
 [🎙️ J'ai trop envie qu’on se pompe mutuellement la teub…](https://drive.google.com/file/d/19RYsbhzNvkdzopfQRNP9CGH2JK_iNh3K/view?usp=drivesdk) que tu suces la mienne pendant que je suce la tienne… c’est trop bon de sentir nos deux queues bien dures dans nos bouches.
 
