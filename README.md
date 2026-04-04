@@ -137,7 +137,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars), et j'ai trop envie que tu me ramones mon fiak 🥵🍆💦
+T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [rien ne peut faire plus bander ma teub que ton bon gros fiak de mec srx](#ton-cul-ptn-mon-gars), et j'ai trop envie que tu me ramones mon cul 🥵🍆💦
 
 [🎙️ Putain mon gars, ramone bien mon cul](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk)
 
@@ -157,39 +157,36 @@ Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je
 
 C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
-## TON CUL PTN MON GARS
+## DES ENVIES DE BAISE AVEC TOI PTN
 
 Oh putain mon Romain…
 
-Ton bon gros boule, [🎙️ y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk). Rien. 🍑💦🍆
+J'ai trop envie qu’on se pompe mutuellement la teub… que tu suces la mienne pendant que je suce la tienne… c’est trop bon de sentir nos deux queues bien dures dans nos bouches.
 
-J’ai trop envie de te remplir par tous les trous… par la bouche, par le cul…
-Je veux te sentir empalé sur ma teub, je veux te défoncer doucement puis plus fort, jusqu’à ce que tu sentes plus que ma bite qui te remplit.
+Et j'ai grave envie que tu me prennes…
+Je veux que tu me remplisses… par la bouche, puis par le cul…
 
-Ton cul me fait bander comme jamais, putain…
+En vrai oui ton bon gros boule, [🎙️ y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme jamais.
+
 [🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
 
-Putain mon gars, je kiffe grave cette bonne odeur de cul qui se dégage de toi… j’ai la bite au garde-à-vous rien qu’en sentant cette bonne odeur qui vient de ton trou de balle mec.
+Mais en vrai de vrai j'ai trop envie que tu me ramones bien à fond mon gars !
+
+Je veux te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement.
 
 C’est trop bon, trop chaud, trop kiffant…
-Je pourrais passer des heures juste à te regarder, à te toucher, à sentir ton cul et à frotter mon gland contre ton boule avant de m’enfoncer dedans.
+Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de rentrer, à me faire démonter le cul par toi pendant que nos deux teubs ont été pompées bien comme il faut.
+Je kiffe grave être ton passif… te laisser me pilonner, me remplir, me marquer avec ton jus…
 
-Oh ouais… ton cul est tellement bandant mec…
-Je le kiffe grave, il est parfait, il me rend ouf.
-Je veux te remplir, te ramoner, te sentir palpiter autour de ma bite…
-C’est trop bon de te prendre comme ça, sans que tu aies à faire quoi que ce soit. Juste toi et ton bon gros cul qui me rend dingue
-.
-Putain Romain… ton anus est trop bon…
-Je veux tout te donner dedans, je veux te remplir jusqu’à ce que ça coule du fiak...
+Je veux sentir ton sperme couler au fond de mon cul… 🍑💦
 
-Y’a rien qui me fait plus bander que ton cul, mon gars. Rien.
+Y’a rien qui me fait plus bander que l’idée qu’on se pompe la teub puis que tu me baises… Rien.
 
-<span style="color: purple;">Je suis incapable de ressentir ça pour quelqu'un d'autre que toi.
-T'as un pouvoir absolu sur ma teub et mon fiak, en un mot sur moi 🥵🔥</span>
+Je suis incapable de ressentir ça pour quelqu’un d’autre que toi. T’as un pouvoir absolu sur ma teub et sur mon cul, en un mot sur moi 🥵🔥
 
-<span style="color: purple;">C’est un tout que j'éprouve pour toi : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms.
+C’est un tout que j’éprouve pour toi : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms.
 
-<span style="color: purple;">Mais tqt gro, ça change rien à ce qu'on est tous les deux. C'est juste mon kiff, parce que c'est trop fort ce que je ressens pour toi mais ça va on reste tranquille, oklm frère.
+Mais tqt gro, ça change rien à ce qu’on est tous les deux. C’est juste mon kiff, parce que c’est trop fort ce que je ressens pour toi mais ça va, on reste tranquille, oklm frère.
 
 ## Sommeil et cogitations 
 J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.
