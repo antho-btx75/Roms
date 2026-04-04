@@ -2,10 +2,6 @@
 
 [🎙️ Bonne soirée mon Roms 💪🏻💪🏻](https://drive.google.com/file/d/1D0XImTmjcekTc3fg0GRk9JNljWBGxZ85/view?usp=drivesdk)
 
-Je te kiffe mon gars, à un point que t'as pas idée 💕. Personne ne sait à quel point je te kiffe mon Romain.
-
-Enfin si, y'a que toi... tmtc 💙💜🙏🏻
-
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
