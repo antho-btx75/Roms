@@ -169,7 +169,7 @@ Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encul
 
 NEW [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
-Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond mon gars ma chatte de mec !
+Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond ma chatte de mec !
 
 Je veux te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement le cul.
 
