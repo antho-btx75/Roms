@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[Bonne nuit mon gars](https://drive.google.com/file/d/1IuG-mhFBnd_Q_rpQksrDj-ZaKDlcWIH7/view?usp=drivesdk), je t'ai en moi gro 💙💜
+[Bonne nuit mon gars](https://drive.google.com/file/d/1IuG-mhFBnd_Q_rpQksrDj-ZaKDlcWIH7/view?usp=drivesdk), je t'ai en moi gro 💙
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
@@ -10,7 +10,7 @@
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
+- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💜🍑🍆
 
 [🎙️ Bonne soirée mon Roms 💪🏻💪🏻](https://drive.google.com/file/d/1D0XImTmjcekTc3fg0GRk9JNljWBGxZ85/view?usp=drivesdk)
 
