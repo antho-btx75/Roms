@@ -1,7 +1,5 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-j'me lève archi tôt pour le taff dm1, Bonne nuit mon gars ✨🌠💙💜
-
 [🎙️ Bonne soirée mon Roms 💪🏻💪🏻](https://drive.google.com/file/d/1D0XImTmjcekTc3fg0GRk9JNljWBGxZ85/view?usp=drivesdk)
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
@@ -12,7 +10,7 @@ j'me lève archi tôt pour le taff dm1, Bonne nuit mon gars ✨🌠💙💜
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars), y'a une bonne odeur de bite et de cul entre nous mon gars 💙🍑🍆
+- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💙🍑🍆
 
 [🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon gars.
 
