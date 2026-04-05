@@ -139,25 +139,22 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars [personne d'autre que toi peut me faire bander et mouiller du cul srx](#des-envies-de-baise-avec-toi-ptn), et j'ai trop envie que tu me ramones mon cul 🥵🍆💦
+T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et [mouiller du cul srx](#des-envies-de-baise-avec-toi-ptn).
 
-NEW [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
+En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme personne putain. T'as un fiak fait pour faire bander direct !
 
-[🎙️ Putain mon gars, ramone bien mon cul](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk)
+[🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
 
-[🎙️ Mon gars, t'as un cul qui me fait trop bander](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk)
+Mais en vrai de vrai mon gros fantasme c'est que [tu me ramones bien à fond mon gars !]((#des-envies-de-baise-avec-toi-ptn)
 
 [Teub](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk)
 
 
-[Trou de balle](https://drive.google.com/file/d/1GuHKfdfa4ZL3CivcGmKpoojIH6H6c-6c/view?usp=drivesdk) / [Mon zgeg](https://drive.google.com/file/d/1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD/view?usp=drivesdk) / [Fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Teub et baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) baise moi bien à fond, enfonce moi ta queue mon gars 🥵🤤
+[Trou de balle](https://drive.google.com/file/d/1GuHKfdfa4ZL3CivcGmKpoojIH6H6c-6c/view?usp=drivesdk) / [Mon zgeg](https://drive.google.com/file/d/1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD/view?usp=drivesdk) / [Fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Teub et baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk) baise moi bien à fond, enfonce moi ta queue mon gars et branle ma teub 🥵🤤
 
 [Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
 
 Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul. 
-
-[🎙️ J'ai trop envie de ramoner ton trou de balle bien à fond](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), ou tu peux [🎙️ baiser mon baltrou](https://drive.google.com/file/d/1BS6_syyr1TDBSrBRISLK0XyRS6BozFVg/view?usp=drivesdk) jusqu'à juter dedans si tu kiffes, c'est toi qui décides frère.
-[🎙️ Se pomper la teub mutuellement](https://drive.google.com/file/d/1OBPOol_GsexWCYZLENtgzl5qim43xmUc/view?usp=drivesdk) ou se lébran. 
 
 C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
@@ -170,13 +167,11 @@ Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gar
 Et j'ai grave envie que tu me prennes…
 Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
 
-En vrai oui ton bon gros boule, [🎙️ y’a rien de plus bandant.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme jamais.
+NEW [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
-[🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
+Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond mon gars ma chatte de mec !
 
-Mais en vrai de vrai j'ai trop envie que tu me ramones bien à fond mon gars !
-
-Je veux te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement.
+Je veux te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement le cul.
 
 C’est trop bon, trop chaud, trop kiffant…
 Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de rentrer, à me faire démonter le cul par toi pendant que nos deux teubs ont été pompées bien comme il faut.
@@ -191,6 +186,7 @@ Je suis incapable de ressentir ça pour quelqu’un d’autre que toi. T’as un
 C’est un tout que j’éprouve pour toi : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms.
 
 Mais tqt gro, ça change rien à ce qu’on est tous les deux. C’est juste mon kiff, parce que c’est trop fort ce que je ressens pour toi mais ça va, on reste tranquille, oklm frère.
+
 
 ## Sommeil et cogitations 
 J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.
