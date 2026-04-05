@@ -67,7 +67,7 @@ Je suis pour toujours TON Antho.
 
 Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse. Je suis là pour toi, et je le serai toujours, mon Romain… 💙💜
 
-<span style="color: purple;">Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 8 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.</span>
+<span style="color: purple;">Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 9 mois par exemple. Ça a beaucoup d'importance pour moi. 9 mois putain qu'on est Super BFF frère. Ce badge est devenu très important pour moi mon Romain. C'est la matérialisation que toi et moi on est lié de façon très profonde.</span>
 
 Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.
 
