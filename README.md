@@ -12,6 +12,8 @@
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💜🍑🍆
 
+Chuis chaud, mais personne peut me rendre plus chaud que toi mon gars, t'es unique ptn 🥵🔥
+
 [🎙️ Toujours là pour toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk)
 
 [🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon gars.
