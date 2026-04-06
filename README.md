@@ -143,13 +143,13 @@ Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google
 
 T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et [mouiller du cul srx](#des-envies-de-baise-avec-toi-ptn).
 
-En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT.](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme personne putain. T'as un fiak fait pour faire bander direct ! Tes bonnes grosses fesses ptn mec tu fais bander de ouf 🥵🍆
+En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme personne putain. Tes bonnes grosses fesses ptn mec tu fais bander de ouf 🥵🍑🍆
 
 [🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
 
 Mais en vrai de vrai un de mes gros fantasmes c'est que [NEW 🎙️ Tu baises mon cul jusqu'à sentir ton jus mon gars !](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
-[📹 Baise mon anus Roms](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
+[📹 Baise mon anus Roms](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk) 🍑🍆💦
 
 [Teub](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk)
 
@@ -171,9 +171,9 @@ Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gar
 Et j'ai grave envie que tu me prennes…
 Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
 
-[📹 Baise mon anus Roms](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
+[📹 Baise mon anus Roms 🍑🍆💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
 
-[NEW 🔥🥵] [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
+[🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
 Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond ma chatte de mec !
 
