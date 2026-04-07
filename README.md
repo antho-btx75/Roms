@@ -10,7 +10,7 @@
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💜🍑🍆 (chuis chaud, mais personne peut me rendre plus chaud que toi mon gars, t'es unique ptn 🥵🔥)
+- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💜🍑🍆 
 
 [🎙️ Toujours là pour toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk)
 
