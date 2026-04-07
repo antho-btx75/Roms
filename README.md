@@ -2,7 +2,7 @@
 
 [🎙️ Force à toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
-Oui c'est fort ce que je ressens pour toi, mais je veux que [tu entendes ce que j'ai à te dire mon Roms](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk)
+Oui c'est fort ce que je ressens pour toi mon Roms, [et j'ai jamais ressenti ça pour quelqu'un frère](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk)
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
