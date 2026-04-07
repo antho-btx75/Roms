@@ -167,8 +167,6 @@ Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gar
 Et j'ai grave envie que tu me prennes…
 Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
 
-[📹 Baise mon anus Roms 🍑🍆💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
-
 [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
 Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond ma chatte de mec ! Ton cul me fait bander dur et j'ai envie de le baiser, mais j'ai aussi ce fantasme de te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement le cul.
