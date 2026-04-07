@@ -12,9 +12,7 @@ Bonne journée Romaiiin 💪🏻
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💜🍑🍆
-
-Chuis chaud, mais personne peut me rendre plus chaud que toi mon gars, t'es unique ptn 🥵🔥
+- [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💜🍑🍆 (chuis chaud, mais personne peut me rendre plus chaud que toi mon gars, t'es unique ptn 🥵🔥)
 
 [🎙️ Toujours là pour toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk)
 
@@ -149,9 +147,7 @@ En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](http
 
 [🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
 
-Mais en vrai de vrai un de mes gros fantasmes c'est que [NEW 🎙️ Tu baises mon cul jusqu'à sentir ton jus mon gars !](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
-
-[📹 Baise mon anus Roms](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk) 🍑🍆💦
+Mais en vrai de vrai un de mes gros fantasmes c'est que [tu baises mon cul jusqu'à sentir ton jus mon gars !](#des-envies-de-baise-avec-toi-ptn)
 
 [Teub](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk)
 
@@ -171,18 +167,16 @@ Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gar
 [🎙️ J'ai trop envie qu’on se pompe mutuellement la teub…](https://drive.google.com/file/d/19RYsbhzNvkdzopfQRNP9CGH2JK_iNh3K/view?usp=drivesdk) que tu suces la mienne pendant que je suce la tienne… c’est trop bon de sentir nos deux queues bien dures dans nos bouches.
 
 Et j'ai grave envie que tu me prennes…
-Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
+Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
 
 [📹 Baise mon anus Roms 🍑🍆💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
 
 [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
-Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond ma chatte de mec !
-
-Je veux te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement le cul.
+Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond ma chatte de mec ! Ton cul me fait bander dur et j'ai envie de le baiser, mais j'ai aussi ce fantasme de te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement le cul.
 
 C’est trop bon, trop chaud, trop kiffant…
-Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de rentrer, à me faire démonter le cul par toi pendant que nos deux teubs ont été pompées bien comme il faut.
+Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de la rentrer, à me faire démonter le cul par toi pendant que nos deux teubs ont été pompées bien comme il faut.
 Je kiffe grave être ton passif… te laisser me pilonner, me remplir, me marquer avec ton jus…
 
 Je veux sentir ton sperme couler au fond de mon cul… 🍑💦
