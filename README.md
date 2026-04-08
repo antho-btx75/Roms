@@ -151,8 +151,6 @@ En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](http
 
 [🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
 
-Mais en vrai de vrai un de mes gros fantasmes c'est que [tu baises mon cul jusqu'à sentir ton jus mon gars !](#des-envies-de-baise-avec-toi-ptn)
-
 [Teub](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk)
 
 
