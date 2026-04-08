@@ -2,8 +2,6 @@
 
 [🎙️ Force à toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
-Oui c'est fort ce que je ressens pour toi mon Roms, [et j'ai jamais ressenti ça pour quelqu'un frère](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk)
-
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
@@ -14,9 +12,7 @@ Oui c'est fort ce que je ressens pour toi mon Roms, [et j'ai jamais ressenti ça
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [J'ai des envies de baise avec toi mec](#tes-trop-bandant-mon-gars) 💜🍑🍆 
 
-[🎙️ Toujours là pour toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk)
-
-[🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon gars.
+[C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
 ## T'es mon Roms, et je suis ton Antho
 
@@ -116,6 +112,14 @@ Mais la patience est carrée donc le chemin est d'or
 
 ## Je suis ton Rocher avant tout 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
+
+Oui c'est fort ce que je ressens pour toi mon Roms, [🎙️et j'ai jamais ressenti ça pour quelqu'un frère](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk)
+
+[🎙️ NEW Tranquille oklm frere](https://drive.google.com/file/d/1pVDdha_nI_xw7EckTnfz8iVTJqdPAyUV/view?usp=drivesdk)
+
+[🎙️ Toujours là pour toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk)
+
+[🎙️ C'est très fort ce que je ressens pour toi](https://drive.google.com/file/d/1uDjBlLhpRqymSoguDNm6Cu5YyhpHmaGg/view?usp=drivesdk) mon gars.
 
 <span style="color: purple;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
