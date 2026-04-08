@@ -113,9 +113,9 @@ Mais la patience est carrée donc le chemin est d'or
 ## Je suis ton Rocher avant tout 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
-Oui c'est fort ce que je ressens pour toi mon Roms, [🎙️et j'ai jamais ressenti ça pour quelqu'un frère](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk)
-
 [🎙️ NEW Tranquille oklm frere](https://drive.google.com/file/d/1pVDdha_nI_xw7EckTnfz8iVTJqdPAyUV/view?usp=drivesdk)
+
+Oui c'est fort ce que je ressens pour toi mon Roms, [🎙️et j'ai jamais ressenti ça pour quelqu'un frère](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk)
 
 [🎙️ Toujours là pour toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk)
 
