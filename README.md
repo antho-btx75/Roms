@@ -115,6 +115,12 @@ Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu
 
 [🎙️ NEW Tranquille oklm frere](https://drive.google.com/file/d/1NGNVBnwBRjYckXkAH1KSfJ2MtBYtYBWg/view?usp=drivesdk)
 
+😂😂😂🤣 : si c'est pas ton kiff, et j'arrête direct, tranquille oklm, sans malaise gro.
+
+🤣🤣🤣😂 : si tu kiffes. 
+
+Dans les 2 cas j'en parlerai jamais tqt. Et si tu kiffes ça veut pas dire qu'on doit passer à l'acte mdrr. On peut continuer à kiffer nos bails en scred chacun de notre côté et se parler normal frère.
+
 Oui c'est fort ce que je ressens pour toi mon Roms, [🎙️et j'ai jamais ressenti ça pour quelqu'un frère](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk)
 
 [🎙️ Toujours là pour toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk)
