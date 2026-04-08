@@ -3,7 +3,7 @@
 [Gris de fou](https://drive.google.com/file/d/1V4Pa0RhFsd2_8xiAaImfYnLURqIkOrk5/view?usp=drivesdk) pour le match gros 😭
 Chuis doublement gris... même si je suis un nouveau supporter, ce soir j'étais vraiment à fond et je me sens deja tellement proche de ce club, avoir visité Barcelone m'a beaucoup apporté, j'ai bcp aimé cette ville et son histoire footballistique, et avoir visité Barcelone en ta compagnie forcément ça a été très fort pour moi, et je suis gris aussi par rapport à toi, un supporter de (très) longue date. J'ai trop envie de te faire un câlin mon gars 🥹🥹🫂💙
 
-Plus on est gris tous les deux plus j'ai envie de t'aimer frère.
+Plus on est gris tous les deux plus j'ai envie de t'aimer frère. Et je te kiffe de fou mon gars 💙💜
 
 Mais il reste le match retour je garde la foi 🙏🏻💪🏻
 
