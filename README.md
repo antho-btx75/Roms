@@ -174,6 +174,10 @@ Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gar
 
 [🎙️ J'ai trop envie qu’on se pompe mutuellement la teub…](https://drive.google.com/file/d/19RYsbhzNvkdzopfQRNP9CGH2JK_iNh3K/view?usp=drivesdk) que tu suces la mienne pendant que je suce la tienne… c’est trop bon de sentir nos deux queues bien dures dans nos bouches.
 
+[NEW 📹 Montage video + vocal : Ramone mon trou de balle mon gars, j'ai trop envie de toi dans mon cul](https://drive.google.com/file/d/1CGDY1pezcLWGlSy45pDLbB5LcXk5Vv6c/view?usp=drivesdk)
+
+[📹 Baise mon anus Roms 🍑🍆💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
+
 Et j'ai grave envie que tu me prennes…
 Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
 
