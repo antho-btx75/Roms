@@ -1,6 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 [Gris de fou](https://drive.google.com/file/d/1V4Pa0RhFsd2_8xiAaImfYnLURqIkOrk5/view?usp=drivesdk) pour le match gros 😭
+Chuis doublement gris... même si je suis un nouveau supporter je me sens deja proche de ce club, et en plus chuis gris par rapport à toi, un supporter de longue date. J'ai trop envie de te faire un câlin mon gars 🥹🥹
 
 [🎙️ Force à toi mon gars 💪🏻💪🏻](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
