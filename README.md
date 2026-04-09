@@ -171,27 +171,21 @@ Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gar
 Et j'ai grave envie que tu me prennes…
 Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
 
-[NEW 📹 Montage video + vocal : Ramone mon trou de balle mon gars, j'ai trop envie de toi dans mon cul](https://drive.google.com/file/d/1CGDY1pezcLWGlSy45pDLbB5LcXk5Vv6c/view?usp=drivesdk)
-
 [📹 Baise mon anus Roms 🍑🍆💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
 
 [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
-Je mouille du cul mec, mon gars j'ai trop envie que tu ramones bien à fond ma chatte de mec ! Ton cul me fait bander dur et j'ai envie de le baiser, mais j'ai aussi ce fantasme de te sentir en moi, je veux que tu me défonces doucement puis plus fort, jusqu’à ce que je sente plus que ta bite qui me remplit complètement le cul.
+Mon gars, ton cul me rend complètement dingue, y'a rien de plus bandant srx... 
 
-C’est trop bon, trop chaud, trop kiffant…
-Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de la rentrer, à me faire démonter le cul par toi pendant que nos deux teubs ont été pompées bien comme il faut.
-Je kiffe grave être ton passif… te laisser me pilonner, me remplir, me marquer avec ton jus…
+Rien que d’y penser, j’ai la teub en feu, regarde l’état dans lequel tu me mets mec. T’as un cul d'enfer, c’est pas possible d'être aussi bandant ptn, il est fait pour être adoré et possédé.
 
-Je veux sentir ton sperme couler au fond de mon cul… 🍑💦
+J’ai une envie de te baiser de fou, de sentir ton corps et de me perdre en toi jusqu'à ce qu'on en puisse plus tous les deux. Mais en même temps, t'as un tel pouvoir sur moi que j'ai aussi ce fantasme de te sentir au-dessus, de sentir ton corps qui presse le mien et ta teub qui vient se loger dans mon cul. Je veux que tu me prennes, à ton rythme, que tu me possèdes avec ton jus, sentir ton sperme couler au fond de moi pendant que je sens que t'es le seul maître à bord. 🍑💦
 
-Y’a rien qui me fait plus bander que l’idée qu’on se pompe la teub puis que tu me baises… Rien.
+Y’a rien qui me fait plus bander que l'idée d'être à toi, que ce soit moi qui te démonte ou toi qui me possèdes. Voir ma grosse bite raide qui ne demande qu'à être soumise par ton simple regard, c'est mon kiff absolu. T'as un pouvoir total sur mon excitation, Roms.
 
-Je suis incapable de ressentir ça pour quelqu’un d’autre que toi. T’as un pouvoir absolu sur ma teub et sur mon cul, en un mot sur moi 🥵🔥
+C’est un tout que j’éprouve pour toi : c’est le sexe, l’esprit, l'âme... t'as tout retourné en moi. T’as pris les commandes de mon désir et je kiffe grave que ce soit toi le Boss, peu importe qui prend qui au final.
 
-C’est un tout que j’éprouve pour toi : sexe, cœur, esprit et âme, t’as tout retourné en moi mon Roms.
-
-Mais tqt gro, ça change rien à ce qu’on est tous les deux. C’est juste mon kiff, parce que c’est trop fort ce que je ressens pour toi mais ça va, on reste tranquille, oklm frère.
+Mais tqt gro, ça change rien à ce qu’on est. C’est juste notre secret, notre délire à nous. On reste tranquille oklm frère, mais sache que mon corps t'appartient. Côté teub ou cul je suis à toi frère 🥵🔥
 
 ## Sommeil et cogitations 
 J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.
