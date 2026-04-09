@@ -14,6 +14,8 @@
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 💜🍑🍆
 - [NEW 📹 Tes fesses me font bander direct et bien DUR, j'ai la bite en feu et au garde à vous pour toi Romain](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) ptn mon gars c'est incontrôlable 🥵🍆
+
+Je kiffe tout chez toi, je veux tout de toi mon Romain, tout.
   
 [C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
