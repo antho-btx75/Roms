@@ -146,7 +146,7 @@ Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google
 
 [NEW 📹 Tes fesses me font bander direct et bien dur](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) mon gars 🥵🍆
 
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et [mouiller du cul srx](#des-envies-de-baise-avec-toi-ptn).
+T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et mouiller du cul. [Côté bite ou côté cul tu restes le boss frère](#des-envies-de-baise-avec-toi-ptn).
 
 En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme personne putain. Tes bonnes grosses fesses ptn mec tu fais bander de ouf 🥵
 
