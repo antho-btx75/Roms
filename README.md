@@ -13,7 +13,7 @@
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 💜🍑🍆
-- [NEW](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk)
+- [NEW 📹 Tes fesses me font bander direct et bien dur, j'ai la bite au garde à vous pour toi](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) ptn mon gars 🥵🍆
   
 [C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
@@ -146,7 +146,7 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
-[NEW 📹 Tes fesses me font bander direct et bien dur](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) mon gars 🥵🍆
+[NEW 📹 Tes fesses me font bander direct et bien dur, j'ai la bite au garde à vous pour toi](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) ptn mon gars 🥵🍆
 
 T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et mouiller du cul. [Côté bite ou côté cul tu restes le boss frère](#des-envies-de-baise-avec-toi-ptn).
 
