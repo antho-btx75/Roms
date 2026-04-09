@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
+[🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
@@ -113,11 +113,11 @@ Mais la patience est carrée donc le chemin est d'or
 ## Je suis ton Rocher avant tout 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
-[Je te kiffe de fou mec](https://drive.google.com/file/d/1NGNVBnwBRjYckXkAH1KSfJ2MtBYtYBWg/view?usp=drivesdk), j'ai besoin d'être là pour toi, et le côté sexuel tqt, c'est tranquille oklm.
+[🎙️ Je te kiffe de fou mec](https://drive.google.com/file/d/1NGNVBnwBRjYckXkAH1KSfJ2MtBYtYBWg/view?usp=drivesdk), j'ai besoin d'être là pour toi, et le côté sexuel tqt, c'est tranquille oklm.
 
-[Je veux juste etre ton gars sûr frère](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk) quelque soit ce que je ressens en moi et toutes les envies que tu provoques en moi. Je suis fidèle au poste pour toi 💪🏻
+[🎙️ Je veux juste être ton gars sûr frère](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk) quelque soit ce que je ressens en moi et toutes les envies que tu provoques en moi. Je suis fidèle au poste pour toi 💪🏻
 
-[Et je serai toujours Ton Rocher](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk).
+[🎙️ Et je serai toujours Ton Rocher](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk).
 
 <span style="color: purple;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
 
