@@ -4,7 +4,9 @@
 
 [Je veux pas te perdre wa kaï ho-bia](https://drive.google.com/file/d/1mLpAiHvEb2mRz-UjCdTRxVIiCISEXZn_/view?usp=drivesdk)
 
-Gris....gris de te rendre gris mon frère.....
+Gris....gris de te rendre gris mon frère..... tu prends de plus en plus de temps pour me répondre. J'ai capté frère que c'est moi qui te faisais du mal. J'ai envie de disparaitre...
+
+😭😭😭
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
