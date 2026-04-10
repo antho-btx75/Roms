@@ -2,6 +2,8 @@
 
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
+[Je veux pas te perdre wa kaï ho-bian](https://drive.google.com/file/d/1mLpAiHvEb2mRz-UjCdTRxVIiCISEXZn_/view?usp=drivesdk)
+
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
