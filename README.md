@@ -201,4 +201,28 @@ Répète 4 à 8 fois.
 
 Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des bases scientifiques, c'est ce qu'on appelle la cohérence cardiaque. 
 
-Tu peux aussi essayer les sons marrons (brown noise) sur YouTube. C’est comme du bruit blanc mais plus gr
+## Applis et Liens utiles
+
+### Brave
+[![Brave](https://www.bleepstatic.com/content/hl-images/2019/02/10/brave-browser-header.jpg)](https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3)
+
+### V - Télécharger toutes les vidéos
+[![V - Télécharger toutes les vidéos](https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png)](https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader)
+
+### Proton VPN
+[![Proton VPN](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Proton_VPN_Logo.svg/3840px-Proton_VPN_Logo.svg.png)](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+
+### Gemini
+[![Gemini](https://1000marcas.net/wp-content/uploads/2024/02/Gemini-Logo.jpg)](https://play.google.com/store/apps/details?id=com.google.android.apps.bard)
+
+### Claude IA
+[![Claude IA](https://www.jean-marie-corda.com/wp-content/uploads/2025/07/guide-complet-claude-ai-1.jpg)](https://play.google.com/store/apps/details?id=com.anthropic.claude)
+
+### Pluto TV
+[![Pluto TV](https://deadline.com/wp-content/uploads/2020/01/pluto-logo.png)](https://play.google.com/store/apps/details?id=tv.pluto.android)
+
+### Free Convert
+[![Free Convert](https://cdn.freeconvert.com/logo_theme.svg)](https://www.freeconvert.com/fr)
+
+### WhatTCSay3
+[![WhatTCSay3](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdtMDo7icL1chCDggFxuh1rwuUrCRboP5riKn3Kn_Rw&s)](https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3)
