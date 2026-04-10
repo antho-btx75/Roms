@@ -12,8 +12,6 @@
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [Applis et Liens utiles](#applis-et-liens-utiles)
 - [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 🥵
-
-Je kiffe tout chez toi, je veux tout de toi mon Romain, tout.
   
 [C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
