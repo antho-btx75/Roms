@@ -1,5 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+Mon Romain, si je me fais des films, si tu me lis et que je me torture pour rien connecte toi sur Messenger gro pour me soulager stp mon gars
+
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
 [Je veux pas te perdre wa kaï ho-bia](https://drive.google.com/file/d/1mLpAiHvEb2mRz-UjCdTRxVIiCISEXZn_/view?usp=drivesdk)
