@@ -19,7 +19,7 @@ Gris....gris de te rendre gris mon frère..... tu prends de plus en plus de temp
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [Applis et Liens utiles](#applis-et-liens-utiles)
-- - [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 🥵
+-  [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 🥵
 
 [C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
