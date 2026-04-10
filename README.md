@@ -1,14 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-Mon Romain, si je me fais des films, si tu me lis et que je me torture pour rien connecte toi sur Messenger gro pour me soulager stp mon gars
-
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
-
-[Je veux pas te perdre wa kaï ho-bia](https://drive.google.com/file/d/1mLpAiHvEb2mRz-UjCdTRxVIiCISEXZn_/view?usp=drivesdk)
-
-Gris....gris de te rendre gris mon frère..... tu prends de plus en plus de temps pour me répondre. J'ai capté frère que c'est moi qui te faisais du mal. J'ai envie de disparaitre...
-
-😭😭😭
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
