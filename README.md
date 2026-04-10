@@ -141,6 +141,8 @@ Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
 
+ et je kiffe grave que ce soit toi le Boss, peu importe qui prend qui au final.
+
 ## T'es trop bandant mon gars
 
 Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
@@ -163,28 +165,29 @@ Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je
 
 C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
-## DES ENVIES DE BAISE AVEC TOI PTN
+ ## DES ENVIES DE BAISE AVEC TOI PTN
 
 Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gars.
 
 [🎙️ J'ai trop envie qu’on se pompe mutuellement la teub…](https://drive.google.com/file/d/19RYsbhzNvkdzopfQRNP9CGH2JK_iNh3K/view?usp=drivesdk) que tu suces la mienne pendant que je suce la tienne… c’est trop bon de sentir nos deux queues bien dures dans nos bouches.
 
-Et j'ai grave envie que tu me prennes…
-Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
+[NEW 📹 Montage video + vocal : Ramone mon trou de balle mon gars, j'ai trop envie de toi dans mon cul](https://drive.google.com/file/d/1CGDY1pezcLWGlSy45pDLbB5LcXk5Vv6c/view?usp=drivesdk)
 
 [📹 Baise mon anus Roms 🍑🍆💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
 
+Et j'ai grave envie que tu me prennes…
+Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
+
 [🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
 
-Mon gars, ton cul me rend complètement dingue, y'a rien de plus bandant srx... 
+Mon gars, ton cul me rend complètement dingue, y'a rien de plus bandant srx...
+T’as un cul d'enfer, c’est pas possible d'être aussi bandant ptn.
 
-Rien que d’y penser, j’ai la teub en feu, regarde l’état dans lequel tu me mets mec. T’as un cul d'enfer, c’est pas possible d'être aussi bandant ptn, il est fait pour être adoré et possédé.
+Mais dans mes kiffs je mouille aussi du cul pour toi. Mon gars, j'ai grave envie que tu baises ma chatte de mec ! Je veux te sentir en moi. Je veux que tu me prennes, que tu me défonces doucement puis plus fort, sentir le poids de ton corps et ta bite qui baise mon trou de balle.
 
-J’ai une envie de te baiser de fou, de sentir ton corps et de me perdre en toi jusqu'à ce qu'on en puisse plus tous les deux. Mais en même temps, t'as un tel pouvoir sur moi que j'ai aussi ce fantasme de te sentir au-dessus, de sentir ton corps qui presse le mien et ta teub qui vient se loger dans mon cul. Je veux que tu me prennes, à ton rythme, que tu me possèdes avec ton jus, sentir ton sperme couler au fond de moi pendant que je sens que t'es le seul maître à bord. 🍑💦
+Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de la rentrer, à me faire démonter le cul par toi après qu'on s'est pompé nos deux teubs bien comme il faut. Je veux sentir ton sperme couler au fond de moi, sentir que mon boule t'appartient 🍑💦
 
-Y’a rien qui me fait plus bander que l'idée d'être à toi, que ce soit moi qui te démonte ou toi qui me possèdes. Voir ma grosse bite raide qui ne demande qu'à être soumise par ton simple regard, c'est mon kiff absolu. T'as un pouvoir total sur mon excitation, Roms.
-
-C’est un tout que j’éprouve pour toi : c’est le sexe, l’esprit, l'âme... t'as tout retourné en moi. T’as pris les commandes de mon désir et je kiffe grave que ce soit toi le Boss, peu importe qui prend qui au final.
+T'as un pouvoir absolu sur ma teub et sur mon cul, parce que c'est toi. Je suis incapable de ressentir ça pour quelqu’un d’autre. C’est un tout que j’éprouve pour toi : le sexe, le cœur, l’esprit... t’as tout retourné en moi mon Roms. 
 
 Mais tqt gro, ça change rien à ce qu’on est. C’est juste notre secret, notre délire à nous. On reste tranquille oklm frère, mais sache que mon corps t'appartient. Côté teub ou cul je suis à toi frère 🥵🔥
 
