@@ -85,9 +85,9 @@ C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hu
 
 [vidéo Menton/Monaco (mdp : Gfcarrefour)](https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci)
 
-[Ton t shirt Lacoste mauve frère 🤣](https://drive.google.com/file/d/1STkYqj6xQlgAQ7J6nQRefJj4JpmchsUu/view?usp=drivesdk)
+[Ton t shirt Lacoste mauve frère 🤣](https://drive.google.com/file/d/1bnXYMzCWsGKFS1381NraHA8T4HP4Rnm3/view?usp=drivesdk)
 
-[![Ton T shirt Lacoste mauve](https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg)](https://drive.google.com/file/d/1STkYqj6xQlgAQ7J6nQRefJj4JpmchsUu/view?usp=drivesdk)
+[![Ton T shirt Lacoste mauve](https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg)](https://drive.google.com/file/d/1bnXYMzCWsGKFS1381NraHA8T4HP4Rnm3/view?usp=drivesdk)
 
 ## Taff
 [CV Romain](https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit)
