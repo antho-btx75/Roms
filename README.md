@@ -10,6 +10,7 @@
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
+- [Applis et Liens utiles](#applis-et-liens-utiles)
 - [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 🥵
 
 Je kiffe tout chez toi, je veux tout de toi mon Romain, tout.
@@ -200,6 +201,12 @@ Répète 4 à 8 fois.
 [Tuto Tiktok](https://vm.tiktok.com/ZNRmNnDjM/)
 
 Ça calme le cerveau et coupe les ruminations en 1–2 min.  Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des bases scientifiques, c'est ce qu'on appelle la cohérence cardiaque. 
+
+Tu peux aussi essayer les sons marrons (brown noise) sur YouTube. C’est comme du bruit blanc mais plus grave et plus profond, ça aide beaucoup à calmer le cerveau.
+
+[Exemple](https://m.youtube.com/watch?v=gJnxtjE1FY0)
+
+Le mieux c'est de le laisser en fond, mais pas avec un casque sinon on est trop focus sur le son, et pas trop fort non plus.
 
 ## Applis et Liens utiles
 
