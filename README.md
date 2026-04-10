@@ -15,6 +15,13 @@
   
 [C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
+---
+
+[![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
+[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
+La réussite se compte en années, les défaites en heures
+Mais la patience est carrée donc le chemin est d'or.
+
 ## T'es mon Roms, et je suis ton Antho
 
 TON SOLDAT, ton gars sûr 💪🏻🫡
@@ -103,13 +110,6 @@ C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hu
 [Busuu, la meilleure application pour se perfectionner en anglais mon gars](https://play.google.com/store/apps/details?id=com.busuu.android.enc)
 
 La meilleure app pour apprendre et améliorer son niveau d'anglais. Quand on était à Corte Ingles à Barcelone dans le centre commercial tu m'as rappelé l'importance de parler anglais, et j’ai pensé à toi en voyant cette app. Elle est vraiment top pour progresser tranquillement.
-
----
-
-[![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
-[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
-La réussite se compte en années, les défaites en heures
-Mais la patience est carrée donc le chemin est d'or
 
 ## Je suis ton Rocher avant tout 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
@@ -215,35 +215,49 @@ Applis toutes vérifiées, parfaitement sûres et très bien notées sur le Play
 
 Brave, que tu connais bien maintenant. Sans doute le meilleur navigateur (bloqueur de publicités, anti trackers, permet d'écouter YouTube avec l'écran verrouillé etc).  VPN (limité) intégré.
 
+---
+
 ### V - Télécharger toutes les vidéos
 [![V - Télécharger toutes les vidéos](https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png)](https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader)
 
 Appli qui permet de télécharger TOUTES les vidéos du net, sans exception. 
+
+---
 
 ### Proton VPN
 [![Proton VPN](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Proton_VPN_Logo.svg/3840px-Proton_VPN_Logo.svg.png)](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 
 Le meilleur VPN gratuit. Utile pour aller sur certains sites (mdr)
 
+---
+
 ### Gemini
 [![Gemini](https://1000marcas.net/wp-content/uploads/2024/02/Gemini-Logo.jpg)](https://play.google.com/store/apps/details?id=com.google.android.apps.bard)
 
 L'IA de Google, sand doute la meilleure IA gratuite. Il suffit juste d'avoir un compte Google et c'est tout.
+
+---
 
 ### Claude IA
 [![Claude IA](https://www.jean-marie-corda.com/wp-content/uploads/2025/07/guide-complet-claude-ai-1.jpg)](https://play.google.com/store/apps/details?id=com.anthropic.claude)
 
 Une autre IA excellente, très "humaine" dans son rapport avec l'utilisateur.
 
+---
+
 ### Pluto TV
 [![Pluto TV](https://deadline.com/wp-content/uploads/2020/01/pluto-logo.png)](https://play.google.com/store/apps/details?id=tv.pluto.android)
 
 Appli permettant d'avoir accès à bcp de films, de séries, d'anime etc. Il y a actuellement l'intégrale d'Olive et Tom (en direct ou en VOD). Full gratuit.
 
+---
+
 ### Free Convert
 [![Free Convert](https://cdn.freeconvert.com/logo_theme.svg)](https://www.freeconvert.com/fr)
 
 Permet de convertir des fichiers dans tous les formats (vidéo, audio, images, documents etc)
+
+---
 
 ### WhatTCSay3
 [![WhatTCSay3](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdtMDo7icL1chCDggFxuh1rwuUrCRboP5riKn3Kn_Rw&s)](https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3)
