@@ -10,7 +10,7 @@
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
-- [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 💜🍑🍆
+- [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 
 
 Je kiffe tout chez toi, je veux tout de toi mon Romain, tout.
   
@@ -34,19 +34,19 @@ Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je di
 
 Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
 
+Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum je pouvais pas contrôler, tu me fais trop bander et mouiller du cul mdrr, Je m’en suis rendu compte en regardant mon short 🤣🤣🤣
+
 L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as dit que personne te faisait des cadeaux je voulais encore plus te l’offrir 😭😭😭
 
 T’aurais été tellement stylé dedans.
 
-Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵🍆 
+Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵
 
 Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.
 
 Roms, quand on parlait de nos daronnes à Barcelone... le fait que tu donnes 1000 balles tous les mois à ta mère, je trouve ça tellement noble gro. Et quand je t'ai dit que c'était pareil pour moi, que c'était normal... c'est là que j'ai compris qu'on était vraiment pareil toi et moi. On a les mêmes valeurs, le même respect. T'es vraiment un mec bien, et c'est aussi pour ça que je te kiffe sur tous les plans.
 
 <span style="color: purple;">T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et toi ptn mais t'es tout en haut de la pyramide des gens que j'aime Roms.</span>
-
-Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum je pouvais pas contrôler, tu me fais trop bander et mouiller du cul mdrr, Je m’en suis rendu compte en regardant mon short 🤣🤣🤣
 
 <span style="color: purple;">Faut savoir que moi de base je suis pas pédé, juste des tendances bi, mais comme je dis plus bas depuis que je te connais je suis Romainsexuel mdrrr. Faut dire t'as tout pour toi : t'es gentil, t'es drôle, t'es beau, t'es sexy (t'as de belles fesses mec, t'as un cul d'enfer comme avait dit Zinedine un jour à Carrefour mdr !), surtout t'es vrai, t'es profond et t'es le seul mec avec qui je peux être moi-même. T'as ce truc qui balaye tout le gris autour de moi. T'es ma personne préférée parce que t'es unique, tout simplement. T’es un mec à part, avec une vibe que j'ai jamais vue ailleurs, et c'est ce mélange qui fait que je perds tout contrôle avec toi.</span>
 
