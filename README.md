@@ -17,8 +17,8 @@
 
 ---
 
-[![Win Roms ! Win !](https://www.culturopoing.com/wp-content/uploads/2025/06/initial-werenoi.jpg)](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
-[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=RGNHNGVLsG8&list=RDRGNHNGVLsG8&start_radio=1&pp=ygUTd2VyZW5vaSBjaGVtaW4gZCdvcqAHAQ%3D%3D)
+[![Win Roms ! Win !](https://wallpaper.forfun.com/fetch/18/184c96fae58348a9de04c2f1240acd9d.jpeg)](https://m.youtube.com/watch?v=ffFBdWBp0NE&list=RDffFBdWBp0NE&start_radio=1&pp=ygUVbm8gZWFzeSB3YXkgb3V0IHJvY2t5oAcB)
+[Win Roms, Win!💪🏻](https://m.youtube.com/watch?v=ffFBdWBp0NE&list=RDffFBdWBp0NE&start_radio=1&pp=ygUVbm8gZWFzeSB3YXkgb3V0IHJvY2t5oAcB)
 La réussite se compte en années, les défaites en heures
 Mais la patience est carrée donc le chemin est d'or.
 
