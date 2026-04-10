@@ -204,7 +204,7 @@ Répète 4 à 8 fois.
 ## Applis et Liens utiles
 
 ### Brave
-[![Brave](https://www.bleepstatic.com/content/hl-images/2019/02/10/brave-browser-header.jpg)](https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3)
+[![Brave](https://www.bleepstatic.com/content/hl-images/2019/02/10/brave-browser-header.jpg)](https://play.google.com/store/apps/details?id=com.brave.browser)
 
 ### V - Télécharger toutes les vidéos
 [![V - Télécharger toutes les vidéos](https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png)](https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader)
