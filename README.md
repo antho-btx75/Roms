@@ -44,7 +44,7 @@ L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as
 
 T’aurais été tellement stylé dedans.
 
-Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵
+Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). 
 
 Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.
 
