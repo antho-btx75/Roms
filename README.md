@@ -165,7 +165,7 @@ Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je
 
 C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
 
- ## DES ENVIES DE BAISE AVEC TOI PTN
+## DES ENVIES DE BAISE AVEC TOI PTN
 
 Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gars.
 
