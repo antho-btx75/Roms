@@ -73,7 +73,7 @@ Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment e
 
 Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand on était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr.
 
-C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également.
+C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hui.Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
