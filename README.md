@@ -2,8 +2,6 @@
 
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
-[Bonne nuit frère](https://drive.google.com/file/d/1AoY9nPgdyne0WqlODMAGvUDA7khUiamP/view?usp=drivesdk)
-
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
