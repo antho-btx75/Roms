@@ -127,8 +127,6 @@ T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à
 
 <span style="color: purple;">Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr), un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
 
-T’es bandant de fou gro, srx. Tu dégages une vibe qui me donne envie de baiser grave avec toi. Se pépom la teub mutuellement ou de la baise pure, une bonne queue dans le baltrou (le mien ou le tien, c'est toi le boss là-dessus)... c’est un désir brut qui me traverse et je l'assume à 200 %.
-
 Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici 💪🏻
 
 Car au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
