@@ -4,6 +4,8 @@
 
 [🎙️ Écoute frère 🙏🏻](https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk)
 
+J'ai remis la version avec tout le contenu centré sur la bite et le cul, car en vrai de vrai frère je pense que c'est pas ça le vrai problème. Je suis comme je suis, et je m'offre à toi à 100%, et sache que tu peux tout prendre, tout kiffer, sans rien attendre en retour sur le plan sexuel. Je te fais cadeau de tout ça et t'as aucune dette de cul à payer en retour.
+
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
