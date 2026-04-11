@@ -8,13 +8,13 @@ Azy frère tu sais quoi, j'ai remis la version avec tout le contenu centré sur 
 
 Je suis là comme un con à avoir peur dès que je poste quelque chose de sexuel alors que même avant d'aller à Barcelone j'avais déjà mis du contenu hard gro... 
 
-D'ailleurs quanf on était à Barcelone une nuit avant d'aller se coucher t'étais en caleçon frère, juste devant la porte de ta chambre et t'étais bandant car tu remontais ton caleçon avec tes mains et tu m'excitais grave je voyais tes belles cuisses. Quelques minutes après tu avais mis une sorte de pyjama long je me suis dit "merde Roms était en calbute il était trop frais pourquoi il a mis un pyjama"
+D'ailleurs quand on était à Barcelone une nuit avant d'aller se coucher t'étais en caleçon frère, tu te tenais juste devant la porte de ta chambre et t'étais grave bandant car tu remontais ton caleçon avec tes mains et tu m'excitais de fou je voyais tes belles cuisses. Quelques minutes après tu avais mis une sorte de pyjama long je me suis dit "merde Roms était en calbute il était trop frais pourquoi il a mis un pyjama"
 
 Bref c'est un détail frère mdrrr 🥵🥵😅
 
 Avec le recul tu semblais surpris qu'il y avait 2 chambres dans l'appart, putain si j'avais su j'aurais dû prendre un appart avec une seule chambre 😛🤤🤤🤤
 
-En plus tu sais quoi, la nuit je t'entendais ronfler gro, et je trouvais ça tellement mignon d'entendre mon Roms ronfler quand je me levais la nuit pour pisser ou le matin quand je préparais le petit dej ou le programme du jour. On était bien, on était tranquille, et j'entendais mon Romain, ce mec de plus de 80 kilos en train de ronfler comme un gros bébé mais je kiffais ça ptn 😂
+En plus tu sais quoi, la nuit je t'entendais ronfler gro, et je trouvais ça tellement mignon d'entendre mon Roms ronfler quand je me levais la nuit pour pisser ou le matin quand je préparais le petit dej ou le programme du jour. On était bien, on était tranquille, et j'entendais mon Romain, ce mec de plus de 80 kilos en train de ronfler comme un gros bébé mais je kiffais ça de fou ptn 😂
 
 frère stp... connecte toi sur Messenger... je vais pas te parler, ni sur Messenger ni sur snapchat... c'est juste pour kiffer en silence notre présence mutuelle mon gars. En scred...
 
