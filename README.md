@@ -6,6 +6,12 @@
 
 Azy frère tu sais quoi, j'ai remis la version avec tout le contenu centré sur la bite et le cul, car en vrai de vrai frère je pense que c'est pas ça le vrai problème. Je suis comme je suis, et je m'offre à toi à 100%, et sache que tu peux tout prendre, tout kiffer en silence, sans que j'attende quelque chose en retour sur le plan sexuel. Je te fais cadeau de tout ça, ma teub, mon cul, c'est brut et je t'offre tout frère, et t'as aucune dette de cul à me payer en retour. C'est un tout que je ressens pour toi, et j'ai pas honte des effets que tu produis en moi, même physique, même sexuel. Et même si ça dépasse aussi le cul gro...
 
+Je suis là comme un con à avoir peur dès que je poste quelque chose de sexuel alors que même avant d'aller à Barcelone j'avais déjà mis du contenu hard gro... 
+
+D'ailleurs quanf on était à Barcelone une nuit avant d'aller se coucher t'étais en caleçon frère, et t'étais bandant car tu remontais ton caleçon avec tes mains et tu m'excitais grave. Quelques minutes après tu avais mis une sorte de pyjama long je me suis dit "merde Roms était en calbute il était trop frais pourquoi il a mis un pyjama"
+
+Bref c'est un détail frère mdrrr 🥵🥵😅
+
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
