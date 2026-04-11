@@ -2,6 +2,8 @@
 
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
+[Écoute frère 🙏🏻](https://drive.google.com/file/d/1_Y3u6yS38u8Dg4aevgihNk3878aMMpuM/view?usp=drivesdk)
+
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
 - [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
@@ -11,7 +13,6 @@
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [Applis et Liens utiles](#applis-et-liens-utiles)
--  [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 🥵
 
 [C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
@@ -39,13 +40,9 @@ Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je di
 
 Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
 
-Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum je pouvais pas contrôler, tu me fais trop bander et mouiller du cul mdrr, Je m’en suis rendu compte en regardant mon short 🤣🤣🤣
-
 L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as dit que personne te faisait des cadeaux je voulais encore plus te l’offrir 😭😭😭
 
 T’aurais été tellement stylé dedans.
-
-Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵
 
 Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.
 
@@ -115,8 +112,6 @@ Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu
 
 [🎙️ Je te kiffe de fou mec](https://drive.google.com/file/d/1NGNVBnwBRjYckXkAH1KSfJ2MtBYtYBWg/view?usp=drivesdk), j'ai besoin d'être là pour toi, et le côté sexuel tqt, c'est tranquille oklm.
 
-[🎙️ Je veux juste être ton gars sûr frère](https://drive.google.com/file/d/1671qAPU0RNO0B4c6jTPsaRLcoRbg-ePX/view?usp=drivesdk) quelque soit ce que je ressens en moi et toutes les envies que tu provoques en moi. Je suis fidèle au poste pour toi 💪🏻
-
 [🎙️ Et je serai toujours Ton Rocher](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk).
 
 <span style="color: purple;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
@@ -138,54 +133,6 @@ Ce que je ressens pour toi ça regarde personne d'autre que toi et moi, et j'ai 
 Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💪🏻💪🏻
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
-
-## T'es trop bandant mon gars
-
-Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
-
-[NEW 📹 Tes fesses me font bander direct et bien DUR, j'ai la bite en feu et au garde à vous pour toi Romain](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) ptn mon gars c'est incontrôlable 🥵🍆
-
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et mouiller du cul. [Côté bite ou côté cul tu restes le boss frère](#des-envies-de-baise-avec-toi-ptn).
-
-En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme personne putain. Tes bonnes grosses fesses ptn mec tu fais bander de ouf 🥵
-
-[🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
-
-[Teub](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk)
-
-[Trou de balle](https://drive.google.com/file/d/1GuHKfdfa4ZL3CivcGmKpoojIH6H6c-6c/view?usp=drivesdk) / [Mon zgeg](https://drive.google.com/file/d/1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD/view?usp=drivesdk) / [Fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Teub et baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk)
-
-[Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
-
-Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul. 
-
-C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
-
-## DES ENVIES DE BAISE AVEC TOI PTN
-
-Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gars.
-
-[🎙️ J'ai trop envie qu’on se pompe mutuellement la teub…](https://drive.google.com/file/d/19RYsbhzNvkdzopfQRNP9CGH2JK_iNh3K/view?usp=drivesdk) que tu suces la mienne pendant que je suce la tienne… c’est trop bon de sentir nos deux queues bien dures dans nos bouches.
-
-[NEW 📹 Montage video + vocal : Ramone mon trou de balle mon gars, j'ai trop envie de toi dans mon cul](https://drive.google.com/file/d/1CGDY1pezcLWGlSy45pDLbB5LcXk5Vv6c/view?usp=drivesdk)
-
-[📹 Baise mon anus Roms 🍑💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
-
-Et j'ai grave envie que tu me prennes…
-Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
-
-[🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
-
-Mon gars, ton cul me rend complètement dingue, y'a rien de plus bandant srx...
-T’as un cul d'enfer, c’est pas possible d'être aussi bandant ptn.
-
-Mais dans mes kiffs je mouille aussi du cul pour toi. Mon gars, j'ai grave envie que tu baises ma chatte de mec ! Je veux te sentir en moi. Je veux que tu me prennes, que tu me défonces doucement puis plus fort, sentir le poids de ton corps et ta bite qui baise mon trou de balle.
-
-Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de la rentrer, à me faire démonter le cul par toi après qu'on s'est pompé nos deux teubs bien comme il faut. Je veux sentir ton sperme couler au fond de moi, sentir que mon boule t'appartient 🍑💦
-
-T'as un pouvoir absolu sur ma teub et sur mon cul, parce que c'est toi. Je suis incapable de ressentir ça pour quelqu’un d’autre. C’est un tout que j’éprouve pour toi : le sexe, le cœur, l’esprit... t’as tout retourné en moi mon Roms. 
-
-Mais tqt gro, ça change rien à ce qu’on est. C’est juste notre secret, notre délire à nous. On reste tranquille oklm frère, mais sache que mon corps t'appartient. Côté teub ou cul je suis à toi frère 🥵🔥
 
 ## Sommeil et cogitations 
 J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.
