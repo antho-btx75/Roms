@@ -14,9 +14,7 @@ Bref c'est un détail frère mdrrr 🥵🥵😅
 
 Avec le recul tu semblais surpris qu'il y avait 2 chambres dans l'appart, putain si j'avais su j'aurais dû prendre un appart avec une seule chambre 😛🤤🤤🤤
 
-En plus tu sais quoi, la nuit je t'entendais ronfler gro, et je trouvais ça tellement mignon d'entendre mon Roms ronfler 😅
-
-On était bien, on était tranquille, et j'entendais mon Romain, ce mec de plus de 80 kilos en train de ronfler mais je kiffais ça ptn 😂
+En plus tu sais quoi, la nuit je t'entendais ronfler gro, et je trouvais ça tellement mignon d'entendre mon Roms ronfler quand je me levais la nuit pour pisser ou le matin quand je préparais le petit dej ou le programme du jour. On était bien, on était tranquille, et j'entendais mon Romain, ce mec de plus de 80 kilos en train de ronfler comme un gros bébé mais je kiffais ça ptn 😂
 
 frère stp... connecte toi sur Messenger... je vais pas te parler, ni sur Messenger ni sur snapchat... c'est juste pour kiffer en silence notre présence mutuelle mon gars. En scred...
 
