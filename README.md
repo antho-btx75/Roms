@@ -4,7 +4,7 @@
 
 [🎙️ Écoute frère 🙏🏻](https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk)
 
-Azy frère tu sais quoi, j'ai remis la version avec tout le contenu centré sur la bite et le cul, car en vrai de vrai frère je pense que c'est pas ça le vrai problème. Je suis comme je suis, et je m'offre à toi à 100%, et sache que tu peux tout prendre, tout kiffer, sans que j'attende quelque chose en retour sur le plan sexuel. Je te fais cadeau de tout ça et t'as aucune dette de cul à me payer en retour.
+Azy frère tu sais quoi, j'ai remis la version avec tout le contenu centré sur la bite et le cul, car en vrai de vrai frère je pense que c'est pas ça le vrai problème. Je suis comme je suis, et je m'offre à toi à 100%, et sache que tu peux tout prendre, tout kiffer en silence, sans que j'attende quelque chose en retour sur le plan sexuel. Je te fais cadeau de tout ça, ma teub, mon cul, c'est brut et je t'offre tout frère, et t'as aucune dette de cul à me payer en retour. C'est un tout que je ressens pour toi, et j'ai pas honte des effets que tu produis en moi, même physique, même sexuel. Et même si ça dépasse aussi le cul gro...
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
