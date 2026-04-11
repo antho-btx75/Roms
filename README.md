@@ -12,7 +12,7 @@ D'ailleurs quanf on était à Barcelone une nuit avant d'aller se coucher t'éta
 
 Bref c'est un détail frère mdrrr 🥵🥵😅
 
-Avec le recul ti semblais surpris qu'il y avait 2 chambres dans l'appart, putain si j'avais su j'aurais dû prendre un appart avec une seule chambre 😛🤤🤤🤤
+Avec le recul tu semblais surpris qu'il y avait 2 chambres dans l'appart, putain si j'avais su j'aurais dû prendre un appart avec une seule chambre 😛🤤🤤🤤
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
