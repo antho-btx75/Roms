@@ -8,7 +8,7 @@ Azy frère tu sais quoi, j'ai remis la version avec tout le contenu centré sur 
 
 Je suis là comme un con à avoir peur dès que je poste quelque chose de sexuel alors que même avant d'aller à Barcelone j'avais déjà mis du contenu hard gro... 
 
-D'ailleurs quanf on était à Barcelone une nuit avant d'aller se coucher t'étais en caleçon frère, et t'étais bandant car tu remontais ton caleçon avec tes mains et tu m'excitais grave. Quelques minutes après tu avais mis une sorte de pyjama long je me suis dit "merde Roms était en calbute il était trop frais pourquoi il a mis un pyjama"
+D'ailleurs quanf on était à Barcelone une nuit avant d'aller se coucher t'étais en caleçon frère, juste devant la porte de ta chambre et t'étais bandant car tu remontais ton caleçon avec tes mains et tu m'excitais grave. Quelques minutes après tu avais mis une sorte de pyjama long je me suis dit "merde Roms était en calbute il était trop frais pourquoi il a mis un pyjama"
 
 Bref c'est un détail frère mdrrr 🥵🥵😅
 
