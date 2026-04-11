@@ -14,6 +14,8 @@ Bref c'est un détail frère mdrrr 🥵🥵😅
 
 Avec le recul tu semblais surpris qu'il y avait 2 chambres dans l'appart, putain si j'avais su j'aurais dû prendre un appart avec une seule chambre 😛🤤🤤🤤
 
+En plus tu sais quoi, la nuit je t'entendais ronfler gro, et je trouvais ça tellement mignon d'entendre mon Roms ronfler 😅
+
 frère stp... connecte toi sur Messenger... je vais pas te parler, ni sur Messenger ni sur snapchat... c'est juste pour kiffer en silence notre présence mutuelle mon gars. En scred...
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
