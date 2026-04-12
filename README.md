@@ -8,7 +8,7 @@
 
 J'ai des souvenirs qui me reviennent de Barcelone frère. 
 
-La nuit je t’entendais ronfler gro, et je trouvais ça tellement mignon d’entendre mon Roms ronfler quand je me levais la nuit pour pisser ou le matin quand je préparais le petit dej ou le programme du jour. On était bien, on était tranquille, et j’entendais mon Romain, ce gars bien massif, ce mec de plus de 80 kilos en train de ronfler comme un gros bébé je kiffais ça de fou ptn 😂
+La nuit je t’entendais ronfler gro, et je trouvais ça tellement mignon d’entendre mon Roms ronfler quand je me levais la nuit pour pisser ou le matin quand je préparais le petit dej ou le programme du jour. On était bien, on était tranquille, et j’entendais mon Romain, ce gars bien massif, bien stoc, ce mec de plus de 80 kilos en train de ronfler comme un gros bébé je kiffais ça de fou ptn 😂
 
 Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
 
