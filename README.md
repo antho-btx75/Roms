@@ -2,6 +2,8 @@
 
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
+[Viens me parler gro](https://drive.google.com/file/d/1_PzDW5BVs8gF3MsYFJ09MVawmpRj9Im7/view?usp=drivesdk)
+
 [🎙️ Écoute frère 🙏🏻](https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk)
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
