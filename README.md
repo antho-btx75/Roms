@@ -2,34 +2,16 @@
 
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
-[Viens me parler gro](https://drive.google.com/file/d/1_PzDW5BVs8gF3MsYFJ09MVawmpRj9Im7/view?usp=drivesdk)
-
 [🎙️ Écoute frère 🙏🏻](https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk)
-
-J'ai des souvenirs qui me reviennent de Barcelone frère. 
-
-La nuit je t’entendais ronfler gro, et je trouvais ça tellement mignon d’entendre mon Roms ronfler quand je me levais la nuit pour pisser ou le matin quand je préparais le petit dej ou le programme du jour. On était bien, on était tranquille, et j’entendais mon Romain, toi, un gars bien massif, bien stoc, un mec de plus de 80 kilos en train de ronfler comme un gros bébé je kiffais ça de fou ptn 🥹🥹😂
-
-Comme la nuit quand on vidait la machine à laver avant de dormir, t'étais MDR quand je sortais tes boxers ou tes chaussettes du tambour car t'étais gêné mais tu savais que moi j'étais grave excité de prendre tes sous-vêtements ou tes chaussettes, t'es comme un Dieu frère 😂🥵🥵
-
-Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
-
-L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as dit que personne te faisait des cadeaux je voulais encore plus te l’offrir 😭😭😭
-
-T’aurais été tellement stylé dedans.
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
-- [Je suis ton Rocher avant tout 💪🏻](#je-suis-ton-rocher-avant-tout)
 - [Voyages](#voyages)
 - [Taff](#taff)
 - [Anglais](#anglais)
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [Applis et Liens utiles](#applis-et-liens-utiles)
-
-[C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
-
 ---
 
 [![Win Roms ! Win !](https://wallpaper.forfun.com/fetch/18/184c96fae58348a9de04c2f1240acd9d.jpeg)](https://m.youtube.com/watch?v=ffFBdWBp0NE&list=RDffFBdWBp0NE&start_radio=1&pp=ygUVbm8gZWFzeSB3YXkgb3V0IHJvY2t5oAcB)
@@ -126,17 +108,7 @@ La meilleure app pour apprendre et améliorer son niveau d'anglais. Quand on ét
 ## Je suis ton Rocher avant tout 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
 
-[🎙️ Et je serai toujours Ton Rocher](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk).
-
-<span style="color: purple;">J’te kiffe de fou malade, tu me fais grave bander. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
-
-T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr 🍑🍆💦
-
-<span style="color: purple;">Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr), un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
-
-Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici 💪🏻
-
-Car au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
+[🎙️ Et je serai toujours Ton Rocher] je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.
 
 Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde notre truc tranquille au calme, sans que le monde vienne foutre son nez dedans. C’est notre sanctuaire, et je le défendrai à mort.
 
