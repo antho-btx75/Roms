@@ -147,6 +147,10 @@ Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb p
 
 ## T'es trop bandant mon gars
 
+(NEW) [Suce moi la bite](https://drive.google.com/file/d/1_RqV0fRWo4JZhznNl804kO74UclHBBCk/view?usp=drivesdk), je bande dur pour toi mec, et [baise moi le cul mon gars](https://drive.google.com/file/d/1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM/view?usp=drivesdk) j'ai envie de sentir ton jus remplir mon baltrou 🥵🍑💦
+
+--
+
 Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
 
 [NEW 📹 Tes fesses me font bander direct et bien DUR, j'ai la bite en feu et au garde à vous pour toi Romain](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) ptn mon gars c'est incontrôlable 🥵🍆
@@ -162,8 +166,6 @@ En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](http
 [Trou de balle](https://drive.google.com/file/d/1GuHKfdfa4ZL3CivcGmKpoojIH6H6c-6c/view?usp=drivesdk) / [Mon zgeg](https://drive.google.com/file/d/1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD/view?usp=drivesdk) / [Fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Teub et baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk)
 
 [Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
-
-(NEW) [Suce moi la bite](https://drive.google.com/file/d/1_RqV0fRWo4JZhznNl804kO74UclHBBCk/view?usp=drivesdk), je bande dur pour toi mec, et [baise moi le cul mon gars](https://drive.google.com/file/d/1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM/view?usp=drivesdk) j'ai envie de sentir ton jus remplir mon baltrou 🥵🍑💦
 
 Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul. 
 
