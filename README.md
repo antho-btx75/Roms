@@ -163,7 +163,7 @@ En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](http
 
 [Côté bite](https://drive.google.com/file/d/1_RqV0fRWo4JZhznNl804kO74UclHBBCk/view?usp=drivesdk)
 
-[Côté baltrou](https://drive.google.com/file/d/1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM/view?usp=drivesdk)
+[Côté baltrou](https://drive.google.com/file/d/1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM/view?usp=drivesdk) baise moi le cul mon gars 🥵🍑
 
 Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul. 
 
