@@ -1,12 +1,12 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
+[🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro. [Je t'aime frère](https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/view?usp=drivesdk) 💙
 
 [Gris frère](https://drive.google.com/file/d/1Lw52LCsL2UUiscyPiYrovHe6i66FRyon/view?usp=drivesdk) de ouf... BN mon Roms. Quel que soit ton niveau de gris je veux être là pour toi 💪🏻🫶🏻
 
 [🎙️ Parle moi mon gars](https://drive.google.com/file/d/1kyJrDz3VkxyueAcg-FbGxgZaZGXO4XQJ/view?usp=drivesdk). J'ai tellement peur de te perdre mec que parfois j'interprète mal les silences. T'es trop important pour moi 🥹🥹
 
-[🎙️ Cimer 🙏🏻](https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk), [je t'aime frère](https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/view?usp=drivesdk)
+[🎙️ Cimer 🙏🏻](https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk)
 
 [🎙️ Écoute frère 🙏🏻](https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk)
 
