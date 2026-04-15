@@ -4,7 +4,7 @@
 
 [Gris frère](https://drive.google.com/file/d/1Lw52LCsL2UUiscyPiYrovHe6i66FRyon/view?usp=drivesdk) de ouf... BN mon Roms. Quel que soit ton niveau de gris je veux être là pour toi 💪🏻🫶🏻
 
-[🎙️ Parle moi mon gars](https://drive.google.com/file/d/1kyJrDz3VkxyueAcg-FbGxgZaZGXO4XQJ/view?usp=drivesdk). Je laisse ce vocal car l'autre soir j'étais vraiment au fond du teou. J'ai tellement peur de te perdre mec que parfois j'interprète mal les silences. T'es trop important pour moi 🥹🥹
+[🎙️ Parle moi mon gars](https://drive.google.com/file/d/1kyJrDz3VkxyueAcg-FbGxgZaZGXO4XQJ/view?usp=drivesdk). Je laisse ce vocal car l'autre soir j'étais vraiment au fond du trou. J'ai tellement peur de te perdre mec que parfois j'interprète mal les silences. T'es trop important pour moi 🥹🥹
 
 [🎙️ Cimer 🙏🏻](https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk)
 
