@@ -1,5 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
+[NEW](#tes-troo-bandant-mon-gars)
+
 Hia ti, j'ai reçu pas mal d'informations en peu de temps depuis ce matin, et en même temps tu m'en as donné très peu car t'as jamais beaucoup aimé parler de toi (enfin si, tu l'as dit toi même ton pb c'est de trop parler mdrr, mais je vais te dire un truc : tu parles bcp trop avec les mauvaises personnes et tu en dis trop peu aux bonnes, frère 😅)
 
 À GFC mais déjà à Carrefour, quand tu parlais à des meufs comme Stéphanie Ambry, à Mahawa, Aya ou Awa. Deja à l'époque ça me faisait du mal gro car souvent tu m'ignorais pour te rapprocher de ces meufs qui t'ont complètement ignoré aujourd'hui... du coup pourquoi c'est moi qui doit aujourd'hui lire des "merci mec", des "nn" quand je m'intéresse à toi mon Romain ?
