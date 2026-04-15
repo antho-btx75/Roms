@@ -1,6 +1,6 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[NEW](#tes-troo-bandant-mon-gars)
+[NEW](#tes-trop-bandant-mon-gars)
 
 Hia ti, j'ai reçu pas mal d'informations en peu de temps depuis ce matin, et en même temps tu m'en as donné très peu car t'as jamais beaucoup aimé parler de toi (enfin si, tu l'as dit toi même ton pb c'est de trop parler mdrr, mais je vais te dire un truc : tu parles bcp trop avec les mauvaises personnes et tu en dis trop peu aux bonnes, frère 😅)
 
