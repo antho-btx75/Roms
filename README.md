@@ -15,18 +15,6 @@
   
 [J'ai besoin de te dire ce que je ressens pour toi mec](#je-suis-ton-rocher-avant-tout), et je serai toujours ton Rocher 💪🏻
 
-Hia ti, j'ai reçu pas mal d'informations en peu de temps depuis ce matin, et en même temps tu m'en as donné très peu car t'as jamais beaucoup aimé parler de toi (enfin si, tu l'as dit toi même ton pb c'est de trop parler mdrr, mais je vais te dire un truc : tu parles bcp trop avec les mauvaises personnes et tu en dis trop peu aux bonnes, frère 😅)
-
-Du coup je dois faire appel à mon intelligence et à mon intuition, et je pense savoir ce qui se joue pour toi en ce moment. Je connais ta boîte et je connais ton flair : si l'opportunité de la rupture est là, prends l'oseille et tire-toi, ta liberté et ton bien-être n'ont pas de prix.
-
-Mais parce que je suis ton gars sûr, que je te ressens en moi et que je capte assez vite et plutôt bien les choses, je préfère te dire certaines choses, car ton intérêt passe avant tout. Avant tout frère.
-
-C’est beau ce que tu fais pour lui (ou en partie pour lui), c’est ta nature de guerrier de protéger les tiens. Je sais que tu portes Kevin à bout de bras, depuis toutes ces années, que tu le vois un peu comme un gosse qu'il faut accompagner parce qu'il ne sait pas naviguer seul. Tu es prêt à lui consacrer de ton temps pour entretenir votre relation, pour soigner ses crises, à sacrifier ta propre stabilité pour ne pas qu'il coule, et c'est cette loyauté que je respecte chez toi.
-
-MAIS... je te demande juste une chose : ne t'oublie pas en chemin.
-
-T'es un charbonneur, Romain. T'as besoin de solide, de vrai, de bâtir. Je ne veux pas que tu te mettes en danger ou que tu t'enfonces dans le 'gris' en t'alignant sur l'inaction de quelqu'un d'autre, même si c'est un binôme important pour toi. Prends garde de ne pas trop t'oublier en voulant être disponible pour lui.
-
 ---
 
 [![Win Roms ! Win !](https://wallpaper.forfun.com/fetch/18/184c96fae58348a9de04c2f1240acd9d.jpeg)](https://m.youtube.com/watch?v=ffFBdWBp0NE&list=RDffFBdWBp0NE&start_radio=1&pp=ygUVbm8gZWFzeSB3YXkgb3V0IHJvY2t5oAcB)
