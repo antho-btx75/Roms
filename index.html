@@ -19,8 +19,12 @@
         }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--primary-dark); color: var(--text-main); line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
-        header { text-align: center; padding: 40px 20px; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid #d0d7de; }
-        .hero-img { max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 25px; }
+        
+        /* Header ajusté pour le plein écran */
+        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid #d0d7de; }
+        
+        /* L'image occupe toute la largeur sans bordures */
+        .hero-img-full { width: 100%; height: auto; display: block; margin-bottom: 25px; }
         
         /* Nouvelle Navigation Pilules */
         .nav-pill-container { position: sticky; top: 10px; z-index: 1000; margin: 20px 0 30px 0; }
@@ -52,9 +56,9 @@
 <body>
 
 <header>
-    <div class="container">
-        <img src="https://i.ibb.co/9H7ybnf3/image-14.jpg" alt="Force à toi" class="hero-img">
+    <img src="https://i.ibb.co/9H7ybnf3/image-14.jpg" alt="Force à toi" class="hero-img-full">
 
+    <div class="container">
         <nav class="nav-pill-container">
             <ul class="nav-pill-list">
                 <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
@@ -69,6 +73,7 @@
                 <li><a href="#hot" class="hot-link"><i class="fas fa-fire"></i> HOT 🥵</a></li>
             </ul>
         </nav>
+
 
         <div style="margin-bottom: 25px;">
             <a href="https://drive.google.com/file/d/1GQmPGnKfwmGmTWWOX5Fj3PpAv06noNa_/view?usp=drivesdk" style="display: inline-block; background: rgba(88, 166, 255, 0.1); border: 2px solid #0969da; padding: 12px 20px; border-radius: 20px; text-decoration: none;">
