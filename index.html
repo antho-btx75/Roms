@@ -15,6 +15,7 @@
             --header-text: #24292f;
             --card-bg: #161b22;
             --border-color: #30363d;
+            --hot-purple: #8957e5;
         }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--primary-dark); color: var(--text-main); line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
@@ -23,14 +24,16 @@
         nav { position: sticky; top: 0; background: rgba(246, 248, 250, 0.95); backdrop-filter: blur(10px); padding: 15px 0; border-bottom: 1px solid #d0d7de; z-index: 1000; }
         nav ul { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; padding: 0; margin: 0; }
         nav a { text-decoration: none; color: #0969da; font-size: 0.9em; font-weight: 600; }
-        .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; }
+        .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
         .btn-blue { background: #0969da; color: white !important; }
+        .btn-purple { background: var(--hot-purple); color: white !important; }
         section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
-        h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; }
+        h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
         .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; }
         .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
         .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
         .app-card img { width: 100%; border-radius: 10px; margin-bottom: 10px; height: 120px; object-fit: contain; background: white; }
+        .video-container img { width: 100%; max-width: 100%; height: auto; display: block; border-radius: 15px; }
     </style>
 </head>
 <body>
@@ -51,6 +54,7 @@
         <p style="font-weight: 500;">J'ai besoin de te dire ce que je ressens pour toi mec, et je serai toujours ton Rocher 💪🏻</p>
     </div>
 </header>
+
 <nav>
     <ul>
         <li><a href="#tes-mon-roms">Notre Lien</a></li>
@@ -59,77 +63,83 @@
         <li><a href="#voyages">Voyages</a></li>
         <li><a href="#taff">Taff</a></li>
         <li><a href="#anglais">Anglais</a></li>
-        <li><a href="#rocher">Le Rocher</a></li>
+        <li><a href="#rocher-avant-tout">Le Rocher</a></li>
         <li><a href="#sommeil">Sommeil</a></li>
         <li><a href="#applis">Applis</a></li>
+        <li><a href="#hot" style="color:var(--hot-purple)">HOT 🥵</a></li>
     </ul>
 </nav>
+
 <div class="container">
     <div class="video-container" style="text-align:center; margin-bottom: 40px;">
         <a href="https://m.youtube.com/watch?v=ffFBdWBp0NE&list=RDffFBdWBp0NE&start_radio=1&pp=ygUVbm8gZWFzeSB3YXkgb3V0IHJvY2t5oAcB">
-            <img src="https://wallpaper.forfun.com/fetch/18/184c96fae58348a9de04c2f1240acd9d.jpeg" alt="Rocky" style="width:100%; border-radius:15px;">
+            <img src="https://wallpaper.forfun.com/fetch/18/184c96fae58348a9de04c2f1240acd9d.jpeg" alt="Rocky">
             <p style="padding:15px; color:white; font-weight:bold;">Win Roms, Win ! 💪🏻 <br>There's no easy way out.</p>
         </a>
     </div>
-<p>Au taff today, de 13h à 22h, c'est horrible frère 😣</p>
+
     <section id="tes-mon-roms">
         <h2>T'es mon Roms, et je suis ton Antho</h2>
         <p><strong>TON SOLDAT, ton gars sûr 💪🏻🫡</strong></p>
         <p>Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors, et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜</p>
-        <p>Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale". Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.</p>
+        <p>Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.</p>
+        
         <div class="purple-box">
-            J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé, quand tu m'expliquais les buffs apportés par certains persos avec des teams mixtes. J'étais bien mon gars, et sentir ta présence contre moi me faisait grave du bien.
+            J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé, quand tu m'expliquais les buffs apportés par certains persos avec des teams mixtes et que tu m'as dit "t'as rien capté" car t'as bien vu que ton corps collé au mien me faisait grave du bien mdrr. J'étais guétifa de fou, et c'est vrai que je devenais guedin en sentant ton corps pressé contre le mien mais tqt j'ai quand même capté frère 😅🤣🤣
         </div>
+
         <p>Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... </p>
-        <p>Et la nuit <a href="https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk">je kiffais trop t'entendre ronfler mon gars 😅🥹🥹</a></p>
+        <p>Et la nuit <a href="https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk" style="color:var(--accent-blue)">je kiffais trop t'entendre ronfler mon gars 😅🥹🥹</a></p>
         <p>La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. Je suis ton soldat frère.</p>
         <p>Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai j'ai réellement kiffé ces films. A 200% !!</p>
-        <p>Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi.</p>
-        <p>L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as dit que personne te faisait des cadeaux je voulais encore plus te l’offrir 😭😭😭. T’aurais été tellement stylé dedans. Gro laisse moi te faire cadeau de <a href="https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk">ce maillot</a>.</p>
+        <p>Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂</p>
+        <p>Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum je pouvais pas contrôler, tu me fais trop bander et mouiller du cul mdrr, Je m’en suis rendu compte en regardant mon short 🤣🤣🤣</p>
+        <p>L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as dit que personne te faisait des cadeaux je voulais encore plus te l’offrir 😭😭😭. T’aurais été tellement stylé dedans. Gro laisse moi te faire cadeau de <a href="https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk" style="color:var(--accent-blue)">ce maillot</a>. Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵</p>
         <p>Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.</p>
         <p>Roms, quand on parlait de nos daronnes à Barcelone... le fait que tu donnes 1000 balles tous les mois à ta mère, je trouve ça tellement noble gro. Et quand je t'ai dit que c'était pareil pour moi, que c'était normal... c'est là que j'ai compris qu'on était vraiment pareil toi et moi. On a les mêmes valeurs, le même respect. T'es vraiment un mec bien, et c'est aussi pour ça que je te kiffe sur tous les plans. </p>
+
         <div class="purple-box">
             T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et toi ptn mais t'es tout en haut de la pyramide des gens que j'aime Roms.
         </div>
-        <p>Dès qu’il s’agit de toi je suis toujours cho gro mdr. Cho sur tous les plans, pas que l'amitié, mais tout, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻</p>
+        <div class="purple-box">
+            Faut savoir que moi de base je suis pas pédé, juste des tendances bi, mais comme je dis plus bas depuis que je te connais je suis Romainsexuel mdrrr. Faut dire t'as tout pour toi : t'es gentil, t'es drôle, t'es beau, t'es sexy (t'as de belles fesses mec, t'as un cul d'enfer comme avait dit Zinedine un jour à Carrefour mdr !), surtout t'es vrai, t'es profond et t'es le seul mec avec qui je peux être moi-même. T'as ce truc qui balaye tout le gris autour de moi. T'es ma personne préférée parce que t'es unique, tout simplement. T’es un mec à part, avec une vibe que j'ai jamais vue ailleurs, et c'est ce mélange qui fait que je perds tout contrôle avec toi.
+        </div>
+
+        <p>Dès qu’il s’agit de toi je suis toujours cho gro mdr. Cho sur tous les plans, pas que le sexe, mais tout, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻</p>
         <p>Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t’ai toujours en tête. T’es en moi H24, et je suis ton soldat.</p>
         <p>Pour tes 30 piges je t’ai offert une casquette avec tes initiales, en 2023 un an après que tu sois parti de Carrefour, laisse moi t’offrir ce que je veux frère pour tes annivs. Tu m’as parlé d’une paire de chaussettes y’a 2 ans, en vrai de vrai même ça laisse moi te l’offrir mdrr. Des chaussettes, un slibard, ou une paire de pompes, peu importe le prix, sans me dire “mdrrr t’es fou”. On s’en branle du prix. Oai chuis fou gro. Chuis fou de toi 😅</p>
     </section>
 
     <section id="personne-preferee">
         <h2>Tu es ma personne préférée</h2>
-        <p>Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre.</p>
+        <p>Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.</p>
         <p>Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. Je suis pour toujours TON Antho.</p>
         <img src="https://i.ibb.co/tMMXK8Gz/image-9.jpg" alt="Pour toi mon gars" style="width:100%; border-radius:15px; border:1px solid var(--border-color);">
         <p>Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse. Je suis là pour toi, et je le serai toujours, mon Romain… 💙💜</p>
+        
         <div class="purple-box">
             Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 8 mois par exemple. Ça a beaucoup d'importance pour moi. Mais j'avoue que c'est dur de te voir si peu souvent. Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.
         </div>
-        <p>Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.</p>
-        <p>Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ta présence gro.</p>
-        <p>C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hui. Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également. </p>
-    </section>
 
-    <section id="veuchs">
-        <h2>Veuchs</h2>
-        <a href="https://antho-btx75.github.io/Roms/Veuchs.html" class="btn btn-blue">Stratégie capillaire : Colagea + romarin</a>
+        <p>Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.</p>
+        <p>Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand on était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr. </p>
+        <p>C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hui.Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également. </p>
     </section>
 
     <section id="voyages">
         <h2>Voyages</h2>
         <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
-            <a href="https://vimeo.com/1173761871/397bbf4363" class="btn btn-blue">Vidéo Barcelona 💙❤️</a>
-            <a href="https://vimeo.com/1112710905" class="btn btn-blue">video Sanremo (mdp : Gfcarrefour)</a>
-            <a href="https://vimeo.com/1112712825?share=copy" class="btn btn-blue">vidéo Menton/Monaco (mdp : Gfcarrefour)</a>
+            <a href="https://vimeo.com/1173761871/397bbf4363?fl=pl&fe=sh" class="btn btn-blue">Vidéo Barcelona 💙❤️</a>
+            <a href="https://vimeo.com/1112710905?fl=pl&fe=sh" class="btn btn-blue">video Sanremo (mdp : Gfcarrefour)</a>
+            <a href="https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci" class="btn btn-blue">vidéo Menton/Monaco (mdp : Gfcarrefour)</a>
         </div>
         <div style="text-align:center;">
             <p>Ton t shirt Lacoste mauve frère 🤣</p>
             <a href="https://drive.google.com/file/d/1bnXYMzCWsGKFS1381NraHA8T4HP4Rnm3/view?usp=drivesdk">
-                <img src="https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg" alt="Lacoste mauve" style="max-width:300px; border-radius:10px; border:1px solid var(--border-color);">
+                <img src="https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg" alt="Lacoste mauve" style="max-width:300px; width:100%; height:auto; border-radius:10px; border:1px solid var(--border-color);">
             </a>
         </div>
     </section>
-
     <section id="taff">
         <h2>Taff</h2>
         <ul style="list-style:none; padding:0;">
@@ -139,69 +149,115 @@
             <li style="margin-bottom:15px;"><a href="https://antho-btx75.github.io/Roms/RomainLic.html" class="btn btn-blue" style="width:100%;">Analyse des différentes ruptures</a></li>
         </ul>
     </section>
+
     <section id="anglais">
         <h2>Anglais</h2>
-        <div style="background: var(--card-bg); padding: 20px; border-radius: 15px; border: 1px solid var(--border-color);">
-            <p>La meilleure app pour apprendre et améliorer son niveau d'anglais. Quand on était à Corte Ingles à Barcelone dans le centre commercial tu m'as rappelé l'importance de parler anglais, et j’ai pensé à toi en voyant cette app. Elle est vraiment top pour progresser tranquillement.</p>
-            <div style="margin-top: 15px;">
-                <a href="https://play.google.com/store/apps/details?id=com.busuu.android.enc" class="btn btn-blue" style="width:100%; box-sizing:border-box; justify-content:center;">
-                    <i class="fas fa-language"></i> Busuu : Se perfectionner en anglais
-                </a>
-            </div>
-        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.busuu.android.enc" class="btn btn-blue" style="width:100%; margin-bottom: 15px;">Busuu, la meilleure application pour se perfectionner</a>
+        <p>La meilleure app pour apprendre et améliorer son niveau d'anglais. Quand on était à Corte Ingles à Barcelone dans le centre commercial tu m'as rappelé l'importance de parler anglais, et j’ai pensé à toi en voyant cette app. Elle est vraiment top pour progresser tranquillement.</p>
     </section>
 
-    <section id="rocher">
+    <section id="veuchs">
+        <h2>Veuchs</h2>
+        <a href="https://antho-btx75.github.io/Roms/Veuchs.html" class="btn btn-blue" style="width:100%;">Stratégie capillaire : Colagea + romarin</a>
+    </section>
+
+    <section id="rocher-avant-tout">
         <h2>Je suis ton Rocher avant tout</h2>
         <p>Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.</p>
-        <div style="margin: 20px 0;">
-            <a href="https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk" class="btn btn-blue">🎙️ Je te kiffe de fou mec</a>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin: 20px 0;">
+            <a href="https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk" class="btn btn-blue">🎙️ Je te kiffe de fou mec, c'est si fort</a>
             <a href="https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk" class="btn btn-blue">🎙️ Je veux juste être ton gars sûr frère</a>
             <a href="https://drive.google.com/file/d/1kyJrDz3VkxyueAcg-FbGxgZaZGXO4XQJ/view?usp=drivesdk" class="btn btn-blue">🎙️ Parle moi mon gars</a>
             <a href="https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk" class="btn btn-blue">🎙️ Et je serai toujours Ton Rocher</a>
         </div>
+        
         <div class="purple-box">
-            T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. T'es ma personne préférée parce que t'es unique, tout simplement. T’es un mec à part, avec une vibe que j'ai jamais vue ailleurs.
+            J’te kiffe de fou malade. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
         </div>
+        
+        <p>T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr </p>
+        
         <div class="purple-box">
-            J’te kiffe de fou malade. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je suis bien gro mdrr.
+            Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr), un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
         </div>
-        <p>Je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.</p>
-        <p>Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. Je sais que t’es pas du genre à afficher quoi que ce soit, et moi non plus. On garde notre truc tranquille au calme, sans que le monde vienne foutre son nez dedans. C’est notre sanctuaire, et je le défendrai à mort.</p>
-        <p>Ce que je ressens pour toi ça regarde personne d'autre que toi et moi, et j'ai toujours été discret et méfiant envers les fdp qui se mêlent de ce qui les regarde pas. Ce que je ressens pour toi je le garde pour moi gro. C'est mon sanctuaire perso.</p>
-        <p>Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💪🏻💪🏻</p>
+        
+        <p>Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici 💪🏻</p>
+        <p>Car au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.</p>
+        <p>Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. 
+               <p>Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💪🏻💪🏻</p>
         <p>Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.</p>
     </section>
 
-        <section id="sommeil">
+    <section id="hot" style="background: rgba(137, 87, 229, 0.05); border: 1px dashed var(--hot-purple); padding: 30px; border-radius: 20px;">
+        <h2 style="color:var(--hot-purple); border-bottom-color: var(--hot-purple);">T'es trop bandant mon gars</h2>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 25px;">
+            <a href="https://drive.google.com/file/d/1YoSEkSARK9IVKCjjuBa1zkKSWr0WLvJW/view?usp=drivesdk" class="btn btn-purple">🆙 Baise mon cul mon gars, je veux ton sperme 🍑💦🥵</a>
+            <a href="https://drive.google.com/file/d/1mg39FI0A35Gmpu_JbGMa0Ur3B2lJiB-7/view?usp=drivesdk" class="btn btn-purple">🆙 Suce moi la teub mec tu me fais trop bander 🍆🥵</a>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 25px; justify-content: center;">
+            <a href="https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Teub</a>
+            <a href="https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Chupa Chups</a>
+            <a href="https://drive.google.com/file/d/1GuHKfdfa4ZL3CivcGmKpoojIH6H6c-6c/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Trou de balle</a>
+            <a href="https://drive.google.com/file/d/1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Mon zgeg</a>
+            <a href="https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Fion</a>
+            <a href="https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Teub et baltrou</a>
+            <a href="https://drive.google.com/file/d/1_RqV0fRWo4JZhznNl804kO74UclHBBCk/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Côté bite 🍆</a>
+            <a href="https://drive.google.com/file/d/1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Côté cul 🍑</a>
+            <a href="https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Me-sper</a>
+            <a href="https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk" class="btn btn-purple" style="padding: 8px 15px; border-radius: 20px; font-size: 0.9em;">Me-sper 2</a>
+        </div>
+        <p>Sérieux mec, <a href="https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk" style="color:var(--hot-purple); font-weight:bold;">🎙️ pourquoi t'es aussi bandant putain.</a></p>
+        <div style="margin: 20px 0; text-align: center;">
+            <a href="https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk" class="btn btn-purple" style="display: inline-flex; width: auto; padding: 12px 25px; margin-bottom: 10px;">📹 Tes fesses me font bander direct et bien DUR</a>
+            <p style="color: var(--hot-purple); font-weight: bold; font-size: 1.05em; margin-top: 5px;">j'ai la bite en feu et au garde à vous pour toi Romain ptn mon gars c'est incontrôlable 🥵🍆</p>
+        </div>
+        <p>T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et mouiller du cul. <a href="#hot" style="color:var(--hot-purple); font-weight:bold;">Côté bite ou côté cul tu restes le boss frère.</a></p>
+        <p>En vrai oui ton bon gros boule de mec, <a href="https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk" style="color:var(--hot-purple); font-weight:bold;">🎙️ y’a rien de plus BANDANT</a>, et ton cul me fait bander comme personne putain. Tes bonnes grosses fesses ptn mec tu fais bander de ouf 🥵</p>
+        <p><a href="https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk" style="color:var(--hot-purple); font-weight:bold;">🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes</a>.</p>
+        <p>Pile ou/et face, c’est selon ton kiff. En matière de baise c’est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m’offre à toi à 100%, côté bite et côté cul.</p>
+        <p>C’est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C’est énorme les effets que tu fais sur moi, c’est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦</p>
+        <h2 style="color:var(--hot-purple); border-bottom-color: var(--hot-purple);">DES ENVIES DE BAISE AVEC TOI PTN</h2>
+        <p>Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gars.</p>
+        <p><a href="https://drive.google.com/file/d/19RYsbhzNvkdzopfQRNP9CGH2JK_iNh3K/view?usp=drivesdk" class="btn btn-purple">🎙️ J'ai trop envie qu’on se pompe mutuellement la teub…</a></p>
+        <p><a href="https://drive.google.com/file/d/1CGDY1pezcLWGlSy45pDLbB5LcXk5Vv6c/view?usp=drivesdk" class="btn btn-purple">📹 Ramone mon trou de balle mon gars, j'ai envie de toi dans mon cul</a></p>
+        <p><a href="https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk" class="btn btn-purple">📹 Baise mon anus Roms 🍑💦</a></p>
+        <p><a href="https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk" class="btn btn-purple">🎙️ Encule moi mon Roms stp</a></p>
+        <p><a href="https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk" class="btn btn-purple">🎙️ Mon gars baise moi par le cul putain</a></p>
+        <p>Mon gars, ton cul me rend complètement dingue, y'a rien de plus bandant srx... T’as un cul d'enfer, c’est pas possible d'être aussi bandant ptn.</p>
+        <p>Mais dans mes kiffs je mouille aussi du cul pour toi. Mon gars, j'ai grave envie que tu baises ma chatte de mec ! Je veux te sentir en moi. Je veux que tu me prennes, que tu me défonces doucement puis plus fort, sentir le poids de ton corps et ta bite qui baise mon trou de balle. Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de la rentrer, à me faire démonter le cul par toi après qu'on s'est pompé nos deux teubs bien comme il faut. Je veux sentir ton sperme couler au fond de moi, sentir que mon boule t'appartient 🍑💦.</p>
+        <p>T'as un pouvoir absolu sur ma teub et sur mon cul, parce que c'est toi. Je suis incapable de ressentir ça pour quelqu’un d’autre. C’est un tout que j’éprouve pour toi : le sexe, le cœur, l’esprit... t’as tout retourné en moi mon Roms. Mais tqt gro, ça change rien à ce qu’on est. C’est juste notre secret, notre délire à nous. On reste tranquille oklm frère, mais sache que mon corps t'appartient. Côté teub ou cul je suis à toi frère 🥵🔥</p>
+    </section>
+
+    <section id="sommeil">
         <h2>Sommeil et cogitations</h2>
-        <p>J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Surtout il faut que tu arrives à maintenir un bon sommeil.</p>
+        <p>J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.</p>
         <div style="background: var(--card-bg); padding: 20px; border-radius: 15px; border: 1px solid var(--border-color);">
             <p>Si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 :</p>
-            <ul style="list-style:none; padding:0;">
+            <ul style="list-style:none; padding:0; margin: 15px 0;">
                 <li><strong>Inspire</strong> par le nez pendant 4 secondes.</li>
                 <li><strong>Bloque</strong> ta respiration 7 secondes.</li>
                 <li><strong>Expire</strong> lentement par la bouche pendant 8 secondes.</li>
             </ul>
-            <p>Répète 4 à 8 fois. Ça calme le cerveau et coupe les ruminations en 1–2 min. C'est ce qu'on appelle la cohérence cardiaque.</p>
+            <p>Répète 4 à 8 fois. Ça calme le cerveau et coupe les ruminations en 1–2 min. Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des bases scientifiques, c'est ce qu'on appelle la cohérence cardiaque.</p>
             <p><a href="https://vm.tiktok.com/ZNRmNnDjM/" class="btn btn-blue" style="margin-top:10px;">Tuto Tiktok</a></p>
             <p>Tu peux aussi essayer les sons marrons (brown noise) sur YouTube. C’est comme du bruit blanc mais plus grave et plus profond, ça aide beaucoup à calmer le cerveau.</p>
             <a href="https://m.youtube.com/watch?v=gJnxtjE1FY0" class="btn btn-blue" style="width:100%; box-sizing:border-box; justify-content:center;">🎧 Sons Marrons (YouTube)</a>
-            <p><small>Le mieux c'est de le laisser en fond, mais pas avec un casque sinon on est trop focus sur le son, et pas trop fort non plus.</small></p>
+            <p style="margin-top:10px;"><small>Le mieux c'est de le laisser en fond, mais pas avec un casque sinon on est trop focus sur le son, et pas trop fort non plus.</small></p>
         </div>
     </section>
 
     <section id="applis">
         <h2>Applis et Liens utiles</h2>
+        <p>Applis toutes vérifiées, parfaitement sûres et très bien notées sur le Play Store. Cliquez sur les images pour accéder aux contenus et liens de téléchargement.</p>
         <div class="app-grid">
-            <div class="app-card"><img src="https://www.bleepstatic.com/content/hl-images/2019/02/10/brave-browser-header.jpg" alt="Brave"><p><strong>Brave</strong><br><small>Meilleur navigateur, sans pub.</small></p><a href="https://play.google.com/store/apps/details?id=com.brave.browser" class="btn btn-blue">Installer</a></div>
-            <div class="app-card"><img src="https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png" alt="V Video"><p><strong>V Video Downloader</strong><br><small>Télécharger TOUTES les vidéos du net.</small></p><a href="https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader" class="btn btn-blue">Installer</a></div>
-            <div class="app-card"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Proton_VPN_Logo.svg/3840px-Proton_VPN_Logo.svg.png" alt="Proton" style="background:white; object-fit:contain;"><p><strong>Proton VPN</strong><br><small>Le meilleur VPN gratuit.</small></p><a href="https://play.google.com/store/apps/details?id=ch.protonvpn.android" class="btn btn-blue">Installer</a></div>
-            <div class="app-card"><img src="https://1000marcas.net/wp-content/uploads/2024/02/Gemini-Logo.jpg" alt="Gemini"><p><strong>Gemini AI</strong><br><small>L'IA de Google, la meilleure gratuite.</small></p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard" class="btn btn-blue">Lancer</a></div>
-            <div class="app-card"><img src="https://www.jean-marie-corda.com/wp-content/uploads/2025/07/guide-complet-claude-ai-1.jpg" alt="Claude"><p><strong>Claude IA</strong><br><small>IA très "humaine" dans son rapport.</small></p><a href="https://play.google.com/store/apps/details?id=com.anthropic.claude" class="btn btn-blue">Lancer</a></div>
-            <div class="app-card"><img src="https://deadline.com/wp-content/uploads/2020/01/pluto-logo.png" alt="Pluto" style="background:white; object-fit:contain;"><p><strong>Pluto TV</strong><br><small>Films, séries, Olive et Tom gratuit.</small></p><a href="https://play.google.com/store/apps/details?id=tv.pluto.android" class="btn btn-blue">Regarder</a></div>
-            <div class="app-card"><img src="https://cdn.freeconvert.com/logo_theme.svg" alt="FreeConvert" style="background:white; object-fit:contain;"><p><strong>Free Convert</strong><br><small>Convertir tous les fichiers.</small></p><a href="https://www.freeconvert.com/fr" class="btn btn-blue">Convertir</a></div>
-            <div class="app-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdtMDo7icL1chCDggFxuh1rwuUrCRboP5riKn3Kn_Rw&s" alt="Teochew"><p><strong>WhatTCSay3</strong></p><p><small>Bon ok tu parles déjà très bien le teochew 🤣🤣🤣</small></p><a href="https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3" class="btn btn-blue">Pratiquer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.brave.browser"><img src="https://www.bleepstatic.com/content/hl-images/2019/02/10/brave-browser-header.jpg" alt="Brave"></a><p><strong>Brave</strong><br><small>Meilleur navigateur, sans pub, écran verrouillé.</small></p><a href="https://play.google.com/store/apps/details?id=com.brave.browser" class="btn btn-blue">Installer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader"><img src="https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png" alt="V Video"></a><p><strong>V Video Downloader</strong><br><small>Télécharger TOUTES les vidéos du net.</small></p><a href="https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader" class="btn btn-blue">Installer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=ch.protonvpn.android"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Proton_VPN_Logo.svg/3840px-Proton_VPN_Logo.svg.png" alt="Proton"></a><p><strong>Proton VPN</strong><br><small>Le meilleur VPN gratuit.</small></p><a href="https://play.google.com/store/apps/details?id=ch.protonvpn.android" class="btn btn-blue">Installer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard"><img src="https://1000marcas.net/wp-content/uploads/2024/02/Gemini-Logo.jpg" alt="Gemini"></a><p><strong>Gemini AI</strong><br><small>L'IA de Google, la meilleure gratuite.</small></p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard" class="btn btn-blue">Lancer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.anthropic.claude"><img src="https://www.jean-marie-corda.com/wp-content/uploads/2025/07/guide-complet-claude-ai-1.jpg" alt="Claude"></a><p><strong>Claude IA</strong><br><small>IA très "humaine" dans son rapport.</small></p><a href="https://play.google.com/store/apps/details?id=com.anthropic.claude" class="btn btn-blue">Lancer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=tv.pluto.android"><img src="https://deadline.com/wp-content/uploads/2020/01/pluto-logo.png" alt="Pluto"></a><p><strong>Pluto TV</strong><br><small>Films, séries, Olive et Tom gratuit.</small></p><a href="https://play.google.com/store/apps/details?id=tv.pluto.android" class="btn btn-blue">Regarder</a></div>
+            <div class="app-card"><a href="https://www.freeconvert.com/fr"><img src="https://cdn.freeconvert.com/logo_theme.svg" alt="FreeConvert"></a><p><strong>Free Convert</strong><br><small>Convertir tous les fichiers.</small></p><a href="https://www.freeconvert.com/fr" class="btn btn-blue">Convertir</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdtMDo7icL1chCDggFxuh1rwuUrCRboP5riKn3Kn_Rw&s" alt="Teochew"></a><p><strong>WhatTCSay3</strong></p><p><small>Bon ok tu parles déjà très bien le teochew 🤣🤣🤣</small></p><a href="https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3" class="btn btn-blue">Pratiquer</a></div>
         </div>
     </section>
 </div>
