@@ -21,9 +21,22 @@
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
         header { text-align: center; padding: 40px 20px; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid #d0d7de; }
         .hero-img { max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 25px; }
-        nav { position: sticky; top: 0; background: rgba(246, 248, 250, 0.95); backdrop-filter: blur(10px); padding: 15px 0; border-bottom: 1px solid #d0d7de; z-index: 1000; }
-        nav ul { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; padding: 0; margin: 0; }
-        nav a { text-decoration: none; color: #0969da; font-size: 0.9em; font-weight: 600; }
+        
+        /* Nouvelle Navigation Pilules */
+        .nav-pill-container { position: sticky; top: 10px; z-index: 1000; margin: 20px 0 30px 0; }
+        .nav-pill-list { 
+            list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
+            background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); border-radius: 25px; 
+            border: 1px solid #d0d7de; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 0; 
+        }
+        .nav-pill-list li a { 
+            text-decoration: none; color: #24292f; font-size: 0.85em; font-weight: 600; padding: 8px 14px; 
+            background: white; border: 1px solid #d0d7de; border-radius: 50px; display: flex; align-items: center; gap: 6px; transition: 0.2s; 
+        }
+        .nav-pill-list li a:hover { border-color: #0969da; color: #0969da; transform: translateY(-2px); }
+        .nav-pill-list li a.hot-link { color: #8957e5; border-color: #d2a8ff; background: #fcfaff; }
+        .nav-pill-list li a.hot-link:hover { background: #8957e5; color: white; }
+
         .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
         .btn-blue { background: #0969da; color: white !important; }
         .btn-purple { background: var(--hot-purple); color: white !important; }
@@ -37,9 +50,26 @@
     </style>
 </head>
 <body>
+
 <header>
     <div class="container">
         <img src="https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png" alt="Force à toi" class="hero-img">
+
+        <nav class="nav-pill-container">
+            <ul class="nav-pill-list">
+                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
+                <li><a href="#personne-preferee"><i class="fas fa-star"></i> BFF</a></li>
+                <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
+                <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
+                <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
+                <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
+                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
+                <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
+                <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
+                <li><a href="#hot" class="hot-link"><i class="fas fa-fire"></i> HOT 🥵</a></li>
+            </ul>
+        </nav>
+
         <div style="margin-bottom: 25px;">
             <a href="https://drive.google.com/file/d/1GQmPGnKfwmGmTWWOX5Fj3PpAv06noNa_/view?usp=drivesdk" style="display: inline-block; background: rgba(88, 166, 255, 0.1); border: 2px solid #0969da; padding: 12px 20px; border-radius: 20px; text-decoration: none;">
                 <span style="font-size: 1.1em; color: #0969da; font-weight: bold; display: flex; align-items: center; gap: 10px;">
@@ -52,47 +82,17 @@
             <a href="https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/view?usp=drivesdk" class="btn btn-blue"><i class="fas fa-heart"></i> Je t'aime frère 💙</a>
         </div>
     </div>
-<div style="background: #fffdf0; border: 1px solid #f0e6d2; border-radius: 12px; padding: 30px 25px; margin: 30px auto; max-width: 88%; box-shadow: 0 2px 10px rgba(0,0,0,0.03); text-align: center;">
-    
-    <div style="font-size: 1.05em; line-height: 1.7; color: #24292f;">
-        
-        <p style="margin-bottom: 20px; font-weight: 600;">
-            J'ai besoin de te dire ce que je ressens pour toi mec, et je serai toujours ton Rocher 💪🏻
-        </p>
 
-        <p style="margin-bottom: 20px;">
-            Sur cette page, tu trouveras tout mon soutien et nos souvenirs, mais aussi, parfois, mon besoin de partager mes délires les plus sensuels pour toi 🥵
-        </p>
-
-        <hr style="border: 0; border-top: 1px solid #f0e6d2; margin: 25px auto; width: 50%;">
-
-        <p style="margin-bottom: 15px;">
-            Et sache qu'ici, même le silence est un kiff. On peut se parler, se désirer, ou juste être là, l'un pour l'autre, sans un mot 🤫😜
-        </p>
-
-        <p style="font-weight: 600; margin-top: 15px;">
-            Et même quand on a fait ce qu'il y avait à faire ✊🏻🍆, c'est ok. Y'a pas de plaisir coupable. 💪🏻🤤
-        </p>
-        
+    <div style="background: #fffdf0; border: 1px solid #f0e6d2; border-radius: 12px; padding: 30px 25px; margin: 30px auto; max-width: 88%; box-shadow: 0 2px 10px rgba(0,0,0,0.03); text-align: center;">
+        <div style="font-size: 1.05em; line-height: 1.7; color: #24292f;">
+            <p style="margin-bottom: 20px; font-weight: 600;">J'ai besoin de te dire ce que je ressens pour toi mec, et je serai toujours ton Rocher 💪🏻</p>
+            <p style="margin-bottom: 20px;">Sur cette page, tu trouveras tout mon soutien et nos souvenirs, mais aussi, parfois, mon besoin de partager mes délires les plus sensuels pour toi 🥵</p>
+            <hr style="border: 0; border-top: 1px solid #f0e6d2; margin: 25px auto; width: 50%;">
+            <p style="margin-bottom: 15px;">Et sache qu'ici, même le silence est un kiff. On peut se parler, se désirer, ou juste être là, l'un pour l'autre, sans un mot 🤫😜</p>
+            <p style="font-weight: 600; margin-top: 15px;">Et même quand on a fait ce qu'il y avait à faire ✊🏻🍆, c'est ok. Y'a pas de plaisir coupable. 💪🏻🤤</p>
+        </div>
     </div>
-</div>
-
 </header>
-
-<nav>
-    <ul>
-        <li><a href="#tes-mon-roms">Notre Lien</a></li>
-        <li><a href="#personne-preferee">Ma personne préférée</a></li>
-        <li><a href="#veuchs">Veuchs</a></li>
-        <li><a href="#voyages">Voyages</a></li>
-        <li><a href="#taff">Taff</a></li>
-        <li><a href="#anglais">Anglais</a></li>
-        <li><a href="#rocher-avant-tout">Le Rocher</a></li>
-        <li><a href="#sommeil">Sommeil</a></li>
-        <li><a href="#applis">Applis</a></li>
-        <li><a href="#hot" style="color:var(--hot-purple)">HOT 🥵</a></li>
-    </ul>
-</nav>
 
 <div class="container">
     <div class="video-container" style="text-align:center; margin-bottom: 40px;">
@@ -101,6 +101,7 @@
             <p style="padding:15px; color:white; font-weight:bold;">Win Roms, Win ! 💪🏻 <br>There's no easy way out.</p>
         </a>
     </div>
+    
 
     <div style="display: flex; justify-content: center; margin: 30px 0 45px 0;">
     <div style="background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); border: 1.5px solid var(--accent-blue); padding: 25px; border-radius: 20px; position: relative; max-width: 85%; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
