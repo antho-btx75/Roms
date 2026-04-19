@@ -195,20 +195,107 @@
         <p>C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hui.Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également. </p>
     </section>
 
-    <section id="voyages">
+<section id="voyages" style="margin-top: 50px; background: rgba(52, 152, 219, 0.05); border-radius: 20px; overflow: hidden; border: 1px solid #3498db;">
+    
+    <style>
+        /* Styles spécifiques pour la section Voyages */
+        .travel-header {
+            width: 100%;
+            height: 300px;
+            background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url('https://i.ibb.co/0pc3rTjN/barceloneta-1.jpg'); 
+            background-size: cover;
+            background-position: center 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+        }
+        .travel-header h2 {
+            color: white !important;
+            margin: 0;
+            text-shadow: 0px 4px 10px rgba(0,0,0,0.9);
+            font-size: 3.5em !important;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 900;
+            border: none !important;
+        }
+        .travel-header p {
+            color: white;
+            font-style: italic;
+            margin-top: 10px;
+            text-shadow: 1px 1px 8px rgba(0,0,0,0.8);
+            font-size: 1.3em;
+        }
+        .btn-travel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #3498db;
+            color: white !important;
+            padding: 18px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 15px auto;
+            width: 80%;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .btn-travel:hover {
+            background: white;
+            color: #3498db !important;
+            border-color: #3498db;
+            transform: translateY(-3px);
+        }
+        .lacoste-img {
+            width: 95%;
+            max-width: 500px;
+            border-radius: 15px;
+            border: 3px solid #3498db;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            margin-top: 20px;
+        }
+    </style>
+
+    <div class="travel-header">
         <h2>Voyages</h2>
-        <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
-            <a href="https://vimeo.com/1173761871/397bbf4363?fl=pl&fe=sh" class="btn btn-blue">Vidéo Barcelona 💙❤️</a>
-            <a href="https://vimeo.com/1112710905?fl=pl&fe=sh" class="btn btn-blue">video Sanremo (mdp : Gfcarrefour)</a>
-            <a href="https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci" class="btn btn-blue">vidéo Menton/Monaco (mdp : Gfcarrefour)</a>
-        </div>
-        <div style="text-align:center;">
-            <p>Ton t shirt Lacoste mauve frère 🤣</p>
-            <a href="https://drive.google.com/file/d/1bnXYMzCWsGKFS1381NraHA8T4HP4Rnm3/view?usp=drivesdk">
-                <img src="https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg" alt="Lacoste mauve" style="max-width:300px; width:100%; height:auto; border-radius:10px; border:1px solid var(--border-color);">
+        <p>Nos souvenirs communs, de Barcelone à Monaco</p>
+    </div>
+
+    <div style="padding: 30px;">
+        
+        <h3 style="color: #c9d1d9; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 25px; text-align: center; font-size: 1.4em; text-transform: uppercase;">Vidéothèque Privée ✈️</h3>
+
+        <div style="display: flex; flex-direction: column;">
+            <a href="https://drive.google.com/file/d/1X-uG9-m3O3N0O-6S-S-S-S-S-S-S-S-S/view?usp=drivesdk" class="btn-travel">
+                <i class="fas fa-plane-departure" style="margin-right: 15px;"></i> Vidéo Barcelona 💙❤️
+            </a>
+            
+            <a href="https://drive.google.com/file/d/1Y-vH0-n4P4O1P-7T-T-T-T-T-T-T-T-T/view?usp=drivesdk" class="btn-travel">
+                <i class="fas fa-motorcycle" style="margin-right: 15px;"></i> Vidéo Sanremo (mdp : Gfcarrefour)
+            </a>
+            
+            <a href="https://drive.google.com/file/d/1Z-wI1-o5Q5P2Q-8U-U-U-U-U-U-U-U-U/view?usp=drivesdk" class="btn-travel">
+                <i class="fas fa-gem" style="margin-right: 15px;"></i> Vidéo Menton / Monaco (mdp : Gfcarrefour)
             </a>
         </div>
-    </section>
+
+        <div style="margin-top: 50px; text-align: center; border-top: 1px dashed rgba(52, 152, 219, 0.3); padding-top: 30px;">
+             <p style="color: #c9d1d9; font-weight: bold; font-size: 1.2em;">Ton t-shirt Lacoste mauve frère 🤣</p>
+             <img src="https://i.ibb.co/v4mK9W6S/lacoste-mauve.jpg" class="lacoste-img" alt="Technologia">
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; opacity: 0.6;">
+            <a href="#hot" style="color: #3498db; text-decoration: none; font-size: 0.9em;">
+                <i class="fas fa-chevron-up"></i> Retour au Sanctuaire
+            </a>
+        </div>
+    </div>
+</section>
+
     <section id="taff">
         <h2>Taff</h2>
         <ul style="list-style:none; padding:0;">
