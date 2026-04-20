@@ -11,46 +11,53 @@
             --accent-blue: #58a6ff;
             --accent-purple: #bc8cff;
             --text-main: #e6edf3;
-            --header-bg: #f6f8fa;
-            --header-text: #24292f;
+            /* Inversion du header pour l'immersion */
+            --header-bg: #0d1117; 
+            --header-text: #e6edf3;
             --card-bg: #161b22;
             --border-color: #30363d;
             --hot-purple: #8957e5;
         }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--primary-dark); color: var(--text-main); line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
+            background-color: var(--primary-dark); 
+            color: var(--text-main); 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 0; 
+            scroll-behavior: smooth; 
+        }
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
         
-        /* Header ajusté pour le plein écran */
-        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid #d0d7de; }
+        /* Header en Dark Mode immersif */
+        header { 
+            text-align: center; 
+            padding: 0 0 40px 0; 
+            background-color: var(--header-bg); 
+            color: var(--header-text); 
+            border-bottom: 1px solid var(--border-color); 
+        }
         
-        /* L'image occupe toute la largeur sans bordures */
         .hero-img-full { width: 100%; height: auto; display: block; margin-bottom: 25px; }
         
-        /* Nouvelle Navigation Pilules */
+        /* Navigation Pilules avec effet de flou sur fond sombre */
         .nav-pill-container { position: sticky; top: 10px; z-index: 1000; margin: 20px 0 30px 0; }
         .nav-pill-list { 
             list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
-            background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); border-radius: 25px; 
-            border: 1px solid #d0d7de; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 0; 
+            background: rgba(22, 27, 34, 0.8); backdrop-filter: blur(12px); border-radius: 25px; 
+            border: 1px solid var(--border-color); box-shadow: 0 8px 32px rgba(0,0,0,0.4); margin: 0; 
         }
         .nav-pill-list li a { 
-            text-decoration: none; color: #24292f; font-size: 0.85em; font-weight: 600; padding: 8px 14px; 
-            background: white; border: 1px solid #d0d7de; border-radius: 50px; display: flex; align-items: center; gap: 6px; transition: 0.2s; 
+            text-decoration: none; color: var(--text-main); font-size: 0.85em; font-weight: 600; padding: 8px 14px; 
+            background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 50px; display: flex; align-items: center; gap: 6px; transition: 0.2s; 
         }
-        .nav-pill-list li a:hover { border-color: #0969da; color: #0969da; transform: translateY(-2px); }
-        .nav-pill-list li a.hot-link { color: #8957e5; border-color: #d2a8ff; background: #fcfaff; }
-        .nav-pill-list li a.hot-link:hover { background: #8957e5; color: white; }
+        .nav-pill-list li a:hover { border-color: var(--accent-blue); color: var(--accent-blue); transform: translateY(-2px); }
+        .nav-pill-list li a.hot-link { color: var(--hot-purple); border-color: var(--hot-purple); background: rgba(137, 87, 229, 0.1); }
+        .nav-pill-list li a.hot-link:hover { background: var(--hot-purple); color: white; }
 
         .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
         .btn-blue { background: #0969da; color: white !important; }
         .btn-purple { background: var(--hot-purple); color: white !important; }
-        section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
-        h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
-        .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; }
-        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-        .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
-        .app-card img { width: 100%; border-radius: 10px; margin-bottom: 10px; height: 120px; object-fit: contain; background: white; }
-        .video-container img { width: 100%; max-width: 100%; height: auto; display: block; border-radius: 15px; }
     </style>
 </head>
 <body>
@@ -74,70 +81,65 @@
             </ul>
         </nav>
 
-<div style="text-align: center; margin: 30px 0;">
+        <div style="text-align: center; margin: 30px 0;">
+            <p style="color: var(--accent-blue); font-size: 0.85em; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 15px; font-weight: bold; opacity: 0.9;">
+                <span style="background: #ff3b30; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; margin-right: 10px; vertical-align: middle;">NEW</span>
+                <i class="fas fa-volume-high" style="margin-right: 10px;"></i> Cimer mon Romain
+            </p>
+            <iframe src="https://drive.google.com/file/d/11CPxe2hqkltM4DgyFa3bEj6lSEbwH6Pf/preview" 
+                    width="300" 
+                    height="60" 
+                    style="border: 2px solid var(--accent-blue); border-radius: 50px; background: #0d1117;">
+            </iframe>
+        </div>
 
-    <div style="text-align: center; margin: 30px 0;">
-    <p style="color: var(--accent-blue); font-size: 0.85em; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 15px; font-weight: bold; opacity: 0.9;">
-        <span style="background: #ff3b30; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; margin-right: 10px; vertical-align: middle;">NEW</span>
-        <i class="fas fa-volume-high" style="margin-right: 10px;"></i> Cimer mon Romain
-    </p>
-    <iframe src="https://drive.google.com/file/d/11CPxe2hqkltM4DgyFa3bEj6lSEbwH6Pf/preview" 
-            width="300" 
-            height="60" 
-            style="border: 2px solid var(--accent-blue); border-radius: 50px; background: #0d1117;">
-    </iframe>
-</div>
+        <div style="margin: 30px 0; text-align: center; background: rgba(88, 166, 255, 0.05); padding: 25px; border-radius: 20px; border: 1px solid var(--accent-blue);">
+            <div style="margin-bottom: 35px;">
+                <p style="color: var(--accent-blue); font-weight: bold; margin-bottom: 10px; text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px;">
+                    <i class="fas fa-heart"></i> Je t'aime frère 💙
+                </p>
+                <iframe src="https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
+            </div>
 
-<div style="margin: 30px 0; text-align: center; background: rgba(52, 152, 219, 0.05); padding: 25px; border-radius: 20px; border: 1px solid var(--accent-blue);">
+            <div style="margin-bottom: 10px;">
+                <p style="margin-bottom: 15px; line-height: 1.5;">
+                    <span style="color: var(--accent-blue); font-weight: bold; font-size: 1em;">🎙️ Je te kiffe mon Roms, depuis toujours :</span>
+                </p>
+                <iframe src="https://drive.google.com/file/d/1GlvEWsobWQXfoLAgQQL9Tsz7Ju0ljJhK/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
+            </div>
+        </div>
     
-    <div style="margin-bottom: 35px;">
-        <p style="color: var(--accent-blue); font-weight: bold; margin-bottom: 10px; text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px;">
-            <i class="fas fa-heart"></i> Je t'aime frère 💙
-        </p>
-        <iframe src="https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
+        <div style="background: #ddf4ff; border-left: 6px solid #0969da; border-radius: 4px 15px 15px 4px; padding: 35px 30px; margin: 40px auto; max-width: 85%; box-shadow: 0 10px 40px rgba(0,0,0,0.5); text-align: left;">
+            <div style="font-size: 1.1em; line-height: 1.7; color: #000080;">
+                <p style="margin-bottom: 25px; font-weight: 800;">
+                    J'ai besoin de te dire ce que je ressens pour toi mec, c'est trop fort ce que je ressens pour toi, j'te kiffe de fou et je serai toujours 
+                    <a href="https://drive.google.com/file/d/1GJJQwAnULK16AWGzarKym_39O_fkxcFg/view?usp=drivesdk" style="color: #0969da; text-decoration: underline; font-weight: 800;">ton Rocher</a> 💪🏻
+                </p>
+                
+                <p style="margin-bottom: 25px;">
+                    Je kiffe cette image frère, sentir ton corps collé contre le mien, sentir tout ton poids de bonhomme, bien massif, faire une pression contre mon corps c'est justement ce qui me rend ouf mdrr ptn 🥵💕
+                </p>
+
+                <p style="margin-bottom: 25px;">
+                    Sur cette page, tu trouveras tout mon soutien pour toi, tout le besoin que j'ai d'être présent pour toi, et aussi nos souvenirs, mais aussi, parfois, mon besoin de partager mes délires les plus sensuels, les plus chauds pour toi 🥵
+                </p>
+                
+                <p style="margin-bottom: 25px;">
+                    Et sache qu'ici, même le silence est un kiff. On peut se parler, se désirer, ou juste être là, l'un pour l'autre, sans un mot 🤫😜
+                </p>
+                
+                <p style="font-weight: 800; margin-top: 15px;">
+                    Et même quand on a fait ce qu'il y avait à faire ✊🏻🍆, c'est ok. Y'a pas de plaisir coupable. 💪🏻🤤
+                </p>
+            </div>
+            
+            <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: #000080; text-transform: uppercase; letter-spacing: 1px; opacity: 0.8;">
+                — Ton Rocher
+            </div>
+        </div>
     </div>
-
-    <div style="margin-bottom: 10px;">
-        <p style="margin-bottom: 15px; line-height: 1.5;">
-            <span style="color: var(--accent-blue); font-weight: bold; font-size: 1em;">🎙️ Je te kiffe mon Roms, depuis toujours :</span>
-        </p>
-        <iframe src="https://drive.google.com/file/d/1GlvEWsobWQXfoLAgQQL9Tsz7Ju0ljJhK/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
-    </div>
-
-</div>
-    
-        
-<div style="background: #ddf4ff; border-left: 6px solid #0969da; border-radius: 4px 15px 15px 4px; padding: 35px 30px; margin: 40px auto; max-width: 85%; box-shadow: 0 10px 30px rgba(9, 105, 218, 0.15); text-align: left;">
-    <div style="font-size: 1.1em; line-height: 1.7; color: #000080;">
-        <p style="margin-bottom: 25px; font-weight: 800;">
-            J'ai besoin de te dire ce que je ressens pour toi mec, c'est trop fort ce que je ressens pour toi, j'te kiffe de fou et je serai toujours 
-            <a href="https://drive.google.com/file/d/1GJJQwAnULK16AWGzarKym_39O_fkxcFg/view?usp=drivesdk" style="color: #0969da; text-decoration: underline; font-weight: 800;">ton Rocher</a> 💪🏻
-        </p>
-        
-        <p style="margin-bottom: 25px;">
-            Je kiffe cette image frère, sentir ton corps collé contre le mien, sentir tout ton poids de bonhomme, bien massif, faire une pression contre mon corps c'est justement ce qui me rend ouf mdrr ptn 🥵💕
-        </p>
-
-        <p style="margin-bottom: 25px;">
-            Sur cette page, tu trouveras tout mon soutien pour toi, tout le besoin que j'ai d'être présent pour toi, et aussi nos souvenirs, mais aussi, parfois, mon besoin de partager mes délires les plus sensuels, les plus chauds pour toi 🥵
-        </p>
-        
-        <p style="margin-bottom: 25px;">
-            Et sache qu'ici, même le silence est un kiff. On peut se parler, se désirer, ou juste être là, l'un pour l'autre, sans un mot 🤫😜
-        </p>
-        
-        <p style="font-weight: 800; margin-top: 15px;">
-            Et même quand on a fait ce qu'il y avait à faire ✊🏻🍆, c'est ok. Y'a pas de plaisir coupable. 💪🏻🤤
-        </p>
-    </div>
-    
-    <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: #000080; text-transform: uppercase; letter-spacing: 1px; opacity: 0.8;">
-        — Ton Rocher
-    </div>
-</div>
-    
-    
 </header>
+    
 
 <div class="container">
     <div class="video-container" style="text-align:center; margin-bottom: 40px;">
