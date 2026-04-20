@@ -29,124 +29,124 @@
 
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
         
-        /* HEADER IMMERSIF */
+        /* HEADER AVEC VIDÉO */
         header { 
             text-align: center; 
-            padding: 0 0 40px 0; 
+            padding: 0; 
             background-color: var(--header-bg); 
             border-bottom: 1px solid var(--border-color); 
         }
-        
-        /* IMAGE ROCKY RESPONSIVE */
-        .hero-img-full { 
-            width: 100%; 
-            max-width: 100%;
-            height: auto; 
-            display: block; 
-            margin: 0;
-            object-fit: contain;
+
+        .video-header-container {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background: #000;
+        }
+
+        .video-header-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
         
-        /* NAVIGATION PILULES */
-        .nav-pill-container { position: sticky; top: 10px; z-index: 1000; margin: 20px 0 30px 0; }
+        /* NAVIGATION FIXE AU SCROLL */
+        .nav-pill-container { 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+            padding: 10px 0;
+            background: var(--header-bg); /* Pour masquer le contenu qui défile derrière */
+        }
+
         .nav-pill-list { 
-            list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
-            background: rgba(22, 27, 34, 0.8); backdrop-filter: blur(12px); border-radius: 25px; 
-            border: 1px solid var(--border-color); box-shadow: 0 8px 32px rgba(0,0,0,0.4); margin: 0; 
+            list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 12px; 
+            background: rgba(22, 27, 34, 0.9); backdrop-filter: blur(12px); border-radius: 20px; 
+            border: 1px solid var(--border-color); box-shadow: 0 8px 32px rgba(0,0,0,0.5); margin: 0; 
         }
+
         .nav-pill-list li a { 
-            text-decoration: none; color: var(--text-main); font-size: 0.85em; font-weight: 600; padding: 8px 14px; 
-            background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 50px; display: flex; align-items: center; gap: 6px; transition: 0.2s; 
+            text-decoration: none; color: var(--text-main); font-size: 0.8em; font-weight: 600; padding: 6px 12px; 
+            background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 50px; display: flex; align-items: center; gap: 5px; transition: 0.2s; 
         }
+
         .nav-pill-list li a:hover { border-color: var(--accent-blue); color: var(--accent-blue); transform: translateY(-2px); }
         .nav-pill-list li a.hot-link { color: var(--hot-purple); border-color: var(--hot-purple); background: rgba(137, 87, 229, 0.1); }
-        .nav-pill-list li a.hot-link:hover { background: var(--hot-purple); color: white; }
 
-        /* BLOC ROCHER ÉLÉGANT */
+        /* BLOC ROCHER ÉLÉGANT ET DISCRET */
         .rocher-block {
-            background: rgba(9, 105, 218, 0.05);
-            border: 1px solid rgba(88, 166, 255, 0.2);
-            border-left: 6px solid #0969da;
+            background: rgba(88, 166, 255, 0.03);
+            border: 1px solid rgba(88, 166, 255, 0.15);
+            border-left: 5px solid #0969da;
             border-radius: 4px 15px 15px 4px;
-            padding: 35px 30px;
-            margin: 40px auto;
-            max-width: 85%;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 90%;
             text-align: left;
         }
-        .rocher-text { font-size: 1.1em; line-height: 1.7; color: #e6edf3; }
-        .rocher-text a { color: var(--accent-blue); text-decoration: underline; font-weight: 800; }
+        .rocher-text { font-size: 1.05em; line-height: 1.6; color: #c9d1d9; }
+        .rocher-text a { color: var(--accent-blue); text-decoration: underline; font-weight: 700; }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="https://i.ibb.co/9H7ybnf3/image-14.jpg" alt="Force à toi" class="hero-img-full">
+    <div class="video-header-container">
+        <iframe src="https://www.youtube.com/embed/ffFBdWBp0NE?autoplay=0&mute=0&rel=0" 
+                title="Rocky - No Easy Way Out" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </div>
 
     <div class="container">
         <nav class="nav-pill-container">
             <ul class="nav-pill-list">
-                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
+                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Lien</a></li>
                 <li><a href="#personne-preferee">💕 BFF</a></li>
                 <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
                 <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
                 <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
                 <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
-                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
+                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Rocher</a></li>
                 <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
                 <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
                 <li><a href="#hot" class="hot-link"><i class="fas fa-fire"></i> HOT 🥵</a></li>
             </ul>
         </nav>
 
-        <div style="text-align: center; margin: 30px 0;">
-            <p style="color: var(--accent-blue); font-size: 0.85em; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 15px; font-weight: bold; opacity: 0.9;">
-                <span style="background: #ff3b30; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; margin-right: 10px; vertical-align: middle;">NEW</span>
-                <i class="fas fa-volume-high" style="margin-right: 10px;"></i> Cimer mon Romain
+        <div style="text-align: center; margin: 25px 0;">
+            <p style="color: var(--accent-blue); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;">
+                <span style="background: #ff3b30; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.7em; margin-right: 8px;">NEW</span>
+                <i class="fas fa-volume-high"></i> Cimer mon Romain
             </p>
-            <iframe src="https://drive.google.com/file/d/11CPxe2hqkltM4DgyFa3bEj6lSEbwH6Pf/preview" width="300" height="60" style="border: 2px solid var(--accent-blue); border-radius: 50px; background: #0d1117;"></iframe>
+            <iframe src="https://drive.google.com/file/d/11CPxe2hqkltM4DgyFa3bEj6lSEbwH6Pf/preview" width="280" height="50" style="border: 2px solid var(--accent-blue); border-radius: 50px; background: #000;"></iframe>
         </div>
 
-        <div style="margin: 30px 0; text-align: center; background: rgba(88, 166, 255, 0.05); padding: 25px; border-radius: 20px; border: 1px solid var(--accent-blue);">
-            <div style="margin-bottom: 35px;">
-                <p style="color: var(--accent-blue); font-weight: bold; margin-bottom: 10px; text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px;">
-                    <i class="fas fa-heart"></i> Je t'aime frère 💙
-                </p>
-                <iframe src="https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
-            </div>
-            <div style="margin-bottom: 10px;">
-                <p style="margin-bottom: 15px; line-height: 1.5;">
-                    <span style="color: var(--accent-blue); font-weight: bold; font-size: 1em;">🎙️ Je te kiffe mon Roms, depuis toujours :</span>
-                </p>
-                <iframe src="https://drive.google.com/file/d/1GlvEWsobWQXfoLAgQQL9Tsz7Ju0ljJhK/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
-            </div>
+        <div style="margin: 20px 0; padding: 20px; background: rgba(88, 166, 255, 0.05); border-radius: 15px; border: 1px solid var(--accent-blue);">
+            <p style="color: var(--accent-blue); font-weight: bold; font-size: 0.9em; margin-bottom: 10px; text-transform: uppercase;">
+                <i class="fas fa-heart"></i> Je t'aime frère 💙
+            </p>
+            <iframe src="https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/preview" width="100%" height="50" frameborder="0" style="border-radius: 20px; margin-bottom: 15px;"></iframe>
+            
+            <p style="color: var(--accent-blue); font-weight: bold; font-size: 0.9em; margin-bottom: 10px;">🎙️ Je te kiffe mon Roms, depuis toujours :</p>
+            <iframe src="https://drive.google.com/file/d/1GlvEWsobWQXfoLAgQQL9Tsz7Ju0ljJhK/preview" width="100%" height="50" frameborder="0" style="border-radius: 20px;"></iframe>
         </div>
 
         <div class="rocher-block">
             <div class="rocher-text">
-                <p style="margin-bottom: 25px; font-weight: 800;">
-                    J'ai besoin de te dire ce que je ressens pour toi mec, c'est trop fort ce que je ressens pour toi, j'te kiffe de fou et je serai toujours 
+                <p style="margin-bottom: 20px; font-weight: 700;">
+                    J'ai besoin de te dire ce que je ressens pour toi mec, j'te kiffe de fou et je serai toujours 
                     <a href="https://drive.google.com/file/d/1GJJQwAnULK16AWGzarKym_39O_fkxcFg/view?usp=drivesdk">ton Rocher</a> 💪🏻
                 </p>
-                <p style="margin-bottom: 25px;">
-                    Je kiffe cette image frère, sentir ton corps collé contre le mien, sentir tout ton poids de bonhomme, bien massif, faire une pression contre mon corps c'est justement ce qui me rend ouf mdrr ptn 🥵💕
-                </p>
-                <p style="margin-bottom: 25px;">
-                    Sur cette page, tu trouveras tout mon soutien pour toi, tout le besoin que j'ai d'être présent pour toi, et aussi nos souvenirs, mais aussi, parfois, mon besoin de partager mes délires les plus sensuels, les plus chauds pour toi 🥵
-                </p>
-                <p style="margin-bottom: 25px;">
-                    Et sache qu'ici, même le silence est un kiff. On peut se parler, se désirer, ou juste être là, l'un pour l'autre, sans un mot 🤫😜
-                </p>
-                <p style="font-weight: 800; margin-top: 15px;">
-                    Et même quand on a fait ce qu'il y avait à faire ✊🏻🍆, c'est ok. Y'a pas de plaisir coupable. 💪🏻🤤
-                </p>
+                <p style="margin-bottom: 15px;">Je kiffe cette image frère, sentir ton corps collé contre le mien... c'est justement ce qui me rend ouf 🥵💕</p>
+                <p style="margin-bottom: 15px;">Ici, tu trouveras mon soutien, nos souvenirs, et parfois mes délires les plus chauds pour toi 🥵</p>
+                <p>Même le silence est un kiff. On peut se parler, se désirer, ou juste être là 🤫😜</p>
             </div>
-            <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 1px; opacity: 0.8;">
+            <div style="margin-top: 15px; text-align: right; font-size: 0.8em; font-weight: bold; color: var(--accent-blue); opacity: 0.7;">
                 — Ton Rocher
             </div>
         </div>
     </div>
-</header>
+                </header>
 
 <div class="container">
     <div class="video-container" style="text-align:center; margin-bottom: 40px;">
