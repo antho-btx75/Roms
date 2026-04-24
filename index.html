@@ -12,6 +12,7 @@
             --accent-purple: #bc8cff;
             --text-main: #e6edf3;
             --header-bg: #0d1117; 
+            --header-text: #e6edf3; 
             --card-bg: #161b22;
             --border-color: #30363d;
             --hot-purple: #8957e5;
@@ -20,40 +21,67 @@
             --gold-main: #bf953f;
             --gold-dark: #aa771c;
         }
-
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--primary-dark); color: var(--text-main); line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
         
-        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); border-bottom: 2px solid var(--gold-main); }
+        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid var(--border-color); }
         .hero-img-full { width: 100%; height: auto; display: block; margin-bottom: 25px; }
         
+        /* NAVIGATION LUXE NOIR ET OR */
         .nav-pill-container { 
             position: sticky; 
             top: 0; 
             z-index: 1000; 
             padding: 15px 0; 
             background: rgba(13, 17, 23, 0.95); 
-            backdrop-filter: blur(12px);
+            backdrop-filter: blur(10px);
             margin-bottom: 25px; 
-            border-bottom: 1px solid rgba(191, 149, 63, 0.3);
         }
 
         .nav-pill-list { 
-            list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 0; margin: 0; 
+            list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 10px; 
+            background: transparent; margin: 0; 
         }
 
         .nav-pill-list li a { 
-            text-decoration: none; color: var(--gold-light); font-size: 0.75em; font-weight: 800; padding: 10px 16px; 
-            background: #000; border: 2px solid;
+            text-decoration: none; 
+            color: var(--gold-light);
+            font-size: 0.75em; 
+            font-weight: 800; 
+            padding: 10px 16px; 
+            background: #000; 
+            border: 2px solid;
             border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark), var(--gold-light), var(--gold-main)) 1;
-            display: flex; align-items: center; gap: 6px; transition: 0.3s; 
-            text-transform: uppercase; letter-spacing: 1px;
+            display: flex; 
+            align-items: center; 
+            gap: 6px; 
+            transition: 0.3s; 
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
         }
 
         .nav-pill-list li a:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(191, 149, 63, 0.3); color: #fff; }
-        .nav-pill-list li a.hot-link { color: #ff3b30; border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; }
 
-        .vocal-player { border-radius: 30px; background: #000; }
+        .nav-pill-list li a.hot-link { 
+            color: #ff3b30; 
+            border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1;
+            background: rgba(255, 0, 0, 0.05);
+        }
+
+        .purple-box { 
+            color: #d2a8ff; 
+            background: rgba(188, 140, 255, 0.1); 
+            padding: 20px; 
+            border-radius: 10px; 
+            border-left: 4px solid var(--hot-purple); 
+            margin: 20px 0; 
+            text-align: left;
+        }
+
+        .video-box { 
+            position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 15px; overflow: hidden; 
+            border: 2px solid var(--accent-blue); box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -61,111 +89,109 @@
 <header>
     <img src="https://i.ibb.co/9H7ybnf3/image-14.jpg" alt="Force à toi" class="hero-img-full">
     <div class="container">
-        
         <nav class="nav-pill-container">
             <ul class="nav-pill-list">
-                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Lien</a></li>
+                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
                 <li><a href="#personne-preferee">💕 BFF</a></li>
                 <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
                 <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
                 <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
                 <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
-                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Rocher</a></li>
+                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
                 <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
                 <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
                 <li><a href="#hot" class="hot-link"><i class="fas fa-fire"></i> HOT 🥵</a></li>
             </ul>
         </nav> 
-
-        <div style="text-align: center; margin-bottom: 30px; padding: 20px; border: 1px solid var(--gold-main); background: rgba(191, 149, 63, 0.05); border-radius: 15px;">
-            <p style="color: var(--gold-light); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;">
+        
+        <div style="text-align: center; margin-bottom: 30px; padding: 20px; border: 1px solid var(--hot-purple); background: rgba(137, 87, 229, 0.05); border-radius: 15px;">
+            <p style="color: var(--accent-blue); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;">
                 <i class="fas fa-microphone" style="margin-right: 8px;"></i> Wa chin ai lu, hia-ti
             </p>
-            <iframe src="https://drive.google.com/file/d/1-3bCDiRgRibN5bCDRa965XqBtWnEwKoD/preview" width="280" height="45" class="vocal-player" style="border: 1px solid var(--gold-main);"></iframe>
+            <iframe src="https://drive.google.com/file/d/1-3bCDiRgRibN5bCDRa965XqBtWnEwKoD/preview" width="280" height="45" style="border: 1px solid var(--hot-purple); border-radius: 30px; background: #0d1117;"></iframe>
         </div>
 
-        <div style="text-align: center; margin-bottom: 40px; padding: 25px; background: #000; border: 2px solid var(--gold-main); border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.5);">
-            <p style="color: var(--gold-light); font-weight: bold; font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px;">
+        <div style="text-align: center; margin-bottom: 40px; padding: 25px; background: #0a192f; border: 2px solid var(--accent-blue); border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.5);">
+            <p style="color: var(--accent-blue); font-weight: bold; font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px;">
                 <i class="fas fa-handshake" style="margin-right: 8px;"></i> Frère d'armes
             </p>
-            <iframe src="https://drive.google.com/file/d/1ZXzH6yTxg1W57tXZEKt3VImtu0Pbqrxv/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px; background: #000; border: 1px solid var(--gold-dark);"></iframe>
+            <iframe src="https://drive.google.com/file/d/1ZXzH6yTxg1W57tXZEKt3VImtu0Pbqrxv/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px; background: #0d1117; border: 1px solid rgba(88, 166, 255, 0.3);"></iframe>
             <p style="color: #8b949e; font-size: 0.9em; margin-top: 15px; font-style: italic; line-height: 1.4;">
                 Pour comprendre ce qu'il y a dans ma tête. Je veux garder notre lien gro 🥹
             </p>
         </div>
 
-        <div style="text-align: center; margin-bottom: 40px; padding: 20px; background: rgba(191, 149, 63, 0.05); border: 1px solid var(--gold-main); border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-            <h3 style="color: var(--gold-light); margin-bottom: 15px; font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px;">
+        <div style="text-align: center; margin-bottom: 40px; padding: 20px; background: rgba(137, 87, 229, 0.05); border: 1px solid var(--accent-purple); border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+            <h3 style="color: var(--accent-purple); margin-bottom: 15px; font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px;">
                 <i class="fas fa-subway" style="margin-right: 10px;"></i> Tout me manque frère
             </h3>
-            <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid var(--gold-dark);">
-                <iframe src="https://drive.google.com/file/d/1o4gXYPuqvvfuALsJLXjiOMG5ieyQdEO7/preview" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+            <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid #30363d;">
+                <iframe src="https://drive.google.com/file/d/1o4gXYPuqvvfuALsJLXjiOMG5ieyQdEO7/preview" width="100%" height="100%" frameborder="0" allow="autoplay" allowfullscreen></iframe>
             </div>
             <p style="color: #8b949e; font-size: 0.85em; margin-top: 12px; font-style: italic;">
                 Barcelone 2026 — Ces moments-là n'ont pas de prix.
             </p>
         </div>
 
-        <section id="mood-du-moment" style="margin: 40px 0; padding: 25px; background: rgba(0, 0, 0, 0.3); border: 2px solid var(--gold-main); border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        <section id="mood-du-moment" style="margin: 40px 0; padding: 25px; background: rgba(137, 87, 229, 0.05); border: 1.5px solid var(--hot-purple); border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
             <div style="text-align: center; margin-bottom: 30px;">
-                <p style="color: var(--gold-main); font-size: 0.85em; text-transform: uppercase; letter-spacing: 4px; font-weight: bold; margin: 0;">
+                <p style="color: var(--hot-purple); font-size: 0.85em; text-transform: uppercase; letter-spacing: 4px; font-weight: bold; margin: 0;">
                     <i class="fas fa-bolt" style="margin-right: 10px;"></i> Mood du moment
                 </p>
-                <div style="width: 50px; height: 2px; background: var(--gold-main); margin: 15px auto; opacity: 0.5;"></div>
+                <div style="width: 50px; height: 2px; background: var(--hot-purple); margin: 15px auto; opacity: 0.5;"></div>
             </div>
             <div style="display: flex; flex-direction: column; gap: 25px;">
                 <div style="text-align: center;">
-                    <p style="color: var(--gold-light); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;">T'es ma personne préférée</p>
-                    <iframe src="https://drive.google.com/file/d/11CPxe2hqkltM4DgyFa3bEj6lSEbwH6Pf/preview" width="100%" height="60" frameborder="0" style="border: 2px solid var(--gold-main); border-radius: 30px; background: #000;"></iframe>
+                    <p style="color: var(--accent-blue); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;">T'es ma personne préférée</p>
+                    <iframe src="https://drive.google.com/file/d/11CPxe2hqkltM4DgyFa3bEj6lSEbwH6Pf/preview" width="100%" height="60" frameborder="0" style="border: 2px solid var(--accent-blue); border-radius: 30px; background: #0d1117;"></iframe>
                 </div>
-                <div style="background: rgba(191, 149, 63, 0.05); padding: 20px; border-radius: 20px; border: 1px solid var(--gold-dark);">
+                <div style="background: rgba(88, 166, 255, 0.05); padding: 20px; border-radius: 20px; border: 1px solid rgba(88, 166, 255, 0.2);">
                     <div style="margin-bottom: 25px; text-align: center;">
-                        <p style="color: var(--gold-light); font-weight: bold; margin-bottom: 10px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px;"><i class="fas fa-heart"></i> Force mon gars</p>
+                        <p style="color: var(--accent-blue); font-weight: bold; margin-bottom: 10px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px;"><i class="fas fa-heart"></i> Force mon gars</p>
                         <iframe src="https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
                     </div>
                     <div style="text-align: center;">
-                        <p style="color: var(--gold-light); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;"><i class="fas fa-microphone" style="margin-right: 8px;"></i>Merci mon Roms</p>
+                        <p style="color: var(--accent-blue); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;"><i class="fas fa-microphone" style="margin-right: 8px;"></i>Merci mon Roms</p>
                         <iframe src="https://drive.google.com/file/d/1GlvEWsobWQXfoLAgQQL9Tsz7Ju0ljJhK/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
                     </div>
                 </div>
             </div>
         </section>
-
-        <div style="background: #000; border-left: 6px solid var(--gold-main); border-top: 1px solid var(--gold-main); border-right: 1px solid var(--gold-main); border-bottom: 1px solid var(--gold-main); border-radius: 4px 15px 15px 4px; padding: 35px 30px; margin: 40px auto; max-width: 85%; box-shadow: 0 10px 30px rgba(0,0,0,0.5); text-align: left;">
-            <div style="font-size: 1.1em; line-height: 1.7; color: var(--gold-light);">
+        
+        <div style="background: rgba(88, 166, 255, 0.05); border-left: 6px solid #0969da; border-radius: 4px 15px 15px 4px; padding: 35px 30px; margin: 40px auto; max-width: 85%; box-shadow: 0 10px 30px rgba(0,0,0,0.3); text-align: left;">
+            <div style="font-size: 1.1em; line-height: 1.7; color: var(--text-main);">
                 <p style="margin-bottom: 25px; font-weight: 800;">
                     J'ai besoin de te dire ce que je ressens pour toi mec, c'est trop fort ce que je ressens pour toi, j'te kiffe de fou et je serai toujours 
-                    <a href="https://drive.google.com/file/d/1GJJQwAnULK16AWGzarKym_39O_fkxcFg/view?usp=drivesdk" style="color: var(--gold-main); text-decoration: underline; font-weight: 800;">ton Rocher</a> 💪🏻
+                    <a href="https://drive.google.com/file/d/1GJJQwAnULK16AWGzarKym_39O_fkxcFg/view?usp=drivesdk" style="color: var(--accent-blue); text-decoration: underline; font-weight: 800;">ton Rocher</a> 💪🏻
                 </p>
                 <p style="margin-bottom: 25px;">Je kiffe cette image frère, sentir ton corps collé contre le mien, sentir tout ton poids de bonhomme, bien massif... c'est justement ce qui me rend ouf mdrr ptn 🥵💕</p>
                 <p style="margin-bottom: 25px;">Sur cette page, tu trouveras tout mon soutien pour toi, le résultat des recherches que je peux faire pour toi, nos souvenirs de voyage, des anecdotes, des témoignages vocaux sur ce que je ressens pour toi depuis si longtemps.</p>
             </div>
-            <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: var(--gold-main); text-transform: uppercase; letter-spacing: 2px;">— Ton Rocher</div>
+            <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 1px; opacity: 0.8;">— Ton Rocher</div>
         </div>
 
-        <div style="text-align:center; margin-bottom: 40px; padding: 25px; background: #000; border: 2px solid var(--gold-main); border-radius: 8px; max-width: 600px; margin-left: auto; margin-right: auto;">
-            <h2 style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; font-size: 2em; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 2px;">WIN ROMS, WIN.</h2>
+        <div style="text-align:center; margin-bottom: 40px; padding: 25px; background: #000; border: 2px solid var(--accent-blue); border-radius: 8px; max-width: 600px; margin-left: auto; margin-right: auto;">
+            <h2 style="color: #fff; font-family: 'Arial Black', sans-serif; font-size: 2em; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 2px;">WIN ROMS, WIN.</h2>
             <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 4px;">
                 <iframe src="https://www.youtube.com/embed/9TogI2UVS0A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
             </div>
-            <p style="color: var(--gold-dark); font-family: monospace; font-size: 0.8em; margin-top: 15px;">// Focus. No surrender.</p>
+            <p style="color: #444; font-family: monospace; font-size: 0.8em; margin-top: 15px;">// Focus. No surrender.</p>
         </div>
 
         <div style="display: flex; justify-content: center; margin: 30px 0 45px 0;">
-            <div style="background: #000; border: 2px solid var(--gold-main); padding: 35px; border-radius: 20px; position: relative; max-width: 85%; box-shadow: 0 10px 40px rgba(0,0,0,0.6);">
+            <div style="background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); border: 1.5px solid var(--accent-blue); padding: 30px; border-radius: 20px; position: relative; max-width: 85%; box-shadow: 0 10px 40px rgba(0,0,0,0.6);">
                 <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #0d1117; padding: 0 15px;">
-                    <i class="fas fa-shield-halved" style="color: var(--gold-main); font-size: 1.2em;"></i>
+                    <i class="fas fa-shield-halved" style="color: var(--accent-blue); font-size: 1.2em;"></i>
                 </div>
-                <p style="margin: 0; font-style: italic; color: var(--gold-light); text-align: center; font-size: 1.15em; line-height: 1.7; letter-spacing: 0.5px;">
-                    "Le bruit et les tensions sont du passé ; seul compte maintenant le <span style="color: var(--gold-main); font-weight: bold; text-transform: uppercase;">Sommet</span>. La grandeur naît quand deux âmes voient se rencontrer l'ambition de l'un et le <span style="color: var(--gold-main); font-weight: bold;">soutien indéfectible</span> de l'autre. C'est dans cette puissance mutuelle que se trace la route vers le <span style="color: var(--gold-main); font-weight: bold; text-transform: uppercase;">Succès</span>. <br><br>Avance sans crainte. Je suis ton soutien, ton bouclier mon Romain 🛡️💪🏻"
+                <p style="margin: 0; font-style: italic; color: #e6edf3; text-align: center; font-size: 1.15em; line-height: 1.7; letter-spacing: 0.5px;">
+                    "Le bruit et les tensions sont du passé ; seul compte maintenant le <span style="color: var(--accent-blue); font-weight: bold; text-transform: uppercase;">Sommet</span>. La grandeur naît quand deux âmes voient se rencontrer l'ambition de l'un et le <span style="color: var(--accent-blue); font-weight: bold;">soutien indéfectible</span> de l'autre. C'est dans cette puissance mutuelle que se trace la route vers le <span style="color: var(--accent-blue); font-weight: bold; text-transform: uppercase;">Succès</span>. <br><br>Avance sans crainte. Je suis ton soutien, ton bouclier mon Romain 🛡️💪🏻"
                 </p>
-                <p style="margin-top: 25px; text-align: center; font-size: 0.85em; color: var(--gold-main); font-weight: bold; text-transform: uppercase; letter-spacing: 4px;">— FRÈRES D'ARMES —</p>
+                <p style="margin-top: 25px; text-align: center; font-size: 0.85em; color: var(--accent-blue); font-weight: bold; text-transform: uppercase; letter-spacing: 4px; opacity: 0.95;">— FRÈRES D'ARMES —</p>
             </div>
         </div>
-
     </div> 
 </header>
-    
+
 
     <div class="container">
 
