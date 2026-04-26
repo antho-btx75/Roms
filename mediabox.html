@@ -22,13 +22,13 @@
             background-color: var(--primary-dark);
             color: var(--text-main);
             margin: 0;
-            padding: 20px;
+            padding: 0; /* Changé à 0 pour le header full-width */
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
-        .container { width: 100%; max-width: 850px; }
+        .container { width: 100%; max-width: 850px; padding: 20px; box-sizing: border-box; }
         
         .section-box {
             background: #000;
@@ -57,6 +57,12 @@
     </style>
 </head>
 <body>
+
+    <div style="width: 100%; overflow: hidden; border-bottom: 3px solid var(--gold-main); box-shadow: 0 5px 25px rgba(0,0,0,0.8);">
+        <img src="https://i.ibb.co/XxbKr2q9/IMG-20260426-221926.jpg" 
+             alt="Header Chill & Fun" 
+             style="width: 100%; height: auto; display: block; object-fit: cover;">
+    </div>
 
 <div class="container">
 
