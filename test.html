@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST LAB - ROMS SANCTUAIRE</title>
+    <title>TEST LAB V2 - ROMS SANCTUAIRE</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
@@ -39,7 +39,6 @@
             margin-top: 50px;
         }
 
-        /* STYLE COMMUN DES BOITES */
         .section-box {
             background: #000;
             border: 2px solid var(--gold-main);
@@ -49,112 +48,145 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
 
-        /* GRID POUR LE CINÉ */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 15px;
-            padding: 10px;
-            border: 1px solid var(--gold-dark);
-            text-align: center;
-        }
-
-        iframe { border-radius: 10px; width: 100%; }
-
-        /* BOUTONS */
+        /* BOUTONS GOLD */
         .btn-gold {
             cursor: pointer;
             background: #000;
             color: var(--gold-light);
             border: 1px solid var(--gold-main);
-            padding: 10px 15px;
+            padding: 12px 20px;
             border-radius: 8px;
             transition: 0.3s;
             font-weight: bold;
+            text-transform: uppercase;
         }
-        .btn-gold:hover { background: var(--gold-main); color: #000; }
+        .btn-gold:hover { 
+            background: var(--gold-main); 
+            color: #000; 
+            box-shadow: 0 0 15px var(--gold-main);
+        }
+
+        /* VIDEO RESPONSIVE */
+        .video-container {
+            border: 1px solid var(--gold-dark);
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #000;
+            margin-bottom: 15px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%; border: none;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
 
-    <h1 style="text-align: center; color: var(--gold-main);">🧪 LABORATOIRE DE TESTS</h1>
-    <p style="text-align: center; font-style: italic; opacity: 0.7;">Test des nouvelles fonctionnalités pour Romain</p>
+    <h1 style="text-align: center; color: var(--gold-main); letter-spacing: 3px;">🧪 LABORATOIRE DE TESTS</h1>
+    <p style="text-align: center; font-style: italic; opacity: 0.7;">Expérimentations pour le Sanctuaire de Romain</p>
 
     <h2><i class="fas fa-heartbeat"></i> 1. La Boîte à Mood</h2>
     <div class="section-box" style="text-align: center;">
-        <p style="margin-bottom: 20px;">Comment tu te sens, mon Roms ?</p>
-        <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
+        <p style="margin-bottom: 20px; font-size: 1.1em;">Comment tu te sens aujourd'hui, mon Roms ?</p>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
             <button class="btn-gold" onclick="changeMood('gris')">Gris ☁️</button>
             <button class="btn-gold" onclick="changeMood('neutre')">Normal ⚖️</button>
             <button class="btn-gold" onclick="changeMood('deter')">Dété 🔥</button>
         </div>
-        <div id="mood-response" style="padding: 20px; border: 1px dashed var(--gold-dark); border-radius: 10px; min-height: 50px; background: rgba(255,255,255,0.02);">
+        <div id="mood-response" style="padding: 25px; border: 1px dashed var(--gold-dark); border-radius: 15px; min-height: 60px; background: rgba(255,255,255,0.03); transition: 0.5s;">
             <span style="opacity: 0.5;">En attente de ton mood...</span>
         </div>
     </div>
 
     <h2><i class="fas fa-compact-disc"></i> 2. Radio Sanctuaire</h2>
     <div class="section-box">
-        <div style="aspect-ratio: 16/9; margin-bottom: 20px;">
-            <iframe id="main-player" src="https://www.youtube.com/embed/fPO76Jdqk60" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="video-container">
+            <iframe id="main-player" src="https://www.youtube.com/embed/MR6FXpaECY8" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-            <button class="btn-gold" onclick="playSong('fPO76Jdqk60')">Rocky Theme 🥊</button>
-            <button class="btn-gold" onclick="playSong('fAnvD9S9HXA')">Amoureuse 🎹</button>
-            <button class="btn-gold" onclick="playSong('5NPBIwQyPWE')">Synthwave Chill 🌌</button>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 15px;">
+            <button class="btn-gold" style="font-size: 0.8em;" onclick="playSong('MR6FXpaECY8')">Rocky Theme 🥊</button>
+            <button class="btn-gold" style="font-size: 0.8em;" onclick="playSong('1zljNPO6W8E')">Darondo (Soul) 🎙️</button>
+            <button class="btn-gold" style="font-size: 0.8em;" onclick="playSong('5NPBIwQyPWE')">Synthwave Chill 🌌</button>
         </div>
     </div>
 
-    <h2><i class="fas fa-film"></i> 3. Ciné-Club</h2>
-    <div class="section-box">
-        <div class="grid">
-            <div class="card">
-                <div style="aspect-ratio: 16/9; background: #333; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
-                    <i class="fas fa-play-circle" style="font-size: 3em; color: var(--gold-main);"></i>
-                </div>
-                <p style="margin-top: 10px; font-weight: bold; color: var(--gold-light);">Ip Man (Complet)</p>
-                <button class="btn-gold" style="width: 100%; font-size: 0.8em;">LANCER</button>
-            </div>
-            <div class="card">
-                <div style="aspect-ratio: 16/9; background: #333; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
-                    <i class="fas fa-play-circle" style="font-size: 3em; color: var(--gold-main);"></i>
-                </div>
-                <p style="margin-top: 10px; font-weight: bold; color: var(--gold-light);">The Beekeeper</p>
-                <button class="btn-gold" style="width: 100%; font-size: 0.8em;">LANCER</button>
-            </div>
+    <h2><i class="fas fa-quote-left"></i> 3. Mantra du Jour</h2>
+    <div class="section-box" style="text-align: center;">
+        <div id="quote-display" style="min-height: 100px; display: flex; align-items: center; justify-content: center; padding: 20px; margin-bottom: 20px; background: rgba(191, 149, 63, 0.05); border-radius: 15px; border: 1px solid rgba(191,149,63,0.2);">
+            <p style="color: #fff; font-size: 1.2em; font-style: italic; margin: 0;">"Clique pour recevoir ta dose de force."</p>
         </div>
+        <button onclick="genererCitation()" class="btn-gold" style="background: var(--gold-main); color: #000; border-radius: 50px; padding: 15px 30px;">
+            <i class="fas fa-bolt"></i> Recevoir la force
+        </button>
+    </div>
+
+    <h2><i class="fas fa-film"></i> 4. Ciné-Club : Ip Man</h2>
+    <div class="section-box">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/fA8SstzD99k" allowfullscreen></iframe>
+        </div>
+        <p style="text-align: center; color: var(--gold-light); font-style: italic; margin-top: 15px;">
+            "La maîtrise de soi est la plus grande des victoires."
+        </p>
     </div>
 
 </div>
 
 <script>
-    // GESTION DU MOOD
+    // --- GESTION DU MOOD ---
     function changeMood(etat) {
         const box = document.getElementById('mood-response');
+        box.style.animation = "none";
+        setTimeout(() => box.style.animation = "fadeIn 0.5s forwards", 10);
+
         if(etat === 'gris') {
-            box.innerHTML = "<p style='color: var(--accent-blue);'><b>Le Rocher :</b> Je sens que c'est dur gro. Écoute ça, je suis là pour toi. ❤️</p>";
+            box.innerHTML = "<p style='color: var(--accent-blue); margin:0;'><b>Le Rocher :</b> Je sens que c'est dur gro. Écoute un peu de Soul, je suis là pour toi. ❤️</p>";
             box.style.borderColor = "var(--accent-blue)";
         } else if(etat === 'neutre') {
-            box.innerHTML = "<p style='color: var(--gold-light);'><b>Le Rocher :</b> On garde le cap. T'es le meilleur, oublie jamais. ⚖️</p>";
+            box.innerHTML = "<p style='color: var(--gold-light); margin:0;'><b>Le Rocher :</b> On garde le cap. T'es le meilleur, oublie jamais. ⚖️</p>";
             box.style.borderColor = "var(--gold-main)";
         } else if(etat === 'deter') {
-            box.innerHTML = "<p style='color: #ff3b30; font-weight: bold;'><b>Le Rocher :</b> C'EST ÇA MON ROMS ! VA TOUT PÉTER ! 🔥💪</p>";
+            box.innerHTML = "<p style='color: #ff3b30; font-weight: bold; margin:0;'><b>Le Rocher :</b> C'EST ÇA MON ROMS ! VA TOUT PÉTER ! 🔥💪</p>";
             box.style.borderColor = "#ff3b30";
         }
     }
 
-    // GESTION DU JUKEBOX
+    // --- GESTION DU JUKEBOX ---
     function playSong(id) {
         const player = document.getElementById('main-player');
         player.src = "https://www.youtube.com/embed/" + id + "?autoplay=1";
+    }
+
+    // --- GESTION DES CITATIONS ---
+    function genererCitation() {
+        const citations = [
+            "C'est pas grave de se faire cogner, l'important c'est de savoir combien de coups on peut recevoir et continuer à avancer.",
+            "Win Roms, Win. No retreat, no surrender.",
+            "Tant que t'as du souffle, t'as une chance.",
+            "T'es ma personne préférée, oublie jamais que je suis ton rocher.",
+            "Même si t'es rincé, regarde le sommet, on lâche rien mon gars.",
+            "T'es un guerrier Romain. Repose-toi s'il faut, mais repars au combat demain.",
+            "La force ne vient pas de ce que tu peux faire, elle vient de la maîtrise de ce que tu croyais ne pas pouvoir faire.",
+            "La présence que j'ai pour toi est un bouclier, pas un poids."
+        ];
+        const display = document.getElementById('quote-display');
+        display.style.opacity = 0;
+        
+        setTimeout(() => {
+            const randomIndex = Math.floor(Math.random() * citations.length);
+            display.innerHTML = `<p style="color: var(--gold-light); font-size: 1.2em; font-style: italic; animation: fadeIn 0.8s forwards;">"${citations[randomIndex]}"</p>`;
+            display.style.opacity = 1;
+        }, 200);
     }
 </script>
 
