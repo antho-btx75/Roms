@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST LAB V2 - ROMS SANCTUAIRE</title>
+    <title>ROMS SANCTUAIRE - V3 LAB</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
@@ -28,42 +28,34 @@
             align-items: center;
         }
 
-        .container { width: 100%; max-width: 800px; }
+        .container { width: 100%; max-width: 850px; }
         
         .section-box {
             background: #000;
             border: 2px solid var(--gold-main);
             border-radius: 20px;
             padding: 25px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            margin-bottom: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
         }
 
-        h2 { text-align: center; text-transform: uppercase; color: var(--gold-light); margin-top: 40px; }
-
-        /* BOUTONS STYLE */
-        .btn-gold {
-            cursor: pointer;
-            background: #000;
-            color: var(--gold-light);
-            border: 1px solid var(--gold-main);
-            padding: 10px 15px;
-            border-radius: 8px;
-            transition: 0.3s;
-            font-weight: bold;
-            font-size: 0.85em;
+        h2 { 
+            text-align: center; 
+            text-transform: uppercase; 
+            letter-spacing: 3px; 
+            color: var(--gold-light); 
+            margin-top: 30px;
+            text-shadow: 0 0 10px rgba(191, 149, 63, 0.5);
         }
-        .btn-gold:hover { background: var(--gold-main); color: #000; }
 
-        /* JUKEBOX GRID */
-        .jukebox-grid {
+        /* CINÉ CLUB */
+        .movie-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 10px;
-            margin-top: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
         }
 
-        /* VIDEO CONTAINER */
         .video-container {
             border: 1px solid var(--gold-dark);
             position: relative;
@@ -75,6 +67,33 @@
         }
         .video-container iframe { position: absolute; top:0; left:0; width:100%; height:100%; border:none; }
 
+        /* JUKEBOX */
+        .jukebox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        /* BOUTONS */
+        .btn-gold {
+            cursor: pointer;
+            background: #000;
+            color: var(--gold-light);
+            border: 1px solid var(--gold-main);
+            padding: 12px;
+            border-radius: 10px;
+            transition: 0.3s;
+            font-weight: bold;
+            font-size: 0.85em;
+            text-transform: uppercase;
+        }
+        .btn-gold:hover { 
+            background: var(--gold-main); 
+            color: #000; 
+            box-shadow: 0 0 15px var(--gold-main);
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
@@ -85,43 +104,52 @@
 
 <div class="container">
 
-    <h1 style="text-align: center; color: var(--gold-main); letter-spacing: 3px;">🧪 TEST LAB V2</h1>
+    <h1 style="text-align: center; color: var(--gold-main); letter-spacing: 5px; font-size: 2.5em;">ROMS SANCTUAIRE</h1>
 
-    <h2><i class="fas fa-bolt"></i> BOÎTE À MOOD</h2>
-    <div class="section-box" style="text-align: center;">
-        <p style="margin-bottom: 20px;">Comment tu te sens, mon Roms ? Clique pour ta dose.</p>
-        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-            <button class="btn-gold" style="border-color: var(--accent-blue);" onclick="getForce('gris')">GRIS ☁️</button>
-            <button class="btn-gold" style="border-color: var(--gold-main);" onclick="getForce('normal')">NORMAL ⚖️</button>
-            <button class="btn-gold" style="border-color: var(--accent-orange);" onclick="getForce('stresse')">STRESSÉ ⚡</button>
-            <button class="btn-gold" style="border-color: var(--accent-red);" onclick="getForce('deter')">DÉTÉ 🔥</button>
+    <h2><i class="fas fa-film"></i> CINÉ-CLUB : LE SOMMET</h2>
+    <div class="movie-grid">
+        <div class="section-box" style="margin-bottom: 0;">
+            <p style="color: var(--gold-light); text-align: center; font-weight: bold; margin-bottom: 15px;">THE BEEKEEPER (Action 2024)</p>
+            <div class="video-container">
+                <iframe src="http://www.youtube.com/watch?v=A9RMr9KuVZo" allowfullscreen></iframe>
+            </div>
         </div>
-        <div id="mood-display" style="padding: 25px; border: 2px dashed var(--gold-dark); border-radius: 15px; min-height: 80px; background: rgba(255,255,255,0.03); display: flex; align-items: center; justify-content: center;">
-            <span style="opacity: 0.5; font-style: italic;">"Le Rocher attend ton signal..."</span>
+        <div class="section-box" style="margin-bottom: 0;">
+            <p style="color: var(--gold-light); text-align: center; font-weight: bold; margin-bottom: 15px;">THE PROFESSIONAL (Donnie Yen)</p>
+            <div class="video-container">
+                <iframe src="http://www.youtube.com/watch?v=_l09H-3zzgA" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 
     <h2><i class="fas fa-compact-disc"></i> RADIO SANCTUAIRE</h2>
     <div class="section-box">
         <div class="video-container">
-            <iframe id="main-player" src="https://m.youtube.com/watch?v=ffFBdWBp0NE&list=RDffFBdWBp0NE&start_radio=1&pp=ygUVcm9ja3kgbm8gZWFzeSB3YXkgb3V0oAcB\nPétunia" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="main-player" src="http://www.youtube.com/watch?v=RGNHNGVLsG8" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="jukebox-grid">
-            <button class="btn-gold" onclick="play('ffFBdWBp0NE')">No Easy Way Out 🥊</button>
-            <button class="btn-gold" onclick="play('n2THLWjJ3Wo')">Pétunias 🌸</button>
-            <button class="btn-gold" onclick="play('RGNHNGVLsG8')">Chemin d'or ✨</button>
-            <button class="btn-gold" onclick="play('A9RMr9KuVZo')">Move on Up 🆙</button>
-            <button class="btn-gold" onclick="play('uXMeRUQmYoM')">Jessica 💃</button>
-            <button class="btn-gold" onclick="play('_l09H-3zzgA')">Under Cover 🌑</button>
-            <button class="btn-gold" onclick="play('1zljNPO6W8E')">Darondo 🎙️</button>
-            <button class="btn-gold" onclick="play('MR6FXpaECY8')">Rocky Theme 🏆</button>
+            <button class="btn-gold" onclick="play('ffFBdWBp0NE')">No Easy Way Out</button>
+            <button class="btn-gold" onclick="play('n2THLWjJ3Wo')">Pétunias</button>
+            <button class="btn-gold" onclick="play('RGNHNGVLsG8')">Chemin d'or</button>
+            <button class="btn-gold" onclick="play('A9RMr9KuVZo')">Move on Up</button>
+            <button class="btn-gold" onclick="play('uXMeRUQmYoM')">Jessica</button>
+            <button class="btn-gold" onclick="play('_l09H-3zzgA')">Under Cover</button>
+            <button class="btn-gold" onclick="play('1zljNPO6W8E')">Darondo</button>
+            <button class="btn-gold" onclick="play('MR6FXpaECY8')">Rocky Theme</button>
         </div>
     </div>
 
-    <h2><i class="fas fa-film"></i> FOCUS : IP MAN</h2>
-    <div class="section-box">
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/fA8SstzD99k" allowfullscreen></iframe>
+    <h2><i class="fas fa-bolt"></i> BOÎTE À MOOD</h2>
+    <div class="section-box" style="text-align: center;">
+        <p style="margin-bottom: 25px; font-size: 1.1em; color: var(--text-main);">Dis au Rocher comment tu te sens...</p>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-bottom: 25px;">
+            <button class="btn-gold" style="border-color: var(--accent-blue); color: var(--accent-blue);" onclick="getForce('gris')">GRIS / TRISTE ☁️</button>
+            <button class="btn-gold" style="border-color: var(--accent-orange); color: var(--accent-orange);" onclick="getForce('stresse')">STRESSÉ ⚡</button>
+            <button class="btn-gold" style="border-color: var(--gold-main);" onclick="getForce('normal')">NORMAL ⚖️</button>
+            <button class="btn-gold" style="border-color: var(--accent-red); color: var(--accent-red);" onclick="getForce('deter')">DÉTÉ 🔥</button>
+        </div>
+        <div id="mood-display" style="padding: 30px; border: 2px dashed var(--gold-dark); border-radius: 15px; min-height: 100px; background: rgba(255,255,255,0.03); display: flex; align-items: center; justify-content: center; line-height: 1.6;">
+            <span style="opacity: 0.5; font-style: italic;">"Sélectionne ton état pour recevoir ton mantra."</span>
         </div>
     </div>
 
@@ -130,52 +158,52 @@
 <script>
     const citations = {
         gris: [
-            "Même le ciel le plus sombre finit par laisser passer la lumière. Tiens bon.",
-            "La frustration est l'engrais de la réussite future. Utilise cette rage.",
-            "Pleure s'il le faut, mais ne lâche jamais le bouclier.",
-            "C'est dans la tempête qu'on voit la solidité du Rocher. Je bouge pas.",
-            "Tomber n'est rien, c'est rester au sol qui est un crime. Relève-toi.",
-            "Tes cicatrices sont les preuves que tu es plus fort que ce qui a tenté de te briser.",
-            "Le calme revient toujours. En attendant, je suis ton abri.",
-            "Aujourd'hui est dur, demain sera une leçon. Respire.",
-            "Ta valeur ne diminue pas parce que tu traverses une phase sombre.",
-            "Laisse la tristesse couler, elle nettoie la place pour ta prochaine victoire."
-        ],
-        normal: [
-            "Le calme avant la gloire. Savoure cette stabilité.",
-            "Chaque pas régulier te rapproche du sommet. Continue.",
-            "La constance est la clé des grands destins. T'es sur la bonne voie.",
-            "Profite de ce moment pour affûter tes armes en silence.",
-            "Être bien, c'est déjà une victoire. Ne l'oublie jamais.",
-            "Le succès n'est pas toujours bruyant, il est souvent fait de jours comme celui-ci.",
-            "Reste focus. La discipline bat le talent quand le talent ne taffe pas.",
-            "Apprécie le chemin, pas seulement la destination.",
-            "T'es le maître de ton navire, et aujourd'hui la mer est belle.",
-            "Une journée tranquille est une opportunité de grandir sereinement."
+            "Le Rocher ne bouge pas, même sous l'orage. Appuie-toi sur moi.",
+            "C'est OK d'être rincé. Repose ton esprit, demain on repart au front.",
+            "La frustration d'aujourd'hui est le carburant de ta vengeance de demain.",
+            "Laisse la tristesse couler, elle nettoie la place pour ta prochaine ambition.",
+            "Ta valeur ne dépend pas de tes moments de vide. T'es une légende en pause.",
+            "Regarde combien de fois tu t'es relevé. Ce n'est qu'une étape de plus.",
+            "Même les plus grands guerriers ont connu le silence. Utilise-le pour renaître.",
+            "Ne t'excuse jamais d'être fatigué. Recharge et reviens tout péter.",
+            "Je kiffe te kiffer, même quand t'es dans le gris. Je suis là.",
+            "Le sommet est toujours là, même quand les nuages le cachent. Continue."
         ],
         stresse: [
-            "Le stress est de l'énergie qui attend une direction. Respire et vise.",
-            "Une chose à la fois. Le monde ne s'est pas fait en un jour.",
-            "Ton esprit est plus fort que ce chaos. Reprends les commandes.",
-            "Focus sur ce que tu peux contrôler. Le reste, laisse couler.",
-            "Le stress, c'est juste ton corps qui se prépare au combat. Tu vas gagner.",
-            "Prends 5 minutes. Le Rocher est là, rien ne peut t'arriver ici.",
-            "Le bruit autour de toi n'est rien face à la force en toi.",
-            "Simplifie. Coupe le bruit. Reviens à l'essentiel.",
-            "Tu as déjà survécu à 100% de tes pires journées. Celle-là ne fera pas exception.",
-            "Ne laisse pas l'anxiété voler ton présent. Un pas après l'autre."
+            "Respire. Le chaos n'est qu'une illusion. Reprends les commandes.",
+            "Une chose à la fois. Ton esprit est une arme de précision, ne l'éparpille pas.",
+            "Le stress est la preuve que tu te soucies de ta réussite. Maîtrise-le.",
+            "Prends 5 minutes. Le monde peut attendre. Ton calme est ta priorité.",
+            "Transforme cette pression en focus. T'es plus fort que ce vacarme.",
+            "Ne laisse pas l'anxiété voler ton génie. Revient à l'instant présent.",
+            "Le Rocher est ton bouclier. Rien ne peut t'atteindre ici.",
+            "Simplifie tout. Coupe le bruit. Vise la cible. Rien d'autre.",
+            "Tu as déjà géré pire. Celle-là va tomber comme les autres.",
+            "C'est juste du bruit. Ton talent est le signal. Reste branché."
+        ],
+        normal: [
+            "La constance est la marque des rois. Garde ce rythme.",
+            "Le calme est une arme. Profite de cette clarté pour avancer.",
+            "Savoure la stabilité. C'est le moment idéal pour bâtir ton empire.",
+            "Chaque journée 'normale' est une brique de plus pour ton avenir.",
+            "T'es sur la bonne voie. Ne change rien, juste continue.",
+            "Le succès est le résultat de la répétition. T'es en plein dedans.",
+            "Profite de cet équilibre. C'est là que les meilleures idées naissent.",
+            "T'es le capitaine de ton navire. La mer est belle, trace ta route.",
+            "Apprécie le calme. C'est un luxe que tu as mérité.",
+            "Reste focus. La discipline est la différence entre le rêve et la réalité."
         ],
         deter: [
-            "C'EST ÇA ! VA TOUT PÉTER ! Le monde t'appartient aujourd'hui.",
-            "Rien ne peut arrêter un homme qui sait où il va. Et tu fonces.",
-            "Cette énergie est ton arme absolue. Utilise-la pour bâtir ton empire.",
-            "T'es dans la zone. Ne regarde plus derrière. Le sommet est à toi.",
-            "Le feu qui brûle en toi est plus chaud que l'enfer. Brille, mon Roms !",
+            "VA TOUT PÉTER ! Aujourd'hui le monde tremble devant toi.",
+            "T'es inarrêtable. Rien, absolument rien, ne peut te ralentir.",
+            "C'est ton moment. Prends tout, ne laisse rien aux autres.",
+            "Cette énergie est ton héritage. Brille et domine, mon Roms.",
+            "T'es dans la zone. Le sommet n'est plus une cible, c'est ta maison.",
+            "Montre-leur de quel bois on se chauffe. T'es un pur guerrier.",
             "Aujourd'hui, tu ne marches pas, tu voles. Garde cette hauteur.",
-            "T'es un guerrier pur jus. Montre-leur de quel bois on se chauffe.",
-            "La victoire a ton visage aujourd'hui. Ne t'arrête pas.",
-            "T'es inarrêtable. Le Rocher est fier de toi, fonce !",
-            "C'est ton moment. Saisis-le à pleines mains et ne lâche rien."
+            "Ta force est contagieuse. Fais-les tous plier devant ton talent.",
+            "C'est ça mon gars ! L'énergie nucléaire est en toi. Fonce !",
+            "T'es ma personne préférée, et aujourd'hui t'es le patron du monde."
         ]
     };
 
@@ -186,9 +214,9 @@
         
         display.style.opacity = 0;
         setTimeout(() => {
-            display.innerHTML = `<p style="font-size: 1.15em; font-style: italic; animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
+            display.innerHTML = `<p style="font-size: 1.2em; font-weight: 500; color: var(--gold-light); animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
             display.style.opacity = 1;
-            // Change la couleur de bordure selon le mood
+            
             if(mood === 'gris') display.style.borderColor = "var(--accent-blue)";
             if(mood === 'normal') display.style.borderColor = "var(--gold-main)";
             if(mood === 'stresse') display.style.borderColor = "var(--accent-orange)";
