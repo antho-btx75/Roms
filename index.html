@@ -29,13 +29,36 @@
         
         /* NAVIGATION GOLD & LUXE */
         .nav-pill-container { 
-            position: sticky; top: 0; z-index: 1000; padding: 10px 0; 
-            background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; 
+            padding: 10px 0; 
+            background: transparent; 
+            margin-bottom: 5px; 
         }
+
+        /* BLOC FIXE AU SCROLL (LES 3 DERNIERS LIENS) */
+        .sticky-nav-bottom {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 10px 0;
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
         .nav-pill-list { 
             list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
-            background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0; 
+            background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0 auto;
+            max-width: fit-content;
         }
+
+        /* Ajustement pour la version sticky : on retire le fond et la bordure pour que ça soit plus aérien */
+        .sticky-nav-bottom .nav-pill-list {
+            background: transparent;
+            border: none;
+            padding: 5px;
+        }
+
         .nav-pill-list li a { 
             text-decoration: none; color: var(--gold-light); font-size: 0.85em; font-weight: 700; padding: 8px 14px; 
             background: #000; border: 2px solid; 
@@ -44,30 +67,11 @@
             position: relative;
         }
         .nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
-        .nav-pill-list li a.hot-link { color: #ff3b30; border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; }
-
-        /* BADGE NEW NOIR & OR */
-        .badge-new {
-            position: absolute;
-            top: -12px;
-            right: -8px;
-            background-color: #000 !important;
-            color: var(--gold-light) !important;
-            font-size: 0.65em;
-            font-weight: 800;
-            padding: 3px 8px;
-            border-radius: 12px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border: 1px solid var(--gold-main) !important;
-            box-shadow: 0 0 10px rgba(191, 149, 63, 0.4);
-            animation: pulse-gold 2s infinite;
-        }
-
-        @keyframes pulse-gold {
-            0% { box-shadow: 0 0 5px rgba(191, 149, 63, 0.4); }
-            50% { box-shadow: 0 0 15px rgba(251, 246, 186, 0.7); }
-            100% { box-shadow: 0 0 5px rgba(191, 149, 63, 0.4); }
+        
+        /* LIEN HOT ÉLECTRIQUE */
+        .nav-pill-list li a.hot-link { 
+            color: #ff3b30; 
+            border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; 
         }
 
         .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
@@ -77,7 +81,6 @@
         
         .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; text-align: left; }
         
-        /* CORRECTIF APPLIS */
         .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
         .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
         .app-card img { width: 100%; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; max-height: 120px; object-fit: contain; background: white; }
@@ -93,6 +96,7 @@
 <header>
     <img src="https://i.ibb.co/ynSP8srb/image-8.jpg" alt="Force à toi" class="hero-img-full">
     <div class="container">
+        
         <nav class="nav-pill-container">
             <ul class="nav-pill-list">
                 <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
@@ -103,6 +107,11 @@
                 <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
                 <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
                 <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
+            </ul>
+        </nav>
+
+        <div class="sticky-nav-bottom">
+            <ul class="nav-pill-list">
                 <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
                 <li>
                     <a href="https://antho-btx75.github.io/Roms/mediabox">
@@ -115,7 +124,8 @@
                     </a>
                 </li>
             </ul>
-        </nav>
+        </div>
+        
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
     
