@@ -43,7 +43,21 @@
             display: flex; align-items: center; gap: 6px; transition: 0.2s; text-transform: uppercase; letter-spacing: 1px;
         }
         .nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
-        .nav-pill-list li a.hot-link { color: #ff3b30; border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; }
+        .nav-pill-list li a.hot-link { 
+    color: #ff3b30; 
+    background: rgba(0, 0, 0, 0.8);
+    /* Dégradé Rouge vers Violet/Rose comme sur ta page HOT */
+    border: 2px solid;
+    border-image: linear-gradient(45deg, #ff3b30, #bc8cff, #8957e5) 1;
+    box-shadow: 0 0 15px rgba(255, 59, 48, 0.4), 0 0 15px rgba(137, 87, 229, 0.4);
+    transition: 0.3s;
+        }
+        .nav-pill-list li a.hot-link:hover { 
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(255, 59, 48, 0.6), 0 0 25px rgba(137, 87, 229, 0.6);
+    color: #fff;
+    border-image: linear-gradient(45deg, #bc8cff, #ff3b30, #bc8cff) 1;
+        }
 
         .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
         .btn-blue { background: #0969da; color: white !important; }
