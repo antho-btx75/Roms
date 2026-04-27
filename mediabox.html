@@ -143,19 +143,21 @@
     <h2><i class="fas fa-film"></i> CINÉ-CLUB RLAB <span style="font-size: 0.6em; opacity: 0.7; display: block;">(EN CONSTRUCTION)</span></h2>
     <div class="section-box">
         <div class="video-container">
-            <iframe id="cine-player" src="https://www.youtube.com/embed/RGNHNGVLsG8" allowfullscreen></iframe>
+            <iframe id="cine-player" src="https://www.youtube.com/embed/ffFBdWBp0NE" allowfullscreen></iframe>
         </div>
         <div class="selection-grid">
-            <button class="btn-gold" onclick="playCine('https://www.youtube.com/embed/0B9H5C05n_8')"><i class="fas fa-play"></i> L'Expérience</button>
+            <button class="btn-gold" onclick="playCine('e_3z83o1Vcg')"><i class="fas fa-play"></i> L'Expérience</button>
             <button class="btn-gold" onclick="playCine('https://drive.google.com/file/d/1AkfWXE6TdC8L3ciR3adHqKqm-9LOTmtt/preview')"><i class="fas fa-play"></i> Crazy Kung Fu</button>
-        
+            <button class="btn-gold" onclick="playCine('vhaS9XyV69A')"><i class="fas fa-play"></i> Beekeeper</button>
+            <button class="btn-gold" onclick="playCine('v7p9Z-Peyas')"><i class="fas fa-play"></i> Professional</button>
+            <button class="btn-gold" onclick="playCine('MR6FXpaECY8')"><i class="fas fa-play"></i> Rocky IV</button>
         </div>
     </div>
 
     <h2><i class="fas fa-compact-disc"></i> RADIO RLAB</h2>
     <div class="section-box">
         <div class="video-container">
-            <iframe id="radio-player" src="https://www.youtube.com/embed/RGNHNGVLsG8" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="radio-player" src="https://www.youtube.com/embed/ffFBdWBp0NE" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="selection-grid">
             <button class="btn-gold" onclick="playRadio('ffFBdWBp0NE')">No Easy Way Out</button>
@@ -179,10 +181,54 @@
 
 <script>
     const citations = {
-        gris: ["Le Rocher ne bouge pas, même sous l'orage. Appuie-toi sur moi.", "La frustration d'aujourd'hui est le carburant de ta vengeance de demain.", "C'est dans le noir qu'on forge l'acier le plus dur. Ton heure arrive.", "Ton futur toi te remerciera de n'avoir pas lâché aujourd'hui.", "Même les plus grands guerriers ont connu le silence. Utilise-le pour renaître."],
-        stresse: ["Respire. Le chaos n'est qu'une illusion. Reprends les commandes.", "Une chose à la fois. Ton esprit est une arme de précision.", "Ton calme est ta plus grande puissance de feu.", "T'es un pro. Les pros ne paniquent pas, ils exécutent.", "Maîtrise ton souffle, tu maîtriseras ton destin."],
-        normal: ["La constance est la marque des rois. Garde ce rythme.", "Le calme est une arme. Profite de cette clarté pour bâtir ton empire.", "Chaque journée 'normale' est une brique de plus pour ton avenir.", "La discipline est la différence entre le rêve et la réalité.", "La routine est l'armure de l'excellence."],
-        deter: ["VA TOUT PÉTER ! Aujourd'hui le monde tremble devant toi.", "T'es inarrêtable. Rien, absolument rien, ne peut te ralentir.", "C'est ton moment. Prends tout, ne laisse rien aux autres.", "Montre-leur de quel bois on se chauffe. T'es un pur guerrier.", "Rugis si fort qu'ils n'oublieront jamais ton nom."]
+        gris: [
+            "Le Rocher ne bouge pas, même sous l'orage. Appuie-toi sur moi.",
+            "La frustration d'aujourd'hui est le carburant de ta vengeance de demain.",
+            "C'est dans le noir qu'on forge l'acier le plus dur. Ton heure arrive.",
+            "Ton futur toi te remerciera de n'avoir pas lâché aujourd'hui.",
+            "Même les plus grands guerriers ont connu le silence. Utilise-le pour renaître.",
+            "On ne voit les étoiles que quand il fait nuit noire. Brille mon gars.",
+            "La douleur est temporaire, l'acier est éternel. Tiens bon.",
+            "C'est OK d'être rincé. Repose ton esprit, demain on repart au front.",
+            "Laisse la tristesse couler, elle nettoie la place pour ta prochaine ambition.",
+            "Ta valeur ne dépend pas de tes moments de vide. T'es une légende en pause."
+        ],
+        stresse: [
+            "Respire. Le chaos n'est qu'une illusion. Reprends les commandes.",
+            "Une chose à la fois. Ton esprit est une arme de précision.",
+            "Ton calme est ta plus grande puissance de feu.",
+            "T'es un pro. Les pros ne paniquent pas, ils exécutent.",
+            "L'urgence est une émotion, pas une réalité. Analyse et agis.",
+            "Maîtrise ton souffle, tu maîtriseras ton destin.",
+            "Ne cours pas après le temps, impose-lui ton rythme.",
+            "Vide ton esprit, soit informe comme l'eau.",
+            "Le stress est un moteur, ne le laisse pas devenir un frein.",
+            "Ralentis pour aller plus vite. La précision bat la précipitation."
+        ],
+        normal: [
+            "La constance est la marque des rois. Garde ce rythme.",
+            "Le calme est une arme. Profite de cette clarté pour bâtir ton empire.",
+            "Chaque journée 'normale' est une brique de plus pour ton avenir.",
+            "La discipline est la différence entre le rêve et la réalité.",
+            "La routine est l'armure de l'excellence. Ne lâche rien.",
+            "Savoure la stabilité, c'est le socle de tes prochaines victoires.",
+            "Reste focus. La force tranquille bat toujours l'agitation stérile.",
+            "La maîtrise de soi est la plus haute des puissances.",
+            "La paix est le luxe suprême du guerrier.",
+            "Garde cette clarté, elle est ton boussole aujourd'hui."
+        ],
+        deter: [
+            "VA TOUT PÉTER ! Aujourd'hui le monde tremble devant toi.",
+            "T'es inarrêtable. Rien, absolument rien, ne peut te ralentir.",
+            "C'est ton moment. Prends tout, ne laisse rien aux autres.",
+            "Montre-leur de quel bois on se chauffe. T'es un pur guerrier.",
+            "La victoire n'est pas une option, c'est ton état naturel.",
+            "Écrase les obstacles comme s'ils n'existaient pas.",
+            "Fais du bruit avec tes résultats, pas avec tes paroles.",
+            "Rien ne résiste à une volonté de fer comme la tienne.",
+            "Aujourd'hui, tu écris l'histoire. Fais en sorte qu'elle soit légendaire.",
+            "T'es un lion au milieu des agneaux. Le monde est ton terrain de chasse."
+        ]
     };
 
     function getForce(mood) {
@@ -191,7 +237,7 @@
         const randomIndex = Math.floor(Math.random() * list.length);
         display.style.opacity = 0;
         setTimeout(() => {
-            display.innerHTML = `<p style="font-size: 1.15em; font-weight: 500; color: var(--gold-light); animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
+            display.innerHTML = `<p style="font-size: 1.1em; font-weight: 500; color: var(--gold-light); animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
             display.style.opacity = 1;
             const colors = { gris: 'var(--accent-blue)', stresse: 'var(--accent-orange)', normal: 'var(--gold-main)', deter: 'var(--accent-red)' };
             display.style.borderColor = colors[mood];
@@ -203,11 +249,9 @@
     }
 
     function playCine(url) { 
-        // Si c'est un lien complet (Drive ou Embed), on l'utilise tel quel
         if (url.startsWith('http')) {
             document.getElementById('cine-player').src = url;
         } else {
-            // Sinon on considère que c'est un ID YouTube classique
             document.getElementById('cine-player').src = "https://www.youtube.com/embed/" + url + "?autoplay=1";
         }
     }
