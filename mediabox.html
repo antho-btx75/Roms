@@ -28,21 +28,21 @@
             align-items: center;
         }
 
-        .container { width: 100%; max-width: 850px; padding: 20px; box-sizing: border-box; }
+        .container { width: 100%; max-width: 850px; padding: 15px; box-sizing: border-box; }
         
         .section-box {
             background: #000;
             border: 2px solid var(--gold-main);
             border-radius: 20px;
-            padding: 25px;
-            margin-bottom: 40px;
+            padding: 20px;
+            margin: 0 auto 40px auto;
             box-shadow: 0 10px 40px rgba(0,0,0,0.6);
-            width: 100%;
+            width: 95%; /* Ajusté pour mobile */
         }
 
-        h2 { text-align: center; text-transform: uppercase; letter-spacing: 3px; color: var(--gold-light); margin-top: 30px; margin-bottom: 20px; }
+        h2 { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: var(--gold-light); margin-top: 30px; margin-bottom: 20px; font-size: 1.2em; }
 
-        /* LECTEUR UNIFIÉ */
+        /* LECTEURS */
         .video-container { 
             position: relative; 
             width: 100%; 
@@ -55,34 +55,32 @@
         }
         .video-container iframe { position: absolute; top:0; left:0; width:100%; height:100%; border:none; }
 
-        /* GRILLES DE BOUTONS */
         .selection-grid { 
             display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
-            gap: 12px; 
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
+            gap: 10px; 
         }
 
-        /* BOUTONS GOLD */
         .btn-gold { 
             cursor: pointer; 
             background: #000; 
             color: var(--gold-light); 
             border: 1px solid var(--gold-main); 
-            padding: 12px; 
+            padding: 10px; 
             border-radius: 10px; 
             transition: 0.3s; 
             font-weight: bold; 
-            font-size: 0.8em; 
+            font-size: 0.75em; 
             text-transform: uppercase; 
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
+            gap: 6px;
         }
-        .btn-gold:hover { background: var(--gold-main); color: #000; box-shadow: 0 0 15px var(--gold-main); transform: translateY(-2px); }
+        .btn-gold:hover { background: var(--gold-main); color: #000; box-shadow: 0 0 15px var(--gold-main); }
 
         #mood-display {
-            padding: 30px; 
+            padding: 25px; 
             border: 2px dashed var(--gold-dark); 
             border-radius: 15px; 
             min-height: 120px; 
@@ -92,7 +90,6 @@
             justify-content: center; 
             line-height: 1.6;
             text-align: center;
-            transition: 0.3s;
         }
 
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
@@ -108,35 +105,35 @@
 
     <h2><i class="fas fa-bolt"></i> BOÎTE À MOOD</h2>
     <div class="section-box">
-        <p style="text-align: center; margin-bottom: 25px; font-size: 1.1em; color: var(--text-main);">Comment tu te sens mon gars ?</p>
-        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-bottom: 25px;">
+        <p style="text-align: center; margin-bottom: 20px; font-size: 1.1em;">Comment tu te sens mon gars ?</p>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
             <button class="btn-gold" style="border-color: var(--accent-blue); color: var(--accent-blue);" onclick="getForce('gris')">GRIS ☁️</button>
             <button class="btn-gold" style="border-color: var(--accent-orange); color: var(--accent-orange);" onclick="getForce('stresse')">STRESSÉ ⚡</button>
             <button class="btn-gold" style="border-color: var(--gold-main);" onclick="getForce('normal')">NORMAL ⚖️</button>
             <button class="btn-gold" style="border-color: var(--accent-red); color: var(--accent-red);" onclick="getForce('deter')">DÉTER 🔥</button>
         </div>
         <div id="mood-display">
-            <span style="opacity: 0.5; font-style: italic;">"Sélectionne ton état et découvre une pensée inspirante"</span>
+            <span style="opacity: 0.5; font-style: italic;">"Choisis ton mood pour une dose de force."</span>
         </div>
     </div>
 
-    <h2><i class="fas fa-film"></i> CINÉ-CLUB RLAB</h2>
+    <h2><i class="fas fa-film"></i> CINÉ-CLUB RLAB <span style="font-size: 0.5em; opacity: 0.7; display: block;">(EN CONSTRUCTION)</span></h2>
     <div class="section-box">
         <div class="video-container">
             <iframe id="cine-player" src="https://www.youtube.com/embed/ffFBdWBp0NE" allowfullscreen></iframe>
         </div>
         <div class="selection-grid">
-            <button class="btn-gold" onclick="playCine('ffFBdWBp0NE')"><i class="fas fa-play"></i> The Beekeeper</button>
-            <button class="btn-gold" onclick="playCine('n2THLWjJ3Wo')"><i class="fas fa-play"></i> The Professional</button>
-            <button class="btn-gold" onclick="playCine('RGNHNGVLsG8')"><i class="fas fa-play"></i> John Wick Scene</button>
-            <button class="btn-gold" onclick="playCine('MR6FXpaECY8')"><i class="fas fa-play"></i> Rocky IV Training</button>
+            <button class="btn-gold" onclick="playCine('ffFBdWBp0NE')"><i class="fas fa-play"></i> Beekeeper</button>
+            <button class="btn-gold" onclick="playCine('n2THLWjJ3Wo')"><i class="fas fa-play"></i> Professional</button>
+            <button class="btn-gold" onclick="playCine('RGNHNGVLsG8')"><i class="fas fa-play"></i> John Wick</button>
+            <button class="btn-gold" onclick="playCine('MR6FXpaECY8')"><i class="fas fa-play"></i> Rocky IV</button>
         </div>
     </div>
 
     <h2><i class="fas fa-compact-disc"></i> RADIO RLAB</h2>
     <div class="section-box">
         <div class="video-container">
-            <iframe id="radio-player" src="https://www.youtube.com/embed/uXMeRUQmYoM" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="radio-player" src="https://www.youtube.com/embed/n2THLWjJ3Wo" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="selection-grid">
             <button class="btn-gold" onclick="playRadio('ffFBdWBp0NE')">No Easy Way Out</button>
@@ -150,10 +147,10 @@
         </div>
     </div>
 
-    <div style="text-align: center; margin: 50px 0 20px 0;">
+    <div style="text-align: center; margin: 40px 0;">
         <a href="https://antho-btx75.github.io/Roms/" 
-           style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; color: var(--gold-light); font-weight: bold; text-transform: uppercase; letter-spacing: 2px; padding: 15px 30px; border: 2px solid; border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1; background: #000; transition: 0.3s;">
-            <i class="fas fa-arrow-left"></i> Retour au Sanctuaire
+           style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; color: var(--gold-light); font-weight: bold; padding: 12px 25px; border: 2px solid; border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1; background: #000;">
+            <i class="fas fa-arrow-left"></i> Retour
         </a>
     </div>
 </div>
@@ -163,13 +160,19 @@
         gris: [
             "Le Rocher ne bouge pas, même sous l'orage. Appuie-toi sur moi.",
             "La frustration d'aujourd'hui est le carburant de ta vengeance de demain.",
-            "T'es une légende en pause. Recharge et reviens tout péter.",
             "Même les plus grands guerriers ont connu le silence. Utilise-le pour renaître.",
             "On ne voit les étoiles que quand il fait nuit noire. Brille.",
             "Ton futur toi te remerciera de n'avoir pas lâché aujourd'hui.",
             "Laisse la tempête passer, tu es le phare qui reste debout.",
             "La tristesse n'est qu'un nuage, tu es le ciel tout entier.",
-            "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme."
+            "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
+            "La douleur est temporaire, l'abandon est définitif.",
+            "Derrière chaque nuage, il y a un soleil qui n'attend que ton signal.",
+            "Ne juge pas ta journée par la récolte, mais par les graines que tu sèmes.",
+            "C'est dans le noir qu'on forge l'acier le plus dur.",
+            "Repose-toi si tu dois, mais n'abandonne jamais.",
+            "Ton esprit est une forteresse, ne laisse personne y entrer sans ton accord.",
+            "Le calme reviendra, c'est une loi de la nature. Tiens le cap."
         ],
         stresse: [
             "Respire. Le chaos n'est qu'une illusion. Reprends les commandes.",
@@ -180,7 +183,13 @@
             "Maîtrise ton souffle, tu maîtriseras ton destin.",
             "Ne cours pas après le temps, impose-lui ton rythme.",
             "Vide ton esprit, soit informe comme l'eau.",
-            "Le stress est un moteur, ne le laisse pas devenir un frein."
+            "Le stress est un moteur, ne le laisse pas devenir un frein.",
+            "Ralentis pour aller plus vite. La précision bat la précipitation.",
+            "Si tu contrôles ton esprit, tu contrôles le monde.",
+            "Ne laisse pas le bruit extérieur étouffer ta voix intérieure.",
+            "Focus. Le reste n'est que distraction.",
+            "Rien n'est aussi grave que ton esprit veut te le faire croire.",
+            "Détends tes épaules. Respire par le ventre. Voilà, t'es le boss."
         ],
         normal: [
             "La constance est la marque des rois. Garde ce rythme.",
@@ -190,7 +199,14 @@
             "La routine est l'armure de l'excellence. Ne lâche rien.",
             "Savoure la stabilité, c'est le socle de tes prochaines victoires.",
             "Reste focus. La force tranquille bat toujours l'agitation stérile.",
-            "La persévérance est un talent silencieux qui mène au sommet."
+            "La persévérance est un talent silencieux qui mène au sommet.",
+            "C'est dans la répétition que naissent les légendes.",
+            "Ta force réside dans ton équilibre.",
+            "Aujourd'hui est une victoire silencieuse.",
+            "La paix est le luxe suprême du guerrier.",
+            "Garde cette clarté, elle est ton boussole.",
+            "La maîtrise de soi est la plus haute des puissances.",
+            "Continue de construire, brique après brique."
         ],
         deter: [
             "VA TOUT PÉTER ! Aujourd'hui le monde tremble devant toi.",
@@ -201,7 +217,13 @@
             "Écrase les obstacles comme s'ils n'existaient pas.",
             "Fais du bruit avec tes résultats, pas avec tes paroles.",
             "Rien ne résiste à une volonté de fer comme la tienne.",
-            "Aujourd'hui, tu écris l'histoire. Fais en sorte qu'elle soit légendaire."
+            "Aujourd'hui, tu écris l'histoire. Fais en sorte qu'elle soit légendaire.",
+            "Le monde appartient à ceux qui osent. Et toi, t'oses tout.",
+            "Ton ambition est ta seule limite. Et t'en as aucune.",
+            "Fais trembler le sol à chaque pas.",
+            "Chaque refus est une raison de plus de réussir.",
+            "T'es un lion. Rugis si fort qu'ils n'oublieront jamais ton nom.",
+            "Prends ce qui te revient. Tout."
         ]
     };
 
@@ -211,20 +233,15 @@
         const randomIndex = Math.floor(Math.random() * list.length);
         display.style.opacity = 0;
         setTimeout(() => {
-            display.innerHTML = `<p style="font-size: 1.2em; font-weight: 500; color: var(--gold-light); animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
+            display.innerHTML = `<p style="font-size: 1.15em; font-weight: 500; color: var(--gold-light); animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
             display.style.opacity = 1;
             const colors = { gris: 'var(--accent-blue)', stresse: 'var(--accent-orange)', normal: 'var(--gold-main)', deter: 'var(--accent-red)' };
             display.style.borderColor = colors[mood];
         }, 200);
     }
 
-    function playRadio(id) { 
-        document.getElementById('radio-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1"; 
-    }
-
-    function playCine(id) { 
-        document.getElementById('cine-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1"; 
-    }
+    function playRadio(id) { document.getElementById('radio-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1"; }
+    function playCine(id) { document.getElementById('cine-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1"; }
 </script>
 
 </body>
