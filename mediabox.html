@@ -255,5 +255,19 @@
     }
 </script>
 
+    <script>
+function playCine(url) {
+    const player = document.getElementById('cine-player');
+    
+    if (url.includes('drive.google.com')) {
+        // Force l'affichage en mode preview pour Drive
+        player.src = url;
+    } else {
+        // Format pour YouTube
+        player.src = "https://www.youtube.com/embed/" + url + "?autoplay=1";
+    }
+}
+</script>
+
 </body>
 </html>
