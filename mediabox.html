@@ -26,13 +26,12 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            overflow-x: hidden; /* Empêche tout scroll horizontal parasite */
+            overflow-x: hidden;
         }
 
-        /* HEADER IMAGE */
         .header-wrapper {
             width: 100%;
-            max-width: 850px; /* Aligné sur le container */
+            max-width: 850px;
             overflow: hidden;
             border-bottom: 3px solid var(--gold-main);
             box-shadow: 0 5px 25px rgba(0,0,0,0.8);
@@ -47,7 +46,7 @@
         .container { 
             width: 100%; 
             max-width: 850px; 
-            padding: 10px; /* Réduit pour gagner de la place sur mobile */
+            padding: 10px; 
             box-sizing: border-box; 
             display: flex;
             flex-direction: column;
@@ -61,13 +60,12 @@
             padding: 18px;
             margin: 0 auto 30px auto;
             box-shadow: 0 10px 40px rgba(0,0,0,0.6);
-            width: 92%; /* Ajusté pour être légèrement plus étroit que le header */
+            width: 92%;
             box-sizing: border-box;
         }
 
         h2 { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: var(--gold-light); margin-top: 25px; margin-bottom: 15px; font-size: 1.1em; }
 
-        /* LECTEURS */
         .video-container { 
             position: relative; 
             width: 100%; 
@@ -148,17 +146,18 @@
             <iframe id="cine-player" src="https://www.youtube.com/embed/ffFBdWBp0NE" allowfullscreen></iframe>
         </div>
         <div class="selection-grid">
-            <button class="btn-gold" onclick="playCine('ffFBdWBp0NE')"><i class="fas fa-play"></i> Beekeeper</button>
-            <button class="btn-gold" onclick="playCine('n2THLWjJ3Wo')"><i class="fas fa-play"></i> Professional</button>
-            <button class="btn-gold" onclick="playCine('RGNHNGVLsG8')"><i class="fas fa-play"></i> John Wick</button>
-            <button class="btn-gold" onclick="playCine('MR6FXpaECY8')"><i class="fas fa-play"></i> Rocky IV</button>
+            <button class="btn-gold" onclick="playCine('https://www.tokyvideo.com/fr/embed/207010')"><i class="fas fa-play"></i> Crazy Kung Fu</button>
+            <button class="btn-gold" onclick="playCine('https://www.youtube.com/embed/ffFBdWBp0NE')"><i class="fas fa-play"></i> Beekeeper</button>
+            <button class="btn-gold" onclick="playCine('https://www.youtube.com/embed/n2THLWjJ3Wo')"><i class="fas fa-play"></i> Professional</button>
+            <button class="btn-gold" onclick="playCine('https://www.youtube.com/embed/RGNHNGVLsG8')"><i class="fas fa-play"></i> John Wick</button>
+            <button class="btn-gold" onclick="playCine('https://www.youtube.com/embed/MR6FXpaECY8')"><i class="fas fa-play"></i> Rocky IV</button>
         </div>
     </div>
 
     <h2><i class="fas fa-compact-disc"></i> RADIO RLAB</h2>
     <div class="section-box">
         <div class="video-container">
-            <iframe id="radio-player" src="https://www.youtube.com/embed/n2THLWjJ3Wo" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="radio-player" src="https://www.youtube.com/embed/ffFBdWBp0NE" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="selection-grid">
             <button class="btn-gold" onclick="playRadio('ffFBdWBp0NE')">No Easy Way Out</button>
@@ -181,66 +180,11 @@
 </div>
 
 <script>
-    // Script inchangé mais intégré pour la complétude
     const citations = {
-        gris: [
-            "Le Rocher ne bouge pas, même sous l'orage. Appuie-toi sur moi.",
-            "La frustration d'aujourd'hui est le carburant de ta vengeance de demain.",
-            "Même les plus grands guerriers ont connu le silence. Utilise-le pour renaître.",
-            "On ne voit les étoiles que quand il fait nuit noire. Brille.",
-            "Ton futur toi te remerciera de n'avoir pas lâché aujourd'hui.",
-            "Laisse la tempête passer, tu es le phare qui reste debout.",
-            "La tristesse n'est qu'un nuage, tu es le ciel tout entier.",
-            "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
-            "La douleur est temporaire, l'abandon est définitif.",
-            "Derrière chaque nuage, il y a un soleil qui n'attend que ton signal.",
-            "Ne juge pas ta journée par la récolte, mais par les graines que tu sèmes.",
-            "C'est dans le noir qu'on forge l'acier le plus dur.",
-            "Repose-toi si tu dois, mais n'abandonne jamais.",
-            "Ton esprit est une forteresse, ne laisse personne y entrer sans ton accord.",
-            "Le calme reviendra, c'est une loi de la nature. Tiens le cap."
-        ],
-        stresse: [
-            "Respire. Le chaos n'est qu'une illusion. Reprends les commandes.",
-            "Une chose à la fois. Ton esprit est une arme de précision.",
-            "Ton calme est ta plus grande puissance de feu.",
-            "T'es un pro. Les pros ne paniquent pas, ils exécutent.",
-            "L'urgence est une émotion, pas une réalité. Analyse et agis.",
-            "Maîtrise ton souffle, tu maîtriseras ton destin.",
-            "Ne cours pas après le temps, impose-lui ton rythme.",
-            "Vide ton esprit, soit informe comme l'eau.",
-            "Ralentis pour aller plus vite. La précision bat la précipitation.",
-            "Si tu contrôles ton esprit, tu contrôles le monde.",
-            "Détends tes épaules. Respire par le ventre. Voilà, t'es le boss."
-        ],
-        normal: [
-            "La constance est la marque des rois. Garde ce rythme.",
-            "Le calme est une arme. Profite de cette clarté pour bâtir ton empire.",
-            "Chaque journée 'normale' est une brique de plus pour ton avenir.",
-            "La discipline est la différence entre le rêve et la réalité.",
-            "La routine est l'armure de l'excellence. Ne lâche rien.",
-            "Savoure la stabilité, c'est le socle de tes prochaines victoires.",
-            "Reste focus. La force tranquille bat toujours l'agitation stérile.",
-            "La persévérance est un talent silencieux qui mène au sommet.",
-            "C'est dans la répétition que naissent les légendes.",
-            "Ta force réside dans ton équilibre.",
-            "Aujourd'hui est une victoire silencieuse.",
-            "La maîtrise de soi est la plus haute des puissances."
-        ],
-        deter: [
-            "VA TOUT PÉTER ! Aujourd'hui le monde tremble devant toi.",
-            "T'es inarrêtable. Rien, absolument rien, ne peut te ralentir.",
-            "C'est ton moment. Prends tout, ne laisse rien aux autres.",
-            "Montre-leur de quel bois on se chauffe. T'es un pur guerrier.",
-            "La victoire n'est pas une option, c'est ton état naturel.",
-            "Écrase les obstacles comme s'ils n'existaient pas.",
-            "Fais du bruit avec tes résultats, pas avec tes paroles.",
-            "Rien ne résiste à une volonté de fer comme la tienne.",
-            "Aujourd'hui, tu écris l'histoire. Fais en sorte qu'elle soit légendaire.",
-            "Le monde appartient à ceux qui osent. Et toi, t'oses tout.",
-            "Ton ambition est ta seule limite. Et t'en as aucune.",
-            "T'es un lion. Rugis si fort qu'ils n'oublieront jamais ton nom."
-        ]
+        gris: ["Le Rocher ne bouge pas, même sous l'orage.", "Demain on repart au front.", "La douleur est temporaire, l'acier est éternel."],
+        stresse: ["Respire. Le chaos n'est qu'une illusion.", "Maîtrise ton souffle, tu maîtriseras ton destin.", "Une chose à la fois."],
+        normal: ["La constance est la marque des rois.", "Savoure la stabilité.", "Le calme est une arme."],
+        deter: ["VA TOUT PÉTER !", "T'es inarrêtable.", "Rugis si fort qu'ils n'oublieront jamais ton nom."]
     };
 
     function getForce(mood) {
@@ -256,8 +200,18 @@
         }, 200);
     }
 
-    function playRadio(id) { document.getElementById('radio-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1"; }
-    function playCine(id) { document.getElementById('cine-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1"; }
+    function playRadio(id) { 
+        document.getElementById('radio-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1"; 
+    }
+
+    function playCine(url) { 
+        // Cette fonction accepte maintenant des URLs complètes ou des IDs YouTube
+        if (url.startsWith('http')) {
+            document.getElementById('cine-player').src = url;
+        } else {
+            document.getElementById('cine-player').src = "https://www.youtube.com/embed/" + url + "?autoplay=1";
+        }
+    }
 </script>
 
 </body>
