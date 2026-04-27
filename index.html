@@ -28,65 +28,83 @@
         .hero-img-full { width: 100%; height: auto; display: block; margin-bottom: 25px; }
         
         /* NAVIGATION GOLD & LUXE - VERSION ORIGINALE */
-        .nav-pill-container { 
-            position: sticky; top: 0; z-index: 1000; padding: 10px 0; 
-            background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; 
-        }
-        .nav-pill-list { 
-            list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
-            background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0; 
-        }
-        .nav-pill-list li a { 
-            text-decoration: none; color: var(--gold-light); font-size: 0.85em; font-weight: 700; padding: 8px 14px; 
-            background: #000; border: 2px solid; 
-            border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
-            display: flex; align-items: center; gap: 6px; transition: 0.2s; text-transform: uppercase; letter-spacing: 1px;
-        }
-        .nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
-        .nav-pill-list li a.hot-link { color: #ff3b30; border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; }
-
-        .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
-        .btn-blue { background: #0969da; color: white !important; }
-        section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
-        h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        
-        .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; text-align: left; }
-        
-        /* CORRECTIF APPLIS */
-        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-        .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
-        .app-card img { width: 100%; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; max-height: 120px; object-fit: contain; background: white; }
-        
-        .video-box { 
-            position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 15px; overflow: hidden; 
-            border: 2px solid var(--accent-blue); box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
-        }
-    </style>
+.nav-pill-container {
+position: relative;
+padding: 10px 0;
+background: transparent;
+margin-bottom: 10px;
+}
+.sticky-nav {
+position: sticky;
+top: 0;
+z-index: 1100;
+background: rgba(13, 17, 23, 0.95);
+backdrop-filter: blur(10px);
+padding: 10px 0;
+width: 100%;
+}
+.nav-pill-list {
+list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px;
+background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0 auto;
+max-width: fit-content;
+}
+.sticky-nav .nav-pill-list {
+border-radius: 50px;
+}
+.nav-pill-list li a {
+text-decoration: none; color: var(--gold-light); font-size: 0.85em; font-weight: 700; padding: 8px 14px;
+background: #000; border: 2px solid;
+border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
+display: flex; align-items: center; gap: 6px; transition: 0.2s; text-transform: uppercase; letter-spacing: 1px;
+}
+.nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
+.nav-pill-list li a.hot-link { color: #ff3b30; border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; }
+.btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
+.btn-blue { background: #0969da; color: white !important; }
+section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
+h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+.purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; text-align: left; }
+/* CORRECTIF APPLIS */
+.app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+.app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
+.app-card img { width: 100%; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; max-height: 120px; object-fit: contain; background: white; }
+.video-box {
+position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 15px; overflow: hidden;
+border: 2px solid var(--accent-blue); box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
+}
+</style>
+    
 </head>
 <body>
 
 <header>
     <img src="https://i.ibb.co/ynSP8srb/image-8.jpg" alt="Force à toi" class="hero-img-full">
     <div class="container">
-        <nav class="nav-pill-container">
-            <ul class="nav-pill-list">
-                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
-                <li><a href="#personne-preferee">💕 BFF</a></li>
-                <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
-                <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
-                <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
-                <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
-                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
-                <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
-                <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
-                <li>
-                    <a href="https://antho-btx75.github.io/Roms/mediabox">
-                        <i class="fas fa-icons"></i> Chill & Fun
-                    </a>
-                </li>
-                <li><a href="https://antho-btx75.github.io/Roms/hot" class="hot-link"><i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞</a></li>
-            </ul>
-        </nav>
+        <nav class="nav-pill-container" style="position: relative; background: transparent; padding-bottom: 0;">
+    <ul class="nav-pill-list">
+        <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
+        <li><a href="#personne-preferee">💕 BFF</a></li>
+        <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
+        <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
+        <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
+        <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
+        <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
+        <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
+    </ul>
+
+    <div class="sticky-nav">
+        <ul class="nav-pill-list">
+            <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
+            <li>
+                <a href="https://antho-btx75.github.io/Roms/mediabox">
+                    <i class="fas fa-icons"></i> Chill & Fun
+                </a>
+            </li>
+            <li><a href="https://antho-btx75.github.io/Roms/hot" class="hot-link"><i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞</a></li>
+        </ul>
+    </div>
+</nav>
+
 
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
