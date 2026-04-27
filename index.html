@@ -11,12 +11,8 @@
             --accent-blue: #58a6ff;
             --accent-purple: #bc8cff;
             --text-main: #e6edf3;
-            --header-bg: #0d1117; 
-            --header-text: #e6edf3; 
             --card-bg: #161b22;
             --border-color: #30363d;
-            --hot-purple: #8957e5;
-            /* Palette Gold Luxe */
             --gold-light: #fcf6ba;
             --gold-main: #bf953f;
             --gold-dark: #aa771c;
@@ -24,107 +20,92 @@
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--primary-dark); color: var(--text-main); line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
         
-        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid var(--border-color); }
+        header { text-align: center; padding: 0; background-color: var(--primary-dark); border-bottom: 1px solid var(--border-color); }
         .hero-img-full { width: 100%; height: auto; display: block; margin-bottom: 25px; }
         
-        /* NAVIGATION GOLD & LUXE */
-        .nav-pill-container { 
-            padding: 10px 0; 
-            background: transparent; 
-            margin-bottom: 5px; 
-        }
-
-        /* BLOC FIXE AU SCROLL (LES 3 DERNIERS LIENS) */
-        .sticky-nav-bottom {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: rgba(13, 17, 23, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 10px 0;
-            margin-bottom: 25px;
-            border-bottom: 1px solid var(--border-color);
+        /* BOX UNIQUE FUSIONNÉE */
+        .nav-fusion-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 25px;
+            margin: 0 auto 25px auto;
+            max-width: 850px;
+            overflow: visible; /* Crucial pour le sticky */
         }
 
         .nav-pill-list { 
             list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
-            background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0 auto;
-            max-width: fit-content;
+            margin: 0;
         }
 
-        /* Ajustement pour la version sticky : on retire le fond et la bordure pour que ça soit plus aérien */
-        .sticky-nav-bottom .nav-pill-list {
-            background: transparent;
-            border: none;
-            padding: 5px;
+        /* LA PARTIE QUI DOIT COLLER AU SCROLL */
+        .sticky-trigger {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: #0d1117; /* Fond solide pour masquer le texte dessous en scrollant */
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            margin-top: -1px;
+            padding: 5px 0;
         }
 
+        /* Style des boutons Gold */
         .nav-pill-list li a { 
             text-decoration: none; color: var(--gold-light); font-size: 0.85em; font-weight: 700; padding: 8px 14px; 
             background: #000; border: 2px solid; 
             border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
             display: flex; align-items: center; gap: 6px; transition: 0.2s; text-transform: uppercase; letter-spacing: 1px;
-            position: relative;
         }
         .nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
         
-        /* LIEN HOT ÉLECTRIQUE */
         .nav-pill-list li a.hot-link { 
             color: #ff3b30; 
             border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; 
         }
 
-        .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
-        .btn-blue { background: #0969da; color: white !important; }
+        .full-width { width: 100%; display: flex; justify-content: center; margin-top: 5px; }
+
+        /* Autres styles de la page */
         section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
         h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        
-        .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; text-align: left; }
-        
-        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-        .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
-        .app-card img { width: 100%; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; max-height: 120px; object-fit: contain; background: white; }
-        
-        .video-box { 
-            position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 15px; overflow: hidden; 
-            border: 2px solid var(--accent-blue); box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
-        }
+        .vocal-box-gold { background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative; }
     </style>
 </head>
 <body>
 
 <header>
     <img src="https://i.ibb.co/ynSP8srb/image-8.jpg" alt="Force à toi" class="hero-img-full">
+    
     <div class="container">
-        
-<div class="container">
-    <div class="nav-fusion-box">
-        <ul class="nav-pill-list">
-            <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> NOTRE LIEN</a></li>
-            <li><a href="#personne-preferee">💕 BFF</a></li>
-            <li><a href="#veuchs"><i class="fas fa-scissors"></i> VEUCHS</a></li>
-            <li><a href="#voyages"><i class="fas fa-plane"></i> VOYAGES</a></li>
-            <li><a href="#taff"><i class="fas fa-briefcase"></i> TAFF</a></li>
-            <li><a href="#anglais"><i class="fas fa-language"></i> ENGLISH</a></li>
-            <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> LE ROCHER</a></li>
-            <li><a href="#sommeil"><i class="fas fa-moon"></i> SOMMEIL</a></li>
-        </ul>
-
-        <div class="sticky-trigger">
-            <ul class="nav-pill-list" style="padding: 5px 15px;">
-                <li><a href="#applis"><i class="fas fa-mobile-screen"></i> APPLIS</a></li>
-                <li><a href="https://antho-btx75.github.io/Roms/mediabox"><i class="fas fa-icons"></i> CHILL & FUN</a></li>
-                <li class="full-width">
-                    <a href="https://antho-btx75.github.io/Roms/hot" class="hot-link">
-                        <i class="fas fa-fire"></i> PLAISIR ET KIFF HOT 🔥🔞
-                    </a>
-                </li>
+        <div class="nav-fusion-box">
+            <ul class="nav-pill-list">
+                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> NOTRE LIEN</a></li>
+                <li><a href="#personne-preferee">💕 BFF</a></li>
+                <li><a href="#veuchs"><i class="fas fa-scissors"></i> VEUCHS</a></li>
+                <li><a href="#voyages"><i class="fas fa-plane"></i> VOYAGES</a></li>
+                <li><a href="#taff"><i class="fas fa-briefcase"></i> TAFF</a></li>
+                <li><a href="#anglais"><i class="fas fa-language"></i> ENGLISH</a></li>
+                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> LE ROCHER</a></li>
+                <li><a href="#sommeil"><i class="fas fa-moon"></i> SOMMEIL</a></li>
             </ul>
+
+            <div class="sticky-trigger">
+                <ul class="nav-pill-list">
+                    <li><a href="#applis"><i class="fas fa-mobile-screen"></i> APPLIS</a></li>
+                    <li><a href="https://antho-btx75.github.io/Roms/mediabox"><i class="fas fa-icons"></i> CHILL & FUN</a></li>
+                    <li class="full-width">
+                        <a href="https://antho-btx75.github.io/Roms/hot" class="hot-link">
+                            <i class="fas fa-fire"></i> PLAISIR ET KIFF HOT 🔥🔞
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-        
-        
+    
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
     
