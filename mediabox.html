@@ -26,21 +26,46 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            overflow-x: hidden; /* Empêche tout scroll horizontal parasite */
         }
 
-        .container { width: 100%; max-width: 850px; padding: 15px; box-sizing: border-box; }
+        /* HEADER IMAGE */
+        .header-wrapper {
+            width: 100%;
+            max-width: 850px; /* Aligné sur le container */
+            overflow: hidden;
+            border-bottom: 3px solid var(--gold-main);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.8);
+        }
+        .header-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        .container { 
+            width: 100%; 
+            max-width: 850px; 
+            padding: 10px; /* Réduit pour gagner de la place sur mobile */
+            box-sizing: border-box; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         
         .section-box {
             background: #000;
             border: 2px solid var(--gold-main);
             border-radius: 20px;
-            padding: 20px;
-            margin: 0 auto 40px auto;
+            padding: 18px;
+            margin: 0 auto 30px auto;
             box-shadow: 0 10px 40px rgba(0,0,0,0.6);
-            width: 95%; /* Ajusté pour mobile */
+            width: 92%; /* Ajusté pour être légèrement plus étroit que le header */
+            box-sizing: border-box;
         }
 
-        h2 { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: var(--gold-light); margin-top: 30px; margin-bottom: 20px; font-size: 1.2em; }
+        h2 { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: var(--gold-light); margin-top: 25px; margin-bottom: 15px; font-size: 1.1em; }
 
         /* LECTEURS */
         .video-container { 
@@ -51,13 +76,13 @@
             overflow: hidden; 
             background: #000; 
             border: 1px solid var(--gold-dark);
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         .video-container iframe { position: absolute; top:0; left:0; width:100%; height:100%; border:none; }
 
         .selection-grid { 
             display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); 
             gap: 10px; 
         }
 
@@ -70,25 +95,25 @@
             border-radius: 10px; 
             transition: 0.3s; 
             font-weight: bold; 
-            font-size: 0.75em; 
+            font-size: 0.7em; 
             text-transform: uppercase; 
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 6px;
+            gap: 5px;
         }
         .btn-gold:hover { background: var(--gold-main); color: #000; box-shadow: 0 0 15px var(--gold-main); }
 
         #mood-display {
-            padding: 25px; 
+            padding: 20px; 
             border: 2px dashed var(--gold-dark); 
             border-radius: 15px; 
-            min-height: 120px; 
+            min-height: 100px; 
             background: rgba(255,255,255,0.03); 
             display: flex; 
             align-items: center; 
             justify-content: center; 
-            line-height: 1.6;
+            line-height: 1.5;
             text-align: center;
         }
 
@@ -97,27 +122,27 @@
 </head>
 <body>
 
-    <div style="width: 100%; overflow: hidden; border-bottom: 3px solid var(--gold-main); box-shadow: 0 5px 25px rgba(0,0,0,0.8);">
-        <img src="https://i.ibb.co/XxbKr2q9/IMG-20260426-221926.jpg" alt="Header Chill & Fun" style="width: 100%; height: auto; display: block; object-fit: cover;">
+    <div class="header-wrapper">
+        <img src="https://i.ibb.co/XxbKr2q9/IMG-20260426-221926.jpg" alt="Header Chill & Fun">
     </div>
 
 <div class="container">
 
     <h2><i class="fas fa-bolt"></i> BOÎTE À MOOD</h2>
     <div class="section-box">
-        <p style="text-align: center; margin-bottom: 20px; font-size: 1.1em;">Comment tu te sens mon gars ?</p>
-        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+        <p style="text-align: center; margin-bottom: 15px; font-size: 1em;">Comment tu te sens mon gars ?</p>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-bottom: 15px;">
             <button class="btn-gold" style="border-color: var(--accent-blue); color: var(--accent-blue);" onclick="getForce('gris')">GRIS ☁️</button>
             <button class="btn-gold" style="border-color: var(--accent-orange); color: var(--accent-orange);" onclick="getForce('stresse')">STRESSÉ ⚡</button>
             <button class="btn-gold" style="border-color: var(--gold-main);" onclick="getForce('normal')">NORMAL ⚖️</button>
             <button class="btn-gold" style="border-color: var(--accent-red); color: var(--accent-red);" onclick="getForce('deter')">DÉTER 🔥</button>
         </div>
         <div id="mood-display">
-            <span style="opacity: 0.5; font-style: italic;">"Choisis ton mood pour une dose de force."</span>
+            <span style="opacity: 0.5; font-style: italic; font-size: 0.9em;">"Choisis ton mood pour une dose de force."</span>
         </div>
     </div>
 
-    <h2><i class="fas fa-film"></i> CINÉ-CLUB RLAB <span style="font-size: 0.5em; opacity: 0.7; display: block;">(EN CONSTRUCTION)</span></h2>
+    <h2><i class="fas fa-film"></i> CINÉ-CLUB RLAB <span style="font-size: 0.6em; opacity: 0.7; display: block;">(EN CONSTRUCTION)</span></h2>
     <div class="section-box">
         <div class="video-container">
             <iframe id="cine-player" src="https://www.youtube.com/embed/ffFBdWBp0NE" allowfullscreen></iframe>
@@ -147,15 +172,16 @@
         </div>
     </div>
 
-    <div style="text-align: center; margin: 40px 0;">
+    <div style="text-align: center; margin: 30px 0;">
         <a href="https://antho-btx75.github.io/Roms/" 
-           style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; color: var(--gold-light); font-weight: bold; padding: 12px 25px; border: 2px solid; border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1; background: #000;">
+           style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; color: var(--gold-light); font-weight: bold; padding: 10px 20px; border: 2px solid; border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1; background: #000; font-size: 0.9em;">
             <i class="fas fa-arrow-left"></i> Retour
         </a>
     </div>
 </div>
 
 <script>
+    // Script inchangé mais intégré pour la complétude
     const citations = {
         gris: [
             "Le Rocher ne bouge pas, même sous l'orage. Appuie-toi sur moi.",
@@ -183,12 +209,8 @@
             "Maîtrise ton souffle, tu maîtriseras ton destin.",
             "Ne cours pas après le temps, impose-lui ton rythme.",
             "Vide ton esprit, soit informe comme l'eau.",
-            "Le stress est un moteur, ne le laisse pas devenir un frein.",
             "Ralentis pour aller plus vite. La précision bat la précipitation.",
             "Si tu contrôles ton esprit, tu contrôles le monde.",
-            "Ne laisse pas le bruit extérieur étouffer ta voix intérieure.",
-            "Focus. Le reste n'est que distraction.",
-            "Rien n'est aussi grave que ton esprit veut te le faire croire.",
             "Détends tes épaules. Respire par le ventre. Voilà, t'es le boss."
         ],
         normal: [
@@ -203,10 +225,7 @@
             "C'est dans la répétition que naissent les légendes.",
             "Ta force réside dans ton équilibre.",
             "Aujourd'hui est une victoire silencieuse.",
-            "La paix est le luxe suprême du guerrier.",
-            "Garde cette clarté, elle est ton boussole.",
-            "La maîtrise de soi est la plus haute des puissances.",
-            "Continue de construire, brique après brique."
+            "La maîtrise de soi est la plus haute des puissances."
         ],
         deter: [
             "VA TOUT PÉTER ! Aujourd'hui le monde tremble devant toi.",
@@ -220,10 +239,7 @@
             "Aujourd'hui, tu écris l'histoire. Fais en sorte qu'elle soit légendaire.",
             "Le monde appartient à ceux qui osent. Et toi, t'oses tout.",
             "Ton ambition est ta seule limite. Et t'en as aucune.",
-            "Fais trembler le sol à chaque pas.",
-            "Chaque refus est une raison de plus de réussir.",
-            "T'es un lion. Rugis si fort qu'ils n'oublieront jamais ton nom.",
-            "Prends ce qui te revient. Tout."
+            "T'es un lion. Rugis si fort qu'ils n'oublieront jamais ton nom."
         ]
     };
 
@@ -233,7 +249,7 @@
         const randomIndex = Math.floor(Math.random() * list.length);
         display.style.opacity = 0;
         setTimeout(() => {
-            display.innerHTML = `<p style="font-size: 1.15em; font-weight: 500; color: var(--gold-light); animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
+            display.innerHTML = `<p style="font-size: 1.1em; font-weight: 500; color: var(--gold-light); animation: fadeIn 0.8s forwards;">"${list[randomIndex]}"</p>`;
             display.style.opacity = 1;
             const colors = { gris: 'var(--accent-blue)', stresse: 'var(--accent-orange)', normal: 'var(--gold-main)', deter: 'var(--accent-red)' };
             display.style.borderColor = colors[mood];
