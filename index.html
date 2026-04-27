@@ -11,8 +11,12 @@
             --accent-blue: #58a6ff;
             --accent-purple: #bc8cff;
             --text-main: #e6edf3;
+            --header-bg: #0d1117; 
+            --header-text: #e6edf3; 
             --card-bg: #161b22;
             --border-color: #30363d;
+            --hot-purple: #8957e5;
+            /* Palette Gold Luxe */
             --gold-light: #fcf6ba;
             --gold-main: #bf953f;
             --gold-dark: #aa771c;
@@ -20,39 +24,18 @@
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--primary-dark); color: var(--text-main); line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
         
-        header { text-align: center; padding: 0; background-color: var(--primary-dark); border-bottom: 1px solid var(--border-color); }
+        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid var(--border-color); }
         .hero-img-full { width: 100%; height: auto; display: block; margin-bottom: 25px; }
         
-        /* BOX UNIQUE FUSIONNÉE */
-        .nav-fusion-box {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-color);
-            border-radius: 25px;
-            margin: 0 auto 25px auto;
-            max-width: 850px;
-            overflow: visible; /* Crucial pour le sticky */
+        /* NAVIGATION GOLD & LUXE - VERSION ORIGINALE */
+        .nav-pill-container { 
+            position: sticky; top: 0; z-index: 1000; padding: 10px 0; 
+            background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; 
         }
-
         .nav-pill-list { 
             list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
-            margin: 0;
+            background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0; 
         }
-
-        /* LA PARTIE QUI DOIT COLLER AU SCROLL */
-        .sticky-trigger {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: #0d1117; /* Fond solide pour masquer le texte dessous en scrollant */
-            border-top: 1px solid var(--border-color);
-            border-bottom: 1px solid var(--border-color);
-            border-bottom-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-            margin-top: -1px;
-            padding: 5px 0;
-        }
-
-        /* Style des boutons Gold */
         .nav-pill-list li a { 
             text-decoration: none; color: var(--gold-light); font-size: 0.85em; font-weight: 700; padding: 8px 14px; 
             background: #000; border: 2px solid; 
@@ -60,99 +43,97 @@
             display: flex; align-items: center; gap: 6px; transition: 0.2s; text-transform: uppercase; letter-spacing: 1px;
         }
         .nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
-        
-        .nav-pill-list li a.hot-link { 
-            color: #ff3b30; 
-            border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; 
-        }
+        .nav-pill-list li a.hot-link { color: #ff3b30; border-image: linear-gradient(45deg, #ff3b30, var(--gold-main), #ff3b30) 1; }
 
-        .full-width { width: 100%; display: flex; justify-content: center; margin-top: 5px; }
-
-        /* Autres styles de la page */
+        .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
+        .btn-blue { background: #0969da; color: white !important; }
         section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
         h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        .vocal-box-gold { background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative; }
+        
+        .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; text-align: left; }
+        
+        /* CORRECTIF APPLIS */
+        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+        .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
+        .app-card img { width: 100%; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; max-height: 120px; object-fit: contain; background: white; }
+        
+        .video-box { 
+            position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 15px; overflow: hidden; 
+            border: 2px solid var(--accent-blue); box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
+        }
     </style>
 </head>
 <body>
 
 <header>
     <img src="https://i.ibb.co/ynSP8srb/image-8.jpg" alt="Force à toi" class="hero-img-full">
-    
     <div class="container">
-        <div class="nav-fusion-box">
+        <nav class="nav-pill-container">
             <ul class="nav-pill-list">
-                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> NOTRE LIEN</a></li>
+                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
                 <li><a href="#personne-preferee">💕 BFF</a></li>
-                <li><a href="#veuchs"><i class="fas fa-scissors"></i> VEUCHS</a></li>
-                <li><a href="#voyages"><i class="fas fa-plane"></i> VOYAGES</a></li>
-                <li><a href="#taff"><i class="fas fa-briefcase"></i> TAFF</a></li>
-                <li><a href="#anglais"><i class="fas fa-language"></i> ENGLISH</a></li>
-                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> LE ROCHER</a></li>
-                <li><a href="#sommeil"><i class="fas fa-moon"></i> SOMMEIL</a></li>
+                <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
+                <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
+                <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
+                <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
+                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
+                <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
+                <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
+                <li>
+                    <a href="https://antho-btx75.github.io/Roms/mediabox">
+                        <i class="fas fa-icons"></i> Chill & Fun
+                    </a>
+                </li>
+                <li><a href="https://antho-btx75.github.io/Roms/hot" class="hot-link"><i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞</a></li>
             </ul>
+        </nav>
 
-            <div class="sticky-trigger">
-                <ul class="nav-pill-list">
-                    <li><a href="#applis"><i class="fas fa-mobile-screen"></i> APPLIS</a></li>
-                    <li><a href="https://antho-btx75.github.io/Roms/mediabox"><i class="fas fa-icons"></i> CHILL & FUN</a></li>
-                    <li class="full-width">
-                        <a href="https://antho-btx75.github.io/Roms/hot" class="hot-link">
-                            <i class="fas fa-fire"></i> PLAISIR ET KIFF HOT 🔥🔞
-                        </a>
-                    </li>
-                </ul>
+        <div style="text-align: center; padding: 25px 35px; margin: 30px auto; max-width: 85%; line-height: 1.6; background: rgba(0,0,0,0.3); border-radius: 15px;">
+            <p style="color: var(--gold-light); font-size: 1.1em; font-weight: 500; text-shadow: 0 0 8px rgba(252, 246, 186, 0.15); margin-bottom: 15px;">
+                Putain mon Roms, mon gars... j'te kiffe de fou
+            </p>
+            <p style="color: var(--gold-main); font-style: italic; font-size: 1.05em; font-weight: bold;">
+                J'ai trop envie de toi mec. Et ça concerne pas seulement le cul. J'ai envie de toi sur tous les plans. J'ai juste besoin de toi dans ma vie et je veux être là dans la tienne gro. T'es vraiment trop important mec, t'es unique pour moi! !!
+            </p>
+            <div style="margin-top: 20px; border-top: 1px solid rgba(191, 149, 63, 0.2); width: 50%; margin-left: auto; margin-right: auto; padding-top: 10px;">
+                <span style="color: #8b949e; font-size: 0.8em; letter-spacing: 2px;">— FEELINGS DU JOUR —</span>
             </div>
         </div>
-    </div>
-    
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
-    
-    <div style="position: absolute; top: 8px; right: 12px; color: var(--gold-main); font-size: 0.65em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5;">
-        <i class="fas fa-fingerprint"></i> Confidential
-    </div>
-    
-    <h3 style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; text-transform: uppercase; margin-top: 0; letter-spacing: 2px; font-size: 1.1em; display: flex; align-items: center; gap: 8px;">
-        <i class="fas fa-microphone-alt"></i> Wa chin ai lu...
-    </h3>
-    
-    <p style="color: var(--gold-light); font-style: italic; font-size: 0.9em; line-height: 1.5; margin-bottom: 18px; border-left: 2px solid var(--gold-dark); padding-left: 12px;">
-        "Pour que tu n'oublies jamais l'effet que tu as sur moi. <br>
-        Je te kiffe de fou, mon Roms. Wa chin ai lu."
-    </p>
-    
-    <div style="background: rgba(191, 149, 63, 0.1); padding: 12px; border-radius: 12px; border: 1px solid var(--gold-dark);">
-        <iframe src="https://drive.google.com/file/d/1-3bCDiRgRibN5bCDRa965XqBtWnEwKoD/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
-    </div>
+            <div style="position: absolute; top: 8px; right: 12px; color: var(--gold-main); font-size: 0.65em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5;">
+                <i class="fas fa-fingerprint"></i> Confidential
+            </div>
+            <h3 style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; text-transform: uppercase; margin-top: 0; letter-spacing: 2px; font-size: 1.1em; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-microphone-alt"></i> Wa chin ai lu...
+            </h3>
+            <p style="color: var(--gold-light); font-style: italic; font-size: 0.9em; line-height: 1.5; margin-bottom: 18px; border-left: 2px solid var(--gold-dark); padding-left: 12px;">
+                "Pour que tu n'oublies jamais l'effet que tu as sur moi. <br>
+                Je te kiffe de fou, mon Roms. Wa chin ai lu."
+            </p>
+            <div style="background: rgba(191, 149, 63, 0.1); padding: 12px; border-radius: 12px; border: 1px solid var(--gold-dark);">
+                <iframe src="https://drive.google.com/file/d/1-3bCDiRgRibN5bCDRa965XqBtWnEwKoD/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
+            </div>
         </div>
-        
-        
+
         <div style="background: #000; border: 3px solid var(--gold-main); padding: 30px; border-radius: 20px; margin: 40px auto; max-width: 85%; box-shadow: 0 0 25px rgba(191, 149, 63, 0.3); position: relative; overflow: hidden;">
-    
-    <div style="position: absolute; top: 10px; right: 15px; color: var(--gold-main); font-size: 0.7em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.6;">
-        <i class="fas fa-fingerprint"></i> Confidential
-    </div>
-
-    <h3 style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; text-transform: uppercase; margin-top: 0; letter-spacing: 2px; font-size: 1.3em;">
-        Écoute mon gars...
-    </h3>
-
-    <p style="color: var(--gold-light); font-style: italic; font-size: 0.95em; line-height: 1.6; margin-bottom: 25px; border-left: 2px solid var(--gold-dark); padding-left: 15px;">
-        "Je kiffe te kiffer. C'est juste ma nature, j'arrive pas à cacher l'effet que tu as sur moi. C'est mon délire à moi, t'as pas à t'en soucier... Mais sache que t'es ma personne préférée."
-    </p>
-
-    <div style="background: rgba(191, 149, 63, 0.1); padding: 15px; border-radius: 15px; border: 1px solid var(--gold-dark);">
-        <iframe src="https://drive.google.com/file/d/15z_P2tOKgMak4OQjep71g64vVQy_COnx/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px; background: transparent;" allow="autoplay"></iframe>
-    </div>
-
-    <p style="margin-top: 20px; color: #8b949e; font-size: 0.8em; text-align: right; letter-spacing: 1px;">
-        — LE ROCHER —
-    </p>
+            <div style="position: absolute; top: 10px; right: 15px; color: var(--gold-main); font-size: 0.7em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.6;">
+                <i class="fas fa-fingerprint"></i> Confidential
+            </div>
+            <h3 style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; text-transform: uppercase; margin-top: 0; letter-spacing: 2px; font-size: 1.3em;">
+                Écoute mon gars...
+            </h3>
+            <p style="color: var(--gold-light); font-style: italic; font-size: 0.95em; line-height: 1.6; margin-bottom: 25px; border-left: 2px solid var(--gold-dark); padding-left: 15px;">
+                "Je kiffe te kiffer. C'est juste ma nature, j'arrive pas à cacher l'effet que tu as sur moi. C'est mon délire à moi, t'as pas à t'en soucier... Mais sache que t'es ma personne préférée."
+            </p>
+            <div style="background: rgba(191, 149, 63, 0.1); padding: 15px; border-radius: 15px; border: 1px solid var(--gold-dark);">
+                <iframe src="https://drive.google.com/file/d/15z_P2tOKgMak4OQjep71g64vVQy_COnx/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px; background: transparent;" allow="autoplay"></iframe>
+            </div>
+            <p style="margin-top: 20px; color: #8b949e; font-size: 0.8em; text-align: right; letter-spacing: 1px;">
+                — LE ROCHER —
+            </p>
         </div>
-        
-    
-    
+
         <div style="text-align: center; margin-bottom: 40px; padding: 25px; background: #000; border: 2px solid var(--gold-main); border-radius: 15px; box-shadow: 0 8px 20px rgba(191, 149, 63, 0.2);">
             <p style="color: var(--gold-light); font-weight: bold; font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px;">
                 <i class="fas fa-handshake" style="margin-right: 8px;"></i> Frère d'armes
@@ -193,26 +174,24 @@
             </div>
             <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: var(--gold-main); text-transform: uppercase; letter-spacing: 1px; opacity: 0.8;">— Ton Rocher</div>
         </div>
-<div style="text-align:center; margin: 40px auto; padding: 30px; background: #000; border: 3px solid var(--gold-main); border-radius: 20px; max-width: 85%; box-shadow: 0 0 30px rgba(191, 149, 63, 0.4);">
-    
-    <h2 style="color: #fff; font-family: 'Arial Black', sans-serif; font-size: 2.2em; text-transform: uppercase; margin-bottom: 25px; border: none; letter-spacing: 4px; text-shadow: 0 0 15px var(--gold-main);">
-        WIN ROMS,<br>WIN.
-    </h2>
 
-    <div style="border: 2px solid var(--gold-dark); position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #161b22;">
-        <iframe src="https://www.youtube.com/embed/MR6FXpaECY8" 
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-        </iframe>
-    </div>
-
-    <div style="margin-top: 25px;">
-        <p style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; font-size: 1.2em; letter-spacing: 3px; text-transform: uppercase; margin: 0; text-shadow: 0 0 10px rgba(252, 246, 186, 0.3);">
-            NO RETREAT.<br>NO SURRENDER.
-        </p>
-    </div>
-</div>
+        <div style="text-align:center; margin: 40px auto; padding: 30px; background: #000; border: 3px solid var(--gold-main); border-radius: 20px; max-width: 85%; box-shadow: 0 0 30px rgba(191, 149, 63, 0.4);">
+            <h2 style="color: #fff; font-family: 'Arial Black', sans-serif; font-size: 2.2em; text-transform: uppercase; margin-bottom: 25px; border: none; letter-spacing: 4px; text-shadow: 0 0 15px var(--gold-main);">
+                WIN ROMS,<br>WIN.
+            </h2>
+            <div style="border: 2px solid var(--gold-dark); position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #161b22;">
+                <iframe src="https://www.youtube.com/embed/MR6FXpaECY8" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div style="margin-top: 25px;">
+                <p style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; font-size: 1.2em; letter-spacing: 3px; text-transform: uppercase; margin: 0; text-shadow: 0 0 10px rgba(252, 246, 186, 0.3);">
+                    NO RETREAT.<br>NO SURRENDER.
+                </p>
+            </div>
+        </div>
         
         <div style="display: flex; justify-content: center; margin: 30px 0 45px 0;">
             <div style="background: #000; border: 2px solid var(--gold-main); padding: 30px; border-radius: 20px; position: relative; max-width: 85%; box-shadow: 0 10px 40px rgba(191, 149, 63, 0.2);">
@@ -228,7 +207,6 @@
     </div> 
 </header>
     
-
     <div class="container">
 
       <section id="tes-mon-roms">
