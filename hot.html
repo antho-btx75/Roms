@@ -13,8 +13,9 @@
             --bg-deep: #06020d;
             --hot-purple: #8957e5;
             --hot-red: #ff3b30;
+            --hot-pink: #ff2d55;
             --hot-glow: rgba(137, 87, 229, 0.5);
-            --dark-box: #111111;
+            --dark-box: #000000;
             --text-main: #e6edf3;
         }
 
@@ -28,13 +29,15 @@
             scroll-behavior: smooth;
         }
 
-        /* STYLE DU HEADER IMAGE */
+        /* STYLE DU HEADER IMAGE AVEC TRAIT DELUXE NÉON */
         .header-photo {
             width: 100%;
             position: relative;
             overflow: hidden;
-            border-bottom: 2px solid var(--hot-purple);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+            /* Le fameux trait Deluxe Néon */
+            border-bottom: 4px solid;
+            border-image: linear-gradient(90deg, var(--hot-red), var(--hot-pink), var(--hot-purple)) 1;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 0 15px rgba(255, 59, 48, 0.2);
         }
         .header-photo img {
             width: 100%;
@@ -46,8 +49,8 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            height: 40%;
-            background: linear-gradient(to bottom, transparent, var(--bg-deep));
+            height: 30%;
+            background: linear-gradient(to bottom, transparent, rgba(6, 2, 13, 0.8));
         }
 
         .container { 
@@ -57,13 +60,15 @@
             padding: 20px; 
         }
 
+        /* BOX PRINCIPALE DÉCOLLÉE DU HEADER */
         #hot {
             background: var(--dark-box);
-            border: 1px solid rgba(137, 87, 229, 0.2);
+            /* Bordure Deluxe assortie */
+            border: 2px solid;
+            border-image: linear-gradient(135deg, var(--hot-red), var(--hot-purple)) 1;
             padding: 25px;
-            border-radius: 24px;
-            box-shadow: 0 15px 50px rgba(0,0,0,0.9);
-            margin-top: -40px; /* Superposition sur le dégradé du header */
+            box-shadow: 0 15px 50px rgba(0,0,0,1), 0 0 20px rgba(137, 87, 229, 0.15);
+            margin-top: 30px; /* On ne couvre plus le header */
             position: relative;
             z-index: 5;
         }
@@ -77,7 +82,7 @@
             font-size: 1.1em; 
             margin: 40px 0 25px;
             padding-bottom: 12px;
-            border-bottom: 1px solid var(--hot-purple);
+            border-bottom: 1px solid rgba(137, 87, 229, 0.3);
             text-shadow: 0 0 10px var(--hot-glow);
         }
 
@@ -103,7 +108,7 @@
 
         .btn-glow:hover {
             transform: translateY(-2px);
-            box-shadow: 0 0 20px rgba(255, 59, 48, 0.5);
+            box-shadow: 0 0 25px rgba(255, 59, 48, 0.6);
         }
 
         /* CARD VIDÉO AVANT-GARDE */
@@ -214,6 +219,7 @@
     </style>
 </head>
 <body>
+    
 
     <div class="header-photo">
         <img src="https://i.ibb.co/5xFtrpP6/image-17.jpg" alt="Plaisir et Kiff HOT">
