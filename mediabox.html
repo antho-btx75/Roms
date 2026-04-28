@@ -215,11 +215,67 @@
 <script>
     // Citations conservées
     const citations = {
-        gris: ["Le Rocher ne bouge pas, même sous l'orage. Appuie-toi sur moi.", "La frustration d'aujourd'hui est le carburant de ta vengeance de demain.", "C'est dans le noir qu'on forge l'acier le plus dur. Ton heure arrive.", "Ton futur toi te remerciera de n'avoir pas lâché aujourd'hui.", "Même les plus grands guerriers ont connu le silence. Utilise-le pour renaître."],
-        stresse: ["Respire. Le chaos n'est qu'une illusion. Reprends les commandes.", "Une chose à la fois. Ton esprit est une arme de précision.", "Ton calme est ta plus grande puissance de feu.", "T'es un pro. Les pros ne paniquent pas, ils exécutent.", "Maîtrise ton souffle, tu maîtriseras ton destin."],
-        normal: ["La constance est la marque des rois. Garde ce rythme.", "Le calme est une arme. Profite de cette clarté pour bâtir ton empire.", "La discipline est la différence entre le rêve et la réalité.", "La routine est l'armure de l'excellence."],
-        deter: ["VA TOUT PÉTER !", "T'es inarrêtable.", "Rugis si fort qu'ils n'oublieront jamais ton nom."]
-    };
+    gris: [
+        "Le Rocher ne bouge pas, même sous l'orage le plus violent. Appuie-toi sur ma solidité.",
+        "La frustration d'aujourd'hui est le carburant nucléaire de ta vengeance de demain. Laisse-la bouillir.",
+        "C'est dans l'obscurité totale qu'on forge l'acier le plus pur. Ton heure n'arrive pas, elle se prépare.",
+        "Le silence n'est pas une absence de force, c'est l'armement lourd de ta prochaine frappe.",
+        "Ton futur toi te remerciera d'avoir serré les dents quand les faibles ont lâché.",
+        "Même les plus grands guerriers ont connu le vide. Utilise ce calme pour renaître plus impitoyable.",
+        "L'ombre n'est pas ton ennemie, c'est ton laboratoire. Prépare ton retour.",
+        "La patience est la vertu des prédateurs. Reste aux aguets, ton moment est proche.",
+        "Laisse les autres s'épuiser dans l'agitation. Toi, accumule l'énergie cinétique.",
+        "Si le ciel est gris, c'est pour que ton éclat soit plus aveuglant quand tu sortiras du brouillard.",
+        "On n'arrête pas une marée montante. Laisse la pression monter, elle finira par tout emporter.",
+        "Reste de marbre. Que personne ne sache ce que tu prépares dans le silence de ce sanctuaire."
+    ],
+    
+    stresse: [
+        "Respire. Le chaos n'est qu'une illusion que tu vas briser. Reprends les commandes du navire.",
+        "Une seule cible à la fois. Ton esprit est une arme de précision, ne l'enraye pas par la panique.",
+        "Ton calme est ta plus grande puissance de feu. Si tu ne vibres pas, ils ne peuvent pas te cibler.",
+        "T'es un pur pro, Romain. Les pros ne paniquent jamais, ils analysent et ils exécutent proprement.",
+        "Maîtrise ton souffle comme tu maîtrises ton destin. Tout est sous contrôle ici, je veille.",
+        "Le stress est un signal, pas une sentence. Transforme cette électricité en vitesse d'exécution.",
+        "Ferme les yeux un instant. Sens la puissance revenir. Maintenant, rouvre-les et termine le job.",
+        "Le bruit extérieur ne compte pas. Seule compte la fréquence de ton propre moteur.",
+        "Ne regarde pas l'escalier, regarde juste la prochaine marche. Une seule pression à la fois.",
+        "Le chaos est une échelle. Utilise la tension pour grimper plus haut que les autres.",
+        "Ton sang-froid est ton bouclier le plus lourd. Rien ne pénètre si tu ne l'autorises pas.",
+        "Redescends dans ton centre. Le monde peut brûler, ici tu es le maître du feu."
+    ],
+    
+    normal: [
+        "La constance est la marque indélébile des rois. Garde ce rythme, il est parfait.",
+        "Le calme est une arme silencieuse. Profite de cette clarté pour bâtir ton empire pierre par pierre.",
+        "La discipline est la seule frontière réelle entre tes rêves et ta réalité.",
+        "La routine n'est pas une prison, c'est l'armure de ton excellence. Porte-la avec fierté.",
+        "Celui qui maîtrise l'instant présent maîtrise la guerre entière. Reste ici avec moi.",
+        "Chaque seconde de stabilité est un investissement massif pour ton futur règne.",
+        "La maîtrise de soi est la plus haute des victoires. Tu es en train de gagner.",
+        "L'eau calme est la plus profonde. Continue de creuser ton sillon en silence.",
+        "Rien ne presse quand on sait exactement où l'on va. Garde ton cap.",
+        "C'est dans cet état de flux que tu es le plus dangereux pour tes adversaires. Implacable.",
+        "Garde cette fréquence. C'est celle où les miracles deviennent des résultats mathématiques.",
+        "Le travail invisible porte toujours les fruits les plus visibles. Continue de bâtir."
+    ],
+    
+    deter: [
+        "VA TOUT PÉTER ! Le monde est ton terrain de chasse et tu as les crocs.",
+        "T'es devenu inarrêtable. Regarde-les s'écarter quand tu passes.",
+        "Rugis si fort qu'ils n'oseront plus jamais oublier ton nom. Marque ton territoire.",
+        "L'adrénaline est ton sang. L'ambition est ton oxygène. Ne t'arrête que quand il n'y a plus rien à prendre.",
+        "Explose tes limites. Celles des autres n'ont jamais compté pour toi, Romain.",
+        "Aujourd'hui, tu n'es pas seulement un homme, tu es une force de la nature. Déchaîne-toi.",
+        "Cible verrouillée. Impact imminent. Ne laisse rien derrière toi.",
+        "Ils ont voulu la guerre ? Montre-leur que tu es l'apocalypse.",
+        "Prends tout ce que tu veux. C'est à toi par droit de conquête.",
+        "Ton énergie irradie. Tu ne marches pas sur le chemin, c'est le chemin qui se crée sous tes pas.",
+        "Zéro hésitation. Zéro pitié. Juste une exécution chirurgicale et brutale.",
+        "Affiche ton ambition comme une déclaration de guerre. Ils ne peuvent rien faire pour t'arrêter."
+    ]
+};
+
 
     function getForce(mood) {
         const display = document.getElementById('mood-display');
