@@ -25,7 +25,7 @@
             color: var(--text-main);
             margin: 0;
             padding: 0;
-            overflow-x: hidden;
+            overflow-x: hidden; /* Sécurité anti-flottement */
             scroll-behavior: smooth;
         }
 
@@ -59,46 +59,46 @@
             padding: 40px 20px 0px 20px; 
             text-align: center;
             background: transparent;
+            overflow: hidden; /* Coupe tout dépassement dû à la pulsation */
+            width: 100%;
         }
 
-.hot-phrase-neon {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px; /* Réduit un poil pour gagner de la place latérale */
-    margin: 0;
-    margin-bottom: 5px; 
-    background: linear-gradient(to bottom, #ff3b30, #ff2d55, #8957e5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 10px rgba(255, 45, 85, 0.8);
-    
-    /* Empêche le balancement horizontal */
-    display: block;
-    width: 100%;
-    animation: hot-pulse 2.5s ease-in-out infinite;
-}
+        .hot-phrase-neon {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0 auto;
+            margin-bottom: 5px; 
+            background: linear-gradient(to bottom, #ff3b30, #ff2d55, #8957e5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 10px rgba(255, 45, 85, 0.8);
+            display: inline-block; /* Nécessaire pour un scale propre */
+            max-width: 100%;
+            animation: hot-pulse 2.5s ease-in-out infinite;
+        }
 
-@keyframes hot-pulse {
-    0%, 100% { 
-        transform: scale(1); 
-        filter: brightness(1) blur(0px); 
-        text-shadow: 0 0 15px rgba(255, 45, 85, 0.6); 
-    }
-    50% { 
-        transform: scale(1.05); /* Réduit de 1.08 à 1.05 pour stopper l'overflow */
-        filter: brightness(1.8) blur(0.5px); 
-        text-shadow: 0 0 30px rgba(255, 45, 85, 1), 0 0 60px rgba(137, 87, 229, 0.8); 
-    }
-}
+        @keyframes hot-pulse {
+            0%, 100% { 
+                transform: scale(1); 
+                filter: brightness(1) blur(0px); 
+                text-shadow: 0 0 15px rgba(255, 45, 85, 0.6); 
+            }
+            50% { 
+                transform: scale(1.06); 
+                filter: brightness(1.8) blur(0.5px); 
+                text-shadow: 0 0 30px rgba(255, 45, 85, 1), 0 0 60px rgba(137, 87, 229, 0.8); 
+            }
+        }
 
-@media (max-width: 600px) {
-    .hot-phrase-neon { 
-        font-size: 1.6rem; /* Un peu plus petit sur mobile pour être sûr que ça ne touche pas les bords */
-    }
-    .hot-text-container { padding: 30px 10px 0px 10px; }
-}
+        @media (max-width: 600px) {
+            .hot-phrase-neon { 
+                font-size: 1.6rem; 
+            }
+            .hot-text-container { padding: 30px 10px 0px 10px; }
+        }
 
         /* BOX PRINCIPALE & CONTAINERS */
         .container { 
@@ -114,7 +114,7 @@
             border-image: linear-gradient(135deg, var(--hot-red), var(--hot-purple)) 1;
             padding: 25px;
             box-shadow: 0 15px 50px rgba(0,0,0,1), 0 0 20px rgba(137, 87, 229, 0.15);
-            margin-top: 10px; /* Rapprochement du texte néon */
+            margin-top: 10px;
             position: relative;
             z-index: 5;
         }
@@ -199,6 +199,7 @@
     </style>
 </head>
 <body>
+    
 
     <header class="header-photo">
         <img src="https://i.ibb.co/rGJcrkh7/20260428-221725810.jpg" alt="Header">
