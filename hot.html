@@ -219,22 +219,18 @@
     </style>
 </head>
 <body>
-    
-
-    <div class="header-photo">
-        <img src="https://i.ibb.co/rGJcrkh7/20260428-221725810.jpg" alt="Plaisir et Kiff HOT">
-        <div class="header-shadow"></div>
-    </div>
 
     <div class="hot-text-container">
-    <p class="hot-phrase-neon">J'AI TROP ENVIE DE TOI MEC</p>
+    <p class="hot-phrase-neon">J'AI TROP ENVIE DE TOI MON GARS</p>
 </div>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .hot-text-container {
-    padding: 20px 20px 0px 20px; /* On réduit drastiquement l'espace du bas (0px) */
+    /* 40px en haut pour respirer par rapport au header */
+    /* 0px en bas pour coller à la suite */
+    padding: 40px 20px 0px 20px; 
     text-align: center;
     background: transparent;
 }
@@ -242,17 +238,20 @@
 .hot-phrase-neon {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 0;
     
-    /* Dégradé de couleur chaud (Rouge Vif vers Magenta) */
+    /* On annule les marges pour un contrôle total */
+    margin-top: 0;
+    margin-bottom: 5px; 
+    
+    /* Dégradé de couleur */
     background: linear-gradient(to bottom, #ff3b30, #ff2d55, #8957e5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-    /* Multiples ombres pour l'effet néon/chaleur */
+    /* Effet néon lueur */
     text-shadow: 
         0 0 10px rgba(255, 45, 85, 0.5),
         0 0 20px rgba(255, 45, 85, 0.3),
@@ -261,7 +260,7 @@
     animation: hot-pulse 2.5s ease-in-out infinite;
 }
 
-/* Animation de "respiration" de la lumière */
+/* Animation de respiration "Heat" */
 @keyframes hot-pulse {
     0%, 100% {
         transform: scale(1);
@@ -275,13 +274,17 @@
     }
 }
 
-/* Adaptabilité mobile */
+/* Responsive Mobile */
 @media (max-width: 600px) {
     .hot-phrase-neon {
         font-size: 1.8rem;
     }
+    .hot-text-container {
+        padding: 30px 15px 0px 15px;
+    }
 }
 </style>
+    
 
 <div class="container">
     <section id="hot">
