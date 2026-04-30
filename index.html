@@ -110,19 +110,35 @@
             </ul>
         </nav>
 
-<div style="width: 100%; padding: 15px; text-align: center; background-color: transparent; box-sizing: border-box;">
-    <p style="font-family: 'Courier New', Courier, monospace; color: #a1a1a1; font-size: 1.1rem; letter-spacing: 1px; margin: 0; display: inline-block; line-height: 1.4; animation: fadeInTelex 2s ease-out forwards;">
-        Gro avant de me coucher j'aimerais sentir un peu ta présence, même si c'est juste ta pastille verte sur Messenger ça me suffit 😅🥹
-    </p>
+<div style="width: 100%; padding: 20px; text-align: center; background-color: transparent; box-sizing: border-box; min-height: 80px;">
+    <p id="telex-message" style="font-family: 'Courier New', Courier, monospace; color: #a1a1a1; font-size: 1.1rem; letter-spacing: 1px; margin: 0; display: inline-block; line-height: 1.5; max-width: 100%;">
+        </p>
+    <span id="cursor" style="display: inline-block; width: 10px; height: 1.1rem; background-color: #ff2d55; margin-left: 5px; vertical-align: middle; animation: blink 0.8s infinite;"></span>
 </div>
 
-<style>
-@keyframes fadeInTelex {
-  from { opacity: 0; transform: translateY(5px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-</style>
+<script>
+    const text = "Gro avant de me coucher j'aimerais sentir un peu ta présence, même si c'est juste ta pastille verte sur Messenger ça me suffit 😅🥹";
+    const target = document.getElementById('telex-message');
+    let index = 0;
 
+    function typeWriter() {
+        if (index < text.length) {
+            target.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeWriter, 40); // Vitesse de frappe (40ms)
+        }
+    }
+
+    // Lance l'effet après un petit délai
+    setTimeout(typeWriter, 500);
+</script>
+
+<style>
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+    }
+</style>
         
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
