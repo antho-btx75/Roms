@@ -404,7 +404,8 @@
                 <i class="fas fa-arrow-left"></i> Retour au Sanctuaire
             </a>
         </div>
-<style>
+        
+        <style>
     .movie-box-container {
         background: #0a0a0a;
         padding: 20px;
@@ -568,14 +569,14 @@ function setMood(mood) {
 }
 
 function setAudio(id, el) {
-    currentAudio = id; // On passe juste l'ID
+    currentAudio = id;
     document.querySelectorAll('.vocal-item').forEach(b => b.classList.remove('active'));
     el.classList.add('active');
     checkFinal();
 }
 
 function setImg(id, el) {
-    currentImg = id; // On passe juste l'ID
+    currentImg = id;
     document.querySelectorAll('.img-item').forEach(d => d.classList.remove('active'));
     el.classList.add('active');
     checkFinal();
