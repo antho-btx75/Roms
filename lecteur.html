@@ -3,76 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOVIE BOX - IMMERSION</title>
+    <title>HOT À LA CARTE- IMMERSION</title>
     <style>
-        body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; min-height: 100vh; padding-bottom: 40px; }
-        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; z-index: 10; }
-        
-        .media-container { width: 100%; max-width: 500px; margin-top: 60px; box-shadow: 0 0 30px rgba(255, 45, 85, 0.4); border: 1px solid #333; background: #050505; }
+        body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; overflow: hidden; }
+        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; }
+        .media-container { width: 100%; max-width: 500px; box-shadow: 0 0 30px rgba(255, 45, 85, 0.4); border: 1px solid #333; }
         #display-media { width: 100%; display: block; }
-
-        .vocal-menu { width: 90%; max-width: 450px; margin-top: 25px; }
-        .instruction { color: #ff2d55; font-size: 0.7rem; letter-spacing: 1px; margin-bottom: 15px; text-transform: uppercase; text-align: center; }
-        
-        .vocal-btn { width: 100%; padding: 15px; background: #111; color: #fff; border: 1px solid #333; border-radius: 8px; margin-bottom: 10px; cursor: pointer; text-align: left; font-size: 0.8rem; transition: 0.3s; }
-        .vocal-btn:active { background: #ff2d55; border-color: #fff; }
-        
-        #player { width: 100%; margin-top: 15px; filter: invert(1) hue-rotate(180deg) brightness(1.5); }
-        .status-msg { margin-top: 15px; color: #444; font-size: 0.6rem; text-align: center; text-transform: uppercase; }
+        .audio-controls { margin-top: 30px; width: 80%; max-width: 400px; text-align: center; }
+        audio { width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); }
+        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
     </style>
 </head>
 <body>
     <a href="javascript:history.back()" class="back-btn">< RETOUR</a>
-    
     <div class="media-container">
-        <img id="display-media" src="" alt="Chargement du visuel...">
+        <img id="display-media" src="" alt="Chargement...">
     </div>
-
-    <div class="vocal-menu">
-        <p class="instruction">🎧 Étape finale : Clique pour lancer le son</p>
-        <div id="audio-list"></div>
-        <audio id="player" controls></audio>
-        <p class="status-msg">Mode Immersion Gava : Connecté</p>
+    <div class="audio-controls">
+        <audio id="display-audio" controls autoplay></audio>
     </div>
+    <div id="status" class="status">Mode Immersion CUL : ON</div>
 
     <script>
         const params = new URLSearchParams(window.location.search);
         const gifId = params.get('gif');
-        
-        const vocaux = [
-            {t: "Y'a pas plus bandant que ton cul", id: "1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze"},
-            {t: "Tes fesses me font bander vite et dur", id: "1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9"},
-            {t: "Suce moi mec tu me fais bander", id: "_A75vL3SkCmHXc_RX0v9Jtuzi80uctiO"},
-            {t: "Je vais baiser ton fion", id: "1tbNS8Cp8RB6FWiI19oJUinxABspAAXxY"},
-            {t: "Encule moi mon gars", id: "1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB"},
-            {t: "Encule moi mon Roms", id: "1S0xfmUd?p96cuJkriHtzm_ZkQLJx63dZ"},
-            {t: "Baise moi mec mon cul a faim de toi", id: "1UuX_T9l2peWRMF15Y7te3ufvhWWSw5C_"},
-            {t: "Remplis mon cul mec", id: "_3hnQNlHu1rQm8q60iJ9_V2E579IPrOv"},
-            {t: "C'est trop bon de se sucer la teub", id: "1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO"}
-        ];
+        const audioId = params.get('audio');
 
         if (gifId) {
             const img = document.getElementById('display-media');
-            // Tentative 1
+            // On tente le lien direct, secours auto si Brave bloque
             img.src = "https://drive.google.com/uc?export=view&id=" + gifId;
-            // Tentative 2 (Sécurité Brave)
             img.onerror = function() {
                 this.src = "https://drive.google.com/thumbnail?id=" + gifId + "&sz=w1000";
             };
         }
-
-        const listDiv = document.getElementById('audio-list');
-        vocaux.forEach(v => {
-            let btn = document.createElement('button');
-            btn.className = 'vocal-btn';
-            btn.innerHTML = "🔊 " + v.t;
-            btn.onclick = () => {
-                const player = document.getElementById('player');
-                player.src = "https://docs.google.com/uc?export=open&id=" + v.id;
-                player.play();
-            };
-            listDiv.appendChild(btn);
-        });
+        
+        if (audioId) {
+            const audio = document.getElementById('display-audio');
+            audio.src = "https://docs.google.com/uc?export=open&id=" + audioId;
+            audio.load();
+            
+            // Tentative d'autoplay
+            let playPromise = audio.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(error => {
+                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR LE LECTEUR POUR LE SON";
+                });
+            }
+        }
     </script>
 </body>
-</html>
+    </html>
+        
