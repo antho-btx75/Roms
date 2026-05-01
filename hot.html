@@ -398,7 +398,6 @@
             Côté teub ou cul je suis à toi frère 🥵🔥
         </p>
         </div>
-
 <style>
     .movie-box-container {
         background: #0a0a0a;
@@ -496,26 +495,26 @@ let currentImg = "";
 const movieData = {
     "antho-top": {
         vocaux: [
-            {t: "Y'a pas plus bandant que ton cul", id: "1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze"},
-            {t: "Tes fesses me font bander vite et dur", id: "1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9"},
-            {t: "Suce moi mec tu me fais bander", id: "_A75vL3SkCmHXc_RX0v9Jtuzi80uctiO"},
-            {t: "Je vais baiser ton fion", id: "1tbNS8Cp8RB6FWiI19oJUinxABspAAXxY"}
+            {t: "Y'a pas plus bandant que ton cul", src: "https://audio.jukehost.co.uk/019de4e7-9fd3-73e7-9f67-248499160757"},
+            {t: "Tes fesses me font bander vite et dur", src: "1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9"},
+            {t: "Suce moi mec tu me fais bander", src: "_A75vL3SkCmHXc_RX0v9Jtuzi80uctiO"},
+            {t: "Je vais baiser ton fion", src: "1tbNS8Cp8RB6FWiI19oJUinxABspAAXxY"}
         ],
         type: "bite"
     },
     "roms-top": {
         vocaux: [
-            {t: "Encule moi mon gars", id: "1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB"},
-            {t: "Encule moi mon Roms", id: "1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ"},
-            {t: "Baise moi mec mon cul a faim de toi", id: "1UuX_T9l2peWRMF15Y7te3ufvhWWSw5C_"},
-            {t: "Remplis mon cul mec", id: "_3hnQNlHu1rQm8q60iJ9_V2E579IPrOv"}
+            {t: "Encule moi mon gars", src: "1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB"},
+            {t: "Encule moi mon Roms", src: "1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ"},
+            {t: "Baise moi mec mon cul a faim de toi", src: "1UuX_T9l2peWRMF15Y7te3ufvhWWSw5C_"},
+            {t: "Remplis mon cul mec", src: "_3hnQNlHu1rQm8q60iJ9_V2E579IPrOv"}
         ],
         type: "cul"
     },
     "oral": {
         vocaux: [
-            {t: "C'est trop bon de se sucer la teub", id: "1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO"},
-            {t: "Ptn c'est bon de se pomper mec", id: "1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO"}
+            {t: "C'est trop bon de se sucer la teub", src: "1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO"},
+            {t: "Ptn c'est bon de se pomper mec", src: "1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO"}
         ],
         type: "bite"
     }
@@ -527,14 +526,18 @@ const movieImages = {
         {t: "Prends ce que tu veux 🤤", id: "1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ"},
         {t: "Bite", id: "_RqV0fRWo4JZhznNl804kO74UclHBBCk"},
         {t: "Teub", id: "1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj"},
+        {t: "Mon zgeg", id: "1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD"},
+        {t: "Chupa Chups", id: "1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4"},
         {t: "Me-sper", id: "1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8"}
     ],
     cul: [
         {t: "Baltrou & bite", id: "1ozAinNV1QZiDHqEA9C-J3Q-3NhQfY9G-"},
         {t: "Anus", id: "1JqEDAFAe58wuuc7sUlF-1htLID_9AArF"},
         {t: "Boule", id: "1KWFXwaVjKMNqwxzBndwUMQaKTDrmXDiF"},
+        {t: "Cul", id: "1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM"},
         {t: "Fiak", id: "14DR-Ec9X2ZD4cpZ7NXtTH1WOeOAVUav7"},
-        {t: "Fion", id: "1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP"}
+        {t: "Fion", id: "1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP"},
+        {t: "Trou de balle", id: "1GuHKfdfa4ZL3CivcGmKpoojIH6H6c-6c"}
     ]
 };
 
@@ -546,7 +549,7 @@ function setMood(mood) {
 
     const vList = document.getElementById('vocal-list');
     vList.innerHTML = movieData[mood].vocaux.map(v => 
-        `<button class="vocal-item" onclick="setAudio('${v.id}', this)">🔊 ${v.t}</button>`
+        `<button class="vocal-item" onclick="setAudio('${v.src}', this)">🔊 ${v.t}</button>`
     ).join('');
     document.getElementById('vocal-selector').style.display = 'block';
 
@@ -558,8 +561,8 @@ function setMood(mood) {
     document.getElementById('image-selector').style.display = 'block';
 }
 
-function setAudio(id, el) {
-    currentAudio = id;
+function setAudio(src, el) {
+    currentAudio = encodeURIComponent(src);
     document.querySelectorAll('.vocal-item').forEach(b => b.classList.remove('active'));
     el.classList.add('active');
     checkFinal();
@@ -580,12 +583,7 @@ function checkFinal() {
     }
 }
 </script>
-
-        <div style="text-align: center; margin-top: 50px; opacity: 0.6;">
-            <a href="https://antho-btx75.github.io/Roms/" style="color: #fff; text-decoration: none; font-size: 0.85em; border: 1px solid #fff; padding: 12px 25px; border-radius: 50px;">
-                <i class="fas fa-arrow-left"></i> Retour au Sanctuaire
-            </a>
-        </div>
+        
 
     </section>
 </div>
