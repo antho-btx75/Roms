@@ -3,56 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOVIE BOX - IMMERSION</title>
+    <title>KIFF HOT À LA CARTE- IMMERSION</title>
     <style>
-        body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; }
-        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; }
-        .media-container { width: 100%; max-width: 500px; border: 1px solid #333; }
+        body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; overflow: hidden; }
+        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; z-index: 100; }
+        .media-container { width: 100%; max-width: 500px; box-shadow: 0 0 30px rgba(255, 45, 85, 0.4); border: 1px solid #333; }
         #display-media { width: 100%; display: block; }
-        .audio-controls { margin-top: 30px; width: 80%; max-width: 400px; }
-        audio { width: 100%; filter: invert(1) hue-rotate(180deg); }
-        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; text-align: center; }
+        .audio-controls { margin-top: 30px; width: 80%; max-width: 400px; text-align: center; }
+        audio { width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); }
+        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
     </style>
 </head>
 <body>
-
     <a href="javascript:history.back()" class="back-btn">< RETOUR</a>
-
     <div class="media-container">
-        <img id="display-media" src="">
+        <img id="display-media" src="" alt="Chargement...">
     </div>
-
     <div class="audio-controls">
         <audio id="display-audio" controls autoplay></audio>
     </div>
-
-    <div id="status" class="status">MODE IMMERSION : ON</div>
+    <div id="status" class="status">Mode Immersion CUL : ON</div>
 
     <script>
         const params = new URLSearchParams(window.location.search);
         const gifId = params.get('gif');
-        const audioSrc = params.get('audio');
+        const audioParam = params.get('audio');
 
-        // 1. IMAGE : On utilise le lien UC VIEW qui est le seul 100% stable
+        // VERROUILLAGE IMAGE (Ta version stable)
         if (gifId) {
-            document.getElementById('display-media').src = "https://drive.google.com/uc?export=view&id=" + gifId;
+            const img = document.getElementById('display-media');
+            img.src = "https://drive.google.com/uc?export=view&id=" + gifId;
+            img.onerror = function() {
+                this.src = "https://drive.google.com/thumbnail?id=" + gifId + "&sz=w1000";
+            };
         }
         
-        // 2. AUDIO : On prend ce qui arrive (ID ou Lien complet) et on le met dans le lecteur
-        if (audioSrc) {
+        // GESTION AUDIO (Adaptée pour ID Drive ou URL JukeHost)
+        if (audioParam) {
             const audio = document.getElementById('display-audio');
-            let url = decodeURIComponent(audioSrc);
+            const decodedAudio = decodeURIComponent(audioParam);
 
-            // Si c'est un ID Drive (pas de http), on le formate
-            if (!url.includes('http')) {
-                url = "https://docs.google.com/uc?export=download&id=" + url;
+            if (decodedAudio.includes('http')) {
+                // Si c'est un lien direct (JukeHost)
+                audio.src = decodedAudio;
+            } else {
+                // Si c'est un ID Google Drive
+                audio.src = "https://docs.google.com/uc?export=open&id=" + decodedAudio;
             }
 
-            audio.src = url;
-            audio.play().catch(e => {
-                document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR PLAY POUR LE SON";
-            });
+            audio.load();
+            
+            let playPromise = audio.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(error => {
+                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR LE LECTEUR POUR LE SON";
+                });
+            }
         }
     </script>
 </body>
-</html>
+    </html>
+        
