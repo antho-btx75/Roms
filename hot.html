@@ -399,7 +399,7 @@
         </p>
         </div>
 
-        <style>
+<style>
     .movie-box-container {
         background: #0a0a0a;
         padding: 20px;
@@ -411,22 +411,34 @@
     }
     .mood-btn {
         flex: 1;
-        padding: 12px 5px;
+        padding: 10px;
         background: #1a1a1a;
         color: #fff;
         border: 1px solid #333;
         border-radius: 8px;
         cursor: pointer;
         font-size: 0.7rem;
-        transition: 0.3s;
     }
     .mood-btn.active { border-color: #ff2d55; background: rgba(255, 45, 85, 0.1); }
     
+    .vocal-item {
+        width: 100%;
+        padding: 12px;
+        background: #111;
+        color: #fff;
+        border: 1px solid #333;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        text-align: left;
+        cursor: pointer;
+        font-size: 0.8rem;
+    }
+    .vocal-item.active { background: #333; border-color: #ff2d55; }
+
     .img-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-        margin-top: 15px;
     }
     .img-item {
         padding: 15px 5px;
@@ -437,9 +449,8 @@
         font-size: 0.7rem;
         text-align: center;
         cursor: pointer;
-        transition: 0.3s;
     }
-    .img-item.active { border-color: #ff2d55; color: #fff; background: rgba(255, 45, 85, 0.05); }
+    .img-item.active { border-color: #ff2d55; color: #fff; }
 
     #launch-movie {
         display: none;
@@ -453,73 +464,122 @@
         font-weight: bold;
         box-shadow: 0 0 20px rgba(255, 45, 85, 0.4);
         text-transform: uppercase;
-        letter-spacing: 1px;
     }
 </style>
 
 <div class="movie-box-container">
     <h2 style="color: #ff2d55; text-align: center; font-size: 1.2rem; margin-bottom: 20px;">🎬 MOVIE BOX</h2>
     
-    <p style="color: #666; font-size: 0.7rem; text-align: center; margin-bottom: 15px;">Étape 1 : Choisis ton Mood</p>
-    <div style="display: flex; gap: 10px; margin-bottom: 30px;">
+    <div style="display: flex; gap: 10px; margin-bottom: 25px;">
         <button onclick="setMood('antho-top')" id="btn-antho-top" class="mood-btn">Antho 🍆 Roms 🍑</button>
         <button onclick="setMood('roms-top')" id="btn-roms-top" class="mood-btn">Roms 🍆 Antho 🍑</button>
         <button onclick="setMood('oral')" id="btn-oral" class="mood-btn">👅 🍆 (Oral)</button>
     </div>
 
+    <div id="vocal-selector" style="display: none; margin-bottom: 25px;">
+        <p style="color: #666; font-size: 0.7rem; margin-bottom: 10px;">1. CHOISIS LE VOCAL :</p>
+        <div id="vocal-list"></div>
+    </div>
+
     <div id="image-selector" style="display: none;">
-        <p style="color: #666; font-size: 0.7rem; text-transform: uppercase; margin-bottom: 10px; text-align: center;">Étape 2 : Choisis le visuel</p>
+        <p style="color: #666; font-size: 0.7rem; margin-bottom: 10px;">2. CHOISIS LE VISUEL :</p>
         <div class="img-grid" id="filtered-images"></div>
     </div>
 
-    <a id="launch-movie" href="#">CONFIGURER LE SON ></a>
+    <a id="launch-movie" href="#">LANCER L'IMMERSION 🔥</a>
 </div>
 
 <script>
+let currentAudio = "";
 let currentImg = "";
 
-const imagesLib = {
+const movieData = {
+    "antho-top": {
+        vocaux: [
+            {t: "Y'a pas plus bandant que ton cul", id: "1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze"},
+            {t: "Tes fesses me font bander vite et dur", id: "1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9"},
+            {t: "Suce moi mec tu me fais bander", id: "_A75vL3SkCmHXc_RX0v9Jtuzi80uctiO"},
+            {t: "Je vais baiser ton fion", id: "1tbNS8Cp8RB6FWiI19oJUinxABspAAXxY"}
+        ],
+        type: "bite"
+    },
+    "roms-top": {
+        vocaux: [
+            {t: "Encule moi mon gars", id: "1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB"},
+            {t: "Encule moi mon Roms", id: "1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ"},
+            {t: "Baise moi mec mon cul a faim de toi", id: "1UuX_T9l2peWRMF15Y7te3ufvhWWSw5C_"},
+            {t: "Remplis mon cul mec", id: "_3hnQNlHu1rQm8q60iJ9_V2E579IPrOv"}
+        ],
+        type: "cul"
+    },
+    "oral": {
+        vocaux: [
+            {t: "C'est trop bon de se sucer la teub", id: "1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO"},
+            {t: "Ptn c'est bon de se pomper mec", id: "1ou6-_i8I2AXLK60E3NWzw0KO3Qqho0SO"}
+        ],
+        type: "bite"
+    }
+};
+
+const movieImages = {
     bite: [
         {t: "Mon zgeg pour toi 🍆", id: "1jB75POt0MejmmBL-noGU47e3HBLFiBik"},
         {t: "Prends ce que tu veux 🤤", id: "1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ"},
         {t: "Bite", id: "_RqV0fRWo4JZhznNl804kO74UclHBBCk"},
         {t: "Teub", id: "1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj"},
-        {t: "Mon zgeg", id: "1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD"},
         {t: "Me-sper", id: "1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8"}
     ],
     cul: [
         {t: "Baltrou & bite", id: "1ozAinNV1QZiDHqEA9C-J3Q-3NhQfY9G-"},
         {t: "Anus", id: "1JqEDAFAe58wuuc7sUlF-1htLID_9AArF"},
         {t: "Boule", id: "1KWFXwaVjKMNqwxzBndwUMQaKTDrmXDiF"},
-        {t: "Cul", id: "1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM"},
         {t: "Fiak", id: "14DR-Ec9X2ZD4cpZ7NXtTH1WOeOAVUav7"},
         {t: "Fion", id: "1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP"}
     ]
 };
 
 function setMood(mood) {
-    currentImg = "";
+    currentAudio = ""; currentImg = "";
     document.getElementById('launch-movie').style.display = 'none';
     document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
     document.getElementById('btn-' + mood).classList.add('active');
-    let type = (mood === 'roms-top') ? 'cul' : 'bite';
+
+    const vList = document.getElementById('vocal-list');
+    vList.innerHTML = movieData[mood].vocaux.map(v => 
+        `<button class="vocal-item" onclick="setAudio('${v.id}', this)">🔊 ${v.t}</button>`
+    ).join('');
+    document.getElementById('vocal-selector').style.display = 'block';
+
+    const type = movieData[mood].type;
     const iList = document.getElementById('filtered-images');
-    iList.innerHTML = imagesLib[type].map(img => 
+    iList.innerHTML = movieImages[type].map(img => 
         `<div class="img-item" onclick="setImg('${img.id}', this)">${img.t}</div>`
     ).join('');
     document.getElementById('image-selector').style.display = 'block';
+}
+
+function setAudio(id, el) {
+    currentAudio = id;
+    document.querySelectorAll('.vocal-item').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+    checkFinal();
 }
 
 function setImg(id, el) {
     currentImg = id;
     document.querySelectorAll('.img-item').forEach(d => d.classList.remove('active'));
     el.classList.add('active');
-    const link = document.getElementById('launch-movie');
-    link.href = `lecteur.html?gif=${id}`;
-    link.style.display = 'block';
+    checkFinal();
+}
+
+function checkFinal() {
+    if(currentAudio && currentImg) {
+        const link = document.getElementById('launch-movie');
+        link.href = `lecteur.html?gif=${currentImg}&audio=${currentAudio}`;
+        link.style.display = 'block';
+    }
 }
 </script>
-        
 
         <div style="text-align: center; margin-top: 50px; opacity: 0.6;">
             <a href="https://antho-btx75.github.io/Roms/" style="color: #fff; text-decoration: none; font-size: 0.85em; border: 1px solid #fff; padding: 12px 25px; border-radius: 50px;">
