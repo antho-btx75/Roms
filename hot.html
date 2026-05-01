@@ -399,13 +399,7 @@
         </p>
         </div>
 
-        <div style="text-align: center; margin-top: 50px; opacity: 0.6;">
-            <a href="https://antho-btx75.github.io/Roms/" style="color: #fff; text-decoration: none; font-size: 0.85em; border: 1px solid #fff; padding: 12px 25px; border-radius: 50px;">
-                <i class="fas fa-arrow-left"></i> Retour au Sanctuaire
-            </a>
-        </div>
-        
-<style>
+        <style>
     .movie-box-container {
         background: #0a0a0a;
         padding: 20px;
@@ -506,20 +500,13 @@ const imagesLib = {
 function setMood(mood) {
     currentImg = "";
     document.getElementById('launch-movie').style.display = 'none';
-    
-    // Activer le bouton de mood
     document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
     document.getElementById('btn-' + mood).classList.add('active');
-
-    // Déterminer quel type d'image afficher
     let type = (mood === 'roms-top') ? 'cul' : 'bite';
-    
-    // Injecter les images
     const iList = document.getElementById('filtered-images');
     iList.innerHTML = imagesLib[type].map(img => 
         `<div class="img-item" onclick="setImg('${img.id}', this)">${img.t}</div>`
     ).join('');
-    
     document.getElementById('image-selector').style.display = 'block';
 }
 
@@ -527,15 +514,18 @@ function setImg(id, el) {
     currentImg = id;
     document.querySelectorAll('.img-item').forEach(d => d.classList.remove('active'));
     el.classList.add('active');
-    
     const link = document.getElementById('launch-movie');
-    // On passe seulement l'ID du GIF à la page lecteur
     link.href = `lecteur.html?gif=${id}`;
     link.style.display = 'block';
 }
 </script>
         
-        
+
+        <div style="text-align: center; margin-top: 50px; opacity: 0.6;">
+            <a href="https://antho-btx75.github.io/Roms/" style="color: #fff; text-decoration: none; font-size: 0.85em; border: 1px solid #fff; padding: 12px 25px; border-radius: 50px;">
+                <i class="fas fa-arrow-left"></i> Retour au Sanctuaire
+            </a>
+        </div>
 
     </section>
 </div>
