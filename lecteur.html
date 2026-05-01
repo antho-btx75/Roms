@@ -26,33 +26,37 @@
     <div id="status" class="status">Mode Immersion CUL : ON</div>
 
     <script>
-        const params = new URLSearchParams(window.location.search);
-        const gifId = params.get('gif');
-        const audioId = params.get('audio');
+    const params = new URLSearchParams(window.location.search);
+    const gifId = params.get('gif');
+    const audioId = params.get('audio');
 
-        if (gifId) {
-            const img = document.getElementById('display-media');
-            // On tente le lien direct, secours auto si Brave bloque
-            img.src = "https://drive.google.com/uc?export=view&id=" + gifId;
-            img.onerror = function() {
-                this.src = "https://drive.google.com/thumbnail?id=" + gifId + "&sz=w1000";
-            };
-        }
+    if (gifId) {
+        const img = document.getElementById('display-media');
+        // On utilise la méthode "thumbnail" qui est la plus acceptée par tous les navigateurs
+        img.src = "https://drive.google.com/thumbnail?id=" + gifId + "&sz=w1000";
         
-        if (audioId) {
-            const audio = document.getElementById('display-audio');
-            audio.src = "https://docs.google.com/uc?export=open&id=" + audioId;
-            audio.load();
-            
-            // Tentative d'autoplay
-            let playPromise = audio.play();
-            if (playPromise !== undefined) {
-                playPromise.catch(error => {
-                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR LE LECTEUR POUR LE SON";
-                });
-            }
+        // Secours si jamais la vignette ne charge pas
+        img.onerror = function() {
+            this.src = "https://docs.google.com/uc?export=download&id=" + gifId;
+        };
+    }
+    
+    if (audioId) {
+        const audio = document.getElementById('display-audio');
+        // On utilise l'export download qui force le flux sur Chrome/Safari
+        audio.src = "https://docs.google.com/uc?export=download&id=" + audioId;
+        audio.load();
+        
+        // Forcer la lecture après le chargement
+        let playPromise = audio.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(error => {
+                document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR LE LECTEUR POUR LE SON";
+            });
         }
-    </script>
+    }
+</script>
+
 </body>
     </html>
         
