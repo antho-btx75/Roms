@@ -340,137 +340,73 @@
         <iframe src="https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/preview" class="vocal-player"></iframe>
     </div>
     
-    <div class="lib-grid">
-<style>
-    /* Style pour les miniatures de la photothèque */
-    .lib-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-        padding: 10px;
-    }
-    .lib-col {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
-    .thumb-card {
-        display: block;
-        background: #111;
-        border: 1px solid #333;
-        border-radius: 10px;
-        overflow: hidden;
-        text-decoration: none;
-        transition: 0.3s;
-        position: relative;
-    }
-    .thumb-card:hover {
-        border-color: #ff2d55;
-        transform: translateY(-3px);
-    }
-    .thumb-card img {
-        width: 100%;
-        height: 100px;
-        object-fit: cover;
-        display: block;
-        opacity: 0.8;
-    }
-    .thumb-card span {
-        display: block;
-        padding: 8px;
-        font-size: 0.75rem;
-        color: #eee;
-        text-align: center;
-        background: rgba(0,0,0,0.6);
-    }
-    .badge-thumb {
-        position: absolute;
-        top: 5px;
-        right: 5px;
-        background: #ff3b30;
-        color: #fff;
-        font-size: 0.6rem;
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-weight: 900;
-        z-index: 2;
-        box-shadow: 0 0 5px rgba(0,0,0,0.5);
-    }
-</style>
+    <style>
+        /* Optimisation locale des miniatures pour éviter les conflits */
+        .lib-grid-fixed { display: flex; border-top: 1px solid rgba(137, 87, 229, 0.2); background: #000; }
+        .lib-col-fixed { flex: 1; padding: 10px; border-right: 1px solid rgba(137, 87, 229, 0.2); display: flex; flex-direction: column; gap: 10px; }
+        .lib-col-fixed:last-child { border-right: none; }
+        .thumb-card { position: relative; display: block; border-radius: 10px; overflow: hidden; border: 1px solid #333; text-decoration: none; transition: 0.3s; }
+        .thumb-card:hover { border-color: var(--hot-pink); transform: translateY(-2px); }
+        .thumb-card img { width: 100%; height: 90px; object-fit: cover; display: block; opacity: 0.7; }
+        .thumb-card span { display: block; padding: 5px; font-size: 0.7rem; color: #fff; text-align: center; background: rgba(0,0,0,0.8); }
+        .badge-thumb { position: absolute; top: 5px; right: 5px; background: var(--hot-red); color: #fff; font-size: 0.55rem; padding: 2px 5px; border-radius: 4px; font-weight: 900; z-index: 5; }
+    </style>
 
-<div class="lib-grid">
-    <div class="lib-col">
-        <div style="text-align:center; color:#fff; font-size:0.8em; font-weight:bold; margin-bottom:12px;">BITE 🍆</div>
-        
-        <a href="https://drive.google.com/file/d/1jB75POt0MejmmBL-noGU47e3HBLFiBik/view" class="thumb-card">
-            <span class="badge-thumb">NEW</span>
-            <img src="https://drive.google.com/thumbnail?id=1jB75POt0MejmmBL-noGU47e3HBLFiBik&sz=w300">
-            <span>Mon zgeg pour toi 🍆</span>
-        </a>
+    <div class="lib-grid-fixed">
+        <div class="lib-col-fixed">
+            <div style="text-align:center; color:#fff; font-size:0.8em; font-weight:bold; margin-bottom:5px;">BITE 🍆</div>
+            
+            <a href="https://drive.google.com/file/d/1jB75POt0MejmmBL-noGU47e3HBLFiBik/view" class="thumb-card">
+                <span class="badge-thumb">NEW</span>
+                <img src="https://drive.google.com/thumbnail?id=1jB75POt0MejmmBL-noGU47e3HBLFiBik&sz=w300">
+                <span>Mon zgeg pour toi 🍆</span>
+            </a>
 
-        <a href="https://drive.google.com/file/d/1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ/view" class="thumb-card">
-            <span class="badge-thumb">NEW</span>
-            <img src="https://drive.google.com/thumbnail?id=1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ&sz=w300">
-            <span>Prends ce que tu veux 🤤</span>
-        </a>
+            <a href="https://drive.google.com/file/d/1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ/view" class="thumb-card">
+                <span class="badge-thumb">NEW</span>
+                <img src="https://drive.google.com/thumbnail?id=1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ&sz=w300">
+                <span>Prends ce que tu veux 🤤</span>
+            </a>
 
-        <a href="https://drive.google.com/file/d/1_RqV0fRWo4JZhznNl804kO74UclHBBCk/view" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1_RqV0fRWo4JZhznNl804kO74UclHBBCk&sz=w300">
-            <span>Bite</span>
-        </a>
+            <a href="https://drive.google.com/file/d/1_RqV0fRWo4JZhznNl804kO74UclHBBCk/view" class="thumb-card">
+                <img src="https://drive.google.com/thumbnail?id=1_RqV0fRWo4JZhznNl804kO74UclHBBCk&sz=w300">
+                <span>Bite</span>
+            </a>
 
-        <a href="https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj&sz=w300">
-            <span>Teub</span>
-        </a>
+            <a href="https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view" class="thumb-card">
+                <img src="https://drive.google.com/thumbnail?id=1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj&sz=w300">
+                <span>Teub</span>
+            </a>
+        </div>
 
-        <a href="https://drive.google.com/file/d/1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD/view" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD&sz=w300">
-            <span>Mon zgeg</span>
-        </a>
+        <div class="lib-col-fixed">
+            <div style="text-align:center; color:#fff; font-size:0.8em; font-weight:bold; margin-bottom:5px;">CUL 🍑</div>
 
-        <a href="https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8&sz=w300">
-            <span>Me-sper</span>
-        </a>
+            <a href="https://drive.google.com/file/d/1AN_BorkUaXTwgFu7CHcwpcmxJt9DabBm/view" class="thumb-card">
+                <span class="badge-thumb">NEW</span>
+                <img src="https://drive.google.com/thumbnail?id=1AN_BorkUaXTwgFu7CHcwpcmxJt9DabBm&sz=w300">
+                <span>Un p'tit Kdo 🍑</span>
+            </a>
+
+            <a href="https://drive.google.com/file/d/1ozAinNV1QZiDHqEA9C-J3Q-3NhQfY9G-/" class="thumb-card">
+                <img src="https://drive.google.com/thumbnail?id=1ozAinNV1QZiDHqEA9C-J3Q-3NhQfY9G-&sz=w300">
+                <span>Baltrou & bite</span>
+            </a>
+
+            <a href="https://drive.google.com/file/d/1JqEDAFAe58wuuc7sUlF-1htLID_9AArF/" class="thumb-card">
+                <img src="https://drive.google.com/thumbnail?id=1JqEDAFAe58wuuc7sUlF-1htLID_9AArF&sz=w300">
+                <span>Anus</span>
+            </a>
+
+            <a href="https://drive.google.com/file/d/1KWFXwaVjKMNqwxzBndwUMQaKTDrmXDiF/" class="thumb-card">
+                <img src="https://drive.google.com/thumbnail?id=1KWFXwaVjKMNqwxzBndwUMQaKTDrmXDiF&sz=w300">
+                <span>Boule</span>
+            </a>
+        </div>
     </div>
-
-    <div class="lib-col">
-        <div style="text-align:center; color:#fff; font-size:0.8em; font-weight:bold; margin-bottom:12px;">CUL 🍑</div>
-
-        <a href="https://drive.google.com/file/d/1AN_BorkUaXTwgFu7CHcwpcmxJt9DabBm/view" class="thumb-card">
-            <span class="badge-thumb">NEW</span>
-            <img src="https://drive.google.com/thumbnail?id=1AN_BorkUaXTwgFu7CHcwpcmxJt9DabBm&sz=w300">
-            <span>Un p'tit Kdo 🍑</span>
-        </a>
-
-        <a href="https://drive.google.com/file/d/1ozAinNV1QZiDHqEA9C-J3Q-3NhQfY9G-/" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1ozAinNV1QZiDHqEA9C-J3Q-3NhQfY9G-&sz=w300">
-            <span>Baltrou & bite</span>
-        </a>
-
-        <a href="https://drive.google.com/file/d/1JqEDAFAe58wuuc7sUlF-1htLID_9AArF/" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1JqEDAFAe58wuuc7sUlF-1htLID_9AArF&sz=w300">
-            <span>Anus</span>
-        </a>
-
-        <a href="https://drive.google.com/file/d/1KWFXwaVjKMNqwxzBndwUMQaKTDrmXDiF/" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1KWFXwaVjKMNqwxzBndwUMQaKTDrmXDiF&sz=w300">
-            <span>Boule</span>
-        </a>
-
-        <a href="https://drive.google.com/file/d/1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM/" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM&sz=w300">
-            <span>Cul</span>
-        </a>
-
-        <a href="https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/" class="thumb-card">
-            <img src="https://drive.google.com/thumbnail?id=1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP&sz=w300">
-            <span>Fion</span>
-        </a>
-    </div>
-        
 </div>
+
+        
 
         <div class="quote-block">
             <p>T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et mouiller du cul. Côté bite ou côté cul tu restes le boss frère.</p>
