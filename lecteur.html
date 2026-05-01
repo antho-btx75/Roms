@@ -3,60 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOT À LA CARTE- IMMERSION</title>
+    <title>MOVIE BOX - IMMERSION</title>
     <style>
         body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; overflow: hidden; }
         .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; }
         .media-container { width: 100%; max-width: 500px; box-shadow: 0 0 30px rgba(255, 45, 85, 0.4); border: 1px solid #333; }
         #display-media { width: 100%; display: block; }
         .audio-controls { margin-top: 30px; width: 80%; max-width: 400px; text-align: center; }
-        audio { width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); }
-        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; animation: pulse 2s infinite; }
+        /* Style du lecteur pour qu'il soit visible et cliquable */
+        audio { width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); height: 40px; }
+        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; text-align: center; }
         @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+        .pulse { animation: pulse 2s infinite; }
     </style>
 </head>
 <body>
     <a href="javascript:history.back()" class="back-btn">< RETOUR</a>
+    
     <div class="media-container">
         <img id="display-media" src="" alt="Chargement...">
     </div>
+
     <div class="audio-controls">
-        <audio id="display-audio" controls autoplay></audio>
+        <audio id="display-audio" controls preload="auto"></audio>
     </div>
-    <div id="status" class="status">Mode Immersion CUL : ON</div>
+
+    <div id="status" class="status pulse">Mode Immersion Gava : ON</div>
 
     <script>
-    const params = new URLSearchParams(window.location.search);
-    const gifId = params.get('gif');
-    const audioId = params.get('audio');
+        const params = new URLSearchParams(window.location.search);
+        const gifId = params.get('gif');
+        const audioId = params.get('audio');
 
-    if (gifId) {
-        const img = document.getElementById('display-media');
-        // On utilise la méthode "thumbnail" qui est la plus acceptée par tous les navigateurs
-        img.src = "https://drive.google.com/thumbnail?id=" + gifId + "&sz=w1000";
-        
-        // Secours si jamais la vignette ne charge pas
-        img.onerror = function() {
-            this.src = "https://docs.google.com/uc?export=download&id=" + gifId;
-        };
-    }
-    
-    if (audioId) {
-        const audio = document.getElementById('display-audio');
-        // On utilise l'export download qui force le flux sur Chrome/Safari
-        audio.src = "https://docs.google.com/uc?export=download&id=" + audioId;
-        audio.load();
-        
-        // Forcer la lecture après le chargement
-        let playPromise = audio.play();
-        if (playPromise !== undefined) {
-            playPromise.catch(error => {
-                document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR LE LECTEUR POUR LE SON";
-            });
+        // GESTION IMAGE (OK sur tous navigateurs)
+        if (gifId) {
+            document.getElementById('display-media').src = "https://drive.google.com/uc?export=view&id=" + gifId;
         }
-    }
-</script>
+        
+        // GESTION AUDIO (Le nerf de la guerre)
+        if (audioId) {
+            const audio = document.getElementById('display-audio');
+            const status = document.getElementById('status');
 
+            // On utilise export=download qui est plus efficace pour percer les protections
+            const audioUrl = "https://docs.google.com/uc?export=download&id=" + audioId;
+            audio.src = audioUrl;
+            
+            // On force le chargement
+            audio.load();
+
+            // Tentative de lecture forcée
+            const playAttempt = audio.play();
+
+            if (playAttempt !== undefined) {
+                playAttempt.then(() => {
+                    // Si ça marche tout seul (Xiaomi, etc.)
+                    status.innerHTML = "Mode Immersion Gava : ON";
+                }).catch(error => {
+                    // Si le navigateur bloque (Chrome, Safari, Brave)
+                    console.log("Lecture auto bloquée, attente clic manuel.");
+                    status.innerHTML = "⚠️ CLIQUE SUR 'PLAY' POUR LE SON";
+                    status.classList.remove('pulse');
+                    status.style.color = "#fff";
+                });
+            }
+        }
+    </script>
 </body>
     </html>
         
