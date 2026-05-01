@@ -400,13 +400,13 @@
         </div>
 
         
-        <style>
+                <style>
     .movie-box-container {
         background: #0a0a0a;
         padding: 25px;
         border-radius: 20px;
         border: 1px solid #333;
-        margin: 30px auto;
+        margin: 30px auto 10px;
         max-width: 600px;
         font-family: 'Courier New', Courier, monospace;
         box-shadow: 0 0 20px rgba(255, 45, 85, 0.1);
@@ -416,9 +416,9 @@
         background: rgba(255, 45, 85, 0.1);
         border: 1px solid #ff2d55;
         border-radius: 10px;
-        padding: 10px;
+        padding: 12px;
         margin-bottom: 20px;
-        font-size: 0.65rem;
+        font-size: 0.8rem;
         color: #eee;
         text-align: center;
     }
@@ -426,20 +426,20 @@
 
     .mood-btn {
         flex: 1;
-        padding: 12px 5px;
+        padding: 15px 5px;
         background: #1a1a1a;
         color: #fff;
         border: 1px solid #333;
         border-radius: 8px;
         cursor: pointer;
-        font-size: 0.7rem;
+        font-size: 0.85rem;
         transition: 0.3s;
     }
     .mood-btn.active { border-color: #ff2d55; background: rgba(255, 45, 85, 0.2); box-shadow: 0 0 10px rgba(255, 45, 85, 0.3); }
     
     .vocal-item {
         width: 100%;
-        padding: 12px;
+        padding: 15px;
         background: #111;
         color: #fff;
         border: 1px solid #333;
@@ -447,7 +447,7 @@
         margin-bottom: 10px;
         text-align: left;
         cursor: pointer;
-        font-size: 0.75rem;
+        font-size: 0.9rem;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -470,7 +470,7 @@
     }
     .img-item img {
         width: 100%;
-        height: 100px;
+        height: 120px;
         object-fit: cover;
         display: block;
         opacity: 0.6;
@@ -478,8 +478,8 @@
     }
     .img-item span {
         display: block;
-        padding: 8px;
-        font-size: 0.65rem;
+        padding: 10px;
+        font-size: 0.8rem;
         color: #aaa;
         text-align: center;
     }
@@ -493,20 +493,34 @@
         text-align: center;
         background: linear-gradient(45deg, #ff2d55, #b31d3b);
         color: #fff;
-        padding: 20px;
+        padding: 22px;
         border-radius: 12px;
         text-decoration: none;
         font-weight: bold;
         box-shadow: 0 0 25px rgba(255, 45, 85, 0.5);
         text-transform: uppercase;
         letter-spacing: 2px;
+        font-size: 1.1rem;
     }
+
+    .back-sanctuaire {
+        display: block;
+        width: fit-content;
+        margin: 20px auto 40px;
+        color: #888;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.9rem;
+        border: 1px solid #333;
+        padding: 8px 20px;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+    .back-sanctuaire:hover { color: #fff; border-color: #ff2d55; }
 </style>
 
 <div class="movie-box-container">
-    <h2 style="color: #ff2d55; text-align: center; font-size: 1.4rem; margin-bottom: 5px;">🎥 KIFFS HOTS À LA CARTE</h2>
-    <p style="color: #666; font-size: 0.7rem; text-align: center; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px;">Configuration de ton immersion</p>
-    
+    <h2 style="color: #ff2d55; text-align: center; font-size: 1.6rem; margin-bottom: 5px;">🎥 KIFFS HOTS À LA CARTE</h2>
     <div class="uc-warning">
         ⚠️ Pour un plaisir sans coupure (audio + visuel), utilise uniquement le navigateur <a href="https://play.google.com/store/apps/details?id=com.UCMobile.intl" target="_blank">UC Browser</a>.
     </div>
@@ -518,12 +532,12 @@
     </div>
 
     <div id="vocal-selector" style="display: none; margin-bottom: 30px;">
-        <p style="color: #ff2d55; font-size: 0.7rem; font-weight: bold; margin-bottom: 15px; border-left: 3px solid #ff2d55; padding-left: 10px;">1. CHOISIS TON VOCAL :</p>
+        <p style="color: #ff2d55; font-size: 0.85rem; font-weight: bold; margin-bottom: 15px; border-left: 3px solid #ff2d55; padding-left: 10px;">1. CHOISIS TON VOCAL :</p>
         <div id="vocal-list"></div>
     </div>
 
     <div id="image-selector" style="display: none;">
-        <p style="color: #ff2d55; font-size: 0.7rem; font-weight: bold; margin-bottom: 15px; border-left: 3px solid #ff2d55; padding-left: 10px;">2. CHOISIS TON VISUEL :</p>
+        <p style="color: #ff2d55; font-size: 0.85rem; font-weight: bold; margin-bottom: 15px; border-left: 3px solid #ff2d55; padding-left: 10px;">2. CHOISIS TON VISUEL :</p>
         <div class="img-grid" id="filtered-images"></div>
     </div>
 
@@ -539,7 +553,7 @@ const movieData = {
         vocaux: [
             {t: "Y'a pas plus bandant que ton cul", src: "https://audio.jukehost.co.uk/019de4e7-9fd3-73e7-9f67-248499160757"},
             {t: "Tes fesses me font bander vite et dur", src: "1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9"},
-            {t: "Suce moi mec tu me fais bander", src: "_A75vL3SkCmHXc_RX0v9Jtuzi80uctiO"},
+            {t: "Suce moi mec tu me fais bander", src: "1_A75vL3SkCmHXc_RX0v9Jtuzi80uctiO"},
             {t: "Je vais baiser ton fion", src: "1tbNS8Cp8RB6FWiI19oJUinxABspAAXxY"}
         ],
         type: "bite"
@@ -549,7 +563,7 @@ const movieData = {
             {t: "Encule moi mon gars", src: "1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB"},
             {t: "Encule moi mon Roms", src: "1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ"},
             {t: "Baise moi mec mon cul a faim de toi", src: "1UuX_T9l2peWRMF15Y7te3ufvhWWSw5C_"},
-            {t: "Remplis mon cul mec", src: "_3hnQNlHu1rQm8q60iJ9_V2E579IPrOv"}
+            {t: "Remplis mon cul mec", src: "1_3hnQNlHu1rQm8q60iJ9_V2E579IPrOv"}
         ],
         type: "cul"
     },
@@ -566,7 +580,7 @@ const movieImages = {
     bite: [
         {t: "Mon zgeg pour toi 🍆", id: "1jB75POt0MejmmBL-noGU47e3HBLFiBik"},
         {t: "Prends ce que tu veux 🤤", id: "1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ"},
-        {t: "Bite", id: "_RqV0fRWo4JZhznNl804kO74UclHBBCk"},
+        {t: "Bite", id: "1_RqV0fRWo4JZhznNl804kO74UclHBBCk"},
         {t: "Teub", id: "1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj"},
         {t: "Mon zgeg", id: "1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD"},
         {t: "Chupa Chups", id: "1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4"},
@@ -627,12 +641,9 @@ function checkFinal() {
         link.style.display = 'block';
     }
 }
-</script>
-        
-
+            </script>
     </section>
 </div>
-
 </body>
-</html>
+        </html>
               
