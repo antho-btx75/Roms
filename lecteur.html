@@ -6,27 +6,23 @@
     <title>MOVIE BOX - IMMERSION</title>
     <style>
         body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; overflow: hidden; }
-        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; z-index: 10; }
+        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; }
         .media-container { width: 100%; max-width: 500px; box-shadow: 0 0 30px rgba(255, 45, 85, 0.4); border: 1px solid #333; }
-        #display-media { width: 100%; display: block; min-height: 200px; background: #050505; }
+        #display-media { width: 100%; display: block; }
         .audio-controls { margin-top: 30px; width: 80%; max-width: 400px; text-align: center; }
         audio { width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); }
-        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; animation: pulse 2s infinite; text-align: center; }
+        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; animation: pulse 2s infinite; }
         @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
     </style>
 </head>
 <body>
-
     <a href="javascript:history.back()" class="back-btn">< RETOUR</a>
-
     <div class="media-container">
-        <img id="display-media" src="" alt="Chargement du visuel...">
+        <img id="display-media" src="" alt="Chargement...">
     </div>
-
     <div class="audio-controls">
-        <audio id="display-audio" controls autoplay preload="auto"></audio>
+        <audio id="display-audio" controls autoplay></audio>
     </div>
-
     <div id="status" class="status">Mode Immersion Gava : ON</div>
 
     <script>
@@ -34,29 +30,25 @@
         const gifId = params.get('gif');
         const audioId = params.get('audio');
 
-        const imgElement = document.getElementById('display-media');
-        const audioElement = document.getElementById('display-audio');
-
-        // 1. GESTION IMAGE (Le lien qui marche sur tous les navigateurs)
         if (gifId) {
-            // "view" est nécessaire pour que Google Drive renvoie le type de fichier image
-            imgElement.src = "https://drive.google.com/uc?export=view&id=" + gifId;
+            const img = document.getElementById('display-media');
+            // On tente le lien direct, secours auto si Brave bloque
+            img.src = "https://drive.google.com/uc?export=view&id=" + gifId;
+            img.onerror = function() {
+                this.src = "https://drive.google.com/thumbnail?id=" + gifId + "&sz=w1000";
+            };
         }
-
-        // 2. GESTION AUDIO (L'astuce Direct Content)
+        
         if (audioId) {
-            // "download" force le flux binaire, ce qui aide Chrome à lire le son
-            audioElement.src = "https://drive.google.com/uc?export=download&id=" + audioId;
-            audioElement.load();
+            const audio = document.getElementById('display-audio');
+            audio.src = "https://docs.google.com/uc?export=open&id=" + audioId;
+            audio.load();
             
             // Tentative d'autoplay
-            let playPromise = audioElement.play();
+            let playPromise = audio.play();
             if (playPromise !== undefined) {
                 playPromise.catch(error => {
-                    // Si le navigateur bloque l'autoplay (Chrome, Brave, Safari)
-                    console.log("Autoplay bloqué");
-                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR PLAY POUR LE SON";
-                    document.getElementById('status').style.color = "#fff";
+                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR LE LECTEUR POUR LE SON";
                 });
             }
         }
