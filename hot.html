@@ -404,7 +404,7 @@
                 <i class="fas fa-arrow-left"></i> Retour au Sanctuaire
             </a>
         </div>
-        <style>
+<style>
     .movie-box-container {
         background: #0a0a0a;
         padding: 20px;
@@ -550,19 +550,15 @@ const imagesLib = {
 function setMood(mood) {
     currentAudio = ""; currentImg = "";
     document.getElementById('launch-movie').style.display = 'none';
-    
-    // Style boutons
     document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
     document.getElementById('btn-' + mood).classList.add('active');
 
-    // Vocaux
     const vList = document.getElementById('vocal-list');
     vList.innerHTML = data[mood].vocaux.map(v => 
         `<button class="vocal-item" onclick="setAudio('${v.id}', this)">🔊 ${v.t}</button>`
     ).join('');
     document.getElementById('vocal-selector').style.display = 'block';
 
-    // Images
     const type = data[mood].type;
     const iList = document.getElementById('filtered-images');
     iList.innerHTML = imagesLib[type].map(img => 
@@ -572,14 +568,14 @@ function setMood(mood) {
 }
 
 function setAudio(id, el) {
-    currentAudio = "https://docs.google.com/uc?export=download&id=" + id;
+    currentAudio = id; // On passe juste l'ID
     document.querySelectorAll('.vocal-item').forEach(b => b.classList.remove('active'));
     el.classList.add('active');
     checkFinal();
 }
 
 function setImg(id, el) {
-    currentImg = "https://docs.google.com/uc?export=download&id=" + id;
+    currentImg = id; // On passe juste l'ID
     document.querySelectorAll('.img-item').forEach(d => d.classList.remove('active'));
     el.classList.add('active');
     checkFinal();
@@ -588,13 +584,13 @@ function setImg(id, el) {
 function checkFinal() {
     if(currentAudio && currentImg) {
         const link = document.getElementById('launch-movie');
-        // On pointe vers lecteur.html avec les paramètres
-        link.href = `lecteur.html?gif=${encodeURIComponent(currentImg)}&audio=${encodeURIComponent(currentAudio)}`;
+        link.href = `lecteur.html?gif=${currentImg}&audio=${currentAudio}`;
         link.style.display = 'block';
     }
 }
 </script>
         
+
     </section>
 </div>
 
