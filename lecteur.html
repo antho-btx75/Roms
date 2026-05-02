@@ -3,61 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KIFF HOT À LA CARTE- IMMERSION</title>
+    <title>KIFF HOT À LA CARTE - IMMERSION</title>
     <style>
-        body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; overflow: hidden; }
-        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #333; padding: 5px 10px; border-radius: 4px; z-index: 100; }
-        .media-container { width: 100%; max-width: 500px; box-shadow: 0 0 30px rgba(255, 45, 85, 0.4); border: 1px solid #333; }
-        #display-media { width: 100%; display: block; }
-        .audio-controls { margin-top: 30px; width: 80%; max-width: 400px; text-align: center; }
-        audio { width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); }
-        .status { margin-top: 20px; color: #ff2d55; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; animation: pulse 2s infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+        body { 
+            margin: 0; padding: 0; 
+            background: #050108; 
+            color: #fff; 
+            font-family: 'Montserrat', sans-serif; 
+            display: flex; flex-direction: column; align-items: center; justify-content: center; 
+            min-height: 100vh; overflow: hidden; 
+        }
+        
+        /* Bouton Retour discret */
+        .back-btn { 
+            position: absolute; top: 20px; left: 20px; 
+            color: #555; text-decoration: none; 
+            font-size: 0.7rem; border: 1px solid #222; 
+            padding: 8px 15px; border-radius: 50px; 
+            z-index: 100; transition: 0.3s;
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+        .back-btn:hover { border-color: #ff2d55; color: #fff; background: rgba(255, 45, 85, 0.1); }
+
+        /* Container Media style Ciné-Privé */
+        .media-container { 
+            width: 100%; max-width: 600px; 
+            box-shadow: 0 0 50px rgba(255, 45, 85, 0.3); 
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: #000;
+            line-height: 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        #display-media { 
+            width: 100%; 
+            display: block;
+            object-fit: contain;
+        }
+
+        /* Barre de son customisée */
+        .audio-controls { 
+            margin-top: 40px; 
+            width: 85%; max-width: 450px; 
+            text-align: center; 
+        }
+        
+        audio { 
+            width: 100%; 
+            height: 40px;
+            filter: invert(1) hue-rotate(180deg) brightness(1.5) contrast(1.2); 
+            opacity: 0.8;
+        }
+
+        .status { 
+            margin-top: 25px; 
+            color: #ff2d55; 
+            font-size: 0.7rem; 
+            letter-spacing: 3px; 
+            text-transform: uppercase; 
+            font-weight: 900;
+            animation: pulse 2s infinite; 
+        }
+
+        @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; text-shadow: 0 0 10px #ff2d55; } }
     </style>
 </head>
 <body>
-    <a href="javascript:history.back()" class="back-btn">< RETOUR</a>
+
+    <a href="javascript:history.back()" class="back-btn">< RETOUR AU MENU</a>
+
     <div class="media-container">
-        <img id="display-media" src="" alt="Chargement...">
+        <img id="display-media" src="" alt="Initialisation de l'immersion...">
     </div>
+
     <div class="audio-controls">
         <audio id="display-audio" controls autoplay></audio>
     </div>
-    <div id="status" class="status">Mode Immersion CUL : ON</div>
+
+    <div id="status" class="status">SESSION PRIVÉE : EN COURS</div>
 
     <script>
         const params = new URLSearchParams(window.location.search);
-        const gifId = params.get('gif');
+        let gifParam = params.get('gif');
         const audioParam = params.get('audio');
 
-        // VERROUILLAGE IMAGE (Ta version stable)
-        if (gifId) {
+        // GESTION DU VISUEL (Détection Auto : Drive vs Externe)
+        if (gifParam) {
             const img = document.getElementById('display-media');
-            img.src = "https://drive.google.com/uc?export=view&id=" + gifId;
-            img.onerror = function() {
-                this.src = "https://drive.google.com/thumbnail?id=" + gifId + "&sz=w1000";
-            };
+            const decodedGif = decodeURIComponent(gifParam);
+
+            if (decodedGif.startsWith('http')) {
+                // CAS 1 : Lien direct (ex: ImgBB pour ton nouveau GIF "C'est nous deux")
+                img.src = decodedGif;
+            } else {
+                // CAS 2 : ID Google Drive (tes visuels classiques)
+                img.src = "https://drive.google.com/uc?export=view&id=" + decodedGif;
+                img.onerror = function() {
+                    this.src = "https://drive.google.com/thumbnail?id=" + decodedGif + "&sz=w1000";
+                };
+            }
         }
         
-        // GESTION AUDIO (Adaptée pour ID Drive ou URL JukeHost)
+        // GESTION DE L'AUDIO (Drive ou JukeHost)
         if (audioParam) {
             const audio = document.getElementById('display-audio');
             const decodedAudio = decodeURIComponent(audioParam);
 
-            if (decodedAudio.includes('http')) {
-                // Si c'est un lien direct (JukeHost)
+            if (decodedAudio.startsWith('http')) {
+                // Lien direct JukeHost
                 audio.src = decodedAudio;
             } else {
-                // Si c'est un ID Google Drive
+                // ID Google Drive
                 audio.src = "https://docs.google.com/uc?export=open&id=" + decodedAudio;
             }
 
             audio.load();
             
+            // Tentative de lecture auto
             let playPromise = audio.play();
             if (playPromise !== undefined) {
                 playPromise.catch(error => {
-                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR LE LECTEUR POUR LE SON";
+                    // Si le navigateur bloque l'autoplay sans interaction
+                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR PLAY POUR LE SON 🔥";
+                    document.getElementById('status').style.color = "#fff";
                 });
             }
         }
