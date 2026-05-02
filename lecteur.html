@@ -9,73 +9,28 @@
             margin: 0; padding: 0; 
             background: #050108; 
             color: #fff; 
-            font-family: 'Montserrat', sans-serif; 
+            font-family: sans-serif; 
             display: flex; flex-direction: column; align-items: center; justify-content: center; 
             min-height: 100vh; overflow: hidden; 
         }
+        .back-btn { position: absolute; top: 20px; left: 20px; color: #555; text-decoration: none; font-size: 0.7rem; border: 1px solid #222; padding: 8px 15px; border-radius: 50px; z-index: 100; }
+        .media-container { width: 100%; max-width: 600px; box-shadow: 0 0 50px rgba(255, 45, 85, 0.3); border-radius: 10px; overflow: hidden; background: #000; }
         
-        /* Bouton Retour discret */
-        .back-btn { 
-            position: absolute; top: 20px; left: 20px; 
-            color: #555; text-decoration: none; 
-            font-size: 0.7rem; border: 1px solid #222; 
-            padding: 8px 15px; border-radius: 50px; 
-            z-index: 100; transition: 0.3s;
-            text-transform: uppercase; letter-spacing: 1px;
-        }
-        .back-btn:hover { border-color: #ff2d55; color: #fff; background: rgba(255, 45, 85, 0.1); }
-
-        /* Container Media style Ciné-Privé */
-        .media-container { 
-            width: 100%; max-width: 600px; 
-            box-shadow: 0 0 50px rgba(255, 45, 85, 0.3); 
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            background: #000;
-            line-height: 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
+        /* Styles pour que l'image et la vidéo occupent tout l'espace */
+        #display-media, #display-video { width: 100%; display: block; }
         
-        #display-media { 
-            width: 100%; 
-            display: block;
-            object-fit: contain;
-        }
-
-        /* Barre de son customisée */
-        .audio-controls { 
-            margin-top: 40px; 
-            width: 85%; max-width: 450px; 
-            text-align: center; 
-        }
-        
-        audio { 
-            width: 100%; 
-            height: 40px;
-            filter: invert(1) hue-rotate(180deg) brightness(1.5) contrast(1.2); 
-            opacity: 0.8;
-        }
-
-        .status { 
-            margin-top: 25px; 
-            color: #ff2d55; 
-            font-size: 0.7rem; 
-            letter-spacing: 3px; 
-            text-transform: uppercase; 
-            font-weight: 900;
-            animation: pulse 2s infinite; 
-        }
-
-        @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; text-shadow: 0 0 10px #ff2d55; } }
+        .audio-controls { margin-top: 30px; width: 85%; max-width: 450px; text-align: center; }
+        audio { width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); }
+        .status { margin-top: 20px; color: #ff2d55; font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
     </style>
 </head>
 <body>
 
-    <a href="javascript:history.back()" class="back-btn">< RETOUR AU MENU</a>
+    <a href="javascript:history.back()" class="back-btn">< RETOUR</a>
 
-    <div class="media-container">
-        <img id="display-media" src="" alt="Initialisation de l'immersion...">
-    </div>
+    <div class="media-container" id="media-holder">
+        </div>
 
     <div class="audio-controls">
         <audio id="display-audio" controls autoplay></audio>
@@ -85,50 +40,39 @@
 
     <script>
         const params = new URLSearchParams(window.location.search);
-        let gifParam = params.get('gif');
+        const gifParam = params.get('gif');
         const audioParam = params.get('audio');
+        const mediaHolder = document.getElementById('media-holder');
 
-        // GESTION DU VISUEL (Détection Auto : Drive vs Externe)
         if (gifParam) {
-            const img = document.getElementById('display-media');
-            const decodedGif = decodeURIComponent(gifParam);
+            const decodedMedia = decodeURIComponent(gifParam);
 
-            if (decodedGif.startsWith('http')) {
-                // CAS 1 : Lien direct (ex: ImgBB pour ton nouveau GIF "C'est nous deux")
-                img.src = decodedGif;
+            // ANALYSE DU TYPE DE MÉDIA
+            // Si le lien contient "ibb" c'est un GIF ImgBB
+            // Si l'ID est long (vidéo Drive) ou finit par une logique vidéo
+            // On va tester si c'est l'ID de ta vidéo Oral
+            if (decodedMedia === "1WVaQ0weeAGJwUDiQSQoqugP140CKYnmN") {
+                // MODE VIDÉO (Pour ta gâterie)
+                mediaHolder.innerHTML = `
+                    <video id="display-video" autoplay loop muted playsinline>
+                        <source src="https://docs.google.com/uc?export=download&id=${decodedMedia}" type="video/mp4">
+                    </video>`;
             } else {
-                // CAS 2 : ID Google Drive (tes visuels classiques)
-                img.src = "https://drive.google.com/uc?export=view&id=" + decodedGif;
-                img.onerror = function() {
-                    this.src = "https://drive.google.com/thumbnail?id=" + decodedGif + "&sz=w1000";
-                };
+                // MODE IMAGE (Pour tes GIFs Drive ou ImgBB)
+                let imgSrc = decodedMedia.startsWith('http') ? decodedMedia : "https://drive.google.com/uc?export=view&id=" + decodedMedia;
+                mediaHolder.innerHTML = `<img id="display-media" src="${imgSrc}">`;
             }
         }
         
-        // GESTION DE L'AUDIO (Drive ou JukeHost)
+        // GESTION AUDIO
         if (audioParam) {
             const audio = document.getElementById('display-audio');
             const decodedAudio = decodeURIComponent(audioParam);
-
-            if (decodedAudio.startsWith('http')) {
-                // Lien direct JukeHost
-                audio.src = decodedAudio;
-            } else {
-                // ID Google Drive
-                audio.src = "https://docs.google.com/uc?export=open&id=" + decodedAudio;
-            }
-
+            audio.src = decodedAudio.startsWith('http') ? decodedAudio : "https://docs.google.com/uc?export=open&id=" + decodedAudio;
             audio.load();
-            
-            // Tentative de lecture auto
-            let playPromise = audio.play();
-            if (playPromise !== undefined) {
-                playPromise.catch(error => {
-                    // Si le navigateur bloque l'autoplay sans interaction
-                    document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR PLAY POUR LE SON 🔥";
-                    document.getElementById('status').style.color = "#fff";
-                });
-            }
+            audio.play().catch(() => {
+                document.getElementById('status').innerHTML = "⚠️ CLIQUE SUR PLAY POUR LE SON";
+            });
         }
     </script>
 </body>
