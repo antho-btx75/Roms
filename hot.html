@@ -565,7 +565,7 @@
         </p>
         </div>
 
-                <style>
+        <style>
     /* LE CONTENEUR STYLE CLUB PRIVÉ */
     .movie-box-container {
         background: radial-gradient(circle at top, #1a0b1a 0%, #050108 100%);
@@ -782,11 +782,9 @@ const movieData = {
         ],
         type: "bite"
     }
-
 };
 
 const movieImages = {
-    // Cette section s'affichera uniquement quand on clique sur "Antho🍆 Roms🍑"
     "antho-top": [
         {t: "C'est nous deux... 🔥", url: "https://i.ibb.co/4RSnjFD3/ezgif-13fc99d484b1c2a3.gif"},
     ],
@@ -812,8 +810,6 @@ const movieImages = {
     ]
 };
 
-
-function setMood(mood) {
 function setMood(mood) {
     currentAudio = ""; 
     currentImg = "";
@@ -829,11 +825,9 @@ function setMood(mood) {
     document.getElementById('vocal-selector').style.display = 'block';
 
     // 2. Fusion et affichage des visuels
-    const type = movieData[mood].type; // 'bite' ou 'cul'
+    const type = movieData[mood].type;
     const iList = document.getElementById('filtered-images');
     
-    // On crée une liste qui contient d'abord le visuel "spécial nous deux" (si il existe pour ce mood)
-    // puis les visuels classiques de la catégorie
     let allImages = [];
     if(movieImages[mood]) { 
         allImages = allImages.concat(movieImages[mood]); 
@@ -841,7 +835,6 @@ function setMood(mood) {
     allImages = allImages.concat(movieImages[type]);
 
     iList.innerHTML = allImages.map(img => {
-        // Détection de la source : si 'url' existe, c'est ImgBB, sinon c'est Drive
         const isExternal = img.url ? true : false;
         const imgSrc = isExternal ? img.url : `https://drive.google.com/thumbnail?id=${img.id}&sz=w300`;
         const valToSend = isExternal ? img.url : img.id;
@@ -864,7 +857,7 @@ function setAudio(src, el) {
 }
 
 function setImg(val, el) {
-    currentImg = encodeURIComponent(val); // On encode pour que l'URL du player accepte les liens HTTP
+    currentImg = encodeURIComponent(val);
     document.querySelectorAll('.img-item').forEach(d => d.classList.remove('active'));
     el.classList.add('active');
     checkFinal();
@@ -873,19 +866,19 @@ function setImg(val, el) {
 function checkFinal() {
     if(currentAudio && currentImg) {
         const link = document.getElementById('launch-movie');
-        // On passe les valeurs propres au player
+        // On passe les valeurs au player (ID Drive ou URL ImgBB)
         link.href = `lecteur.html?gif=${currentImg}&audio=${currentAudio}`;
         link.style.display = 'block';
     }
 }
 </script>
 
-        
+    <div style="text-align: center;">
         <a href="https://antho-btx75.github.io/Roms/" class="back-sanctuaire">
-    <span class="arrow">←</span> RETOUR AU SANCTUAIRE
+            <span class="arrow">←</span> RETOUR AU SANCTUAIRE
         </a>
-    </section>
-</div>
+    </div>
+
 </body>
-        </html>
-              
+</html>
+        
