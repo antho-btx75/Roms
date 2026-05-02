@@ -786,6 +786,10 @@ const movieData = {
 };
 
 const movieImages = {
+    // Cette section s'affichera uniquement quand on clique sur "Antho🍆 Roms🍑"
+    "antho-top": [
+        {t: "C'est nous deux... 🔥", url: "https://i.ibb.co/4RSnjFD3/ezgif-13fc99d484b1c2a3.gif"},
+    ],
     bite: [
         {t: "Mon zgeg pour toi 🍆", id: "1jB75POt0MejmmBL-noGU47e3HBLFiBik"},
         {t: "Prends ce que tu veux 🤤", id: "1VOgS5w57uoN0wkvrb4Y5wJxDXr4hq3kQ"},
@@ -810,25 +814,45 @@ const movieImages = {
 
 
 function setMood(mood) {
-    currentAudio = ""; currentImg = "";
+function setMood(mood) {
+    currentAudio = ""; 
+    currentImg = "";
     document.getElementById('launch-movie').style.display = 'none';
     document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
     document.getElementById('btn-' + mood).classList.add('active');
 
+    // 1. Mise à jour des vocaux
     const vList = document.getElementById('vocal-list');
     vList.innerHTML = movieData[mood].vocaux.map(v => 
         `<button class="vocal-item" onclick="setAudio('${v.src}', this)">🔊 ${v.t}</button>`
     ).join('');
     document.getElementById('vocal-selector').style.display = 'block';
 
-    const type = movieData[mood].type;
+    // 2. Fusion et affichage des visuels
+    const type = movieData[mood].type; // 'bite' ou 'cul'
     const iList = document.getElementById('filtered-images');
-    iList.innerHTML = movieImages[type].map(img => 
-        `<div class="img-item" onclick="setImg('${img.id}', this)">
-            <img src="https://drive.google.com/thumbnail?id=${img.id}&sz=w300" alt="${img.t}">
-            <span>${img.t}</span>
-        </div>`
-    ).join('');
+    
+    // On crée une liste qui contient d'abord le visuel "spécial nous deux" (si il existe pour ce mood)
+    // puis les visuels classiques de la catégorie
+    let allImages = [];
+    if(movieImages[mood]) { 
+        allImages = allImages.concat(movieImages[mood]); 
+    }
+    allImages = allImages.concat(movieImages[type]);
+
+    iList.innerHTML = allImages.map(img => {
+        // Détection de la source : si 'url' existe, c'est ImgBB, sinon c'est Drive
+        const isExternal = img.url ? true : false;
+        const imgSrc = isExternal ? img.url : `https://drive.google.com/thumbnail?id=${img.id}&sz=w300`;
+        const valToSend = isExternal ? img.url : img.id;
+        
+        return `
+            <div class="img-item" onclick="setImg('${valToSend}', this)">
+                <img src="${imgSrc}" alt="${img.t}">
+                <span>${img.t}</span>
+            </div>`;
+    }).join('');
+    
     document.getElementById('image-selector').style.display = 'block';
 }
 
@@ -839,8 +863,8 @@ function setAudio(src, el) {
     checkFinal();
 }
 
-function setImg(id, el) {
-    currentImg = id;
+function setImg(val, el) {
+    currentImg = encodeURIComponent(val); // On encode pour que l'URL du player accepte les liens HTTP
     document.querySelectorAll('.img-item').forEach(d => d.classList.remove('active'));
     el.classList.add('active');
     checkFinal();
@@ -849,6 +873,7 @@ function setImg(id, el) {
 function checkFinal() {
     if(currentAudio && currentImg) {
         const link = document.getElementById('launch-movie');
+        // On passe les valeurs propres au player
         link.href = `lecteur.html?gif=${currentImg}&audio=${currentAudio}`;
         link.style.display = 'block';
     }
