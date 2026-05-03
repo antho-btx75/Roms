@@ -951,7 +951,25 @@ function checkFinal() {
 }
 </style>
     
+<audio id="jingle-hot" preload="auto">
+    <source src="https://audio.jukehost.co.uk/019dedea-6573-701d-8561-d58841f50f66" type="audio/mpeg">
+</audio>
 
+<script>
+    // Se déclenche au premier clic sur la page pour contourner les blocages navigateurs
+    document.addEventListener('click', function() {
+        const jingle = document.getElementById('jingle-hot');
+        
+        // On vérifie s'il n'a pas déjà démarré
+        if (jingle.paused) {
+            jingle.volume = 0.7; // Volume réglé pour être percutant mais propre
+            jingle.play().catch(e => {
+                console.log("Lecture audio automatique bloquée par le navigateur.");
+            });
+        }
+    }, { once: true }); // Le jingle ne se joue qu'une seule fois par session
+</script>
+    
 
 </body>
 </html>
