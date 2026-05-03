@@ -334,6 +334,21 @@
 
 <div style="width: 100%; padding: 30px 15px; text-align: center; background: transparent; box-sizing: border-box;">
     <div style="display: inline-block; text-align: left; max-width: 95%;">
+        
+        <p id="gold-message" style="
+            font-family: 'Courier New', Courier, monospace; 
+            color: #ffcc00; 
+            font-size: 1.3rem; 
+            font-weight: bold;
+            letter-spacing: 1px; 
+            margin-bottom: 20px; 
+            line-height: 1.6;
+            text-shadow: 0 0 15px rgba(255, 204, 0, 0.6);
+            animation: fadeInGold 1.5s ease forwards;
+        ">
+            T'es mon pote, ma personne préférée, la personne qui fout le feu à mon calbard et t'es mon Dieu mon Roms
+        </p>
+
         <p id="telex-message" style="
             font-family: 'Courier New', Courier, monospace; 
             color: #bc13fe; 
@@ -344,19 +359,6 @@
             display: inline; 
             line-height: 1.6;
             text-shadow: 0 0 15px rgba(188, 19, 254, 0.7);
-        "></p>
-        
-        <p id="gold-message" style="
-            display: none;
-            font-family: 'Courier New', Courier, monospace; 
-            color: #ffcc00; 
-            font-size: 1.3rem; 
-            font-weight: bold;
-            letter-spacing: 1px; 
-            margin-top: 15px; 
-            line-height: 1.6;
-            text-shadow: 0 0 15px rgba(255, 204, 0, 0.6);
-            animation: fadeInGold 2s ease forwards;
         "></p>
 
         <span id="cursor" style="
@@ -373,11 +375,9 @@
 </div>
 
 <script>
-    const mainText = "J'ai trop de désirs pour toi mon gars, tu m'excites trop et chuis trop chaud du cul et de la teub 🔥 T'es un Dieu pour moi mon Roms, j'ai envie de baiser avec toi, côté bite ou fiak prends tt ce que tu veux, même virtuellement, et kiffe bien cet espace privé où tout est consacré à ton plaisir. C'est du prêt à branler sur mesure, et je l'ai fait pour toi car je te kiffe de fou gro 🔥🍆🍑🤤 ";
-    const goldText = "T'es mon pote, ma personne préférée, la personne qui fout le feu à mon calbard et t'es mon Dieu mon Roms";
+    const mainText = "J'ai trop de désirs pour toi mon gars, tu m'excites trop et chuis trop chaud du cul et de la teub 🔥 T'es un Dieu pour moi mon Roms, j'ai envie de baiser avec toi, côté bite ou fiak prends tt ce que tu veux, même virtuellement, et kiffe bien cet espace privé où tout est consacré à ton plaisir. C'est du prêt à branler sur mesure, et je l'ai fait pour toi car je te kiffe de fou gro 🔥🍆🍑🤤";
     
     const target = document.getElementById('telex-message');
-    const goldTarget = document.getElementById('gold-message');
     const cursor = document.getElementById('cursor');
     let index = 0;
 
@@ -386,16 +386,11 @@
             target.innerHTML += mainText.charAt(index);
             index++;
             setTimeout(typeWriter, 45); 
-        } else {
-            // Une fois fini, on affiche le message doré
-            cursor.style.backgroundColor = "#ffcc00"; // Le curseur passe au doré
-            cursor.style.boxShadow = "0 0 18px #ffcc00";
-            goldTarget.style.display = "block";
-            goldTarget.innerHTML = goldText;
         }
     }
 
-    setTimeout(typeWriter, 1200);
+    // On lance le télex après 1.5s (le temps que le message doré apparaisse bien)
+    setTimeout(typeWriter, 1500);
 </script>
 
 <style>
@@ -404,12 +399,11 @@
         50% { opacity: 0; }
     }
     @keyframes fadeInGold {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
     }
 </style>
     
-
     
 <div class="container">
     <section id="hot">
