@@ -332,35 +332,34 @@
     </a>
 </div>
 
-    <div style="width: 100%; padding: 30px 15px; text-align: center; background: transparent; box-sizing: border-box;">
-    <div style="display: inline-block; text-align: left; max-width: 90%;">
+<div style="width: 100%; padding: 30px 15px; text-align: center; background: transparent; box-sizing: border-box;">
+    <div style="display: inline-block; text-align: left; max-width: 95%;">
         <p id="telex-message" style="
             font-family: 'Courier New', Courier, monospace; 
-            color: #ff2d55; 
-            font-size: 1.2rem; 
+            color: #bc13fe; 
+            font-size: 1.1rem; 
             font-weight: bold;
             letter-spacing: 1px; 
             margin: 0; 
             display: inline; 
-            line-height: 1.6;
-            text-shadow: 0 0 10px rgba(255, 45, 85, 0.4);
+            line-height: 1.7;
+            text-shadow: 0 0 12px rgba(188, 19, 254, 0.5);
         "></p>
         <span id="cursor" style="
             display: inline-block; 
-            width: 12px; 
-            height: 1.2rem; 
-            background-color: #ff2d55; 
-            margin-left: 2px; 
+            width: 10px; 
+            height: 1.1rem; 
+            background-color: #bc13fe; 
+            margin-left: 3px; 
             vertical-align: middle; 
             animation: blink 0.8s infinite;
-            box-shadow: 0 0 10px #ff2d55;
+            box-shadow: 0 0 15px #bc13fe;
         "></span>
     </div>
 </div>
 
 <script>
-    // Remplace ici par ton message personnalisé
-    const text = "J'ai trop de désirs pour toi mon gars 🔥 T'es un Dieu pour moi mon gars, kiffe bien cet espace privé où tout est consacré à ton plaisir C'est du prêt à branler sur mesure, et je l'ai fait pour toi car je te kiffe de fou gro.";
+    const text = "J'ai trop de désirs pour toi mon gars 🔥 T'es un Dieu pour moi mex, kiffe bien cet espace privé où tout est consacré à ton plaisir. C'est du prêt à branler sur mesure, et je l'ai fait pour toi car je te kiffe de fou gro 💙💜🥵";
     const target = document.getElementById('telex-message');
     let index = 0;
 
@@ -368,13 +367,13 @@
         if (index < text.length) {
             target.innerHTML += text.charAt(index);
             index++;
-            // Vitesse légèrement ralentie (60ms) pour plus de tension
-            setTimeout(typeWriter, 60); 
+            // Vitesse fluide pour un texte long
+            setTimeout(typeWriter, 50); 
         }
     }
 
-    // Lance l'effet après 1 seconde (laisse le temps au Jingle de démarrer)
-    setTimeout(typeWriter, 1000);
+    // Lancement après le jingle
+    setTimeout(typeWriter, 1200);
 </script>
 
 <style>
