@@ -880,40 +880,40 @@ function checkFinal() {
 }
 </script>
 
-<div style="text-align: center; margin: 40px 0;">
+<div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-top: 50px; margin-bottom: 40px; text-align: center;">
     
-    <button id="btn-bonus" style="background: transparent; color: #ff2d55; border: 2px solid #ff2d55; padding: 12px 35px; font-size: 0.9rem; font-weight: bold; letter-spacing: 5px; text-transform: uppercase; border-radius: 50px; cursor: pointer; box-shadow: 0 0 15px rgba(255, 45, 85, 0.2); transition: all 0.4s ease;" 
-       onmouseover="this.style.background='#ff2d55'; this.style.color='#fff';" 
+    <button id="btn-bonus" style="
+        background: transparent; color: #ff2d55; border: 2px solid #ff2d55; 
+        padding: 12px 35px; font-size: 0.9rem; font-weight: bold; letter-spacing: 5px; 
+        text-transform: uppercase; border-radius: 50px; cursor: pointer; 
+        box-shadow: 0 0 15px rgba(255, 45, 85, 0.2); transition: all 0.4s ease;
+    " onmouseover="this.style.background='#ff2d55'; this.style.color='#fff';" 
        onmouseout="this.style.background='transparent'; this.style.color='#ff2d55';"
        onclick="document.getElementById('content-bonus').style.display='block'; this.style.display='none'; document.getElementById('iframe-bonus').src+='';">
         ✨ BONUS ✨
     </button>
 
-    <div id="content-bonus" style="display: none; margin-top: 20px; animation: fadeIn 1s ease;">
-        <div style="width: 100%; max-width: 600px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 0 30px rgba(255, 45, 85, 0.5); border: 1px solid #ff2d55; background: #000;">
+    <div id="content-bonus" style="display: none; margin-top: 20px; animation: fadeIn 1.2s ease;">
+        <div style="width: 100%; background: #000; border-top: 1px solid #ff2d55; border-bottom: 1px solid #ff2d55; box-shadow: 0 0 40px rgba(255, 45, 85, 0.4);">
             
-            <iframe id="iframe-bonus" src="https://drive.google.com/file/d/1Vc4rOu9gaGvvBYHTYvUZUUtv2BqLZYI8/preview" 
-                    style="width:100%; height:350px; border:none; display:block; filter: brightness(1.1);" 
+            <iframe id="iframe-bonus" 
+                    src="https://drive.google.com/file/d/1Vc4rOu9gaGvvBYHTYvUZUUtv2BqLZYI8/preview" 
+                    style="width:100%; height:55vh; border:none; display:block; filter: brightness(1.1);" 
                     allow="autoplay">
             </iframe>
 
-            <div style="background: #1a0206; color: #ff2d55; text-align: center; padding: 10px; font-size: 0.8rem; font-weight: bold; letter-spacing: 2px;">
-                🔥 UN DE MES KIFFS 🔥
+            <div style="background: #1a0206; color: #ff2d55; text-align: center; padding: 15px; font-size: 0.8rem; font-weight: bold; letter-spacing: 2px;">
+                🔥 UN DE MES KIFFS PERSO 🔥
             </div>
         </div>
     </div>
 </div>
 
-
-
-
-            <div style="text-align: center;">
-        <a href="https://antho-btx75.github.io/Roms/" class="back-sanctuaire">
-            <span class="arrow">←</span> RETOUR AU SANCTUAIRE
-        </a>
-            </div>
-        
+<div style="text-align: center; margin-bottom: 60px; margin-top: 20px;">
+    <a href="https://antho-btx75.github.io/Roms/" class="back-sanctuaire" style="display: inline-block; text-decoration: none;">
+        <span class="arrow">←</span> RETOUR AU SANCTUAIRE
+    </a>
+</div>
 
 </body>
 </html>
-        
