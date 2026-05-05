@@ -26,18 +26,18 @@
         
         header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid var(--border-color); }
         .hero-img-full { 
-    width: 100%; 
-    height: auto; 
-    display: block; 
-    margin-bottom: 25px; 
-    border-bottom: 3px solid;
-    border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1;
-}
+            width: 100%; 
+            height: auto; 
+            display: block; 
+            margin-bottom: 25px; 
+            border-bottom: 3px solid;
+            border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1;
+        }
 
-        
-        /* NAVIGATION GOLD & LUXE - VERSION ORIGINALE */
+        /* NAVIGATION GOLD & LUXE */
         .nav-pill-container { 
-            position: relative; top: auto; z-index: 1000; padding: 10px 0; 
+            position: relative; top: auto; z-index: 1000; 
+            padding: 0px 0 10px 0; /* Padding top à 0 pour l'URL */
             background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; 
         }
         .nav-pill-list { 
@@ -52,19 +52,18 @@
         }
         .nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
         .nav-pill-list li a.hot-link { 
-    color: #ff3b30; 
-    background: rgba(0, 0, 0, 0.8);
-    /* Dégradé Rouge vers Violet/Rose comme sur ta page HOT */
-    border: 2px solid;
-    border-image: linear-gradient(45deg, #ff3b30, #bc8cff, #8957e5) 1;
-    box-shadow: 0 0 15px rgba(255, 59, 48, 0.4), 0 0 15px rgba(137, 87, 229, 0.4);
-    transition: 0.3s;
+            color: #ff3b30; 
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid;
+            border-image: linear-gradient(45deg, #ff3b30, #bc8cff, #8957e5) 1;
+            box-shadow: 0 0 15px rgba(255, 59, 48, 0.4), 0 0 15px rgba(137, 87, 229, 0.4);
+            transition: 0.3s;
         }
         .nav-pill-list li a.hot-link:hover { 
-    transform: translateY(-2px);
-    box-shadow: 0 0 25px rgba(255, 59, 48, 0.6), 0 0 25px rgba(137, 87, 229, 0.6);
-    color: #fff;
-    border-image: linear-gradient(45deg, #bc8cff, #ff3b30, #bc8cff) 1;
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px rgba(255, 59, 48, 0.6), 0 0 25px rgba(137, 87, 229, 0.6);
+            color: #fff;
+            border-image: linear-gradient(45deg, #bc8cff, #ff3b30, #bc8cff) 1;
         }
 
         .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
@@ -74,7 +73,6 @@
         
         .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; text-align: left; }
         
-        /* CORRECTIF APPLIS */
         .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
         .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
         .app-card img { width: 100%; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; max-height: 120px; object-fit: contain; background: white; }
@@ -91,21 +89,21 @@
     <img src="https://i.ibb.co/QvdmXx25/ezgif-696103eaf902f96d.gif" alt="Force à toi" class="hero-img-full">
     <div class="container">
         <nav class="nav-pill-container">
-            <div style="width: 100%; text-align: center; padding: 10px 0; margin-bottom: 5px;">
-    <span style="
-        display: inline-block;
-        color: #eee6c4; /* Blanc cassé doré comme tes menus */
-        font-family: 'Courier New', Courier, monospace; 
-        font-size: 0.85rem; 
-        font-weight: bold;
-        letter-spacing: 1px;
-        border-bottom: 1px solid rgba(238, 230, 196, 0.3);
-        padding-bottom: 4px;
-    ">
-        https://antho-btx75.github.io/Roms/
-    </span>
+            <div style="width: 100%; text-align: center; padding: 0; margin: -18px 0 12px 0;">
+                <span style="
+                    display: inline-block;
+                    color: #eee6c4; 
+                    font-family: 'Courier New', Courier, monospace; 
+                    font-size: 0.85rem; 
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    border-bottom: 1px solid rgba(238, 230, 196, 0.3);
+                    padding-bottom: 4px;
+                ">
+                    https://antho-btx75.github.io/Roms/
+                </span>
             </div>
-            
+
             <ul class="nav-pill-list">
                 <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
                 <li><a href="#personne-preferee">💕 BFF</a></li>
@@ -121,8 +119,11 @@
                         <i class="fas fa-icons"></i> Chill & Fun</a>
                 </li>
                 <li><a href="https://antho-btx75.github.io/Roms/hot" class="hot-link"><i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞</a></li>
-                     </ul>
+            </ul>
         </nav>
+    </div>
+</header>
+    
 
         <div style="width: 100%; padding: 20px; text-align: center; background-color: transparent; box-sizing: border-box; min-height: 80px;">
     <p id="telex-message" style="font-family: 'Courier New', Courier, monospace; color: #a1a1a1; font-size: 1.1rem; letter-spacing: 1px; margin: 0; display: inline-block; line-height: 1.5; max-width: 100%;">
