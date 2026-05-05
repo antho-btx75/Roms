@@ -339,74 +339,51 @@
 <div style="width: 100%; padding: 30px 15px; text-align: center; background: transparent; box-sizing: border-box;">
     <div style="display: inline-block; text-align: left; max-width: 95%;">
         
-        <p id="gold-message" style="
+        <p style="
             font-family: 'Courier New', Courier, monospace; 
             color: #ffcc00; 
-            font-size: 1.3rem; 
+            font-size: 1.15rem; 
             font-weight: bold;
             letter-spacing: 1px; 
-            margin-bottom: 20px; 
+            margin-bottom: 25px; 
             line-height: 1.6;
             text-shadow: 0 0 15px rgba(255, 204, 0, 0.6);
-            animation: fadeInGold 1.5s ease forwards;
+            animation: pulseGold 3s infinite ease-in-out;
         ">
             BRANLE TOI MON GARS. Je veux que tu te fasses GRAVE PLAISIR mec, je veux que tu vides tes couilles jusqu'à ta dernière goutte de sperme. T'es mon pote, ma personne préférée, et celui qui fout le feu à mon calbard et t'es mon Dieu mon Roms, y'a que toi pour m'exciter autant... 🔥🥵
         </p>
 
-        <p id="telex-message" style="
+        <p style="
             font-family: 'Courier New', Courier, monospace; 
             color: #bc13fe; 
-            font-size: 1.3rem; 
+            font-size: 1.15rem; 
             font-weight: bold;
             letter-spacing: 1px; 
             margin: 0; 
-            display: inline; 
             line-height: 1.6;
             text-shadow: 0 0 15px rgba(188, 19, 254, 0.7);
-        "></p>
+            animation: pulsePurple 3s infinite ease-in-out 0.5s;
+        ">
+            J'ai trop de désirs pour toi mon gars, tu m'excites trop et chuis trop chaud du cul et de la teub 🔥 T'es un Dieu pour moi mon Roms, j'ai envie de baiser avec toi, côté bite ou fiak prends tt ce que tu veux, même virtuellement, et kiffe bien cet espace privé où tout est consacré à ton plaisir. C'est du prêt à branler sur mesure, et je l'ai fait pour toi car je te kiffe de fou gro 🔥🍆🍑🤤
+        </p>
 
-        <span id="cursor" style="
-            display: inline-block; 
-            width: 12px; 
-            height: 1.3rem; 
-            background-color: #bc13fe; 
-            margin-left: 4px; 
-            vertical-align: middle; 
-            animation: blink 0.8s infinite;
-            box-shadow: 0 0 18px #bc13fe;
-        "></span>
     </div>
 </div>
 
-<script>
-    const mainText = "J'ai trop de désirs pour toi mon gars, tu m'excites trop et chuis trop chaud du cul et de la teub 🔥 T'es un Dieu pour moi mon Roms, j'ai envie de baiser avec toi, côté bite ou fiak prends tt ce que tu veux, même virtuellement, et kiffe bien cet espace privé où tout est consacré à ton plaisir. C'est du prêt à branler sur mesure, et je l'ai fait pour toi car je te kiffe de fou gro 🔥🍆🍑🤤";
-    
-    const target = document.getElementById('telex-message');
-    const cursor = document.getElementById('cursor');
-    let index = 0;
-
-    function typeWriter() {
-        if (index < mainText.length) {
-            target.innerHTML += mainText.charAt(index);
-            index++;
-            setTimeout(typeWriter, 45); 
-        }
-    }
-
-    // On lance le télex après 1.5s (le temps que le message doré apparaisse bien)
-    setTimeout(typeWriter, 1500);
-</script>
-
 <style>
-    @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
+    /* Pulsation Dorée */
+    @keyframes pulseGold {
+        0%, 100% { opacity: 1; transform: scale(1); text-shadow: 0 0 15px rgba(255, 204, 0, 0.6); }
+        50% { opacity: 0.8; transform: scale(0.99); text-shadow: 0 0 25px rgba(255, 204, 0, 0.9); }
     }
-    @keyframes fadeInGold {
-        from { opacity: 0; transform: scale(0.95); }
-        to { opacity: 1; transform: scale(1); }
+    
+    /* Pulsation Pourpre (décalée pour un effet de vague) */
+    @keyframes pulsePurple {
+        0%, 100% { opacity: 1; transform: scale(1); text-shadow: 0 0 15px rgba(188, 19, 254, 0.7); }
+        50% { opacity: 0.8; transform: scale(0.99); text-shadow: 0 0 25px rgba(188, 19, 254, 1); }
     }
 </style>
+    
     
     
 <div class="container">
