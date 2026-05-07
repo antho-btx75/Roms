@@ -123,35 +123,41 @@
         </nav>
     </div>
 
-        <div style="width: 100%; padding: 20px; text-align: center; background-color: transparent; box-sizing: border-box; min-height: 80px;">
-    <p id="telex-message" style="font-family: 'Courier New', Courier, monospace; color: #ffec94; font-size: 1.1rem; letter-spacing: 1px; margin: 0; display: inline-block; line-height: 1.5; max-width: 100%;">
+<div style="margin: 25px auto; max-width: 95%; perspective: 1000px;">
+    <div style="
+        background: linear-gradient(135deg, rgba(15, 15, 15, 0.95), rgba(40, 30, 10, 0.9));
+        border: 1px solid #d4af37;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
+        font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        text-align: center;
+    ">
+        <div style="margin-bottom: 15px;">
+            <span style="
+                color: #d4af37; 
+                font-size: 0.85rem; 
+                font-weight: 900; 
+                text-transform: uppercase; 
+                letter-spacing: 2px;
+            ">
+                🌟 Un message pour mon Roms en or 🌟
+            </span>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 50px; margin-bottom: 15px;">
+            <audio controls style="width: 100%; height: 35px; filter: invert(90%) hue-rotate(180deg) brightness(1.2);">
+                <source src="https://audio.jukehost.co.uk/019e0336-5250-7234-a928-087bf0ea9ebe" type="audio/mpeg">
+                Ton navigateur ne supporte pas ce lecteur.
+            </audio>
+        </div>
+
+        <p style="color: #eee6c4; font-size: 0.8rem; line-height: 1.5; margin: 0; font-style: italic; opacity: 0.9;">
+            "Parce que je serai toujours là pour toi, peu importe le reste..."
         </p>
-    <span id="cursor" style="display: inline-block; width: 10px; height: 1.1rem; background-color: #ffffff; margin-left: 5px; vertical-align: middle; animation: blink 0.8s infinite;"></span>
+    </div>
 </div>
-
-<script>
-    const text = "Bon courage et Force à toi mon gars !!! Dis moi ce que je peux faire pour te rendre moins gris, je ferais tout pour toi mec 🥹💙💜. Tu te rends compte ça va faire 10 mois qu'on a le badge Super BFF 💕. J'te love de fou mon Roms.";
-    const target = document.getElementById('telex-message');
-    let index = 0;
-
-    function typeWriter() {
-        if (index < text.length) {
-            target.innerHTML += text.charAt(index);
-            index++;
-            setTimeout(typeWriter, 40); // Vitesse de frappe (40ms)
-        }
-    }
-
-    // Lance l'effet après un petit délai
-    setTimeout(typeWriter, 500);
-</script>
-
-<style>
-    @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-    }
-</style>
+    
 </header>
 
 
