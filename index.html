@@ -15,183 +15,162 @@
             --header-text: #e6edf3; 
             --card-bg: #161b22;
             --border-color: #30363d;
-            --hot-purple: #8957e5;
+            --hot-purple: #ff00ff;
             --gold-light: #fcf6ba;
             --gold-main: #bf953f;
             --gold-dark: #aa771c;
         }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--primary-dark); color: var(--text-main); line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
+
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
+            background-color: var(--primary-dark); 
+            color: var(--text-main); 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 0; 
+            scroll-behavior: smooth; 
+        }
+
         .container { max-width: 900px; margin: 0 auto; padding: 20px; }
         
-        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid var(--border-color); }
+        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); border-bottom: 1px solid var(--border-color); }
+        
         .hero-img-full { 
             width: 100%; height: auto; display: block; margin-bottom: 25px; border-bottom: 3px solid;
             border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1;
         }
 
-        .nav-pill-container { position: relative; z-index: 1000; padding: 0px 0 10px 0; background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; }
-        .nav-pill-list { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0; }
-        .nav-pill-list li a { 
-            text-decoration: none; color: var(--gold-light); font-size: 0.85em; font-weight: 700; padding: 8px 14px; 
-            background: #000; border: 2px solid; border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
-            display: flex; align-items: center; gap: 6px; transition: 0.2s; text-transform: uppercase; letter-spacing: 1px;
-        }
+        /* NAVIGATION PILL */
+        .nav-pill-container { padding: 10px 0; background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; }
         
-        /* État Désactivé pour le bouton HOT */
-        .nav-pill-list li a.hot-link-disabled { 
-            color: #666 !important; 
-            background: #222 !important;
-            border-image: none !important;
-            border: 2px solid #444 !important;
-            cursor: not-allowed;
-            opacity: 0.7;
-            box-shadow: none !important;
+        .nav-pill-list { 
+            list-style: none; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 10px; 
+            padding: 15px; 
+            background: rgba(255, 255, 255, 0.05); 
+            border-radius: 25px; 
+            border: 1px solid var(--border-color); 
+            margin: 0; 
         }
 
-        section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
-        h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        .nav-pill-list li {
+            flex: 0 1 calc(50% - 15px);
+            min-width: 140px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-pill-list li a:not(.btn-hot-cyber) { 
+            width: 100%;
+            text-decoration: none; 
+            color: var(--gold-light); 
+            font-size: 0.85em; 
+            font-weight: 700; 
+            padding: 10px 5px; 
+            background: #000; 
+            border: 2px solid; 
+            border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            gap: 6px; 
+            transition: 0.2s; 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+        }
+
+        .li-full-width { flex: 1 1 100% !important; max-width: 100% !important; }
+
+        /* BOUTON HOT CYBER */
+        @keyframes neonPulse {
+            0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
+            50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff, inset 0 0 10px #9d00ff; }
+            100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
+        }
+
+        .btn-hot-cyber {
+            display: block;
+            width: 100%;
+            max-width: 320px;
+            margin: 10px auto;
+            padding: 12px;
+            background: rgba(20, 0, 20, 0.9);
+            color: #ffccff !important;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border: 2px solid #ff00ff;
+            border-radius: 8px;
+            animation: neonPulse 2s infinite ease-in-out;
+            transition: 0.2s;
+        }
     </style>
 </head>
 <body>
 
 <header>
     <img src="https://i.ibb.co/QvdmXx25/ezgif-696103eaf902f96d.gif" alt="Force à toi" class="hero-img-full">
+    
     <div class="container">
+        <nav class="nav-pill-container">
+            <div style="width: 100%; text-align: center; padding: 0; margin: -18px 0 12px 0;">
+                <span style="display: inline-block; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgba(238, 230, 196, 0.3); padding-bottom: 4px;">
+                    https://antho-btx75.github.io/Roms/
+                </span>
+            </div>
 
-<div class="container">
-    <nav class="nav-pill-container">
-        <div style="width: 100%; text-align: center; padding: 0; margin: -18px 0 12px 0;">
-            <span style="display: inline-block; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgba(238, 230, 196, 0.3); padding-bottom: 4px;">
-                https://antho-btx75.github.io/Roms/
-            </span>
-        </div>
-
-        <style>
-            /* Correction du centrage de la liste */
-            .nav-pill-list {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center; /* CENTRE LES ÉLÉMENTS */
-                align-items: center;
-                padding: 0;
-                margin: 0;
-                list-style: none;
-                gap: 10px; /* Espace entre les boutons */
-            }
-
-            /* Style des puces pour l'alignement par deux */
-            .nav-pill-list li {
-                flex: 0 1 calc(50% - 15px); /* Deux par ligne sur mobile */
-                min-width: 140px;
-                display: flex;
-                justify-content: center;
-            }
-
-            /* Tes liens dorés */
-            .nav-pill-list li a:not(.btn-hot-cyber) {
-                width: 100%;
-                display: block;
-                padding: 10px 5px;
-                text-align: center;
-                border: 1px solid #d4af37;
-                color: #d4af37;
-                text-decoration: none;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-size: 0.8rem;
-                border-radius: 4px;
-            }
-
-            /* Animation et bouton HOT */
-            @keyframes neonPulse {
-                0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
-                50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff, inset 0 0 10px #9d00ff; }
-                100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
-            }
-
-            .li-full-width {
-                flex: 1 1 100% !important; /* Prend toute la largeur pour centrer le bouton HOT */
-                max-width: 100% !important;
-            }
-
-            .btn-hot-cyber {
-                display: block;
-                width: 100%;
-                max-width: 320px;
-                margin: 10px auto;
-                padding: 12px;
-                background: rgba(20, 0, 20, 0.9);
-                color: #ffccff !important;
-                text-align: center;
-                text-decoration: none;
-                font-weight: bold;
-                font-family: 'Arial', sans-serif;
-                text-transform: uppercase;
-                letter-spacing: 1.5px;
-                border: 2px solid #ff00ff;
-                border-radius: 8px;
-                animation: neonPulse 2s infinite ease-in-out;
-            }
-        </style>
-
-        <ul class="nav-pill-list">
-            <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
-            <li><a href="#personne-preferee">💕 BFF</a></li>
-            <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
-            <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
-            <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
-            <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
-            
-            <li class="li-full-width">
-                <a href="https://antho-btx75.github.io/Roms/hot" class="btn-hot-cyber">
-                    <i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞
-                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
+            <ul class="nav-pill-list">
+                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
+                <li><a href="#personne-preferee">💕 BFF</a></li>
+                <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
+                <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
+                <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
+                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
+                
+                <li class="li-full-width">
+                    <a href="https://antho-btx75.github.io/Roms/hot" class="btn-hot-cyber">
+                        <i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
         <div style="background: linear-gradient(135deg, #1a0a1a 0%, #2d0036 100%); color: #f8e1ff; padding: 40px 30px; border: 2px solid #ff00ff; border-radius: 20px; font-family: 'Georgia', serif; line-height: 1.8; text-align: center; box-shadow: 0 0 40px rgba(255, 0, 255, 0.2); margin: 30px auto; max-width: 650px;">
+            <div style="margin-bottom: 25px;">
+                <i class="fas fa-fire" style="font-size: 2.5em; color: #ff00ff; text-shadow: 0 0 15px rgba(255, 0, 255, 0.8);"></i>
+            </div>
+            <h2 style="color: #ff66ff; text-transform: uppercase; letter-spacing: 3px; font-size: 1.5em; margin-bottom: 30px; border-bottom: 1px solid rgba(255, 0, 255, 0.3); padding-bottom: 15px; text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);">
+                Je n'ai plus peur de t'aimer mon Romain 🥹
+            </h2>
+            <p style="font-size: 1.3em; color: #ffffff; margin-bottom: 25px;">
+                Dis-moi mon gars, mon Roms, mon Romain... <br>
+                <span style="color: #ff99ff; font-weight: bold; font-style: italic;">Qui suis-je réellement pour toi ?</span>
+            </p>
+            <div style="background: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px; border: 1px solid rgba(255, 0, 255, 0.2); margin-bottom: 25px;">
+                <p style="margin: 10px 0;">Ton pote ?</p>
+                <p style="margin: 10px 0; color: #ff77ff; font-weight: bold;">Ton mec raide dingue de toi ?</p>
+                <p style="margin: 10px 0; opacity: 0.6;">Ou juste un gars que l'on peut ignorer ?</p>
+            </div>
+            <p style="font-size: 1.2em; line-height: 1.6;">
+                Je suis juste ton <strong style="color: #ffffff; border-bottom: 2px solid #ff00ff;">Antho</strong>, <br>
+                le gars qui t'aime, te kiffe et te désire depuis plus de 10 ans. 
+            </p>
+            <p style="font-size: 1.4em; color: #ff33ff; font-weight: bold; margin-top: 30px; text-shadow: 0 0 15px rgba(255, 51, 255, 0.6);">
+                Je t'aime de fou mon Romain, et tu le sais...
+            </p>
+            <div style="margin-top: 35px; font-size: 0.9em; opacity: 0.5; font-style: italic; color: #ffccff;">
+                L'accès au Sanctuaire est un privilège, pas un dû.
+            </div>
+        </div>
 
-    <div style="margin-bottom: 25px;">
-        <i class="fas fa-fire" style="font-size: 2.5em; color: #ff00ff; text-shadow: 0 0 15px rgba(255, 0, 255, 0.8);"></i>
-    </div>
-
-    <h2 style="color: #ff66ff; text-transform: uppercase; letter-spacing: 3px; font-size: 1.5em; margin-bottom: 30px; border-bottom: 1px solid rgba(255, 0, 255, 0.3); padding-bottom: 15px; text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);">
-        Je n'ai plus peur de t'aimer mon Romain 🥹
-    </h2>
-
-    <p style="font-size: 1.3em; color: #ffffff; margin-bottom: 25px;">
-        Dis-moi mon gars, mon Roms, mon Romain... <br>
-        <span style="color: #ff99ff; font-weight: bold; font-style: italic;">Qui suis-je réellement pour toi ?</span>
-    </p>
-
-    <div style="background: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px; border: 1px solid rgba(255, 0, 255, 0.2); margin-bottom: 25px;">
-        <p style="margin: 10px 0;">Ton pote ?</p>
-        <p style="margin: 10px 0; color: #ff77ff; font-weight: bold;">Ton mec raide dingue de toi ?</p>
-        <p style="margin: 10px 0; opacity: 0.6;">Ou juste un gars que l'on peut ignorer ?</p>
-    </div>
-
-    <p style="font-size: 1.2em; line-height: 1.6;">
-        Je suis juste ton <strong style="color: #ffffff; border-bottom: 2px solid #ff00ff;">Antho</strong>, <br>
-        le gars qui t'aime, te kiffe et te désire depuis plus de 10 ans. 
-    </p>
-
-    <p style="font-size: 1.4em; color: #ff33ff; font-weight: bold; margin-top: 30px; text-shadow: 0 0 15px rgba(255, 51, 255, 0.6);">
-        Je t'aime de fou mon Romain, et tu le sais...
-    </p>
-
-    <div style="margin-top: 35px; font-size: 0.9em; opacity: 0.5; font-style: italic; color: #ffccff;">
-        L'accès au Sanctuaire est un privilège, pas un dû.
-    </div>
-
-</div>
-
-
-<div style="background-color: #111; color: #d4af37; padding: 30px; border: 1px solid #d4af37; border-radius: 15px; font-family: sans-serif; line-height: 1.6; text-align: left; box-shadow: 0 0 25px rgba(212, 175, 55, 0.15); margin-bottom: 30px;">
-
-        <div style="margin: 25px auto; perspective: 1000px;">
-            <div style="background: linear-gradient(135deg, rgba(15, 15, 15, 0.95), rgba(40, 30, 10, 0.9)); border: 1px solid #d4af37; padding: 20px; border-radius: 15px; box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2); font-family: 'Trebuchet MS', Helvetica, sans-serif; text-align: center;">
+        <div style="margin: 25px auto; max-width: 650px; perspective: 1000px;">
+            <div style="background: linear-gradient(135deg, rgba(15, 15, 15, 0.95), rgba(40, 30, 10, 0.9)); border: 1px solid #d4af37; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2); font-family: 'Trebuchet MS', Helvetica, sans-serif; text-align: center;">
                 <div style="margin-bottom: 15px;">
                     <span style="color: #ffe169; font-size: 0.85rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px;">
                         🌟 Un message pour mon Roms, un gars en or 🌟
@@ -202,15 +181,13 @@
                         <source src="https://audio.jukehost.co.uk/019e0336-5250-7234-a928-087bf0ea9ebe" type="audio/mpeg">
                     </audio>
                 </div>
-                <p style="color: #eee6c4; font-size: 0.8rem; line-height: 1.5; margin: 0; font-style: italic; opacity: 0.9;">
+                <p style="color: #eee6c4; font-size: 0.9rem; line-height: 1.5; margin: 0; font-style: italic; opacity: 0.9;">
                     "Parce que je serai toujours là pour toi, peu importe le reste..."
                 </p>
             </div>
         </div>
     </div>
 </header>
-
-
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
             <div style="position: absolute; top: 8px; right: 12px; color: var(--gold-main); font-size: 0.65em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5;">
