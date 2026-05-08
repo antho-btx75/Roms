@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>ROMS - Mon gars en OR</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -21,27 +21,50 @@
             --gold-dark: #aa771c;
         }
 
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
-            background-color: var(--primary-dark); 
-            color: var(--text-main); 
-            line-height: 1.6; 
+        /* Verrouillage du scroll horizontal */
+        html, body { 
+            max-width: 100%; 
+            overflow-x: hidden; 
             margin: 0; 
             padding: 0; 
-            scroll-behavior: smooth; 
+            background-color: var(--primary-dark); 
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            scroll-behavior: smooth;
         }
 
-        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        * { box-sizing: border-box; }
+
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 10px 20px; 
+        }
         
-        header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); border-bottom: 1px solid var(--border-color); }
+        header { 
+            text-align: center; 
+            padding: 0 0 40px 0; 
+            background-color: var(--header-bg); 
+            border-bottom: 1px solid var(--border-color); 
+        }
         
         .hero-img-full { 
-            width: 100%; height: auto; display: block; margin-bottom: 25px; border-bottom: 3px solid;
+            width: 100%; 
+            height: auto; 
+            display: block; 
+            margin-bottom: 25px; 
+            border-bottom: 3px solid;
             border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1;
         }
 
         /* NAVIGATION PILL */
-        .nav-pill-container { padding: 10px 0; background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; }
+        .nav-pill-container { 
+            padding: 10px 0; 
+            background: rgba(13, 17, 23, 0.95); 
+            backdrop-filter: blur(10px); 
+            margin-bottom: 25px; 
+        }
         
         .nav-pill-list { 
             list-style: none; 
@@ -84,11 +107,11 @@
 
         .li-full-width { flex: 1 1 100% !important; max-width: 100% !important; }
 
-        /* BOUTON HOT CYBER */
+        /* BOUTON HOT CYBER ANIMÉ */
         @keyframes neonPulse {
-            0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
-            50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff, inset 0 0 10px #9d00ff; }
-            100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
+            0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff; }
+            50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff; }
+            100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff; }
         }
 
         .btn-hot-cyber {
@@ -188,6 +211,7 @@
         </div>
     </div>
 </header>
+    
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
             <div style="position: absolute; top: 8px; right: 12px; color: var(--gold-main); font-size: 0.65em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5;">
