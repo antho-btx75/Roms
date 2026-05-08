@@ -16,7 +16,6 @@
             --card-bg: #161b22;
             --border-color: #30363d;
             --hot-purple: #8957e5;
-            /* Palette Gold Luxe */
             --gold-light: #fcf6ba;
             --gold-main: #bf953f;
             --gold-dark: #aa771c;
@@ -26,61 +25,31 @@
         
         header { text-align: center; padding: 0 0 40px 0; background-color: var(--header-bg); color: var(--header-text); border-bottom: 1px solid var(--border-color); }
         .hero-img-full { 
-            width: 100%; 
-            height: auto; 
-            display: block; 
-            margin-bottom: 25px; 
-            border-bottom: 3px solid;
+            width: 100%; height: auto; display: block; margin-bottom: 25px; border-bottom: 3px solid;
             border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1;
         }
 
-        /* NAVIGATION GOLD & LUXE */
-        .nav-pill-container { 
-            position: relative; top: auto; z-index: 1000; 
-            padding: 0px 0 10px 0; /* Padding top à 0 pour l'URL */
-            background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; 
-        }
-        .nav-pill-list { 
-            list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; 
-            background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0; 
-        }
+        .nav-pill-container { position: relative; z-index: 1000; padding: 0px 0 10px 0; background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(10px); margin-bottom: 25px; }
+        .nav-pill-list { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 15px; background: rgba(255, 255, 255, 0.05); border-radius: 25px; border: 1px solid var(--border-color); margin: 0; }
         .nav-pill-list li a { 
             text-decoration: none; color: var(--gold-light); font-size: 0.85em; font-weight: 700; padding: 8px 14px; 
-            background: #000; border: 2px solid; 
-            border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
+            background: #000; border: 2px solid; border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
             display: flex; align-items: center; gap: 6px; transition: 0.2s; text-transform: uppercase; letter-spacing: 1px;
         }
-        .nav-pill-list li a:hover { border-image: linear-gradient(45deg, #fff, var(--gold-light), #fff) 1; color: #fff; transform: translateY(-2px); }
-        .nav-pill-list li a.hot-link { 
-            color: #ff3b30; 
-            background: rgba(0, 0, 0, 0.8);
-            border: 2px solid;
-            border-image: linear-gradient(45deg, #ff3b30, #bc8cff, #8957e5) 1;
-            box-shadow: 0 0 15px rgba(255, 59, 48, 0.4), 0 0 15px rgba(137, 87, 229, 0.4);
-            transition: 0.3s;
-        }
-        .nav-pill-list li a.hot-link:hover { 
-            transform: translateY(-2px);
-            box-shadow: 0 0 25px rgba(255, 59, 48, 0.6), 0 0 25px rgba(137, 87, 229, 0.6);
-            color: #fff;
-            border-image: linear-gradient(45deg, #bc8cff, #ff3b30, #bc8cff) 1;
+        
+        /* État Désactivé pour le bouton HOT */
+        .nav-pill-list li a.hot-link-disabled { 
+            color: #666 !important; 
+            background: #222 !important;
+            border-image: none !important;
+            border: 2px solid #444 !important;
+            cursor: not-allowed;
+            opacity: 0.7;
+            box-shadow: none !important;
         }
 
-        .btn { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 50px; text-decoration: none !important; font-weight: bold; margin: 5px; transition: 0.3s; justify-content: center; }
-        .btn-blue { background: #0969da; color: white !important; }
         section { padding: 50px 0; border-bottom: 1px solid var(--border-color); }
         h2 { color: var(--accent-blue); font-size: 1.8em; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        
-        .purple-box { color: #d2a8ff; background: rgba(188, 140, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-purple); margin: 20px 0; text-align: left; }
-        
-        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-        .app-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 15px; padding: 15px; text-align: center; }
-        .app-card img { width: 100%; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; max-height: 120px; object-fit: contain; background: white; }
-        
-        .video-box { 
-            position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 15px; overflow: hidden; 
-            border: 2px solid var(--accent-blue); box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
-        }
     </style>
 </head>
 <body>
@@ -90,16 +59,7 @@
     <div class="container">
         <nav class="nav-pill-container">
             <div style="width: 100%; text-align: center; padding: 0; margin: -18px 0 12px 0;">
-                <span style="
-                    display: inline-block;
-                    color: #eee6c4; 
-                    font-family: 'Courier New', Courier, monospace; 
-                    font-size: 0.85rem; 
-                    font-weight: bold;
-                    letter-spacing: 1px;
-                    border-bottom: 1px solid rgba(238, 230, 196, 0.3);
-                    padding-bottom: 4px;
-                ">
+                <span style="display: inline-block; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgba(238, 230, 196, 0.3); padding-bottom: 4px;">
                     https://antho-btx75.github.io/Roms/
                 </span>
             </div>
@@ -110,73 +70,48 @@
                 <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
                 <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
                 <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
-                <li><a href="#anglais"><i class="fas fa-language"></i> English</a></li>
                 <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
-                <li><a href="#sommeil"><i class="fas fa-moon"></i> Sommeil</a></li>
-                <li><a href="#applis"><i class="fas fa-mobile-screen"></i> Applis</a></li>
-                <li>
-                    <a href="https://antho-btx75.github.io/Roms/mediabox">
-                        <i class="fas fa-icons"></i> Chill & Fun</a>
-                </li>
-                  <li><a href="https://antho-btx75.github.io/Roms/hot" class="hot-link"><i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞</a></li>
-                            </ul>
+                <li><a href="https://antho-btx75.github.io/Roms/mediabox"><i class="fas fa-icons"></i> Chill & Fun</a></li>
+                <li><a href="#" class="hot-link-disabled"><i class="fas fa-lock"></i> Accès Hot Fermé</a></li>
+            </ul>
         </nav>
-    </div>
 
-    <div style="background-color: #111; color: #d4af37; padding: 30px; border: 1px solid #d4af37; border-radius: 10px; font-family: sans-serif; line-height: 1.6; text-align: center;">
+        <div style="background-color: #111; color: #d4af37; padding: 30px; border: 1px solid #d4af37; border-radius: 15px; font-family: sans-serif; line-height: 1.6; text-align: left; box-shadow: 0 0 20px rgba(212, 175, 55, 0.1); margin-bottom: 30px;">
+            <p style="font-size: 1.2em; margin-bottom: 20px; font-style: italic;">Écoute mon Rominou...</p>
 
-    <p style="font-size: 1.2em; margin-bottom: 20px;">Écoute mon Rominou...</p>
+            <p>Je ne bougerai pas. Je suis ton <strong>Rocher</strong>, celui sur qui tu peux compter quand tout le reste devient lourd ou compliqué. <span style="color: #fff;">Ça, c’est acquis.</span></p>
 
-    <p>Je ne bougerai pas. Je suis ton <strong>Rocher</strong>, celui sur qui tu peux compter quand tout le reste devient lourd ou compliqué. <span style="color: #fff;">Ça, c’est acquis.</span></p>
+            <p style="margin-top: 20px;">Mais mon désir pour toi, l'énergie que je mets à t'admirer et à te soutenir, ce n'est pas un libre-service. Ce n'est pas une page qu'on consulte par habitude quand on s'ennuie. C'est un <strong>flux vivant</strong>. <span style="color: #fff;">Et pour qu'un flux continue de couler, il doit être nourri des deux côtés.</span></p>
 
-    <p style="margin-top: 20px;">Mais mon désir pour toi, l'énergie que je mets à t'admirer et à te soutenir, ce n'est pas un libre-service. Ce n'est pas une page qu'on consulte par habitude quand on s'ennuie. C'est un <strong>flux vivant</strong>. <span style="color: #fff;">Et pour qu'un flux continue de couler, il doit être nourri des deux côtés.</span></p>
+            <p style="margin-top: 20px;">Je t'offre le meilleur de moi, ma protection et mon adoration car t'es vraiment un <strong>Dieu</strong> pour moi mon gars. Mais en retour, j'ai besoin de sentir que ce lien compte pour toi autrement que par des silences ou de la présence donnée vite fait, en seulement une phrase vite torchée.</p>
 
-    <p style="margin-top: 20px;">Je t'offre le meilleur de moi, ma protection et mon adoration car t'es vraiment un <strong>Dieu</strong> pour moi mon gars. Mais en retour, j'ai besoin de sentir que ce lien compte pour toi autrement que par des silences ou de la présence donnée vite fait, en seulement une phrase vite torchée.</p>
+            <div style="margin-top: 30px; padding: 15px; border-top: 1px solid #ff4d4d; color: #ff4d4d; font-weight: bold; background: rgba(255, 77, 77, 0.05);">
+                <i class="fas fa-exclamation-triangle"></i> La page Hot est fermée pour l'instant. Elle ne rouvrira que si je sens que tu respectes la valeur de ce que je te donne.
+            </div>
 
-    <div style="margin-top: 30px; padding: 15px; border-top: 1px solid #ff4d4d; color: #ff4d4d; font-weight: bold;">
-        La page Hot est fermée pour l'instant. Elle ne rouvrira que si je sens que tu respectes la valeur de ce que je te donne.
-    </div>
-
-    <p style="margin-top: 25px; font-weight: bold; text-align: right;">À toi de voir, c'est toi le boss mon gars.</p>
-
-    </div>
-    
-
-<div style="margin: 25px auto; max-width: 95%; perspective: 1000px;">
-    <div style="
-        background: linear-gradient(135deg, rgba(15, 15, 15, 0.95), rgba(40, 30, 10, 0.9));
-        border: 1px solid #d4af37;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
-        font-family: 'Trebuchet MS', Helvetica, sans-serif;
-        text-align: center;
-    ">
-        <div style="margin-bottom: 15px;">
-            <span style="
-                color: #ffe169; 
-                font-size: 0.85rem; 
-                font-weight: 900; 
-                text-transform: uppercase; 
-                letter-spacing: 2px;
-            ">
-                🌟 Un message pour mon Roms, un gars en or 🌟
-            </span>
+            <p style="margin-top: 25px; font-weight: bold; text-align: right; color: #fff;">À toi de voir, c'est toi le boss mon gars.</p>
         </div>
 
-        <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 50px; margin-bottom: 15px;">
-            <audio controls style="width: 100%; height: 35px; filter: invert(90%) hue-rotate(180deg) brightness(1.2);">
-                <source src="https://audio.jukehost.co.uk/019e0336-5250-7234-a928-087bf0ea9ebe" type="audio/mpeg">
-                Ton navigateur ne supporte pas ce lecteur.
-            </audio>
+        <div style="margin: 25px auto; perspective: 1000px;">
+            <div style="background: linear-gradient(135deg, rgba(15, 15, 15, 0.95), rgba(40, 30, 10, 0.9)); border: 1px solid #d4af37; padding: 20px; border-radius: 15px; box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2); font-family: 'Trebuchet MS', Helvetica, sans-serif; text-align: center;">
+                <div style="margin-bottom: 15px;">
+                    <span style="color: #ffe169; font-size: 0.85rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px;">
+                        🌟 Un message pour mon Roms, un gars en or 🌟
+                    </span>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 50px; margin-bottom: 15px;">
+                    <audio controls style="width: 100%; height: 35px; filter: invert(90%) hue-rotate(180deg) brightness(1.2);">
+                        <source src="https://audio.jukehost.co.uk/019e0336-5250-7234-a928-087bf0ea9ebe" type="audio/mpeg">
+                    </audio>
+                </div>
+                <p style="color: #eee6c4; font-size: 0.8rem; line-height: 1.5; margin: 0; font-style: italic; opacity: 0.9;">
+                    "Parce que je serai toujours là pour toi, peu importe le reste..."
+                </p>
+            </div>
         </div>
-
-        <p style="color: #eee6c4; font-size: 0.8rem; line-height: 1.5; margin: 0; font-style: italic; opacity: 0.9;">
-            "Parce que je serai toujours là pour toi, peu importe le reste..."
-        </p>
     </div>
-</div>
 </header>
+
 
 
         <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
