@@ -72,38 +72,44 @@
                 <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
                 <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
                 <style>
-@keyframes pourpreOscillation {
-    0% { border-color: #ff00ff; box-shadow: 0 0 10px #ff00ff; } /* Rose */
-    50% { border-color: #ff0000; box-shadow: 0 0 20px #ff0000; } /* Rouge */
-    100% { border-color: #800080; box-shadow: 0 0 10px #800080; } /* Pourpre */
+@keyframes neonPulse {
+    0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
+    50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff, inset 0 0 10px #9d00ff; }
+    100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
 }
 
-.hot-link-premium {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #000;
-    color: #fff !important;
+.btn-hot-cyber {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 12px;
+    background: rgba(20, 0, 20, 0.9); /* Fond sombre presque noir */
+    color: #ffccff !important;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
-    border: 3px solid #ff0000; /* Bordure de base */
-    border-radius: 50px;
+    font-family: 'Arial', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: all 0.3s ease;
-    animation: pourpreOscillation 3s infinite alternate; /* L'oscillation */
+    letter-spacing: 1.5px;
+    border: 2px solid #ff00ff;
+    border-radius: 8px;
+    animation: neonPulse 2s infinite ease-in-out;
+    transition: transform 0.2s;
 }
 
-.hot-link-premium:hover {
-    transform: scale(1.05);
-    background-color: #1a0000;
+.btn-hot-cyber:hover {
+    transform: scale(1.02);
+    background: rgba(40, 0, 40, 1);
 }
 </style>
 
 <li>
-    <a href="https://antho-btx75.github.io/Roms/hot" class="hot-link-premium">
+    <a href="https://antho-btx75.github.io/Roms/hot" class="btn-hot-cyber">
         <i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞
     </a>
 </li>
+
 
                 
             </ul>
