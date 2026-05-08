@@ -71,11 +71,40 @@
                 <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
                 <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
                 <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
-                <li><a href="https://antho-btx75.github.io/Roms/
-    <a href="https://antho-btx75.github.io/Roms/hot" class="hot-link">
+                <style>
+@keyframes pourpreOscillation {
+    0% { border-color: #ff00ff; box-shadow: 0 0 10px #ff00ff; } /* Rose */
+    50% { border-color: #ff0000; box-shadow: 0 0 20px #ff0000; } /* Rouge */
+    100% { border-color: #800080; box-shadow: 0 0 10px #800080; } /* Pourpre */
+}
+
+.hot-link-premium {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid #ff0000; /* Bordure de base */
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    animation: pourpreOscillation 3s infinite alternate; /* L'oscillation */
+}
+
+.hot-link-premium:hover {
+    transform: scale(1.05);
+    background-color: #1a0000;
+}
+</style>
+
+<li>
+    <a href="https://antho-btx75.github.io/Roms/hot" class="hot-link-premium">
         <i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞
     </a>
-                </li>
+</li>
+
                 
             </ul>
         </nav>
