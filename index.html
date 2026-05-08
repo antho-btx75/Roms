@@ -57,63 +57,99 @@
 <header>
     <img src="https://i.ibb.co/QvdmXx25/ezgif-696103eaf902f96d.gif" alt="Force à toi" class="hero-img-full">
     <div class="container">
-        <nav class="nav-pill-container">
-            <div style="width: 100%; text-align: center; padding: 0; margin: -18px 0 12px 0;">
-                <span style="display: inline-block; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgba(238, 230, 196, 0.3); padding-bottom: 4px;">
-                    https://antho-btx75.github.io/Roms/
-                </span>
-            </div>
 
-            <ul class="nav-pill-list">
-                <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
-                <li><a href="#personne-preferee">💕 BFF</a></li>
-                <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
-                <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
-                <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
-                <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
-                <style>
-@keyframes neonPulse {
-    0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
-    50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff, inset 0 0 10px #9d00ff; }
-    100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
-}
+<div class="container">
+    <nav class="nav-pill-container">
+        <div style="width: 100%; text-align: center; padding: 0; margin: -18px 0 12px 0;">
+            <span style="display: inline-block; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgba(238, 230, 196, 0.3); padding-bottom: 4px;">
+                https://antho-btx75.github.io/Roms/
+            </span>
+        </div>
 
-.btn-hot-cyber {
-    display: block;
-    width: 100%;
-    max-width: 320px;
-    margin: 15px auto;
-    padding: 12px;
-    background: rgba(20, 0, 20, 0.9); /* Fond sombre presque noir */
-    color: #ffccff !important;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Arial', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    border: 2px solid #ff00ff;
-    border-radius: 8px;
-    animation: neonPulse 2s infinite ease-in-out;
-    transition: transform 0.2s;
-}
+        <style>
+            /* Correction du centrage de la liste */
+            .nav-pill-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center; /* CENTRE LES ÉLÉMENTS */
+                align-items: center;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                gap: 10px; /* Espace entre les boutons */
+            }
 
-.btn-hot-cyber:hover {
-    transform: scale(1.02);
-    background: rgba(40, 0, 40, 1);
-}
-</style>
+            /* Style des puces pour l'alignement par deux */
+            .nav-pill-list li {
+                flex: 0 1 calc(50% - 15px); /* Deux par ligne sur mobile */
+                min-width: 140px;
+                display: flex;
+                justify-content: center;
+            }
 
-<li>
-    <a href="https://antho-btx75.github.io/Roms/hot" class="btn-hot-cyber">
-        <i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞
-    </a>
-</li>
+            /* Tes liens dorés */
+            .nav-pill-list li a:not(.btn-hot-cyber) {
+                width: 100%;
+                display: block;
+                padding: 10px 5px;
+                text-align: center;
+                border: 1px solid #d4af37;
+                color: #d4af37;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 0.8rem;
+                border-radius: 4px;
+            }
 
+            /* Animation et bouton HOT */
+            @keyframes neonPulse {
+                0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
+                50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff, inset 0 0 10px #9d00ff; }
+                100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, inset 0 0 5px #ff00ff; }
+            }
 
-                
-            </ul>
-        </nav>
+            .li-full-width {
+                flex: 1 1 100% !important; /* Prend toute la largeur pour centrer le bouton HOT */
+                max-width: 100% !important;
+            }
+
+            .btn-hot-cyber {
+                display: block;
+                width: 100%;
+                max-width: 320px;
+                margin: 10px auto;
+                padding: 12px;
+                background: rgba(20, 0, 20, 0.9);
+                color: #ffccff !important;
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Arial', sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                border: 2px solid #ff00ff;
+                border-radius: 8px;
+                animation: neonPulse 2s infinite ease-in-out;
+            }
+        </style>
+
+        <ul class="nav-pill-list">
+            <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
+            <li><a href="#personne-preferee">💕 BFF</a></li>
+            <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
+            <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
+            <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
+            <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
+            
+            <li class="li-full-width">
+                <a href="https://antho-btx75.github.io/Roms/hot" class="btn-hot-cyber">
+                    <i class="fas fa-fire"></i> Plaisir et Kiff HOT 🔥🔞
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
         <div style="background: linear-gradient(135deg, #1a0a1a 0%, #2d0036 100%); color: #f8e1ff; padding: 40px 30px; border: 2px solid #ff00ff; border-radius: 20px; font-family: 'Georgia', serif; line-height: 1.8; text-align: center; box-shadow: 0 0 40px rgba(255, 0, 255, 0.2); margin: 30px auto; max-width: 650px;">
 
