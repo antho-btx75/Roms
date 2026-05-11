@@ -177,6 +177,49 @@
             color: var(--text-main);
             font-style: italic;
         }
+        /* Grille des applications */
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+/* Carte de chaque application */
+.app-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Empêche tout débordement */
+}
+
+/* RÉGLAGE DES IMAGES POUR QU'ELLES NE SORTENT PAS */
+.app-card img {
+    width: 100%;       /* Prend toute la largeur de la carte */
+    height: 100px;     /* Hauteur fixe pour l'alignement */
+    object-fit: cover; /* Recadre l'image proprement sans la déformer */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.app-card p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+    line-height: 1.3;
+}
+
+.app-card small {
+    color: #8b949e;
+    display: block;
+    margin-top: 5px;
+}
+        
         
     </style>
 </head>
