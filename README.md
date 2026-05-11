@@ -1,6 +1,8 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
-[🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro. [Je t'aime frère](https://drive.google.com/file/d/1s-o6jFbxz4Aa4bVTS6_WmUA6raMoX1dP/view?usp=drivesdk) 💙
+[🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
+
+[🎙️ Écoute frère 🙏🏻](https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk)
 
 - [T'es mon Roms, et je suis ton Antho](#tes-mon-roms-et-je-suis-ton-antho)
 - [Tu es ma personne préférée 💙💜](#tu-es-ma-personne-préférée)
@@ -11,9 +13,8 @@
 - [Veuchs](#veuchs)
 - [Sommeil et cogitations](#sommeil-et-cogitations)
 - [Applis et Liens utiles](#applis-et-liens-utiles)
-- [C'est trop chaud ce que tu provoques en moi gro](#tes-trop-bandant-mon-gars) 🥵
-  
-[J'ai besoin de te dire ce que je ressens pour toi mec](#je-suis-ton-rocher-avant-tout), et je serai toujours ton Rocher 💪🏻
+
+[C'est très fort ce que je ressens pour toi](#je-suis-ton-rocher-avant-tout) et je serai toujours ton Rocher mec 💪🏻
 
 ---
 
@@ -25,7 +26,7 @@ There's no easy way out.
 
 TON SOLDAT, ton gars sûr 💪🏻🫡
 
-Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors, et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
+Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
 
 Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.
 
@@ -33,21 +34,17 @@ Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être
 
 Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... 
 
-Et la nuit [je kiffais trop t'entendre ronfler mon gars 😅🥹🥹](https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk)
-
 La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. Je suis ton soldat frère.
 
 Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai j'ai réellement kiffé ces films. A 200% !!
 
-Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
+La nuit je t’entendais ronfler gro, et je trouvais ça tellement mignon d’entendre mon Roms ronfler quand je me levais la nuit pour pisser ou le matin quand je préparais le petit dej ou le programme du jour. On était bien, on était tranquille, et j’entendais mon Romain, ce mec de plus de 80 kilos en train de ronfler comme un gros bébé mais je kiffais ça de fou ptn 😂
 
-Et excuse pour le liquide au niveau de la teub sur mon short de nuit quand j'étais dans ta piaule à Barcelone. J’ai essayé de contrôler l’érection mais le precum je pouvais pas contrôler, tu me fais trop bander et mouiller du cul mdrr, Je m’en suis rendu compte en regardant mon short 🤣🤣🤣
+Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂
 
 L'ensemble du Barça je te l’aurai acheté direct gars. Justement quand t’as dit que personne te faisait des cadeaux je voulais encore plus te l’offrir 😭😭😭
 
 T’aurais été tellement stylé dedans.
-
-Gro laisse moi te faire cadeau de [ce maillot](https://drive.google.com/file/d/1ivbHtG3KJW237-7OHx8gXg77W2JknZy7/view?usp=drivesdk). Et la bosse au niveau du survet gris Kaporal c’est aussi un cadeau pour toi mon Roms 😅🥵
 
 Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.
 
@@ -80,7 +77,7 @@ Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment e
 
 Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand on était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr.
 
-C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hui.Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également.
+C'est terrible l'attachement que j'ai pour toi ptn. Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également.
 
 ## Veuchs
 [Stratégie capillaire : Colagea + romarin](https://antho-btx75.github.io/Roms/Veuchs.html)
@@ -93,9 +90,9 @@ C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hu
 
 [vidéo Menton/Monaco (mdp : Gfcarrefour)](https://vimeo.com/1112712825?share=copy&fl=sv&fe=ci)
 
-[Ton t shirt Lacoste mauve frère 🤣](https://drive.google.com/file/d/1bnXYMzCWsGKFS1381NraHA8T4HP4Rnm3/view?usp=drivesdk)
+[Ton t shirt Lacoste mauve frère 🤣](https://drive.google.com/file/d/1STkYqj6xQlgAQ7J6nQRefJj4JpmchsUu/view?usp=drivesdk)
 
-[![Ton T shirt Lacoste mauve](https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg)](https://drive.google.com/file/d/1bnXYMzCWsGKFS1381NraHA8T4HP4Rnm3/view?usp=drivesdk)
+[![Ton T shirt Lacoste mauve](https://i.ibb.co/d3YZNZZ/IMG-20260305-230349.jpg)](https://drive.google.com/file/d/1STkYqj6xQlgAQ7J6nQRefJj4JpmchsUu/view?usp=drivesdk)
 
 ## Taff
 [CV Romain](https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit)
@@ -114,12 +111,6 @@ La meilleure app pour apprendre et améliorer son niveau d'anglais. Quand on ét
 
 ## Je suis ton Rocher avant tout 
 Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.
-
-[🎙️ Je te kiffe de fou mec, c'est si fort ce que je ressens pour toi](https://drive.google.com/file/d/1JQQ7lZX1M6A_qwsZbww-MFoRPX8Ndgrj/view?usp=drivesdk), j'ai besoin d'être là pour toi.
-
-[🎙️ Je veux juste être ton gars sûr frère](https://drive.google.com/file/d/1zgqfyeLq4peY7fxAIq6LHuvUoeN_44KY/view?usp=drivesdk) quelque soit ce que je ressens en moi et toutes les envies que tu provoques en moi. Je suis fidèle au poste pour toi 💪🏻
-
-[🎙️ Parle moi mon gars](https://drive.google.com/file/d/1kyJrDz3VkxyueAcg-FbGxgZaZGXO4XQJ/view?usp=drivesdk). Je laisse ce vocal car l'autre soir j'étais vraiment au fond du trou. J'ai tellement peur de te perdre mec que parfois j'interprète mal les silences. T'es trop important pour moi 🥹🥹
 
 [🎙️ Et je serai toujours Ton Rocher](https://drive.google.com/file/d/1XIY1hdrMeQ1TQmC_xd3W-yi_dox9faLC/view?usp=drivesdk).
 
@@ -140,66 +131,6 @@ Ce que je ressens pour toi ça regarde personne d'autre que toi et moi, et j'ai 
 Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💪🏻💪🏻
 
 Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.
-
-## T'es trop bandant mon gars
-
-[🆙 Baise mon cul mon gars](https://drive.google.com/file/d/1YoSEkSARK9IVKCjjuBa1zkKSWr0WLvJW/view?usp=drivesdk) je veux sentir ton sperme dans mon baltrou 🍑 💦 🥵
-
-[🆙 Suce moi la teub mec](https://drive.google.com/file/d/1mg39FI0A35Gmpu_JbGMa0Ur3B2lJiB-7/view?usp=drivesdk) tu me fais trop bander ptn 🍆🥵
-
----
-
-[Teub](https://drive.google.com/file/d/1FQP7cdH-iHLD9x-T-ZzPE7N0GJTrGXHj/view?usp=drivesdk) / [Chupa Chups](https://drive.google.com/file/d/1ISmr7bpd-CUAt_y3pRMC11U-z_cV29e4/view?usp=drivesdk)
-
-[Trou de balle](https://drive.google.com/file/d/1GuHKfdfa4ZL3CivcGmKpoojIH6H6c-6c/view?usp=drivesdk) / [Mon zgeg](https://drive.google.com/file/d/1sf_veIL5Vfmw8UMo_eN_hhFyeQNWs3pD/view?usp=drivesdk) / [Fion](https://drive.google.com/file/d/1VkFhTcRIJw9vFGhs7speTxAKBgq3I7yP/view?usp=drivesdk) / [Teub et baltrou](https://drive.google.com/file/d/1oj23jRUB1gpvMvcqNe34UmNWFmh_UR56/view?usp=drivesdk)
-
-[Côté bite 🍆](https://drive.google.com/file/d/1_RqV0fRWo4JZhznNl804kO74UclHBBCk/view?usp=drivesdk)
-
-Et [côté cul 🍑](https://drive.google.com/file/d/1iyWvTGqp6oR29a5yIubuBXLbEFW88tTM/view?usp=drivesdk)
-
-[Me-sper](https://drive.google.com/file/d/1AOPd46Yiww7eIQH91XWZT84ISkLLOUm8/view?usp=drivesdk) / [Me-sper 2](https://drive.google.com/file/d/15zjJRpkDGyMqiL6i99baJHeUlXyrzefY/view?usp=drivesdk)
-
----
-
-Sérieux mec, [🎙️ pourquoi t'es aussi bandant putain.](https://drive.google.com/file/d/1aOM8EDkYEpNj3LeclsKjtdQsCnqdhz4a/view?usp=drivesdk).  
-
-[NEW 📹 Tes fesses me font bander direct et bien DUR, j'ai la bite en feu et au garde à vous pour toi Romain](https://drive.google.com/file/d/13uvuYM7GUNpDwhzvtc5rkneILRN8otbo/view?usp=drivesdk) ptn mon gars c'est incontrôlable 🥵🍆
-
-T'es trop sexy j'ai trop envie de baiser avec toi Roms. Putain c'est vrai mon gars personne d'autre que toi peut me faire bander aussi fort et mouiller du cul. [Côté bite ou côté cul tu restes le boss frère](#des-envies-de-baise-avec-toi-ptn).
-
-En vrai oui ton bon gros boule de mec, [🎙️ y’a rien de plus BANDANT](https://drive.google.com/file/d/1G8Js-UGlNSL0NUfsFkJN65DrCBcfETze/view?usp=drivesdk), et ton cul me fait bander comme personne putain. Tes bonnes grosses fesses ptn mec tu fais bander de ouf 🥵
-
-[🎙️ Dès que je pense à tes fesses, ma teub devient raide en deux secondes](https://drive.google.com/file/d/1wXwC7B1ra3rPdCoSNL3jPoGlCr1wO0O9/view?usp=drivesdk).
-
-Pile ou/et face, c'est selon ton kiff. En matière de baise c'est toi le boss je te laisse choisir ce que tu kiffes mon gars, en scred. Je m'offre à toi à 100%, côté bite et côté cul. 
-
-C'est toi le boss gro. Zéro pression mon gars, juste un fantasme, tu peux kiffer en mode fantôme sans jamais rien faire ni rien dire. C'est énorme les effets que tu fais sur moi, c'est trop puissant ce que tu dégages et ce que je ressens. Je deviens guedin ptn, côté bite ou côté cul tu fais exploser mon calbar direct mon gars 🍑🍆💦
-
-## DES ENVIES DE BAISE AVEC TOI PTN
-
-Oh putain mon Romain… y'a une bonne odeur de bite et de cul entre nous mon gars.
-
-[🎙️ J'ai trop envie qu’on se pompe mutuellement la teub…](https://drive.google.com/file/d/19RYsbhzNvkdzopfQRNP9CGH2JK_iNh3K/view?usp=drivesdk) que tu suces la mienne pendant que je suce la tienne… c’est trop bon de sentir nos deux queues bien dures dans nos bouches.
-
-[NEW 📹 Montage video + vocal : Ramone mon trou de balle mon gars, j'ai trop envie de toi dans mon cul](https://drive.google.com/file/d/1CGDY1pezcLWGlSy45pDLbB5LcXk5Vv6c/view?usp=drivesdk)
-
-[📹 Baise mon anus Roms 🍑💦](https://drive.google.com/file/d/1vrbNdbZiiiJPnf3rreTy7OD9dzjTOear/view?usp=drivesdk)
-
-Et j'ai grave envie que tu me prennes…
-Je veux que tu me remplisses… par la bouche, puis par le cul… [🎙️ Encule moi mon Roms stp](https://drive.google.com/file/d/1PHH2zxFQz7GwNRYcEVkzlU8kOKwEwUDB/view?usp=drivesdk).
-
-[🎙️ Mon gars baise moi par le cul putain](https://drive.google.com/file/d/1S0xfmUdqP96cuJkriHtzm_ZkQLJx63dZ/view?usp=drivesdk)
-
-Mon gars, ton cul me rend complètement dingue, y'a rien de plus bandant srx...
-T’as un cul d'enfer, c’est pas possible d'être aussi bandant ptn.
-
-Mais dans mes kiffs je mouille aussi du cul pour toi. Mon gars, j'ai grave envie que tu baises ma chatte de mec ! Je veux te sentir en moi. Je veux que tu me prennes, que tu me défonces doucement puis plus fort, sentir le poids de ton corps et ta bite qui baise mon trou de balle.
-
-Je pourrais passer des heures à sentir ta bite frotter contre mon trou, à te supplier de la rentrer, à me faire démonter le cul par toi après qu'on s'est pompé nos deux teubs bien comme il faut. Je veux sentir ton sperme couler au fond de moi, sentir que mon boule t'appartient 🍑💦
-
-T'as un pouvoir absolu sur ma teub et sur mon cul, parce que c'est toi. Je suis incapable de ressentir ça pour quelqu’un d’autre. C’est un tout que j’éprouve pour toi : le sexe, le cœur, l’esprit... t’as tout retourné en moi mon Roms. 
-
-Mais tqt gro, ça change rien à ce qu’on est. C’est juste notre secret, notre délire à nous. On reste tranquille oklm frère, mais sache que mon corps t'appartient. Côté teub ou cul je suis à toi frère 🥵🔥
 
 ## Sommeil et cogitations 
 J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.
@@ -230,49 +161,42 @@ Applis toutes vérifiées, parfaitement sûres et très bien notées sur le Play
 
 Brave, que tu connais bien maintenant. Sans doute le meilleur navigateur (bloqueur de publicités, anti trackers, permet d'écouter YouTube avec l'écran verrouillé etc).  VPN (limité) intégré.
 
----
 
 ### V - Télécharger toutes les vidéos
 [![V - Télécharger toutes les vidéos](https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png)](https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader)
 
----
-
 Appli qui permet de télécharger TOUTES les vidéos du net, sans exception. 
+
 
 ### Proton VPN
 [![Proton VPN](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Proton_VPN_Logo.svg/3840px-Proton_VPN_Logo.svg.png)](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 
 Le meilleur VPN gratuit. Utile pour aller sur certains sites (mdr)
 
----
 
 ### Gemini
 [![Gemini](https://1000marcas.net/wp-content/uploads/2024/02/Gemini-Logo.jpg)](https://play.google.com/store/apps/details?id=com.google.android.apps.bard)
 
 L'IA de Google, sand doute la meilleure IA gratuite. Il suffit juste d'avoir un compte Google et c'est tout.
 
----
 
 ### Claude IA
 [![Claude IA](https://www.jean-marie-corda.com/wp-content/uploads/2025/07/guide-complet-claude-ai-1.jpg)](https://play.google.com/store/apps/details?id=com.anthropic.claude)
 
 Une autre IA excellente, très "humaine" dans son rapport avec l'utilisateur.
 
----
 
 ### Pluto TV
 [![Pluto TV](https://deadline.com/wp-content/uploads/2020/01/pluto-logo.png)](https://play.google.com/store/apps/details?id=tv.pluto.android)
 
 Appli permettant d'avoir accès à bcp de films, de séries, d'anime etc. Il y a actuellement l'intégrale d'Olive et Tom (en direct ou en VOD). Full gratuit.
 
----
 
 ### Free Convert
 [![Free Convert](https://cdn.freeconvert.com/logo_theme.svg)](https://www.freeconvert.com/fr)
 
 Permet de convertir des fichiers dans tous les formats (vidéo, audio, images, documents etc)
 
----
 
 ### WhatTCSay3
 [![WhatTCSay3](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdtMDo7icL1chCDggFxuh1rwuUrCRboP5riKn3Kn_Rw&s)](https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3)
