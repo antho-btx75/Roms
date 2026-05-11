@@ -133,6 +133,51 @@
             animation: neonPulse 2s infinite ease-in-out;
             transition: 0.2s;
         }
+
+                /* Style de base pour tous les boutons */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 12px 20px;
+            margin: 5px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* Version Bleue pour les vocaux */
+        .btn-blue {
+            background-color: #1f6feb;
+            color: #ffffff !important;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .btn-blue:hover {
+            background-color: #388bfd;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        /* Style pour les boîtes de texte Purple Box */
+        .purple-box {
+            background: rgba(188, 140, 255, 0.1);
+            border-left: 4px solid var(--accent-purple);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            color: var(--text-main);
+            font-style: italic;
+        }
+        
     </style>
 </head>
 <body>
