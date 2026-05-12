@@ -214,7 +214,7 @@
 
 <script>
     // Citations conservées
-    const citations = {
+         const citations = {
     gris: [
         "Le Rocher ne bouge pas, même sous l'orage le plus violent. Appuie-toi sur ma solidité.",
         "La frustration d'aujourd'hui est le carburant nucléaire de ta vengeance de demain. Laisse-la bouillir.",
@@ -227,7 +227,19 @@
         "Laisse les autres s'épuiser dans l'agitation. Toi, accumule l'énergie cinétique.",
         "Si le ciel est gris, c'est pour que ton éclat soit plus aveuglant quand tu sortiras du brouillard.",
         "On n'arrête pas une marée montante. Laisse la pression monter, elle finira par tout emporter.",
-        "Reste de marbre. Que personne ne sache ce que tu prépares dans le silence de ce sanctuaire."
+        "Reste de marbre. Que personne ne sache ce que tu prépares dans le silence de ce sanctuaire.",
+        "L'hiver est nécessaire pour que les racines s'enfoncent plus profondément. Consolide tes bases.",
+        "Accepte la mélancolie comme un repos avant la tempête. Ton esprit recharge ses batteries.",
+        "Les cicatrices de l'âme sont les médailles de ceux qui ont osé descendre dans l'arène.",
+        "Le brouillard cache la route, mais pas ton instinct. Fais-lui confiance.",
+        "Ne confonds pas un temps d'arrêt avec une défaite. On recule toujours pour mieux sauter.",
+        "Le vide que tu ressens est l'espace que tu crées pour ton prochain empire.",
+        "L'acier froid est le plus tranchant. Laisse ta peine refroidir jusqu'à devenir une lame.",
+        "Même au fond du gouffre, tu restes un sommet. Remonte pierre par pierre, sans regarder en bas.",
+        "Le monde est bruyant, ton gris est un bouclier acoustique. Profite de ce retrait.",
+        "La tristesse n'est qu'un nuage qui passe devant un soleil fixe : toi.",
+        "Ne donne à personne le luxe de voir tes doutes. Ici, on les transforme en certitudes.",
+        "Le calme avant la destruction. Profite de ce dernier moment de paix avant ton triomphe."
     ],
     
     stresse: [
@@ -242,7 +254,19 @@
         "Ne regarde pas l'escalier, regarde juste la prochaine marche. Une seule pression à la fois.",
         "Le chaos est une échelle. Utilise la tension pour grimper plus haut que les autres.",
         "Ton sang-froid est ton bouclier le plus lourd. Rien ne pénètre si tu ne l'autorises pas.",
-        "Redescends dans ton centre. Le monde peut brûler, ici tu es le maître du feu."
+        "Redescends dans ton centre. Le monde peut brûler, ici tu es le maître du feu.",
+        "La peur est une menteuse. Regarde-la dans les yeux et elle s'évaporera.",
+        "Le stress, c'est de l'énergie qui cherche une sortie. Canalise-la dans ton bras droit.",
+        "T'as déjà survécu à 100% de tes pires journées. Celle-ci n'est qu'un échauffement.",
+        "Sois comme l'eau : capable de contourner n'importe quel obstacle sans jamais perdre sa force.",
+        "Ralentis pour aller plus vite. La précision bat la précipitation à chaque fois.",
+        "Ton système nerveux est un orchestre, et c'est toi qui tiens la baguette. Calme le jeu.",
+        "Rien n'est jamais aussi grave qu'il n'y paraît à 2 heures du matin. Dors, on gérera demain.",
+        "Détends tes épaules, desserre ta mâchoire. La force vient du relâchement, pas de la crispation.",
+        "Imagine la mer. Peu importe la tempête en surface, le fond est toujours immobile. Sois le fond.",
+        "T'es pas une victime du temps, t'es l'architecte de tes priorités. Tranche dans le vif.",
+        "Le stress est le prix de l'ambition. Paie-le avec le sourire, c'est un investissement.",
+        "La tempête passera, Romain. Tu seras le seul encore debout au milieu des décombres."
     ],
     
     normal: [
@@ -257,7 +281,19 @@
         "Rien ne presse quand on sait exactement où l'on va. Garde ton cap.",
         "C'est dans cet état de flux que tu es le plus dangereux pour tes adversaires. Implacable.",
         "Garde cette fréquence. C'est celle où les miracles deviennent des résultats mathématiques.",
-        "Le travail invisible porte toujours les fruits les plus visibles. Continue de bâtir."
+        "Le travail invisible porte toujours les fruits les plus visibles. Continue de bâtir.",
+        "La simplicité est la sophistication suprême. Savoure ce moment d'équilibre.",
+        "Tu n'as rien à prouver à personne aujourd'hui. Sois juste la meilleure version de toi-même.",
+        "La force tranquille effraie plus que la colère bruyante. Reste souverain.",
+        "Bâtis tes fondations quand le soleil brille, pour ne jamais craindre la pluie.",
+        "Ta vie est une œuvre d'art en cours de création. Chaque geste compte.",
+        "Reste aligné. Ton esprit, ton corps et tes actions doivent parler la même langue.",
+        "La paix intérieure est le luxe ultime de celui qui a déjà tout compris.",
+        "Apprends à aimer le processus autant que le résultat. C'est là que réside le génie.",
+        "Sois le centre de gravité de ton propre univers. Tout tourne autour de ta volonté.",
+        "Le succès n'est pas un événement, c'est une habitude. Continue d'exceller.",
+        "Prends le temps d'apprécier le chemin parcouru. Tu reviens de loin, Romain.",
+        "La clarté mentale est ton super-pouvoir. Utilise-la pour scanner tes opportunités."
     ],
     
     deter: [
@@ -272,9 +308,22 @@
         "Prends tout ce que tu veux. C'est à toi par droit de conquête.",
         "Ton énergie irradie. Tu ne marches pas sur le chemin, c'est le chemin qui se crée sous tes pas.",
         "Zéro hésitation. Zéro pitié. Juste une exécution chirurgicale et brutale.",
-        "Affiche ton ambition comme une déclaration de guerre. Ils ne peuvent rien faire pour t'arrêter."
+        "Affiche ton ambition comme une déclaration de guerre. Ils ne peuvent rien faire pour t'arrêter.",
+        "La douleur est une information. Utilise-la pour savoir que tu es en train de gagner.",
+        "Ils dorment, toi tu chasses. Ils rêvent, toi tu bâtis. La différence est là.",
+        "Ton intensité est une flamme qui consume les obstacles. Brûle tout.",
+        "Ne demande pas la permission d'être grand. Prends-la.",
+        "Le sommet n'est pas une option, c'est ton adresse de résidence.",
+        "Ton instinct est infaillible. Fonce sans te retourner, le passé est mort.",
+        "Transforme tes 'je ne peux pas' en 'regarde-moi faire'.",
+        "T'as le feu de l'enfer dans les yeux et la glace des sommets dans les veines.",
+        "Déshonore la défaite par ton arrogance et ta réussite insolente.",
+        "Ton potentiel est une mine d'uranium. Aujourd'hui, on déclenche la réaction en chaîne.",
+        "Sois le cauchemar de tes concurrents et le rêve de tes alliés. Implacable.",
+        "CRÈVE LE PLAFOND ! Rien n'est trop haut pour un homme qui refuse de ramper."
     ]
 };
+
 
 
     function getForce(mood) {
