@@ -363,24 +363,15 @@
     </button>
 </div>
 
-    <div class="nav-hot-container" style="max-width: 95%; margin: 20px auto; text-align: center; font-family: 'Trebuchet MS', sans-serif;">
+<div class="nav-hot-container" style="max-width: 95%; margin: 20px auto; text-align: center; font-family: 'Trebuchet MS', sans-serif;">
     
-    <div style="margin-bottom: 20px;">
-        <a href="#kiffs-hots-section" style="
-            display: inline-block;
-            width: 85%;
-            background: linear-gradient(45deg, #bc13fe, #ff2d55);
-            color: white !important;
-            padding: 14px 20px;
-            border-radius: 50px;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            text-decoration: none;
-            box-shadow: 0 4px 25px rgba(188, 19, 254, 0.5);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        ">
-            <i class="fas fa-utensils"></i> Baise à la carte
+    <div style="margin-bottom: 25px; display: flex; justify-content: center;">
+        <a href="#kiffs-hots-section" class="vip-pass" style="text-decoration: none; width: 100%; max-width: 400px;">
+            <div class="vip-pass-inner">
+                <span class="vip-tag">PRIVÉ</span>
+                <span class="vip-label">Baise à la carte</span>
+                <i class="fas fa-fire"></i>
+            </div>
         </a>
     </div>
 
@@ -412,13 +403,23 @@
 </div>
 
 <style>
+    /* LE STYLE DU BOUTON VIP PASS (Assure-toi qu'il est déjà dans ton CSS) */
+    .vip-pass {
+        /* Tes styles existants pour .vip-pass */
+        transition: transform 0.3s ease;
+    }
+    .vip-pass:hover {
+        transform: scale(1.05);
+    }
+
+    /* LE STYLE DES BOUTONS DE NAVIGATION */
     .btn-nav-hot {
         display: inline-block;
-        background: rgba(0, 0, 0, 0.6);
-        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px 18px;
         border-radius: 50px;
         font-weight: 800;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -432,6 +433,7 @@
         background: rgba(255, 255, 255, 0.1);
     }
 </style>
+
     
 
 
