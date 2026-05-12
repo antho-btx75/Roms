@@ -332,8 +332,18 @@
 
     
 <div style="text-align: center; margin: 20px 0;">
-    <a href="#dbz-hot" 
-       onclick="document.getElementById('content-dbz').style.display='block'; this.parentElement.style.display='none';"
+    <button onclick="
+        /* 1. Afficher le contenu */
+        const content = document.getElementById('content-dbz');
+        content.style.display = 'block';
+        
+        /* 2. Faire disparaître le bouton proprement */
+        this.parentElement.style.display = 'none';
+        
+        /* 3. Scroller en douceur vers la nouvelle section */
+        setTimeout(() => {
+            content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 50);"
        style="
         display: inline-block;
         background: linear-gradient(45deg, #ff8c00, #ff0000); 
@@ -343,15 +353,16 @@
         font-weight: bold; 
         font-size: 0.85rem; 
         text-transform: uppercase;
-        text-decoration: none;
+        border: 2px solid rgba(255, 255, 255, 0.2);
         letter-spacing: 1px;
         box-shadow: 0 4px 20px rgba(255, 140, 0, 0.5);
-        border: 2px solid rgba(255, 255, 255, 0.2);
         animation: pulse-orange 2s infinite;
-        cursor: pointer;">
+        cursor: pointer;
+        outline: none;">
         <i class="fas fa-bolt" style="margin-right: 8px;"></i> NOUVEAU : DBZ Hot
-    </a>
+    </button>
 </div>
+
 
 
     <a href="#kiffs-hots-section" class="vip-pass">
