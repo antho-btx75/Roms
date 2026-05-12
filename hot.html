@@ -1039,6 +1039,336 @@ function checkFinal() {
 </script>
 </div>
 
+        /* LE CONTENEUR STYLE CLUB PRIVÉ */
+    .movie-box-container {
+        background: radial-gradient(circle at top, #1a0b1a 0%, #050108 100%);
+        padding: 30px;
+        border-radius: 24px;
+        border: 1px solid rgba(255, 45, 85, 0.3);
+        margin: 40px auto 10px;
+        max-width: 600px;
+        font-family: 'Montserrat', sans-serif;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.8), 0 0 20px rgba(255, 45, 85, 0.1);
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* BARRE NÉON ANIMÉE EN HAUT */
+    .movie-box-container::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 3px;
+        background: linear-gradient(90deg, transparent, #ff2d55, #8957e5, transparent);
+        animation: neon-slide 3s linear infinite;
+    }
+
+    @keyframes neon-slide {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+    }
+    
+    .uc-warning {
+        background: rgba(255, 45, 85, 0.05);
+        border: 1px solid rgba(255, 45, 85, 0.2);
+        border-radius: 12px;
+        padding: 15px;
+        margin-bottom: 25px;
+        font-size: 0.85rem;
+        color: #bbb;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .uc-warning a { color: #ff2d55; text-decoration: none; font-weight: bold; border-bottom: 1px solid #ff2d55; }
+
+    /* BOUTONS DE MOOD TYPE SÉLECTEUR VIP */
+    .mood-btn {
+        flex: 1;
+        padding: 18px 5px;
+        background: #0d040d;
+        color: #888;
+        border: 1px solid #221522;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .mood-btn.active { 
+        border-color: #ff2d55; 
+        color: #fff; 
+        background: rgba(255, 45, 85, 0.15); 
+        box-shadow: 0 0 15px rgba(255, 45, 85, 0.4);
+        transform: scale(1.05);
+    }
+    
+    .vocal-item {
+        width: 100%;
+        padding: 18px;
+        background: #0a0a0a;
+        color: #eee;
+        border: 1px solid #1a1a1a;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        text-align: left;
+        cursor: pointer;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        transition: 0.3s;
+    }
+    .vocal-item.active { background: #150815; border-color: #ff2d55; box-shadow: inset 0 0 10px rgba(255, 45, 85, 0.2); }
+
+    .img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .img-item {
+        background: #050505;
+        border: 2px solid #111;
+        border-radius: 15px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.4s;
+        position: relative;
+    }
+    .img-item img {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+        display: block;
+        opacity: 0.4;
+        transition: 0.5s;
+    }
+    .img-item span {
+        display: block;
+        padding: 12px;
+        font-size: 0.75rem;
+        color: #777;
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .img-item.active { border-color: #ff2d55; transform: translateY(-5px); box-shadow: 0 10px 20px rgba(255, 45, 85, 0.2); }
+    .img-item.active img { opacity: 1; filter: contrast(1.1); }
+    .img-item.active span { color: #fff; background: #ff2d55; }
+
+    /* BOUTON DE LANCEMENT FINAL */
+    #launch-movie {
+        display: none;
+        margin-top: 35px;
+        text-align: center;
+        background: linear-gradient(45deg, #ff2d55, #8957e5);
+        color: #fff;
+        padding: 22px;
+        border-radius: 15px;
+        text-decoration: none;
+        font-weight: 900;
+        box-shadow: 0 0 30px rgba(255, 45, 85, 0.5);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 1.1rem;
+        animation: pulse-button 2s infinite;
+    }
+
+    @keyframes pulse-button {
+        0% { transform: scale(1); box-shadow: 0 0 20px rgba(255, 45, 85, 0.4); }
+        50% { transform: scale(1.02); box-shadow: 0 0 40px rgba(255, 45, 85, 0.7); }
+        100% { transform: scale(1); box-shadow: 0 0 20px rgba(255, 45, 85, 0.4); }
+    }
+
+    .back-sanctuaire {
+        display: block;
+        width: fit-content;
+        margin: 30px auto 50px;
+        color: #555;
+        text-decoration: none;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border: 1px solid #222;
+        padding: 10px 25px;
+        border-radius: 50px;
+        transition: 0.3s;
+    }
+    .back-sanctuaire:hover { color: #fff; border-color: #ff2d55; background: rgba(255, 45, 85, 0.05); }
+</style>
+
+<div class="movie-box-container" id="kiffs-hots-section">
+    <h2 style="color: #fff; text-align: center; font-size: 1.4rem; margin-bottom: 5px; letter-spacing: 4px; font-weight: 900;">BAISE À LA CARTE</h2>
+    <p style="text-align: center; color: #ff2d55; font-size: 0.7rem; letter-spacing: 2px; margin-bottom: 25px; font-weight: bold;">EXPÉRIENCE PRIVÉE IMMERSIVE</p>
+    
+    <div class="uc-warning">
+        ⚠️ La plupart des bugs sont corrigés.
+    </div>
+
+    <div style="display: flex; gap: 10px; margin-bottom: 30px;">
+        <button onclick="setMood('antho-top')" id="btn-antho-top" class="mood-btn">Antho 🍆 Roms 🍑</button>
+        <button onclick="setMood('roms-top')" id="btn-roms-top" class="mood-btn">Roms 🍆 Antho 🍑</button>
+        <button onclick="setMood('oral')" id="btn-oral" class="mood-btn">👅 🍆 ORAL</button>
+    </div>
+
+    <div id="vocal-selector" style="display: none; margin-bottom: 30px;">
+        <p style="color: #ff2d55; font-size: 0.75rem; font-weight: 800; margin-bottom: 15px; letter-spacing: 1px; text-transform: uppercase;">1. Ambiance Sonore :</p>
+        <div id="vocal-list"></div>
+    </div>
+
+    <div id="image-selector" style="display: none;">
+        <p style="color: #ff2d55; font-size: 0.75rem; font-weight: 800; margin-bottom: 15px; letter-spacing: 1px; text-transform: uppercase;">2. Immersion Visuelle :</p>
+        <div class="img-grid" id="filtered-images"></div>
+    </div>
+
+    <a id="launch-movie" href="#">LANCER L'IMMERSION 🔥</a>
+</div>
+
+<script>
+let currentAudio = "";
+let currentImg = "";
+
+const movieData = {
+    "antho-top": {
+        vocaux: [
+            {t: "Y'a pas plus bandant que ton cul", src: "https://audio.jukehost.co.uk/019de4e7-9fd3-73e7-9f67-248499160757"},
+            {t: "Tes fesses me font bander vite et dur", src: "https://audio.jukehost.co.uk/019ded49-2f04-736f-b1f7-c40b277bbeaf"},
+            {t: "Suce moi mec tu me fais bander", src: "https://audio.jukehost.co.uk/019ded4b-6168-7274-a03a-90546fb410bb"},
+            {t: "Je vais baiser ton fion", src: "https://audio.jukehost.co.uk/019ded4e-5f8c-7320-bc35-8051d535e9c4"}
+        ],
+        type: "bite"
+    },
+    "roms-top": {
+        vocaux: [
+            {t: "Défonce mon trou mon gars", src: "https://audio.jukehost.co.uk/019ded50-8f94-70e2-be7d-2fedcffb04c3"},
+            {t: "Encule moi mon Roms", src: "https://audio.jukehost.co.uk/019ded55-03ca-7296-ad30-25c64ab4cd1b"},
+            {t: "Baise moi mec mon cul a faim de toi", src: "https://audio.jukehost.co.uk/019ded55-de22-737e-bb5a-615407466593"},
+            {t: "Remplis mon cul mec", src: "https://audio.jukehost.co.uk/019ded56-5f20-7216-9ec3-c9d23c9eb334"}
+        ],
+        type: "cul"
+    },
+    "oral": {
+        vocaux: [
+            {t: "J'te suce mon gars ⚡💦", src: "https://audio.jukehost.co.uk/019dfee4-ff93-70d6-aba8-e79c74b33702"},
+            {t: "Pompe moi à fond mec ⚡💦", src: "https://audio.jukehost.co.uk/019dfee5-27f8-7228-90cd-ee4305d29a25"},
+            {t: "Elle est trop bonne ta teub Roms", src: "https://audio.jukehost.co.uk/019ded5a-9405-7130-af03-56eef93e9279"},
+            {t: "Ptn c'est bon de se pomper mec", src: "https://audio.jukehost.co.uk/019ded5b-0ea4-733a-bb3e-c3359752e75f"},
+            {t: "Suce moi mec tu me fais bander 🔥", src: "https://audio.jukehost.co.uk/019ded4b-6168-7274-a03a-90546fb410bb"}
+        ],
+        type: "bite"
+    }
+};
+
+const movieImages = {
+        "antho-top": [
+        {t: "C'est nous deux... 🔥", url: "https://i.ibb.co/B2zrD6dd/ezgif-892d0234a0c37fbc.gif"},
+            {t: "J'le kiffe ton baltrou", url: "https://i.ibb.co/n83vSCfb/ezgif-39b1475d607b8978.gif"},
+    ],
+    "roms-top": [
+        {t: "Défonce moi le cul Roms 🔥", url: "https://i.ibb.co/21HtxTMK/ezgif-8c7a83669c398c47.gif"},
+        {t: "Ramone mon trou de balle mec 🤤", url: "https://i.ibb.co/ZzZb9sLt/ezgif-52af53d37dca97d1.gif"},
+    ],
+    "oral": [
+        {t: "Ta bouche sur moi 👅", url: "https://i.ibb.co/NnSYgGjr/ezgif-86436443abbaf00d.gif"},
+        {t: "Je kiffe ta teub mec", url: "https://i.ibb.co/NdJmxcCs/ezgif-851e55f0a582b67a.gif"},
+        {t: "Ptn mec c'est trop bon de se pomper mutuellement", url: "https://i.ibb.co/8Ldk3cvF/ezgif-3d15fc2d7ee288de.gif"},
+        {t: "C'est trop bon de se pomper 🍆", url: "https://i.ibb.co/RkRBJg5S/ezgif-30764293a0d1f0de.gif"},
+        {t: "Elle est trop bonne ta bite Roms 🍆", url: "https://i.ibb.co/Hf3sVdx3/ezgif-27f73601ff62e81a.gif"},
+    ],
+    bite: [
+    {t: "Ma bite pour toi ⚡💦", url: "https://i.ibb.co/pBTG4P5P/20260506-193246332.jpg"},
+    {t: "Ma queue mec ", url: "https://i.ibb.co/1fyPtdqS/20260506-182817606.jpg"},
+    {t: "Mon zgeg for you 🔥", url: "https://i.ibb.co/xnpKffx/IMG-20260506-221641.jpg"},
+    {t: "Mon zgeg pour toi 🍆", url: "https://i.ibb.co/TD4xk0gQ/IMG-20260427-232417.png"},
+    {t: "Prends ce que tu veux 🤤", url: "https://i.ibb.co/dsSFqjFV/Picsart-26-04-27-23-21-40-954.png"},
+    {t: "Teub & baltrou 🔥", url: "https://i.ibb.co/Tx9tyQT3/IMG-20260220-205549.png"},
+    {t: "Ma bite", url: "https://i.ibb.co/hF8p6FVw/IMG-20260414-232405.jpg"},
+    {t: "Teub", url: "https://i.ibb.co/XxD02H6F/2026-03-05-518.png"},
+    {t: "Mon zgeg", url: "https://i.ibb.co/671Dzvyy/26-03-02-09-02-53-031.jpg"},
+    {t: "Chupa Chups", url: "https://i.ibb.co/BVry5cDr/IMG-20260401-204955.jpg"},
+    {t: "Me-sper", url: "https://i.ibb.co/kgHBv0hw/20260213-215957735.jpg"}
+],
+    
+    cul: [
+        {t: "Teub & baltrou 🔥", url: "https://i.ibb.co/Tx9tyQT3/IMG-20260220-205549.png"},
+        {t: "Teub et Cul pour mon gars", url: "https://i.ibb.co/cXr2Cr9z/20260509-192230502.jpg"},
+        {t: "Bz moi par le cul 🔥", url: "https://i.ibb.co/NDsVFKK/IMG-20260506-213341.jpg"},
+        {t: "Baltrou & bite", url: "https://i.ibb.co/230jw4WQ/Picsart-26-04-24-00-35-41-236.jpg"},
+        {t: "Anus", url: "https://i.ibb.co/Fb4Twh9T/Peachy-20260424-001615597.jpg"},
+        {t: "Boule", url: "https://i.ibb.co/mVdcDfLg/Picsart-26-04-21-20-55-58-491.jpg"},
+        {t: "Cul", url: "https://i.ibb.co/PsdMSyWc/Peachy-20260414-233449720.jpg"},
+        {t: "Fiak", url: "https://i.ibb.co/hF0RGg3Y/Picsart-26-04-18-22-13-09-487.jpg"},
+        {t: "Fion", url: "https://i.ibb.co/CRVCJ9x/IMG-20260206-224615.jpg"},
+        {t: "Trou de balle", url: "https://i.ibb.co/bM5MSswG/20260404-102152803.jpg-6c"}
+    ]
+};
+
+
+
+function setMood(mood) {
+    currentAudio = ""; 
+    currentImg = "";
+    document.getElementById('launch-movie').style.display = 'none';
+    document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('btn-' + mood).classList.add('active');
+
+    // 1. Mise à jour des vocaux
+    const vList = document.getElementById('vocal-list');
+    vList.innerHTML = movieData[mood].vocaux.map(v => 
+        `<button class="vocal-item" onclick="setAudio('${v.src}', this)">🔊 ${v.t}</button>`
+    ).join('');
+    document.getElementById('vocal-selector').style.display = 'block';
+
+    // 2. Fusion et affichage des visuels
+    const type = movieData[mood].type;
+    const iList = document.getElementById('filtered-images');
+    
+    let allImages = [];
+    if(movieImages[mood]) { 
+        allImages = allImages.concat(movieImages[mood]); 
+    }
+    allImages = allImages.concat(movieImages[type]);
+
+    iList.innerHTML = allImages.map(img => {
+        const isExternal = img.url ? true : false;
+        const imgSrc = isExternal ? img.url : `https://drive.google.com/thumbnail?id=${img.id}&sz=w300`;
+        const valToSend = isExternal ? img.url : img.id;
+        
+        return `
+            <div class="img-item" onclick="setImg('${valToSend}', this)">
+                <img src="${imgSrc}" alt="${img.t}">
+                <span>${img.t}</span>
+            </div>`;
+    }).join('');
+    
+    document.getElementById('image-selector').style.display = 'block';
+}
+
+function setAudio(src, el) {
+    currentAudio = encodeURIComponent(src);
+    document.querySelectorAll('.vocal-item').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+    checkFinal();
+}
+
+function setImg(val, el) {
+    currentImg = encodeURIComponent(val);
+    document.querySelectorAll('.img-item').forEach(d => d.classList.remove('active'));
+    el.classList.add('active');
+    checkFinal();
+}
+
+function checkFinal() {
+    if(currentAudio && currentImg) {
+        const link = document.getElementById('launch-movie');
+        // On passe les valeurs au player (ID Drive ou URL ImgBB)
+        link.href = `lecteur.html?gif=${currentImg}&audio=${currentAudio}`;
+        link.style.display = 'block';
+    }
+}
+</script>
+</div>
+
 <div style="text-align: center; margin: 40px 0;">
     <button id="btn-dbz" style="
         background: transparent;
