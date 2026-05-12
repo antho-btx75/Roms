@@ -330,38 +330,7 @@
         }
     </style>
 
-    
-<div style="text-align: center; margin: 20px 0;">
-    <button onclick="
-        /* 1. Afficher le contenu */
-        const content = document.getElementById('content-dbz');
-        content.style.display = 'block';
-        
-        /* 2. Faire disparaître le bouton proprement */
-        this.parentElement.style.display = 'none';
-        
-        /* 3. Scroller en douceur vers la nouvelle section */
-        setTimeout(() => {
-            content.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 50);"
-       style="
-        display: inline-block;
-        background: linear-gradient(45deg, #ff8c00, #ff0000); 
-        color: white !important; 
-        padding: 8px 20px; 
-        border-radius: 50px; 
-        font-weight: bold; 
-        font-size: 0.85rem; 
-        text-transform: uppercase;
-        border: 2px solid rgba(255, 255, 255, 0.2);
-        letter-spacing: 1px;
-        box-shadow: 0 4px 20px rgba(255, 140, 0, 0.5);
-        animation: pulse-orange 2s infinite;
-        cursor: pointer;
-        outline: none;">
-        <i class="fas fa-bolt" style="margin-right: 8px;"></i> NOUVEAU : DBZ Hot
-    </button>
-</div>
+
 
 <div class="nav-hot-container" style="max-width: 95%; margin: 20px auto; text-align: center; font-family: 'Trebuchet MS', sans-serif;">
     
