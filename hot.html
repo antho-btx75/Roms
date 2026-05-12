@@ -365,72 +365,74 @@
 
     <div class="nav-hot-container" style="max-width: 95%; margin: 20px auto; text-align: center; font-family: 'Trebuchet MS', sans-serif;">
     
-    <div style="margin-bottom: 15px;">
+    <div style="margin-bottom: 20px;">
         <a href="#kiffs-hots-section" style="
             display: inline-block;
-            width: 80%;
+            width: 85%;
             background: linear-gradient(45deg, #bc13fe, #ff2d55);
             color: white !important;
-            padding: 12px 20px;
+            padding: 14px 20px;
             border-radius: 50px;
             font-weight: 900;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
             text-decoration: none;
-            box-shadow: 0 4px 20px rgba(188, 19, 254, 0.4);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 25px rgba(188, 19, 254, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         ">
             <i class="fas fa-utensils"></i> Baise à la carte
         </a>
     </div>
 
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
         
-        <a href="#hot" class="btn-nav-scred">
+        <a href="#hot" class="btn-nav-hot" style="border-color: #ffb7c5; color: #ffb7c5 !important; box-shadow: inset 0 0 10px rgba(255, 183, 197, 0.2);">
             Tu me fais bander 🍆
         </a>
 
-        <a href="#envies-baise" class="btn-nav-scred">
+        <a href="#envies-baise" class="btn-nav-hot" style="border-color: #bc13fe; color: #bc13fe !important; box-shadow: inset 0 0 10px rgba(188, 19, 254, 0.2);">
             Baise moi 🍑
         </a>
 
-        <a href="#phototheque" class="btn-nav-scred">
-            Photothèque
+        <a href="#phototheque" class="btn-nav-hot" style="border-color: #ffffff; color: #ffffff !important; background: rgba(255,255,255,0.05);">
+            <i class="fas fa-camera"></i> Photothèque
         </a>
 
-        <a href="#dbz-hot" class="btn-nav-scred" style="border-color: #ff8c00; color: #ff8c00 !important;">
+        <button onclick="const sec = document.getElementById('content-dbz'); sec.style.display = 'block'; document.getElementById('btn-dbz').style.display = 'none'; setTimeout(() => { sec.scrollIntoView({ behavior: 'smooth' }); }, 50);" 
+            class="btn-nav-hot" style="border-color: #ff8c00; color: #ff8c00 !important; cursor: pointer; background: rgba(255, 140, 0, 0.05);">
             Goku Hot ⚡
-        </a>
+        </button>
 
-        <a href="#content-bonus" class="btn-nav-scred" style="border-color: #ff2d55; color: #ff2d55 !important;">
-            Bonus Kiff
-        </a>
+        <button onclick="const sec = document.getElementById('content-bonus'); sec.style.display = 'block'; document.getElementById('btn-bonus').style.display = 'none'; setTimeout(() => { sec.scrollIntoView({ behavior: 'smooth' }); }, 50);" 
+            class="btn-nav-hot" style="border-color: #ff2d55; color: #ff2d55 !important; cursor: pointer; background: rgba(255, 45, 85, 0.05);">
+            Bonus Kiff 💦
+        </button>
 
     </div>
 </div>
 
 <style>
-    .btn-nav-scred {
+    .btn-nav-hot {
         display: inline-block;
-        background: rgba(255, 255, 255, 0.05);
-        color: #eee6c4 !important;
-        padding: 8px 18px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px 20px;
         border-radius: 50px;
-        font-weight: bold;
+        font-weight: 800;
         font-size: 0.85rem;
         text-decoration: none;
-        border: 1.5px solid rgba(255, 255, 255, 0.1);
-        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 2px solid;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
 
-    .btn-nav-scred:hover {
-        background: rgba(255, 255, 255, 0.15);
-        transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    .btn-nav-hot:hover {
+        transform: scale(1.1) translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        background: rgba(255, 255, 255, 0.1);
     }
 </style>
     
-
 
 
     <a href="#kiffs-hots-section" class="vip-pass">
