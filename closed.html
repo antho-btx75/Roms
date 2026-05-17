@@ -248,14 +248,29 @@
                 FORCER L'ENTRÉE PAR DERRIÈRE (calbard baissé)
             </button>
         </div>
-    </div>
-
-    <script>
+    </div> <script>
+        // LA NOUVELLE FONCTION AVEC LE CODE SECRET ET L'INDICE SNAP
         function bypassLock() {
-            console.log("Effraction nocturne en plein jour... Direction le plaisir.");
-            window.location.href = "https://antho-btx75.github.io/Roms/hot";
+            // Le code secret : JourMoisRomain + JourMoisAntho
+            const codeSecret = "07101307"; 
+            
+            // Fenêtre popup qui s'ouvre au clic
+            const saisie = prompt("🔞 ACCÈS VIP - Entre le code secret de 8 chiffres :\n(Indice : Ton jour/mois de naissance + mon jour/mois de naissance)");
+            
+            // Si l'utilisateur clique sur "Annuler"
+            if (saisie === null) return;
+            
+            // Validation du code
+            if (saisie.trim() === codeSecret) {
+                console.log("Effraction validée. Direction le plaisir.");
+                window.location.href = "https://antho-btx75.github.io/Roms/hot";
+            } else {
+                // Le fameux recadrage s'il se trompe ou s'il a oublié ta date !
+                alert("❌ Code incorrect mon gava... Va checker mon profil Snapchat frère si t'as oublié !");
+            }
         }
 
+        // TON AUTRE FONCTION QUI GÈRE LE CHRONO ET LA BOX BLEUE (On ne y touche pas)
         function updateCountdown() {
             const maintenant = new Date();
             const heureActuelle = maintenant.getHours();
@@ -263,14 +278,12 @@
             const containerChrono = document.getElementById("countdown-container");
             const boxBaise = document.getElementById("baise-en-cours-box");
 
-            // DETECTION FRAUDE NOCTURNE : Si accédé entre 19h et 9h du matin
             if (heureActuelle >= 19 || heureActuelle < 9) {
                 containerChrono.style.display = "none";
                 boxBaise.style.display = "block";
                 return; 
             }
 
-            // AFFICHAGE JOURNÉE NORMAL
             containerChrono.style.display = "block";
             boxBaise.style.display = "none";
 
@@ -290,11 +303,8 @@
             containerChrono.innerHTML = txtHeures + txtMinutes + txtSecondes + " avant l'ouverture 🍑💦🍆";
         }
 
-        // Activation immédiate et mise à jour synchrone
         updateCountdown();
         setInterval(updateCountdown, 1000);
     </script>
 </body>
 </html>
-
-        
