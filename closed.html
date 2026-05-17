@@ -193,6 +193,10 @@
             <i class="fas fa-mars" style="font-size: 0.9rem; margin-right: 6px; transform: rotate(-45deg);"></i> Patienter et remonter le calbard
         </a>
 
+        <div id="countdown-container" style="font-family: 'Arial Black', Impact, sans-serif; color: #ffaa00; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 25px; background: rgba(0, 0, 0, 0.4); padding: 10px; border-radius: 8px; border: 1px dashed rgba(255, 170, 0, 0.2); text-align: center;">
+    Chargement du chrono... 🍑🍆💦
+        </div>
+
               <p class="bottom-scroll-text">Mais...</p>
 
      <div class="secret-trigger-zone">
@@ -209,6 +213,41 @@
             window.location.href = "https://antho-btx75.github.io/Roms/hot";
         }
     </script>
+
+        <script>
+    function updateCountdown() {
+        const maintenant = new Date();
+        const ceSoir = new Date();
+        
+        // On cale le calcul sur aujourd'hui à 20h00
+        ceSoir.setHours(20, 0, 0, 0);
+        
+        // Si la page est consultée entre 20h et minuit (cas de secours)
+        if (maintenant > ceSoir) {
+            ceSoir.setDate(ceSoir.getDate() + 1);
+        }
+        
+        const difference = ceSoir - maintenant;
+        
+        // Calcul des heures, minutes et secondes
+        const heures = Math.floor(difference / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const secondes = Math.floor((difference % (1000 * 60)) / 1000);
+        
+        // Formatage pour éviter les sauts de texte (ex: 05 au lieu de 5)
+        const txtHeures = heures > 0 ? heures + "h " : "";
+        const txtMinutes = minutes < 10 ? "0" + minutes + "m " : minutes + "m ";
+        const txtSecondes = secondes < 10 ? "0" + secondes + "s" : secondes + "s";
+        
+        document.getElementById("countdown-container").innerHTML = 
+            txtHeures + txtMinutes + txtSecondes + " avant l'ouverture 🍑🍆💦";
+    }
+
+    // Lance le calcul immédiatement puis toutes les secondes
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+        </script>
+        
 
 </body>
 </html>
