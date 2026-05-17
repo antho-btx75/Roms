@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiffs nocturnes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* Ambiance tamisée pourpre et magenta - VERSION FINALE */
+        body {
+            background-color: #040104;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(218, 0, 182, 0.15) 0%, transparent 45%),
+                radial-gradient(circle at 90% 80%, rgba(110, 0, 255, 0.12) 0%, transparent 45%);
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 30px 15px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        /* Le conteneur du SAS */
+        .sas-card {
+            max-width: 420px;
+            width: 100%;
+            padding: 40px 25px;
+            background: rgba(16, 8, 15, 0.94);
+            border: 1px solid rgba(218, 0, 182, 0.25);
+            border-radius: 16px;
+            box-shadow: 
+                0 20px 50px rgba(0, 0, 0, 0.95),
+                0 0 30px rgba(218, 0, 182, 0.15);
+            text-align: center;
+        }
+
+        /* OPTIMISATION 1 : Voyant et texte "Rideau Tiré" effet néon réaliste / grésillant */
+        .lock-status {
+            font-size: 0.85rem;
+            color: #da00b6;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-weight: 700;
+            animation: neon-glow 2.5s infinite ease-in-out;
+        }
+
+        .pulse-dot {
+            width: 9px;
+            height: 9px;
+            background-color: #da00b6;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #da00b6, 0 0 20px #da00b6;
+        }
+
+        @keyframes neon-glow {
+            0%, 100% { 
+                opacity: 0.7; 
+                filter: drop-shadow(0 0 2px rgba(218, 0, 182, 0.6));
+            }
+            50% { 
+                opacity: 1; 
+                filter: drop-shadow(0 0 12px rgba(218, 0, 182, 0.9)) contrast(1.2);
+            }
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #ffffff;
+            margin: 0 0 25px 0;
+            letter-spacing: 0.5px;
+            line-height: 1.4;
+        }
+
+        /* Zone d'infos boudoir */
+        .details-zone {
+            background: rgba(0, 0, 0, 0.65);
+            border: 1px solid rgba(218, 0, 182, 0.15);
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            color: #bfaec2;
+            text-align: left;
+            margin-bottom: 35px;
+            line-height: 1.7;
+        }
+
+        .accent-color {
+            color: #da00b6;
+            font-weight: bold;
+        }
+
+        .gold-color {
+            color: #ffaa00;
+            font-weight: bold;
+        }
+
+        /* OPTIMISATION 3 : Harmonisation de la police des boutons (Style club) */
+        .btn-style-club {
+            font-family: 'Arial Black', Impact, sans-serif;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        /* Bouton Retour standard */
+        .btn-abort {
+            display: inline-block;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #aaa;
+            padding: 14px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+        .btn-abort:hover {
+            background: rgba(255, 255, 255, 0.07);
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        /* Séparateur pointillé pourpre */
+        .secret-trigger-zone {
+            margin-top: 40px;
+            border-top: 1px dashed rgba(218, 0, 182, 0.2);
+            padding-top: 25px;
+            text-align: center;
+        }
+
+        /* LE BOUTON SECRET OPTIMISÉ POUR MOBILE */
+        .btn-override {
+            background: transparent;
+            border: 1px solid rgba(255, 105, 180, 0.15);
+            color: rgba(255, 105, 180, 0.45);
+            font-size: 0.72rem;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            letter-spacing: 0.5px;
+            padding: 14px 16px;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .btn-override:hover, .btn-override:active {
+            color: #ff69b4;
+            border-color: rgba(255, 105, 180, 0.7);
+            background: rgba(255, 105, 180, 0.07);
+            text-shadow: 0 0 8px #ff69b4;
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sas-card">
+        <div class="lock-status">
+            <div class="pulse-dot"></div>
+            <span>Rideau Tiré</span>
+        </div>
+        
+        <h2>Heures d'ouverture des kiffs :<br><span style="font-weight: 700; color: #da00b6;">20h - 9h</span></h2>
+        
+        <div class="details-zone">
+            ACCÈS : <span class="gold-color">Réservé à mon gava</span><br>
+            STATUT : <span class="accent-color">🔒 Plaisir sous verrou</span><br>
+            RÉVEIL DES SENS : <span class="gold-color">Dès 20h00</span><br>
+            <hr style="border: 0; border-top: 1px dashed rgba(218, 0, 182, 0.3); margin: 15px 0;">
+            
+            <p style="text-align: center; margin: 0; padding: 0; line-height: 1.7;">
+                La journée c'est soft, on garde la chaleur, la baise et les kiffs <span class="accent-color">HOT 🔥🔞</span> pour la night.<br>
+                Couilles en cours de chargement. Patience frère.
+            </p>
+        </div>
+
+        <a href="https://antho-btx75.github.io/Roms/" class="btn-abort btn-style-club">
+            <i class="fas fa-mars" style="font-size: 0.9rem; margin-right: 6px; transform: rotate(-45deg);"></i> Patienter et remonter le calbard
+        </a>
+
+     <div class="secret-trigger-zone">
+            <p style="color: #6a536e; font-size: 0.8rem; margin: 0 0 12px 0; font-style: italic;">(Pour les VIP press&eacute;s 🥵)</p>
+            <button onclick="bypassLock()" class="btn-override btn-style-club">
+                <span style="font-size: 1.1rem; margin-right: 6px; display: inline-block; transform: translateY(1px);">🍆</span> 
+                FORCER L'ENTREE PAR DERRIÈRE (calbard baissé)
+            </button>
+        </div>
+
+    <script>
+        function bypassLock() {
+            console.log("Effraction nocturne en plein jour... Direction le plaisir.");
+            window.location.href = "https://antho-btx75.github.io/Roms/hot";
+        }
+    </script>
+
+</body>
+</html>
