@@ -208,6 +208,9 @@
        playsinline>
 </audio>
 
+    <audio id="musique-integrale" src="https://audio.jukehost.co.uk/019e37d4-bbeb-73f7-ac0f-ba853a3c64ff" preload="auto" playsinline></audio>
+    
+
 <div id="entree-vip" style="
     position: fixed; 
     top: 0; 
@@ -634,6 +637,33 @@
         </div>
     </div>
 </div>
+
+    <div style="display: flex; justify-content: center; margin: 30px auto;">
+    <button id="btn-play-integrale" style="
+        background: rgba(255, 0, 127, 0.03);
+        border: 1px solid #ff007f;
+        color: #ff007f;
+        padding: 12px 24px;
+        font-family: sans-serif;
+        font-size: 0.85rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        transition: all 0.4s ease;
+        text-shadow: 0 0 4px rgba(255, 0, 127, 0.6);
+        box-shadow: 0 0 8px rgba(255, 0, 127, 0.2), inset 0 0 4px rgba(255, 0, 127, 0.1);
+    " onmouseover="this.style.boxShadow='0 0 15px #ff007f, inset 0 0 8px rgba(255, 0, 127, 0.4)'; this.style.textShadow='0 0 8px #ff007f'; this.style.background='rgba(255, 0, 127, 0.1)';" 
+       onmouseout="this.style.boxShadow='0 0 8px rgba(255, 0, 127, 0.2), inset 0 0 4px rgba(255, 0, 127, 0.1)'; this.style.textShadow='0 0 4px rgba(255, 0, 127, 0.6)'; this.style.background='rgba(255, 0, 127, 0.03)';">
+        <i id="icone-play-integrale" class="fas fa-play" style="font-size: 0.8rem;"></i> 
+        <span>Musique d'ambiance</span>
+    </button>
+    </div>
+    
     
 
 <div style="margin: 40px auto; max-width: 92%; font-family: 'Trebuchet MS', Helvetica, sans-serif;">
@@ -1502,6 +1532,34 @@ function checkFinal() {
         }
     }, { once: true }); // Le jingle ne se joue qu'une seule fois par session
 </script>
+
+    <script>
+    document.getElementById('btn-play-integrale').addEventListener('click', function() {
+        const musique = document.getElementById('musique-integrale');
+        const icone = document.getElementById('icone-play-integrale');
+        const texte = this.querySelector('span');
+        
+        // Sécurité : si le jingle du sas tourne encore, on le coupe
+        const jingle = document.getElementById('jingle-hot');
+        if (jingle && !jingle.paused) {
+            jingle.pause();
+        }
+
+        if (musique.paused) {
+            musique.volume = 0.9; // Volume lourd à 90%
+            musique.play().catch(e => console.log("Erreur lecture intégrale :", e));
+            icone.className = "fas fa-pause";
+            texte.innerText = "Pause version intégrale";
+            this.style.background = "rgba(255, 0, 127, 0.15)";
+        } else {
+            musique.pause();
+            icone.className = "fas fa-play";
+            texte.innerText = "Écouter la version intégrale";
+            this.style.background = "rgba(255, 0, 127, 0.03)";
+        }
+    });
+    </script>
+    
 
     <script>
     document.getElementById('entree-vip').addEventListener('click', function() {
