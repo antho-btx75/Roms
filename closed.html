@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiffs nocturnes</title>
+    <title>Kiffs nocturnes - Accès restreint</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-        /* Ambiance tamisée pourpre et magenta - VERSION FINALE */
+        /* Ambiance tamisée pourpre et magenta */
         body {
             background-color: #040104;
             background-image: 
@@ -37,9 +37,10 @@
                 0 20px 50px rgba(0, 0, 0, 0.95),
                 0 0 30px rgba(218, 0, 182, 0.15);
             text-align: center;
+            position: relative;
         }
 
-        /* OPTIMISATION 1 : Voyant et texte "Rideau Tiré" effet néon réaliste / grésillant */
+        /* Voyant et texte "Rideau Tiré" effet néon réaliste / grésillant */
         .lock-status {
             font-size: 0.85rem;
             color: #da00b6;
@@ -105,7 +106,19 @@
             font-weight: bold;
         }
 
-        /* OPTIMISATION 3 : Harmonisation de la police des boutons (Style club) */
+        /* LA NOUVELLE BOX PREMIUM BLEU ÉLECTRIQUE NÉON */
+        .purple-box {
+            background: linear-gradient(135deg, rgba(10, 20, 40, 0.98), rgba(5, 10, 20, 1));
+            border: 2px solid #0077ff;
+            border-radius: 20px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0, 119, 255, 0.2);
+            color: #ffffff;
+            font-style: italic;
+        }
+
+        /* Harmonisation de la police des boutons (Style club) */
         .btn-style-club {
             font-family: 'Arial Black', Impact, sans-serif;
             text-transform: uppercase;
@@ -114,7 +127,9 @@
 
         /* Bouton Retour standard */
         .btn-abort {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             background: transparent;
             border: 1px solid rgba(255, 255, 255, 0.15);
             color: #aaa;
@@ -124,27 +139,41 @@
             font-size: 0.8rem;
             letter-spacing: 0.5px;
             transition: all 0.3s ease;
+            max-width: 320px;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 0 auto;
         }
+
         .btn-abort:hover {
             background: rgba(255, 255, 255, 0.07);
             color: #ffffff;
             border-color: rgba(255, 255, 255, 0.4);
         }
 
+        /* Le mot MAIS... au milieu */
+        .bottom-scroll-text {
+            color: #da00b6;
+            font-family: 'Arial Black', Impact, sans-serif;
+            font-size: 1.1rem;
+            margin: 25px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 900;
+        }
+
         /* Séparateur pointillé pourpre */
         .secret-trigger-zone {
-            margin-top: 40px;
+            margin-top: 30px;
             border-top: 1px dashed rgba(218, 0, 182, 0.2);
             padding-top: 25px;
             text-align: center;
         }
 
-        /* LE BOUTON SECRET OPTIMISÉ POUR MOBILE */
+        /* LE BOUTON SECRET TOUJOURS ALLUMÉ NÉON ROSE */
         .btn-override {
             background: transparent;
-            border: 1px solid rgba(255, 105, 180, 0.15);
-            color: rgba(255, 105, 180, 0.45);
-            font-size: 0.72rem;
+            font-family: inherit;
             cursor: pointer;
             transition: all 0.4s ease;
             letter-spacing: 0.5px;
@@ -156,56 +185,20 @@
             gap: 8px;
             width: 100%;
             box-sizing: border-box;
+            color: #ff69b4; 
+            border: 1px solid rgba(255, 105, 180, 0.7); 
+            background: rgba(255, 105, 180, 0.07); 
+            text-shadow: 0 0 8px #ff69b4, 0 0 15px #ff69b4; 
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.3); 
+            font-size: 0.72rem; 
         }
 
+        /* Effet au clic / survol pour le retour d'action */
         .btn-override:hover, .btn-override:active {
-            color: #ff69b4;
-            border-color: rgba(255, 105, 180, 0.7);
-            background: rgba(255, 105, 180, 0.07);
-            text-shadow: 0 0 8px #ff69b4;
-            box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
+            color: #ffffff; 
+            text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4; 
+            background: rgba(255, 105, 180, 0.15); 
         }
-
-        .secret-trigger-zone {
-    display: block;
-    opacity: 1;
-    margin-top: 30px;
-    padding-top: 25px;
-    border-top: 1px dashed rgba(218, 0, 182, 0.2);
-    text-align: center;
-}
-
-.btn-override {
-    background: transparent;
-    font-family: inherit;
-    cursor: pointer;
-    transition: all 0.4s ease;
-    letter-spacing: 0.5px;
-    padding: 14px 16px;
-    border-radius: 6px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    width: 100%;
-    box-sizing: border-box;
-    
-    /* Style Néon Rose Flashy permanent */
-    color: #ff69b4; 
-    border: 1px solid rgba(255, 105, 180, 0.7); 
-    background: rgba(255, 105, 180, 0.07); 
-    text-shadow: 0 0 8px #ff69b4, 0 0 15px #ff69b4; 
-    box-shadow: 0 0 15px rgba(255, 105, 180, 0.3); 
-    font-size: 0.72rem; 
-}
-
-/* Effet au clic / survol pour le retour d'action */
-.btn-override:hover, .btn-override:active {
-    color: #ffffff; 
-    text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4; 
-    background: rgba(255, 105, 180, 0.15); 
-}
-        
     </style>
 </head>
 <body>
@@ -224,73 +217,84 @@
             RÉVEIL DES SENS : <span class="gold-color">Dès 19h00</span><br>
             <hr style="border: 0; border-top: 1px dashed rgba(218, 0, 182, 0.3); margin: 15px 0;">
             
-            <p style="text-align: center; margin: 0; padding: 0; line-height: 1.7;">
+            <p style="text-align: center; margin: 0; padding: 0; line-height: 1.7; margin-bottom: 20px;">
                 La journée c'est avant tout le soft, on garde la chaleur, la baise et les kiffs <span class="accent-color">HOT 🔥🔞</span> pour la night.<br>
                 Couilles en cours de chargement. Patience frère.
             </p>
-                    <div id="countdown-container" style="font-family: 'Arial Black', Impact, sans-serif; color: #ffaa00; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 25px; background: rgba(0, 0, 0, 0.4); padding: 10px; border-radius: 8px; border: 1px dashed rgba(255, 170, 0, 0.2); text-align: center;">
-    Chargement du chrono... 🍑💦🍆
-                    </div>
+
+            <div id="countdown-container" style="font-family: 'Arial Black', Impact, sans-serif; color: #ffaa00; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; background: rgba(0, 0, 0, 0.4); padding: 10px; border-radius: 8px; border: 1px dashed rgba(255, 170, 0, 0.2); text-align: center;">
+                Chargement du chrono... 🍑💦🍆
+            </div>
+
+            <div id="baise-en-cours-box" class="purple-box" style="display: none; text-align: center;">
+                <span style="font-size: 1.5rem; display: block; margin-bottom: 5px;">🔥🔞🔞🔥</span>
+                <span style="font-family: 'Arial Black', Impact, sans-serif; text-transform: uppercase; font-weight: 900; letter-spacing: 1.5px; font-style: normal;">
+                    BAISE EN COURS... 
+                </span>
+                <p style="font-size: 0.8rem; margin: 8px 0 0 0; color: #aaa; font-style: normal;">Le rideau est levé sur l'index, gava. Bouge de là !</p>
+            </div>
         </div>
 
         <a href="https://antho-btx75.github.io/Roms/" class="btn-abort btn-style-club">
             <i class="fas fa-mars" style="font-size: 0.9rem; margin-right: 6px; transform: rotate(-45deg);"></i> Patienter et remonter le calbard
         </a>
 
+        <p class="bottom-scroll-text">Mais...</p>
 
-
-              <p class="bottom-scroll-text">Mais...</p>
-
-<div class="secret-trigger-zone">
-    <p style="color: #6a536e; font-size: 0.8rem; margin: 0 0 12px 0; font-style: italic;">(Pour les VIP press&eacute;s 🥵)</p>
-    <button onclick="bypassLock()" class="btn-override btn-style-club">
-        <span style="font-size: 1.1rem; margin-right: 6px; display: inline-block; transform: translateY(1px);">🍆</span> 
-        FORCER L'ENTRÉE PAR DERRIÈRE (calbard baissé)
-    </button>
-</div>
-
+        <div class="secret-trigger-zone">
+            <p style="color: #6a536e; font-size: 0.8rem; margin: 0 0 12px 0; font-style: italic;">(Pour les VIP press&eacute;s 🥵)</p>
+            <button onclick="bypassLock()" class="btn-override btn-style-club">
+                <span style="font-size: 1.1rem; margin-right: 6px; display: inline-block; transform: translateY(1px);">🍆</span> 
+                FORCER L'ENTRÉE PAR DERRIÈRE (calbard baissé)
+            </button>
+        </div>
+    </div>
 
     <script>
         function bypassLock() {
             console.log("Effraction nocturne en plein jour... Direction le plaisir.");
             window.location.href = "https://antho-btx75.github.io/Roms/hot";
         }
-    </script>
 
-        <script>
-    function updateCountdown() {
-        const maintenant = new Date();
-        const ceSoir = new Date();
-        
-        // On cale le calcul sur aujourd'hui à 20h00
-        ceSoir.setHours(19, 0, 0, 0);
-        
-        // Si la page est consultée entre 20h et minuit (cas de secours)
-        if (maintenant > ceSoir) {
-            ceSoir.setDate(ceSoir.getDate() + 1);
+        function updateCountdown() {
+            const maintenant = new Date();
+            const heureActuelle = maintenant.getHours();
+            
+            const containerChrono = document.getElementById("countdown-container");
+            const boxBaise = document.getElementById("baise-en-cours-box");
+
+            // DETECTION FRAUDE NOCTURNE : Si accédé entre 19h et 9h du matin
+            if (heureActuelle >= 19 || heureActuelle < 9) {
+                containerChrono.style.display = "none";
+                boxBaise.style.display = "block";
+                return; 
+            }
+
+            // AFFICHAGE JOURNÉE NORMAL
+            containerChrono.style.display = "block";
+            boxBaise.style.display = "none";
+
+            const ceSoir = new Date();
+            ceSoir.setHours(19, 0, 0, 0);
+            
+            const difference = ceSoir - maintenant;
+            
+            const heures = Math.floor(difference / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const secondes = Math.floor((difference % (1000 * 60)) / 1000);
+            
+            const txtHeures = heures > 0 ? heures + "h " : "";
+            const txtMinutes = minutes < 10 ? "0" + minutes + "m " : minutes + "m ";
+            const txtSecondes = secondes < 10 ? "0" + secondes + "s" : secondes + "s";
+            
+            containerChrono.innerHTML = txtHeures + txtMinutes + txtSecondes + " avant l'ouverture 🍑💦🍆";
         }
-        
-        const difference = ceSoir - maintenant;
-        
-        // Calcul des heures, minutes et secondes
-        const heures = Math.floor(difference / (1000 * 60 * 60));
-        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-        const secondes = Math.floor((difference % (1000 * 60)) / 1000);
-        
-        // Formatage pour éviter les sauts de texte (ex: 05 au lieu de 5)
-        const txtHeures = heures > 0 ? heures + "h " : "";
-        const txtMinutes = minutes < 10 ? "0" + minutes + "m " : minutes + "m ";
-        const txtSecondes = secondes < 10 ? "0" + secondes + "s" : secondes + "s";
-        
-        document.getElementById("countdown-container").innerHTML = 
-            txtHeures + txtMinutes + txtSecondes + " avant l'ouverture 🍑💦🍆";
-    }
 
-    // Lance le calcul immédiatement puis toutes les secondes
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-        </script>
-        
-
+        // Activation immédiate et mise à jour synchrone
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
 </body>
 </html>
+
+        
