@@ -167,16 +167,28 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         }
 
-        /* Style pour les boîtes de texte Purple Box */
-        .purple-box {
-            background: rgba(188, 140, 255, 0.1);
-            border-left: 4px solid var(--accent-purple);
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 4px;
-            color: var(--text-main);
-            font-style: italic;
-        }
+.purple-box {
+    /* Fond en dégradé ultra-sombre et immersif */
+    background: linear-gradient(135deg, rgba(10, 20, 40, 0.98), rgba(5, 10, 20, 1));
+    
+    /* Bordure complète en bleu électrique au lieu du simple liseré gauche */
+    border: 2px solid #0077ff;
+    
+    /* Arrondi plus généreux (20px) pour correspondre à ton autre style */
+    border-radius: 20px;
+    
+    /* Espacements ajustés */
+    padding: 25px;
+    margin: 20px 0;
+    
+    /* Le fameux halo de lumière (glow) bleu en arrière-plan */
+    box-shadow: 0 10px 30px rgba(0, 119, 255, 0.2);
+    
+    /* Conservation de tes règles de texte d'origine */
+    color: var(--text-main);
+    font-style: italic;
+}
+
         /* Grille des applications */
 .app-grid {
     display: grid;
