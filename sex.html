@@ -1490,7 +1490,7 @@ function checkFinal() {
         
         // On vérifie s'il n'a pas déjà démarré
         if (jingle.paused) {
-            jingle.volume = 0.7; // Volume réglé pour être percutant mais propre
+            jingle.volume = 0.9; // Volume réglé pour être percutant mais propre
             jingle.play().catch(e => {
                 console.log("Lecture audio automatique bloquée par le navigateur.");
             });
