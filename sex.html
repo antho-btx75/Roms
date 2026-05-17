@@ -1549,12 +1549,12 @@ function checkFinal() {
             musique.volume = 0.9; // Volume lourd à 90%
             musique.play().catch(e => console.log("Erreur lecture intégrale :", e));
             icone.className = "fas fa-pause";
-            texte.innerText = "Pause version intégrale";
+            texte.innerText = "Mettre en pause";
             this.style.background = "rgba(255, 0, 127, 0.15)";
         } else {
             musique.pause();
             icone.className = "fas fa-play";
-            texte.innerText = "Écouter la version intégrale";
+            texte.innerText = "Musique d'ambiance";
             this.style.background = "rgba(255, 0, 127, 0.03)";
         }
     });
