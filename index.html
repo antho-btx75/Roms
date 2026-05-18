@@ -249,21 +249,60 @@
                 </span>
             </div>
 
-            <p style="
-    color: #f4f0ea; 
-    font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
-    font-size: 1rem; 
-    letter-spacing: 1.5px; 
-    line-height: 1.6;
-    text-align: center; 
-    font-weight: 400;
-    max-width: 90%;
-    margin: 20px auto;
-    opacity: 0.95;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-">
-    Je suis heureux mon gars de partir avec toi, tranquille au calme frère
-            </p>
+<div style="text-align: center; margin: 35px auto;">
+    <audio id="vocalGava" src="https://audio.jukehost.co.uk/019e3cb9-d5fa-7247-9a85-521fda7cda37"></audio>
+    
+    <button onclick="toggleVocal()" id="btnVocal" style="
+        background: rgba(244, 240, 234, 0.03); /* Fond or blanc ultra-léger */
+        border: 1px solid rgba(244, 240, 234, 0.4); /* Contour or blanc */
+        border-radius: 50px;
+        padding: 12px 28px;
+        color: #f4f0ea; /* Texte Or Blanc */
+        font-family: 'Segoe UI', Roboto, sans-serif;
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 0 0 10px rgba(244, 240, 234, 0.05), inset 0 0 10px rgba(255, 255, 255, 0.02);
+    " onmouseover="this.style.border='1px solid #ffffff'; this.style.boxShadow='0 0 15px rgba(255, 255, 255, 0.2)'; this.style.color='#ffffff';" 
+      onmouseout="this.style.border='1px solid rgba(244, 240, 234, 0.4)'; this.style.boxShadow='0 0 10px rgba(244, 240, 234, 0.05)'; this.style.color='#f4f0ea';">
+        
+        <i id="iconVocal" class="fas fa-play" style="font-size: 0.8rem; color: #f4f0ea; transition: all 0.3s;"></i>
+        <span id="textVocal">ÉCOUTER SON MESSAGE</span>
+    </button>
+</div>
+
+<script>
+function toggleVocal() {
+    var audio = document.getElementById('vocalGava');
+    var icon = document.getElementById('iconVocal');
+    var text = document.getElementById('textVocal');
+    var btn = document.getElementById('btnVocal');
+
+    if (audio.paused) {
+        audio.play();
+        icon.className = "fas fa-pause";
+        text.innerText = "MESSAGE EN LECTURE...";
+        btn.style.borderColor = "#ffffff";
+    } else {
+        audio.pause();
+        icon.className = "fas fa-play";
+        text.innerText = "ÉCOUTER SON MESSAGE";
+        btn.style.borderColor = "rgba(244, 240, 234, 0.4)";
+    }
+}
+
+// Remettre le bouton à l'état initial quand l'audio se termine tout seul
+document.getElementById('vocalGava').addEventListener('ended', function() {
+    document.getElementById('iconVocal').className = "fas fa-play";
+    document.getElementById('textVocal').innerText = "ÉCOUTER SON MESSAGE";
+    document.getElementById('btnVocal').style.borderColor = "rgba(244, 240, 234, 0.4)";
+});
+</script>
             
 
 <ul class="nav-pill-list">
