@@ -336,15 +336,57 @@
 </script>
 
 
-    <div class="hot-text-container">
-        <p class="hot-phrase-neon">DU DÉSIR, DU PLAISIR ET DES KIFFS ENTRE NOUS</p>
-    </div>
-
+<div class="hot-text-container">
+    <p class="hot-phrase-neon">
+        <span class="phrase-fragment f1">DU DÉSIR,</span> 
+        <span class="phrase-fragment f2">DU PLAISIR</span> 
+        <span class="phrase-fragment f3">ET DES KIFFS</span> 
+        <span class="phrase-fragment f4">ENTRE NOUS</span>
+    </p>
+</div>
 
 <style>
-    @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
+    /* Style de la phrase conteneur */
+    .hot-phrase-neon {
+        text-align: center;
+        margin: 20px auto;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-size: 1.5rem; /* Ajuste la taille si besoin selon tes anciennes règles */
+    }
+
+    /* État de base "éteint" pour chaque morceau de la phrase */
+    .hot-phrase-neon .phrase-fragment {
+        display: inline-block;
+        color: #210d1c; /* Pourpre très sombre presque invisible sur fond noir */
+        text-shadow: none;
+        animation: fragmentGlow 4.5s infinite ease-in-out;
+        transition: all 0.4s ease;
+    }
+
+    /* Les retards d'allumage pour créer l'effet "bribe par bribe" */
+    .hot-phrase-neon .f1 { animation-delay: 0.0s; }
+    .hot-phrase-neon .f2 { animation-delay: 0.7s; }
+    .hot-phrase-neon .f3 { animation-delay: 1.4s; }
+    .hot-phrase-neon .f4 { animation-delay: 2.1s; }
+
+    /* L'animation d'apparition progressive et l'effet Glowy persistant */
+    @keyframes fragmentGlow {
+        0% {
+            color: #210d1c;
+            text-shadow: none;
+        }
+        /* Le fragment s'illumine intensément et déploie le halo néon magenta */
+        25%, 75% {
+            color: #ffffff;
+            text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 30px #ff007f;
+        }
+        /* Il s'éteint doucement en fin de cycle pour relancer la boucle */
+        95%, 100% {
+            color: #210d1c;
+            text-shadow: none;
+        }
     }
 </style>
 
@@ -360,7 +402,7 @@
             display: flex;
             align-items: center;
             position: relative;
-            padding: 2px; /* L'épaisseur du néon */
+            padding: 2px; 
             background: linear-gradient(90deg, #ff2d55, #8957e5, #ff2d55);
             background-size: 200% auto;
             border-radius: 50px;
@@ -371,7 +413,7 @@
         }
 
         .vip-pass-inner {
-            background: #06020d; /* Noir profond club */
+            background: #06020d; 
             padding: 12px 25px;
             border-radius: 50px;
             display: flex;
@@ -423,8 +465,8 @@
             50% { opacity: 1; transform: scale(1.2); }
         }
     </style>
-
-    </div>
+</div>
+    
     
 <div style="background: linear-gradient(135deg, #2d0022 0%, #140019 100%); border: 2px solid #ff007f; border-radius: 16px; padding: 24px; max-width: 480px; margin: 20px auto; text-align: center; box-shadow: 0 8px 32px rgba(255, 0, 127, 0.25); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
 
