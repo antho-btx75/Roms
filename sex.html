@@ -335,7 +335,6 @@
     document.getElementById('header-img').src = randomHeader;
 </script>
 
-
             <div class="hot-text-container">
     <p class="hot-phrase-neon">
         <span class="phrase-fragment f1">DU DÉSIR,</span> 
@@ -356,22 +355,22 @@
         font-size: 1.5rem;
     }
 
-    /* Invisible par défaut, pas d'ombre qui bave */
+    /* Invisible au départ, transition nette et propre */
     .hot-phrase-neon .phrase-fragment {
         display: inline-block;
         opacity: 0; 
         color: #ffffff;
         text-shadow: none;
-        animation: fragmentGlowOnce 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        animation: fragmentGlowOnce 1.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     }
 
-    /* Découpage lent et propre */
+    /* Timing lent et bien décomposé pour l'apparition par bribes */
     .hot-phrase-neon .f1 { animation-delay: 0.5s; }
     .hot-phrase-neon .f2 { animation-delay: 2.0s; }
     .hot-phrase-neon .f3 { animation-delay: 3.5s; }
     .hot-phrase-neon .f4 { animation-delay: 5.0s; }
 
-    /* Animation One-Shot : Lettres blanches ultra-nettes + contour rose vif précis */
+    /* Animation One-Shot : suppression des gros rayons pour éviter le flou */
     @keyframes fragmentGlowOnce {
         0% {
             opacity: 0;
@@ -380,8 +379,11 @@
         100% {
             opacity: 1;
             color: #ffffff;
-            /* Correctif : Un contour très fin (1px à 5px max) pour garder les lettres intactes */
-            text-shadow: 0 0 4px #ff007f, 0 0 10px rgba(255, 0, 127, 0.5);
+            /* On utilise des ombres très courtes et nettes pour dessiner le contour sans baver */
+            text-shadow: 
+                0 0 2px #ff007f,
+                0 0 4px #ff007f,
+                0 0 1px #ff007f;
         }
     }
 </style>
