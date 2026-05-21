@@ -336,7 +336,7 @@
 </script>
 
 
-    <div class="hot-text-container">
+            <div class="hot-text-container">
     <p class="hot-phrase-neon">
         <span class="phrase-fragment f1">DU DÉSIR,</span> 
         <span class="phrase-fragment f2">DU PLAISIR</span> 
@@ -356,38 +356,32 @@
         font-size: 1.5rem;
     }
 
-    /* Modifié : Opacity 0 par défaut pour être invisible pendant le "delay" */
+    /* Invisible par défaut, pas d'ombre qui bave */
     .hot-phrase-neon .phrase-fragment {
         display: inline-block;
         opacity: 0; 
         color: #ffffff;
         text-shadow: none;
-        animation: fragmentGlowOnce 2.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        animation: fragmentGlowOnce 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     }
 
-    /* Retards d'allumage lents et bien décomposés */
+    /* Découpage lent et propre */
     .hot-phrase-neon .f1 { animation-delay: 0.5s; }
     .hot-phrase-neon .f2 { animation-delay: 2.0s; }
     .hot-phrase-neon .f3 { animation-delay: 3.5s; }
     .hot-phrase-neon .f4 { animation-delay: 5.0s; }
 
-    /* Animation One-Shot : gère l'apparition (opacity) et le glow rose */
+    /* Animation One-Shot : Lettres blanches ultra-nettes + contour rose vif précis */
     @keyframes fragmentGlowOnce {
         0% {
             opacity: 0;
             text-shadow: none;
         }
-        /* Transition douce vers l'allumage */
-        30% {
-            opacity: 1;
-            color: #ffffff;
-            text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
-        }
-        /* Reste figé à 100% avec le gros effet glowy permanent */
         100% {
             opacity: 1;
             color: #ffffff;
-            text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 30px #ff007f;
+            /* Correctif : Un contour très fin (1px à 5px max) pour garder les lettres intactes */
+            text-shadow: 0 0 4px #ff007f, 0 0 10px rgba(255, 0, 127, 0.5);
         }
     }
 </style>
