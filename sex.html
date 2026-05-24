@@ -477,22 +477,60 @@
 
         <div style="margin: 30px auto; width: 60%; height: 1px; background: linear-gradient(to right, transparent, rgba(255, 20, 147, 0.4), transparent);"></div>
 
-        <div class="fusion-content" style="background: linear-gradient(135deg, #2d0022 0%, #140019 100%); padding: 25px 15px; border-radius: 8px; margin-bottom: 30px; box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.6);">
+               <div class="fusion-content" style="background: linear-gradient(135deg, #2d0022 0%, #140019 100%); padding: 25px 15px; border-radius: 8px; margin-bottom: 30px; box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.6);">
             
-            <p>J'ai trop envie de toi mon gars.</p>
+    <audio id="vocalExcites" src="https://audio.jukehost.co.uk/019e5a1a-f689-70d4-acc3-b2f9e7a0428d"></audio>
+    
+    <div style="width: 100%; max-width: 320px; margin: 5px auto 20px auto; text-align: center;">
+        <button onclick="toggleVocalExcites()" id="btnVocalExcites" style="background: rgba(255, 45, 85, 0.03); border: 1px solid rgba(255, 45, 85, 0.4); border-radius: 4px; padding: 10px 20px; color: #ff2d55; font-family: 'Segoe UI', Roboto, sans-serif; font-size: 0.8rem; font-weight: bold; letter-spacing: 1.5px; cursor: pointer; transition: all 0.3s ease; display: inline-flex; align-items: center; justify-content: center; gap: 12px; width: 100%; box-shadow: 0 0 10px rgba(255, 45, 85, 0.05);">
+            <i id="iconVocalExcites" class="fas fa-play" style="font-size: 0.75rem; color: #ff2d55;"></i>
+            <span id="textVocalExcites">TU M'EXCITES MEC</span>
+        </button>
+    </div>
 
-            <p>Tu m'excites trop bordel 🥵.<br>J'ai trop des envies de baise avec toi mec.</p>
+    <p>Tu m'excites trop bordel 🥵.<br>J'ai trop des envies de baise avec toi mec.</p>
 
-            <p>Putain y'a que <span class="fusion-highlight">TOI</span> pour me faire bander aussi dur et me faire autant mouiller du cul à la fois (meufs comme gars tu les éteins tous, personne n'existe face à toi). Y'a grave une bonne odeur de baise, ouais une bonne odeur de bite, de baltrou et de sperme entre nous.</p>
+    <p>Putain y'a que <span class="fusion-highlight">TOI</span> pour me faire bander aussi dur et me faire autant mouiller du cul à la fois (meufs comme gars tu les éteins tous, personne n'existe face à toi). Y'a grave une bonne odeur de baise, ouais une bonne odeur de bite, de baltrou et de sperme entre nous.</p>
 
-            <p>Je kiffe trop ça putain c'est trop bon Romaiiin ! <span class="fusion-heart">Je t'aime mec.</span> Prends tout, tout ce que tu veux. Te faire kiffer c'est mon seul kiff. Côté bite ou baltrou, je veux juste te faire kiffer mon gars.</p>
+    <p>Je kiffe trop ça putain c'est trop bon Romaiiin ! <span class="fusion-heart">Je t'aime mec.</span> Prends tout, tout ce que tu veux. Te faire kiffer c'est mon seul kiff. Côté bite ou baltrou, je veux juste te faire kiffer mon gars.</p>
 
-            <p>Je veux te faire juter mon gars, ouais j'veux sentir ton lait bien chaud dans ma bouche ou dans mon cul, je veux faire du bien à ta teub, et je bande de fou pour ton boule bien bandant. Lécher ton anus comme un malade, toi en train de me sucer avant que je baise ton bon gros fiak, ou alors moi en train de pomper ta queue jusqu'aux couilles avant que tu me ramones le baltrou, prends tous les kiffs mon Roms.</p>
+    <p>Je veux te faire juter mon gars, ouais j'veux sentir ton lait bien chaud dans ma bouche ou dans mon cul, je veux faire du bien à ta teub, et je bande de fou pour ton boule bien bandant. Lécher ton anus comme un malade, toi en train de me sucer avant que je baise ton bon gros fiak, ou alors moi en train de pomper ta queue jusqu'aux couilles avant que tu me ramones le baltrou, prends tous les kiffs mon Roms.</p>
 
-            <p style="margin-bottom: 20px;">C'est un kiff putain, un p'tit délire en scred entre nous mon Roms. Loin du gris...</p>
+    <p style="margin-bottom: 20px;">C'est un kiff putain, un p'tit délire en scred entre nous mon Roms. Loin du gris...</p>
+    
+    <div class="fusion-emojis">🍑💦🍆🔥</div>
+</div>
+
+<script>
+function toggleVocalExcites() {
+    var audio = document.getElementById('vocalExcites');
+    var icon = document.getElementById('iconVocalExcites');
+    var text = document.getElementById('textVocalExcites');
+    var btn = document.getElementById('btnVocalExcites');
+
+    if (audio.paused) {
+        audio.play();
+        icon.className = "fas fa-pause";
+        text.innerText = "ÉCOUTE EN COURS...";
+        btn.style.borderColor = "#ff2d55";
+        btn.style.boxShadow = "0 0 15px rgba(255, 45, 85, 0.3)";
+    } else {
+        audio.pause();
+        icon.className = "fas fa-play";
+        text.innerText = "TU M'EXCITES MEC";
+        btn.style.borderColor = "rgba(255, 45, 85, 0.4)";
+        btn.style.boxShadow = "0 0 10px rgba(255, 45, 85, 0.05)";
+    }
+}
+
+document.getElementById('vocalExcites').addEventListener('ended', function() {
+    document.getElementById('iconVocalExcites').className = "fas fa-play";
+    document.getElementById('textVocalExcites').innerText = "RÉÉCOUTER";
+    document.getElementById('btnVocalExcites').style.borderColor = "rgba(255, 45, 85, 0.4)";
+    document.getElementById('btnVocalExcites').style.boxShadow = "0 0 10px rgba(255, 45, 85, 0.05)";
+});
+</script>
             
-            <div class="fusion-emojis">🍑💦🍆🔥</div>
-        </div>
 
         <div style="position: relative; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255, 0, 127, 0.3); background-color: #050008; max-width: 100%; margin: 0 auto;">
             <a href="https://i.ibb.co/tpHZSLcJ/ezgif-88f62753f61adf72.gif" target="_blank" style="display: block; cursor: zoom-in; text-decoration: none;">
