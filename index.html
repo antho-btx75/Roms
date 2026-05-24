@@ -250,11 +250,45 @@
             </span>
         </div>
 
-        <div style="width: 100%; text-align: center; margin-bottom: 20px; padding: 0 10px;">
-            <p style="margin: 0; color: #fdfaf0; font-family: 'Segoe UI', Roboto, sans-serif; font-size: 0.9rem; font-weight: 700; letter-spacing: 1px; line-height: 1.6; text-shadow: 0 0 10px rgba(238, 230, 196, 0.5), 1px 1px 2px rgba(0,0,0,0.8);">
-               Mec, ça fait 10 piges que t'as MIS LE FEU à mon cœur, mais aussi à mon calbard, à ma bite et à mon cul. JE T'AIME FRÈRE.
-            </p>
+        <audio id="vocalJeTaime" src="https://audio.jukehost.co.uk/019e59f7-31bb-71d4-ad5d-9bbe710f4f9f"></audio>
+        
+        <div style="width: 100%; max-width: 320px; margin: 5px 0 20px 0; text-align: center;">
+            <button onclick="toggleVocalJeTaime()" id="btnVocalJeTaime" style="background: rgba(238, 230, 196, 0.03); border: 1px solid rgba(238, 230, 196, 0.4); border-radius: 4px; padding: 10px 20px; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.8rem; font-weight: bold; letter-spacing: 1.5px; cursor: pointer; transition: all 0.3s ease; display: inline-flex; align-items: center; justify-content: center; gap: 12px; width: 100%; box-shadow: 0 0 10px rgba(238, 230, 196, 0.05);">
+                <i id="iconVocalJeTaime" class="fas fa-play" style="font-size: 0.75rem; color: #eee6c4;"></i>
+                <span id="textVocalJeTaime">JE T'AIME MON GARS</span>
+            </button>
         </div>
+
+<script>
+function toggleVocalJeTaime() {
+    var audio = document.getElementById('vocalJeTaime');
+    var icon = document.getElementById('iconVocalJeTaime');
+    var text = document.getElementById('textVocalJeTaime');
+    var btn = document.getElementById('btnVocalJeTaime');
+
+    if (audio.paused) {
+        audio.play();
+        icon.className = "fas fa-pause";
+        text.innerText = "ÉCOUTE EN COURS...";
+        btn.style.borderColor = "#eee6c4";
+        btn.style.boxShadow = "0 0 15px rgba(238, 230, 196, 0.2)";
+    } else {
+        audio.pause();
+        icon.className = "fas fa-play";
+        text.innerText = "JE T'AIME MON GARS";
+        btn.style.borderColor = "rgba(238, 230, 196, 0.4)";
+        btn.style.boxShadow = "0 0 10px rgba(238, 230, 196, 0.05)";
+    }
+}
+
+document.getElementById('vocalJeTaime').addEventListener('ended', function() {
+    document.getElementById('iconVocalJeTaime').className = "fas fa-play";
+    document.getElementById('textVocalJeTaime').innerText = "RÉÉCOUTER";
+    document.getElementById('btnVocalJeTaime').style.borderColor = "rgba(238, 230, 196, 0.4)";
+    document.getElementById('btnVocalJeTaime').style.boxShadow = "0 0 10px rgba(238, 230, 196, 0.05)";
+});
+</script>
+        
 
 
 <ul class="nav-pill-list">
