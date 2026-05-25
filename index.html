@@ -346,7 +346,127 @@
                 https://antho-btx75.github.io/Roms/<br>
                 JE T'AIME DE FOU MON ROMS 💕<br>
                 J'AI TROP ENVIE D'ÊTRE AVEC TOI MEC<br>
-                Mon gars je te parlerai de nos vacs dm1. J'espère que t'es toujours chaud 🥹
+               <div class="audio-player-minimal" style="
+    background: #0a0a0a;
+    border: 1px solid rgba(247, 231, 190, 0.25);
+    border-radius: 12px;
+    padding: 12px 20px;
+    max-width: 280px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(247, 231, 190, 0.03);
+    font-family: 'Segoe UI', Roboto, sans-serif;
+">
+    <audio id="audio-bonne-nuit" src="https://audio.jukehost.co.uk/019e60cd-433e-72f6-8422-1962718e94ef" preload="none"></audio>
+
+    <button id="btn-play-nuit" style="
+        background: none;
+        border: 1px solid rgba(247, 231, 190, 0.4);
+        color: #f7e7be;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        padding: 0;
+        box-shadow: 0 0 5px rgba(247, 231, 190, 0.1);
+    }">
+        <i id="icone-nuit" class="fas fa-play" style="font-size: 0.85rem; margin-left: 2px;"></i>
+    </button>
+
+    <div style="display: flex; flex-direction: column; flex-grow: 1;">
+        <span style="
+            color: #f7e7be; 
+            font-size: 0.85rem; 
+            font-weight: 400; 
+            letter-spacing: 1px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-shadow: 0 0 5px rgba(247, 231, 190, 0.3);
+        ">
+            Bonne nuit mon gars
+        </span>
+        <span id="statut-nuit" style="
+            color: #e2e8f0; 
+            opacity: 0.4; 
+            font-size: 0.65rem; 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 2px;
+        ">
+            Vocal privé
+        </span>
+    </div>
+</div>
+
+<script>
+    const btnNuit = document.getElementById('btn-play-nuit');
+    const audioNuit = document.getElementById('audio-bonne-nuit');
+    const iconeNuit = document.getElementById('icone-nuit');
+    const statutNuit = document.getElementById('statut-nuit');
+
+    btnNuit.addEventListener('click', function() {
+        // Sécurité : Si le gros son d'accueil tourne encore, on le coupe pour pas que ça se mélange
+        const audioAccueil = document.getElementById('audio-accueil');
+        if (audioAccueil && !audioAccueil.paused) {
+            audioAccueil.pause();
+        }
+
+        if (audioNuit.paused) {
+            audioNuit.volume = 1.0;
+            audioNuit.play().catch(e => console.log("Lecture bloquée :", e));
+            
+            // Changement visuel : Mode Lecture
+            iconeNuit.className = "fas fa-pause";
+            iconeNuit.style.marginLeft = "0px"; // Recentre la pause
+            btnNuit.style.borderColor = "#ffffff";
+            btnNuit.style.boxShadow = "0 0 10px rgba(255, 255, 255, 0.2)";
+            statutNuit.innerText = "Écoute en cours...";
+            statutNuit.style.color = "#f7e7be";
+            statutNuit.style.opacity = "0.7";
+        } else {
+            audioNuit.pause();
+            
+            // Retour au Mode Pause
+            remettrePlayerEnPause();
+        }
+    });
+
+    // Quand le vocal se termine tout seul, le bouton se remet en Play proprement
+    audioNuit.addEventListener('ended', function() {
+        remettrePlayerEnPause();
+    });
+
+    function remettrePlayerEnPause() {
+        iconeNuit.className = "fas fa-play";
+        iconeNuit.style.marginLeft = "2px";
+        btnNuit.style.borderColor = "rgba(247, 231, 190, 0.4)";
+        btnNuit.style.boxShadow = "0 0 5px rgba(247, 231, 190, 0.1)";
+        statutNuit.innerText = "Vocal privé";
+        statutNuit.style.color = "#e2e8f0";
+        statutNuit.style.opacity = "0.4";
+    }
+
+    // Effet de survol sur le petit bouton or
+    btnNuit.addEventListener('mouseenter', function() {
+        this.style.transform = "scale(1.05)";
+        this.style.borderColor = "rgba(247, 231, 190, 0.8)";
+    });
+    btnNuit.addEventListener('mouseleave', function() {
+        this.style.transform = "scale(1)";
+        if (audioNuit.paused) {
+            this.style.borderColor = "rgba(247, 231, 190, 0.4)";
+        } else {
+            this.style.borderColor = "#ffffff";
+        }
+    });
+</script>
+ 
             </span>
         </div>
 
