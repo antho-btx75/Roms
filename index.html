@@ -503,7 +503,50 @@
         if (audioNuit.paused) { this.style.borderColor = "rgba(247, 231, 190, 0.4)"; } 
         else { this.style.borderColor = "#ffffff"; }
     });
+
+    // ========================================================
+    // AJOUT : FONCTION POUR RELANCER TON BOUTON "JE T'AIME MON GARS"
+    // ========================================================
+    function toggleVocalJeTaime() {
+        const audioJeTaime = document.getElementById('vocalJeTaime');
+        const iconJeTaime = document.getElementById('iconVocalJeTaime');
+        const textJeTaime = document.getElementById('textVocalJeTaime');
+        const audioAccueil = document.getElementById('audio-accueil');
+        
+        if (!audioJeTaime) return;
+
+        // On coupe la musique de fond du sas si elle tourne toujours
+        if (audioAccueil && !audioAccueil.paused) { audioAccueil.pause(); }
+
+        // On coupe le vocal "Bonne nuit" s'il tourne pour éviter les mélanges
+        if (audioNuit && !audioNuit.paused) {
+            audioNuit.pause();
+            remettrePlayerEnPause();
+        }
+
+        if (audioJeTaime.paused) {
+            audioJeTaime.play().catch(e => console.log("Lecture bloquée :", e));
+            if (iconJeTaime) iconJeTaime.className = "fas fa-pause";
+            if (textJeTaime) textJeTaime.innerText = "PAUSE";
+        } else {
+            audioJeTaime.pause();
+            if (iconJeTaime) iconJeTaime.className = "fas fa-play";
+            if (textJeTaime) textJeTaime.innerText = "JE T'AIME MON GARS";
+        }
+    }
+
+    // Sécurité : Si le vocal s'arrête tout seul, on remet le bouton en mode "Play"
+    const audioJeTaime = document.getElementById('vocalJeTaime');
+    if (audioJeTaime) {
+        audioJeTaime.addEventListener('ended', function() {
+            const iconJeTaime = document.getElementById('iconVocalJeTaime');
+            const textJeTaime = document.getElementById('textVocalJeTaime');
+            if (iconJeTaime) iconJeTaime.className = "fas fa-play";
+            if (textJeTaime) textJeTaime.innerText = "JE T'AIME MON GARS";
+        });
+    }
 </script>
+
     
 
 <ul class="nav-pill-list">
