@@ -1469,28 +1469,31 @@ function cycleLanguage() {
         </div>
     </section>
 </div>
-<footer><p style="text-align:center; padding: 40px; color: var(--text-dim); font-size: 0.8em;">Notre Sanctuaire Privé - Roms & Antho | Forever 💪🏻</p></footer>
 <script>
     document.getElementById('entree-accueil').addEventListener('click', function() {
         const audioAccueil = document.getElementById('audio-accueil');
         
-        // 1. Récupération de la date du jour (AAAA-MM-JJ)
-        const dateDuJour = new Date().toISOString().split('T')[0];
-        const derniereVisiteSon = localStorage.getItem('dateDernierSonSanctuaire');
+        // 1. On récupère le moment présent (en millisecondes)
+        const maintenant = Date.now();
+        // On récupère le moment où le son a été joué pour la dernière fois
+        const derniereEcoute = localStorage.getItem('timestampDernierSon');
 
-        // 2. On lance le son UNIQUEMENT si c'est la première fois aujourd'hui
-        if (derniereVisiteSon !== dateDuJour) {
+        // Durée de la tranche : 4 heures (4 * 60 minutes * 60 secondes * 1000 millisecondes)
+        const quatreHeures = 4 * 60 * 60 * 1000;
+
+        // 2. On joue le son si c'est la première fois OU si plus de 4h se sont écoulées
+        if (!derniereEcoute || (maintenant - derniereEcoute > quatreHeures)) {
             if (audioAccueil) {
-                audioAccueil.volume = 1.0; // Volume à fond
+                audioAccueil.volume = 1.0;
                 audioAccueil.play().catch(e => console.log("Erreur de lecture audio : ", e));
             }
-            // On enregistre que le son a été joué pour aujourd'hui
-            localStorage.setItem('dateDernierSonSanctuaire', dateDuJour);
+            // On met à jour le chrono pour bloquer les 4 prochaines heures
+            localStorage.setItem('timestampDernierSon', maintenant);
         } else {
-            console.log("Son déjà joué aujourd'hui. Entrée en silence.");
+            console.log("Moins de 4h depuis la dernière écoute. Entrée silencieuse.");
         }
         
-        // 3. Disparition fluide du rideau noir (appliquée à CHAQUE fois)
+        // 3. Disparition fluide du rideau noir (à chaque fois)
         this.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         this.style.opacity = '0';
         this.style.transform = 'scale(1.02)';
@@ -1501,7 +1504,7 @@ function cycleLanguage() {
         }, 600);
     });
 </script>
-    
+
     
 </body>
 </html>
