@@ -1470,29 +1470,38 @@ function cycleLanguage() {
     </section>
 </div>
 <footer><p style="text-align:center; padding: 40px; color: var(--text-dim); font-size: 0.8em;">Notre Sanctuaire Privé - Roms & Antho | Forever 💪🏻</p></footer>
-    <script>
+<script>
     document.getElementById('entree-accueil').addEventListener('click', function() {
         const audioAccueil = document.getElementById('audio-accueil');
         
-        // 1. Déclenchement immédiat du son d'accueil validé par le clic de Romain
-        if (audioAccueil) {
-            audioAccueil.volume = 1.0; // Volume à 100%
-            audioAccueil.play().catch(e => {
-                console.log("Erreur de lecture audio : ", e);
-            });
+        // 1. Récupération de la date du jour (AAAA-MM-JJ)
+        const dateDuJour = new Date().toISOString().split('T')[0];
+        const derniereVisiteSon = localStorage.getItem('dateDernierSonSanctuaire');
+
+        // 2. On lance le son UNIQUEMENT si c'est la première fois aujourd'hui
+        if (derniereVisiteSon !== dateDuJour) {
+            if (audioAccueil) {
+                audioAccueil.volume = 1.0; // Volume à fond
+                audioAccueil.play().catch(e => console.log("Erreur de lecture audio : ", e));
+            }
+            // On enregistre que le son a été joué pour aujourd'hui
+            localStorage.setItem('dateDernierSonSanctuaire', dateDuJour);
+        } else {
+            console.log("Son déjà joué aujourd'hui. Entrée en silence.");
         }
         
-        // 2. Disparition fluide de l'écran noir (fade out classe + léger zoom arrière)
+        // 3. Disparition fluide du rideau noir (appliquée à CHAQUE fois)
         this.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         this.style.opacity = '0';
         this.style.transform = 'scale(1.02)';
         
-        // 3. Suppression définitive du bloc noir pour libérer la page et les clics
+        // 4. Suppression définitive du bloc noir après l'animation
         setTimeout(() => {
             this.style.display = 'none';
         }, 600);
     });
-    </script>
+</script>
+    
     
 </body>
 </html>
