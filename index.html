@@ -353,9 +353,9 @@
     <img src="https://i.ibb.co/5gXtY0Dw/ezgif-26addb53d44f7c2c.gif" alt="Force à toi" class="hero-img-full">
     
     <div class="container">
-        <nav class="nav-pill-container" style="display: flex; flex-direction: column; align-items: center; background: none; backdrop-filter: none; margin-bottom: 10px;">
+        <div style="width: 100%; text-align: center; margin-bottom: 10px;">
             
-            <div style="width: 100%; text-align: center; padding: 0; margin: 0 0 20px 0; display: block;">
+            <div style="display: block; width: 100%; text-align: center; padding: 0; margin: 0 0 20px 0;">
                 
                 <p style="display: block; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgba(238, 230, 196, 0.3); padding-bottom: 15px; line-height: 1.6; text-align: center; margin: 0 auto 15px auto; max-width: 600px;">
                     https://antho-btx75.github.io/Roms/<br><br>
@@ -363,8 +363,8 @@
                     J'AI TROP ENVIE D'ÊTRE AVEC TOI MEC
                 </p>
                 
-                <div style="display: block; width: 100%; max-width: 320px; margin: 20px auto; text-align: center;">
-                    <button onclick="toggleVocalJeTaime()" id="btnVocalJeTaime" style="background: rgba(238, 230, 196, 0.03); border: 1px solid rgba(238, 230, 196, 0.4); border-radius: 4px; padding: 12px 20px; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.8rem; font-weight: bold; letter-spacing: 1.5px; cursor: pointer; transition: all 0.3s ease; display: inline-flex; align-items: center; justify-content: center; gap: 12px; width: 100%; box-shadow: 0 0 10px rgba(238, 230, 196, 0.05);">
+                <div style="display: block; width: 100%; max-width: 320px; margin: 25px auto; text-align: center; position: relative; z-index: 10;">
+                    <button onclick="toggleVocalJeTaime()" id="btnVocalJeTaime" style="display: inline-flex; align-items: center; justify-content: center; gap: 12px; width: 100%; max-width: 320px; background: rgba(238, 230, 196, 0.03); border: 1px solid rgba(238, 230, 196, 0.4); border-radius: 4px; padding: 12px 20px; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.8rem; font-weight: bold; letter-spacing: 1.5px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 0 10px rgba(238, 230, 196, 0.05);">
                         <i id="iconVocalJeTaime" class="fas fa-play" style="font-size: 0.75rem; color: #eee6c4;"></i>
                         <span id="textVocalJeTaime">JE T'AIME MON GARS</span>
                     </button>
@@ -383,7 +383,7 @@
                 padding: 12px 20px;
                 width: 100%;
                 max-width: 280px;
-                margin: 20px auto;
+                margin: 30px auto;
                 display: flex;
                 align-items: center;
                 gap: 15px;
@@ -450,73 +450,75 @@
                 Les vacs que j'ai prévues pour nous deux sont très différentes de Sanremo ou Barcelone, ce sera beaucoup plus orienté <span style="color: #f7e7be; font-style: italic;">Chill mec</span>, on prendra le temps de manger, de dormir le matin et de chiller dans notre Airbnb. T'es gris et guétifa, je suis gris et guétifa, on a besoin de prendre quelques jours pour abandonner tout ça derrière nous et prendre notre temps, tout en passant du bon temps. J'ai tout prévu mon Roms pour qu'on change vraiment d'air !
             </p>
 
-            <audio id="vocalJeTaime" src="https://audio.jukehost.co.uk/019e59f7-31bb-71d4-ad5d-9bbe710f4f9f"></audio>
+            <audio id="vocalJeTaime" src="https://audio.jukehost.co.uk/019e59f7-31bb-71d4-ad5d-9bbe710f4f9f" preload="none"></audio>
             
-        </nav>
+        </div>
     </div>
 </header>
-    
-   
-    
+
 <script>
     const btnNuit = document.getElementById('btn-play-nuit');
     const audioNuit = document.getElementById('audio-bonne-nuit');
     const iconeNuit = document.getElementById('icone-nuit');
     const statutNuit = document.getElementById('statut-nuit');
 
-    btnNuit.addEventListener('click', function() {
-        const audioAccueil = document.getElementById('audio-accueil');
-        if (audioAccueil && !audioAccueil.paused) { audioAccueil.pause(); }
-        
-        // Coupe le second vocal s'il tourne pour éviter la cacophonie
-        const vocalJeTaime = document.getElementById('vocalJeTaime');
-        if (vocalJeTaime && !vocalJeTaime.paused) { 
-            vocalJeTaime.pause();
-            document.getElementById('iconVocalJeTaime').className = "fas fa-play";
-            document.getElementById('textVocalJeTaime').innerText = "JE T'AIME MON GARS";
-        }
+    if(btnNuit) {
+        btnNuit.addEventListener('click', function() {
+            const audioAccueil = document.getElementById('audio-accueil');
+            if (audioAccueil && !audioAccueil.paused) { audioAccueil.pause(); }
+            
+            const vocalJeTaime = document.getElementById('vocalJeTaime');
+            if (vocalJeTaime && !vocalJeTaime.paused) { 
+                vocalJeTaime.pause();
+                document.getElementById('iconVocalJeTaime').className = "fas fa-play";
+                document.getElementById('textVocalJeTaime').innerText = "JE T'AIME MON GARS";
+            }
 
-        if (audioNuit.paused) {
-            audioNuit.volume = 1.0;
-            audioNuit.play().catch(e => console.log("Lecture bloquée :", e));
-            iconeNuit.className = "fas fa-pause";
-            iconeNuit.style.marginLeft = "0px";
-            btnNuit.style.borderColor = "#ffffff";
-            btnNuit.style.boxShadow = "0 0 10px rgba(255, 255, 255, 0.2)";
-            statutNuit.innerText = "Écoute en cours...";
-            statutNuit.style.color = "#f7e7be";
-            statutNuit.style.opacity = "0.7";
-        } else {
-            audioNuit.pause();
-            remettrePlayerEnPause();
-        }
-    });
-
-    audioNuit.addEventListener('ended', function() { remettrePlayerEnPause(); });
-
-    function remettrePlayerEnPause() {
-        iconeNuit.className = "fas fa-play";
-        iconeNuit.style.marginLeft = "2px";
-        btnNuit.style.borderColor = "rgba(247, 231, 190, 0.4)";
-        btnNuit.style.boxShadow = "0 0 5px rgba(247, 231, 190, 0.1)";
-        statutNuit.innerText = "Je veux être avec toi 🥹";
-        statutNuit.style.color = "#e2e8f0";
-        statutNuit.style.opacity = "0.4";
+            if (audioNuit.paused) {
+                audioNuit.volume = 1.0;
+                audioNuit.play().catch(e => console.log("Lecture bloquée :", e));
+                iconeNuit.className = "fas fa-pause";
+                iconeNuit.style.marginLeft = "0px";
+                btnNuit.style.borderColor = "#ffffff";
+                btnNuit.style.boxShadow = "0 0 10px rgba(255, 255, 255, 0.2)";
+                statutNuit.innerText = "Écoute en cours...";
+                statutNuit.style.color = "#f7e7be";
+                statutNuit.style.opacity = "0.7";
+            } else {
+                audioNuit.pause();
+                remettrePlayerEnPause();
+            }
+        });
     }
 
-    btnNuit.addEventListener('mouseenter', function() {
-        this.style.transform = "scale(1.05)";
-        this.style.borderColor = "rgba(247, 231, 190, 0.8)";
-    });
-    btnNuit.addEventListener('mouseleave', function() {
-        this.style.transform = "scale(1)";
-        if (audioNuit.paused) { this.style.borderColor = "rgba(247, 231, 190, 0.4)"; } 
-        else { this.style.borderColor = "#ffffff"; }
-    });
+    if(audioNuit) {
+        audioNuit.addEventListener('ended', function() { remettrePlayerEnPause(); });
+    }
 
-    // ========================================================
-    // AJOUT : FONCTION POUR RELANCER TON BOUTON "JE T'AIME MON GARS"
-    // ========================================================
+    function remettrePlayerEnPause() {
+        if(iconeNuit) {
+            iconeNuit.className = "fas fa-play";
+            iconeNuit.style.marginLeft = "2px";
+            btnNuit.style.borderColor = "rgba(247, 231, 190, 0.4)";
+            btnNuit.style.boxShadow = "0 0 5px rgba(247, 231, 190, 0.1)";
+            statutNuit.innerText = "Je veux être avec toi 🥹";
+            statutNuit.style.color = "#e2e8f0";
+            statutNuit.style.opacity = "0.4";
+        }
+    }
+
+    if(btnNuit) {
+        btnNuit.addEventListener('mouseenter', function() {
+            this.style.transform = "scale(1.05)";
+            this.style.borderColor = "rgba(247, 231, 190, 0.8)";
+        });
+        btnNuit.addEventListener('mouseleave', function() {
+            this.style.transform = "scale(1)";
+            if (audioNuit.paused) { this.style.borderColor = "rgba(247, 231, 190, 0.4)"; } 
+            else { this.style.borderColor = "#ffffff"; }
+        });
+    }
+
     function toggleVocalJeTaime() {
         const audioJeTaime = document.getElementById('vocalJeTaime');
         const iconJeTaime = document.getElementById('iconVocalJeTaime');
@@ -525,10 +527,8 @@
         
         if (!audioJeTaime) return;
 
-        // On coupe la musique de fond du sas si elle tourne toujours
         if (audioAccueil && !audioAccueil.paused) { audioAccueil.pause(); }
 
-        // On coupe le vocal "Bonne nuit" s'il tourne pour éviter les mélanges
         if (audioNuit && !audioNuit.paused) {
             audioNuit.pause();
             remettrePlayerEnPause();
@@ -545,7 +545,6 @@
         }
     }
 
-    // Sécurité : Si le vocal s'arrête tout seul, on remet le bouton en mode "Play"
     const audioJeTaime = document.getElementById('vocalJeTaime');
     if (audioJeTaime) {
         audioJeTaime.addEventListener('ended', function() {
@@ -556,6 +555,7 @@
         });
     }
 </script>
+    
     
 
 <ul class="nav-pill-list">
