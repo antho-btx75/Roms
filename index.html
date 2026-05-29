@@ -360,6 +360,88 @@
                 JE T'AIME DE FOU MON ROMS 💕<br><br>
             </p>
 
+            <!-- MINI COMPONENT AUDIO : FUCK LE GRIS MON ROMAIN -->
+<div class="mini-player-box" style="
+    width: 100%; 
+    max-width: 320px; 
+    margin: 20px auto; 
+    text-align: center;
+">
+    <!-- Balise audio cachée avec l'URL de ton nouveau vocal -->
+    <audio id="vocalFuckGris" src="https://audio.jukehost.co.uk/019e7538-5ee2-71db-8b8d-1af8e3745e09"></audio>
+    
+    <!-- Bouton Player Minimaliste -->
+    <button onclick="toggleVocalFuckGris()" id="btnVocalFuckGris" style="
+        background: rgba(255, 128, 223, 0.03); 
+        border: 1px solid rgba(255, 128, 223, 0.4); 
+        border-radius: 4px; 
+        padding: 12px 20px; 
+        color: #ff80df !important; 
+        font-family: monospace, 'Courier New', sans-serif; 
+        font-size: 0.8rem; 
+        font-weight: bold; 
+        letter-spacing: 1.5px; 
+        cursor: pointer; 
+        transition: all 0.3s ease; 
+        display: inline-flex; 
+        align-items: center; 
+        justify-content: center; 
+        gap: 12px; 
+        width: 100%; 
+        box-shadow: 0 0 10px rgba(255, 128, 223, 0.05);
+    ">
+        <i id="iconVocalFuckGris" class="fas fa-play" style="font-size: 0.75rem; color: #ff80df;"></i>
+        <span id="textVocalFuckGris">FUCK LE GRIS MON ROMAIN</span>
+    </button>
+</div>
+
+<!-- LE SCRIPT JAVASCRIPT (À mettre avec tes autres scripts en bas de page) -->
+<script>
+function toggleVocalFuckGris() {
+    var audio = document.getElementById("vocalFuckGris");
+    var btn = document.getElementById("btnVocalFuckGris");
+    var icon = document.getElementById("iconVocalFuckGris");
+    var text = document.getElementById("textVocalFuckGris");
+
+    // On coupe l'autre vocal s'il joue pour éviter qu'ils se superposent
+    var otherAudio = document.getElementById("vocalExcites");
+    if (otherAudio && !otherAudio.paused) {
+        otherAudio.pause();
+        document.getElementById("iconVocalExcites").className = "fas fa-play";
+        document.getElementById("textVocalExcites").innerText = "TU M'EXCITES MEC";
+    }
+    
+    var olderAudio = document.getElementById("vocalJeTaime"); // Si ton premier lecteur s'appelle comme ça
+    if (olderAudio && !olderAudio.paused) {
+        olderAudio.pause();
+    }
+
+    // Gestion de la lecture / pause du nouveau vocal
+    if (audio.paused) {
+        audio.play();
+        icon.className = "fas fa-pause";
+        text.innerText = "LECTURE EN COURS...";
+        btn.style.borderColor = "#ff80df";
+        btn.style.boxShadow = "0 0 15px rgba(255, 128, 223, 0.2)";
+    } else {
+        audio.pause();
+        icon.className = "fas fa-play";
+        text.innerText = "FUCK LE GRIS MON ROMAIN";
+        btn.style.borderColor = "rgba(255, 128, 223, 0.4)";
+        btn.style.boxShadow = "0 0 10px rgba(255, 128, 223, 0.05)";
+    }
+
+    // Reset quand le son est fini
+    audio.onended = function() {
+        icon.className = "fas fa-play";
+        text.innerText = "FUCK LE GRIS MON ROMAIN";
+        btn.style.borderColor = "rgba(255, 128, 223, 0.4)";
+        btn.style.boxShadow = "0 0 10px rgba(255, 128, 223, 0.05)";
+    };
+}
+</script>
+            
+
             <!-- À placer juste en dessous de ton titre existant -->
 <p style="
     text-align: center; 
