@@ -1,6 +1,7 @@
 ![Webpage pour ma personne préférée](https://i.ibb.co/83DcSYM/Picsart-26-02-16-13-49-13-843.png)
 
 Je voulais juste passer une soirée tranquille avec toi frère 🥹
+Je me suis un peu senti seul chaque soir, mais je t'en veux pas gro.
 
 [🎙️ Force mon gars](https://drive.google.com/file/d/1OSMDoUkMCokfkLkt0Ma2jYLMoc3xtUiK/view?usp=drivesdk), je suis tout le temps avec toi gro 💙
 
