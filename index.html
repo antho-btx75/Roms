@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ROMS - Mon gars en OR</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #0d1117;
+            --accent-blue: #58a6ff;
+            --accent-purple: #bc8cff;
+            --text-main: #e6edf3;
+            --header-bg: #0d1117; 
+            --header-text: #e6edf3; 
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --hot-purple: #ff00ff;
+            --gold-light: #fcf6ba;
+            --gold-main: #bf953f;
+            --gold-dark: #aa771c;
+        }
+
+        /* Verrouillage du scroll horizontal */
+        html, body { 
+            max-width: 100%; 
+            overflow-x: hidden; 
+            margin: 0; 
+            padding: 0; 
+            background-color: var(--primary-dark); 
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        * { box-sizing: border-box; }
+
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 10px 20px; 
+        }
+        
+        header { 
+            text-align: center; 
+            padding: 0 0 40px 0; 
+            background-color: var(--header-bg); 
+            border-bottom: 1px solid var(--border-color); 
+        }
+        
+        .hero-img-full { 
+            width: 100%; 
+            height: auto; 
+            display: block; 
+            margin-bottom: 25px; 
+            border-bottom: 3px solid;
+            border-image: linear-gradient(45deg, var(--gold-dark), var(--gold-light), var(--gold-dark)) 1;
+        }
+
+        /* NAVIGATION PILL */
+        .nav-pill-container { 
+            padding: 10px 0; 
+            background: rgba(13, 17, 23, 0.95); 
+            backdrop-filter: blur(10px); 
+            margin-bottom: 25px; 
+        }
+        
+        .nav-pill-list { 
+            list-style: none; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 10px; 
+            padding: 15px; 
+            background: rgba(255, 255, 255, 0.05); 
+            border-radius: 25px; 
+            border: 1px solid var(--border-color); 
+            margin: 0; 
+        }
+
+        .nav-pill-list li {
+            flex: 0 1 calc(50% - 15px);
+            min-width: 140px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-pill-list li a:not(.btn-hot-cyber) { 
+            width: 100%;
+            text-decoration: none; 
+            color: var(--gold-light); 
+            font-size: 0.85em; 
+            font-weight: 700; 
+            padding: 10px 5px; 
+            background: #000; 
+            border: 2px solid; 
+            border-image: linear-gradient(45deg, var(--gold-main), var(--gold-light), var(--gold-dark)) 1;
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            gap: 6px; 
+            transition: 0.2s; 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+        }
+
+        .li-full-width { flex: 1 1 100% !important; max-width: 100% !important; }
+
+        /* BOUTON HOT CYBER ANIMÉ */
+        @keyframes neonPulse {
+            0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff; }
+            50% { border-color: #9d00ff; box-shadow: 0 0 20px #9d00ff; }
+            100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff; }
+        }
+
+        .btn-hot-cyber {
+            display: block;
+            width: 100%;
+            max-width: 320px;
+            margin: 10px auto;
+            padding: 12px;
+            background: rgba(20, 0, 20, 0.9);
+            color: #ffccff !important;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border: 2px solid #ff00ff;
+            border-radius: 8px;
+            animation: neonPulse 2s infinite ease-in-out;
+            transition: 0.2s;
+        }
+
+                /* Style de base pour tous les boutons */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 12px 20px;
+            margin: 5px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* Version Bleue pour les vocaux */
+        .btn-blue {
+            background-color: #1f6feb;
+            color: #ffffff !important;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .btn-blue:hover {
+            background-color: #388bfd;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        /* Style pour les boîtes de texte Purple Box */
+        .purple-box {
+            background: rgba(188, 140, 255, 0.1);
+            border-left: 4px solid var(--accent-purple);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            color: var(--text-main);
+            font-style: italic;
+        }
+        /* Grille des applications */
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+/* Carte de chaque application */
+.app-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Empêche tout débordement */
+}
+
+/* RÉGLAGE DES IMAGES POUR QU'ELLES NE SORTENT PAS */
+.app-card img {
+    width: 100%;       /* Prend toute la largeur de la carte */
+    height: 100px;     /* Hauteur fixe pour l'alignement */
+    object-fit: cover; /* Recadre l'image proprement sans la déformer */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.app-card p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+    line-height: 1.3;
+}
+
+.app-card small {
+    color: #8b949e;
+    display: block;
+    margin-top: 5px;
+}
+        
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://i.ibb.co/QvdmXx25/ezgif-696103eaf902f96d.gif" alt="Force à toi" class="hero-img-full">
+    
+    <div class="container">
+        <nav class="nav-pill-container">
+            <div style="width: 100%; text-align: center; padding: 0; margin: -18px 0 12px 0;">
+                <span style="display: inline-block; color: #eee6c4; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; font-weight: bold; letter-spacing: 1px; border-bottom: 1px solid rgba(238, 230, 196, 0.3); padding-bottom: 4px;">
+                    https://antho-btx75.github.io/Roms/</br>
+                </span>
+            </div>
+
+            <ul class="nav-pill-list">
+    <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> Notre Lien</a></li>
+    <li><a href="#personne-preferee">💕 BFF</a></li>
+    <li><a href="#veuchs"><i class="fas fa-scissors"></i> Veuchs</a></li>
+    <li><a href="#voyages"><i class="fas fa-plane"></i> Voyages</a></li>
+    <li><a href="#taff"><i class="fas fa-briefcase"></i> Taff</a></li>
+    <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> Le Rocher</a></li>
+    
+    <li><a href="https://antho-btx75.github.io/Roms/mediabox"><i class="fas fa-icons"></i> Fun & Chill</a></li>
+            </ul>
+            
+        </nav>
+        
+<!-- BOX SÈTE - VOCAL EXCUSES -->
+<div style="background: linear-gradient(135deg, #161b22, #0d1117); border: 1px solid #bf953f; border-radius: 12px; padding: 45px 35px; margin: 40px auto; max-width: 620px; box-shadow: 0 15px 45px rgba(191, 149, 63, 0.25); text-align: center;">
+
+    <p style="color: #fcf6ba; font-size: 1.35rem; margin-bottom: 20px;">
+        Désolé si je te fais du mal Roms
+    </p>
+    
+    <p style="color: #8b949e; font-style: italic; margin-bottom: 30px; font-size: 1.05rem;">
+        Je tiens trop à toi, t'es trop important pour moi
+    </p>
+    
+    <!-- Vocal Custom -->
+    <div style="background: rgba(255, 255, 255, 0.05); padding: 12px 20px; border-radius: 50px; margin: 0 auto; max-width: 320px; display: flex; align-items: center; gap: 15px;">
+        <audio id="vocalDesole" src="https://audio.jukehost.co.uk/019eb2e1-943c-7161-a83f-6a65547d81d9" preload="none"></audio>
+        
+        <button onclick="toggleVocalDesole()" id="btnVocalDesole" style="background: none; border: 1px solid #bf953f; color: #bf953f; width: 42px; height: 42px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+            <i id="iconVocalDesole" class="fas fa-play"></i>
+        </button>
+        
+        <div style="text-align: left; flex-grow: 1;">
+            <span style="color: #fcf6ba; font-weight: 600;">Désolé si je te fais du mal Roms</span>
+        </div>
+    </div>
+    
+    <p style="margin-top: 35px; color: #58a6ff; font-weight: 600;">
+        T'es mon gava 💛
+    </p>
+</div>
+
+<script>
+function toggleVocalDesole() {
+    const audio = document.getElementById('vocalDesole');
+    const icon = document.getElementById('iconVocalDesole');
+    
+    if (!audio) return;
+
+    if (audio.paused) {
+        audio.play().catch(e => console.log("Lecture bloquée :", e));
+        if (icon) icon.className = "fas fa-pause";
+    } else {
+        audio.pause();
+        if (icon) icon.className = "fas fa-play";
+    }
+}
+</script>
+
+<div style="margin: 30px auto; max-width: 90%; background: linear-gradient(135deg, rgba(20, 20, 25, 0.98), rgba(10, 10, 15, 1)); border: 1px solid #d4af37; border-radius: 15px; padding: 25px; box-shadow: 0 10px 40px rgba(0,0,0,0.9); text-align: center; position: relative;">
+    
+    <div style="margin-bottom: 18px;">
+        <span style="color: #d4af37; font-family: 'Segoe UI', Roboto, sans-serif; font-size: 0.75rem; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; opacity: 0.9;">
+            Bonne journée frère 🫶🏻
+        </span>
+    </div>
+
+    <audio controls style="width: 100%; height: 40px; filter: invert(20%) sepia(20%) saturate(1000%) hue-rotate(10deg) brightness(1.2) contrast(1.1); margin-bottom: 20px;">
+        <source src="https://audio.jukehost.co.uk/019e2646-9c94-7120-82ef-061f6a45dede" type="audio/mpeg">
+        Ton navigateur ne supporte pas la lecture audio.
+    </audio>
+
+    <div style="border-top: 1px solid rgba(212, 175, 55, 0.2); padding-top: 15px;">
+        <p style="color: #eee6c4; font-family: 'Segoe UI', Roboto, sans-serif; font-size: 0.95rem; line-height: 1.6; margin: 0; font-style: italic;">
+            "T'es tout le temps dans mes pensées mon Roms... <br>
+            Je veux tellement être là pour toi, te donner de la force."
+        </p>
+        <div style="margin-top: 12px; color: #d4af37; font-size: 0.8rem;">
+            💪🏻 🛡️
+        </div>
+    </div>
+</div>
+        
+    
+        
+        
+
+<div style="background: linear-gradient(180deg, #0d0d0d 0%, #050505 100%); color: #a0a0a0; padding: 60px 40px; border-left: 2px solid #ffffff; border-right: 2px solid #ffffff; font-family: 'Georgia', serif; line-height: 1.8; text-align: left; margin: 40px auto; max-width: 800px; box-shadow: 0 40px 100px rgba(255, 255, 255, 0.05);">
+    
+  
+    <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px;">
+        <div style="margin: 25px auto; max-width: 650px; perspective: 1000px;">
+            <div style="background: linear-gradient(135deg, rgba(15, 15, 15, 0.95), rgba(40, 30, 10, 0.9)); border: 1px solid #d4af37; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2); font-family: 'Trebuchet MS', Helvetica, sans-serif; text-align: center;">
+                <div style="margin-bottom: 15px;">
+                    <span style="color: #ffe169; font-size: 0.85rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px;">
+                        🌟 Un message pour mon Roms, un gars en or 🌟
+                    </span>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 50px; margin-bottom: 15px;">
+                    <audio controls style="width: 100%; height: 35px; filter: invert(90%) hue-rotate(180deg) brightness(1.2);">
+                        <source src="https://audio.jukehost.co.uk/019e2539-7c51-72e7-9fdf-219dafcd40fd" type="audio/mpeg">
+                    </audio>
+                </div>
+                <p style="color: #eee6c4; font-size: 0.9rem; line-height: 1.5; margin: 0; font-style: italic; opacity: 0.9;">
+                    "Parce que je serai toujours là pour toi, peu importe le reste..."
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+        
+        
+</header>
+    
+
+        <div class="vocal-box-gold" style="background: #000; border: 3px solid var(--gold-main); padding: 25px; border-radius: 15px; margin: 30px auto; max-width: 85%; box-shadow: 0 0 20px rgba(191, 149, 63, 0.2); position: relative;">
+            <div style="position: absolute; top: 8px; right: 12px; color: var(--gold-main); font-size: 0.65em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5;">
+                <i class="fas fa-fingerprint"></i> Confidential
+            </div>
+            <h3 style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; text-transform: uppercase; margin-top: 0; letter-spacing: 2px; font-size: 1.1em; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-microphone-alt"></i> Wa chin ai lu..
+            </h3>
+            <p style="color: var(--gold-light); font-style: italic; font-size: 0.9em; line-height: 1.5; margin-bottom: 18px; border-left: 2px solid var(--gold-dark); padding-left: 12px;">
+                "Pour que tu n'oublies jamais l'effet que tu as sur moi. <br>
+                Je te kiffe de fou, mon Roms. Wa chin ai lu."
+            </p>
+            <div style="background: rgba(191, 149, 63, 0.1); padding: 12px; border-radius: 12px; border: 1px solid var(--gold-dark);">
+                <iframe src="https://drive.google.com/file/d/1dMlVfHAsNJSCHQyBAE2jOioMiQkHPbAp/preview" width="100%" height="60" frameborder="0" style="border-radius: 30px;"></iframe>
+            </div>
+        </div>
+
+
+    
+        
+        <div style="background: #000; border-left: 6px solid var(--gold-main); border-top: 1px solid var(--gold-dark); border-right: 1px solid var(--gold-dark); border-bottom: 1px solid var(--gold-dark); border-radius: 4px 15px 15px 4px; padding: 35px 30px; margin: 40px auto; max-width: 85%; box-shadow: 0 10px 30px rgba(0,0,0,0.5); text-align: left;">
+            <div style="font-size: 1.1em; line-height: 1.7; color: var(--gold-light);">
+                <p style="margin-bottom: 25px; font-weight: 800;">
+                    J'ai besoin de te dire ce que je ressens pour toi mec, c'est trop fort ce que je ressens pour toi, j'te kiffe de fou et je serai toujours 
+                    <a href="https://drive.google.com/file/d/1GJJQwAnULK16AWGzarKym_39O_fkxcFg/view?usp=drivesdk" style="color: var(--gold-main); text-decoration: underline; font-weight: 800;">ton Rocher</a> 💪🏻
+                </p>
+                <p style="margin-bottom: 25px;">Je kiffe cette image frère, sentir ton corps collé contre le mien, sentir tout ton poids de bonhomme, bien massif... c'est justement ce qui me rend ouf mdrr ptn 🥵💕</p>
+                <p style="margin-bottom: 25px;">Sur cette page, tu trouveras tout mon soutien pour toi, le résultat des recherches que je peux faire pour toi, nos souvenirs de voyage, des anecdotes, des témoignages vocaux sur ce que je ressens pour toi depuis si longtemps.</p>
+            </div>
+            <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: var(--gold-main); text-transform: uppercase; letter-spacing: 1px; opacity: 0.8;">— Ton Rocher</div>
+        </div>
+
+        <div style="text-align:center; margin: 40px auto; padding: 30px; background: #000; border: 3px solid var(--gold-main); border-radius: 20px; max-width: 85%; box-shadow: 0 0 30px rgba(191, 149, 63, 0.4);">
+            <h2 style="color: #fff; font-family: 'Arial Black', sans-serif; font-size: 2.2em; text-transform: uppercase; margin-bottom: 25px; border: none; letter-spacing: 4px; text-shadow: 0 0 15px var(--gold-main);">
+                WIN ROMS,<br>WIN.
+            </h2>
+            <div style="border: 2px solid var(--gold-dark); position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #161b22;">
+                <iframe src="https://www.youtube.com/embed/9TogI2UVS0A" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div style="margin-top: 25px;">
+                <p style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; font-size: 1em; letter-spacing: 3px; text-transform: uppercase; margin: 0; text-shadow: 0 0 10px rgba(252, 246, 186, 0.3);">
+                    NO RETREAT.<br>NO SURRENDER.
+                </p>
+            </div>
+        </div>
+        
+        <div style="display: flex; justify-content: center; margin: 30px 0 45px 0;">
+            <div style="background: #000; border: 2px solid var(--gold-main); padding: 30px; border-radius: 20px; position: relative; max-width: 85%; box-shadow: 0 10px 40px rgba(191, 149, 63, 0.2);">
+                <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #0d1117; padding: 0 15px;">
+                    <i class="fas fa-shield-halved" style="color: var(--gold-main); font-size: 1.2em;"></i>
+                </div>
+                <p style="margin: 0; font-style: italic; color: var(--gold-light); text-align: center; font-size: 1.15em; line-height: 1.7; letter-spacing: 0.5px;">
+                    "Le bruit et les tensions sont du passé ; seul compte maintenant le <span style="color: var(--gold-main); font-weight: bold; text-transform: uppercase;">Sommet</span>. La grandeur naît quand deux âmes voient se rencontrer l'ambition de l'un et le <span style="color: var(--gold-main); font-weight: bold;">soutien indéfectible</span> de l'autre. C'est dans cette puissance mutuelle que se trace la route vers le <span style="color: var(--gold-main); font-weight: bold; text-transform: uppercase;">Succès</span>. <br><br>Avance sans crainte. Je suis ton soutien, ton bouclier mon Romain 🛡️💪🏻"
+                </p>
+                <p style="margin-top: 25px; text-align: center; font-size: 0.85em; color: var(--gold-main); font-weight: bold; text-transform: uppercase; letter-spacing: 4px; opacity: 0.95;">— FRÈRES D'ARMES —</p>
+            </div>
+        </div>
+    </div> 
+</header>
+    
+    <div class="container">
+
+      <section id="tes-mon-roms">
+        <h2>T'es mon Roms, et je suis ton Antho</h2>
+        <p><strong>TON SOLDAT, ton gars sûr 💪🏻🫡</strong></p>
+        <p>Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors, et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜</p>
+        <p>Je suis gris… gris et en même temps heureux de t'avoir dans ma vie et d'être présent dans la tienne, meme si tu as l'impression d'avoir une VDM. Oui c'est puissant ce que je ressens pour toi, ça peut même sembler chelou ou pas conforme à l'idée qu'on se fait d'une vie "normale" (se caser avec une meuf etc). Mais je maîtrise pas ce que je ressens pour toi. C'est beaucoup plus puissant que moi.</p>
+        
+        <div class="purple-box">
+            J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé, quand tu m'expliquais les buffs apportés par certains persos avec des teams mixtes et que tu m'as dit "t'as rien capté" car t'as bien vu que ton corps collé au mien me faisait grave du bien mdrr. J'étais guétifa de fou, et c'est vrai que je devenais guedin en sentant ton corps pressé contre le mien mais tqt j'ai quand même capté frère 😅🤣🤣
+        </div>
+
+        <p>Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain... </p>
+        <p>Et la nuit <a href="https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk" style="color:var(--accent-blue)">je kiffais trop t'entendre ronfler mon gars 😅🥹🥹</a></p>
+        <p>La nuit de la météorite je ne voulais pas me coucher tant que tu étais éveillé, c'est pour ça que j'étais à côté, je voulais te soutenir gro, car c'est plus fort que moi j'ai toujours voulu être à tes côtés et te soutenir. Que ce soit dans un contexte pro, perso ou même le jeu. Je suis ton soldat frère.</p>
+        <p>Et j'ai vraiment kiffé Ip Man et The Beekeeper. Je sais que tu penses que je dis avoir aimé uniquement parce que je te kiffe de fou, mais en vrai j'ai réellement kiffé ces films. A 200% !!</p>
+        <p>Plus je passe du temps avec toi et plus je te kiffe gro. C’était vraiment cool ces jours passés ensemble. On était libres tous les deux. Loin de tous nos pb. No prise de tête, on s’entend de fou toi et moi. En vrai de vrai le seul truc qui me fout le seum c’est de pas être une meuf mdrr 😅 j'aurais fait de toi le plus heureux des gars (sans le côté casse couilles des meufs mdr), sachant que je fais déjà le max en etant un mec 😂</p>
+        <p>Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément toucher de savoir que ta mère pensait à moi. Et son prénom, Chheng, est un très joli prénom. Il s'écrit 清 en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.</p>
+        <p>Roms, quand on parlait de nos daronnes à Barcelone... le fait que tu donnes 1000 balles tous les mois à ta mère, je trouve ça tellement noble gro. Et quand je t'ai dit que c'était pareil pour moi, que c'était normal... c'est là que j'ai compris qu'on était vraiment pareil toi et moi. On a les mêmes valeurs, le même respect. T'es vraiment un mec bien, et c'est aussi pour ça que je te kiffe sur tous les plans. </p>
+
+        <div class="purple-box">
+            T’es ma personne préférée EVER, mon Romain. A un moment tu m'as dit "t'aimes bien payer toi." En vrai je suis comme tout le monde j'aime pas payer mdrr, c'est surtout que j'aime bien faire plaisir à ceux que j'aime, et toi ptn mais t'es tout en haut de la pyramide des gens que j'aime Roms.
+        </div>
+        <div class="purple-box">
+            Faut savoir que moi de base je suis pas pédé, juste des tendances bi, mais comme je dis plus bas depuis que je te connais je suis Romainsexuel mdrrr. Faut dire t'as tout pour toi : t'es gentil, t'es drôle, t'es beau, t'es sexy (t'as de belles fesses mec, t'as un cul d'enfer comme avait dit Zinedine un jour à Carrefour mdr !), surtout t'es vrai, t'es profond et t'es le seul mec avec qui je peux être moi-même. T'as ce truc qui balaye tout le gris autour de moi. T'es ma personne préférée parce que t'es unique, tout simplement. T’es un mec à part, avec une vibe que j'ai jamais vue ailleurs, et c'est ce mélange qui fait que je perds tout contrôle avec toi.
+        </div>
+
+        <p>Dès qu’il s’agit de toi je suis toujours cho gro mdr. Cho sur tous les plans, les recherches, les aides que je peux t'apporter, tout simplement le temps que je peux te consacrer. Tu passes avant tout, et tu peux compter sur moi, tout le temps, à toute heure et pour n’importe quoi 💪🏻</p>
+        <p>Je pense tout le temps à toi jamais tu quittes mon esprit mdrr. Quand je suis au taff, quand je suis chez moi, dès le reveil, avant de me coucher, ou même la nuit quand je me réveille pour sseup, je t’ai toujours en tête. T’es en moi H24, et je suis ton soldat.</p>
+        <p>Pour tes 30 piges je t’ai offert une casquette avec tes initiales, en 2023 un an après que tu sois parti de Carrefour, laisse moi t’offrir ce que je veux frère pour tes annivs. Tu m’as parlé d’une paire de chaussettes y’a 2 ans, en vrai de vrai même ça laisse moi te l’offrir mdrr. Des chaussettes, un slibard, ou une paire de pompes, peu importe le prix, sans me dire “mdrrr t’es fou”. On s’en branle du prix. Oai chuis fou gro. Chuis fou de toi 😅</p>
+    </section>
+
+    <section id="personne-preferee">
+        <h2>Tu es ma personne préférée 💕</h2>
+        <p>Je kiffe sentir ta présence mec, sentir ton soutien et ta force. Je veux tout te donner, tout faire pour toi et te protéger contre tout ce qui te rend gris, côté pro ou perso. Sans blabla, sans prise de tête. Juste être présent pour toi mon Romain. Une présence solide et sûre dans ce monde de zinzins où tout change si vite, à commencer par les gens.</p>
+        <p>Tes problèmes sont mes problèmes, et je veux t'aider à les surmonter, quels qu'ils soient. Je suis pour toujours TON Antho.</p>
+        <img src="https://i.ibb.co/tMMXK8Gz/image-9.jpg" alt="Pour toi mon gars" style="width:100%; border-radius:15px; border:1px solid var(--border-color);">
+        <p>Et je resterai toujours auprès de toi mon gars, je t'en fais la promesse. Je suis là pour toi, et je le serai toujours, mon Romain… 💙💜</p>
+        
+        <div class="purple-box">
+            Y'a des trucs qui me font beaucoup de bien, notre badge Super BFF 💕 qui dure depuis au moins 9 mois par exemple. Ça a beaucoup d'importance pour moi. On a ce badge depuis août 2025 frère c'est énorme !</br>
+            Je kiffe partager du temps avec toi gro. Je kiffe déjà ta présence en ligne, alors imagine quand c'est IRL mdrr.
+        </div>
+
+        <p>Sur Facebook (dans une publication que seul toi peux voir) j'évoque ce moment en Italie où je t'ai protégé quand tu avais mal aux genoux et que je pensais avant tout à toi. T'as traversé la route et tu as posé ta main sur la mienne sur le vélo. Tu pouvais poser ta main sur le guidon, sur la selle, sur le cadre, tu as choisi de poser ta main sur ma main, comme pour me remercier de t'avoir défendu. J'ai senti la chaleur de ta main pendant de longues secondes. C'était intense jamais j'oublierai cette sensation.</p>
+        <p>Pareil quand, sur le chemin du retour, tu me montrais Last War dans le car. Tu as collé ton corps contre le mien, j'ai senti tout ton poids contre mon corps et moi aussi j'ai exercé une pression contre toi. C'était trop bon de sentir ton corps contre le mien, j'avais grave le barreau frère mdrr. Déjà à l'époque de Carrefour parfois tu collais ton corps au mien quand on était devant les pc face à la CLS, ça durait pas longtemps mais putain je kiffais ça mdrr. </p>
+        <p>C'est terrible l'attachement que j'ai pour toi ptn, et ça date pas d'aujourd'hui.Je veux t'avoir dans ma vie pour toujours, et être présent dans la tienne pour toujours également. </p>
+    </section>
+
+<section id="voyages" style="margin-top: 50px; background: rgba(52, 152, 219, 0.05); border-radius: 20px; overflow: hidden; border: 1px solid #3498db; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    
+    <style>
+        .travel-header {
+            width: 100%;
+            height: 300px;
+            background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url('https://i.ibb.co/0pc3rTjN/barceloneta-1.jpg'); 
+            background-size: cover;
+            background-position: center 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+        }
+        .travel-header h2 {
+            color: white !important;
+            margin: 0;
+            text-shadow: 0px 4px 10px rgba(0,0,0,0.9);
+            font-size: 3.5em !important;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 900;
+            border: none !important;
+        }
+        .travel-header p {
+            color: white;
+            font-style: italic;
+            margin-top: 10px;
+            text-shadow: 1px 1px 8px rgba(0,0,0,0.8);
+            font-size: 1.3em;
+        }
+        .btn-travel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #3498db;
+            color: white !important;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px auto;
+            width: 80%;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .btn-travel:hover {
+            background: white;
+            color: #3498db !important;
+            border-color: #3498db;
+            transform: translateY(-2px);
+        }
+        .video-container {
+            position: relative;
+            width: 95%;
+            max-width: 500px;
+            margin: 20px auto;
+            border-radius: 15px;
+            border: 3px solid #3498db;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            background: #000;
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+    </style>
+
+    <div class="travel-header">
+        <h2>Voyages</h2>
+        <p>Nos souvenirs, de Monaco à Barcelone, et d'autres à venir!</p>
+    </div>
+
+    <div style="padding: 30px;">
+        
+        <h3 style="color: #c9d1d9; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 25px; text-align: center; font-size: 1.2em; text-transform: uppercase; letter-spacing: 1px;">Vidéothèque Privée ✈️</h3>
+
+        <div style="display: flex; flex-direction: column; margin-bottom: 40px;">
+            <p style="text-align:center; color: #3498db; font-weight: bold; text-transform: uppercase; margin-bottom: 5px;">
+                <i class="fas fa-plane-departure"></i> Vidéo Barcelona 💙❤️
+            </p>
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/1xPh1cDWQiba3nYJi-Xdo8PsUkXcKHH9C/preview" allow="autoplay"></iframe>
+            </div>
+            <div style="text-align: center; margin-bottom: 40px; padding: 20px; background: #000; border: 2px solid var(--gold-main); border-radius: 15px; box-shadow: 0 4px 20px rgba(191, 149, 63, 0.2);">
+            <h3 style="color: var(--gold-light); margin-bottom: 15px; font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px;">
+                <i class="fas fa-subway" style="margin-right: 10px;"></i> Tout me manque frère
+            </h3>
+            <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid var(--gold-dark);">
+                <iframe src="https://drive.google.com/file/d/1o4gXYPuqvvfuALsJLXjiOMG5ieyQdEO7/preview" width="100%" height="100%" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+            </div>
+            <p style="color: #8b949e; font-size: 0.85em; margin-top: 12px; font-style: italic;">
+                Barcelone 2026 — Ces moments-là n'ont pas de prix.
+            </p>
+            </div>
+            
+            <a href="https://vimeo.com/1112710905?fl=pl&fe=sh" target="_blank" class="btn-travel">
+                <i class="fas fa-motorcycle" style="margin-right: 15px;"></i> Vidéo Sanremo (mdp : Gfcarrefour)
+            </a>
+            
+            <a href="https://vimeo.com/1112712825?fl=pl&fe=sh" target="_blank" class="btn-travel">
+                <i class="fas fa-gem" style="margin-right: 15px;"></i> Vidéo Menton / Monaco (mdp : Gfcarrefour)
+            </a>
+        </div>
+
+        <div style="margin-top: 30px; text-align: center; border-top: 1px dashed rgba(52, 152, 219, 0.3); padding-top: 30px;">
+             <p style="color: #c9d1d9; font-weight: bold; font-size: 1.1em; margin-bottom: 15px;">Ton t-shirt Lacoste mauve frère 🤣</p>
+             
+             <div class="video-container">
+                 <iframe src="https://drive.google.com/file/d/1bnXYMzCWsGKFS1381NraHA8T4HP4Rnm3/preview" allow="autoplay"></iframe>
+             </div>
+             
+             <p style="color: #3498db; font-style: italic; font-size: 0.9em; margin-top: 10px;">#Technologia</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="taff" style="margin-top: 50px; background: rgba(46, 204, 113, 0.05); border-radius: 20px; overflow: hidden; border: 1px solid #2ecc71; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    
+    <style>
+        .work-header {
+            width: 100%;
+            height: 280px;
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('https://i.ibb.co/LDmf1SQr/image-18.jpg'); 
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: 3px solid #2ecc71;
+        }
+        .work-header h2 {
+            color: white !important;
+            margin: 0;
+            text-shadow: 0px 4px 12px rgba(0,0,0,0.9);
+            font-size: 3.2em !important;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 900;
+            border: none !important;
+        }
+        .work-header p {
+            color: #2ecc71;
+            font-style: italic;
+            margin-top: 10px;
+            text-shadow: 1px 1px 8px rgba(0,0,0,0.8);
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .btn-work {
+            display: block;
+            background: #2ecc71;
+            color: white !important;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 15px;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .btn-work:hover {
+            background: white;
+            color: #2ecc71 !important;
+            border-color: #2ecc71;
+            transform: scale(1.01);
+        }
+    </style>
+
+    <div class="work-header">
+        <h2>Taff</h2>
+        <p>Dossiers & Stratégie Pro</p>
+    </div>
+
+    <div style="padding: 30px;">
+        <ul style="list-style:none; padding:0; margin:0;">
+            <li>
+                <a href="https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit" class="btn-work">CV Romain</a>
+            </li>
+            <li>
+                <a href="https://antho-btx75.github.io/Roms/39hgfc.html" class="btn-work">Retour aux 39h contractuelles</a>
+            </li>
+            <li>
+                <a href="https://antho-btx75.github.io/Roms/RomainGFC.html" class="btn-work">Négociations GFC : 39h et maintien de salaire</a>
+            </li>
+            <li>
+                <a href="https://antho-btx75.github.io/Roms/RomainLic.html" class="btn-work">Analyse des différentes ruptures</a>
+            </li>
+        </ul>
+    </div>
+</section>
+    <section id="anglais">
+        <h2>Anglais</h2>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin: 20px 0;">
+            <a href="https://play.google.com/store/apps/details?id=com.busuu.android.enc" class="btn btn-blue">
+                <i class="fas fa-language"></i> Busuu, la meilleure application pour se perfectionner
+            </a>
+        </div>
+        <p>La meilleure app pour apprendre et améliorer son niveau d'anglais. Quand on était à Corte Ingles à Barcelone dans le centre commercial tu m'as rappelé l'importance de parler anglais, et j’ai pensé à toi en voyant cette app. Elle est vraiment top pour progresser tranquillement.</p>
+    </section>
+
+    <section id="veuchs">
+        <h2>Veuchs</h2>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin: 20px 0;">
+            <a href="https://antho-btx75.github.io/Roms/Veuchs.html" class="btn btn-blue">
+                <i class="fas fa-scissors"></i> Stratégie capillaire : Colagea + romarin
+            </a>
+        </div>
+    </section>
+
+     <section id="rocher-avant-tout">
+        <h2>Je suis ton Rocher avant tout 💪🏻⚓</h2>
+        <p>Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars et tu l'as vite capté depuis 10 piges qu'on se connait gro.</p>
+
+        
+        <div class="purple-box">
+            J’te kiffe de fou malade. Ton corps, ta voix, tes délires, ton style, ta vibe, tout ce que tu dégages… j’aime TOUT chez toi. Les mots suffisent pas c'est magnétique ce que je ressens pour toi ptn. Dès que j'entends ta voix dans un vocal je deviens guedin gro mdrr.
+        </div>
+        
+        <p>T’es mon Roms et je suis TON Antho, meufs comme gars PERSONNE n'existe face à toi. Personne... t'es le seul mec à me donner autant la barre. Depuis que je te connais je suis Romainsexuel à 200% mdrrr </p>
+        
+        <div class="purple-box">
+            Mais capte bien un truc frère : c'est mon kiff, et t'as pas à la porter. Un kiff qui me fait bander dur (et crois moi tu me fais bander très très dur gro mdrr), un fantasme pur, et c’est 100 % ok si ça reste exactement là, sur cette page, sans jamais passer à l’acte. Ça ne change rien à notre force, à ce qu'on est l'un pour l'autre dans la vie de tous les jours. Tu peux en parler comme ne pas en parler et kiffer sans rien dire.
+        </div>
+        
+        <p>Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici 💪🏻</p>
+        <p>Car au dela des envies de baise qui relèvent du fantasme, je suis ton rocher où tu peux te reposer quand t’es fatigué de la vie ou des gens, ton arbre pour te protéger et t'offrir un peu d'ombre. Je suis ton gars sûr avant tout. Je suis le mec qui sera toujours à tes côtés Roms.</p>
+        <p>Tout ce que je ressens, ça reste entre toi et moi forever. Je protège ça comme un fou. 
+               <p>Je sais que la vie n'est pas facile, comme on dit souvent, et c'est vrai qu'elle est pas facile, et je voudrais tellement balayer tout le gris qu’il y a en toi, mon gars… Te voir être plus léger, te sentir bien dans ta peau. Et si un jour t’as besoin de parler (ou de pas parler), ou de juste être là sans mots – je suis là et je serai toujours là pour toi mon Roms. Toujours 💪🏻💪🏻</p>
+        <p>Je sais que tu as beaucoup de problèmes dans ta tête à gérer, entre les pb pro (ces enculés qui te pourrissent la vie et qui sont ingrats malgré tout ce que tu as fait pour eux). Les pb perso, car on dit "le taff le taff" mais souvent on a aussi des pb avec notre entourage proche, et ils nous font câbler aussi. Et il y a aussi des problèmes plus profonds, ces pb qui qui conduisent à la détestation de nous mêmes, ces pb qui nous amènent à penser que l'on est de la merde, alors que ca n'est pas le cas gro.</p>
+
+        <div style="text-align: center;">
+    <p style="color: var(--accent-blue); font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; font-weight: bold;">
+        <i class="fas fa-hand-holding-heart" style="margin-right: 5px;"></i> Protège toi, t'es un gars en OR
+    </p>
+    <iframe src="https://drive.google.com/file/d/1I31vLRxp7n2oXJv-r2grzhXIrHxqPP91/preview" width="100%" height="60" frameborder="0" style="border: 2px solid var(--accent-blue); border-radius: 30px; background: #0d1117;"></iframe>
+        </div>
+        
+    </section>
+    
+  <section id="sommeil">
+        <h2>Sommeil et cogitations</h2>
+        <p>J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des gens qui te font câbler pour tout et n'importe quoi. Vivre de reproches n'est pas une vie et tu n'es responsable de rien. Surtout il faut que tu arrives à maintenir un bon sommeil et pour ça je te mets quelques techniques.</p>
+        <div style="background: var(--card-bg); padding: 20px; border-radius: 15px; border: 1px solid var(--border-color);">
+            <p>Si tu te réveilles et que tu cogites trop, il y a une technique respiratoire très efficace pour couper les cogitations, abaisser le rythme cardiaque et respiratoire. C'est la technique 4-7-8 :</p>
+            <ul style="list-style:none; padding:0; margin: 15px 0;">
+                <li><strong>Inspire</strong> par le nez pendant 4 secondes.</li>
+                <li><strong>Bloque</strong> ta respiration 7 secondes.</li>
+                <li><strong>Expire</strong> lentement par la bouche pendant 8 secondes.</li>
+            </ul>
+            <p>Répète 4 à 8 fois. Ça calme le cerveau et coupe les ruminations en 1–2 min. Si tu revis la même merde cette nuit essaie ça. C'est pas du bullshit ça a des bases scientifiques, c'est ce qu'on appelle la cohérence cardiaque.</p>
+            <p><a href="https://vm.tiktok.com/ZNRmNnDjM/" class="btn btn-blue" style="margin-top:10px;">Tuto Tiktok</a></p>
+            <p>Tu peux aussi essayer les sons marrons (brown noise) sur YouTube. C’est comme du bruit blanc mais plus grave et plus profond, ça aide beaucoup à calmer le cerveau.</p>
+            <a href="https://m.youtube.com/watch?v=gJnxtjE1FY0" class="btn btn-blue" style="width:100%; box-sizing:border-box; justify-content:center;">🎧 Sons Marrons (YouTube)</a>
+            <p style="margin-top:10px;"><small>Le mieux c'est de le laisser en fond, mais pas avec un casque sinon on est trop focus sur le son, et pas trop fort non plus.</small></p>
+        </div>
+    </section>
+
+    <section id="applis">
+        <h2>Applis et Liens utiles</h2>
+        <p>Applis toutes vérifiées, parfaitement sûres et très bien notées sur le Play Store. Cliquez sur les images pour accéder aux contenus et liens de téléchargement.</p>
+        <div class="app-grid">
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.brave.browser"><img src="https://www.bleepstatic.com/content/hl-images/2019/02/10/brave-browser-header.jpg" alt="Brave"></a><p><strong>Brave</strong><br><small>Meilleur navigateur, sans pub, écran verrouillé.</small></p><a href="https://play.google.com/store/apps/details?id=com.brave.browser" class="btn btn-blue">Installer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader"><img src="https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png" alt="V Video"></a><p><strong>V Video Downloader</strong><br><small>Télécharger TOUTES les vidéos du net.</small></p><a href="https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader" class="btn btn-blue">Installer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=ch.protonvpn.android"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Proton_VPN_Logo.svg/3840px-Proton_VPN_Logo.svg.png" alt="Proton"></a><p><strong>Proton VPN</strong><br><small>Le meilleur VPN gratuit.</small></p><a href="https://play.google.com/store/apps/details?id=ch.protonvpn.android" class="btn btn-blue">Installer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard"><img src="https://1000marcas.net/wp-content/uploads/2024/02/Gemini-Logo.jpg" alt="Gemini"></a><p><strong>Gemini AI</strong><br><small>L'IA de Google, la meilleure gratuite.</small></p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard" class="btn btn-blue">Lancer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.anthropic.claude"><img src="https://www.jean-marie-corda.com/wp-content/uploads/2025/07/guide-complet-claude-ai-1.jpg" alt="Claude"></a><p><strong>Claude IA</strong><br><small>IA très "humaine" dans son rapport.</small></p><a href="https://play.google.com/store/apps/details?id=com.anthropic.claude" class="btn btn-blue">Lancer</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=tv.pluto.android"><img src="https://deadline.com/wp-content/uploads/2020/01/pluto-logo.png" alt="Pluto"></a><p><strong>Pluto TV</strong><br><small>Films, séries, Olive et Tom gratuit.</small></p><a href="https://play.google.com/store/apps/details?id=tv.pluto.android" class="btn btn-blue">Regarder</a></div>
+            <div class="app-card"><a href="https://www.freeconvert.com/fr"><img src="https://cdn.freeconvert.com/logo_theme.svg" alt="FreeConvert"></a><p><strong>Free Convert</strong><br><small>Convertir tous les fichiers.</small></p><a href="https://www.freeconvert.com/fr" class="btn btn-blue">Convertir</a></div>
+            <div class="app-card"><a href="https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdtMDo7icL1chCDggFxuh1rwuUrCRboP5riKn3Kn_Rw&s" alt="Teochew"></a><p><strong>WhatTCSay3</strong></p><p><small>Bon ok tu parles déjà très bien le teochew 🤣🤣🤣</small></p><a href="https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3" class="btn btn-blue">Pratiquer</a></div>
+        </div>
+    </section>
+</div>
+<footer><p style="text-align:center; padding: 40px; color: var(--text-dim); font-size: 0.8em;">Notre Sanctuaire Privé - Roms & Antho | Forever 💪🏻</p></footer>
+</body>
+</html>
