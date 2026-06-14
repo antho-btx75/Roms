@@ -627,64 +627,49 @@ function toggleVocalDesole() {
             Comment trouver un moyen de te faire comprendre que je t'aime ?<br>
             Les mots ne viennent pas facilement
         </p>
-                  <div class="audio-player-minimal" style="
-                background: #0a0a0a;
-                border: 1px solid rgba(247, 231, 190, 0.25);
-                border-radius: 12px;
-                padding: 12px 20px;
-                width: 100%;
-                max-width: 280px;
-                margin: 10px auto 15px auto;
-                display: flex;
-                align-items: center;
-                gap: 15px;
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(247, 231, 190, 0.03);
-                font-family: 'Segoe UI', Roboto, sans-serif;
-            ">
-                <audio id="vocalJeTaime" src="https://audio.jukehost.co.uk/019e59f7-31bb-71d4-ad5d-9bbe710f4f9f" preload="none"></audio>
+<div class="audio-player-minimal" style="
+    background: #0a0a0a;
+    border: 1px solid rgba(247, 231, 190, 0.25);
+    border-radius: 12px;
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 280px;
+    margin: 10px auto 15px auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(247, 231, 190, 0.03);
+    font-family: 'Segoe UI', Roboto, sans-serif;
+">
+    <audio id="vocalJeTaime2" src="https://audio.jukehost.co.uk/019e59f7-31bb-71d4-ad5d-9bbe710f4f9f" preload="none"></audio>
 
-                <button onclick="toggleVocalJeTaime()" id="btnVocalJeTaime" style="
-                    background: none;
-                    border: 1px solid rgba(247, 231, 190, 0.4);
-                    color: #f7e7be;
-                    width: 36px;
-                    height: 36px;
-                    border-radius: 50%;
-                    cursor: pointer;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    transition: all 0.3s ease;
-                    padding: 0;
-                    box-shadow: 0 0 5px rgba(247, 231, 190, 0.1);
-                ">
-                    <i id="iconVocalJeTaime" class="fas fa-play" style="font-size: 0.85rem; margin-left: 2px;"></i>
-                </button>
+    <button onclick="toggleVocalJeTaime2()" id="btnVocalJeTaime2" style="
+        background: none;
+        border: 1px solid rgba(247, 231, 190, 0.4);
+        color: #f7e7be;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        padding: 0;
+        box-shadow: 0 0 5px rgba(247, 231, 190, 0.1);
+    ">
+        <i id="iconVocalJeTaime2" class="fas fa-play" style="font-size: 0.85rem; margin-left: 2px;"></i>
+    </button>
 
-                <div style="display: flex; flex-direction: column; flex-grow: 1; text-align: left;">
-                    <span style="
-                        color: #f7e7be; 
-                        font-size: 0.85rem; 
-                        font-weight: 400; 
-                        letter-spacing: 1px;
-                        font-family: 'Times New Roman', Times, serif;
-                        font-style: italic;
-                        text-shadow: 0 0 5px rgba(247, 231, 190, 0.3);
-                    ">
-                        Je t'aime mon gars
-                    </span>
-                    <span id="statut-je-taime" style="
-                        color: #e2e8f0; 
-                        opacity: 0.4; 
-                        font-size: 0.65rem; 
-                        text-transform: uppercase;
-                        letter-spacing: 1px;
-                        margin-top: 2px;
-                    ">
-                        J'ai envie d'être avec toi
-                    </span>
-                </div>
-                  </div>
+    <div style="display: flex; flex-direction: column; flex-grow: 1; text-align: left;">
+        <span style="color: #f7e7be; font-size: 0.85rem; font-weight: 400; letter-spacing: 1px; font-family: 'Times New Roman', Times, serif; font-style: italic; text-shadow: 0 0 5px rgba(247, 231, 190, 0.3);">
+            Je t'aime mon gars
+        </span>
+        <span id="statut-je-taime2" style="color: #e2e8f0; opacity: 0.4; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px;">
+            J'ai envie d'être avec toi
+        </span>
+    </div>
+</div>
     </div>
 </div>  
 
@@ -776,7 +761,22 @@ function toggleVocalDesole() {
     }
 </script>
 
+<script>
+function toggleVocalJeTaime2() {
+    const audio = document.getElementById('vocalJeTaime2');
+    const icon = document.getElementById('iconVocalJeTaime2');
+    
+    if (!audio) return;
 
+    if (audio.paused) {
+        audio.play().catch(e => console.log("Lecture bloquée :", e));
+        if (icon) icon.className = "fas fa-pause";
+    } else {
+        audio.pause();
+        if (icon) icon.className = "fas fa-play";
+    }
+}
+</script>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
