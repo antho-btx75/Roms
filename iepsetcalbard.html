@@ -51,24 +51,24 @@
             display: block;
         }
 
-        .video-container {
-            margin-top: 60px;
-            background: #0f1625;
-            padding: 25px;
-            border-radius: 16px;
-            border: 1px solid #ff2d55;
-        }
-
-        .video-title {
-            color: #ff80df;
-            margin-bottom: 15px;
+        button {
+            background: linear-gradient(90deg, #ff2d55, #c026d3);
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 40px auto;
+            display: block;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>IEPS & CALBARD 🔥🧦🩲</h1>
+    <h1>IEPS & CALBARD 🧦🔥🩲</h1>
     <p style="color: #c9d1d9; margin-bottom: 40px;">Pour mon Roms 💕</p>
 
     <!-- Galerie vignettes -->
@@ -105,26 +105,20 @@
         </a>
     </div>
 
-    <!-- VIDÉO HARD -->
-    <div class="video-container">
-        <h2 class="video-title">Version Hard 🔥</h2>
-        <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden; background: #000; border-radius: 12px;">
-            <iframe src="https://drive.google.com/file/d/1ucEp6JkWEAYSBY_hDfG0PE53CaFQJv-A/preview" 
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                    frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <!-- VIDÉO SOFT -->
-    <div class="video-container" style="margin-top: 40px;">
-        <h2 class="video-title">Version Soft 🧦🩲</h2>
-        <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden; background: #000; border-radius: 12px;">
-            <iframe src="https://player.vimeo.com/video/1204558220" 
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
+    <!-- Bouton Expérience Immersive Soft -->
+    <button onclick="launchSoftImmersive()">
+        ▶️ Lancer l'expérience immersive Soft
+    </button>
 </div>
 
+<script>
+function launchSoftImmersive() {
+    const vimeoUrl = encodeURIComponent("https://player.vimeo.com/video/1204558220");
+    const audioUrl = encodeURIComponent("https://audio.jukehost.co.uk/019effa2-dc56-7180-8f0c-a6101c134e77");
+    
+    window.open(`https://antho-btx75.github.io/Roms/lecteur.html?gif=\( {vimeoUrl}&audio= \){audioUrl}`, '_blank');
+}
+</script>
+
 </body>
-  </html>
+</html>
