@@ -6,67 +6,88 @@
     <title>GRIS</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 
         :root {
-            --bg-dark: #0a0c12;
-            --card-bg: #111827;
-            --accent-gray: #8b949e;
-            --text-main: #c9d1d9;
+            --bg: #080a10;
+            --card: #0f121a;
+            --text: #b8c0cc;
+            --accent: #a1a9b8;
+            --glow: rgba(252, 246, 186, 0.12);
         }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
-            background-color: var(--bg-dark);
-            color: var(--text-main);
+            background: var(--bg);
+            color: var(--text);
             font-family: 'Plus Jakarta Sans', sans-serif;
-            line-height: 1.85;
-            padding: 60px 20px;
+            line-height: 1.9;
+            padding: 90px 20px;
             display: flex;
             justify-content: center;
         }
 
         .container {
-            max-width: 680px;
-            margin: 0 auto;
+            max-width: 660px;
+            width: 100%;
         }
 
         h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            color: #8b949e;
+            font-family: 'Playfair Display', serif;
+            font-size: 4.2rem;
+            font-weight: 400;
+            color: #6f7888;
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 80px;
             letter-spacing: -0.05em;
         }
 
         .card {
-            background-color: var(--card-bg);
-            border: 1px solid #30363d;
-            border-radius: 20px;
-            padding: 50px 45px;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+            background: var(--card);
+            border: 1px solid rgba(140, 150, 170, 0.08);
+            border-radius: 28px;
+            padding: 65px 55px;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.6), 
+                        inset 0 0 60px var(--glow);
         }
 
         p {
-            font-size: 1.08rem;
-            margin-bottom: 28px;
+            font-size: 1.1rem;
+            margin-bottom: 34px;
             text-align: justify;
         }
 
-        p:last-child {
-            margin-bottom: 0;
+        .highlight {
+            color: #fcf6ba;
+            font-weight: 500;
+        }
+
+        .rupture {
+            color: #e2e8f0;
+            border-left: 3px solid #4a5263;
+            padding-left: 22px;
+            display: block;
+            margin: 22px 0;
         }
 
         .player-container {
-            margin: 35px 0;
-            border-radius: 12px;
+            margin: 50px 0;
+            border-radius: 18px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+        }
+
+        .lyrics {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.18rem;
+            line-height: 2.1;
+            color: #8a94a3;
+            text-align: center;
+            margin-top: 70px;
+            padding-top: 60px;
+            border-top: 1px solid rgba(140, 150, 170, 0.1);
+            font-style: italic;
         }
     </style>
 </head>
@@ -74,11 +95,6 @@
 
 <div class="container">
     <h1>GRIS</h1>
-
-    J'ai toujours cherché à te comprendre mon gars... pas pour te piéger, je t'aime trop pour vouloir "te piéger". Et chaque "faut pas forcer" de ta part m'a toujours fait du mal dans mon cœur.
-
-          <a href="https://www.tiktok.com/@antho.btx">https://www.tiktok.com/@antho.btx</a>
-    
 
     <div class="card">
         <p>Je suis à nouveau dans le gris mon gars...</p>
@@ -98,7 +114,7 @@
         <p>Je te dis adieu frère sur ce son de Thylacine (Lyposaïne mdrr).</p>
         
         <div class="player-container">
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/QpuZdodbjFM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/QpuZdodbjFM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <p>J'ai capté beaucoup de choses ce samedi soir-là, pendant le concert et après quand on était à la villa et que t'es resté pendant 30mn sur Messenger. T'es allé ensuite aux chiottes pour pisser, tu t'es lavé les mains et tu semblais bien détendu... T'as refermé la porte de ta chambre et tu as éteint la lumière. Tandis que j'étais resté dans le salon avec 1000 questions en tête et le cœur vide et gris. Alors oui le lendemain effectivement j'étais très gris, c'était le dernier jour mais j'étais gris pour d'autres raisons.</p>
@@ -114,51 +130,53 @@
         <p>Et t'en fais pas, en vrai de vrai je peux pas te dire adieu... Lundi je serai là pour toi. Je t'aime trop mon Romain. J'aimerais juste que tu essaies de comprendre un peu plus ce que je peux ressentir pour toi.</p>
         
         <div class="player-container">
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/zDyw9U-flxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/zDyw9U-flxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <p>Un soir<br>
-        Tu trouveras des brouillons dans leur cachette<br>
-        Pour voir<br>
-        Tu sortiras les disques de leur pochette<br>
-        Notre histoire<br>
-        Tu la verras défiler dans ta tête<br>
-        Alors chut<br>
-        Pose doucement un doigt devant ta bouche<br>
-        Et lutte<br>
-        Efface de ta mémoire ces mots qui nous touchent<br>
-        Brutes<br>
-        Ces images qui nous plongent dans la solitude<br>
-        Écoute<br>
-        Ce qu'il reste de nous<br>
-        Immobile et debout<br>
-        Une minute de silence<br>
-        Ce qu'il reste, c'est tout<br>
-        De ces deux cœurs immenses<br>
-        Et de cet amour fou<br>
-        Et fais quand tu y penses<br>
-        En souvenir de nous<br>
-        Une minute de silence<br>
-        Écoute passer mes nuits blanches<br>
-        Dans tes volutes de fumée bleue<br>
-        Cette minute de silence<br>
-        Est pour nous deux<br>
-        Écoute<br>
-        Ce qu'il reste de nous<br>
-        Immobile et debout<br>
-        Cette minute de silence<br>
-        Ce qu'il reste, c'est tout<br>
-        De ces deux cœurs immenses<br>
-        Et de cet amour fou<br>
-        Et fais quand tu y penses<br>
-        En souvenir de nous<br>
-        Une minute de silence<br>
-        Écoute passer mes nuits blanches<br>
-        Dans tes volutes de fumée bleue<br>
-        Cette minute de silence<br>
-        Est pour nous deux<br>
-        Cette minute de silence<br>
-        Est pour nous deux</p>
+        <div class="lyrics">
+            Un soir<br>
+            Tu trouveras des brouillons dans leur cachette<br>
+            Pour voir<br>
+            Tu sortiras les disques de leur pochette<br>
+            Notre histoire<br>
+            Tu la verras défiler dans ta tête<br><br>
+            Alors chut<br>
+            Pose doucement un doigt devant ta bouche<br>
+            Et lutte<br>
+            Efface de ta mémoire ces mots qui nous touchent<br>
+            Brutes<br>
+            Ces images qui nous plongent dans la solitude<br><br>
+            Écoute<br>
+            Ce qu'il reste de nous<br>
+            Immobile et debout<br>
+            Une minute de silence<br>
+            Ce qu'il reste, c'est tout<br>
+            De ces deux cœurs immenses<br>
+            Et de cet amour fou<br>
+            Et fais quand tu y penses<br>
+            En souvenir de nous<br>
+            Une minute de silence<br><br>
+            Écoute passer mes nuits blanches<br>
+            Dans tes volutes de fumée bleue<br>
+            Cette minute de silence<br>
+            Est pour nous deux<br>
+            Écoute<br>
+            Ce qu'il reste de nous<br>
+            Immobile et debout<br>
+            Cette minute de silence<br>
+            Ce qu'il reste, c'est tout<br>
+            De ces deux cœurs immenses<br>
+            Et de cet amour fou<br>
+            Et fais quand tu y penses<br>
+            En souvenir de nous<br>
+            Une minute de silence<br>
+            Écoute passer mes nuits blanches<br>
+            Dans tes volutes de fumée bleue<br>
+            Cette minute de silence<br>
+            Est pour nous deux<br>
+            Cette minute de silence<br>
+            Est pour nous deux
+        </div>
     </div>
 </div>
 
