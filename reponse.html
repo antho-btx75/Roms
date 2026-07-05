@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réponse de Romain</title>
+    <style>
+        body { 
+            background: #0a0c12; 
+            color: #c9d1d9; 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            text-align: center; 
+            padding: 80px 20px; 
+        }
+        .card { 
+            max-width: 620px; 
+            margin: 0 auto; 
+            background: #111827; 
+            padding: 55px; 
+            border-radius: 24px; 
+            box-shadow: 0 25px 60px rgba(0,0,0,0.5); 
+        }
+        h2 { 
+            color: #fcf6ba; 
+            margin-bottom: 35px; 
+            font-size: 1.7rem;
+        }
+        .result { 
+            margin-top: 40px; 
+            font-size: 1.35rem; 
+            color: #fcf6ba; 
+            line-height: 1.75; 
+            min-height: 140px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Réponse de Romain</h2>
+    <div id="result" class="result">En attente de sa réponse...</div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+<script>
+    const firebaseConfig = {
+        databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app"
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    db.ref('reponse').on('value', (snapshot) => {
+        const choice = snapshot.val();
+        let text = "Aucune réponse pour l'instant";
+
+        if (choice === 1) text = "1 - Il kiffes de fou et veut que tu te lâches plus IRL";
+        else if (choice === 2) text = "2 - Il kiffes mais veut rester comme ça en scred";
+        else if (choice === 3) text = "3 - Moins sentimental, mais le cul c'est ok";
+        else if (choice === 4) text = "4 - Moins de cul, mais le sentimental c'est ok";
+        else if (choice === 5) text = "5 - Il n'aime pas trop la page, il est full hétéro";
+
+        document.getElementById('result').innerHTML = `<strong>Romain a répondu :</strong><br>${text}`;
+    });
+</script>
+
+</body>
+</html>
