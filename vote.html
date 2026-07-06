@@ -46,10 +46,18 @@
             text-align: left;
             font-size: 1.03rem;
             cursor: pointer;
+            transition: all 0.2s;
+        }
+        label.disabled {
+            color: #666;
+            pointer-events: none;
         }
         input[type="checkbox"] {
             margin-right: 12px;
             transform: scale(1.2);
+        }
+        input[type="checkbox"]:disabled + span {
+            color: #666;
         }
         .thanks { 
             margin-top: 30px; 
@@ -75,24 +83,25 @@
 
     <div class="subtitle">Choix principaux :</div>
     
-    <label><input type="checkbox" value="1" onchange="saveSelections()"> 1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</label>
+    <label><input type="checkbox" value="1" onchange="saveSelections(); updateDependencies()"> 1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</label>
     
-    <label><input type="checkbox" value="2" onchange="saveSelections()"> 2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
+    <label><input type="checkbox" value="2" onchange="saveSelections(); updateDependencies()"> 2 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro</label>
+    
+    <label><input type="checkbox" value="3" id="parent3" onchange="saveSelections(); updateDependencies()"> 3 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
 
-    <div class="subtitle">Sous-questions pour le choix 2 :</div>
+    <div class="subtitle" id="sub3">Si tu as choisi 3 :</div>
     
-    <label><input type="checkbox" value="3" onchange="saveSelections()"> 3 - Tout est parfaitement équilibré</label>
-    <label><input type="checkbox" value="4" onchange="saveSelections()"> 4 - Je voudrais le moins de cul, plus de sentiments</label>
-    <label><input type="checkbox" value="5" onchange="saveSelections()"> 5 - Je voudrais le plus de cul, moins de sentiments</label>
+    <label id="label4"><input type="checkbox" value="4" onchange="saveSelections()"> 4 - Tout est parfaitement équilibré</label>
+    <label id="label5"><input type="checkbox" value="5" onchange="saveSelections()"> 5 - Je voudrais le moins de cul, plus de sentiments</label>
+    <label id="label6"><input type="checkbox" value="6" id="parent6" onchange="saveSelections(); updateDependencies()"> 6 - Je voudrais le plus de cul, moins de sentiments</label>
 
-    <div class="subtitle">Sous-propositions pour le choix 5 (orientation sexuelle) :</div>
+    <div class="subtitle" id="sub6">Si tu as choisi 6 :</div>
     
-    <label><input type="checkbox" value="6" onchange="saveSelections()"> 6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</label>
-    <label><input type="checkbox" value="7" onchange="saveSelections()"> 7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</label>
+    <label id="label7"><input type="checkbox" value="7" onchange="saveSelections()"> 7 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</label>
+    <label id="label8"><input type="checkbox" value="8" onchange="saveSelections()"> 8 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</label>
 
     <div class="subtitle">Autres choix :</div>
     
-    <label><input type="checkbox" value="8" onchange="saveSelections()"> 8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro</label>
     <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.</label>
     <label><input type="checkbox" value="10" onchange="saveSelections()"> 10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.</label>
     <label><input type="checkbox" value="11" onchange="saveSelections()"> 11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</label>
@@ -109,6 +118,26 @@
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
+    function updateDependencies() {
+        const parent3 = document.getElementById('parent3').checked;
+        const parent6 = document.getElementById('parent6').checked;
+
+        // Sous-options du choix 3
+        document.getElementById('label4').classList.toggle('disabled', !parent3);
+        document.getElementById('label5').classList.toggle('disabled', !parent3);
+        document.getElementById('label6').classList.toggle('disabled', !parent3);
+
+        // Sous-options du choix 6
+        document.getElementById('label7').classList.toggle('disabled', !parent6);
+        document.getElementById('label8').classList.toggle('disabled', !parent6);
+
+        // Désactiver les checkboxes
+        document.querySelectorAll('#label4 input, #label5 input, #label6 input, #label7 input, #label8 input').forEach(cb => {
+            cb.disabled = !parent3 && (cb.value == 4 || cb.value == 5 || cb.value == 6);
+            if (cb.value == 7 || cb.value == 8) cb.disabled = !parent6;
+        });
+    }
+
     function saveSelections() {
         const selected = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
                              .map(cb => parseInt(cb.value));
@@ -119,16 +148,14 @@
 
         db.ref('reponses').set(selected.length > 0 ? selected : null).then(() => {
             statusEl.textContent = "Choix enregistrés ✓";
-            setTimeout(() => {
-                if (statusEl.textContent === "Choix enregistrés ✓") {
-                    statusEl.textContent = "";
-                }
-            }, 2500);
-        }).catch(() => {
-            statusEl.style.color = "#ef4444";
-            statusEl.textContent = "Erreur lors de l'enregistrement...";
+            setTimeout(() => { statusEl.textContent = ""; }, 2200);
         });
     }
+
+    // Initialisation
+    window.onload = () => {
+        updateDependencies();
+    };
 </script>
 
 </body>
