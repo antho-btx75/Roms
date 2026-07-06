@@ -5,63 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réponse de Romain</title>
     <style>
-        body { 
-            background: #0a0c12; 
-            color: #c9d1d9; 
-            font-family: 'Plus Jakarta Sans', sans-serif; 
-            text-align: center; 
-            padding: 80px 20px; 
-            margin: 0;
-        }
-        .card { 
-            max-width: 720px; 
-            margin: 0 auto; 
-            background: #111827; 
-            padding: 55px 40px; 
-            border-radius: 24px; 
-            box-shadow: 0 25px 60px rgba(0,0,0,0.5); 
-        }
-        h2 { 
-            color: #fcf6ba; 
-            margin-bottom: 35px; 
-            font-size: 1.75rem;
-        }
-        .result { 
-            margin-top: 30px; 
-            font-size: 1.25rem; 
-            color: #c9d1d9; 
-            line-height: 1.8; 
-            text-align: left;
-            max-width: 640px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .choice {
-            background: rgba(251, 191, 36, 0.08);
-            padding: 16px 20px;
-            margin: 14px 0;
-            border-radius: 12px;
-            border-left: 5px solid #fcf6ba;
-        }
-        .no-answer {
-            color: #8b949e;
-            font-style: italic;
-            text-align: center;
-        }
-        .reset-btn {
-            margin-top: 40px;
-            padding: 14px 32px;
-            background: #ef4444;
-            color: white;
-            border: none;
-            border-radius: 12px;
-            cursor: pointer;
-            font-size: 1.05rem;
-            font-weight: 500;
-        }
-        .reset-btn:hover {
-            background: #dc2626;
-        }
+        body { background: #0a0c12; color: #c9d1d9; font-family: 'Plus Jakarta Sans', sans-serif; text-align: center; padding: 80px 20px; margin: 0; }
+        .card { max-width: 720px; margin: 0 auto; background: #111827; padding: 55px 40px; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.5); }
+        h2 { color: #fcf6ba; margin-bottom: 35px; font-size: 1.75rem; }
+        .result { margin-top: 30px; font-size: 1.25rem; color: #c9d1d9; line-height: 1.8; text-align: left; max-width: 640px; margin-left: auto; margin-right: auto; }
+        .choice { background: rgba(251, 191, 36, 0.08); padding: 16px 20px; margin: 14px 0; border-radius: 12px; border-left: 5px solid #fcf6ba; }
+        .no-answer { color: #8b949e; font-style: italic; text-align: center; }
+        .reset-btn { margin-top: 40px; padding: 14px 32px; background: #ef4444; color: white; border: none; border-radius: 12px; cursor: pointer; font-size: 1.05rem; }
+        .reset-btn:hover { background: #dc2626; }
     </style>
 </head>
 <body>
@@ -69,16 +20,13 @@
 <div class="card">
     <h2>Réponse de Romain</h2>
     <div id="result" class="result">En attente de sa réponse...</div>
-    
     <button class="reset-btn" onclick="resetVotes()">Réinitialiser tous les choix</button>
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
 <script>
-    const firebaseConfig = {
-        databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app"
-    };
+    const firebaseConfig = { databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app" };
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
@@ -91,9 +39,8 @@
         6: "6 - Je voudrais le plus de cul, moins de sentiments",
         7: "7 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑",
         8: "8 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆",
-        9: "9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.",
-        10: "10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.",
-        11: "11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça."
+        9: "9 - Je kiffe ça, c'est mes bails, mais je t'aime pas d'un point de vue amoureux (sentimental)",
+        10: "10 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça."
     };
 
     db.ref('reponses').on('value', (snapshot) => {
@@ -106,27 +53,19 @@
         }
 
         let html = `<strong>Romain a sélectionné :</strong><br><br>`;
-
         const selected = Array.isArray(choices) ? choices : [choices];
-        selected.sort((a, b) => a - b).forEach(num => {
-            if (labels[num]) {
-                html += `<div class="choice">${labels[num]}</div>`;
-            }
+        selected.sort((a,b) => a - b).forEach(num => {
+            if (labels[num]) html += `<div class="choice">${labels[num]}</div>`;
         });
 
         resultDiv.innerHTML = html;
     });
 
     function resetVotes() {
-        if (confirm("Réinitialiser tous les choix de Romain ? Cette action est irréversible.")) {
-            db.ref('reponses').set(null).then(() => {
-                alert("Tous les choix ont été réinitialisés.");
-            }).catch(err => {
-                alert("Erreur lors de la réinitialisation.");
-            });
+        if (confirm("Réinitialiser tous les choix de Romain ?")) {
+            db.ref('reponses').set(null).then(() => alert("Choix réinitialisés."));
         }
     }
 </script>
-
 </body>
 </html>
