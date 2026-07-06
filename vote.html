@@ -8,10 +8,18 @@
         body { background: #0a0c12; color: #c9d1d9; font-family: 'Plus Jakarta Sans', sans-serif; text-align: center; padding: 60px 20px; margin: 0; }
         .card { max-width: 620px; margin: 0 auto; background: #111827; padding: 50px 30px; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.5); }
         h2 { color: #fcf6ba; margin-bottom: 15px; }
-        p.intro { margin: 25px 0 30px 0; font-size: 1.15rem; line-height: 1.65; }
+        p.intro { 
+            margin: 25px 0 30px 0; 
+            font-size: 1.05rem; 
+            line-height: 1.65; 
+        }
+        .intro-strong {
+            color: #ff80df;
+            font-weight: 600;
+        }
         .subtitle { color: #ff80df; margin: 30px 0 15px 0; font-size: 1.1rem; font-weight: 600; }
         .note { color: #a1a1aa; font-size: 0.95rem; margin: 25px 0 35px 0; font-style: italic; }
-         label { display: block; margin: 10px auto; max-width: 480px; text-align: left; font-size: 1.03rem; cursor: pointer; }
+        label { display: block; margin: 10px auto; max-width: 480px; text-align: left; font-size: 1.03rem; cursor: pointer; }
         label.disabled { color: #666; pointer-events: none; }
         input[type="checkbox"] { margin-right: 12px; transform: scale(1.2); }
         .thanks { margin-top: 30px; font-size: 1.1rem; color: #22c55e; min-height: 28px; }
@@ -21,25 +29,26 @@
 
 <div class="card">
     <h2>Question pour toi mon Roms</h2>
-   <p class="note">
-        Tu peux à tout moment revenir et modifier tes choix.<br>
-        Ce n'est pas un envoi définitif — tout se met à jour automatiquement.
-   </p>
+    <p class="intro">
+        Sur la page Github, qu'est-ce que tu ressens vraiment ?<br><br>
+        Tu peux sélectionner plusieurs réponses. <span class="intro-strong">Lâche toi mon gars c'est du FULL SCRED.</span><br>
+        J'ai besoin de ça pour ajuster mon comportement et <span class="intro-strong">te mettre grave à l'aise</span>.
+    </p>
 
     <p class="note">
         Tu peux à tout moment revenir et modifier tes choix.<br>
-        Ce n'est pas un envoi définitif.
+        Ce n'est pas un envoi définitif — tout se met à jour automatiquement.
     </p>
 
     <div class="subtitle">Choix principaux :</div>
     <label><input type="checkbox" value="1" onchange="saveSelections(); updateDependencies()"> 1 - Je kiffe de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</label>
     <label><input type="checkbox" value="2" onchange="saveSelections(); updateDependencies()"> 2 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro</label>
-    <label><input type="checkbox" value="3" id="parent3" onchange="saveSelections(); updateDependencies()"> 3 - Je kiffe mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
+    <label><input type="checkbox" value="3" id="parent3" onchange="saveSelections(); updateDependencies()"> 3 - Je kiffe et ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
 
     <div class="subtitle" id="sub3">Si tu as choisi 3 :</div>
     <label id="label4"><input type="checkbox" value="4" onchange="saveSelections()"> 4 - Tout est parfaitement équilibré</label>
-    <label id="label5"><input type="checkbox" value="5" onchange="saveSelections()"> 5 - Je voudrais moins de cul, plus de sentiments</label>
-    <label id="label6"><input type="checkbox" value="6" id="parent6" onchange="saveSelections(); updateDependencies()"> 6 - Je voudrais plus de cul, moins de sentiments</label>
+    <label id="label5"><input type="checkbox" value="5" onchange="saveSelections()"> 5 - Je voudrais le moins de cul, plus de sentiments</label>
+    <label id="label6"><input type="checkbox" value="6" id="parent6" onchange="saveSelections(); updateDependencies()"> 6 - Je voudrais le plus de cul, moins de sentiments</label>
 
     <div class="subtitle" id="sub6">Si tu as choisi 6 :</div>
     <label id="label7"><input type="checkbox" value="7" onchange="saveSelections()"> 7 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</label>
