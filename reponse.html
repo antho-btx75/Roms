@@ -3,20 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Réponse Romain</title>
+    <title>Réponse de Romain</title>
     <style>
-        body { background: #0a0c12; color: #c9d1d9; font-family: sans-serif; text-align: center; padding: 80px 20px; }
-        .card { max-width: 620px; margin: 0 auto; background: #111827; padding: 50px; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.5); }
-        .result { margin: 40px 0; font-size: 1.35rem; color: #fcf6ba; line-height: 1.7; }
-        button.reset { margin-top: 30px; padding: 12px 28px; background: #ef4444; color: white; border: none; border-radius: 12px; cursor: pointer; }
+        body { 
+            background: #0a0c12; 
+            color: #c9d1d9; 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            text-align: center; 
+            padding: 80px 20px; 
+            margin: 0;
+        }
+        .card { 
+            max-width: 680px; 
+            margin: 0 auto; 
+            background: #111827; 
+            padding: 55px 35px; 
+            border-radius: 24px; 
+            box-shadow: 0 25px 60px rgba(0,0,0,0.5); 
+        }
+        h2 { 
+            color: #fcf6ba; 
+            margin-bottom: 35px; 
+            font-size: 1.75rem;
+        }
+        .result { 
+            margin-top: 30px; 
+            font-size: 1.28rem; 
+            color: #fcf6ba; 
+            line-height: 1.75; 
+            min-height: 260px;
+            text-align: left;
+            max-width: 620px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .subtitle {
+            color: #ff80df;
+            margin: 25px 0 10px 0;
+            font-size: 1.05rem;
+        }
     </style>
 </head>
 <body>
 
 <div class="card">
     <h2>Réponse de Romain</h2>
-    <div id="result" class="result">En attente...</div>
-    <button class="reset" onclick="resetVote()">Réinitialiser le vote</button>
+    <div id="result" class="result">En attente de sa réponse...</div>
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
@@ -32,20 +64,20 @@
         const choice = snapshot.val();
         let text = "Aucune réponse pour l'instant";
 
-        if (choice === 1) text = "1 - Il kiffes de fou et veut que tu te lâches plus IRL";
-        else if (choice === 2) text = "2 - Il kiffes mais veut rester comme ça en scred";
-        else if (choice === 3) text = "3 - Moins sentimental, mais le cul c'est ok";
-        else if (choice === 4) text = "4 - Moins de cul, mais le sentimental c'est ok";
-        else if (choice === 5) text = "5 - Il n'aime pas trop la page, il est full hétéro";
+        if (choice === 1) text = "1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL";
+        else if (choice === 2) text = "2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.";
+        else if (choice === 3) text = "3 - Tout est parfaitement équilibré";
+        else if (choice === 4) text = "4 - Je voudrais le moins de cul, plus de sentiments";
+        else if (choice === 5) text = "5 - Je voudrais le plus de cul, moins de sentiments";
+        else if (choice === 6) text = "6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑";
+        else if (choice === 7) text = "7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆";
+        else if (choice === 8) text = "8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro";
+        else if (choice === 9) text = "9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.";
+        else if (choice === 10) text = "10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.";
+        else if (choice === 11) text = "11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.";
 
-        document.getElementById('result').innerHTML = `<strong>Dernier vote :</strong><br>${text}`;
+        document.getElementById('result').innerHTML = `<strong>Romain a répondu :</strong><br><br>${text}`;
     });
-
-    function resetVote() {
-        if (confirm("Réinitialiser le vote ?")) {
-            db.ref('reponse').set(0);
-        }
-    }
 </script>
 
 </body>
