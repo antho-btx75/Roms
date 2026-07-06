@@ -11,41 +11,54 @@
             font-family: 'Plus Jakarta Sans', sans-serif; 
             text-align: center; 
             padding: 60px 20px; 
+            margin: 0;
         }
         .card { 
-            max-width: 560px; 
+            max-width: 580px; 
             margin: 0 auto; 
             background: #111827; 
-            padding: 50px; 
+            padding: 50px 30px; 
             border-radius: 24px; 
             box-shadow: 0 25px 60px rgba(0,0,0,0.5); 
         }
-        h2 { color: #fcf6ba; margin-bottom: 20px; }
-        p.intro { margin: 25px 0 35px 0; font-size: 1.15rem; line-height: 1.6; }
-        button { 
-            margin: 10px auto; padding: 18px 24px; font-size: 1.05rem; 
-            border: none; border-radius: 16px; cursor: pointer; 
-            background: linear-gradient(135deg, #3b82f6, #1e40af); 
-            color: white; width: 100%; max-width: 460px; display: block; 
-            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
-        }
-        button:hover { transform: translateY(-3px); }
-        .thanks { 
-            margin-top: 40px; 
-            font-size: 1.22rem; 
+        h2 { 
             color: #fcf6ba; 
-            line-height: 1.6;
+            margin-bottom: 15px; 
         }
-        .back-btn {
-            margin-top: 35px;
-            padding: 14px 32px;
-            background: rgba(191, 149, 63, 0.15);
-            color: #bf953f;
-            border: 1px solid #bf953f;
-            border-radius: 50px;
-            text-decoration: none;
-            display: inline-block;
+        p.intro { 
+            margin: 25px 0 40px 0; 
+            font-size: 1.15rem; 
+            line-height: 1.65; 
+        }
+        .subtitle {
+            color: #ff80df;
+            margin: 30px 0 15px 0;
+            font-size: 1.1rem;
             font-weight: 600;
+        }
+        button { 
+            margin: 9px auto; 
+            padding: 18px 24px; 
+            font-size: 1.03rem; 
+            border: none; 
+            border-radius: 16px; 
+            cursor: pointer; 
+            background: linear-gradient(135deg, #3b82f6, #1e40af); 
+            color: white; 
+            width: 100%; 
+            max-width: 480px; 
+            display: block; 
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+            transition: all 0.2s ease;
+        }
+        button:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.5);
+        }
+        .thanks { 
+            margin-top: 45px; 
+            font-size: 1.25rem; 
+            color: #fcf6ba; 
         }
     </style>
 </head>
@@ -55,18 +68,30 @@
     <h2>Question pour toi mon Roms</h2>
     <p class="intro">
         Sur la page Github, qu'est-ce que tu ressens vraiment ?<br>
-        <span style="color: #ff80df;">Tu peux te lâcher librement, sans filtre. Tout reste ultra scred entre nous je t'en parlerai même pas IRL. C'est juste pour ajuster mon comportement avec toi.</span>
+        <span style="color: #ff80df;">Tu peux te lâcher librement, sans filtre. Tout reste ultra scred entre nous.</span>
     </p>
 
-    <button onclick="sendVote(1)">1 - Tu kiffes de fou et t'as envie que je me lâche un peu plus avec toi IRL</button>
-    <button onclick="sendVote(2)">2 - Tu kiffes mais ça te convient comme ça. On reste comme on est et on consomme ça en scred.</button>
-    <button onclick="sendVote(3)">3 - Tu voudrais moins l'aspect sentimental et amoureux mais le côté cul c'est ok</button>
-    <button onclick="sendVote(4)">4 - Tu voudrais moins le côté cul mais l'aspect sentimental c'est ok</button>
-    <button onclick="sendVote(5)">5 - T'aimes pas trop la page Github car t'es pas dans ces bails là t'es full hétéro</button>
+    <button onclick="sendVote(1)">1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</button>
+    
+    <button onclick="sendVote(2)">2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.</button>
+    
+    <div class="subtitle">Sous-questions pour le choix 2 :</div>
+    
+    <button onclick="sendVote(3)">3 - Tout est parfaitement équilibré</button>
+    <button onclick="sendVote(4)">4 - Je voudrais le moins de cul, plus de sentiments</button>
+    <button onclick="sendVote(5)">5 - Je voudrais le plus de cul, moins de sentiments</button>
+
+    <div class="subtitle">Sous-propositions pour le choix 5 (orientation sexuelle) :</div>
+    
+    <button onclick="sendVote(6)">6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</button>
+    <button onclick="sendVote(7)">7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</button>
+
+    <button onclick="sendVote(8)">8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro</button>
+    <button onclick="sendVote(9)">9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.</button>
+    <button onclick="sendVote(10)">10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.</button>
+    <button onclick="sendVote(11)">11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</button>
 
     <div id="status" class="thanks"></div>
-
-    <a href="https://antho-btx75.github.io/Roms/" class="back-btn">← Retour à la page principale</a>
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
@@ -79,13 +104,13 @@
     const db = firebase.database();
 
     function sendVote(choice) {
-        document.getElementById('status').innerHTML = "Envoi en cours...";
+        const statusEl = document.getElementById('status');
+        statusEl.innerHTML = "Envoi en cours...";
+        
         db.ref('reponse').set(choice).then(() => {
-            document.getElementById('status').innerHTML = `
-                Merci mon Roms ❤️<br><br>
-                Ta réponse a bien été enregistrée.<br>
-                Tout reste ultra scred entre nous, promis.
-            `;
+            statusEl.innerHTML = `Merci mon Roms !<br>Ta réponse (${choice}) a bien été enregistrée.`;
+        }).catch(() => {
+            statusEl.innerHTML = "Erreur lors de l'envoi...";
         });
     }
 </script>
