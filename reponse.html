@@ -14,10 +14,10 @@
             margin: 0;
         }
         .card { 
-            max-width: 680px; 
+            max-width: 720px; 
             margin: 0 auto; 
             background: #111827; 
-            padding: 55px 35px; 
+            padding: 55px 40px; 
             border-radius: 24px; 
             box-shadow: 0 25px 60px rgba(0,0,0,0.5); 
         }
@@ -28,19 +28,24 @@
         }
         .result { 
             margin-top: 30px; 
-            font-size: 1.28rem; 
-            color: #fcf6ba; 
-            line-height: 1.75; 
-            min-height: 260px;
+            font-size: 1.25rem; 
+            color: #c9d1d9; 
+            line-height: 1.8; 
             text-align: left;
             max-width: 620px;
             margin-left: auto;
             margin-right: auto;
         }
-        .subtitle {
-            color: #ff80df;
-            margin: 25px 0 10px 0;
-            font-size: 1.05rem;
+        .choice {
+            background: rgba(251, 191, 36, 0.1);
+            padding: 14px 18px;
+            margin: 12px 0;
+            border-radius: 12px;
+            border-left: 4px solid #fcf6ba;
+        }
+        .no-answer {
+            color: #8b949e;
+            font-style: italic;
         }
     </style>
 </head>
@@ -60,23 +65,43 @@
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
-    db.ref('reponse').on('value', (snapshot) => {
-        const choice = snapshot.val();
-        let text = "Aucune réponse pour l'instant";
+    const labels = {
+        1: "1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL",
+        2: "2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.",
+        3: "3 - Tout est parfaitement équilibré",
+        4: "4 - Je voudrais le moins de cul, plus de sentiments",
+        5: "5 - Je voudrais le plus de cul, moins de sentiments",
+        6: "6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑",
+        7: "7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆",
+        8: "8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro",
+        9: "9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.",
+        10: "10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.",
+        11: "11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça."
+    };
 
-        if (choice === 1) text = "1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL";
-        else if (choice === 2) text = "2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.";
-        else if (choice === 3) text = "3 - Tout est parfaitement équilibré";
-        else if (choice === 4) text = "4 - Je voudrais le moins de cul, plus de sentiments";
-        else if (choice === 5) text = "5 - Je voudrais le plus de cul, moins de sentiments";
-        else if (choice === 6) text = "6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑";
-        else if (choice === 7) text = "7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆";
-        else if (choice === 8) text = "8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro";
-        else if (choice === 9) text = "9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.";
-        else if (choice === 10) text = "10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.";
-        else if (choice === 11) text = "11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.";
+    db.ref('reponses').on('value', (snapshot) => {
+        const choices = snapshot.val();
+        const resultDiv = document.getElementById('result');
 
-        document.getElementById('result').innerHTML = `<strong>Romain a répondu :</strong><br><br>${text}`;
+        if (!choices || (Array.isArray(choices) && choices.length === 0)) {
+            resultDiv.innerHTML = `<span class="no-answer">Aucune réponse pour l'instant...</span>`;
+            return;
+        }
+
+        let html = `<strong>Romain a sélectionné :</strong><br><br>`;
+
+        if (Array.isArray(choices)) {
+            choices.forEach(num => {
+                if (labels[num]) {
+                    html += `<div class="choice">${labels[num]}</div>`;
+                }
+            });
+        } else if (typeof choices === 'number') {
+            // Compatibilité avec ancien format (choix unique)
+            html += `<div class="choice">${labels[choices] || choices}</div>`;
+        }
+
+        resultDiv.innerHTML = html;
     });
 </script>
 
