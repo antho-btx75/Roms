@@ -45,25 +45,18 @@
             max-width: 480px;
             text-align: left;
             font-size: 1.03rem;
+            cursor: pointer;
         }
         input[type="checkbox"] {
             margin-right: 12px;
             transform: scale(1.2);
         }
-        button { 
-            margin: 20px auto 10px; 
-            padding: 18px 40px; 
+        .thanks { 
+            margin-top: 30px; 
             font-size: 1.1rem; 
-            border: none; 
-            border-radius: 16px; 
-            cursor: pointer; 
-            background: linear-gradient(135deg, #22c55e, #15803d); 
-            color: white; 
-            font-weight: 600;
-            box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4);
+            color: #22c55e; 
+            min-height: 28px;
         }
-        button:hover { transform: translateY(-3px); }
-        .thanks { margin-top: 30px; font-size: 1.25rem; color: #fcf6ba; }
     </style>
 </head>
 <body>
@@ -76,35 +69,33 @@
     </p>
 
     <p class="note">
-        Tu peux à tout moment revenir et laisser de nouvelles réponses ou modifier tes choix.<br>
-        Ce n'est pas un envoi définitif.
+        Tu peux à tout moment revenir et modifier tes choix.<br>
+        Ce n'est pas un envoi définitif — tout se met à jour automatiquement.
     </p>
 
     <div class="subtitle">Choix principaux :</div>
     
-    <label><input type="checkbox" value="1"> 1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</label>
+    <label><input type="checkbox" value="1" onchange="saveSelections()"> 1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</label>
     
-    <label><input type="checkbox" value="2"> 2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
+    <label><input type="checkbox" value="2" onchange="saveSelections()"> 2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
 
     <div class="subtitle">Sous-questions pour le choix 2 :</div>
     
-    <label><input type="checkbox" value="3"> 3 - Tout est parfaitement équilibré</label>
-    <label><input type="checkbox" value="4"> 4 - Je voudrais le moins de cul, plus de sentiments</label>
-    <label><input type="checkbox" value="5"> 5 - Je voudrais le plus de cul, moins de sentiments</label>
+    <label><input type="checkbox" value="3" onchange="saveSelections()"> 3 - Tout est parfaitement équilibré</label>
+    <label><input type="checkbox" value="4" onchange="saveSelections()"> 4 - Je voudrais le moins de cul, plus de sentiments</label>
+    <label><input type="checkbox" value="5" onchange="saveSelections()"> 5 - Je voudrais le plus de cul, moins de sentiments</label>
 
     <div class="subtitle">Sous-propositions pour le choix 5 (orientation sexuelle) :</div>
     
-    <label><input type="checkbox" value="6"> 6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</label>
-    <label><input type="checkbox" value="7"> 7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</label>
+    <label><input type="checkbox" value="6" onchange="saveSelections()"> 6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</label>
+    <label><input type="checkbox" value="7" onchange="saveSelections()"> 7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</label>
 
     <div class="subtitle">Autres choix :</div>
     
-    <label><input type="checkbox" value="8"> 8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro</label>
-    <label><input type="checkbox" value="9"> 9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.</label>
-    <label><input type="checkbox" value="10"> 10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.</label>
-    <label><input type="checkbox" value="11"> 11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</label>
-
-    <button onclick="sendVotes()">Valider / Mettre à jour mes réponses</button>
+    <label><input type="checkbox" value="8" onchange="saveSelections()"> 8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro</label>
+    <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.</label>
+    <label><input type="checkbox" value="10" onchange="saveSelections()"> 10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.</label>
+    <label><input type="checkbox" value="11" onchange="saveSelections()"> 11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</label>
 
     <div id="status" class="thanks"></div>
 </div>
@@ -118,22 +109,24 @@
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
-    function sendVotes() {
+    function saveSelections() {
         const selected = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
                              .map(cb => parseInt(cb.value));
 
         const statusEl = document.getElementById('status');
-        if (selected.length === 0) {
-            statusEl.innerHTML = "Sélectionne au moins une réponse.";
-            return;
-        }
+        statusEl.style.color = "#22c55e";
+        statusEl.textContent = "Mise à jour en cours...";
 
-        statusEl.innerHTML = "Envoi / Mise à jour en cours...";
-        
-        db.ref('reponses').set(selected).then(() => {
-            statusEl.innerHTML = `Merci mon Roms !<br>Tes réponses ont bien été mises à jour.`;
+        db.ref('reponses').set(selected.length > 0 ? selected : null).then(() => {
+            statusEl.textContent = "Choix enregistrés ✓";
+            setTimeout(() => {
+                if (statusEl.textContent === "Choix enregistrés ✓") {
+                    statusEl.textContent = "";
+                }
+            }, 2500);
         }).catch(() => {
-            statusEl.innerHTML = "Erreur lors de l'envoi...";
+            statusEl.style.color = "#ef4444";
+            statusEl.textContent = "Erreur lors de l'enregistrement...";
         });
     }
 </script>
