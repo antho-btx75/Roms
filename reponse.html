@@ -32,20 +32,21 @@
             color: #c9d1d9; 
             line-height: 1.8; 
             text-align: left;
-            max-width: 620px;
+            max-width: 640px;
             margin-left: auto;
             margin-right: auto;
         }
         .choice {
-            background: rgba(251, 191, 36, 0.1);
-            padding: 14px 18px;
-            margin: 12px 0;
+            background: rgba(251, 191, 36, 0.08);
+            padding: 16px 20px;
+            margin: 14px 0;
             border-radius: 12px;
-            border-left: 4px solid #fcf6ba;
+            border-left: 5px solid #fcf6ba;
         }
         .no-answer {
             color: #8b949e;
             font-style: italic;
+            text-align: center;
         }
     </style>
 </head>
@@ -67,13 +68,13 @@
 
     const labels = {
         1: "1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL",
-        2: "2 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.",
-        3: "3 - Tout est parfaitement équilibré",
-        4: "4 - Je voudrais le moins de cul, plus de sentiments",
-        5: "5 - Je voudrais le plus de cul, moins de sentiments",
-        6: "6 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑",
-        7: "7 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆",
-        8: "8 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro",
+        2: "2 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro",
+        3: "3 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.",
+        4: "4 - Tout est parfaitement équilibré",
+        5: "5 - Je voudrais le moins de cul, plus de sentiments",
+        6: "6 - Je voudrais le plus de cul, moins de sentiments",
+        7: "7 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑",
+        8: "8 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆",
         9: "9 - Je kiffes ça, c'est mes bails, mais je t'aime pas.",
         10: "10 - Je kiffes ça, c'est mes bails, mais j'aime un autre gars.",
         11: "11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça."
@@ -91,13 +92,13 @@
         let html = `<strong>Romain a sélectionné :</strong><br><br>`;
 
         if (Array.isArray(choices)) {
+            choices.sort((a,b) => a - b); // trier par numéro
             choices.forEach(num => {
                 if (labels[num]) {
                     html += `<div class="choice">${labels[num]}</div>`;
                 }
             });
         } else if (typeof choices === 'number') {
-            // Compatibilité avec ancien format (choix unique)
             html += `<div class="choice">${labels[choices] || choices}</div>`;
         }
 
