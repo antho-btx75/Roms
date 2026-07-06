@@ -50,13 +50,17 @@
         }
         .reset-btn {
             margin-top: 40px;
-            padding: 12px 30px;
+            padding: 14px 32px;
             background: #ef4444;
             color: white;
             border: none;
             border-radius: 12px;
             cursor: pointer;
-            font-size: 1rem;
+            font-size: 1.05rem;
+            font-weight: 500;
+        }
+        .reset-btn:hover {
+            background: #dc2626;
         }
     </style>
 </head>
@@ -92,7 +96,7 @@
         11: "11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça."
     };
 
-       db.ref('reponses').on('value', (snapshot) => {
+    db.ref('reponses').on('value', (snapshot) => {
         const choices = snapshot.val();
         const resultDiv = document.getElementById('result');
 
@@ -103,24 +107,22 @@
 
         let html = `<strong>Romain a sélectionné :</strong><br><br>`;
 
-        if (Array.isArray(choices)) {
-            choices.sort((a,b) => a - b);
-            choices.forEach(num => {
-                if (labels[num]) {
-                    html += `<div class="choice">${labels[num]}</div>`;
-                }
-            });
-        } else if (typeof choices === 'number') {
-            html += `<div class="choice">${labels[choices] || choices}</div>`;
-        }
+        const selected = Array.isArray(choices) ? choices : [choices];
+        selected.sort((a, b) => a - b).forEach(num => {
+            if (labels[num]) {
+                html += `<div class="choice">${labels[num]}</div>`;
+            }
+        });
 
         resultDiv.innerHTML = html;
     });
 
     function resetVotes() {
-        if (confirm("Réinitialiser tous les choix de Romain ?")) {
+        if (confirm("Réinitialiser tous les choix de Romain ? Cette action est irréversible.")) {
             db.ref('reponses').set(null).then(() => {
-                alert("Choix réinitialisés avec succès.");
+                alert("Tous les choix ont été réinitialisés.");
+            }).catch(err => {
+                alert("Erreur lors de la réinitialisation.");
             });
         }
     }
