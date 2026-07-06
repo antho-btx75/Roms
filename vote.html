@@ -5,66 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question pour mon Roms</title>
     <style>
-        body { 
-            background: #0a0c12; 
-            color: #c9d1d9; 
-            font-family: 'Plus Jakarta Sans', sans-serif; 
-            text-align: center; 
-            padding: 60px 20px; 
-            margin: 0;
-        }
-        .card { 
-            max-width: 620px; 
-            margin: 0 auto; 
-            background: #111827; 
-            padding: 50px 30px; 
-            border-radius: 24px; 
-            box-shadow: 0 25px 60px rgba(0,0,0,0.5); 
-        }
+        body { background: #0a0c12; color: #c9d1d9; font-family: 'Plus Jakarta Sans', sans-serif; text-align: center; padding: 60px 20px; margin: 0; }
+        .card { max-width: 620px; margin: 0 auto; background: #111827; padding: 50px 30px; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.5); }
         h2 { color: #fcf6ba; margin-bottom: 15px; }
-        p.intro { 
-            margin: 25px 0 30px 0; 
-            font-size: 1.15rem; 
-            line-height: 1.65; 
-        }
-        .subtitle {
-            color: #ff80df;
-            margin: 30px 0 15px 0;
-            font-size: 1.1rem;
-            font-weight: 600;
-        }
-        .note {
-            color: #a1a1aa;
-            font-size: 0.95rem;
-            margin: 25px 0 35px 0;
-            font-style: italic;
-        }
-        label {
-            display: block;
-            margin: 10px auto;
-            max-width: 480px;
-            text-align: left;
-            font-size: 1.03rem;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        label.disabled {
-            color: #666;
-            pointer-events: none;
-        }
-        input[type="checkbox"] {
-            margin-right: 12px;
-            transform: scale(1.2);
-        }
-        input[type="checkbox"]:disabled + span {
-            color: #666;
-        }
-        .thanks { 
-            margin-top: 30px; 
-            font-size: 1.1rem; 
-            color: #22c55e; 
-            min-height: 28px;
-        }
+        p.intro { margin: 25px 0 30px 0; font-size: 1.15rem; line-height: 1.65; }
+        .subtitle { color: #ff80df; margin: 30px 0 15px 0; font-size: 1.1rem; font-weight: 600; }
+        .note { color: #a1a1aa; font-size: 0.95rem; margin: 25px 0 35px 0; font-style: italic; }
+        label { display: block; margin: 10px auto; max-width: 480px; text-align: left; font-size: 1.03rem; cursor: pointer; }
+        label.disabled { color: #666; pointer-events: none; }
+        input[type="checkbox"] { margin-right: 12px; transform: scale(1.2); }
+        .thanks { margin-top: 30px; font-size: 1.1rem; color: #22c55e; min-height: 28px; }
     </style>
 </head>
 <body>
@@ -72,39 +22,33 @@
 <div class="card">
     <h2>Question pour toi mon Roms</h2>
     <p class="intro">
-        Sur la page Github, qu'est-ce que tu ressens vraiment ?<br>
-        <span style="color: #ff80df;">Tu peux sélectionner plusieurs réponses. Lâche toi mon gars c'est du FULL SCRED. J'ai besoin de ça pour ajuster mon comportement et te mettre grave à l'aise.</span>
+        Sur la page Github, qu'est-ce que tu ressens vraiment ?<br><br>
+        Tu peux sélectionner plusieurs réponses. Lâche toi mon gars c'est du FULL SCRED.<br>
+        J'ai besoin de ça pour ajuster mon comportement et te mettre grave à l'aise.
     </p>
 
     <p class="note">
         Tu peux à tout moment revenir et modifier tes choix.<br>
-        Ce n'est pas un envoi définitif. 
+        Ce n'est pas un envoi définitif — tout se met à jour automatiquement.
     </p>
 
     <div class="subtitle">Choix principaux :</div>
-    
-    <label><input type="checkbox" value="1" onchange="saveSelections(); updateDependencies()"> 1 - Je kiffe de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</label>
-    
+    <label><input type="checkbox" value="1" onchange="saveSelections(); updateDependencies()"> 1 - Je kiffes de fou et j'ai envie que tu te lâches un peu plus avec moi IRL</label>
     <label><input type="checkbox" value="2" onchange="saveSelections(); updateDependencies()"> 2 - Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro</label>
-    
-    <label><input type="checkbox" value="3" id="parent3" onchange="saveSelections(); updateDependencies()"> 3 - Je kiffe et ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
+    <label><input type="checkbox" value="3" id="parent3" onchange="saveSelections(); updateDependencies()"> 3 - Je kiffes mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.</label>
 
     <div class="subtitle" id="sub3">Si tu as choisi 3 :</div>
-    
     <label id="label4"><input type="checkbox" value="4" onchange="saveSelections()"> 4 - Tout est parfaitement équilibré</label>
-    <label id="label5"><input type="checkbox" value="5" onchange="saveSelections()"> 5 - Je voudrais moins de cul, plus de sentiments</label>
-    <label id="label6"><input type="checkbox" value="6" id="parent6" onchange="saveSelections(); updateDependencies()"> 6 - Je voudrais plus de cul, moins de sentiments</label>
+    <label id="label5"><input type="checkbox" value="5" onchange="saveSelections()"> 5 - Je voudrais le moins de cul, plus de sentiments</label>
+    <label id="label6"><input type="checkbox" value="6" id="parent6" onchange="saveSelections(); updateDependencies()"> 6 - Je voudrais le plus de cul, moins de sentiments</label>
 
     <div class="subtitle" id="sub6">Si tu as choisi 6 :</div>
-    
     <label id="label7"><input type="checkbox" value="7" onchange="saveSelections()"> 7 - J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</label>
     <label id="label8"><input type="checkbox" value="8" onchange="saveSelections()"> 8 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</label>
 
     <div class="subtitle">Autres choix :</div>
-    
-    <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffe ça, c'est mes bails, mais je t'aime pas.</label>
-    <label><input type="checkbox" value="10" onchange="saveSelections()"> 10 - Je kiffe ça, c'est mes bails, mais j'aime un autre gars.</label>
-    <label><input type="checkbox" value="11" onchange="saveSelections()"> 11 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</label>
+    <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffe ça, c'est mes bails, mais je t'aime pas d'un point de vue amoureux (sentimental)</label>
+    <label><input type="checkbox" value="10" onchange="saveSelections()"> 10 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</label>
 
     <div id="status" class="thanks"></div>
 </div>
@@ -112,9 +56,7 @@
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
 <script>
-    const firebaseConfig = {
-        databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app"
-    };
+    const firebaseConfig = { databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app" };
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
@@ -122,19 +64,17 @@
         const parent3 = document.getElementById('parent3').checked;
         const parent6 = document.getElementById('parent6').checked;
 
-        // Sous-options du choix 3
         document.getElementById('label4').classList.toggle('disabled', !parent3);
         document.getElementById('label5').classList.toggle('disabled', !parent3);
         document.getElementById('label6').classList.toggle('disabled', !parent3);
 
-        // Sous-options du choix 6
         document.getElementById('label7').classList.toggle('disabled', !parent6);
         document.getElementById('label8').classList.toggle('disabled', !parent6);
 
-        // Désactiver les checkboxes
         document.querySelectorAll('#label4 input, #label5 input, #label6 input, #label7 input, #label8 input').forEach(cb => {
-            cb.disabled = !parent3 && (cb.value == 4 || cb.value == 5 || cb.value == 6);
-            if (cb.value == 7 || cb.value == 8) cb.disabled = !parent6;
+            cb.disabled = true;
+            if ((cb.value == 4 || cb.value == 5 || cb.value == 6) && parent3) cb.disabled = false;
+            if ((cb.value == 7 || cb.value == 8) && parent6) cb.disabled = false;
         });
     }
 
@@ -152,11 +92,7 @@
         });
     }
 
-    // Initialisation
-    window.onload = () => {
-        updateDependencies();
-    };
+    window.onload = updateDependencies;
 </script>
-
 </body>
 </html>
