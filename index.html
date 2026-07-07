@@ -386,17 +386,16 @@
         🔒 Question secrète pour mon Roms. Un p'tit clic en FULL SCRED stp 🙏🏻
     </p>
 
-<!-- Lien vers la page vote -->
+<!-- ====================== LIEN VERS LA PAGE VOTE ====================== -->
 <a href="vote.html" 
    onclick="trackVoteLinkClick(); return true;" 
    style="display: inline-block; padding: 14px 38px; background: rgba(191, 149, 63, 0.15); color: #fcf6ba; font-weight: 600; border: 1px solid #bf953f; border-radius: 50px; text-decoration: none; transition: all 0.3s ease;">
     Parce que ton avis compte pour moi (opérationnel depuis 11h). Désolé si t'avais déjà cliqué.
 </a>
 
-<!-- Script EmailJS complet -->
+<!-- ====================== SCRIPT EMAILJS ====================== -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
-    // Initialisation
     emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
 
     function trackVoteLinkClick() {
@@ -406,9 +405,7 @@
             date: new Date().toLocaleString('fr-FR')
         }).then(() => {
             console.log("Notification lien Vote envoyée");
-        }).catch(err => {
-            console.log("Erreur EmailJS:", err);
-        });
+        }).catch(err => console.log("Erreur:", err));
     }
 </script>
 
