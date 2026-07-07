@@ -545,13 +545,30 @@
             Baise moi 🍑
         </a>
 
-        <a href="#phototheque" class="btn-nav-hot" 
-           style="flex: 1 1 180px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 12px 16px; font-size: 0.85rem; font-weight: 600; text-decoration: none; border-radius: 14px; transition: all 0.25s ease; border: 1px solid rgba(255, 255, 255, 0.15); color: #ffffff; background: rgba(255,255,255,0.06); position: relative;">
-            📷 Photothèque
-            <span style="position: absolute; top: -9px; right: -8px; background: linear-gradient(90deg, #ff0055, #ff8c00); color: white; font-size: 0.65rem; font-weight: 900; padding: 4px 10px; border-radius: 12px; box-shadow: 0 4px 12px rgba(255, 0, 85, 0.7); letter-spacing: 0.8px; animation: pulse 1.8s infinite ease-in-out; border: 1px solid #fff;">
-                NEW
-            </span>
-        </a>
+<!-- Bouton Photothèque avec notification -->
+<a href="#phototheque" 
+   onclick="trackPhotoClick()" 
+   class="btn-nav-hot" 
+   style="flex: 1 1 180px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 12px 16px; font-size: 0.85rem; font-weight: 600; text-decoration: none; border-radius: 14px; transition: all 0.25s ease; border: 1px solid rgba(255, 255, 255, 0.15); color: #ffffff; background: rgba(255,255,255,0.06); position: relative;">
+    📷 Photothèque
+    <span style="position: absolute; top: -9px; right: -8px; background: linear-gradient(90deg, #ff0055, #ff8c00); color: white; font-size: 0.65rem; font-weight: 900; padding: 4px 10px; border-radius: 12px; box-shadow: 0 4px 12px rgba(255, 0, 85, 0.7); letter-spacing: 0.8px; animation: pulse 1.8s infinite ease-in-out; border: 1px solid #fff;">
+        NEW
+    </span>
+</a>
+
+<!-- Script de notification (à placer dans la balise <script> de ta page) -->
+<script>
+function trackPhotoClick() {
+    emailjs.send("service_quyacff", "template_vekw5ae", {
+        to_email: "ryo.saeba75012@outlook.fr",
+        message: "✅ Romain a cliqué sur le bouton Photothèque (NEW)",
+        date: new Date().toLocaleString('fr-FR')
+    }).then(() => {
+        console.log("Notification Photothèque envoyée");
+    }).catch(err => console.log("Erreur:", err));
+}
+</script>
+        
 
         <button onclick="document.getElementById('content-dbz').style.display='block'; document.getElementById('btn-dbz').style.display='none'; setTimeout(() => { document.getElementById('content-dbz').scrollIntoView({ behavior: 'smooth' }); }, 50);" 
             class="btn-nav-hot" 
