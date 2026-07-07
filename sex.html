@@ -556,17 +556,23 @@
     </span>
 </a>
 
-<!-- Script à ajouter dans la balise <script> de ta page sex -->
+<!-- Script EmailJS complet pour la page sex -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
-function trackPhotoClick() {
-    emailjs.send("service_quyacff", "template_vekw5ae", {
-        to_email: "ryo.saeba75012@outlook.fr",
-        message: "✅ Romain a cliqué sur le bouton Photothèque (NEW) depuis la page sex",
-        date: new Date().toLocaleString('fr-FR')
-    }).then(() => {
-        console.log("Notification Photothèque envoyée");
-    }).catch(err => console.log("Erreur:", err));
-}
+    // Initialisation avec ta clé publique
+    emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+    function trackPhotoClick() {
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: "✅ Romain a cliqué sur le bouton Photothèque (NEW) depuis la page sex",
+            date: new Date().toLocaleString('fr-FR')
+        }).then(() => {
+            console.log("Notification Photothèque envoyée");
+        }).catch(err => {
+            console.log("Erreur:", err);
+        });
+    }
 </script>
         
 
