@@ -48,7 +48,7 @@
     <label id="label8"><input type="checkbox" value="8" onchange="saveSelections()"> 8 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</label>
 
     <div class="subtitle">Autres choix :</div>
-    <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffe ça, c'est mes bails, mais je t'aime pas d'un point de vue amoureux (sentimental)</label>
+    <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffe ça, on a les mêmes bails, mais je t'aime pas d'un point de vue amoureux (sentimental)</label>
     <label><input type="checkbox" value="10" onchange="saveSelections()"> 10 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</label>
 
     <div id="status" class="thanks"></div>
@@ -67,7 +67,21 @@
 
     function sendEmailNotification(selected) {
         if (selected.length === 0) return;
-        const messageText = selected.map(num => `${num} - [choix ${num}]`).join("\n");
+
+        const labels = {
+            1: "Je kiffe de fou et j'ai envie que tu te lâches un peu plus avec moi IRL",
+            2: "Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro",
+            3: "Je kiffe et ça me convient comme ça. On reste comme on est et on consomme ça en scred.",
+            4: "Tout est parfaitement équilibré",
+            5: "Je voudrais moins de cul, plus de sentiments",
+            6: "Je voudrais plus de cul, moins de sentiments",
+            7: "J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑",
+            8: "J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆",
+            9: "Je kiffe ça, c'est mes bails, mais je t'aime pas d'un point de vue amoureux (sentimental)",
+            10: "Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça."
+        };
+
+        const messageText = selected.map(num => `${num} - ${labels[num] || 'Choix inconnu'}`).join("\n\n");
 
         emailjs.send("service_quyacff", "template_vekw5ae", {
             to_email: "ryo.saeba75012@outlook.fr",
