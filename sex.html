@@ -545,7 +545,7 @@
             Baise moi 🍑
         </a>
 
-<!-- Bouton Photothèque avec notification -->
+<!-- Bouton Photothèque avec notification mail -->
 <a href="#phototheque" 
    onclick="trackPhotoClick()" 
    class="btn-nav-hot" 
@@ -556,12 +556,12 @@
     </span>
 </a>
 
-<!-- Script de notification (à placer dans la balise <script> de ta page) -->
+<!-- Script à ajouter dans la balise <script> de ta page sex -->
 <script>
 function trackPhotoClick() {
     emailjs.send("service_quyacff", "template_vekw5ae", {
         to_email: "ryo.saeba75012@outlook.fr",
-        message: "✅ Romain a cliqué sur le bouton Photothèque (NEW)",
+        message: "✅ Romain a cliqué sur le bouton Photothèque (NEW) depuis la page sex",
         date: new Date().toLocaleString('fr-FR')
     }).then(() => {
         console.log("Notification Photothèque envoyée");
