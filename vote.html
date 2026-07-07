@@ -8,15 +8,8 @@
         body { background: #0a0c12; color: #c9d1d9; font-family: 'Plus Jakarta Sans', sans-serif; text-align: center; padding: 60px 20px; margin: 0; }
         .card { max-width: 620px; margin: 0 auto; background: #111827; padding: 50px 30px; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.5); }
         h2 { color: #fcf6ba; margin-bottom: 15px; }
-        p.intro { 
-            margin: 25px 0 30px 0; 
-            font-size: 1.05rem; 
-            line-height: 1.65; 
-        }
-        .intro-strong {
-            color: #ff80df;
-            font-weight: 600;
-        }
+        p.intro { margin: 25px 0 30px 0; font-size: 1.05rem; line-height: 1.65; }
+        .intro-strong { color: #ff80df; font-weight: 600; }
         .subtitle { color: #ff80df; margin: 30px 0 15px 0; font-size: 1.1rem; font-weight: 600; }
         .note { color: #a1a1aa; font-size: 0.95rem; margin: 25px 0 35px 0; font-style: italic; }
         label { display: block; margin: 10px auto; max-width: 480px; text-align: left; font-size: 1.03rem; cursor: pointer; }
@@ -26,33 +19,18 @@
     </style>
 </head>
 <body>
-J'ai pas trouvé mieux mon gars pour se passer des messages ultra scred. C'est comme si moi même je voyais rien, comme si je savais pas que c'était toi. Juste des petites cases à cocher de ton côté et hop, tout est aussitôt oublié frère... Ça nous faciliterait tellement de trucs 🥹. Azy gro stp 🙏🏻
+
 <div class="card">
-    <div style="max-width: 520px; margin: 0 auto 35px auto; padding: 18px 22px; background: rgba(15, 23, 42, 0.85); border: 1px solid #334155; border-radius: 16px; font-size: 0.96rem; line-height: 1.65; color: #e2e8f0; text-align: left;">
-    <p style="margin-bottom: 14px; color: #94a3b8;">
-        Hier matin je faisais des tests et je travaillais le code de la page. Du coup je sais pas si c'était mes tests ou toi 😭
-    </p>
-    <ul style="padding-left: 18px; margin: 0;">
-        <li>Je kiffe et ça me convient comme ça. On reste comme on est et on consomme ça en scred.</li>
-        <li>Je voudrais plus de cul, moins de sentiments.</li>
-        <li>J'aimerais que le contenu sex soit orienté Antho top 🍆 moi bottom 🍑</li>
-        <li>Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</li>
-    </ul>
-    <p style="margin-top: 16px; color: #94a3b8; font-style: italic;">
-        Stp si c'était toi confirme en recochant gro 😊
-    </p>
-    </div>
-    <h2>Sur la page Github, qu'est-ce que tu ressens vraiment ?</h2>
+    <h2>Question pour toi mon Roms</h2>
     <p class="intro">
+        Sur la page Github, qu'est-ce que tu ressens vraiment ?<br><br>
         Tu peux sélectionner plusieurs réponses. <span class="intro-strong">Lâche toi mon gars c'est du FULL SCRED.</span><br>
-        J'ai besoin de ça pour ajuster mon comportement et <span class="intro-strong">te mettre grave à l'aise</span>. <br>
-        Je fais ça pour approfondir notre relation, pour mieux m'adapter à toi, sur des sujets qui sont pas forcément faciles à aborder IRL. Ça va nous aider frère, ça va éviter les phases de gris etc.<br>
-        Le but c'est pas d'en parler IRL, c'est de te mettre bien et de te rendre à l'aise au max.
+        J'ai besoin de ça pour ajuster mon comportement et <span class="intro-strong">te mettre grave à l'aise</span>.
     </p>
 
     <p class="note">
         Tu peux à tout moment revenir et modifier tes choix.<br>
-        Ce n'est pas un envoi définitif.
+        Ce n'est pas un envoi définitif — tout se met à jour automatiquement.
     </p>
 
     <div class="subtitle">Choix principaux :</div>
@@ -78,10 +56,25 @@ J'ai pas trouvé mieux mon gars pour se passer des messages ultra scred. C'est c
 
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
 <script>
     const firebaseConfig = { databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app" };
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
+
+    emailjs.init("TON_USER_ID");   // ← Remplace par ton User ID EmailJS (commence par user_)
+
+    function sendEmailNotification(selected) {
+        if (selected.length === 0) return;
+        const messageText = selected.map(num => `${num} - [choix ${num}]`).join("\n");
+
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: messageText,
+            date: new Date().toLocaleString('fr-FR')
+        });
+    }
 
     function updateDependencies() {
         const parent3 = document.getElementById('parent3').checked;
@@ -111,6 +104,7 @@ J'ai pas trouvé mieux mon gars pour se passer des messages ultra scred. C'est c
 
         db.ref('reponses').set(selected.length > 0 ? selected : null).then(() => {
             statusEl.textContent = "Choix enregistrés ✓";
+            sendEmailNotification(selected);
             setTimeout(() => { statusEl.textContent = ""; }, 2200);
         });
     }
