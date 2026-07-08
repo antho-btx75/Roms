@@ -11,34 +11,29 @@
             margin: 0;
             padding: 0;
             width: 100%;
-            height: 100%;
-            overflow: hidden;
             background: #0a0a0a;
             color: #e2e2e2;
             font-family: 'Plus Jakarta Sans', sans-serif;
-            position: fixed;
+            /* Permet le pull-to-refresh natif sur mobile */
+            overscroll-behavior-y: contain; 
         }
 
         .main-wrapper {
             width: 100%;
-            height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
             box-sizing: border-box;
+            padding: 40px 0 80px 0;
         }
 
-        .fixed-header {
+        /* Seul le titre reste en haut, tout le reste va défiler */
+        .header-title {
             width: 100%;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 40px;
-            padding-bottom: 20px;
-            background: linear-gradient(to bottom, #0a0a0a 80%, rgba(10, 10, 10, 0) 100%);
-            z-index: 10;
-            flex-shrink: 0;
+            justify-content: center;
+            margin-bottom: 30px;
         }
 
         .title {
@@ -51,17 +46,27 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
-            margin: 0 0 30px 0;
+            margin: 0;
             white-space: nowrap;
             line-height: 1;
             user-select: none;
         }
 
+        /* Conteneur global qui défile naturellement sur la page */
+        .scrollable-body {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
         .player-container {
             width: 100%;
-            max-width: 520px;
             padding: 0 20px;
             box-sizing: border-box;
+            margin-bottom: 30px;
         }
 
         .player-container iframe {
@@ -70,18 +75,46 @@
             display: block;
         }
 
-        .content-scrollable {
-            width: 100%;
-            max-width: 600px;
-            padding: 20px 25px 80px 25px;
-            box-sizing: border-box;
-            overflow-y: auto;
-            overflow-x: hidden;
-            flex-grow: 1;
-            -webkit-overflow-scrolling: touch;
+        /* Style des votes */
+        .question {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 10px 0 15px 0;
+            color: #e2e2e2;
+            padding: 0 20px;
         }
 
-        .content-scrollable p {
+        .choices {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .choices label {
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .choices input[type="checkbox"] {
+            accent-color: #777777;
+            width: 18px;
+            height: 18px;
+        }
+
+        /* Zone du Texte principal */
+        .content-text {
+            width: 100%;
+            padding: 0 25px;
+            box-sizing: border-box;
+        }
+
+        .content-text p {
             font-size: 1.05rem;
             line-height: 1.7;
             font-weight: 400;
@@ -90,7 +123,7 @@
             text-align: justify;
         }
 
-        .content-scrollable p.highlight {
+        .content-text p.highlight {
             color: #e2e2e2;
             font-weight: 500;
             border-left: 3px solid #555555;
@@ -98,7 +131,7 @@
             margin: 30px 0;
         }
 
-        .content-scrollable p.conclusion {
+        .content-text p.conclusion {
             color: #888888;
             font-style: italic;
             text-align: center;
@@ -106,23 +139,9 @@
             font-weight: 500;
         }
 
-        .content-scrollable::-webkit-scrollbar {
-            width: 6px;
-        }
-        .content-scrollable::-webkit-scrollbar-track {
-            background: rgba(25, 25, 25, 0.5);
-        }
-        .content-scrollable::-webkit-scrollbar-thumb {
-            background: #333333;
-            border-radius: 10px;
-        }
-        .content-scrollable::-webkit-scrollbar-thumb:hover {
-            background: #444444;
-        }
-
         @media (max-height: 700px) {
-            .fixed-header { padding-top: 20px; }
-            .title { font-size: 2.5rem; margin-bottom: 20px; }
+            .main-wrapper { padding-top: 20px; }
+            .title { font-size: 2.5rem; }
         }
     </style>
 </head>
@@ -130,8 +149,15 @@
 
     <div class="main-wrapper">
         
-        <div class="fixed-header">
+        <!-- Titre fixe au-dessus du flux -->
+        <div class="header-title">
             <div class="title">GRIS</div>
+        </div>
+
+        <!-- Tout ce bloc défile verticalement ensemble -->
+        <div class="scrollable-body">
+            
+            <!-- Vidéo (défile avec le reste) -->
             <div class="player-container">
                 <iframe width="100%" height="120" 
                         src="https://www.youtube.com/embed/QpuZdodbjFM" 
@@ -140,15 +166,60 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
             </div>
+
+            <!-- Vote (défile avec le reste) -->
+            <p class="question">Souhaites-tu que la page revienne comme avant ?</p>
+            <div class="choices">
+                <label><input type="checkbox" onchange="sendResponse(1)"> Oui</label>
+                <label><input type="checkbox" onchange="sendResponse(2)"> Non</label>
+            </div>
+
+            <!-- Texte principal -->
+            <div class="content-text">
+                
+                <p>Mon gars il faut bien comprendre les raisons de mon gris.</p>
+
+                <p>Je ne suis pas gris parce que je t'aime et que tu ne m'aimes pas. Je ne te demande pas de m'aimer. Je sais que tu ne m'aimes pas. Je sais aussi que tu m'aimes à ta façon, c'est très différent de la façon dont moi je t'aime mais c'est ok frère.</p>
+
+                <p>Je ne suis pas gris non plus parce que l'on ne baise pas IRL. Même si j'aimerais 😅🤫🤫</p>
+
+                <p class="highlight">Non les vraies raisons de mon gris sont doubles.</p>
+
+                <p>D'abord il y a cette pensée qui me traverse l'esprit que tu peux avoir les mêmes bails que moi, les mêmes délires avec les gars. Et que peut-être tu connais un gars qui déjà te "satisfait" sur ce plan là. Ça c'est la première raison de mon gris.</p>
+
+                <p>La deuxième raison est plus profonde, et c'est sans doute la raison la plus douloureuse. C'est cette volonté de mieux se connaître l'un et l'autre. D'être de vrais confidents, des potes confidents. Ça implique à la fois moi vis à vis de toi, c'est à dire te dire comment je suis, ce que je ressens etc, mais aussi toi vis à vis de moi, c'est à dire comment tu es, la personne que tu es au fond de toi et que tu peux vouloir cacher derrière un masque (la normalité, aimer que les meufs etc).</p>
+
+                <p>C'est sans doute la raison qui me blesse le plus et qui me rend gris à fond. On se parle, on partage des choses, mais le plus intime sera toujours caché, dissimulé l'un pour l'autre. C'est juste l'envie d'être authentique, sincère l'un pour l'autre.</p>
+
+                <p>Tu sais frère, je te connais depuis 10 piges, et j'ai beaucoup observé. Je t'ai beaucoup observé. En plus d'être intelligent, je ressens les choses, les gens et les énergies bien plus que tout le monde. Je vois les choses que d'autres ne verront pas, je ressens les émotions au plus profond de moi. Surtout avec quelqu'un que j'aime, et je t'aime de fou malade mon gars.</p>
+
+                <p>T'as capté? C'est ça qui me rend gris. C'est pas de t'aimer et que tu ne m'aimes pas en retour. J'aurais aimé que tu m'aimes comme moi je t'aime mais c'est la vie on n'y peut rien si tu m'aimes pas de la même façon.</p>
+
+                <p class="highlight">Ce qui me rend gris, c'est d'être toujours là pour toi, depuis 10 ans, à toute heure du jour ou de la nuit, et de voir qu'il y aura toujours de ton côté ce fameux "faut pas forcer Antho". Antho il te montre tout de lui, je t'aime d'un amour inconditionnel, et je ne sais pas quand est-ce que tu briseras enfin ce côté "Antho faut pas forcer"...</p>
+
+                <p>Je te ressens au plus profond de mon cœur, de mon âme, j'ai déjà capté ce qu'il y a derrière ce "faut pas forcer Antho". Tes pétages de câble, tes déceptions dans la vie, en un mot.... ton gris. Je vois et ressens les choses.</p>
+
+                <p>J'aimerais tant que l'on devienne potes "autrement", je veux pas être juste le gars que tu contactes pour le taff, ton chef etc. Même si bien évidemment je serai toujours ton ange gardien dans tous les problèmes pro que tu pourras avoir et que tu pourras toujours compter sur moi.</p>
+
+                <p>Je me sens être ton gava, ton Rocher, ton pilier, et ce qui me fait mal parfois c'est de voir que quand je te réponds tu mets du temps à ouvrir le message, et les réponses sont souvent très courtes. Alors que j'ai remarqué qu'avec d'autres gars c'était du tac au tac le téléphone (je vais pas à nouveau remettre son blaze mdrr). Alors ok peut être que c'est pas juste pour parler du taff et que c'est plus "récréatif" entre vous que toi et moi.</p>
+
+                <p>C'est pour ça que parfois dans ma tête ça vrille. Car derrière ce mot "récréatif" je m'imagine des "trucs". J'imagine un Romain qui peut être se montre sous son vrai visage. Souvent je me dis, "je suis le pote avec qui il est normal, on parle boulot, envie de meufs et tout, mais je serai jamais le pote avec qui il peut partager des bails en scred". Bon après mon problème c'est peut-être que j'habite à 5km de chez toi et qu'on peut se capter IRL à tout moment (ce qu'on fait jamais d'ailleurs mdrr).</p>
+
+                <p>Du coup tu comprends pourquoi la page github (et surtout la page de cul) me rend zinzin? Je sais même pas si tu regardes, si tu kiffes etc. Je te donne tout, et je me dis : "le kiff là il est à sens unique je suis en train de me vider pour que dalle en retour."</p>
+
+                <p class="highlight">Et c'est peut-être la dernière raison à mon gris : c'est ce flou total que je ressens. Je me dis "est-ce que mon esprit vrille sans raison, ou est-ce qu'il y a un fond de vérité derrière tout ça ?"</p>
+
+                <p>Et t'es tellement une priorité dans ma vie que forcément ça me fait mal de constater que je n'en suis pas une dans la tienne. Et que l'on ne sera peut-être jamais dans l'intimité réciproque, dans le partage de cette vérité. Y aura toujours ce "faut pas forcer" qui commence (gentiment) par me casser les yeukous mdrr.</p>
+
+                <p class="conclusion">Voilà mon Roms je pense avoir posé tranquillement les raisons de mon GRIS. Sans excès et calmement.</p>
+
+            </div>
+
         </div>
 
-            <p class="question">Souhaites-tu que la page revienne comme avant ?</p>
-
-    <div class="choices">
-        <label><input type="checkbox" onchange="sendResponse(1)"> Oui</label>
-        <label><input type="checkbox" onchange="sendResponse(2)"> Non</label>
     </div>
 
+    <!-- Scripts techniques EmailJS -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
         emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
@@ -162,48 +233,6 @@
             });
         }
     </script>
-
-        <div class="content-scrollable">
-            
-            <p>Mon gars il faut bien comprendre les raisons de mon gris.</p>
-
-            <p>Je ne suis pas gris parce que je t'aime et que tu ne m'aimes pas. Je ne te demande pas de m'aimer. Je sais que tu ne m'aimes pas. Je sais aussi que tu m'aimes à ta façon, c'est très différent de la façon dont moi je t'aime mais c'est ok frère.</p>
-
-            <p>Je ne suis pas gris non plus parce que l'on ne baise pas IRL. Même si j'aimerais 😅🤫🤫</p>
-
-            <p class="highlight">Non les vraies raisons de mon gris sont doubles.</p>
-
-            <p>D'abord il y a cette pensée qui me traverse l'esprit que tu peux avoir les mêmes bails que moi, les mêmes délires avec les gars. Et que peut-être tu connais un gars qui déjà te "satisfait" sur ce plan là. Ça c'est la première raison de mon gris.</p>
-
-            <p>La deuxième raison est plus profonde, et c'est sans doute la raison la plus douloureuse. C'est cette volonté de mieux se connaître l'un et l'autre. D'être de vrais confidents, des potes confidents. Ça implique à la fois moi vis à vis de toi, c'est à dire te dire comment je suis, ce que je ressens etc, mais aussi toi vis à vis de moi, c'est à dire comment tu es, la personne que tu es au fond de toi et que tu peux vouloir cacher derrière un masque (la normalité, aimer que les meufs etc).</p>
-
-            <p>C'est sans doute la raison qui me blesse le plus et qui me rend gris à fond. On se parle, on partage des choses, mais le plus intime sera toujours caché, dissimulé l'un pour l'autre. C'est juste l'envie d'être authentique, sincère l'un pour l'autre.</p>
-
-            <p>Tu sais frère, je te connais depuis 10 piges, et j'ai beaucoup observé. Je t'ai beaucoup observé. En plus d'être intelligent, je ressens les choses, les gens et les énergies bien plus que tout le monde. Je vois les choses que d'autres ne verront pas, je ressens les émotions au plus profond de moi. Surtout avec quelqu'un que j'aime, et je t'aime de fou malade mon gars.</p>
-
-            <p>T'as capté? C'est ça qui me rend gris. C'est pas de t'aimer et que tu ne m'aimes pas en retour. J'aurais aimé que tu m'aimes comme moi je t'aime mais c'est la vie on n'y peut rien si tu m'aimes pas de la même façon.</p>
-
-            <p class="highlight">Ce qui me rend gris, c'est d'être toujours là pour toi, depuis 10 ans, à toute heure du jour ou de la nuit, et de voir qu'il y aura toujours de ton côté ce fameux "faut pas forcer Antho". Antho il te montre tout de lui, je t'aime d'un amour inconditionnel, et je ne sais pas quand est-ce que tu briseras enfin ce côté "Antho faut pas forcer"...</p>
-
-            <p>Je te ressens au plus profond de mon cœur, de mon âme, j'ai déjà capté ce qu'il y a derrière ce "faut pas forcer Antho". Tes pétages de câble, tes déceptions dans la vie, en un mot.... ton gris. Je vois et ressens les choses.</p>
-
-            <p>J'aimerais tant que l'on devienne potes "autrement", je veux pas juste le gars que tu contactes pour le taff, ton chef etc. Même si bien évidemment je serai toujours ton ange gardien dans tous les problèmes pro que tu pourras avoir et que tu pourras toujours compter sur moi.</p>
-
-            <p>Je me sens être ton gava, ton Rocher, ton pilier, et ce qui me fait mal parfois c'est de voir que quand je te réponds tu mets du temps à ouvrir le message, et les réponses sont souvent très courtes. Alors que j'ai remarqué qu'avec d'autres gars c'était du tac au tac le téléphone (je vais pas à nouveau remettre son blaze mdrr). Alors ok peut être que c'est pas juste pour parler du taff et que c'est plus "récréatif" entre vous que toi et moi.</p>
-
-            <p>C'est pour ça que parfois dans ma tête ça vrille. Car derrière ce mot "récréatif" je m'imagine des "trucs". J'imagine un Romain qui peut être se montre sous son vrai visage. Souvent je me dis, "je suis le pote avec qui il est normal, on parle boulot, envie de meufs et tout, mais je serai jamais le pote avec qui il peut partager des bails en scred". Bon après mon problème c'est peut-être que j'habite à 5km de chez toi et qu'on peut se capter IRL à tout moment (ce qu'on fait jamais d'ailleurs mdrr).</p>
-
-            <p>Du coup tu comprends pourquoi la page github (et surtout la page de cul) me rend zinzin? Je sais même pas si tu regardes, si tu kiffes etc. Je te donne tout, et je me dis : "le kiff là il est à sens unique je suis en train de me vider pour que dalle en retour."</p>
-
-            <p class="highlight">Et c'est peut-être la dernière raison à mon gris : c'est ce flou total que je ressens. Je me dis "est-ce que mon esprit vrille sans raison, ou est-ce qu'il y a un fond de vérité derrière tout ça ?"</p>
-
-            <p>Et t'es tellement une priorité dans ma vie que forcément ça me fait mal de constater que je n'en suis pas une dans la tienne. Et que l'on ne sera peut-être jamais dans l'intimité réciproque, dans le partage de cette vérité. Y aura toujours ce "faut pas forcer" qui commence (gentiment) par me casser les yeukous mdrr.</p>
-
-            <p class="conclusion">Voilà mon Roms je pense avoir posé tranquillement les raisons de mon GRIS. Sans excès et calmement.</p>
-
-        </div>
-
-    </div>
 
 </body>
 </html>
