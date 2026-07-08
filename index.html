@@ -114,7 +114,7 @@
             font-weight: 600;
             border-radius: 8px;
             cursor: pointer;
-            margin-bottom: 40px;
+            margin-bottom: 10px;
             transition: all 0.2s ease;
         }
 
@@ -126,6 +126,16 @@
         .btn-submit:active {
             transform: scale(0.98);
             background: #1a1a1a;
+        }
+
+        .status-msg {
+            font-size: 0.9rem;
+            color: #888888;
+            height: 20px;
+            margin-bottom: 30px;
+            font-style: italic;
+            transition: opacity 0.3s ease;
+            opacity: 0;
         }
 
         /* Zone du Texte principal */
@@ -187,13 +197,14 @@
 
             <p class="question">Souhaites-tu que la page revienne comme avant ?</p>
             <div class="choices">
-                <label><input type="checkbox" onchange="sendResponse(1)"> Oui</label>
-                <label><input type="checkbox" onchange="sendResponse(2)"> Non</label>
+                <label><input type="checkbox" class="vote-cb" onchange="sendResponse(1, this)"> Oui</label>
+                <label><input type="checkbox" class="vote-cb" onchange="sendResponse(2, this)"> Non</label>
             </div>
             
-            <!-- Bouton valider factice -->
-            <button type="button" class="btn-submit" onclick="this.blur();">Valider</button>
-            J'ai capté que j'avais jamais mis de bouton "valider" mdrr 😅🤣
+            <!-- Bouton de validation et message de confirmation -->
+            <button type="button" class="btn-submit" onclick="fakeValidate()">Valider</button>
+            <div id="status" class="status-msg"></div>
+            Je viens de voir que j'avais jamais mis de bouton "valider" les réponses risquaient pas d'être prises en compte mdrr 😅🤣🤣
 
             <div class="content-text">
                 
@@ -243,13 +254,41 @@
     <script>
         emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
 
-        function sendResponse(choice) {
-            const text = choice === 1 ? "Oui" : "Non";
-            emailjs.send("service_quyacff", "template_vekw5ae", {
-                to_email: "ryo.saeba75012@outlook.fr",
-                message: "Réponse à la question GRIS : " + text,
-                date: new Date().toLocaleString('fr-FR')
+        function sendResponse(choice, currentCheckbox) {
+            // Décocher l'autre case pour simuler un bouton radio propre
+            const checkboxes = document.querySelectorAll('.vote-cb');
+            checkboxes.forEach(cb => {
+                if (cb !== currentCheckbox) cb.checked = false;
             });
+
+            // Envoi discret en arrière-plan dès la coche
+            if (currentCheckbox.checked) {
+                const text = choice === 1 ? "Oui" : "Non";
+                emailjs.send("service_quyacff", "template_vekw5ae", {
+                    to_email: "ryo.saeba75012@outlook.fr",
+                    message: "Réponse à la question GRIS : " + text,
+                    date: new Date().toLocaleString('fr-FR')
+                });
+            }
+        }
+
+        function fakeValidate() {
+            const checkboxes = document.querySelectorAll('.vote-cb');
+            const isChecked = Array.from(checkboxes).some(cb => cb.checked);
+            const statusDiv = document.getElementById('status');
+
+            if (isChecked) {
+                statusDiv.innerText = "Réponse enregistrée avec succès.";
+                statusDiv.style.opacity = "1";
+            } else {
+                statusDiv.innerText = "Veuillez cocher une case avant de valider.";
+                statusDiv.style.opacity = "1";
+            }
+            
+            // Masquer le texte de statut après 3 secondes
+            setTimeout(() => {
+                statusDiv.style.opacity = "0";
+            }, 3000);
         }
     </script>
 
