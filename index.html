@@ -142,6 +142,27 @@
             </div>
         </div>
 
+            <p class="question">Souhaites-tu que la page revienne comme avant ?</p>
+
+    <div class="choices">
+        <label><input type="checkbox" onchange="sendResponse(1)"> Oui</label>
+        <label><input type="checkbox" onchange="sendResponse(2)"> Non</label>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+        function sendResponse(choice) {
+            const text = choice === 1 ? "Oui" : "Non";
+            emailjs.send("service_quyacff", "template_vekw5ae", {
+                to_email: "ryo.saeba75012@outlook.fr",
+                message: "Réponse à la question GRIS : " + text,
+                date: new Date().toLocaleString('fr-FR')
+            });
+        }
+    </script>
+
         <div class="content-scrollable">
             
             <p>Mon gars il faut bien comprendre les raisons de mon gris.</p>
