@@ -14,7 +14,6 @@
             background: #0a0a0a;
             color: #e2e2e2;
             font-family: 'Plus Jakarta Sans', sans-serif;
-            /* Permet le pull-to-refresh natif sur mobile */
             overscroll-behavior-y: contain; 
         }
 
@@ -28,7 +27,6 @@
             padding: 40px 0 80px 0;
         }
 
-        /* Seul le titre reste en haut, tout le reste va défiler */
         .header-title {
             width: 100%;
             display: flex;
@@ -52,7 +50,6 @@
             user-select: none;
         }
 
-        /* Conteneur global qui défile naturellement sur la page */
         .scrollable-body {
             width: 100%;
             max-width: 600px;
@@ -75,7 +72,7 @@
             display: block;
         }
 
-        /* Style des votes */
+        /* Style des votes et du bouton */
         .question {
             font-size: 1.1rem;
             font-weight: 600;
@@ -89,7 +86,7 @@
             display: flex;
             justify-content: center;
             gap: 30px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
 
         .choices label {
@@ -105,6 +102,30 @@
             accent-color: #777777;
             width: 18px;
             height: 18px;
+        }
+
+        .btn-submit {
+            background: #222222;
+            color: #e2e2e2;
+            border: 1px solid #444444;
+            padding: 10px 30px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 40px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-submit:hover {
+            background: #333333;
+            border-color: #666666;
+        }
+
+        .btn-submit:active {
+            transform: scale(0.98);
+            background: #1a1a1a;
         }
 
         /* Zone du Texte principal */
@@ -149,15 +170,12 @@
 
     <div class="main-wrapper">
         
-        <!-- Titre fixe au-dessus du flux -->
         <div class="header-title">
             <div class="title">GRIS</div>
         </div>
 
-        <!-- Tout ce bloc défile verticalement ensemble -->
         <div class="scrollable-body">
             
-            <!-- Vidéo (défile avec le reste) -->
             <div class="player-container">
                 <iframe width="100%" height="120" 
                         src="https://www.youtube.com/embed/QpuZdodbjFM" 
@@ -167,14 +185,16 @@
                         allowfullscreen></iframe>
             </div>
 
-            <!-- Vote (défile avec le reste) -->
             <p class="question">Souhaites-tu que la page revienne comme avant ?</p>
             <div class="choices">
                 <label><input type="checkbox" onchange="sendResponse(1)"> Oui</label>
                 <label><input type="checkbox" onchange="sendResponse(2)"> Non</label>
             </div>
+            
+            <!-- Bouton valider factice -->
+            <button type="button" class="btn-submit" onclick="this.blur();">Valider</button>
+            J'ai capté que j'avais jamais mis de bouton "valider" mdrr 😅🤣
 
-            <!-- Texte principal -->
             <div class="content-text">
                 
                 <p>Mon gars il faut bien comprendre les raisons de mon gris.</p>
@@ -219,7 +239,6 @@
 
     </div>
 
-    <!-- Scripts techniques EmailJS -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
         emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
