@@ -72,34 +72,6 @@
             display: block;
         }
 
-        /* Player format smartphone vertical (Vimeo 9:16) */
-        .vimeo-smartphone-container {
-            width: 100%;
-            max-width: 320px; 
-            padding: 0 20px;
-            box-sizing: border-box;
-            margin-bottom: 40px;
-        }
-
-        .vimeo-smartphone-container .ratio-wrapper {
-            position: relative;
-            width: 100%;
-            padding-top: 177.77%; /* Ratio 9:16 vertical */
-            border-radius: 24px;
-            overflow: hidden;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
-            border: 1px solid #222222;
-        }
-
-        .vimeo-smartphone-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
-
         /* Style des votes et du bouton */
         .question {
             font-size: 1.1rem;
@@ -160,10 +132,39 @@
             font-size: 0.9rem;
             color: #888888;
             height: 20px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             font-style: italic;
             transition: opacity 0.3s ease;
             opacity: 0;
+        }
+
+        /* Player format smartphone vertical (Vimeo 9:16) */
+        .vimeo-smartphone-container {
+            width: 100%;
+            max-width: 320px; 
+            padding: 0 20px;
+            box-sizing: border-box;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        .vimeo-smartphone-container .ratio-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 177.77%; /* Ratio 9:16 vertical */
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+            border: 1px solid #222222;
+        }
+
+        .vimeo-smartphone-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
 
         /* Zone du Texte principal */
@@ -232,7 +233,9 @@
             <button type="button" class="btn-submit" onclick="fakeValidate()">Valider</button>
             <div id="status" class="status-msg"></div>
 
-            <!-- Player au format smartphone avec l'URL corrigée -->
+Je viens de voir que j'avais jamais mis de bouton "valider" les réponses risquaient pas d'être prises en compte mdrr  
+
+            <!-- Player au format smartphone déplacé ici, après le texte explicatif -->
             <div class="vimeo-smartphone-container">
                 <div class="ratio-wrapper">
                     <iframe src="https://player.vimeo.com/video/1208223598" 
@@ -240,8 +243,6 @@
                             allowfullscreen></iframe>
                 </div>
             </div>
-
-Je viens de voir que j'avais jamais mis de bouton "valider" les réponses risquaient pas d'être prises en compte mdrr  
 
             <div class="content-text">
                 
@@ -263,7 +264,7 @@ Je viens de voir que j'avais jamais mis de bouton "valider" les réponses risqua
 
                 <p>T'as capté? C'est ça qui me rend gris. C'est pas de t'aimer et que tu ne m'aimes pas en retour. J'aurais aimé que tu m'aimes comme moi je t'aime mais c'est la vie on n'y peut rien si tu m'aimes pas de la même façon.</p>
 
-                <p class="highlight">Ce qui me rend gris, c'est d'être toujours là pour toi, depuis 10 ans, à toute heure du jour ou de la nuit, et de voir qu'il y aura toujours de ton côté ce fameux "faut pas forcer Antho". Antho il te montre tout de lui, je t'aime d'un amour inconditionnel, et je ne sais pas quand est-ce que tu briseras enfin ce côté "Antho faut pas forcer"...</p>
+                <p class="highlight">Ce qui me rend gris, c'est d'être toujours là pour toi, depuis 10 ans, à toute heure du jour ou de la nuit, et de voir qu'il y aura toujours de ton côté ce fameux "faut pas forcer Antho". Antho il te montre tout de lui, je t'aime d'un amour inconditionnel, and je ne sais pas quand est-ce que tu briseras enfin ce côté "Antho faut pas forcer"...</p>
 
                 <p>Je te ressens au plus profond de mon cœur, de mon âme, j'ai déjà capté ce qu'il y a derrière ce "faut pas forcer Antho". Tes pétages de câble, tes déceptions dans la vie, en un mot.... ton gris. Je vois et ressens les choses.</p>
 
