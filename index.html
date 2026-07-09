@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>MORT</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700;800&display=swap');
 
         html, body {
             margin: 0;
@@ -30,22 +30,27 @@
             font-size: 4.5rem;
             font-weight: 800;
             letter-spacing: 0.65em;
+            /* Annule l'espace en trop après le T pour un centrage parfait */
+            margin-right: -0.65em; 
             text-transform: uppercase;
             background: linear-gradient(180deg, #e2e2e2 0%, #555555 50%, #1a1a1a 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
             margin-bottom: 40px;
-            white-space: nowrap;
             line-height: 1;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 10px;
         }
 
         .subtitle {
-            font-size: 1.12rem;
-            line-height: 1.75;
+            /* Texte rendu un peu plus petit et plus fin */
+            font-size: 0.95rem;
+            line-height: 1.7;
             max-width: 520px;
             text-align: center;
-            color: #777777;
+            color: #666666;
             font-weight: 400;
             padding: 0 25px;
             margin-bottom: 50px;
@@ -55,11 +60,19 @@
             width: 100%;
             max-width: 520px;
             padding: 0 20px;
+            box-sizing: border-box;
         }
 
         .player-container iframe {
             border-radius: 16px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Ajustement de la taille du titre pour les petits écrans mobiles */
+        @media (max-width: 480px) {
+            .title {
+                font-size: 3.5rem;
+            }
         }
     </style>
 </head>
