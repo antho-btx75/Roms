@@ -55,21 +55,19 @@
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 8px; /* Espace entre le texte et la flèche */
+            gap: 8px;
             cursor: pointer;
             transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
             z-index: 100;
             animation: goldenPulse 2.8s infinite ease-in-out;
         }
 
-        /* Style de la petite flèche interactive */
         .btn-top-right .arrow {
             transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
             font-size: 1rem;
             line-height: 1;
         }
 
-        /* États au survol - Changement d'état immédiat et flèche aimantée */
         .btn-top-right:hover {
             transform: translateY(-2px);
             filter: brightness(1.08);
@@ -78,7 +76,7 @@
         }
 
         .btn-top-right:hover .arrow {
-            transform: translateX(4px); /* La flèche se déplace vers la droite pour appeler au clic */
+            transform: translateX(4px);
         }
 
         .btn-top-right:active {
@@ -128,7 +126,7 @@
             border: 1px solid rgba(255, 255, 255, 0.07);
             border-radius: 24px;
             padding: 36px 32px;
-            margin: 20px 20px 40px 20px;
+            margin: 20px 20px 30px 20px;
             max-width: 560px;
             width: calc(100% - 40px);
             text-align: left;
@@ -146,6 +144,26 @@
             position: absolute;
             top: 0; left: 0; right: 0; height: 1px;
             background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+        }
+
+        /* Style de la magnifique image craquelée arc-en-ciel */
+        .emotional-image-container {
+            width: 100%;
+            max-width: 560px;
+            margin: 0px auto 40px auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .emotional-image-container img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 21 / 9; /* Format paysage très panoramique et resserré */
+            object-fit: cover;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.9);
+            display: block;
         }
 
         .content-text {
@@ -190,7 +208,7 @@
 
         @media (max-width: 480px) {
             .title {
-                font-size: 2.4rem;
+                font-size: 2.8rem;
                 letter-spacing: 0.12em;
                 padding-left: 0.12em;
             }
@@ -213,9 +231,13 @@
             }
             .box-message {
                 padding: 28px 22px;
-                margin: 10px 15px 30px 15px;
+                margin: 10px 15px 25px 15px;
                 width: calc(100% - 30px);
                 font-size: 1rem;
+            }
+            .emotional-image-container {
+                margin: 0 auto 30px auto;
+                padding: 0 15px;
             }
             .content-text p {
                 font-size: 1.02rem;
@@ -230,8 +252,8 @@
         
         <!-- Bouton interactif avec flèche dynamique -->
         <a href="https://antho-btx75.github.io/Roms/mongava" onclick="trackFuckLeGrisClick(); return true;" class="btn-top-right">
-           <span class="arrow">➔</span>
             <span>Fuck le gris</span>
+            <span class="arrow">➔</span>
         </a>
 
         <div class="header-title">
@@ -245,6 +267,11 @@
                 Entre un taff où tu serres grave, moi et mes phases épisodiques, et peut-être aussi des pb que tu peux avoir avec d'autres gars (des déceptions, des câblages etc), je comprends que t'es gris foncé mon gars.
             </div>
 
+            <!-- Nouvelle section avec ton image arc-en-ciel craquelée -->
+            <div class="emotional-image-container">
+                <img src="https://i.ibb.co/1tfYdnxg/IMG-20260710-205445.jpg" alt="Gris craquelé révélant l'arc-en-ciel">
+            </div>
+
             <div class="content-text">
                 
                 <p>Je vois bien que tu es gris mon Roms. Tu mets du temps à ouvrir mes messages (même si ça a toujours été le cas 😅), tu y réponds de façon très brève, sans répondre à tout ce que je mets (le maillot par exemple mdr 😂).</p>
@@ -256,7 +283,7 @@
                 <p>Je veux pas perdre notre badge Super BFF pour mon anniversaire 😭😭😭<br>
                 Je sais bien que c'est qu'un badge mais j'ai une mentalité d'ado mdrr, et je suis quelqu'un d'archi sentimental et pour moi notre badge compte beaucoup Romain.</p>
 
-                <p>Rien n'est éternel mais je serais archi gris si on devait le perdre à mon anniv. On l'a depuis un an ce badge frère ! 🥹<br>
+                <p>Rien n'est éternel mais je serais archi gris si on devait le perdre à mon anniv 🥹<br>
                 Je suis désolé pour tous mes excès. Tous ces excès viennent du fait que je t'aime, bien évidemment, mais aussi de ma dépendance affective (fais des recherches sur TikTok pour bien comprendre ce que c'est).</p>
 
                 <p class="highlight">Enfin moi c'est encore plus compliqué que ça, c'est pas que de la dépendance affective, y'a aussi de l'amour et c'est très compliqué.</p>
