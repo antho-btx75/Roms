@@ -433,17 +433,18 @@
         🔒 Question secrète pour mon Roms. Un p'tit clic en FULL SCRED stp 🙏🏻
     </p>
 
-<!-- ====================== LIEN VERS VOTE ====================== -->
-<a href="vote.html" 
-   onclick="trackVoteLinkClick(); return true;" 
-   style="display: inline-block; padding: 14px 38px; background: rgba(191, 149, 63, 0.15); color: #fcf6ba; font-weight: 600; border: 1px solid #bf953f; border-radius: 50px; text-decoration: none; transition: all 0.3s ease;">
-    Parce que ton avis compte pour moi. Va au moins sur la page mon Roms et lis les questions 🥹
-</a>
+    <!-- Lien vers la page vote -->
+    <a href="vote.html" 
+       onclick="trackVoteLinkClick(); return true;" 
+       style="display: inline-block; padding: 14px 38px; background: rgba(191, 149, 63, 0.15); color: #fcf6ba; font-weight: 600; border: 1px solid #bf953f; border-radius: 50px; text-decoration: none; transition: all 0.3s ease;">
+        Parce que ton avis compte pour moi. Va au moins sur la page mon Roms et lis les questions 🥹
+    </a>
 
-<!-- ====================== SCRIPT EMAILJS ====================== -->
+</div>
+
+<!-- Script EmailJS (à placer une seule fois, de préférence avant </body>) -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
-    // Initialisation EmailJS
     emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
 
     function trackVoteLinkClick() {
@@ -458,7 +459,6 @@
         });
     }
 </script>
-</div>
 
 J'ai tant besoin de toi je suis à bout. Encore 14h 22h today... si on ajoute les cogitations et tt jpp. Force à toi mon gars 💪🏻
            <!-- Texte avec liseré gold glowy -->
