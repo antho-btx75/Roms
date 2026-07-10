@@ -26,7 +26,7 @@
             align-items: center;
             justify-content: flex-start;
             box-sizing: border-box;
-            padding: 90px 0 100px 0;
+            padding: 40px 0 100px 0;
             position: relative;
         }
 
@@ -84,30 +84,27 @@
             box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
         }
 
-        .header-title {
+        /* En-tête avec l'image au lieu du texte */
+        .header-title-image {
             width: 100%;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 45px;
+            max-width: 620px;
             padding: 0 20px;
             box-sizing: border-box;
+            margin-top: 40px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
         }
 
-        .title {
-            font-size: 3.8rem;
-            font-weight: 800;
-            letter-spacing: 0.2em;
-            padding-left: 0.2em; 
-            text-transform: uppercase;
-            background: linear-gradient(180deg, #ffffff 0%, #9ca3af 45%, #374151 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-align: center;
-            margin: 0;
-            line-height: 1;
-            user-select: none;
-            word-break: break-word;
-            white-space: normal;
+        .header-title-image img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 21 / 9;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+            display: block;
         }
 
         .scrollable-body {
@@ -126,7 +123,7 @@
             border: 1px solid rgba(255, 255, 255, 0.07);
             border-radius: 24px;
             padding: 36px 32px;
-            margin: 20px 20px 30px 20px;
+            margin: 10px 20px 30px 20px;
             max-width: 560px;
             width: calc(100% - 40px);
             text-align: left;
@@ -144,26 +141,6 @@
             position: absolute;
             top: 0; left: 0; right: 0; height: 1px;
             background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
-        }
-
-        /* Style de la magnifique image craquelée arc-en-ciel */
-        .emotional-image-container {
-            width: 100%;
-            max-width: 560px;
-            margin: 0px auto 40px auto;
-            padding: 0 20px;
-            box-sizing: border-box;
-        }
-
-        .emotional-image-container img {
-            width: 100%;
-            height: auto;
-            aspect-ratio: 21 / 9; /* Format paysage très panoramique et resserré */
-            object-fit: cover;
-            border-radius: 16px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.9);
-            display: block;
         }
 
         .content-text {
@@ -207,13 +184,8 @@
         }
 
         @media (max-width: 480px) {
-            .title {
-                font-size: 2.8rem;
-                letter-spacing: 0.12em;
-                padding-left: 0.12em;
-            }
             .main-wrapper {
-                padding: 110px 0 60px 0; 
+                padding: 100px 0 60px 0; 
             }
             .btn-top-right {
                 top: 20px;
@@ -226,6 +198,14 @@
             .btn-top-right:hover {
                 transform: translateX(50%) translateY(-1px);
             }
+            .header-title-image {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 0 15px;
+            }
+            .header-title-image img {
+                border-radius: 12px;
+            }
             .content-text {
                 padding: 0 20px;
             }
@@ -234,10 +214,6 @@
                 margin: 10px 15px 25px 15px;
                 width: calc(100% - 30px);
                 font-size: 1rem;
-            }
-            .emotional-image-container {
-                margin: 0 auto 30px auto;
-                padding: 0 15px;
             }
             .content-text p {
                 font-size: 1.02rem;
@@ -256,8 +232,9 @@
             <span class="arrow">➔</span>
         </a>
 
-        <div class="header-title">
-            <div class="title">Gris</div>
+        <!-- L'image remplace désormais le titre texte "GRIS" tout en haut -->
+        <div class="header-title-image">
+            <img src="https://i.ibb.co/1tfYdnxg/IMG-20260710-205445.jpg" alt="Gris craquelé révélant l'arc-en-ciel">
         </div>
 
         <div class="scrollable-body">
@@ -265,11 +242,6 @@
             <div class="box-message">
                 Mon Romain... je me doute que tu dois être gris. Gris de fou malade... 🥺<br><br>
                 Entre un taff où tu serres grave, moi et mes phases épisodiques, et peut-être aussi des pb que tu peux avoir avec d'autres gars (des déceptions, des câblages etc), je comprends que t'es gris foncé mon gars.
-            </div>
-
-            <!-- Nouvelle section avec ton image arc-en-ciel craquelée -->
-            <div class="emotional-image-container">
-                <img src="https://i.ibb.co/1tfYdnxg/IMG-20260710-205445.jpg" alt="Gris craquelé révélant l'arc-en-ciel">
             </div>
 
             <div class="content-text">
