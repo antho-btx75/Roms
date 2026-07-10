@@ -30,14 +30,23 @@
             position: relative;
         }
 
-        /* Animation organique du halo lumineux doré */
+        /* Animation organique de pulsation du bouton et du halo */
         @keyframes goldenPulse {
-            0% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6); }
-            50% { box-shadow: 0 0 26px rgba(212, 175, 55, 0.5), 0 4px 25px rgba(212, 175, 55, 0.2); }
-            100% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6); }
+            0% { 
+                box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6);
+                transform: scale(1);
+            }
+            50% { 
+                box-shadow: 0 0 26px rgba(212, 175, 55, 0.5), 0 4px 25px rgba(212, 175, 55, 0.2);
+                transform: scale(1.03); /* Légère pulsation de taille */
+            }
+            100% { 
+                box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6);
+                transform: scale(1);
+            }
         }
 
-        /* Bouton "Fuck le gris" optimisé pour l'action de clic */
+        /* Bouton "Fuck le gris" optimisé avec pulsation */
         .btn-top-right {
             position: absolute;
             top: 25px;
@@ -57,7 +66,7 @@
             align-items: center;
             gap: 8px;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: border-color 0.3s, box-shadow 0.3s, filter 0.3s;
             z-index: 100;
             animation: goldenPulse 2.8s infinite ease-in-out;
         }
@@ -69,7 +78,8 @@
         }
 
         .btn-top-right:hover {
-            transform: translateY(-2px);
+            animation-play-state: paused; /* Stabilise le bouton au survol */
+            transform: translateY(-2px) scale(1.02);
             filter: brightness(1.08);
             border-color: #f3e5ab;
             box-shadow: 0 0 28px rgba(212, 175, 55, 0.65), 0 10px 25px rgba(212, 175, 55, 0.25);
@@ -84,7 +94,7 @@
             box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
         }
 
-        /* En-tête avec l'image au lieu du texte */
+        /* En-tête avec l'image */
         .header-title-image {
             width: 100%;
             max-width: 620px;
@@ -105,6 +115,43 @@
             border: 1px solid rgba(255, 255, 255, 0.08);
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
             display: block;
+        }
+
+        /* Conteneur vidéo parfaitement centré */
+        .audio-container {
+            width: 100%;
+            max-width: 560px;
+            margin: 40px auto 30px auto; /* Centrage horizontal via auto */
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+
+        .audio-wrapper-ratio {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* Ratio 16:9 standard */
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: #111;
+        }
+
+        .audio-wrapper-ratio iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            opacity: 0.6;
+            transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .audio-wrapper-ratio iframe:hover {
+            opacity: 1;
         }
 
         .scrollable-body {
@@ -167,14 +214,14 @@
             border-radius: 0 16px 16px 0;
             margin: 40px 0;
             line-height: 1.8;
-            box-shadow: inset 10px 0 20px rgba(0,0,0,0.2);
+            box-shadow: inset 10px 0 20px rgba(0, 0, 0, 0.2);
         }
 
         .content-text p.conclusion {
             color: #d1d5db;
             font-style: italic;
             text-align: center;
-            margin-top: 60px;
+            margin-top: 40px;
             font-weight: 500;
             line-height: 1.9;
             padding: 25px;
@@ -190,13 +237,32 @@
             .btn-top-right {
                 top: 20px;
                 right: 50%;
+                /* Ajustement de la translation pour conserver le centrage malgré la pulsation */
                 transform: translateX(50%);
                 padding: 10px 22px;
                 font-size: 0.8rem;
                 width: max-content;
             }
+            /* Redéfinition de l'animation sur mobile pour ne pas casser le translateX(50%) */
+            @keyframes goldenPulseMobile {
+                0% { 
+                    box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6);
+                    transform: translateX(50%) scale(1);
+                }
+                50% { 
+                    box-shadow: 0 0 26px rgba(212, 175, 55, 0.5), 0 4px 25px rgba(212, 175, 55, 0.2);
+                    transform: translateX(50%) scale(1.03);
+                }
+                100% { 
+                    box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6);
+                    transform: translateX(50%) scale(1);
+                }
+            }
+            .btn-top-right {
+                animation: goldenPulseMobile 2.8s infinite ease-in-out;
+            }
             .btn-top-right:hover {
-                transform: translateX(50%) translateY(-1px);
+                transform: translateX(50%) translateY(-2px) scale(1.02);
             }
             .header-title-image {
                 margin-top: 20px;
@@ -205,6 +271,11 @@
             }
             .header-title-image img {
                 border-radius: 12px;
+            }
+            .audio-container {
+                padding: 0 20px;
+                margin-top: 30px;
+                margin-bottom: 20px;
             }
             .content-text {
                 padding: 0 20px;
@@ -226,14 +297,13 @@
 
     <div class="main-wrapper">
         
-        <!-- Bouton interactif avec flèche dynamique -->
+        <!-- Bouton interactif pulsant avec flèche dynamique -->
         <a href="https://antho-btx75.github.io/Roms/mongava" onclick="trackFuckLeGrisClick(); return true;" class="btn-top-right">
-           <span class="arrow">➔</span>
+            <span class="arrow">➔</span>
             <span>Fuck le gris</span>
-            
         </a>
 
-        <!-- L'image remplace désormais le titre texte "GRIS" tout en haut -->
+        <!-- L'image d'en-tête qui fait office de titre -->
         <div class="header-title-image">
             <img src="https://i.ibb.co/1tfYdnxg/IMG-20260710-205445.jpg" alt="Gris craquelé révélant l'arc-en-ciel">
         </div>
@@ -252,12 +322,13 @@
                 <p>Je vois bien que tu es gris, je sais que c'est un ensemble qui fait que tu es gris, et ce qui me rend encore plus gris c'est de savoir que c'est en partie à cause de moi que t'es gris...</p>
 
                 <p class="highlight">Je suis vraiment désolé de te décevoir ou de te faire peur mon gars. Je veux pas qu'il y ait une distance entre nous, et encore moins te perdre. Romain et Antho c'est pour la vie 💪🏻🫂🙏🏻</p>
-                <p>Désolé mon gars pour mes petits coups de folie. Mais stp n'oublie pas tout ce que j'ai fait pour toi depuis 10 piges maintenant, et tout ce que je veux faire pour toi. Pardonne moi pour mes dingueries, et ne me laisse des remis qui alimentent encore plus mon gris.</p>
+                
+                <p>Désolé mon gars pour mes petits coups de folie. Mais stp n'oublie pas tout ce que j'ai fait pour toi depuis 10 piges maintenant, et tout ce que je veux faire pour toi. Pardonne moi pour mes dingueries, et ne me laisse pas des remis qui alimentent encore plus mon gris.</p>
 
                 <p>Je veux pas perdre notre badge Super BFF pour mon anniversaire 😭😭😭<br>
                 Je sais bien que c'est qu'un badge mais j'ai une mentalité d'ado mdrr, et je suis quelqu'un d'archi sentimental et pour moi notre badge compte beaucoup Romain. Tu te rends compte ça va faire un an qu'on a ce badge tous les deux !</p>
 
-                <p>Rien n'est éternel mais je serais archi gris si on devait le perdre à mon anniv 🥹<br>
+                <p>Raine n'est éternel mais je serais archi gris si on devait le perdre à mon anniv 🥹<br>
                 Je suis désolé pour tous mes excès. Tous ces excès viennent du fait que je t'aime, bien évidemment, mais aussi de ma dépendance affective (fais des recherches sur TikTok pour bien comprendre ce que c'est).</p>
 
                 <p class="highlight">Enfin moi c'est encore plus compliqué que ça, c'est pas que de la dépendance affective, y'a aussi de l'amour et c'est très compliqué.</p>
@@ -270,8 +341,8 @@
 
                 <p>Et si t'es gris à cause de tout un ensemble de problèmes, y compris moi, y compris d'autres gars, ou juste si c'est le taff et le manque de meufs tu peux absolument tout dire mon Roms.</p>
 
-                    <!-- Lecteur Vidéo/Audio standard au format 16:9 pour éviter le détournement vers YouTube sur smartphone -->
-                <div class="audio-container" style="margin: 40px auto 20px auto;">
+                <!-- Lecteur Vidéo/Audio centré au format 16:9 placé juste avant la conclusion -->
+                <div class="audio-container">
                     <div class="audio-wrapper-ratio">
                         <iframe src="https://www.youtube.com/embed/6BiGfqPXPt8?rel=0&modestbranding=1" 
                                 title="M83 - Outro" 
