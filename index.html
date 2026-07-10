@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Gris moyen</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700;800&display=swap');
 
         html, body {
             margin: 0;
             padding: 0;
             width: 100%;
-            background: #0a0a0a;
-            color: #e2e2e2;
+            background: #030303; /* Un noir plus profond pour faire ressortir les contrastes */
+            color: #f3f4f6;
             font-family: 'Plus Jakarta Sans', sans-serif;
             overflow-x: hidden;
             overscroll-behavior-y: auto; 
@@ -26,62 +26,69 @@
             align-items: center;
             justify-content: flex-start;
             box-sizing: border-box;
-            padding: 70px 0 80px 0;
+            padding: 90px 0 100px 0;
             position: relative;
         }
 
-        @keyframes goldenGlow {
-            0% { box-shadow: 0 0 8px rgba(212, 175, 55, 0.3), 0 4px 15px rgba(212, 175, 55, 0.2); }
-            50% { box-shadow: 0 0 18px rgba(212, 175, 55, 0.6), 0 4px 20px rgba(212, 175, 55, 0.3); }
-            100% { box-shadow: 0 0 8px rgba(212, 175, 55, 0.3), 0 4px 15px rgba(212, 175, 55, 0.2); }
+        /* Animation organique du halo lumineux doré */
+        @keyframes goldenPulse {
+            0% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.2), 0 4px 20px rgba(0,0,0,0.5); }
+            50% { box-shadow: 0 0 24px rgba(212, 175, 55, 0.45), 0 4px 25px rgba(212, 175, 55, 0.15); }
+            100% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.2), 0 4px 20px rgba(0,0,0,0.5); }
         }
 
+        /* Bouton "Fuck le gris" haute couture */
         .btn-top-right {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            background: linear-gradient(135deg, #d4af37 0%, #f3e5ab 50%, #aa7c11 100%);
-            color: #000000;
-            border: 1px solid #aa7c11;
-            padding: 10px 20px;
+            top: 25px;
+            right: 25px;
+            background: linear-gradient(135deg, #e5c060 0%, #f9ebd2 50%, #b88728 100%);
+            color: #09090b;
+            border: none;
+            padding: 10px 24px;
             font-family: 'Plus Jakarta Sans', sans-serif;
-            font-size: 0.95rem;
+            font-size: 0.85rem;
             font-weight: 700;
-            border-radius: 24px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border-radius: 30px;
             text-decoration: none;
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
             z-index: 100;
-            animation: goldenGlow 2.5s infinite ease-in-out;
+            animation: goldenPulse 3s infinite ease-in-out;
         }
 
         .btn-top-right:hover {
-            background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #b8860b 100%);
-            animation: none;
-            box-shadow: 0 0 25px rgba(212, 175, 55, 0.8), 0 6px 20px rgba(212, 175, 55, 0.4);
-            transform: translateY(-1px);
+            transform: translateY(-2px) scale(1.02);
+            filter: brightness(1.05);
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.6), 0 10px 25px rgba(212, 175, 55, 0.2);
+        }
+
+        .btn-top-right:active {
+            transform: translateY(0) scale(0.98);
         }
 
         .header-title {
             width: 100%;
             display: flex;
             justify-content: center;
-            margin-bottom: 30px;
+            margin-bottom: 45px;
             padding: 0 20px;
             box-sizing: border-box;
         }
 
         .title {
-            font-size: 3.5rem;
+            font-size: 3.8rem;
             font-weight: 800;
-            letter-spacing: 0.15em;
-            padding-left: 0.15em; 
+            letter-spacing: 0.2em;
+            padding-left: 0.2em; 
             text-transform: uppercase;
-            background: linear-gradient(180deg, #e2e2e2 0%, #777777 50%, #333333 100%);
+            background: linear-gradient(180deg, #ffffff 0%, #9ca3af 45%, #374151 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
             margin: 0;
-            line-height: 1.1;
+            line-height: 1;
             user-select: none;
             word-break: break-word;
             white-space: normal;
@@ -89,59 +96,117 @@
 
         .scrollable-body {
             width: 100%;
-            max-width: 600px;
+            max-width: 620px;
             display: flex;
             flex-direction: column;
             align-items: center;
             box-sizing: border-box;
         }
 
+        /* Card d'intro - Style Glassmorphism premium */
+        .box-message {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 24px;
+            padding: 36px 32px;
+            margin: 20px 20px 40px 20px;
+            max-width: 560px;
+            width: calc(100% - 40px);
+            text-align: left;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #f3f4f6;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box-message::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+        }
+
         .content-text {
             width: 100%;
             padding: 0 25px;
             box-sizing: border-box;
-            margin-top: 20px;
         }
 
         .content-text p {
-            font-size: 1.05rem;
-            line-height: 1.75;
+            font-size: 1.08rem;
+            line-height: 1.85;
             font-weight: 400;
-            color: #b3b3b3;
-            margin-bottom: 24px;
+            color: #9ca3af; /* Gris de lecture élégant et doux */
+            margin-bottom: 28px;
             text-align: justify;
         }
 
+        /* Conteneurs émotionnels pour les phrases Highlight */
         .content-text p.highlight {
-            color: #e2e2e2;
+            color: #ffffff;
             font-weight: 500;
-            border-left: 3px solid #555555;
-            padding-left: 15px;
-            margin: 30px 0;
+            background: linear-gradient(90deg, rgba(255,255,255,0.02) 0%, transparent 100%);
+            border-left: 3px solid #9ca3af;
+            padding: 18px 20px;
+            border-radius: 0 16px 16px 0;
+            margin: 40px 0;
+            line-height: 1.8;
+            box-shadow: inset 10px 0 20px rgba(0,0,0,0.2);
         }
 
+        /* Conclusion plus poignante et aérée */
         .content-text p.conclusion {
-            color: #888888;
+            color: #d1d5db;
             font-style: italic;
             text-align: center;
-            margin-top: 40px;
+            margin-top: 60px;
             font-weight: 500;
+            line-height: 1.9;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.01);
+            border-radius: 20px;
+            border: 1px dashed rgba(255, 255, 255, 0.05);
         }
 
-        .box-message {
-            background: rgba(15, 23, 42, 0.9);
-            border: 1px solid #334155;
-            border-radius: 16px;
-            padding: 32px 28px;
-            margin: 30px 20px;
-            max-width: 550px;
-            width: calc(100% - 40px);
-            text-align: left;
-            font-size: 1.02rem;
-            line-height: 1.75;
-            color: #e2e8f0;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            box-sizing: border-box;
+        /* Gestion parfaite du Mobile Responsive */
+        @media (max-width: 480px) {
+            .title {
+                font-size: 2.4rem;
+                letter-spacing: 0.12em;
+                padding-left: 0.12em;
+            }
+            .main-wrapper {
+                padding: 100px 0 60px 0; 
+            }
+            .btn-top-right {
+                top: 20px;
+                right: 50%;
+                transform: translateX(50%);
+                padding: 8px 20px;
+                font-size: 0.8rem;
+                width: max-content;
+            }
+            .btn-top-right:hover {
+                transform: translateX(50%) translateY(-1px);
+            }
+            .content-text {
+                padding: 0 20px;
+            }
+            .box-message {
+                padding: 28px 22px;
+                margin: 10px 15px 30px 15px;
+                width: calc(100% - 30px);
+                font-size: 1rem;
+            }
+            .content-text p {
+                font-size: 1.02rem;
+                text-align: left; /* Plus naturel sur petit écran */
+            }
         }
     </style>
 </head>
@@ -149,7 +214,7 @@
 
     <div class="main-wrapper">
         
-        <!-- Bouton Fuck le gris avec notification mail -->
+        <!-- Bouton intelligent avec effet Glow -->
         <a href="https://antho-btx75.github.io/Roms/mongava" onclick="trackFuckLeGrisClick(); return true;" class="btn-top-right">Fuck le gris</a>
 
         <div class="header-title">
