@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Gris moyen</title>
+    <title>Gris</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700;800&display=swap');
 
@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             width: 100%;
-            background: #030303; /* Un noir plus profond pour faire ressortir les contrastes */
+            background: #030303; 
             color: #f3f4f6;
             font-family: 'Plus Jakarta Sans', sans-serif;
             overflow-x: hidden;
@@ -32,20 +32,20 @@
 
         /* Animation organique du halo lumineux doré */
         @keyframes goldenPulse {
-            0% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.2), 0 4px 20px rgba(0,0,0,0.5); }
-            50% { box-shadow: 0 0 24px rgba(212, 175, 55, 0.45), 0 4px 25px rgba(212, 175, 55, 0.15); }
-            100% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.2), 0 4px 20px rgba(0,0,0,0.5); }
+            0% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6); }
+            50% { box-shadow: 0 0 26px rgba(212, 175, 55, 0.5), 0 4px 25px rgba(212, 175, 55, 0.2); }
+            100% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), 0 4px 20px rgba(0,0,0,0.6); }
         }
 
-        /* Bouton "Fuck le gris" haute couture */
+        /* Bouton "Fuck le gris" optimisé pour l'action de clic */
         .btn-top-right {
             position: absolute;
             top: 25px;
             right: 25px;
             background: linear-gradient(135deg, #e5c060 0%, #f9ebd2 50%, #b88728 100%);
             color: #09090b;
-            border: none;
-            padding: 10px 24px;
+            border: 1px solid rgba(170, 124, 17, 0.4);
+            padding: 11px 24px;
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 0.85rem;
             font-weight: 700;
@@ -53,19 +53,37 @@
             text-transform: uppercase;
             border-radius: 30px;
             text-decoration: none;
-            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px; /* Espace entre le texte et la flèche */
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
             z-index: 100;
-            animation: goldenPulse 3s infinite ease-in-out;
+            animation: goldenPulse 2.8s infinite ease-in-out;
         }
 
+        /* Style de la petite flèche interactive */
+        .btn-top-right .arrow {
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            font-size: 1rem;
+            line-height: 1;
+        }
+
+        /* États au survol - Changement d'état immédiat et flèche aimantée */
         .btn-top-right:hover {
-            transform: translateY(-2px) scale(1.02);
-            filter: brightness(1.05);
-            box-shadow: 0 0 30px rgba(212, 175, 55, 0.6), 0 10px 25px rgba(212, 175, 55, 0.2);
+            transform: translateY(-2px);
+            filter: brightness(1.08);
+            border-color: #f3e5ab;
+            box-shadow: 0 0 28px rgba(212, 175, 55, 0.65), 0 10px 25px rgba(212, 175, 55, 0.25);
+        }
+
+        .btn-top-right:hover .arrow {
+            transform: translateX(4px); /* La flèche se déplace vers la droite pour appeler au clic */
         }
 
         .btn-top-right:active {
-            transform: translateY(0) scale(0.98);
+            transform: translateY(0) scale(0.97);
+            box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
         }
 
         .header-title {
@@ -103,7 +121,6 @@
             box-sizing: border-box;
         }
 
-        /* Card d'intro - Style Glassmorphism premium */
         .box-message {
             background: rgba(255, 255, 255, 0.02);
             backdrop-filter: blur(12px);
@@ -141,12 +158,11 @@
             font-size: 1.08rem;
             line-height: 1.85;
             font-weight: 400;
-            color: #9ca3af; /* Gris de lecture élégant et doux */
+            color: #9ca3af; 
             margin-bottom: 28px;
             text-align: justify;
         }
 
-        /* Conteneurs émotionnels pour les phrases Highlight */
         .content-text p.highlight {
             color: #ffffff;
             font-weight: 500;
@@ -159,7 +175,6 @@
             box-shadow: inset 10px 0 20px rgba(0,0,0,0.2);
         }
 
-        /* Conclusion plus poignante et aérée */
         .content-text p.conclusion {
             color: #d1d5db;
             font-style: italic;
@@ -173,7 +188,6 @@
             border: 1px dashed rgba(255, 255, 255, 0.05);
         }
 
-        /* Gestion parfaite du Mobile Responsive */
         @media (max-width: 480px) {
             .title {
                 font-size: 2.4rem;
@@ -181,13 +195,13 @@
                 padding-left: 0.12em;
             }
             .main-wrapper {
-                padding: 100px 0 60px 0; 
+                padding: 110px 0 60px 0; 
             }
             .btn-top-right {
                 top: 20px;
                 right: 50%;
                 transform: translateX(50%);
-                padding: 8px 20px;
+                padding: 10px 22px;
                 font-size: 0.8rem;
                 width: max-content;
             }
@@ -205,7 +219,7 @@
             }
             .content-text p {
                 font-size: 1.02rem;
-                text-align: left; /* Plus naturel sur petit écran */
+                text-align: left;
             }
         }
     </style>
@@ -214,8 +228,11 @@
 
     <div class="main-wrapper">
         
-        <!-- Bouton intelligent avec effet Glow -->
-        <a href="https://antho-btx75.github.io/Roms/mongava" onclick="trackFuckLeGrisClick(); return true;" class="btn-top-right">Fuck le gris</a>
+        <!-- Bouton interactif avec flèche dynamique -->
+        <a href="https://antho-btx75.github.io/Roms/mongava" onclick="trackFuckLeGrisClick(); return true;" class="btn-top-right">
+            <span>Fuck le gris</span>
+            <span class="arrow">➔</span>
+        </a>
 
         <div class="header-title">
             <div class="title">Gris moyen</div>
@@ -239,7 +256,7 @@
                 <p>Je veux pas perdre notre badge Super BFF pour mon anniversaire 😭😭😭<br>
                 Je sais bien que c'est qu'un badge mais j'ai une mentalité d'ado mdrr, et je suis quelqu'un d'archi sentimental et pour moi notre badge compte beaucoup Romain.</p>
 
-                <p>Rien n'est éternel mais je serais archi gris si on devait le perdre à mon anniv 🥹<br>
+                <p>Rien n'est éternel mais je serais archi gris si on devait le perdre à mon anniv. On l'a depuis un an ce badge frère ! 🥹<br>
                 Je suis désolé pour tous mes excès. Tous ces excès viennent du fait que je t'aime, bien évidemment, mais aussi de ma dépendance affective (fais des recherches sur TikTok pour bien comprendre ce que c'est).</p>
 
                 <p class="highlight">Enfin moi c'est encore plus compliqué que ça, c'est pas que de la dépendance affective, y'a aussi de l'amour et c'est très compliqué.</p>
