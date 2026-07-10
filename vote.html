@@ -16,6 +16,17 @@
         label.disabled { color: #666; pointer-events: none; }
         input[type="checkbox"] { margin-right: 12px; transform: scale(1.2); }
         .thanks { margin-top: 30px; font-size: 1.1rem; color: #22c55e; min-height: 28px; }
+        button { 
+            margin-top: 35px; 
+            padding: 16px 45px; 
+            font-size: 1.05rem; 
+            background: #22c55e; 
+            color: white; 
+            border: none; 
+            border-radius: 50px; 
+            cursor: pointer; 
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
@@ -48,8 +59,10 @@
     <label id="label8"><input type="checkbox" value="8" onchange="saveSelections()"> 8 - J'aimerais que le contenu sex soit orienté Antho bottom 🍑 moi top 🍆</label>
 
     <div class="subtitle">Autres choix :</div>
-    <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffe ça, on a les mêmes bails, mais je t'aime pas d'un point de vue amoureux (sentimental)</label>
+    <label><input type="checkbox" value="9" onchange="saveSelections()"> 9 - Je kiffe ça, c'est mes bails, mais je t'aime pas d'un point de vue amoureux (sentimental)</label>
     <label><input type="checkbox" value="10" onchange="saveSelections()"> 10 - Je suis un peu perdu. Je pense que je kiffe ça mais j'ai du mal avec tout ça.</label>
+
+    <button onclick="fakeValidate()">Valider</button>
 
     <div id="status" class="thanks"></div>
 </div>
@@ -71,7 +84,7 @@
         const labels = {
             1: "Je kiffe de fou et j'ai envie que tu te lâches un peu plus avec moi IRL",
             2: "Je n'aime pas trop la page Github car je suis pas dans ces bails là, je suis full hétéro",
-            3: "Je kiffe et ça me convient comme ça. On reste comme on est et on consomme ça en scred.",
+            3: "Je kiffe mais ça me convient comme ça. On reste comme on est et on consomme ça en scred.",
             4: "Tout est parfaitement équilibré",
             5: "Je voudrais moins de cul, plus de sentiments",
             6: "Je voudrais plus de cul, moins de sentiments",
@@ -121,6 +134,20 @@
             sendEmailNotification(selected);
             setTimeout(() => { statusEl.textContent = ""; }, 2200);
         });
+    }
+
+    function fakeValidate() {
+        const selected = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+                             .map(cb => parseInt(cb.value));
+
+        const statusEl = document.getElementById('status');
+        if (selected.length > 0) {
+            statusEl.innerText = "Réponse enregistrée avec succès.";
+            sendEmailNotification(selected);
+        } else {
+            statusEl.innerText = "Veuillez cocher au moins une case.";
+        }
+        setTimeout(() => { statusEl.textContent = ""; }, 3000);
     }
 
     window.onload = updateDependencies;
