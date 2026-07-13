@@ -379,7 +379,458 @@
     T'ES MA PERSONNE PRÉFÉRÉE ET J'AI TROP ENVIE DE TOI 🥵
 </p>
            Je vais soigner ma dépendance affective. J'ai pas le droit de te faire souffrir.J'ai pas le droit de faire du mal à la personne que j'aime le plus au monde. Je dois pas me keviniser et te faire câbler avec des crises, des dramas et tout. Je suis Ton Rocher moi 💪🏻
-           
+          <!-- ================= CONFIGURATION DU LECTEUR GOLD GLOWY ================= -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+    .gold-player-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+        user-select: none;
+    }
+
+    .player-card {
+        background: rgba(15, 13, 10, 0.9);
+        border: 1px solid rgba(212, 175, 55, 0.3);
+        border-radius: 24px;
+        padding: 40px;
+        width: 380px;
+        text-align: center;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(212, 175, 55, 0.15);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .player-card:hover {
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(212, 175, 55, 0.25);
+        transform: translateY(-5px);
+    }
+
+    .player-card::before {
+        content: '';
+        position: absolute;
+        top: 15px; left: 15px; right: 15px; bottom: 15px;
+        border: 1px solid rgba(212, 175, 55, 0.08);
+        border-radius: 18px;
+        pointer-events: none;
+    }
+
+    .disk-wrapper {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        margin: 0 auto 30px auto;
+    }
+
+    .glow-ring {
+        position: absolute;
+        top: -10px; left: -10px; right: -10px; bottom: -10px;
+        border-radius: 50%;
+        background: conic-gradient(from 0deg, transparent, rgba(212, 175, 55, 0.4), transparent, rgba(255, 215, 0, 0.4), transparent);
+        filter: blur(6px);
+        animation: rotateGlowGG 8s linear infinite;
+        opacity: 0.6;
+        transition: opacity 0.5s ease;
+    }
+
+    .disk-wrapper.paused .glow-ring {
+        animation-play-state: paused;
+        opacity: 0.2;
+    }
+
+    .vinyl {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: radial-gradient(circle, #050505 30%, #151515 50%, #0d0d0d 70%, #222 100%);
+        box-shadow: inset 0 0 10px rgba(0,0,0,0.8), 0 10px 25px rgba(0,0,0,0.5);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        animation: rotateVinylGG 15s linear infinite;
+        border: 4px solid #111;
+    }
+
+    .vinyl::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: repeating-radial-gradient(circle, transparent, transparent 3px, rgba(255, 255, 255, 0.03) 4px, transparent 5px);
+    }
+
+    .disk-wrapper.paused .vinyl {
+        animation-play-state: paused;
+    }
+
+    .vinyl-center {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #d4af37 0%, #aa7c11 50%, #ffd700 100%);
+        border: 3px solid #1a1408;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+    }
+
+    .vinyl-icon {
+        color: #1a1408;
+        font-size: 2.2rem;
+        animation: heartBeatGG 1.8s infinite ease-in-out;
+    }
+
+    .disk-wrapper.paused .vinyl-icon {
+        animation-play-state: paused;
+    }
+
+    @keyframes rotateVinylGG {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    @keyframes rotateGlowGG {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    @keyframes heartBeatGG {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.12); }
+    }
+
+    .player-card .title {
+        font-family: 'Cinzel', serif;
+        font-size: 1.55rem;
+        font-weight: 700;
+        color: #e5c060;
+        text-shadow: 0 0 10px rgba(229, 192, 96, 0.3);
+        margin: 0 0 6px 0;
+        line-height: 1.3;
+    }
+
+    .player-card .subtitle {
+        font-size: 0.85rem;
+        color: rgba(245, 245, 247, 0.6);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    .visualizer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 4px;
+        height: 35px;
+        margin-bottom: 25px;
+    }
+
+    .visualizer .bar {
+        width: 4px;
+        height: 5px;
+        background: linear-gradient(to top, #aa7c11, #ffd700);
+        border-radius: 2px;
+        transition: height 0.1s ease;
+    }
+
+    .progress-area {
+        margin-bottom: 25px;
+    }
+
+    .time-info {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.75rem;
+        color: rgba(245, 245, 247, 0.5);
+        margin-bottom: 8px;
+    }
+
+    .progress-bar-container {
+        position: relative;
+        width: 100%;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .progress-bar {
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #aa7c11, #ffd700);
+        border-radius: 10px;
+        box-shadow: 0 0 8px #ffd700;
+        transition: width 0.1s linear;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 20px;
+    }
+
+    .controls .btn {
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: rgba(212, 175, 55, 0.6);
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .controls .btn:hover {
+        color: #ffd700;
+        text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+        transform: scale(1.1);
+    }
+
+    .controls .btn-main {
+        width: 65px;
+        height: 65px;
+        background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+        border-radius: 50%;
+        color: #111;
+        font-size: 1.6rem;
+        box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+    }
+
+    .controls .btn-main:hover {
+        color: #000;
+        background: linear-gradient(135deg, #ffd700 0%, #d4af37 100%);
+        box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
+        transform: scale(1.05);
+    }
+
+    .volume-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 80%;
+        margin: 10px auto 0 auto;
+        opacity: 0.5;
+        transition: opacity 0.3s;
+    }
+
+    .volume-container:hover {
+        opacity: 0.9;
+    }
+
+    .volume-slider {
+        -webkit-appearance: none;
+        width: 80px;
+        height: 4px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .volume-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #ffd700;
+        box-shadow: 0 0 5px #ffd700;
+        cursor: pointer;
+    }
+</style>
+
+<div class="gold-player-wrapper">
+    <div class="player-card">
+        <div class="disk-wrapper paused" id="disk-wrapper">
+            <div class="glow-ring"></div>
+            <div class="vinyl">
+                <div class="vinyl-center">
+                    <i class="fa-solid fa-heart vinyl-icon"></i>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="title">T'es ma personne préférée mon gars</h2>
+        <div class="subtitle">Spécialement pour toi</div>
+
+        <div class="visualizer" id="visualizer">
+            <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+            <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+            <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+        </div>
+
+        <div class="progress-area">
+            <div class="time-info">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+            <div class="progress-bar-container" id="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn" id="mute-btn" title="Muet"><i class="fa-solid fa-volume-high"></i></button>
+            <button class="btn btn-main" id="play-btn" title="Lecture/Pause"><i class="fa-solid fa-play"></i></button>
+            <button class="btn" id="loop-btn" title="Boucle"><i class="fa-solid fa-repeat"></i></button>
+        </div>
+
+        <div class="volume-container">
+            <i class="fa-solid fa-volume-low" style="color: rgba(212, 175, 55, 0.7); font-size: 0.8rem;"></i>
+            <input type="range" class="volume-slider" id="volume" min="0" max="1" step="0.05" value="0.8">
+            <i class="fa-solid fa-volume-high" style="color: rgba(212, 175, 55, 0.7); font-size: 0.8rem;"></i>
+        </div>
+    </div>
+</div>
+
+<audio id="audio-element" src="https://audio.jukehost.co.uk/019f5ca3-703f-7209-90c2-322a8a1a03e2"></audio>
+
+<script>
+    (function() {
+        const audio = document.getElementById('audio-element');
+        const playBtn = document.getElementById('play-btn');
+        const playIcon = playBtn.querySelector('i');
+        const diskWrapper = document.getElementById('disk-wrapper');
+        const progressBar = document.getElementById('progress-bar');
+        const progressContainer = document.getElementById('progress-container');
+        const currentTimeEl = document.getElementById('current-time');
+        const durationEl = document.getElementById('duration');
+        const visualizerBars = document.querySelectorAll('.visualizer .bar');
+        const volumeSlider = document.getElementById('volume');
+        const muteBtn = document.getElementById('mute-btn');
+        const loopBtn = document.getElementById('loop-btn');
+
+        let isPlaying = false;
+        let isLooping = false;
+        let animationFrameId;
+
+        function togglePlay() {
+            if (isPlaying) { pauseAudio(); } else { playAudio(); }
+        }
+
+        function playAudio() {
+            audio.play().then(() => {
+                isPlaying = true;
+                playIcon.className = 'fa-solid fa-pause';
+                diskWrapper.classList.remove('paused');
+                animateVisualizer();
+            }).catch(err => console.log("Lecture bloquée:", err));
+        }
+
+        function pauseAudio() {
+            audio.pause();
+            isPlaying = false;
+            playIcon.className = 'fa-solid fa-play';
+            diskWrapper.classList.add('paused');
+            cancelAnimationFrame(animationFrameId);
+            resetVisualizer();
+        }
+
+        playBtn.addEventListener('click', togglePlay);
+
+        audio.addEventListener('timeupdate', () => {
+            const { duration, currentTime } = audio;
+            if (duration) {
+                const progressPercent = (currentTime / duration) * 100;
+                progressBar.style.width = `${progressPercent}%`;
+                currentTimeEl.textContent = formatTime(currentTime);
+                durationEl.textContent = formatTime(duration);
+            }
+        });
+
+        audio.addEventListener('loadedmetadata', () => {
+            durationEl.textContent = formatTime(audio.duration);
+        });
+
+        progressContainer.addEventListener('click', (e) => {
+            const width = progressContainer.clientWidth;
+            const clickX = e.offsetX;
+            const duration = audio.duration;
+            if (duration) {
+                audio.currentTime = (clickX / width) * duration;
+                if (!isPlaying) playAudio();
+            }
+        });
+
+        loopBtn.addEventListener('click', () => {
+            isLooping = !isLooping;
+            audio.loop = isLooping;
+            loopBtn.style.color = isLooping ? '#ffd700' : 'rgba(212, 175, 55, 0.6)';
+            loopBtn.style.textShadow = isLooping ? '0 0 10px rgba(255,215,0,0.6)' : 'none';
+        });
+
+        muteBtn.addEventListener('click', () => {
+            audio.muted = !audio.muted;
+            const icon = muteBtn.querySelector('i');
+            if (audio.muted) {
+                icon.className = 'fa-solid fa-volume-xmark';
+                muteBtn.style.color = '#ff6b6b';
+            } else {
+                icon.className = 'fa-solid fa-volume-high';
+                muteBtn.style.color = 'rgba(212, 175, 55, 0.6)';
+            }
+        });
+
+        volumeSlider.addEventListener('input', (e) => {
+            audio.volume = e.target.value;
+            if (audio.volume === 0) {
+                audio.muted = true;
+                muteBtn.querySelector('i').className = 'fa-solid fa-volume-xmark';
+            } else {
+                audio.muted = false;
+                muteBtn.querySelector('i').className = 'fa-solid fa-volume-high';
+                muteBtn.style.color = 'rgba(212, 175, 55, 0.6)';
+            }
+        });
+
+        audio.addEventListener('ended', () => {
+            if (!isLooping) {
+                pauseAudio();
+                progressBar.style.width = '0%';
+                currentTimeEl.textContent = '0:00';
+            }
+        });
+
+        function formatTime(time) {
+            if (isNaN(time)) return '0:00';
+            const mins = Math.floor(time / 60);
+            const secs = Math.floor(time % 60);
+            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        }
+
+        function animateVisualizer() {
+            if (!isPlaying) return;
+            visualizerBars.forEach(bar => {
+                const randomHeight = Math.floor(Math.random() * 28) + 5;
+                bar.style.height = `${randomHeight}px`;
+            });
+            animationFrameId = requestAnimationFrame(animateVisualizer);
+        }
+
+        function resetVisualizer() {
+            visualizerBars.forEach(bar => bar.style.height = '5px');
+        }
+    })();
+</script>
+<!-- ================= FIN DU LECTEUR ================= -->
+
+        
           <!-- Petite box discrète de transition -->
 <div style="background: rgba(255, 255, 255, 0.01); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.04); border-radius: 16px; padding: 20px 24px; margin: 25px auto; max-width: 560px; width: calc(100% - 40px); text-align: left; font-size: 0.98rem; line-height: 1.7; color: #9ca3af; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); box-sizing: border-box;">
     C'est pas mon gris qui compte pour moi aujourd'hui, c'est le tien, TON gris... J'ai besoin d'être là pour toi, c'est mon devoir envers toi mon gars. Je me sens tellement mal de savoir que t'es gris. Je vais me calmer sur cette page avec les "je t'aime" et les sentiments. Je sais que ça te rend mal à l'aise. Le côté gava, le côté potes toujours présents l'un pour l'autre va rester, et même les désirs sexuels car je sais que c'est pas un souci en vrai tant qu'il y a pas de sentiments. Mais le côté sentimental je vais le mettre en arrière-plan. Je veux pas te mettre mal à l'aise mon gars.
