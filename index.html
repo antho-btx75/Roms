@@ -1087,20 +1087,28 @@
 </div>
 
 
-<!-- Script EmailJS (à placer une seule fois, de préférence avant </body>) -->
+<!-- Script EmailJS robuste -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
     emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
 
     function trackVoteLinkClick() {
+        // On désactive le lien pendant l'envoi pour éviter les doubles clics
+        const link = event.currentTarget;
+        link.style.pointerEvents = "none";
+
         emailjs.send("service_quyacff", "template_vekw5ae", {
             to_email: "ryo.saeba75012@outlook.fr",
             message: "✅ Romain a cliqué sur le lien vers la page Vote depuis la page principale",
             date: new Date().toLocaleString('fr-FR')
         }).then(() => {
             console.log("✅ Mail envoyé avec succès");
+            // On réactive le lien après succès
+            setTimeout(() => { link.style.pointerEvents = "auto"; }, 800);
         }).catch((err) => {
             console.error("❌ Erreur EmailJS :", err);
+            // En cas d'erreur on réactive le lien
+            link.style.pointerEvents = "auto";
         });
     }
 </script>
