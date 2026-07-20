@@ -42,12 +42,18 @@
             padding: 10px 20px; 
         }
         
-        header { 
-            text-align: center; 
-            padding: 0 0 40px 0; 
-            background-color: var(--header-bg); 
-            border-bottom: 1px solid var(--border-color); 
-        }
+header { 
+    text-align: center; 
+    padding: 0 0 40px 0; 
+    background-color: var(--header-bg); 
+    border-bottom: 1px solid var(--border-color); 
+    
+    /* Propriétés pour forcer le plein écran (100% de la largeur du viewport) */
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+}
+
         
         .hero-img-full { 
             width: 100%; 
