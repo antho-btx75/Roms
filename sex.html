@@ -340,7 +340,6 @@
     document.getElementById('header-img').src = randomHeader;
 </script>
         
-
 <div class="hot-text-container">
     <p class="hot-phrase-neon">
         <span class="phrase-fragment f1">DU DÉSIR,</span> 
@@ -363,30 +362,27 @@
 
     .hot-phrase-neon .phrase-fragment {
         display: inline-block;
-        visibility: hidden; /* Empêche les éléments de se télescoper avant leur tour */
-        opacity: 0; 
-        color: #ffffff;
-        text-shadow: 0 0 8px #ff007f, 0 0 12px #ff007f; /* Glow fixe hyper net dès le départ */
-        animation: hotFadeIn 0.8s ease-out forwards;
+        opacity: 0;
+        /* Rendu néon pur via gradient (Zero text-shadow = Zero flou sur Brave) */
+        background: linear-gradient(135deg, #ff007f 0%, #ff66b2 50%, #ff0055 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: simplePureFade 0.6s ease-in forwards;
     }
 
     /* Timings d'apparition */
     .hot-phrase-neon .f1 { animation-delay: 0.3s; }
-    .hot-phrase-neon .f2 { animation-delay: 1.6s; }
-    .hot-phrase-neon .f3 { animation-delay: 2.9s; }
-    .hot-phrase-neon .f4 { animation-delay: 4.2s; }
+    .hot-phrase-neon .f2 { animation-delay: 1.5s; }
+    .hot-phrase-neon .f3 { animation-delay: 2.7s; }
+    .hot-phrase-neon .f4 { animation-delay: 3.9s; }
 
-    /* Animation purement basée sur Opacity + Visibility (100% compatible Brave) */
-    @keyframes hotFadeIn {
-        0% {
-            visibility: visible;
+    /* Animation d'opacité ultra basique (aucun risque de glitch) */
+    @keyframes simplePureFade {
+        from {
             opacity: 0;
-            transform: scale(0.95);
         }
-        100% {
-            visibility: visible;
+        to {
             opacity: 1;
-            transform: scale(1);
         }
     }
 </style>
