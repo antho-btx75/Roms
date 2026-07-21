@@ -426,41 +426,6 @@
         margin-left: 6px; /* Ajuste l'espace juste après "MON GARS" */
     }
 
-    /* Bulle de statut / Message occasionnel */
-    .status-message-box {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        background: rgba(15, 13, 10, 0.7);
-        border: 1px solid rgba(255, 215, 0, 0.2);
-        border-radius: 30px;
-        padding: 8px 18px;
-        color: #f0e6d2;
-        font-size: 0.92rem;
-        font-weight: 500;
-        line-height: 1.4;
-        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 4px 15px rgba(0, 0, 0, 0.4);
-        backdrop-filter: blur(8px);
-        max-width: 90%;
-        margin: 0 auto;
-    }
-
-    /* Petit point glow d'ambiance */
-    .status-dot {
-        width: 6px;
-        height: 6px;
-        min-width: 6px;
-        background-color: #ffd700;
-        border-radius: 50%;
-        box-shadow: 0 0 8px #ffd700;
-        animation: pulseGlow 2s infinite ease-in-out;
-    }
-
-    @keyframes pulseGlow {
-        0%, 100% { opacity: 0.4; transform: scale(1); }
-        50% { opacity: 1; transform: scale(1.3); box-shadow: 0 0 12px #ffd700; }
-    }
 </style>
 
 <div class="gold-top-section">
@@ -480,12 +445,92 @@
     Je te kiffe de fou mon gars <i class="fa-solid fa-gem"></i>
 </h1>
 
-    <!-- Zone de Message Évolutif (Facile à changer à la volée) -->
-    <div class="status-message-box">
-        <span class="status-dot"></span>
-        <span>Bon courage pour ta reprise mon R♡MS. Force à toi 💪🏻</span>    </div>
-
+<!-- Zone de Message Évolutif (effet Typewriter + Curseur blanc) -->
+<div class="status-message-box">
+    <span class="status-dot"></span>
+    <span id="typewriter-text"></span><span class="typewriter-cursor"></span>
 </div>
+
+<style>
+    .status-message-box {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background: rgba(15, 13, 10, 0.7);
+        border: 1px solid rgba(255, 215, 0, 0.2);
+        border-radius: 30px;
+        padding: 8px 18px;
+        color: #f0e6d2;
+        font-size: 0.82rem;
+        font-weight: 500;
+        line-height: 1.4;
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 4px 15px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(8px);
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Le petit point d'ambiance doré */
+    .status-dot {
+        width: 6px;
+        height: 6px;
+        min-width: 6px;
+        background-color: #ffd700;
+        border-radius: 50%;
+        box-shadow: 0 0 8px #ffd700;
+        animation: pulseGlow 2s infinite ease-in-out;
+    }
+
+    /* Le carré blanc clignotant */
+    .typewriter-cursor {
+        display: inline-block;
+        width: 7px;
+        height: 13px;
+        background-color: #ffffff;
+        margin-left: 4px;
+        vertical-align: middle;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        animation: blinkCursor 0.7s infinite;
+    }
+
+    @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.3); box-shadow: 0 0 12px #ffd700; }
+    }
+
+    @keyframes blinkCursor {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+    }
+</style>
+
+<script>
+    (function() {
+        // Nouveau message :
+        const message = "Bon courage pour ta reprise mon R♡MS. Force à toi 💪🏻";
+        
+        const speed = 35; // Vitesse d'écriture
+        const textContainer = document.getElementById("typewriter-text");
+        
+        // Découpage propre pour préserver le cœur et l'émoji
+        const characters = Array.from(message);
+        let index = 0;
+
+        function typeWriter() {
+            if (index < characters.length) {
+                textContainer.textContent += characters[index];
+                index++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            setTimeout(typeWriter, 300);
+        });
+    })();
+</script>
+    
 <!-- ================= FIN DE LA SECTION ================= -->
     
 <!-- ================= PLAYER MINIMALISTE GOLD GLOWY (SIMPLIFIÉ) ================= -->
