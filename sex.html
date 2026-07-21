@@ -363,37 +363,34 @@
 
     .hot-phrase-neon .phrase-fragment {
         display: inline-block;
+        visibility: hidden; /* Empêche les éléments de se télescoper avant leur tour */
         opacity: 0; 
-        color: #ff3399; /* Couleur néon de base */
-        /* Animation fluide sans bug de dédoublement */
-        animation: hotNeonSlide 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        will-change: transform, opacity; /* Force le navigateur à isoler le calque */
+        color: #ffffff;
+        text-shadow: 0 0 8px #ff007f, 0 0 12px #ff007f; /* Glow fixe hyper net dès le départ */
+        animation: hotFadeIn 0.8s ease-out forwards;
     }
 
-    /* Décalages temporels */
-    .hot-phrase-neon .f1 { animation-delay: 0.4s; }
-    .hot-phrase-neon .f2 { animation-delay: 1.8s; }
-    .hot-phrase-neon .f3 { animation-delay: 3.2s; }
-    .hot-phrase-neon .f4 { animation-delay: 4.6s; }
+    /* Timings d'apparition */
+    .hot-phrase-neon .f1 { animation-delay: 0.3s; }
+    .hot-phrase-neon .f2 { animation-delay: 1.6s; }
+    .hot-phrase-neon .f3 { animation-delay: 2.9s; }
+    .hot-phrase-neon .f4 { animation-delay: 4.2s; }
 
-    /* Nouvelle animation : Apparition progressive + Montée légère + Glow fixe */
-    @keyframes hotNeonSlide {
+    /* Animation purement basée sur Opacity + Visibility (100% compatible Brave) */
+    @keyframes hotFadeIn {
         0% {
+            visibility: visible;
             opacity: 0;
-            transform: translateY(8px) scale(0.96);
-            filter: blur(4px);
-            color: #ff007f;
+            transform: scale(0.95);
         }
         100% {
+            visibility: visible;
             opacity: 1;
-            transform: translateY(0) scale(1);
-            filter: blur(0);
-            color: #ffffff;
-            /* Ombre néon fixe et stable */
-            text-shadow: 0 0 8px #ff007f, 0 0 15px rgba(255, 0, 127, 0.6);
+            transform: scale(1);
         }
     }
 </style>
+    
     
 
 <div class="vip-nav-container">
