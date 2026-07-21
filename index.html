@@ -412,10 +412,8 @@
         -webkit-text-fill-color: transparent;
         filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.4));
         margin: 0 0 15px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
+        text-align: center; /* Aligne le texte normalement */
+        line-height: 1.4;
     }
 
     .gold-main-title i {
@@ -423,6 +421,9 @@
         color: #ffd700;
         filter: drop-shadow(0 0 6px #ffd700);
         -webkit-text-fill-color: initial;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 6px; /* Ajuste l'espace juste après "MON GARS" */
     }
 
     /* Bulle de statut / Message occasionnel */
