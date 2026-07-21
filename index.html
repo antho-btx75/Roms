@@ -677,7 +677,40 @@
     };
 </script>
     
-                   <nav>
+<!-- Style CSS pour forcer la disposition en grille 2 par 2 + 1 centré en bas -->
+<style>
+    .nav-pill-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
+        gap: 12px; /* Espace entre les boutons */
+        list-style: none;
+        padding: 0;
+        margin: 20px auto;
+        max-width: 480px; /* Aligné avec la largeur de tes cartes */
+    }
+
+    .nav-pill-list li {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Le dernier élément prend toute la largeur */
+    .nav-pill-list li.li-full-width {
+        grid-column: span 2;
+    }
+
+    /* Assure que les liens prennent bien tout le bouton */
+    .nav-pill-list a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+</style>
+
+<nav>
 <ul class="nav-pill-list">
     <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> NOTRE LIEN</a></li>
     <li><a href="#personne-preferee">💕 BFF</a></li>
@@ -706,7 +739,8 @@
         </a>
     </li>
 </ul>
-                   </nav>
+</nav>
+    
 
 <p style="text-align: center; font-size: 1.22rem; color: #ff79c6; font-weight: 700; margin-bottom: 28px; letter-spacing: 0.4px; line-height: 1.45;">
     T'ES MA PERSONNE PRÉFÉRÉE ET J'AI TROP ENVIE DE TOI 🥵<br>
