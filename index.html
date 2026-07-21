@@ -802,26 +802,46 @@
     }
 </script>
 
-<!-- Section des 4 GIFs en dessous -->
+<!-- Section des 4 GIFs cliquables -->
 <div class="grey-box-media" style="display: flex; flex-direction: column; gap: 18px; max-width: 520px; margin: 30px auto; padding: 0 15px;">
 
-    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-        <img src="https://i.ibb.co/VYg6wfsL/38153261.gif" alt="GIF d'origine" style="width: 100%; height: auto; display: block;" />
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/VYg6wfsL/38153261.gif" alt="GIF d'origine" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
     </div>
 
-    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-        <img src="https://i.ibb.co/0pvY9sfn/ezgif-81e35307fb99d6eb-1.gif" alt="GIF 1" style="width: 100%; height: auto; display: block;" />
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/0pvY9sfn/ezgif-81e35307fb99d6eb-1.gif" alt="GIF 1" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
     </div>
 
-    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-        <img src="https://i.ibb.co/tpHZSLcJ/ezgif-88f62753f61adf72.gif" alt="GIF 2" style="width: 100%; height: auto; display: block;" />
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/tpHZSLcJ/ezgif-88f62753f61adf72.gif" alt="GIF 2" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
     </div>
 
-    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-        <img src="https://i.ibb.co/MDk3NkDT/42899911.gif" alt="GIF 3" style="width: 100%; height: auto; display: block;" />
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/MDk3NkDT/42899911.gif" alt="GIF 3" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
     </div>
 
 </div>
+
+<!-- Lightbox / Modal d'agrandissement -->
+<div id="gifModal" onclick="closeGifModal()" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); backdrop-filter: blur(8px); justify-content: center; align-items: center; cursor: zoom-out;">
+    <span style="position: absolute; top: 20px; right: 25px; color: #ffd700; font-size: 35px; font-weight: bold; cursor: pointer;">&times;</span>
+    <img id="gifModalImg" style="max-width: 90%; max-height: 85vh; border-radius: 16px; border: 1px solid rgba(212, 175, 55, 0.5); box-shadow: 0 0 30px rgba(212, 175, 55, 0.3); object-fit: contain;">
+</div>
+
+<script>
+    function openGifModal(src) {
+        const modal = document.getElementById("gifModal");
+        const modalImg = document.getElementById("gifModalImg");
+        modalImg.src = src;
+        modal.style.display = "flex";
+    }
+
+    function closeGifModal() {
+        document.getElementById("gifModal").style.display = "none";
+    }
+</script>
+    
 
                       <!-- BOX SANCTUAIRE GOLD - Bouton vers le vote -->
 <div class="box-sanctuaire-gold" style="max-width: 500px; margin: 20px auto; padding: 20px 25px; background: #050505; border: 2px solid; border-image: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%) 1; box-shadow: 0 20px 45px rgba(0,0,0,0.95); font-family: 'Segoe UI', Roboto, sans-serif; text-align: center;">
