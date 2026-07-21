@@ -342,10 +342,10 @@
         
 <div class="hot-text-container">
     <p class="hot-phrase-neon">
-        <span class="phrase-fragment f1">DU DÉSIR,</span> 
-        <span class="phrase-fragment f2">DU PLAISIR</span> 
-        <span class="phrase-fragment f3">ET DES KIFFS</span> 
-        <span class="phrase-fragment f4">ENTRE NOUS</span>
+        <span class="phrase-fragment">DU DÉSIR,</span> 
+        <span class="phrase-fragment">DU PLAISIR</span> 
+        <span class="phrase-fragment">ET DES KIFFS</span> 
+        <span class="phrase-fragment">ENTRE NOUS</span>
     </p>
 </div>
 
@@ -360,33 +360,29 @@
         line-height: 1.6;
     }
 
+    /* Le texte est déjà placé dans sa ligne, mais juste transparent */
     .hot-phrase-neon .phrase-fragment {
-        display: inline-block;
+        display: inline; /* "inline" pur oblige Brave à calculer la vraie position dans la ligne */
         opacity: 0;
-        /* Rendu néon pur via gradient (Zero text-shadow = Zero flou sur Brave) */
         background: linear-gradient(135deg, #ff007f 0%, #ff66b2 50%, #ff0055 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: simplePureFade 0.6s ease-in forwards;
-    }
-
-    /* Timings d'apparition */
-    .hot-phrase-neon .f1 { animation-delay: 0.3s; }
-    .hot-phrase-neon .f2 { animation-delay: 1.5s; }
-    .hot-phrase-neon .f3 { animation-delay: 2.7s; }
-    .hot-phrase-neon .f4 { animation-delay: 3.9s; }
-
-    /* Animation d'opacité ultra basique (aucun risque de glitch) */
-    @keyframes simplePureFade {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
+        transition: opacity 0.8s ease-in-out; /* Transition gérée par le navigateur de manière ultra fluide */
     }
 </style>
-    
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const fragments = document.querySelectorAll('.hot-phrase-neon .phrase-fragment');
+        const delays = [300, 1500, 2700, 3900]; // Délais d'apparition en ms
+
+        fragments.forEach((frag, index) => {
+            setTimeout(() => {
+                frag.style.opacity = "1";
+            }, delays[index]);
+        });
+    });
+</script>
     
 
 <div class="vip-nav-container">
