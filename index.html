@@ -84,7 +84,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px;
+            gap: 24px;
         }
 
         /* Boîte du message */
@@ -136,23 +136,25 @@
             animation: blinkCursorV2 0.8s infinite;
         }
 
-        /* Style du Lecteur Vidéo */
+        /* Lecteur Vidéo au format PORTRAIT / SMARTPHONE (9:16) */
         .video-container {
             width: 100%;
+            max-width: 400px;
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 1s ease, transform 1s ease;
             pointer-events: none;
-            border-radius: 20px;
+            border-radius: 28px;
             overflow: hidden;
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 215, 0, 0.15);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            background: rgba(10, 10, 15, 0.8);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.9), 0 0 20px rgba(255, 215, 0, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(10, 10, 15, 0.85);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             position: relative;
-            padding-bottom: 56.25%; /* Ratio 16:9 */
+            padding-bottom: 177.78%; /* Ratio 9:16 parfait pour écran vertical */
             height: 0;
+            margin: 0 auto;
         }
 
         .video-container.show {
@@ -260,9 +262,9 @@
         }
         animateBg();
 
-        // --- Effet Machine à Écrire + Déclenchement de la Vidéo ---
+        // --- Machine à Écrire + Apparition du Lecteur ---
         (function() {
-            const message = "Je te sens gris... Encore plus que d'habitude. Et ça me rend gris mon Romain... Stp, dis moi les raisons. Y'a le taff, ça je le sais. Mais y a autre chose, et stp, ne me dis pas \"les gens\", c'est trop vague.\n\nDonne moi les vraies raisons qui te rendent aussi gris. C'est moi? C'est un autre gars? C'est Kevin? C'est un peu tout ça ?\n\nJe te kiffe trop et ça me tue de cogiter sur tout ça frère. Qui te fait câbler ?";
+            const message = "Je te sens gris... Encore plus que d'habitude. Et ça me rend gris mon Romain... Stp, dis moi les raisons. Y'a le taff, ça je le sais. Mais y a autre chose, et stp, ne me dis pas \"les gens\", c'est trop vague.\n\nDonne moi les vraies raisons qui te rendent aussi gris. C'est moi? C'est un autre gars? C'est Kevin ? C'est un peu tout ça ?\n\nJe te kiffe trop et ça me tue de cogiter sur tout ça frère. Qui te fait câbler ?";
             
             const speed = 35;
             const textContainer = document.getElementById("tw-text-v2");
@@ -283,7 +285,6 @@
                     index++;
                     setTimeout(typeWriter, speed);
                 } else {
-                    // Fin de la frappe du texte -> Affichage fluide de la vidéo
                     setTimeout(() => {
                         videoPlayer.classList.add('show');
                     }, 400);
