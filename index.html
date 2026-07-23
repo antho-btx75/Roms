@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Message</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #050507;
+            color: #f0f0f5;
+            font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Ambient Glow Backgrounds */
+        .glow-1 {
+            position: fixed;
+            top: -10%;
+            left: -10%;
+            width: 70vw;
+            height: 70vw;
+            background: radial-gradient(circle, rgba(120, 50, 255, 0.12) 0%, rgba(0,0,0,0) 70%);
+            border-radius: 50%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .glow-2 {
+            position: fixed;
+            bottom: -10%;
+            right: -10%;
+            width: 80vw;
+            height: 80vw;
+            background: radial-gradient(circle, rgba(235, 60, 100, 0.08) 0%, rgba(0,0,0,0) 70%);
+            border-radius: 50%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* Fixed Header Structure */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 16px;
+            background: linear-gradient(180deg, rgba(5, 5, 7, 0.95) 0%, rgba(5, 5, 7, 0.6) 80%, rgba(5, 5, 7, 0) 100%);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .header-image {
+            width: 100%;
+            max-width: 480px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 1px rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            position: relative;
+        }
+
+        .header-image img {
+            width: 100%;
+            height: auto;
+            max-height: 22vh;
+            object-fit: cover;
+            display: block;
+            filter: brightness(0.9) contrast(1.05);
+        }
+
+        /* Main Content Container */
+        main {
+            width: 100%;
+            max-width: 480px;
+            padding: 0 20px 40px 20px;
+            margin-top: calc(22vh + 40px);
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Status Box styling */
+        .status-message-box-v2 {
+            width: 100%;
+            background: rgba(18, 18, 24, 0.65);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 24px;
+            padding: 24px 22px;
+            color: #e6e6f0;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.65;
+            letter-spacing: 0.01em;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            text-align: left;
+            position: relative;
+            word-wrap: break-word;
+        }
+
+        .status-prompt-v2 {
+            display: inline-block;
+            color: #ffd700;
+            font-weight: 700;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 1.1rem;
+            margin-right: 10px;
+            vertical-align: baseline;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            animation: pulsePromptV2 2s infinite ease-in-out;
+        }
+
+        .typewriter-text-v2 {
+            display: inline;
+        }
+
+        .typewriter-cursor-v2 {
+            display: inline-block;
+            width: 8px;
+            height: 16px;
+            background-color: #ffd700;
+            margin-left: 4px;
+            vertical-align: middle;
+            border-radius: 2px;
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+            animation: blinkCursorV2 0.8s infinite;
+        }
+
+        @keyframes pulsePromptV2 {
+            0%, 100% { opacity: 0.4; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); text-shadow: 0 0 14px rgba(255, 215, 0, 0.8); }
+        }
+
+        @keyframes blinkCursorV2 {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Adjustments for small phone screens */
+        @media (max-height: 667px) {
+            .header-image img {
+                max-height: 18vh;
+            }
+            main {
+                margin-top: calc(18vh + 35px);
+            }
+            .status-message-box-v2 {
+                font-size: 0.95rem;
+                padding: 18px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Ambience -->
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+
+    <!-- Fixed Header -->
+    <header>
+        <div class="header-image">
+            <img src="https://i.ibb.co/qMPSKTWL/Polish-20260719-000105817.png" alt="Header">
+        </div>
+    </header>
+
+    <!-- Main Dynamic Content -->
+    <main>
+        <div class="status-message-box-v2">
+            <span class="status-prompt-v2">&gt;</span><span class="typewriter-text-v2" id="tw-text-v2"></span><span class="typewriter-cursor-v2"></span>
+        </div>
+    </main>
+
+    <script>
+        (function() {
+            const message = "Je te sens gris... Encore plus que d'habitude. Et ça me rend gris mon Romain... Stp, dis moi les raisons. Y'a le taff, ça je le sais. Mais y a autre chose, et stp, ne me dis pas \"les gens\", c'est trop vague.\n\nDonne moi les vraies raisons qui te rendent aussi gris. C'est moi? C'est un autre gars? C'est Kevin? C'est un peu tout ça ?\n\nJe te kiffe trop et ça me tue de cogiter sur tout ça frère. Qui te fait câbler ?";
+            
+            const speed = 35;
+            const textContainer = document.getElementById("tw-text-v2");
+            
+            if (!textContainer) return;
+
+            // Formater les sauts de ligne proprement pour l'affichage HTML
+            const characters = Array.from(message);
+            let index = 0;
+
+            function typeWriter() {
+                if (index < characters.length) {
+                    if (characters[index] === '\n') {
+                        textContainer.appendChild(document.createElement('br'));
+                    } else {
+                        textContainer.appendChild(document.createTextNode(characters[index]));
+                    }
+                    index++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+
+            if (document.readyState === "loading") {
+                document.addEventListener("DOMContentLoaded", () => setTimeout(typeWriter, 500));
+            } else {
+                setTimeout(typeWriter, 500);
+            }
+        })();
+    </script>
+
+</body>
+</html>
