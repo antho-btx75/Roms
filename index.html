@@ -17,7 +17,7 @@
         html, body {
             width: 100%;
             min-height: 100vh;
-            background-color: #050507;
+            background-color: #030305;
             color: #f0f0f5;
             font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
             overflow-x: hidden;
@@ -26,32 +26,20 @@
             align-items: center;
         }
 
-        /* Ambient Glow Backgrounds */
-        .glow-1 {
+        /* Canvas dynamique pour le fond */
+        #bg-canvas {
             position: fixed;
-            top: -10%;
-            left: -10%;
-            width: 70vw;
-            height: 70vw;
-            background: radial-gradient(circle, rgba(120, 50, 255, 0.12) 0%, rgba(0,0,0,0) 70%);
-            border-radius: 50%;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
             z-index: 0;
             pointer-events: none;
+            filter: blur(40px); /* Flou puissant pour un mélange fluide des couleurs */
+            opacity: 0.85;
         }
 
-        .glow-2 {
-            position: fixed;
-            bottom: -10%;
-            right: -10%;
-            width: 80vw;
-            height: 80vw;
-            background: radial-gradient(circle, rgba(235, 60, 100, 0.08) 0%, rgba(0,0,0,0) 70%);
-            border-radius: 50%;
-            z-index: 0;
-            pointer-events: none;
-        }
-
-        /* Fixed Header Structure */
+        /* Header fixe */
         header {
             position: fixed;
             top: 0;
@@ -62,7 +50,7 @@
             justify-content: center;
             align-items: center;
             padding: 12px 16px;
-            background: linear-gradient(180deg, rgba(5, 5, 7, 0.95) 0%, rgba(5, 5, 7, 0.6) 80%, rgba(5, 5, 7, 0) 100%);
+            background: linear-gradient(180deg, rgba(3, 3, 5, 0.92) 0%, rgba(3, 3, 5, 0.5) 80%, rgba(3, 3, 5, 0) 100%);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
         }
@@ -73,7 +61,7 @@
             border-radius: 20px;
             overflow: hidden;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 1px rgba(255, 255, 255, 0.15);
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             position: relative;
         }
 
@@ -86,7 +74,7 @@
             filter: brightness(0.9) contrast(1.05);
         }
 
-        /* Main Content Container */
+        /* Conteneur principal */
         main {
             width: 100%;
             max-width: 480px;
@@ -98,12 +86,12 @@
             align-items: center;
         }
 
-        /* Status Box styling */
+        /* Boîte du message */
         .status-message-box-v2 {
             width: 100%;
-            background: rgba(18, 18, 24, 0.65);
+            background: rgba(14, 14, 20, 0.65);
             border: 1px solid rgba(255, 255, 255, 0.08);
-            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            border-top: 1px solid rgba(255, 255, 255, 0.18);
             border-radius: 24px;
             padding: 24px 22px;
             color: #e6e6f0;
@@ -111,9 +99,9 @@
             font-weight: 400;
             line-height: 1.65;
             letter-spacing: 0.01em;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
             text-align: left;
             position: relative;
             word-wrap: break-word;
@@ -157,7 +145,6 @@
             50% { opacity: 0; }
         }
 
-        /* Adjustments for small phone screens */
         @media (max-height: 667px) {
             .header-image img {
                 max-height: 18vh;
@@ -174,18 +161,14 @@
 </head>
 <body>
 
-    <!-- Background Ambience -->
-    <div class="glow-1"></div>
-    <div class="glow-2"></div>
+    <canvas id="bg-canvas"></canvas>
 
-    <!-- Fixed Header -->
     <header>
         <div class="header-image">
             <img src="https://i.ibb.co/qMPSKTWL/Polish-20260719-000105817.png" alt="Header">
         </div>
     </header>
 
-    <!-- Main Dynamic Content -->
     <main>
         <div class="status-message-box-v2">
             <span class="status-prompt-v2">&gt;</span><span class="typewriter-text-v2" id="tw-text-v2"></span><span class="typewriter-cursor-v2"></span>
@@ -193,15 +176,60 @@
     </main>
 
     <script>
+        // --- Animation du Fond Mouvant ---
+        const canvas = document.getElementById('bg-canvas');
+        const ctx = canvas.getContext('2d');
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        // Orbes de couleur en mouvement
+        const blobs = [
+            { x: Math.random() * canvas.width, y: Math.random() * canvas.height, r: 250, vx: 0.8, vy: 0.6, color: 'rgba(110, 45, 220, 0.35)' },
+            { x: Math.random() * canvas.width, y: Math.random() * canvas.height, r: 300, vx: -0.6, vy: 0.7, color: 'rgba(215, 40, 100, 0.25)' },
+            { x: Math.random() * canvas.width, y: Math.random() * canvas.height, r: 220, vx: 0.5, vy: -0.8, color: 'rgba(30, 80, 180, 0.3)' },
+            { x: Math.random() * canvas.width, y: Math.random() * canvas.height, r: 280, vx: -0.7, vy: -0.5, color: 'rgba(150, 20, 90, 0.2)' }
+        ];
+
+        function animateBg() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            blobs.forEach(b => {
+                b.x += b.vx;
+                b.y += b.vy;
+
+                // Rebond doux sur les bords
+                if (b.x < -100 || b.x > canvas.width + 100) b.vx *= -1;
+                if (b.y < -100 || b.y > canvas.height + 100) b.vy *= -1;
+
+                // Dessin des orbes lumineuses
+                const gradient = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r);
+                gradient.addColorStop(0, b.color);
+                gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+                ctx.fill();
+            });
+
+            requestAnimationFrame(animateBg);
+        }
+        animateBg();
+
+        // --- Effet Machine à Écrire ---
         (function() {
-            const message = "Je te sens gris... Encore plus que d'habitude. Et ça me rend gris mon Romain... Stp, dis moi les raisons. Y'a le taff, ça je le sais. Mais y a autre chose, et stp, ne me dis pas \"les gens\", c'est trop vague.\n\nDonne moi les vraies raisons qui te rendent aussi gris. C'est moi? C'est un autre gars? C'est Kevin? C'est un peu tout ça ?\n\nJe te kiffe trop et ça me tue de cogiter sur tout ça frère. Qui te fait câbler ?";
+            const message = "Je te sens gris... Encore plus que d'habitude. Et ça me rend gris mon Romain... Stp, dis moi les raisons. Y'a le taff, ça je le sais. Mais y a autre chose, et stp, ne me dis pas \"les gens\", c'est trop vague.\n\nDonne moi les vraies raisons qui te rendent aussi gris. C'est moi? C'est un autre gars? C'est un peu tout ça ?\n\nJe te kiffe trop et ça me tue de cogiter sur tout ça frère. Qui te fait câbler ?";
             
             const speed = 35;
             const textContainer = document.getElementById("tw-text-v2");
             
             if (!textContainer) return;
 
-            // Formater les sauts de ligne proprement pour l'affichage HTML
             const characters = Array.from(message);
             let index = 0;
 
