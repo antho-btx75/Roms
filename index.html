@@ -13,7 +13,7 @@
             --bg-color: #08080a;
             --card-bg: rgba(22, 22, 28, 0.65);
             --border-color: rgba(255, 255, 255, 0.08);
-            --accent-color: #a78bfa; /* Violet doux et moderne */
+            --accent-color: #a78bfa;
             --accent-glow: rgba(167, 139, 250, 0.35);
             --text-main: #f3f4f6;
             --text-sub: #9ca3af;
@@ -26,8 +26,14 @@
             -webkit-tap-highlight-color: transparent;
         }
 
+        /* Verrouillage strict du scroll sur la page */
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+        }
+
         body {
-            min-height: 100vh;
             background: var(--bg-color);
             background-image: 
                 radial-gradient(circle at 50% 20%, rgba(167, 139, 250, 0.08) 0%, transparent 50%),
@@ -35,72 +41,78 @@
             color: var(--text-main);
             font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 30px 20px;
+            padding: 16px;
         }
 
         .player-card {
             width: 100%;
-            max-width: 420px;
+            max-width: 440px;
+            max-height: 100vh; /* Ne dépasse jamais la hauteur de la fenêtre */
             background: var(--card-bg);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border: 1px solid var(--border-color);
             border-radius: 24px;
-            padding: 24px;
+            padding: 20px;
             box-shadow: 
                 0 30px 60px -12px rgba(0, 0, 0, 0.5),
                 0 18px 36px -18px rgba(0, 0, 0, 0.7);
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 16px;
         }
 
-        /* Cover Image */
+        /* Conteneur d'image qui s'adapte en hauteur si l'écran est petit */
         .header-image {
             width: 100%;
-            aspect-ratio: 1 / 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border-radius: 16px;
             overflow: hidden;
-            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
-            position: relative;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.2);
+            flex-shrink: 1; /* Permet de réduire l'image si la hauteur d'écran manque */
+            min-height: 0;   /* Nécessaire pour flexbox en cas de réduction */
         }
 
         .header-image img {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
+            height: auto;
+            max-height: 50vh; /* L'image s'ajuste selon la hauteur de l'écran */
+            object-fit: contain;
+            display: block;
         }
 
-        .player-card:hover .header-image img {
-            transform: scale(1.02);
-        }
-
-        /* Title */
         .title {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: var(--text-sub);
             text-align: center;
             font-weight: 500;
             letter-spacing: 0.2px;
             font-style: italic;
+            padding: 0 8px;
+            flex-shrink: 0;
         }
 
-        /* Custom Audio Player Controls */
+        /* Player fixe */
         .audio-player {
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            gap: 14px;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 14px 16px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            flex-shrink: 0;
         }
 
-        /* Timeline / Progress Bar */
         .timeline-container {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
             cursor: pointer;
             padding: 4px 0;
         }
@@ -111,7 +123,6 @@
             background: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
             position: relative;
-            overflow: visible;
         }
 
         .progress-bar-fill {
@@ -120,15 +131,14 @@
             background: var(--accent-color);
             border-radius: 10px;
             position: relative;
-            box-shadow: 0 0 12px var(--accent-glow);
+            box-shadow: 0 0 10px var(--accent-glow);
             transition: width 0.1s linear;
         }
 
-        /* Handle/Thumb */
         .progress-bar-fill::after {
             content: '';
             position: absolute;
-            right: -6px;
+            right: -7px;
             top: 50%;
             transform: translateY(-50%) scale(0);
             width: 14px;
@@ -148,16 +158,14 @@
             justify-content: space-between;
             font-size: 0.75rem;
             color: var(--text-sub);
-            font-weight: 500;
+            font-family: monospace;
         }
 
-        /* Controls Row */
         .controls {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 20px;
-            margin-top: 4px;
         }
 
         .btn {
@@ -174,33 +182,30 @@
 
         .btn:hover {
             color: var(--text-main);
-            transform: scale(1.08);
+            transform: scale(1.1);
         }
 
         .btn-play {
-            width: 52px;
-            height: 52px;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             background: var(--accent-color);
             color: #08080a;
-            box-shadow: 0 4px 20px var(--accent-glow);
+            box-shadow: 0 4px 15px var(--accent-glow);
         }
 
         .btn-play:hover {
-            transform: scale(1.05);
             background: #b89fff;
-            color: #08080a;
         }
 
         .btn-play svg {
-            width: 22px;
-            height: 22px;
+            width: 20px;
+            height: 20px;
             fill: currentColor;
-            margin-left: 2px; /* Center play icon visually */
         }
 
-        .btn-play.playing svg {
-            margin-left: 0;
+        .btn-play:not(.playing) svg {
+            margin-left: 3px;
         }
 
         .btn-skip svg {
@@ -213,22 +218,18 @@
 <body>
 
     <div class="player-card">
-        <!-- Visual / Image -->
         <div class="header-image">
             <img src="https://i.ibb.co/qMPSKTWL/Polish-20260719-000105817.png" alt="GRIS">
         </div>
 
-        <!-- Title -->
         <p class="title">« Un jour peut-être, mon gars... »</p>
 
-        <!-- Custom Player -->
         <div class="audio-player">
             <audio id="audio-element" preload="metadata">
                 <source src="https://audio.jukehost.co.uk/019f954e-3bc7-727b-9298-08d31d7b0995" type="audio/mpeg">
                 Votre navigateur ne supporte pas l'audio.
             </audio>
 
-            <!-- Timeline -->
             <div class="timeline-container" id="timeline">
                 <div class="progress-bar-bg">
                     <div class="progress-bar-fill" id="progress-fill"></div>
@@ -239,7 +240,6 @@
                 </div>
             </div>
 
-            <!-- Controls -->
             <div class="controls">
                 <button class="btn btn-skip" id="rewind-btn" title="-10s">
                     <svg viewBox="0 0 24 24"><path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8z"/></svg>
@@ -267,11 +267,9 @@
         const rewindBtn = document.getElementById('rewind-btn');
         const forwardBtn = document.getElementById('forward-btn');
 
-        // SVG Icons
         const playSvg = '<path d="M8 5v14l11-7z"/>';
         const pauseSvg = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
 
-        // Play / Pause Toggle
         playBtn.addEventListener('click', () => {
             if (audio.paused) {
                 audio.play();
@@ -290,19 +288,20 @@
             playBtn.classList.remove('playing');
         });
 
-        // Format Seconds to MM:SS
         function formatTime(seconds) {
             const min = Math.floor(seconds / 60);
             const sec = Math.floor(seconds % 60);
             return `${min}:${sec < 10 ? '0' : ''}${sec}`;
         }
 
-        // Set Duration metadata
         audio.addEventListener('loadedmetadata', () => {
             durationEl.textContent = formatTime(audio.duration);
         });
 
-        // Update Progress Bar
+        if (audio.readyState >= 1) {
+            durationEl.textContent = formatTime(audio.duration);
+        }
+
         audio.addEventListener('timeupdate', () => {
             if (!audio.duration) return;
             const progress = (audio.currentTime / audio.duration) * 100;
@@ -310,10 +309,14 @@
             currentTimeEl.textContent = formatTime(audio.currentTime);
         });
 
-        // Seek Audio
         function setAudioProgress(e) {
             const rect = timeline.getBoundingClientRect();
-            const clickX = e.clientX - rect.left;
+            let clickX;
+            if (e.touches) {
+                clickX = e.touches[0].clientX - rect.left;
+            } else {
+                clickX = e.clientX - rect.left;
+            }
             const width = rect.width;
             const percentage = Math.max(0, Math.min(1, clickX / width));
             
@@ -327,25 +330,24 @@
             isDragging = true;
             setAudioProgress(e);
         });
-
         window.addEventListener('mousemove', (e) => {
             if (isDragging) setAudioProgress(e);
         });
-
         window.addEventListener('mouseup', () => {
             isDragging = false;
         });
 
-        // Touch support for mobile
         timeline.addEventListener('touchstart', (e) => {
-            setAudioProgress(e.touches[0]);
+            isDragging = true;
+            setAudioProgress(e);
         }, { passive: true });
-
-        timeline.addEventListener('touchmove', (e) => {
-            setAudioProgress(e.touches[0]);
+        window.addEventListener('touchmove', (e) => {
+            if (isDragging) setAudioProgress(e);
         }, { passive: true });
+        window.addEventListener('touchend', () => {
+            isDragging = false;
+        });
 
-        // Skip buttons (-10s / +10s)
         rewindBtn.addEventListener('click', () => {
             audio.currentTime = Math.max(0, audio.currentTime - 10);
         });
