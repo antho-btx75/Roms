@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Un jour peut-être, mon gars...</title>
+    <title>Un jour on sera red</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -28,7 +28,6 @@
             -webkit-tap-highlight-color: transparent;
         }
 
-        /* Empêche le défilement vertical */
         html, body {
             width: 100%;
             height: 100%;
@@ -66,7 +65,6 @@
             gap: 14px;
         }
 
-        /* L'image conserve ses proportions sans coupe */
         .header-image {
             width: 100%;
             display: flex;
@@ -89,17 +87,15 @@
         }
 
         .title {
-            font-size: 1rem;
-            color: var(--text-sub);
+            font-size: 1.15rem;
+            color: #c4b5fd;
             text-align: center;
-            font-weight: 500;
-            letter-spacing: 0.2px;
-            font-style: italic;
+            font-weight: 600;
+            letter-spacing: 0.3px;
             padding: 0 8px;
             flex-shrink: 0;
         }
 
-        /* Lecteur audio personnalisé */
         .audio-player {
             display: flex;
             flex-direction: column;
@@ -216,7 +212,6 @@
             fill: currentColor;
         }
 
-        /* Texte du sanctuaire */
         .sanctuaire-link {
             text-align: center;
             font-size: 0.88rem;
@@ -243,22 +238,18 @@
 <body>
 
     <div class="player-card">
-        <!-- Image de couverture -->
         <div class="header-image">
             <img src="https://i.ibb.co/qMPSKTWL/Polish-20260719-000105817.png" alt="GRIS">
         </div>
 
-        <!-- Titre -->
-        <p class="title">« Un jour peut-être, mon gars... »</p>
+        <p class="title">Un jour on sera red</p>
 
-        <!-- Lecteur sur-mesure -->
         <div class="audio-player">
             <audio id="audio-element" preload="metadata">
-                <source src="https://audio.jukehost.co.uk/019f954e-3bc7-727b-9298-08d31d7b0995" type="audio/mpeg">
+                <source src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" type="audio/mpeg">
                 Votre navigateur ne supporte pas l'audio.
             </audio>
 
-            <!-- Timeline interactive -->
             <div class="timeline-container" id="timeline">
                 <div class="progress-bar-bg">
                     <div class="progress-bar-fill" id="progress-fill"></div>
@@ -269,7 +260,6 @@
                 </div>
             </div>
 
-            <!-- Commandes -->
             <div class="controls">
                 <button class="btn btn-skip" id="rewind-btn" title="-10s">
                     <svg viewBox="0 0 24 24"><path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8z"/></svg>
@@ -285,7 +275,6 @@
             </div>
         </div>
 
-        <!-- Texte & Lien -->
         <p class="sanctuaire-link">
             Je suis ton gars sûr mon Roms, même gris je veux que tu gardes l'accès de 
             <a href="https://antho-btx75.github.io/Roms/mongava" target="_blank">notre sanctuaire</a>.
@@ -306,6 +295,14 @@
         const playSvg = '<path d="M8 5v14l11-7z"/>';
         const pauseSvg = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
 
+        function formatTime(seconds) {
+            if (isNaN(seconds) || !isFinite(seconds)) return "0:00";
+            const min = Math.floor(seconds / 60);
+            const sec = Math.floor(seconds % 60);
+            return min + ":" + (sec < 10 ? "0" : "") + sec;
+        }
+
+        // Gestion Play / Pause
         playBtn.addEventListener('click', () => {
             if (audio.paused) {
                 audio.play();
@@ -324,12 +321,7 @@
             playBtn.classList.remove('playing');
         });
 
-        function formatTime(seconds) {
-            const min = Math.floor(seconds / 60);
-            const sec = Math.floor(seconds % 60);
-            return `${min}:${sec < 10 ? '0' : ''}${sec}`;
-        }
-
+        // Durée initiale
         audio.addEventListener('loadedmetadata', () => {
             durationEl.textContent = formatTime(audio.duration);
         });
@@ -338,17 +330,30 @@
             durationEl.textContent = formatTime(audio.duration);
         }
 
+        // Avancement de la lecture
         audio.addEventListener('timeupdate', () => {
             if (!audio.duration) return;
             const progress = (audio.currentTime / audio.duration) * 100;
-            progressFill.style.width = `${progress}%`;
+            progressFill.style.width = progress + "%";
             currentTimeEl.textContent = formatTime(audio.currentTime);
         });
 
+        // Boutons -10s / +10s
+        rewindBtn.addEventListener('click', () => {
+            audio.currentTime = Math.max(0, audio.currentTime - 10);
+        });
+
+        forwardBtn.addEventListener('click', () => {
+            if (audio.duration) {
+                audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
+            }
+        });
+
+        // Navigation dans la timeline (Clic et Drag)
         function setAudioProgress(e) {
             const rect = timeline.getBoundingClientRect();
             let clickX;
-            if (e.touches) {
+            if (e.touches && e.touches.length > 0) {
                 clickX = e.touches[0].clientX - rect.left;
             } else {
                 clickX = e.clientX - rect.left;
@@ -362,13 +367,16 @@
         }
 
         let isDragging = false;
+
         timeline.addEventListener('mousedown', (e) => {
             isDragging = true;
             setAudioProgress(e);
         });
+        
         window.addEventListener('mousemove', (e) => {
             if (isDragging) setAudioProgress(e);
         });
+        
         window.addEventListener('mouseup', () => {
             isDragging = false;
         });
@@ -376,20 +384,14 @@
         timeline.addEventListener('touchstart', (e) => {
             isDragging = true;
             setAudioProgress(e);
-        }, { passive: true });
+        });
+
         window.addEventListener('touchmove', (e) => {
             if (isDragging) setAudioProgress(e);
-        }, { passive: true });
+        });
+
         window.addEventListener('touchend', () => {
             isDragging = false;
-        });
-
-        rewindBtn.addEventListener('click', () => {
-            audio.currentTime = Math.max(0, audio.currentTime - 10);
-        });
-
-        forwardBtn.addEventListener('click', () => {
-            audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
         });
     </script>
 </body>
