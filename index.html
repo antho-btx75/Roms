@@ -62,7 +62,8 @@
                 0 18px 36px -18px rgba(0, 0, 0, 0.7);
             display: flex;
             flex-direction: column;
-            gap: 14px;
+            gap: 12px;
+            overflow-y: auto;
         }
 
         .header-image {
@@ -81,7 +82,7 @@
         .header-image img {
             width: 100%;
             height: auto;
-            max-height: 42vh;
+            max-height: 36vh;
             object-fit: contain;
             display: block;
         }
@@ -96,6 +97,7 @@
             flex-shrink: 0;
         }
 
+        /* --- LECTEUR PRINCIPAL --- */
         .audio-player {
             display: flex;
             flex-direction: column;
@@ -233,6 +235,103 @@
             color: var(--link-hover);
             border-bottom-color: var(--link-hover);
         }
+
+        /* --- SECOND LECTEUR (MINI / REMINDER) --- */
+        .mini-player-container {
+            margin-top: 4px;
+            padding: 10px 12px;
+            background: rgba(0, 0, 0, 0.18);
+            border-radius: 12px;
+            border: 1px dashed rgba(255, 255, 255, 0.08);
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .mini-player-container:hover {
+            opacity: 1;
+        }
+
+        .mini-title {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: rgba(156, 163, 175, 0.7);
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .mini-player-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-mini-play {
+            width: 28px;
+            height: 28px;
+            min-width: 28px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.12);
+            color: var(--text-sub);
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .btn-mini-play:hover {
+            background: rgba(255, 255, 255, 0.25);
+            color: var(--text-main);
+            transform: scale(1.05);
+        }
+
+        .btn-mini-play svg {
+            width: 12px;
+            height: 12px;
+            fill: currentColor;
+        }
+
+        .btn-mini-play:not(.playing) svg {
+            margin-left: 2px;
+        }
+
+        .mini-timeline-container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            cursor: pointer;
+        }
+
+        .mini-progress-bar-bg {
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .mini-progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: rgba(167, 139, 250, 0.6);
+            border-radius: 4px;
+            transition: width 0.1s linear;
+        }
+
+        .mini-time-stamps {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.65rem;
+            color: rgba(156, 163, 175, 0.6);
+            font-family: monospace;
+        }
     </style>
 </head>
 <body>
@@ -244,6 +343,7 @@
 
         <p class="title">Un jour on sera red</p>
 
+        <!-- Lecteur principal -->
         <div class="audio-player">
             <audio id="audio-element" preload="metadata">
                 <source src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" type="audio/mpeg">
@@ -279,19 +379,32 @@
             Je suis ton gars sûr mon Roms, même gris je veux que tu gardes l'accès de 
             <a href="https://antho-btx75.github.io/Roms/mongava" target="_blank">notre sanctuaire</a>.
         </p>
+
+        <!-- Second lecteur compact (Reminder) -->
+        <div class="mini-player-container">
+            <span class="mini-title">Le gris ça pète les couilles</span>
+            <div class="mini-player-controls">
+                <button class="btn-mini-play" id="mini-play-btn" title="Lecture">
+                    <svg id="mini-play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="mini-timeline-container" id="mini-timeline">
+                    <div class="mini-progress-bar-bg">
+                        <div class="mini-progress-bar-fill" id="mini-progress-fill"></div>
+                    </div>
+                    <div class="mini-time-stamps">
+                        <span id="mini-current-time">0:00</span>
+                        <span id="mini-duration">0:00</span>
+                    </div>
+                </div>
+            </div>
+            <audio id="mini-audio-element" preload="metadata">
+                <source src="https://audio.jukehost.co.uk/019f954e-3bc7-727b-9298-08d31d7b0995" type="audio/mpeg">
+            </audio>
+        </div>
     </div>
 
     <script>
-        const audio = document.getElementById('audio-element');
-        const playBtn = document.getElementById('play-btn');
-        const playIcon = document.getElementById('play-icon');
-        const timeline = document.getElementById('timeline');
-        const progressFill = document.getElementById('progress-fill');
-        const currentTimeEl = document.getElementById('current-time');
-        const durationEl = document.getElementById('duration');
-        const rewindBtn = document.getElementById('rewind-btn');
-        const forwardBtn = document.getElementById('forward-btn');
-
+        // --- SVG HELPER ---
         const playSvg = '<path d="M8 5v14l11-7z"/>';
         const pauseSvg = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
 
@@ -302,9 +415,20 @@
             return min + ":" + (sec < 10 ? "0" : "") + sec;
         }
 
-        // Gestion Play / Pause
+        // --- LECTEUR PRINCIPAL ---
+        const audio = document.getElementById('audio-element');
+        const playBtn = document.getElementById('play-btn');
+        const playIcon = document.getElementById('play-icon');
+        const timeline = document.getElementById('timeline');
+        const progressFill = document.getElementById('progress-fill');
+        const currentTimeEl = document.getElementById('current-time');
+        const durationEl = document.getElementById('duration');
+        const rewindBtn = document.getElementById('rewind-btn');
+        const forwardBtn = document.getElementById('forward-btn');
+
         playBtn.addEventListener('click', () => {
             if (audio.paused) {
+                miniAudio.pause(); // Met en pause le second lecteur si actif
                 audio.play();
             } else {
                 audio.pause();
@@ -321,16 +445,11 @@
             playBtn.classList.remove('playing');
         });
 
-        // Durée initiale
         audio.addEventListener('loadedmetadata', () => {
             durationEl.textContent = formatTime(audio.duration);
         });
+        if (audio.readyState >= 1) durationEl.textContent = formatTime(audio.duration);
 
-        if (audio.readyState >= 1) {
-            durationEl.textContent = formatTime(audio.duration);
-        }
-
-        // Avancement de la lecture
         audio.addEventListener('timeupdate', () => {
             if (!audio.duration) return;
             const progress = (audio.currentTime / audio.duration) * 100;
@@ -338,61 +457,83 @@
             currentTimeEl.textContent = formatTime(audio.currentTime);
         });
 
-        // Boutons -10s / +10s
         rewindBtn.addEventListener('click', () => {
             audio.currentTime = Math.max(0, audio.currentTime - 10);
         });
 
         forwardBtn.addEventListener('click', () => {
-            if (audio.duration) {
-                audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
-            }
+            if (audio.duration) audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
         });
 
-        // Navigation dans la timeline (Clic et Drag)
         function setAudioProgress(e) {
             const rect = timeline.getBoundingClientRect();
-            let clickX;
-            if (e.touches && e.touches.length > 0) {
-                clickX = e.touches[0].clientX - rect.left;
-            } else {
-                clickX = e.clientX - rect.left;
-            }
-            const width = rect.width;
-            const percentage = Math.max(0, Math.min(1, clickX / width));
-            
-            if (audio.duration) {
-                audio.currentTime = percentage * audio.duration;
-            }
+            const clickX = e.touches ? e.touches[0].clientX - rect.left : e.clientX - rect.left;
+            const percentage = Math.max(0, Math.min(1, clickX / rect.width));
+            if (audio.duration) audio.currentTime = percentage * audio.duration;
         }
 
         let isDragging = false;
+        timeline.addEventListener('mousedown', (e) => { isDragging = true; setAudioProgress(e); });
+        window.addEventListener('mousemove', (e) => { if (isDragging) setAudioProgress(e); });
+        window.addEventListener('mouseup', () => { isDragging = false; });
+        timeline.addEventListener('touchstart', (e) => { isDragging = true; setAudioProgress(e); });
+        window.addEventListener('touchmove', (e) => { if (isDragging) setAudioProgress(e); });
+        window.addEventListener('touchend', () => { isDragging = false; });
 
-        timeline.addEventListener('mousedown', (e) => {
-            isDragging = true;
-            setAudioProgress(e);
-        });
-        
-        window.addEventListener('mousemove', (e) => {
-            if (isDragging) setAudioProgress(e);
-        });
-        
-        window.addEventListener('mouseup', () => {
-            isDragging = false;
+        // --- SECOND LECTEUR (MINI) ---
+        const miniAudio = document.getElementById('mini-audio-element');
+        const miniPlayBtn = document.getElementById('mini-play-btn');
+        const miniPlayIcon = document.getElementById('mini-play-icon');
+        const miniTimeline = document.getElementById('mini-timeline');
+        const miniProgressFill = document.getElementById('mini-progress-fill');
+        const miniCurrentTimeEl = document.getElementById('mini-current-time');
+        const miniDurationEl = document.getElementById('mini-duration');
+
+        miniPlayBtn.addEventListener('click', () => {
+            if (miniAudio.paused) {
+                audio.pause(); // Met en pause le lecteur principal si actif
+                miniAudio.play();
+            } else {
+                miniAudio.pause();
+            }
         });
 
-        timeline.addEventListener('touchstart', (e) => {
-            isDragging = true;
-            setAudioProgress(e);
+        miniAudio.addEventListener('play', () => {
+            miniPlayIcon.innerHTML = pauseSvg;
+            miniPlayBtn.classList.add('playing');
         });
 
-        window.addEventListener('touchmove', (e) => {
-            if (isDragging) setAudioProgress(e);
+        miniAudio.addEventListener('pause', () => {
+            miniPlayIcon.innerHTML = playSvg;
+            miniPlayBtn.classList.remove('playing');
         });
 
-        window.addEventListener('touchend', () => {
-            isDragging = false;
+        miniAudio.addEventListener('loadedmetadata', () => {
+            miniDurationEl.textContent = formatTime(miniAudio.duration);
         });
+        if (miniAudio.readyState >= 1) miniDurationEl.textContent = formatTime(miniAudio.duration);
+
+        miniAudio.addEventListener('timeupdate', () => {
+            if (!miniAudio.duration) return;
+            const progress = (miniAudio.currentTime / miniAudio.duration) * 100;
+            miniProgressFill.style.width = progress + "%";
+            miniCurrentTimeEl.textContent = formatTime(miniAudio.currentTime);
+        });
+
+        function setMiniAudioProgress(e) {
+            const rect = miniTimeline.getBoundingClientRect();
+            const clickX = e.touches ? e.touches[0].clientX - rect.left : e.clientX - rect.left;
+            const percentage = Math.max(0, Math.min(1, clickX / rect.width));
+            if (miniAudio.duration) miniAudio.currentTime = percentage * miniAudio.duration;
+        }
+
+        let isMiniDragging = false;
+        miniTimeline.addEventListener('mousedown', (e) => { isMiniDragging = true; setMiniAudioProgress(e); });
+        window.addEventListener('mousemove', (e) => { if (isMiniDragging) setMiniAudioProgress(e); });
+        window.addEventListener('mouseup', () => { isMiniDragging = false; });
+        miniTimeline.addEventListener('touchstart', (e) => { isMiniDragging = true; setMiniAudioProgress(e); });
+        window.addEventListener('touchmove', (e) => { if (isMiniDragging) setMiniAudioProgress(e); });
+        window.addEventListener('touchend', () => { isMiniDragging = false; });
     </script>
 </body>
 </html>
