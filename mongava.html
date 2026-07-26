@@ -451,8 +451,8 @@
         <span class="status-prompt-v2">&gt;</span><span class="typewriter-text-v2" id="tw-text-v2"></span><span class="typewriter-cursor-v2"></span>
     </div>
 
-    <!-- Player ultra minimaliste -->
-    <div class="mini-audio-player">
+    <!-- Player ultra minimaliste (caché au départ) -->
+    <div class="mini-audio-player" id="flash-player" style="display: none;">
         <button id="flash-play-btn" class="flash-play-btn" title="Écouter">
             <i class="fas fa-play" id="flash-play-icon"></i>
         </button>
@@ -488,7 +488,7 @@
     }
 
     .message-text {
-        margin-bottom: 12px;
+        margin-bottom: 0;
     }
 
     .status-prompt-v2 {
@@ -523,9 +523,15 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-top: 4px;
-        padding: 6px 4px 2px;
+        margin-top: 14px;
+        padding-top: 12px;
         border-top: 1px solid rgba(255, 215, 0, 0.12);
+        animation: fadeInPlayer 0.5s ease;
+    }
+
+    @keyframes fadeInPlayer {
+        from { opacity: 0; transform: translateY(6px); }
+        to { opacity: 1; transform: translateY(0); }
     }
 
     .flash-play-btn {
@@ -588,26 +594,32 @@
 
 <script>
     (function() {
-        // Typewriter
         const message = "Bonne soirée mec ! T'es mon Roms... et je suis TON Antho. Bon j'ai dit que j'arrêtais les trucs trop sentimental, mais je te kiffe trop bro désolé 😅💕\n\nT'es ma personne préférée, y'a qu'avec toi que je me sens bien, et je veux tout te donner mon gars.";
         const speed = 35;
         const textContainer = document.getElementById("tw-text-v2");
+        const player = document.getElementById("flash-player");
         
-        if (textContainer) {
-            const characters = Array.from(message);
-            let index = 0;
+        if (!textContainer) return;
 
-            function typeWriter() {
-                if (index < characters.length) {
-                    textContainer.textContent += characters[index];
-                    index++;
-                    setTimeout(typeWriter, speed);
-                }
+        const characters = Array.from(message);
+        let index = 0;
+
+        function typeWriter() {
+            if (index < characters.length) {
+                textContainer.textContent += characters[index];
+                index++;
+                setTimeout(typeWriter, speed);
+            } else {
+                // Le texte est fini → on affiche le player
+                setTimeout(() => {
+                    player.style.display = "flex";
+                }, 400);
             }
-            setTimeout(typeWriter, 300);
         }
 
-        // Player minimaliste
+        setTimeout(typeWriter, 300);
+
+        // ===== PLAYER =====
         const audio = document.getElementById('flash-audio');
         const playBtn = document.getElementById('flash-play-btn');
         const playIcon = document.getElementById('flash-play-icon');
@@ -647,7 +659,6 @@
             progressBar.style.width = "0%";
         });
 
-        // Clic sur la barre de progression
         progressContainer.addEventListener('click', (e) => {
             const rect = progressContainer.getBoundingClientRect();
             const percent = (e.clientX - rect.left) / rect.width;
