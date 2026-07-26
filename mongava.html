@@ -445,9 +445,26 @@
     Je te kiffe de fou mon gars <i class="fa-solid fa-gem"></i>
 </h1>
 
-<!-- Zone de Message Évolutif (version Console avec > doré) -->
+<!-- Zone de Message Évolutif (version Console avec > doré) + Player minimaliste -->
 <div class="status-message-box-v2">
-    <span class="status-prompt-v2">&gt;</span><span class="typewriter-text-v2" id="tw-text-v2"></span><span class="typewriter-cursor-v2"></span>
+    <div class="message-text">
+        <span class="status-prompt-v2">&gt;</span><span class="typewriter-text-v2" id="tw-text-v2"></span><span class="typewriter-cursor-v2"></span>
+    </div>
+
+    <!-- Player ultra minimaliste -->
+    <div class="mini-audio-player">
+        <button id="flash-play-btn" class="flash-play-btn" title="Écouter">
+            <i class="fas fa-play" id="flash-play-icon"></i>
+        </button>
+        <div class="flash-progress-container" id="flash-progress">
+            <div class="flash-progress-bar" id="flash-progress-bar"></div>
+        </div>
+        <span class="flash-time" id="flash-time">0:00</span>
+    </div>
+
+    <audio id="flash-audio" preload="metadata">
+        <source src="https://audio.jukehost.co.uk/019fa017-4472-712a-95c8-7b00fae716b5" type="audio/mpeg">
+    </audio>
 </div>
 
 <style>
@@ -458,7 +475,7 @@
         background: rgba(15, 13, 10, 0.7);
         border: 1px solid rgba(255, 215, 0, 0.2);
         border-radius: 30px;
-        padding: 10px 18px;
+        padding: 12px 18px 14px;
         color: #f0e6d2;
         font-size: 0.82rem;
         font-weight: 500;
@@ -470,7 +487,10 @@
         box-sizing: border-box;
     }
 
-    /* Le chevron console > doré et clignotant */
+    .message-text {
+        margin-bottom: 12px;
+    }
+
     .status-prompt-v2 {
         display: inline-block;
         color: #ffd700;
@@ -487,7 +507,6 @@
         display: inline;
     }
 
-    /* Le carré blanc reste parfaitement collé */
     .typewriter-cursor-v2 {
         display: inline-block;
         width: 6px;
@@ -499,7 +518,63 @@
         animation: blinkCursorV2 0.7s infinite;
     }
 
-    /* Animation de pulsation lumineuse sur le > */
+    /* ===== PLAYER MINIMALISTE ===== */
+    .mini-audio-player {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 4px;
+        padding: 6px 4px 2px;
+        border-top: 1px solid rgba(255, 215, 0, 0.12);
+    }
+
+    .flash-play-btn {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: rgba(255, 215, 0, 0.15);
+        border: 1px solid rgba(255, 215, 0, 0.35);
+        color: #ffd700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        flex-shrink: 0;
+        transition: all 0.2s ease;
+        font-size: 0.7rem;
+    }
+
+    .flash-play-btn:hover {
+        background: rgba(255, 215, 0, 0.25);
+        transform: scale(1.08);
+    }
+
+    .flash-progress-container {
+        flex-grow: 1;
+        height: 4px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .flash-progress-bar {
+        height: 100%;
+        width: 0%;
+        background: #ffd700;
+        border-radius: 4px;
+        transition: width 0.1s linear;
+        box-shadow: 0 0 6px rgba(255, 215, 0, 0.5);
+    }
+
+    .flash-time {
+        font-size: 0.68rem;
+        color: rgba(240, 230, 210, 0.6);
+        font-family: monospace;
+        min-width: 32px;
+        text-align: right;
+    }
+
     @keyframes pulsePromptV2 {
         0%, 100% { opacity: 0.5; transform: scale(1); text-shadow: 0 0 4px #ffd700; }
         50% { opacity: 1; transform: scale(1.15); text-shadow: 0 0 12px #ffd700, 0 0 18px #ffd700; }
@@ -513,28 +588,71 @@
 
 <script>
     (function() {
-        const message = "Bon dimanche mon gaaars ! T'es mon Roms... et je suis TON Antho. Bon j'ai dit que j'arrêtais les trucs trop sentimental, mais je te kiffe trop bro désolé 😅💕\n\nT'es ma personne préférée, y'a qu'avec toi que je me sens bien, et je veux tout te donner mon gars."
+        // Typewriter
+        const message = "Bonne soirée mec ! T'es mon Roms... et je suis TON Antho. Bon j'ai dit que j'arrêtais les trucs trop sentimental, mais je te kiffe trop bro désolé 😅💕\n\nT'es ma personne préférée, y'a qu'avec toi que je me sens bien, et je veux tout te donner mon gars.";
         const speed = 35;
         const textContainer = document.getElementById("tw-text-v2");
         
-        if (!textContainer) return;
-        
-        const characters = Array.from(message);
-        let index = 0;
+        if (textContainer) {
+            const characters = Array.from(message);
+            let index = 0;
 
-        function typeWriter() {
-            if (index < characters.length) {
-                textContainer.textContent += characters[index];
-                index++;
-                setTimeout(typeWriter, speed);
+            function typeWriter() {
+                if (index < characters.length) {
+                    textContainer.textContent += characters[index];
+                    index++;
+                    setTimeout(typeWriter, speed);
+                }
             }
-        }
-
-        if (document.readyState === "loading") {
-            document.addEventListener("DOMContentLoaded", () => setTimeout(typeWriter, 300));
-        } else {
             setTimeout(typeWriter, 300);
         }
+
+        // Player minimaliste
+        const audio = document.getElementById('flash-audio');
+        const playBtn = document.getElementById('flash-play-btn');
+        const playIcon = document.getElementById('flash-play-icon');
+        const progressBar = document.getElementById('flash-progress-bar');
+        const progressContainer = document.getElementById('flash-progress');
+        const timeDisplay = document.getElementById('flash-time');
+
+        function formatTime(seconds) {
+            if (isNaN(seconds)) return "0:00";
+            const min = Math.floor(seconds / 60);
+            const sec = Math.floor(seconds % 60);
+            return min + ":" + (sec < 10 ? "0" : "") + sec;
+        }
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playIcon.classList.remove('fa-play');
+                playIcon.classList.add('fa-pause');
+            } else {
+                audio.pause();
+                playIcon.classList.remove('fa-pause');
+                playIcon.classList.add('fa-play');
+            }
+        });
+
+        audio.addEventListener('timeupdate', () => {
+            if (!audio.duration) return;
+            const percent = (audio.currentTime / audio.duration) * 100;
+            progressBar.style.width = percent + "%";
+            timeDisplay.textContent = formatTime(audio.currentTime);
+        });
+
+        audio.addEventListener('ended', () => {
+            playIcon.classList.remove('fa-pause');
+            playIcon.classList.add('fa-play');
+            progressBar.style.width = "0%";
+        });
+
+        // Clic sur la barre de progression
+        progressContainer.addEventListener('click', (e) => {
+            const rect = progressContainer.getBoundingClientRect();
+            const percent = (e.clientX - rect.left) / rect.width;
+            audio.currentTime = percent * audio.duration;
+        });
     })();
 </script>
     
