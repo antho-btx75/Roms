@@ -453,6 +453,9 @@
 
     <!-- Player ultra minimaliste (caché au départ) -->
     <div class="mini-audio-player" id="flash-player" style="display: none;">
+        <span style="font-size: 0.72rem; color: rgba(255, 215, 0, 0.75); letter-spacing: 0.3px; margin-bottom: 6px; display: block;">
+    Un jour on sera red mon gars
+</span>
         <button id="flash-play-btn" class="flash-play-btn" title="Écouter">
             <i class="fas fa-play" id="flash-play-icon"></i>
         </button>
@@ -521,6 +524,7 @@
     /* ===== PLAYER MINIMALISTE ===== */
     .mini-audio-player {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         gap: 10px;
         margin-top: 14px;
