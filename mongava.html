@@ -463,7 +463,7 @@
     </div>
 
     <audio id="flash-audio" preload="metadata">
-        <source src="https://audio.jukehost.co.uk/019fa017-4472-712a-95c8-7b00fae716b5" type="audio/mpeg">
+        <source src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" type="audio/mpeg">
     </audio>
 </div>
 
@@ -557,11 +557,12 @@
 
     .flash-progress-container {
         flex-grow: 1;
-        height: 4px;
-        background: rgba(255, 255, 255, 0.1);
+        height: 5px;
+        background: rgba(255, 255, 255, 0.12);
         border-radius: 4px;
         cursor: pointer;
-        overflow: hidden;
+        position: relative;
+        overflow: visible;
     }
 
     .flash-progress-bar {
@@ -569,8 +570,30 @@
         width: 0%;
         background: #ffd700;
         border-radius: 4px;
+        position: relative;
         transition: width 0.1s linear;
         box-shadow: 0 0 6px rgba(255, 215, 0, 0.5);
+    }
+
+    /* Bille de lecture */
+    .flash-progress-bar::after {
+        content: '';
+        position: absolute;
+        right: -6px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 12px;
+        background: #ffd700;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    }
+
+    .flash-progress-container:hover .flash-progress-bar::after,
+    .flash-progress-container.dragging .flash-progress-bar::after {
+        opacity: 1;
     }
 
     .flash-time {
@@ -610,7 +633,6 @@
                 index++;
                 setTimeout(typeWriter, speed);
             } else {
-                // Le texte est fini → on affiche le player
                 setTimeout(() => {
                     player.style.display = "flex";
                 }, 400);
@@ -628,7 +650,7 @@
         const timeDisplay = document.getElementById('flash-time');
 
         function formatTime(seconds) {
-            if (isNaN(seconds)) return "0:00";
+            if (isNaN(seconds) || !isFinite(seconds)) return "0:00";
             const min = Math.floor(seconds / 60);
             const sec = Math.floor(seconds % 60);
             return min + ":" + (sec < 10 ? "0" : "") + sec;
@@ -659,10 +681,47 @@
             progressBar.style.width = "0%";
         });
 
-        progressContainer.addEventListener('click', (e) => {
+        // Contrôle de la bille (clic + drag)
+        function seek(e) {
             const rect = progressContainer.getBoundingClientRect();
-            const percent = (e.clientX - rect.left) / rect.width;
-            audio.currentTime = percent * audio.duration;
+            let clientX = e.clientX || (e.touches && e.touches[0].clientX);
+            const percent = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+            if (audio.duration) {
+                audio.currentTime = percent * audio.duration;
+            }
+        }
+
+        let isDragging = false;
+
+        progressContainer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            progressContainer.classList.add('dragging');
+            seek(e);
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (isDragging) seek(e);
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+            progressContainer.classList.remove('dragging');
+        });
+
+        // Support tactile
+        progressContainer.addEventListener('touchstart', (e) => {
+            isDragging = true;
+            progressContainer.classList.add('dragging');
+            seek(e);
+        }, { passive: true });
+
+        window.addEventListener('touchmove', (e) => {
+            if (isDragging) seek(e);
+        }, { passive: true });
+
+        window.addEventListener('touchend', () => {
+            isDragging = false;
+            progressContainer.classList.remove('dragging');
         });
     })();
 </script>
