@@ -451,24 +451,29 @@
         <span class="status-prompt-v2">&gt;</span><span class="typewriter-text-v2" id="tw-text-v2"></span><span class="typewriter-cursor-v2"></span>
     </div>
 
-    <!-- Player ultra minimaliste (caché au départ) -->
-    <div class="mini-audio-player" id="flash-player" style="display: none;">
-        <span style="font-size: 0.72rem; color: rgba(255, 215, 0, 0.75); letter-spacing: 0.3px; margin-bottom: 6px; display: block;">
-    Un jour on sera red mon gars
-</span>
+<!-- Player ultra minimaliste -->
+<div class="mini-audio-player" id="flash-player" style="display: none;">
+    
+    <span style="font-size: 0.72rem; color: rgba(255, 215, 0, 0.75); letter-spacing: 0.3px; display: block; text-align: left; margin-bottom: 2px;">
+        Un jour on sera red mon gars
+    </span>
+
+    <div class="player-controls">
         <button id="flash-play-btn" class="flash-play-btn" title="Écouter">
             <i class="fas fa-play" id="flash-play-icon"></i>
         </button>
+        
         <div class="flash-progress-container" id="flash-progress">
             <div class="flash-progress-bar" id="flash-progress-bar"></div>
         </div>
+        
         <span class="flash-time" id="flash-time">0:00</span>
     </div>
-
-    <audio id="flash-audio" preload="metadata">
-        <source src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" type="audio/mpeg">
-    </audio>
 </div>
+
+<audio id="flash-audio" preload="metadata">
+    <source src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" type="audio/mpeg">
+</audio>
 
 <style>
     .status-message-box-v2 {
@@ -524,18 +529,12 @@
 /* ===== PLAYER MINIMALISTE ===== */
 .mini-audio-player {
     display: flex;
-    flex-direction: column;   /* ← important */
+    flex-direction: column;
     gap: 10px;
     margin-top: 14px;
     padding-top: 12px;
     border-top: 1px solid rgba(255, 215, 0, 0.12);
     animation: fadeInPlayer 0.5s ease;
-}
-
-.mini-audio-player .flash-play-btn,
-.mini-audio-player .flash-progress-container,
-.mini-audio-player .flash-time {
-    /* on garde les éléments de contrôle sur une seule ligne */
 }
 
 .player-controls {
@@ -545,80 +544,65 @@
     width: 100%;
 }
 
-    @keyframes fadeInPlayer {
-        from { opacity: 0; transform: translateY(6px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
+.flash-play-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(255, 215, 0, 0.15);
+    border: 1px solid rgba(255, 215, 0, 0.35);
+    color: #ffd700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 0.7rem;
+}
 
-    .flash-play-btn {
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        background: rgba(255, 215, 0, 0.15);
-        border: 1px solid rgba(255, 215, 0, 0.35);
-        color: #ffd700;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        flex-shrink: 0;
-        transition: all 0.2s ease;
-        font-size: 0.7rem;
-    }
+.flash-progress-container {
+    flex-grow: 1;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
 
-    .flash-play-btn:hover {
-        background: rgba(255, 215, 0, 0.25);
-        transform: scale(1.08);
-    }
+.flash-progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #ffd700;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 0 6px rgba(255, 215, 0, 0.5);
+}
 
-    .flash-progress-container {
-        flex-grow: 1;
-        height: 5px;
-        background: rgba(255, 255, 255, 0.12);
-        border-radius: 4px;
-        cursor: pointer;
-        position: relative;
-        overflow: visible;
-    }
+.flash-progress-bar::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: #ffd700;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+    opacity: 0;
+}
 
-    .flash-progress-bar {
-        height: 100%;
-        width: 0%;
-        background: #ffd700;
-        border-radius: 4px;
-        position: relative;
-        transition: width 0.1s linear;
-        box-shadow: 0 0 6px rgba(255, 215, 0, 0.5);
-    }
+.flash-progress-container:hover .flash-progress-bar::after,
+.flash-progress-container.dragging .flash-progress-bar::after {
+    opacity: 1;
+}
 
-    /* Bille de lecture */
-    .flash-progress-bar::after {
-        content: '';
-        position: absolute;
-        right: -6px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 12px;
-        height: 12px;
-        background: #ffd700;
-        border-radius: 50%;
-        box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
-        opacity: 0;
-        transition: opacity 0.2s ease;
-    }
-
-    .flash-progress-container:hover .flash-progress-bar::after,
-    .flash-progress-container.dragging .flash-progress-bar::after {
-        opacity: 1;
-    }
-
-    .flash-time {
-        font-size: 0.68rem;
-        color: rgba(240, 230, 210, 0.6);
-        font-family: monospace;
-        min-width: 32px;
-        text-align: right;
-    }
+.flash-time {
+    font-size: 0.68rem;
+    color: rgba(240, 230, 210, 0.6);
+    font-family: monospace;
+    min-width: 32px;
+    text-align: right;
+}
 
     @keyframes pulsePromptV2 {
         0%, 100% { opacity: 0.5; transform: scale(1); text-shadow: 0 0 4px #ffd700; }
