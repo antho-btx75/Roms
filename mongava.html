@@ -521,17 +521,29 @@
         animation: blinkCursorV2 0.7s infinite;
     }
 
-    /* ===== PLAYER MINIMALISTE ===== */
-    .mini-audio-player {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 10px;
-        margin-top: 14px;
-        padding-top: 12px;
-        border-top: 1px solid rgba(255, 215, 0, 0.12);
-        animation: fadeInPlayer 0.5s ease;
-    }
+/* ===== PLAYER MINIMALISTE ===== */
+.mini-audio-player {
+    display: flex;
+    flex-direction: column;   /* ← important */
+    gap: 10px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 215, 0, 0.12);
+    animation: fadeInPlayer 0.5s ease;
+}
+
+.mini-audio-player .flash-play-btn,
+.mini-audio-player .flash-progress-container,
+.mini-audio-player .flash-time {
+    /* on garde les éléments de contrôle sur une seule ligne */
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
 
     @keyframes fadeInPlayer {
         from { opacity: 0; transform: translateY(6px); }
