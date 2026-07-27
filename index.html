@@ -445,17 +445,66 @@
     Je te kiffe de fou mon gars <i class="fa-solid fa-gem"></i>
 </h1>
 Je t'aime mon gars.
-    <div style="max-width: 420px; margin: 40px auto; background: linear-gradient(145deg, #0d1117, #161b22); border: 1px solid rgba(191, 149, 63, 0.35); border-radius: 18px; padding: 22px 20px; box-shadow: 0 12px 30px rgba(0,0,0,0.45); text-align: center;">
+<div style="max-width: 420px; margin: 35px auto; background: rgba(15, 13, 10, 0.85); border: 1px solid rgba(255, 215, 0, 0.22); border-radius: 22px; padding: 18px 18px 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.4);">
 
-    <p style="color: #fcf6ba; font-size: 1.05rem; font-weight: 600; margin: 0 0 18px 0; letter-spacing: 0.3px;">
+    <p style="color: rgba(255, 215, 0, 0.85); font-size: 1rem; margin: 0 0 14px 0; letter-spacing: 0.3px; text-align: left;">
         Je serai toujours là pour toi...
     </p>
 
-    <audio controls style="width: 100%; height: 36px; border-radius: 30px; outline: none;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+        <button id="playBtnToujours" onclick="toggleToujours()" style="width: 34px; height: 34px; border-radius: 50%; background: rgba(255, 215, 0, 0.15); border: 1px solid rgba(255, 215, 0, 0.4); color: #ffd700; display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0;">
+            <i class="fas fa-play" id="iconToujours" style="font-size: 0.75rem;"></i>
+        </button>
+
+        <div style="flex-grow: 1; height: 5px; background: rgba(255,255,255,0.12); border-radius: 4px; cursor: pointer; position: relative;" id="progressToujours" onclick="seekToujours(event)">
+            <div id="barToujours" style="height: 100%; width: 0%; background: #ffd700; border-radius: 4px; position: relative;"></div>
+        </div>
+
+        <span id="timeToujours" style="font-size: 0.72rem; color: rgba(240,230,210,0.6); font-family: monospace; min-width: 34px; text-align: right;">0:00</span>
+    </div>
+
+    <audio id="audioToujours" preload="metadata">
         <source src="https://audio.jukehost.co.uk/019fa55e-edab-7234-b59d-e5b8645dfb08" type="audio/mpeg">
     </audio>
+</div>
 
-    </div>
+<script>
+    const audioT = document.getElementById('audioToujours');
+    const iconT = document.getElementById('iconToujours');
+    const barT = document.getElementById('barToujours');
+    const timeT = document.getElementById('timeToujours');
+    const progressT = document.getElementById('progressToujours');
+
+    function toggleToujours() {
+        if (audioT.paused) {
+            audioT.play();
+            iconT.classList.replace('fa-play', 'fa-pause');
+        } else {
+            audioT.pause();
+            iconT.classList.replace('fa-pause', 'fa-play');
+        }
+    }
+
+    audioT.addEventListener('timeupdate', () => {
+        if (!audioT.duration) return;
+        const percent = (audioT.currentTime / audioT.duration) * 100;
+        barT.style.width = percent + '%';
+        const min = Math.floor(audioT.currentTime / 60);
+        const sec = Math.floor(audioT.currentTime % 60);
+        timeT.textContent = min + ':' + (sec < 10 ? '0' : '') + sec;
+    });
+
+    audioT.addEventListener('ended', () => {
+        iconT.classList.replace('fa-pause', 'fa-play');
+        barT.style.width = '0%';
+    });
+
+    function seekToujours(e) {
+        const rect = progressT.getBoundingClientRect();
+        const percent = (e.clientX - rect.left) / rect.width;
+        audioT.currentTime = percent * audioT.duration;
+    }
+</script
 
 <!-- Zone de Message Évolutif (version Console avec > doré) + Player minimaliste -->
 <div class="status-message-box-v2">
