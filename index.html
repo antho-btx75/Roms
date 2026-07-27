@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Un jour on sera red</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #08080a;
+            --card-bg: rgba(22, 22, 28, 0.65);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --accent-color: #a78bfa;
+            --accent-glow: rgba(167, 139, 250, 0.35);
+            --text-main: #f3f4f6;
+            --text-sub: #9ca3af;
+            --link-color: #58a6ff;
+            --link-hover: #79b8ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 50% 20%, rgba(167, 139, 250, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.03) 0%, transparent 40%);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .player-card {
+            width: 100%;
+            max-width: 440px;
+            max-height: 100vh;
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 20px;
+            box-shadow: 
+                0 30px 60px -12px rgba(0, 0, 0, 0.5),
+                0 18px 36px -18px rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .header-image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.2);
+            flex-shrink: 1;
+            min-height: 0;
+        }
+
+        .header-image img {
+            width: 100%;
+            height: auto;
+            max-height: 42vh;
+            object-fit: contain;
+            display: block;
+        }
+
+        .title {
+            font-size: 1.15rem;
+            color: #c4b5fd;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            padding: 0 8px;
+            flex-shrink: 0;
+        }
+
+        .audio-player {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 14px 16px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            flex-shrink: 0;
+        }
+
+        .timeline-container {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            padding: 4px 0;
+        }
+
+        .progress-bar-bg {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: var(--accent-color);
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0 0 10px var(--accent-glow);
+            transition: width 0.1s linear;
+        }
+
+        .progress-bar-fill::after {
+            content: '';
+            position: absolute;
+            right: -7px;
+            top: 50%;
+            transform: translateY(-50%) scale(0);
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+            transition: transform 0.15s ease;
+        }
+
+        .timeline-container:hover .progress-bar-fill::after {
+            transform: translateY(-50%) scale(1);
+        }
+
+        .time-stamps {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-sub);
+            font-family: monospace;
+        }
+
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn {
+            background: none;
+            border: none;
+            color: var(--text-sub);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            outline: none;
+        }
+
+        .btn:hover {
+            color: var(--text-main);
+            transform: scale(1.1);
+        }
+
+        .btn-play {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            color: #08080a;
+            box-shadow: 0 4px 15px var(--accent-glow);
+        }
+
+        .btn-play:hover {
+            background: #b89fff;
+        }
+
+        .btn-play svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .btn-play:not(.playing) svg {
+            margin-left: 3px;
+        }
+
+        .btn-skip svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .sanctuaire-link {
+            text-align: center;
+            font-size: 0.88rem;
+            line-height: 1.5;
+            color: #b0b0b0;
+            padding: 0 6px;
+            flex-shrink: 0;
+        }
+
+        .sanctuaire-link a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(88, 166, 255, 0.35);
+            transition: all 0.2s ease;
+        }
+
+        .sanctuaire-link a:hover {
+            color: var(--link-hover);
+            border-bottom-color: var(--link-hover);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-card">
+        <div class="header-image">
+            <img src="https://i.ibb.co/htCkt52/ezgif-7ce1e28a3d50ef6d.gif" alt="GRIS">
+        </div>
+
+        <p class="title">Un jour on sera red</p>
+
+        <div class="audio-player">
+            <audio id="audio-element" preload="metadata">
+                <source src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" type="audio/mpeg">
+                Votre navigateur ne supporte pas l'audio.
+            </audio>
+
+            <div class="timeline-container" id="timeline">
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-fill"></div>
+                </div>
+                <div class="time-stamps">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-skip" id="rewind-btn" title="-10s">
+                    <svg viewBox="0 0 24 24"><path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8z"/></svg>
+                </button>
+
+                <button class="btn btn-play" id="play-btn" title="Lecture">
+                    <svg id="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+
+                <button class="btn btn-skip" id="forward-btn" title="+10s">
+                    <svg viewBox="0 0 24 24"><path d="M11.5 8c2.65 0 5.05.99 6.9 2.6L22 7v9h-9l3.62-3.62c-1.39-1.16-3.16-1.88-5.12-1.88-3.54 0-6.55 2.31-7.6 5.5l-2.37-.78C2.92 11.03 6.85 8 11.5 8z"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <p class="sanctuaire-link">
+            Je suis ton gars sûr mon Roms, même gris je veux que tu gardes l'accès de 
+            <a href="https://antho-btx75.github.io/Roms/mongava" target="_blank">notre sanctuaire</a>. J'te kiffe trop mec.
+        </p>
+    </div>
+
+    <script>
+        const audio = document.getElementById('audio-element');
+        const playBtn = document.getElementById('play-btn');
+        const playIcon = document.getElementById('play-icon');
+        const timeline = document.getElementById('timeline');
+        const progressFill = document.getElementById('progress-fill');
+        const currentTimeEl = document.getElementById('current-time');
+        const durationEl = document.getElementById('duration');
+        const rewindBtn = document.getElementById('rewind-btn');
+        const forwardBtn = document.getElementById('forward-btn');
+
+        const playSvg = '<path d="M8 5v14l11-7z"/>';
+        const pauseSvg = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+
+        function formatTime(seconds) {
+            if (isNaN(seconds) || !isFinite(seconds)) return "0:00";
+            const min = Math.floor(seconds / 60);
+            const sec = Math.floor(seconds % 60);
+            return min + ":" + (sec < 10 ? "0" : "") + sec;
+        }
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+
+        audio.addEventListener('play', () => {
+            playIcon.innerHTML = pauseSvg;
+            playBtn.classList.add('playing');
+        });
+
+        audio.addEventListener('pause', () => {
+            playIcon.innerHTML = playSvg;
+            playBtn.classList.remove('playing');
+        });
+
+        audio.addEventListener('loadedmetadata', () => {
+            durationEl.textContent = formatTime(audio.duration);
+        });
+
+        if (audio.readyState >= 1) {
+            durationEl.textContent = formatTime(audio.duration);
+        }
+
+        audio.addEventListener('timeupdate', () => {
+            if (!audio.duration) return;
+            const progress = (audio.currentTime / audio.duration) * 100;
+            progressFill.style.width = progress + "%";
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+        });
+
+        function setAudioProgress(e) {
+            const rect = timeline.getBoundingClientRect();
+            let clickX;
+            if (e.touches) {
+                clickX = e.touches[0].clientX - rect.left;
+            } else {
+                clickX = e.clientX - rect.left;
+            }
+            const width = rect.width;
+            const percentage = Math.max(0, Math.min(1, clickX / width));
+            
+            if (audio.duration) {
+                audio.currentTime = percentage * audio.duration;
+            }
+        }
+
+        let isDragging = false;
+
+        timeline.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            setAudioProgress(e);
+        });
+        window.addEventListener('mousemove', (e) => {
+            if (isDragging) setAudioProgress(e);
+        });
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+
+        timeline.addEventListener('touchstart', (e) => {
+            isDragging = true;
+            setAudioProgress(e);
+        }, { passive: true });
+        window.addEventListener('touchmove', (e) => {
+            if (isDragging) setAudioProgress(e);
+        }, { passive: true });
+        window.addEventListener('touchend', () => {
+            isDragging = false;
+        });
+
+        rewindBtn.addEventListener('click', () => {
+            audio.currentTime = Math.max(0, audio.currentTime - 10);
+        });
+
+        forwardBtn.addEventListener('click', () => {
+            audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 10);
+        });
+    </script>
+</body>
+</html>
