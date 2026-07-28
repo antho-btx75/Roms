@@ -189,6 +189,75 @@
     font-style: italic;
 }
 
+           .mini-gold-player {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        background: rgba(18, 15, 10, 0.85);
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        border-radius: 50px;
+        padding: 10px 18px 10px 12px;
+        width: 100%;
+        max-width: 460px;
+        margin: 16px auto;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.15);
+        backdrop-filter: blur(12px);
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .mgp-play-btn {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #ffd700, #aa7c11);
+        border: none;
+        cursor: pointer;
+        color: #111;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+        flex-shrink: 0;
+    }
+
+    .mgp-content { flex: 1; display: flex; flex-direction: column; gap: 4px; overflow: hidden; }
+    .mgp-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; font-weight: 700; color: #f1d77e; }
+    .mgp-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 8px; }
+    .mgp-time { color: rgba(245, 245, 247, 0.5); font-size: 0.7rem; font-weight: 500; flex-shrink: 0; }
+
+    .mgp-slider {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 6px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .mgp-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #ffd700;
+        box-shadow: 0 0 8px #ffd700;
+        cursor: pointer;
+    }
+
+    .mgp-slider::-moz-range-thumb {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #ffd700;
+        border: none;
+        box-shadow: 0 0 8px #ffd700;
+        cursor: pointer;
+    }
+
         /* Grille des applications */
 .app-grid {
     display: grid;
@@ -867,142 +936,12 @@
         allowfullscreen>
     </iframe>
     </div>
-    
-<!-- ================= PLAYER MINIMALISTE GOLD GLOWY (SIMPLIFIÉ) ================= -->
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<style>
-    .mini-gold-player {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        background: rgba(18, 15, 10, 0.85);
-        border: 1px solid rgba(212, 175, 55, 0.35);
-        border-radius: 50px;
-        padding: 10px 18px 10px 12px;
-        width: 100%;
-        max-width: 460px;
-        margin: 10px auto;
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.15);
-        backdrop-filter: blur(12px);
-        font-family: 'Montserrat', sans-serif;
-        box-sizing: border-box;
-    }
-
-    .mgp-play-btn {
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, #ffd700, #aa7c11);
-        border: none;
-        cursor: pointer;
-        color: #111;
-        font-size: 1.1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
-    }
-
-    .mgp-content { flex: 1; display: flex; flex-direction: column; gap: 4px; }
-    .mgp-header { display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: 700; color: #f1d77e; }
-    .mgp-time { color: rgba(245, 245, 247, 0.5); font-size: 0.7rem; font-weight: 500; }
-
-    /* Curseur de lecture Ultra Ergonomique */
-    .mgp-slider {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 100%;
-        height: 6px;
-        background: rgba(255, 255, 255, 0.15);
-        border-radius: 10px;
-        outline: none;
-        cursor: pointer;
-    }
-
-    /* Le curseur (Thumb) doré facile à attraper */
-    .mgp-slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        width: 14px;
-        height: 14px;
-        border-radius: 50%;
-        background: #ffd700;
-        box-shadow: 0 0 8px #ffd700;
-        cursor: pointer;
-    }
-    .mgp-slider::-moz-range-thumb {
-        width: 14px;
-        height: 14px;
-        border-radius: 50%;
-        background: #ffd700;
-        border: none;
-        box-shadow: 0 0 8px #ffd700;
-        cursor: pointer;
-    }
-</style>
-
-<div class="mini-gold-player">
-    <button class="mgp-play-btn" id="mgp-play" title="Lecture/Pause">
-        <i class="fa-solid fa-play" style="margin-left: 2px;"></i>
-    </button>
-    <div class="mgp-content">
-        <div class="mgp-header">
-            <span>J'ai trop envie de toi mon gars</span>
-            <span class="mgp-time" id="mgp-time">0:00 / 0:00</span>
-        </div>
-        <input type="range" id="mgp-slider" class="mgp-slider" value="0" min="0" step="0.1">
+    <div class="mini-gold-player" 
+     data-src="https://audio.jukehost.co.uk/019f80b2-cc2d-739c-9b3c-20ca62f1c26e" 
+     data-title="J'ai trop envie de toi mon gars">
     </div>
-</div>
 
-<audio id="mgp-audio" src="https://audio.jukehost.co.uk/019f80b2-cc2d-739c-9b3c-20ca62f1c26e"></audio>
-
-<script>
-    const audio = document.getElementById('mgp-audio');
-    const playBtn = document.getElementById('mgp-play');
-    const icon = playBtn.querySelector('i');
-    const slider = document.getElementById('mgp-slider');
-    const timeEl = document.getElementById('mgp-time');
-
-    const fmt = t => isNaN(t) ? '0:00' : `${Math.floor(t/60)}:${Math.floor(t%60).toString().padStart(2,'0')}`;
-
-    // Play / Pause
-    playBtn.onclick = () => {
-        if (audio.paused) {
-            audio.play();
-            icon.className = 'fa-solid fa-pause';
-            icon.style.marginLeft = '0';
-        } else {
-            audio.pause();
-            icon.className = 'fa-solid fa-play';
-            icon.style.marginLeft = '2px';
-        }
-    };
-
-    // Chargement durée
-    audio.onloadedmetadata = () => {
-        slider.max = audio.duration;
-        timeEl.textContent = `0:00 / ${fmt(audio.duration)}`;
-    };
-
-    // Avancement auto
-    audio.ontimeupdate = () => {
-        slider.value = audio.currentTime;
-        timeEl.textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
-    };
-
-    // Déplacement précis avec le curseur
-    slider.oninput = () => {
-        audio.currentTime = slider.value;
-    };
-
-    // Fin du vocal
-    audio.onended = () => {
-        icon.className = 'fa-solid fa-play';
-        icon.style.marginLeft = '2px';
-        slider.value = 0;
-    };
-</script>
     
 <!-- Style CSS pour forcer la disposition en grille 2 par 2 + 1 centré en bas -->
 <style>
@@ -3141,6 +3080,82 @@ function cycleLanguage() {
     });
 </script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const fmt = t => isNaN(t) || !isFinite(t) ? '0:00' : `${Math.floor(t/60)}:${Math.floor(t%60).toString().padStart(2,'0')}`;
+
+        document.querySelectorAll('.mini-gold-player').forEach(player => {
+            const audioSrc = player.getAttribute('data-src');
+            const titleText = player.getAttribute('data-title') || 'Audio';
+
+            // Injection HTML interne
+            player.innerHTML = `
+                <button class="mgp-play-btn" title="Lecture/Pause">
+                    <i class="fa-solid fa-play" style="margin-left: 2px;"></i>
+                </button>
+                <div class="mgp-content">
+                    <div class="mgp-header">
+                        <span class="mgp-title">${titleText}</span>
+                        <span class="mgp-time">0:00 / 0:00</span>
+                    </div>
+                    <input type="range" class="mgp-slider" value="0" min="0" step="0.1">
+                </div>
+                <audio src="${audioSrc}" preload="metadata" style="display:none !important;"></audio>
+            `;
+
+            const audio = player.querySelector('audio');
+            const playBtn = player.querySelector('.mgp-play-btn');
+            const icon = playBtn.querySelector('i');
+            const slider = player.querySelector('.mgp-slider');
+            const timeEl = player.querySelector('.mgp-time');
+
+            // Play / Pause
+            playBtn.onclick = () => {
+                if (audio.paused) {
+                    // Optionnel : Met en pause les autres lecteurs quand on en lance un nouveau
+                    document.querySelectorAll('audio').forEach(a => { if (a !== audio) a.pause(); });
+                    document.querySelectorAll('.mgp-play-btn i').forEach(i => {
+                        i.className = 'fa-solid fa-play';
+                        i.style.marginLeft = '2px';
+                    });
+
+                    audio.play();
+                    icon.className = 'fa-solid fa-pause';
+                    icon.style.marginLeft = '0';
+                } else {
+                    audio.pause();
+                    icon.className = 'fa-solid fa-play';
+                    icon.style.marginLeft = '2px';
+                }
+            };
+
+            // Metadata / Durée
+            audio.onloadedmetadata = () => {
+                slider.max = audio.duration;
+                timeEl.textContent = `0:00 / ${fmt(audio.duration)}`;
+            };
+
+            // Progression
+            audio.ontimeupdate = () => {
+                slider.value = audio.currentTime;
+                timeEl.textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+            };
+
+            // Seek
+            slider.oninput = () => {
+                audio.currentTime = slider.value;
+            };
+
+            // Fin
+            audio.onended = () => {
+                icon.className = 'fa-solid fa-play';
+                icon.style.marginLeft = '2px';
+                slider.value = 0;
+            };
+        });
+    });
+    </script>
+    
     
 </body>
 </html>
