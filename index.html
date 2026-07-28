@@ -526,74 +526,14 @@
     Je t'aime de fou mon gars <i class="fa-solid fa-gem"></i>
 </h1>
 
-    Force à toi mon Roms. T'es jamais seul frère, t'es toujours dans mon cœur et mes pensées. Je t'aime 💕
+    Force à toi mon Roms. T'es jamais seul gro, t'es toujours dans mon cœur et mes pensées. Tu m'excites tellement que j'ai même des envies de
+    <a href="#bz">bz avec toi</a>. Juste comme ça par pur kiff.
 
 <div class="mini-gold-player" 
      data-src="https://audio.jukehost.co.uk/019fa55e-edab-7234-b59d-e5b8645dfb08" 
      data-title="Je serai toujours là pour toi...">
 </div>
     
-
-        <!-- Vocal plus ancien / plus discret -->
-<div style="max-width: 90%; margin: 18px auto 10px; padding: 14px 16px; background: rgba(20, 18, 15, 0.55); border: 1px solid rgba(255, 215, 0, 0.10); border-radius: 16px; opacity: 0.78;">
-
-    <p style="color: rgba(240, 230, 210, 0.45); font-size: 0.72rem; margin 0 0 10px 0; letter-spacing: 0.2px; text-align: left;">
-        En attendant d'être red, le gris ça pète les couilles parfois.
-    </p>
-
-    <div style="display: flex; align-items: center; gap: 10px;">
-        <button id="playBtnGris" onclick="toggleGris()" style="width: 26px; height: 26px; border-radius: 50%; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.15); color: rgba(240, 230, 210, 0.55); display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0;">
-            <i class="fas fa-play" id="iconGris" style="font-size: 0.65rem;"></i>
-        </button>
-
-        <div style="flex-grow: 1; height: 3px; background: rgba(255,255,255,0.08); border-radius: 4px; cursor: pointer;" id="progressGris" onclick="seekGris(event)">
-            <div id="barGris" style="height: 100%; width: 0%; background: rgba(255, 215, 0, 0.35); border-radius: 4px;"></div>
-        </div>
-
-        <span id="timeGris" style="font-size: 0.65rem; color: rgba(240,230,210,0.35); font-family: monospace; min-width: 30px; text-align: right;">0:00</span>
-    </div>
-
-    <audio id="audioGris" preload="metadata">
-        <source src="https://audio.jukehost.co.uk/019f954e-3bc7-727b-9298-08d31d7b0995" type="audio/mpeg">
-    </audio>
-</div>
-
-<script>
-    const audioG = document.getElementById('audioGris');
-    const iconG = document.getElementById('iconGris');
-    const barG = document.getElementById('barGris');
-    const timeG = document.getElementById('timeGris');
-    const progressG = document.getElementById('progressGris');
-
-    function toggleGris() {
-        if (audioG.paused) {
-            audioG.play();
-            iconG.classList.replace('fa-play', 'fa-pause');
-        } else {
-            audioG.pause();
-            iconG.classList.replace('fa-pause', 'fa-play');
-        }
-    }
-
-    audioG.addEventListener('timeupdate', () => {
-        if (!audioG.duration) return;
-        barG.style.width = (audioG.currentTime / audioG.duration * 100) + '%';
-        const min = Math.floor(audioG.currentTime / 60);
-        const sec = Math.floor(audioG.currentTime % 60);
-        timeG.textContent = min + ':' + (sec < 10 ? '0' : '') + sec;
-    });
-
-    audioG.addEventListener('ended', () => {
-        iconG.classList.replace('fa-pause', 'fa-play');
-        barG.style.width = '0%';
-    });
-
-    function seekGris(e) {
-        const rect = progressG.getBoundingClientRect();
-        const percent = (e.clientX - rect.left) / rect.width;
-        audioG.currentTime = percent * audioG.duration;
-    }
-</script>
 
 <!-- Zone de Message Évolutif + Mini Gold Player -->
 <div class="status-message-box-v2">
