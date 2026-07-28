@@ -587,7 +587,7 @@
         </div>
     </div>
 
-    <!-- L'élément audio est complètement masqué pour éviter que le navigateur n'affiche son propre lecteur -->
+    <!-- L'élément audio masqué -->
     <audio id="flash-audio" preload="metadata" style="display: none !important;">
         <source src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" type="audio/mpeg">
     </audio>
@@ -600,15 +600,16 @@
         background: rgba(15, 13, 10, 0.7);
         border: 1px solid rgba(255, 215, 0, 0.2);
         border-radius: 20px;
-        padding: 12px 16px;
+        padding: 16px 18px;
         color: #f0e6d2;
         font-size: 0.82rem;
         font-weight: 500;
-        line-height: 1.4;
+        line-height: 1.45;
         box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 4px 15px rgba(0, 0, 0, 0.4);
         backdrop-filter: blur(8px);
         max-width: 90%;
-        margin: 0 auto;
+        /* Espace au-dessus et en dessous de la boîte */
+        margin: 24px auto;
         box-sizing: border-box;
     }
 
@@ -648,9 +649,11 @@
     .mini-audio-player {
         display: flex;
         flex-direction: column;
-        gap: 6px;
-        margin-top: 10px;
-        padding-top: 4px;
+        gap: 8px;
+        /* Espace et ligne subtile entre le texte et le lecteur */
+        margin-top: 16px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(255, 215, 0, 0.15);
         animation: fadeInPlayer 0.5s ease;
     }
 
@@ -684,7 +687,6 @@
         font-size: 0.7rem;
     }
 
-    /* Piste de fond (fine et sombre) */
     .flash-progress-container {
         flex-grow: 1;
         height: 4px;
@@ -695,7 +697,6 @@
         overflow: hidden;
     }
 
-    /* Barre jaune de progression qui avance par-dessus */
     .flash-progress-bar {
         height: 100%;
         width: 0%;
@@ -830,6 +831,7 @@
         });
     })();
 </script>
+    
 
     <!-- ================= FIN DE LA SECTION ================= -->
     
