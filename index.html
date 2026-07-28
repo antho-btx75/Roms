@@ -222,7 +222,13 @@
         flex-shrink: 0;
     }
 
-    .mgp-content { flex: 1; display: flex; flex-direction: column; gap: 4px; overflow: hidden; }
+.mgp-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    overflow: visible; /* <--- Remplace "hidden" par "visible" pour que la bille ne soit pas coupée */
+}
     .mgp-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; font-weight: 700; color: #f1d77e; }
     .mgp-title { 
     white-space: normal; /* Permet au texte de passer à la ligne si besoin */
@@ -231,16 +237,18 @@
     }
     .mgp-time { color: rgba(245, 245, 247, 0.5); font-size: 0.7rem; font-weight: 500; flex-shrink: 0; }
 
-    .mgp-slider {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 100%;
-        height: 6px;
-        background: rgba(255, 255, 255, 0.15);
-        border-radius: 10px;
-        outline: none;
-        cursor: pointer;
-    }
+.mgp-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: 4px 0; /* <--- Ajoute cette ligne pour donner de l'espace en haut et en bas de la bille */
+}
+        
 
     .mgp-slider::-webkit-slider-thumb {
         -webkit-appearance: none;
