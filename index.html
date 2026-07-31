@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gris mon gars...</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-dark: #070709;
+            --card-bg: rgba(18, 18, 24, 0.85);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --player-bg: rgba(0, 0, 0, 0.35);
+            
+            --accent: #a78bfa;
+            --accent-hover: #c4b5fd;
+            --accent-glow: rgba(167, 139, 250, 0.25);
+            
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #070709;
+        }
+
+        body {
+            background-image: 
+                radial-gradient(ellipse at 50% 0%, rgba(167, 139, 250, 0.12) 0%, transparent 60%),
+                radial-gradient(circle at 80% 90%, rgba(124, 58, 237, 0.05) 0%, transparent 50%);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px 16px;
+            line-height: 1.6;
+        }
+
+        /* Container Principal */
+        .player-card {
+            width: 100%;
+            max-width: 460px;
+            background: var(--card-bg);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid var(--card-border);
+            border-radius: 28px;
+            padding: 24px;
+            box-shadow: 
+                0 32px 64px -16px rgba(0, 0, 0, 0.6),
+                0 0 40px rgba(167, 139, 250, 0.05);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Image Header */
+        .header-image {
+            width: 100%;
+            min-height: 180px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+            background: rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .header-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Titre */
+        .title {
+            font-size: 1.25rem;
+            color: var(--accent-hover);
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-top: -4px;
+        }
+
+        /* Lecteur Audio */
+        .audio-player {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            background: var(--player-bg);
+            padding: 18px 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        /* Timeline */
+        .timeline-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            cursor: pointer;
+            padding: 6px 0;
+        }
+
+        .progress-bar-bg {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 99px;
+            position: relative;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--accent), var(--accent-hover));
+            border-radius: 99px;
+            position: relative;
+            box-shadow: 0 0 12px var(--accent-glow);
+            transition: width 0.05s linear;
+        }
+
+        .progress-bar-fill::after {
+            content: '';
+            position: absolute;
+            right: -6px;
+            top: 50%;
+            transform: translateY(-50%) scale(0.6);
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .timeline-container:hover .progress-bar-fill::after {
+            transform: translateY(-50%) scale(1);
+        }
+
+        .time-stamps {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Contrôles */
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        .btn {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            outline: none;
+            border-radius: 50%;
+        }
+
+        .btn:hover {
+            color: var(--text-primary);
+            transform: scale(1.08);
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+
+        .btn-skip svg {
+            width: 22px;
+            height: 22px;
+            fill: currentColor;
+        }
+
+        .btn-play {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: var(--accent);
+            color: #070709;
+            box-shadow: 0 6px 20px var(--accent-glow);
+        }
+
+        .btn-play:hover {
+            background: var(--accent-hover);
+            box-shadow: 0 8px 25px rgba(196, 181, 253, 0.4);
+        }
+
+        .btn-play svg {
+            width: 22px;
+            height: 22px;
+            fill: currentColor;
+        }
+
+        .btn-play:not(.playing) svg {
+            margin-left: 3px;
+        }
+
+        /* Textes */
+        .message-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #d1d5db;
+            padding: 4px 0;
+            font-weight: 400;
+        }
+
+        .message-text p {
+            margin-bottom: 16px;
+        }
+
+        .message-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            color: var(--accent-hover);
+            font-weight: 600;
+            background: rgba(167, 139, 250, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        /* Bloc Rocher */
+        .rocher {
+            margin-top: 24px;
+            padding: 18px 20px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 16px;
+            border: 1px solid rgba(167, 139, 250, 0.15);
+            color: #f3f4f6;
+            font-weight: 500;
+            position: relative;
+            box-shadow: inset 0 0 20px rgba(167, 139, 250, 0.03);
+        }
+
+        .rocher::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 15%;
+            bottom: 15%;
+            width: 3px;
+            background: var(--accent);
+            border-radius: 0 4px 4px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-card">
+        <div class="header-image">
+            <img src="https://i.ibb.co/htCkt52/ezgif-7ce1e28a3d50ef6d.gif" alt="GRIS" onerror="this.style.display='none'">
+        </div>
+
+        <h1 class="title">Gris mon gars...</h1>
+
+        <div class="audio-player">
+            <audio id="audio-element" preload="metadata">
+                <source src="https://audio.jukehost.co.uk/019f954e-3bc7-727b-9298-08d31d7b0995" type="audio/mpeg">
+                Votre navigateur ne supporte pas l'audio.
+            </audio>
+
+            <div class="timeline-container" id="timeline">
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-fill"></div>
+                </div>
+                <div class="time-stamps">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-skip" id="rewind-btn" title="-10s" aria-label="Reculer de 10 secondes">
+                    <svg viewBox="0 0 24 24"><path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8z"/></svg>
+                </button>
+
+                <button class="btn btn-play" id="play-btn" title="Lecture" aria-label="Lecture">
+                    <svg id="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+
+                <button class="btn btn-skip" id="forward-btn" title="+10s" aria-label="Avancer de 10 secondes">
+                    <svg viewBox="0 0 24 24"><path d="M11.5 8c2.65 0 5.05.99 6.9 2.6L22 7v9h-9l3.62-3.62c-1.39-1.16-3.16-1.88-5.12-1.88-3.54 0-6.55 2.31-7.6 5.5l-2.37-.78C2.92 11.03 6.85 8 11.5 8z"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="message-text">
+            <p>Je ressens quand t'as mal mon gars, je ressens quand t'es gris, et j'en sais les raisons. J'veux dire, oui y'a le taff, mais toi et moi on sait qu'il y a pas que ça.</p>
+
+            <p>Et oui ça me fait mal quand t'es un peu distant, car même si tu me dis que c'est comme ça pour tout le monde, je sais aussi les raisons, <span class="highlight">LA raison</span> qui te pousse à faire passer tout le monde au second plan. Même moi. Je deviens secondaire, comme optionnel.</p>
+
+            <p>Et puis il y'a ce message que tu reçois de lui, cette attention qu'il te porte, cette vibe que tu ressens avec cette personne et d'un coup tu te sens mieux, et tu as de nouveau assez d'énergie pour échanger vite fait avec moi. Mais de quoi ? Du taff, comme souvent.</p>
+
+            <p>Alors que moi je ressens une véritable connexion avec toi et que je ressens tout de toi. Ce qui me rend gris c'est qu'on arrivera jamais à montrer qui l'on est vraiment tous les deux, même si on sait déjà tout l'un de l'autre.</p>
+
+            <p>Et ce qui me rend <span class="highlight">ENCORE PLUS gris</span>, c'est que j'ai capté pourquoi on ne pouvait pas aller plus loin : c'est parce que je suis le seul à vraiment aimer dans l'histoire. Comment pourrais-tu m'en dire plus sur toi alors que tu m'aimes pas comme moi je t'aime. Et tu sais que je t'aime.</p>
+
+            <p>Du coup bah, pour me protéger tu ne peux pas dire les vraies raisons qui te rendent gris. De la même façon tu peux pas me dire les raisons qui expliquent pourquoi tu es moins gris par moment. Sinon ce serait comme me dire "on est pareil gro, mais c'est pas toi ma priorité." Alors ça devient "pas évident la vie", ou "gris à cause des gens", puis "non c'est bon laisse tomber", et au final la version ultime "nan faut pas forcer".</p>
+
+            <p>C'est comme si en vrai de vrai tu étais comme moi, mais avec un autre. Et je vais pas écrire son nom, on le connait.</p>
+
+            <div class="rocher">
+                Mais quoi qu’il arrive, je reste là pour toi.<br>
+                Je suis ton Rocher.<br>
+                Je suis là. C'est sans doute une faiblesse, mais je m'en branle. Je suis là pour toi. Et force à toi pour demain 💕
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const audio = document.getElementById('audio-element');
+        const playBtn = document.getElementById('play-btn');
+        const playIcon = document.getElementById('play-icon');
+        const timeline = document.getElementById('timeline');
+        const progressFill = document.getElementById('progress-fill');
+        const currentTimeEl = document.getElementById('current-time');
+        const durationEl = document.getElementById('duration');
+        const rewindBtn = document.getElementById('rewind-btn');
+        const forwardBtn = document.getElementById('forward-btn');
+
+        const playSvg = '<path d="M8 5v14l11-7z"/>';
+        const pauseSvg = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+
+        function formatTime(seconds) {
+            if (isNaN(seconds) || !isFinite(seconds)) return "0:00";
+            const min = Math.floor(seconds / 60);
+            const sec = Math.floor(seconds % 60);
+            return min + ":" + (sec < 10 ? "0" : "") + sec;
+        }
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+
+        audio.addEventListener('play', () => {
+            playIcon.innerHTML = pauseSvg;
+            playBtn.classList.add('playing');
+        });
+
+        audio.addEventListener('pause', () => {
+            playIcon.innerHTML = playSvg;
+            playBtn.classList.remove('playing');
+        });
+
+        const updateDuration = () => {
+            durationEl.textContent = formatTime(audio.duration);
+        };
+
+        audio.addEventListener('loadedmetadata', updateDuration);
+        if (audio.readyState >= 1) updateDuration();
+
+        audio.addEventListener('timeupdate', () => {
+            if (!audio.duration) return;
+            const progress = (audio.currentTime / audio.duration) * 100;
+            progressFill.style.width = progress + "%";
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+        });
+
+        function setAudioProgress(e) {
+            const rect = timeline.getBoundingClientRect();
+            const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+            const clickX = clientX - rect.left;
+            const percentage = Math.max(0, Math.min(1, clickX / rect.width));
+            
+            if (audio.duration) {
+                audio.currentTime = percentage * audio.duration;
+            }
+        }
+
+        let isDragging = false;
+
+        const startDrag = (e) => {
+            isDragging = true;
+            setAudioProgress(e);
+        };
+
+        const doDrag = (e) => {
+            if (isDragging) setAudioProgress(e);
+        };
+
+        const stopDrag = () => {
+            isDragging = false;
+        };
+
+        timeline.addEventListener('mousedown', startDrag);
+        window.addEventListener('mousemove', doDrag);
+        window.addEventListener('mouseup', stopDrag);
+
+        timeline.addEventListener('touchstart', startDrag, { passive: true });
+        window.addEventListener('touchmove', doDrag, { passive: true });
+        window.addEventListener('touchend', stopDrag);
+
+        rewindBtn.addEventListener('click', () => {
+            audio.currentTime = Math.max(0, audio.currentTime - 10);
+        });
+
+        forwardBtn.addEventListener('click', () => {
+            audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 10);
+        });
+    </script>
+</body>
+</html>
