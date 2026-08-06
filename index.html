@@ -480,11 +480,113 @@
     Je te kiffe de fou mon gars <i class="fa-solid fa-gem"></i>
 </h1>
 
-    <!-- Zone de Message Évolutif (Facile à changer à la volée) -->
-    <div class="status-message-box">
-        <span class="status-dot"></span>
-        <span>Mon Romain, si tu as vu ce matin le lien de notre page sur Facebook je te rassure tout de suite, y'a que toi qui peux voir cette publication sur Facebook. Je suis comme un enfant, j'ai pas honte de ce que je ressens pour toi et pour moi c'est normal de te le dire, pour moi c'est pas mal de ressentir tout ça pour toi. Mais rien ne me ferait plus de mal frere que de savoir que c'est moi qui te rends gris. Désolé mon gars si tu penses que je suis dans l'excès, avec mes sentiments amoureux, quand je parle de baise et tout. Doui m'tsou mon Roms. Je vais arrêter avec ça, et je vais garder tout ça pour moi. J'ai jamais voulu que tu te sentes mal frere.</span>
-    </div>
+<!-- Début de la carte Glowy Gold -->
+<div class="glowy-gold-card">
+    <p>
+        <span class="gold-accent">Mon Romain,</span><br>
+        Si tu as vu ce matin le lien de notre page sur Facebook, je te rassure tout de suite : il n'y a que toi qui peux voir cette publication.
+    </p>
+
+    <p>
+        Je suis comme un enfant. Je n'ai pas honte de ce que je ressens pour toi et pour moi, c'est normal de te le dire. Ce n'est pas mal de ressentir tout ça pour toi.
+    </p>
+
+    <p>
+        Mais rien ne me ferait plus de mal, frère, que de savoir que c'est moi qui te rends gris. Désolé mon gars si tu penses que je suis dans l'excès avec mes sentiments amoureux, quand je parle de baise et tout.
+    </p>
+
+    <div class="gold-emphasis">Doui m'tsou mon Roms.</div>
+
+    <div class="gold-divider"></div>
+
+    <p>
+        Je vais arrêter avec ça, et je vais garder tout ça pour moi.
+    </p>
+
+    <p class="gold-glow-final">
+        J'ai jamais voulu que tu te sentes mal, frère.
+    </p>
+</div>
+
+<!-- Styles associés à la div (à placer dans votre fichier CSS ou dans une balise <style>) -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&family=Montserrat:wght@300;400&display=swap');
+
+    .glowy-gold-card {
+        max-width: 650px;
+        margin: 2rem auto;
+        padding: 3rem 2.5rem;
+        background: #0f0d0a;
+        background-image: radial-gradient(circle at 50% 30%, rgba(255, 215, 0, 0.12) 0%, transparent 70%);
+        border-radius: 16px;
+        border: 1px solid rgba(212, 175, 55, 0.2);
+        box-shadow: 
+            0 15px 40px rgba(0, 0, 0, 0.8),
+            0 0 25px rgba(212, 175, 55, 0.1);
+        color: #e6dfd5;
+        font-family: 'Montserrat', -apple-system, sans-serif;
+        box-sizing: border-box;
+    }
+
+    .glowy-gold-card p {
+        font-size: 1.02rem;
+        line-height: 1.85;
+        font-weight: 300;
+        margin: 0 0 1.5rem 0;
+        color: rgba(230, 223, 213, 0.9);
+        letter-spacing: 0.015em;
+    }
+
+    .glowy-gold-card p:last-child {
+        margin-bottom: 0;
+    }
+
+    .glowy-gold-card .gold-accent {
+        color: #fbe3b5;
+        font-weight: 400;
+        text-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+    }
+
+    .glowy-gold-card .gold-emphasis {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-style: italic;
+        font-size: 1.4rem;
+        color: #fbe3b5;
+        text-shadow: 0 0 15px rgba(212, 175, 55, 0.35);
+        text-align: center;
+        margin: 2.2rem 0;
+        letter-spacing: 0.04em;
+    }
+
+    .glowy-gold-card .gold-divider {
+        width: 35px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #d4af37, transparent);
+        margin: 2rem auto;
+        opacity: 0.6;
+    }
+
+    .glowy-gold-card .gold-glow-final {
+        color: #fbe3b5;
+        text-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+    }
+
+    @media (max-width: 600px) {
+        .glowy-gold-card {
+            padding: 2rem 1.5rem;
+            margin: 1rem;
+        }
+        .glowy-gold-card p {
+            font-size: 0.95rem;
+            line-height: 1.75;
+        }
+        .glowy-gold-card .gold-emphasis {
+            font-size: 1.25rem;
+        }
+    }
+</style>
+<!-- Fin de la carte Glowy Gold -->
+    
 
 </div>
 <!-- ================= FIN DE LA SECTION ================= -->
