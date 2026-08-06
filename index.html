@@ -480,7 +480,8 @@
     Je te kiffe de fou mon gars <i class="fa-solid fa-gem"></i>
 </h1>
 
-<!-- Début de la carte Glowy Gold -->
+
+        <!-- Début du composant -->
 <div class="glowy-gold-card">
     <p>
         <span class="gold-accent">Mon Romain,</span><br>
@@ -503,21 +504,37 @@
         Je vais arrêter avec ça, et je vais garder tout ça pour moi.
     </p>
 
-    <p class="gold-glow-final">
+    <p>
         J'ai jamais voulu que tu te sentes mal, frère.
+    </p>
+
+    <!-- Lecteur Vidéo Vimeo Format Portrait (9:16) -->
+    <div class="vimeo-portrait-wrapper">
+        <iframe 
+            src="https://player.vimeo.com/video/1216259097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+            title="Vidéo">
+        </iframe>
+    </div>
+
+    <!-- Message de fin -->
+    <p class="gold-glow-final">
+        Je veux juste que tu sois red mon gars. Que tu sois heureux.<br>
+        <span class="win-text">Win mon Roms... Win</span>
     </p>
 </div>
 
-<!-- Styles associés à la div (à placer dans votre fichier CSS ou dans une balise <style>) -->
+<!-- Styles CSS du composant -->
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&family=Montserrat:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,600&family=Montserrat:wght@300;400;500&display=swap');
 
     .glowy-gold-card {
-        max-width: 650px;
+        max-width: 500px; /* Plus étroit pour valoriser le format portrait */
         margin: 2rem auto;
-        padding: 3rem 2.5rem;
+        padding: 3rem 2.2rem;
         background: #0f0d0a;
-        background-image: radial-gradient(circle at 50% 30%, rgba(255, 215, 0, 0.12) 0%, transparent 70%);
+        background-image: radial-gradient(circle at 50% 20%, rgba(255, 215, 0, 0.12) 0%, transparent 70%);
         border-radius: 16px;
         border: 1px solid rgba(212, 175, 55, 0.2);
         box-shadow: 
@@ -535,10 +552,6 @@
         margin: 0 0 1.5rem 0;
         color: rgba(230, 223, 213, 0.9);
         letter-spacing: 0.015em;
-    }
-
-    .glowy-gold-card p:last-child {
-        margin-bottom: 0;
     }
 
     .glowy-gold-card .gold-accent {
@@ -566,14 +579,49 @@
         opacity: 0.6;
     }
 
+    /* Container vidéo vertical 9:16 */
+    .glowy-gold-card .vimeo-portrait-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 177.78%; /* Ratio 9:16 (16/9 = 1.7778) */
+        margin: 2.5rem 0;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid rgba(212, 175, 55, 0.25);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(212, 175, 55, 0.15);
+    }
+
+    .glowy-gold-card .vimeo-portrait-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    /* Message de fin lumineux */
     .glowy-gold-card .gold-glow-final {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0;
         color: #fbe3b5;
         text-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
     }
 
+    .glowy-gold-card .win-text {
+        display: block;
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-style: italic;
+        font-size: 1.35rem;
+        margin-top: 0.8rem;
+        color: #fff;
+        text-shadow: 0 0 12px rgba(255, 215, 0, 0.5);
+    }
+
     @media (max-width: 600px) {
         .glowy-gold-card {
-            padding: 2rem 1.5rem;
+            padding: 2rem 1.25rem;
             margin: 1rem;
         }
         .glowy-gold-card p {
@@ -585,10 +633,8 @@
         }
     }
 </style>
-<!-- Fin de la carte Glowy Gold -->
+<!-- Fin du composant -->
     
-
-</div>
 <!-- ================= FIN DE LA SECTION ================= -->
     
   
