@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a0a0c;
+            --card-bg: rgba(18, 18, 22, 0.75);
+            --text-primary: #e0e0e6;
+            --text-muted: #8e8e99;
+            --accent-red: #e63946;
+            --accent-red-glow: rgba(230, 57, 70, 0.4);
+            --border-color: rgba(255, 255, 255, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 1rem;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 50% 20%, rgba(30, 30, 40, 0.5) 0%, transparent 60%),
+                radial-gradient(circle at 50% 80%, rgba(20, 10, 15, 0.3) 0%, transparent 50%);
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 
+                0 30px 60px rgba(0, 0, 0, 0.8),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        .header-gif {
+            width: 100%;
+            height: 320px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-gif img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            filter: grayscale(40%) contrast(110%);
+            transition: filter 0.5s ease;
+        }
+
+        .header-gif::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            background: linear-gradient(to top, var(--card-bg), transparent);
+        }
+
+        .content {
+            padding: 2.5rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .title {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-bottom: 2rem;
+            text-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+            position: relative;
+            display: inline-block;
+        }
+
+        .title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 2px;
+            background: var(--text-muted);
+            opacity: 0.5;
+        }
+
+        .text-body {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .text-body p {
+            opacity: 0;
+            transform: translateY(10px);
+            animation: slideUp 0.8s ease-out forwards;
+        }
+
+        .text-body p:nth-child(1) { animation-delay: 0.3s; }
+        .text-body p:nth-child(2) { animation-delay: 0.6s; }
+        .text-body p:nth-child(3) { animation-delay: 0.9s; }
+
+        .highlight-red {
+            color: var(--accent-red);
+            font-weight: 600;
+            text-shadow: 0 0 12px var(--accent-red-glow);
+        }
+
+        .emoji {
+            font-style: normal;
+            display: inline-block;
+            margin-left: 4px;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+        }
+
+        /* Minimalist Audio Player */
+        .audio-player {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: slideUp 0.8s ease-out 1.2s forwards;
+        }
+
+        .audio-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .audio-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: 0.5px;
+        }
+
+        .audio-time {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .play-btn {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: var(--text-primary);
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .play-btn:hover {
+            background: var(--text-primary);
+            color: var(--bg-color);
+            transform: scale(1.05);
+        }
+
+        .play-btn svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        .progress-bar-container {
+            flex-grow: 1;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: var(--text-primary);
+            border-radius: 2px;
+            transition: width 0.1s linear;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 0.95;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .header-gif {
+                height: 220px;
+            }
+            .content {
+                padding: 1.8rem 1.2rem 2.2rem;
+            }
+            .title {
+                font-size: 1.6rem;
+            }
+            .text-body {
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-gif">
+            <img src="https://i.ibb.co/931WKLbv/ezgif-7ce1e28a3d50ef6d.gif" alt="Header Visual">
+        </div>
+        <div class="content">
+            <h1 class="title">Gris mon gars</h1>
+            <div class="text-body">
+                <p>Je suis gris car on arrivera jamais à se dire les choses, et j'aurai toujours ce sentiment de forcer.</p>
+                <p>J'espère que tu finiras par être <span class="highlight-red">red</span> mon Roms.</p>
+                <p>Moi c'est bon, je sais maintenant que je suis condamné à rester gris <span class="emoji">🥺</span></p>
+            </div>
+
+            <!-- Custom Minimalist Player -->
+            <div class="audio-player">
+                <audio id="audio-element" src="https://audio.jukehost.co.uk/019fddc6-64ad-7214-a8dc-aeec212e55b0" preload="metadata"></audio>
+                <div class="audio-info">
+                    <span class="audio-title">Vivre malgré le gris</span>
+                    <span class="audio-time" id="audio-time">0:00</span>
+                </div>
+                <div class="audio-controls">
+                    <button class="play-btn" id="play-btn" aria-label="Play">
+                        <svg id="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        <svg id="pause-icon" viewBox="0 0 24 24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                    </button>
+                    <div class="progress-bar-container" id="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const audio = document.getElementById('audio-element');
+        const playBtn = document.getElementById('play-btn');
+        const playIcon = document.getElementById('play-icon');
+        const pauseIcon = document.getElementById('pause-icon');
+        const progressBar = document.getElementById('progress-bar');
+        const progressContainer = document.getElementById('progress-container');
+        const timeDisplay = document.getElementById('audio-time');
+
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        }
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playIcon.style.display = 'none';
+                pauseIcon.style.display = 'block';
+            } else {
+                audio.pause();
+                playIcon.style.display = 'block';
+                pauseIcon.style.display = 'none';
+            }
+        });
+
+        audio.addEventListener('timeupdate', () => {
+            if (audio.duration) {
+                const progressPercent = (audio.currentTime / audio.duration) * 100;
+                progressBar.style.width = `${progressPercent}%`;
+                timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+            }
+        });
+
+        audio.addEventListener('loadedmetadata', () => {
+            timeDisplay.textContent = `0:00 / ${formatTime(audio.duration)}`;
+        });
+
+        audio.addEventListener('ended', () => {
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+            progressBar.style.width = '0%';
+            timeDisplay.textContent = `0:00 / ${formatTime(audio.duration)}`;
+        });
+
+        progressContainer.addEventListener('click', (e) => {
+            const width = progressContainer.clientWidth;
+            const clickX = e.offsetX;
+            const duration = audio.duration;
+            if (duration) {
+                audio.currentTime = (clickX / width) * duration;
+            }
+        });
+    </script>
+</body>
+</html>
