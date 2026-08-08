@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour toi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a0a0c;
+            --card-bg: rgba(18, 18, 22, 0.75);
+            --text-primary: #e0e0e6;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --accent-glow: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 1rem;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 50% 20%, rgba(30, 30, 40, 0.5) 0%, transparent 60%),
+                radial-gradient(circle at 50% 80%, rgba(20, 10, 15, 0.3) 0%, transparent 50%);
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 
+                0 30px 60px rgba(0, 0, 0, 0.8),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        .header-gif {
+            width: 100%;
+            height: 320px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-gif img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            filter: grayscale(30%) contrast(110%);
+        }
+
+        .header-gif::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            background: linear-gradient(to top, var(--card-bg), transparent);
+        }
+
+        .content {
+            padding: 2.5rem 2rem 3rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .text-body {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-weight: 300;
+            margin-bottom: 2.5rem;
+            max-width: 520px;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: slideUp 0.8s ease-out 0.3s forwards;
+        }
+
+        .emoji {
+            font-style: normal;
+            display: inline-block;
+            margin-left: 4px;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+        }
+
+        /* Lecteur audio personnalisé */
+        .audio-wrapper {
+            width: 100%;
+            max-width: 480px;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: slideUp 0.8s ease-out 0.6s forwards;
+        }
+
+        audio {
+            width: 100%;
+            height: 45px;
+            border-radius: 30px;
+            outline: none;
+            filter: invert(90%) hue-rotate(180deg) brightness(1.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 0.95;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .header-gif {
+                height: 220px;
+            }
+            .content {
+                padding: 1.8rem 1.2rem 2.2rem;
+            }
+            .text-body {
+                font-size: 1.05rem;
+                line-height: 1.7;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-gif">
+            <img src="https://i.ibb.co/931WKLbv/ezgif-7ce1e28a3d50ef6d.gif" alt="Header Visual">
+        </div>
+        <div class="content">
+            <div class="text-body">
+                <p>Désolé frère mais ton Antho est trop triste. J'ai besoin de toi, je me sens seul quand on est distant tous les deux c'est terrible... <span class="emoji">🥺</span></p>
+            </div>
+            
+            <div class="audio-wrapper">
+                <!-- Remplace 'vocal.mp3' par le lien ou le chemin de ton fichier audio -->
+                <audio controls>
+                    <source src="vocal.mp3" type="audio/mpeg">
+                    Ton navigateur ne supporte pas le lecteur audio.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
