@@ -277,12 +277,15 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="top-nav">
-        <a href="https://antho-btx75.github.io/Roms/mongava" class="top-nav-link" target="_blank" rel="noopener">
-            Notre sanctuaire, car je resterai à jamais ton gava &rarr;
-        </a>
-    </div>
+<div class="top-nav">
+    <a href="https://antho-btx75.github.io/Roms/mongava" 
+       class="top-nav-link" 
+       target="_blank" 
+       rel="noopener"
+       onclick="trackMongavaClick(); return true;">
+        Notre sanctuaire, car je resterai à jamais ton gava &rarr;
+    </a>
+</div>
 
     <img src="https://i.ibb.co/27Pjx2m5/ezgif-7ce1e28a3d50ef6d.gif" alt="Header" class="header-gif">
 
@@ -414,6 +417,24 @@
             audio.currentTime = (clickX / width) * duration;
         }
     });
+</script>
+
+    <!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+    function trackMongavaClick() {
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: "✅ Romain a cliqué sur le lien vers mongava (Notre sanctuaire) depuis la page Gris",
+            date: new Date().toLocaleString('fr-FR')
+        }).then(() => {
+            console.log("Notification mongava envoyée");
+        }).catch(err => {
+            console.log("Erreur:", err);
+        });
+    }
 </script>
 
 </body>
