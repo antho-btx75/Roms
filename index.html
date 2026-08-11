@@ -509,6 +509,121 @@
 
 </style>
 
+    <!-- ===== STATUT EN LIGNE ===== -->
+<div id="status-box" style="display: none; align-items: center; gap: 8px; font-size: 0.95rem; color: #c9d1d9; margin: 15px 0;">
+    <span id="online-dot" style="
+        width: 10px;
+        height: 10px;
+        background: #22c55e;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+        display: none;
+        animation: pulse-green 2s infinite;
+    "></span>
+    <span id="status-text"></span>
+</div>
+
+<style>
+@keyframes pulse-green {
+    0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6); }
+    70% { box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+</style>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyCF70NU6mPyFPYowed3kE1ihTOaaMWLm68",
+        authDomain: "roms-vote.firebaseapp.com",
+        databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "roms-vote",
+        storageBucket: "roms-vote.firebasestorage.app",
+        messagingSenderId: "730133330494",
+        appId: "1:730133330494:web:1b2e30790fa60baec8af6f",
+        measurementId: "G-H1559CTSH7"
+    };
+
+    const SECRET_CODE = "Antho7581"; // ← change ici (ex: antho2026)
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    // Affichage pour tout le monde
+    db.ref('statut').on('value', (snap) => {
+        const data = snap.val() || {};
+        const box = document.getElementById('status-box');
+        const dot = document.getElementById('online-dot');
+        const text = document.getElementById('status-text');
+
+        box.style.display = 'flex';
+
+        if (data.online === true) {
+            dot.style.display = 'inline-block';
+            text.textContent = 'Antho est en ligne';
+            text.style.color = '#22c55e';
+        } else {
+            dot.style.display = 'none';
+            if (data.lastSeen) {
+                text.textContent = 'Dernière connexion : ' + formatDate(data.lastSeen);
+                text.style.color = '#9ca3af';
+            } else {
+                text.textContent = 'Hors ligne';
+                text.style.color = '#9ca3af';
+            }
+        }
+    });
+
+    function formatDate(isoString) {
+        const d = new Date(isoString);
+        return d.toLocaleString('fr-FR', {
+            weekday: 'long',
+            day: 'numeric',
+            month: 'long',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    }
+
+    // Contrôle secret (toi seul)
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('online') || params.get('offline') || params.get('lastseen');
+
+    if (code === SECRET_CODE) {
+        if (params.has('online')) {
+            db.ref('statut').set({
+                online: true,
+                lastSeen: new Date().toISOString()
+            }).then(() => {
+                alert('Statut : EN LIGNE');
+                window.history.replaceState({}, '', window.location.pathname);
+            });
+        }
+        else if (params.has('offline')) {
+            db.ref('statut').set({
+                online: false,
+                lastSeen: new Date().toISOString()
+            }).then(() => {
+                alert('Statut : HORS LIGNE');
+                window.history.replaceState({}, '', window.location.pathname);
+            });
+        }
+        else if (params.has('lastseen')) {
+            const customTime = params.get('time');
+            if (customTime) {
+                db.ref('statut').set({
+                    online: false,
+                    lastSeen: new Date(customTime).toISOString()
+                }).then(() => {
+                    alert('Dernière connexion personnalisée enregistrée');
+                    window.history.replaceState({}, '', window.location.pathname);
+                });
+            }
+        }
+    }
+</script>
+    
 <div class="gold-top-section">
 
     <!-- Badges Liens Équilibrés -->
