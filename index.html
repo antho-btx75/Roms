@@ -621,29 +621,29 @@ if (!isSecretVisit) {
     const db = firebase.database();
 
     // Affichage pour tout le monde
-    db.ref('statut').on('value', (snap) => {
-        const data = snap.val() || {};
-        const box = document.getElementById('status-box');
-        const dot = document.getElementById('online-dot');
-        const text = document.getElementById('status-text');
+db.ref('statut').on('value', (snap) => {
+    const data = snap.val() || {};
+    const box = document.getElementById('status-box');
+    const dot = document.getElementById('online-dot');
+    const text = document.getElementById('status-text');
 
-        box.style.display = 'flex';
+    box.style.display = 'flex';
 
-        if (data.online === true) {
-            dot.style.display = 'inline-block';
-            text.textContent = 'Antho est en ligne';
-            text.style.color = '#22c55e';
+    if (data.online === true) {
+        dot.style.display = 'inline-block';
+        text.textContent = 'Antho est en ligne';
+        text.className = 'status-online';
+    } else {
+        dot.style.display = 'none';
+        if (data.lastSeen) {
+            text.textContent = 'Dernière connexion : ' + formatDate(data.lastSeen);
         } else {
-            dot.style.display = 'none';
-            if (data.lastSeen) {
-                text.textContent = 'Dernière connexion : ' + formatDate(data.lastSeen);
-                text.style.color = '#9ca3af';
-            } else {
-                text.textContent = 'Hors ligne';
-                text.style.color = '#9ca3af';
-            }
+            text.textContent = 'Hors ligne';
         }
-    });
+        text.className = 'status-offline';
+    }
+});
+
 
     function formatDate(isoString) {
         const d = new Date(isoString);
