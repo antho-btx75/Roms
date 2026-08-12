@@ -521,23 +521,37 @@
         </a>
     </div>
 
-        <!-- ===== STATUT EN LIGNE ===== -->
-<div id="status-box" style="display: none; align-items: center; justify-content: center; gap: 8px; font-size: 0.95rem; color: #c9d1d9; margin: 6px 0 10px 0;">   <span id="online-dot" style="
+<!-- ===== STATUT EN LIGNE ===== -->
+<div id="status-box" style="display: none; align-items: center; justify-content: center; gap: 10px; margin: 6px 0 14px 0;">
+    
+    <span id="online-dot" style="
         width: 10px;
         height: 10px;
         background: #22c55e;
         border-radius: 50%;
-        box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
         display: none;
-        animation: pulse-green 2s infinite;
+        animation: pulse-green 1.8s infinite;
+        flex-shrink: 0;
     "></span>
-    <span id="status-text"></span>
+
+    <span id="status-text" style="
+        background: linear-gradient(135deg, #22c55e, #16a34a);
+        color: #0d1117;
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        padding: 5px 14px;
+        border-radius: 50px;
+        box-shadow: 0 0 12px rgba(34, 197, 94, 0.35);
+    "></span>
+
 </div>
 
 <style>
 @keyframes pulse-green {
-    0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6); }
-    70% { box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+    0%   { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+    70%  { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
     100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
 }
 </style>
