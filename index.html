@@ -522,38 +522,62 @@
     </div>
 
 <!-- ===== STATUT EN LIGNE ===== -->
-<div id="status-box" style="display: none; align-items: center; justify-content: center; gap: 10px; margin: 6px 0 14px 0;">
-    
+<div id="status-box" style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 6px 0 14px 0;
+">
+
+    <!-- Point vert (visible seulement en ligne) -->
     <span id="online-dot" style="
         width: 10px;
         height: 10px;
         background: #22c55e;
         border-radius: 50%;
         box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
-        display: none;
         animation: pulse-green 1.8s infinite;
         flex-shrink: 0;
+        display: none;
     "></span>
 
+    <!-- Texte statut -->
     <span id="status-text" style="
-        background: linear-gradient(135deg, #22c55e, #16a34a) !important;
-        color: #0d1117 !important;
-        font-size: 0.82rem !important;
-        font-weight: 700 !important;
+        font-size: 0.82rem;
+        font-weight: 700;
         letter-spacing: 0.3px;
-        padding: 5px 14px !important;
-        border-radius: 50px !important;
-        box-shadow: 0 0 12px rgba(34, 197, 94, 0.35);
-        -webkit-text-fill-color: #0d1117 !important;
+        padding: 5px 14px;
+        border-radius: 50px;
+        transition: all 0.3s ease;
     "></span>
 
 </div>
 
 <style>
+/* Animation du point */
 @keyframes pulse-green {
     0%   { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
     70%  { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
     100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+/* ===== STYLE EN LIGNE ===== */
+.status-online {
+    background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+    color: #0d1117 !important;
+    -webkit-text-fill-color: #0d1117 !important;
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.35) !important;
+    font-weight: 700 !important;
+}
+
+/* ===== STYLE DERNIÈRE CONNEXION ===== */
+.status-offline {
+    background: linear-gradient(135deg, #30363d, #21262d) !important;
+    color: #c9d1d9 !important;
+    -webkit-text-fill-color: #c9d1d9 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) !important;
+    font-weight: 600 !important;
 }
 </style>
 
