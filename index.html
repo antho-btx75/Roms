@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ROMS, mon gars en OR 💎</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ROMS, mon gars en OR 💎</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
@@ -188,6 +188,87 @@
     color: var(--text-main);
     font-style: italic;
 }
+
+           .mini-gold-player {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        background: rgba(18, 15, 10, 0.85);
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        border-radius: 50px;
+        padding: 10px 18px 10px 12px;
+        width: 100%;
+        max-width: 460px;
+        margin: 16px auto;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.15);
+        backdrop-filter: blur(12px);
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .mgp-play-btn {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #ffd700, #aa7c11);
+        border: none;
+        cursor: pointer;
+        color: #111;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+        flex-shrink: 0;
+    }
+
+.mgp-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    overflow: visible; /* <--- Remplace "hidden" par "visible" pour que la bille ne soit pas coupée */
+}
+    .mgp-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; font-weight: 700; color: #f1d77e; }
+    .mgp-title { 
+    white-space: normal; /* Permet au texte de passer à la ligne si besoin */
+    overflow: visible; 
+    padding-right: 8px; 
+    }
+    .mgp-time { color: rgba(245, 245, 247, 0.5); font-size: 0.7rem; font-weight: 500; flex-shrink: 0; }
+
+.mgp-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: 4px 0; /* <--- Ajoute cette ligne pour donner de l'espace en haut et en bas de la bille */
+}
+        
+
+    .mgp-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #ffd700;
+        box-shadow: 0 0 8px #ffd700;
+        cursor: pointer;
+    }
+
+    .mgp-slider::-moz-range-thumb {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #ffd700;
+        border: none;
+        box-shadow: 0 0 8px #ffd700;
+        cursor: pointer;
+    }
 
         /* Grille des applications */
 .app-grid {
@@ -426,43 +507,8 @@
         margin-left: 6px; /* Ajuste l'espace juste après "MON GARS" */
     }
 
-    /* Bulle de statut / Message occasionnel */
-    .status-message-box {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        background: rgba(15, 13, 10, 0.7);
-        border: 1px solid rgba(255, 215, 0, 0.2);
-        border-radius: 30px;
-        padding: 8px 18px;
-        color: #f0e6d2;
-        font-size: 0.92rem;
-        font-weight: 500;
-        line-height: 1.4;
-        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 4px 15px rgba(0, 0, 0, 0.4);
-        backdrop-filter: blur(8px);
-        max-width: 90%;
-        margin: 0 auto;
-    }
-
-    /* Petit point glow d'ambiance */
-    .status-dot {
-        width: 6px;
-        height: 6px;
-        min-width: 6px;
-        background-color: #ffd700;
-        border-radius: 50%;
-        box-shadow: 0 0 8px #ffd700;
-        animation: pulseGlow 2s infinite ease-in-out;
-    }
-
-    @keyframes pulseGlow {
-        0%, 100% { opacity: 0.4; transform: scale(1); }
-        50% { opacity: 1; transform: scale(1.3); box-shadow: 0 0 12px #ffd700; }
-    }
 </style>
-
+    
 <div class="gold-top-section">
 
     <!-- Badges Liens Équilibrés -->
@@ -475,173 +521,765 @@
         </a>
     </div>
 
-<!-- Titre Principal avec le Diamant juste après -->
-<h1 class="gold-main-title">
-    Je te kiffe de fou mon gars <i class="fa-solid fa-gem"></i>
-</h1>
+<!-- ===== STATUT ===== -->
+<div id="status-box" style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 6px 0 14px 0;
+">
 
+<!-- Point plus grand -->
+<span id="online-dot" style="
+    width: 13px;
+    height: 13px;
+    background: #22c55e;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    animation: pulse-green 1.8s infinite;
+    flex-shrink: 0;
+    display: none;
+"></span>
 
-        <!-- Début du composant -->
-<div class="glowy-gold-card">
+<!-- Bulle plus fine en hauteur -->
+<span id="status-text" style="
+    font-size: 0.82rem;
+    letter-spacing: 0.3px;
+    padding: 3px 14px;          /* ← réduit la hauteur */
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    line-height: 1.3;
+"></span>
 
-    <p>Force à toi mon Roms !</p>
-    <p>
-        <span class="gold-accent">Mon Romain,</span><br>
-        Si tu as vu jeudi matin le lien de notre page sur Facebook, je te rassure tout de suite : il n'y a que toi qui peux voir cette publication.
-    </p>
-
-    <p>
-        Je suis comme un enfant. Je n'ai pas honte de ce que je ressens pour toi et pour moi, c'est normal de te le dire. Ce n'est pas mal de ressentir tout ça pour toi. Tu me plais, sur tous les plans, je trouve ça idiot de devoir le cacher.
-    </p>
-
-    <p>
-        Mais rien ne me ferait plus de mal, frère, que de savoir que c'est moi qui te rends gris. Désolé mon gars si tu penses que je suis dans l'excès avec mes sentiments amoureux, quand je parle de baise et tout.
-    </p>
-
-    <div class="gold-emphasis">Doui m'tsou mon Roms.</div>
-
-    <div class="gold-divider"></div>
-
-    <p>
-        Je vais arrêter avec ça, et je vais garder tout ça pour moi.
-    </p>
-
-    <p>
-        J'ai jamais voulu que tu te sentes mal, frère.
-    </p>
-
-    <!-- Lecteur Vidéo Vimeo Format Portrait (9:16) -->
-    <div class="vimeo-portrait-wrapper">
-        <iframe 
-            src="https://player.vimeo.com/video/1216259097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-            frameborder="0" 
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-            title="Vidéo">
-        </iframe>
-    </div>
-
-    <!-- Message de fin -->
-    <p class="gold-glow-final">
-        Je veux juste que tu sois red mon gars. Que tu sois heureux.<br>
-        <span class="win-text">Win mon Roms... Win</span>
-    </p>
 </div>
 
-<!-- Styles CSS du composant -->
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,600&family=Montserrat:wght@300;400;500&display=swap');
+@keyframes pulse-green {
+    0%   { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+    70%  { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
 
-    .glowy-gold-card {
-        max-width: 500px; /* Plus étroit pour valoriser le format portrait */
-        margin: 2rem auto;
-        padding: 3rem 2.2rem;
-        background: #0f0d0a;
-        background-image: radial-gradient(circle at 50% 20%, rgba(255, 215, 0, 0.12) 0%, transparent 70%);
-        border-radius: 16px;
-        border: 1px solid rgba(212, 175, 55, 0.2);
-        box-shadow: 
-            0 15px 40px rgba(0, 0, 0, 0.8),
-            0 0 25px rgba(212, 175, 55, 0.1);
-        color: #e6dfd5;
-        font-family: 'Montserrat', -apple-system, sans-serif;
+/* EN LIGNE → bulle verte + texte noir */
+.status-online {
+    background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+    color: #0d1117 !important;
+    -webkit-text-fill-color: #0d1117 !important;
+    font-weight: 700 !important;
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.35) !important;
+}
+
+/* DERNIÈRE CONNEXION → bulle grise + texte clair */
+.status-offline {
+    background: linear-gradient(135deg, #30363d, #21262d) !important;
+    color: #c9d1d9 !important;
+    -webkit-text-fill-color: #c9d1d9 !important;
+    font-weight: 600 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) !important;
+}
+</style>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyCF70NU6mPyFPYowed3kE1ihTOaaMWLm68",
+        authDomain: "roms-vote.firebaseapp.com",
+        databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "roms-vote",
+        storageBucket: "roms-vote.firebasestorage.app",
+        messagingSenderId: "730133330494",
+        appId: "1:730133330494:web:1b2e30790fa60baec8af6f",
+        measurementId: "G-H1559CTSH7"
+    };
+
+    const SECRET_CODE = "Antho7581"; // ← change ici (ex: antho2026)
+
+    const params = new URLSearchParams(window.location.search);
+
+    // ===== NOTIFICATION VISITE (sauf toi) =====
+const isSecretVisit = params.has('online') || params.has('offline') || params.has('lastseen');
+
+if (!isSecretVisit) {
+    // Charge EmailJS uniquement si besoin
+    const script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+    script.onload = () => {
+        emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: "👁 Visite sur la page principale",
+            date: new Date().toLocaleString('fr-FR')
+        }).then(() => {
+            console.log("Notification visite envoyée");
+        }).catch(err => console.log("Erreur visite:", err));
+    };
+    document.head.appendChild(script);
+    }
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    // Affichage pour tout le monde
+db.ref('statut').on('value', (snap) => {
+    const data = snap.val() || {};
+    const box = document.getElementById('status-box');
+    const dot = document.getElementById('online-dot');
+    const text = document.getElementById('status-text');
+
+    box.style.display = 'flex';
+
+    if (data.online === true) {
+        dot.style.display = 'inline-block';
+        text.textContent = 'Antho est en ligne pour son gars';
+        text.className = 'status-online';
+    } else {
+        dot.style.display = 'none';
+        if (data.lastSeen) {
+            text.textContent = 'Dernière connexion : ' + formatDate(data.lastSeen);
+        } else {
+            text.textContent = 'Hors ligne';
+        }
+        text.className = 'status-offline';
+    }
+});
+
+
+    function formatDate(isoString) {
+        const d = new Date(isoString);
+        return d.toLocaleString('fr-FR', {
+            weekday: 'long',
+            day: 'numeric',
+            month: 'long',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    }
+
+    // Contrôle secret (toi seul)
+    const code = params.get('online') || params.get('offline') || params.get('lastseen');
+
+    if (code === SECRET_CODE) {
+        if (params.has('online')) {
+            db.ref('statut').set({
+                online: true,
+                lastSeen: new Date().toISOString()
+            }).then(() => {
+                alert('Statut : EN LIGNE');
+                window.history.replaceState({}, '', window.location.pathname);
+            });
+        }
+        else if (params.has('offline')) {
+            db.ref('statut').set({
+                online: false,
+                lastSeen: new Date().toISOString()
+            }).then(() => {
+                alert('Statut : HORS LIGNE');
+                window.history.replaceState({}, '', window.location.pathname);
+            });
+        }
+        else if (params.has('lastseen')) {
+            const customTime = params.get('time');
+            if (customTime) {
+                db.ref('statut').set({
+                    online: false,
+                    lastSeen: new Date(customTime).toISOString()
+                }).then(() => {
+                    alert('Dernière connexion personnalisée enregistrée');
+                    window.history.replaceState({}, '', window.location.pathname);
+                });
+            }
+        }
+    }
+</script>
+
+<!-- Titre Principal avec le Diamant juste après -->
+<h1 class="gold-main-title">
+    Je t'aime de fou mec<i class="fa-solid fa-gem"></i>
+</h1>
+
+          <div class="mini-gold-player" 
+     data-src="https://audio.jukehost.co.uk/019ff73f-99b4-724d-aa70-75186d887b13" 
+     data-title="Toujours là pour toi, mon Roms"
+     style="
+        background: linear-gradient(135deg, #0d1b2a, #1b2838);
+        border: 1px solid #58a6ff;
+        box-shadow: 0 0 18px rgba(88, 166, 255, 0.25);
+     ">
+      </div>  
+
+    <p>Dans la boutique de souvenirs à Sète tu te rappelles tu m'as dit devant la grosse bite en bois "tu vas acheter une teub toi!". Ça m'a trop fait rire et en même temps j'ai kiffé que tu me parles comme ça frère mdrrr 🤣🤣. On se parlait comme si on s'en branlait et qu'on avait rien à cacher, je kiffais que tu me parles si franchement frère. Allé gro en vrai de vrai viens on bz mon gars 🥵.</p>
+    <p>J'ai toujours TOUT kiffer chez toi. Ta personnalité, ta gentillesse, ton corps, ton cul (tes bonnes grosses fesses de mec bien bombées, mais je suis pas juste focus sur ton boule, je pourrais aussi sucer ton zgeg et avaler tout ton lait jusqu'à la dernière goutte de mesper mdrrr), je kiffe ton visage, ta voix, toute la vibe qui se dégage de toi, et aussi le côté un peu mystérieux chez toi (je kiffe le Romain qui se cache derrière sa casquette, comme Thomas Price mdrr), les souffrances que tu caches en toi, tes câblages en gros tout, je kiffe TOUT chez toi, et ça depuis le début mon Romain. J'ai toujours été dingue de toi, je t'aime un point c'est tout 💕💗</p>
+<p>Désolé mon Roms si c'est puissant, si c'est animal ce que j'écris là, mais de toutes façons tu m'as cramé depuis longtemps frère, tu sais déjà tout ça. Je t'aime sur tous les plans, c'est vraiment sur tous les plans et j'ai pas de honte à avoir pour t'aimer de façon intégrale. C'est ce que je ressens pour toi, mon Romain. C'est le même Antho qui sera toujours là pour toi, qui voudra te protéger, être ton Rocher et ton Bouclier, mais qui voudra aussi baiser avec toi. T'es ma personne préférée !!! Roms et Antho c'est pour la vie 💕</p>
+
+    <p>J'ai tellement envie d'être près de toi, pas seulement physiquement mais émotionnellement. Envie de parler avec toi de ce qui te rend gris, sans tabou. Envie de te dire tout ce que je ressens pour toi, et tant pis si c'est pas partagé à 100%. Tout ce que je veux c'est être ton gava, ton gars sûr frère.</p><p>Je te sens gris mon Roms. J'espère que c'est pas de ma faute. Parle moi stp gro, et dis moi ce qui te pèse tant. Je suis le gars en qui tu peux avoir le plus confiance au monde.</p>
+
+    <div class="mini-gold-player" 
+     data-src="https://audio.jukehost.co.uk/019fd38d-781a-7272-b1ed-653afb38d7dc" 
+     data-title="Je suis à toi mon gars">
+    </div>
+
+    <div style="text-align: center; padding: 2.5rem 1.5rem; background: #0c0b10; border-radius: 16px; border: 1px solid rgba(212, 175, 55, 0.25); max-width: 500px; margin: 0 auto;">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300&display=swap');
+    
+    @keyframes goldShine {
+      to { background-position: 200% center; }
+    }
+  </style>
+
+  <h2 style="
+    font-family: 'Cinzel', 'Georgia', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 0.8rem 0;
+    background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: goldShine 4s linear infinite;
+    filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.45));
+  ">
+    Force à toi mec 💪🏻
+  </h2>
+
+  <p style="
+    font-family: 'Montserrat', 'Segoe UI', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #e6e6e6;
+    letter-spacing: 1px;
+    margin: 0;
+    opacity: 0.95;
+  ">
+    Je t'aime d'une force mon gars <span style="filter: drop-shadow(0 0 8px rgba(255, 105, 180, 0.6));">💕</span> et merci d'être le mec formidable que tu es, mon Roms. Je serai toujours là pour toi.
+  </p>
+            <!-- Zone de Message Évolutif + Mini Gold Player -->
+<div class="status-message-box-v2">
+    <div class="message-text">
+        <span class="status-prompt-v2">&gt;</span><span class="typewriter-text-v2" id="tw-text-v2"></span><span class="typewriter-cursor-v2"></span>
+    </div>
+</div>
+    </div>
+    
+
+<div style="
+    max-width: 580px; 
+    margin: 40px auto; 
+    padding: 40px 30px; 
+    background: #0f0f11; 
+    color: #e2e2e8; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+    border-radius: 20px; 
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    line-height: 1.7;
+    border: 1px solid rgba(255,255,255,0.06);
+">
+
+    <!-- Section 1 : Le gris & la présence -->
+    <p style="
+        font-size: 1.05rem; 
+        font-weight: 300; 
+        color: #a0a0b0; 
+        margin-bottom: 25px;
+    ">
+        Force mon gars. Putain mais je t'aime mon Roms, si tu savais à quel point je t'aime mec... T'es un Dieu pour moi, et je veux tout te donner. Romain, j'aime pas quand t'es gris, et je sens que t'es gris foncé, gris de fou malade…<br>
+        J'ai trop envie de te parler, d'être avec toi et de t'enlever tout ton gris. Par n'importe quel moyen : te parler, être avec toi, coller mon corps contre le tien, te caresser, baiser même, peu importe les moyens frère je veux retirer tout ton gris…
+    </p>
+
+    <!-- Transition viscérale -->
+    <p style="
+        font-size: 1.08rem; 
+        font-style: italic; 
+        color: #ffffff; 
+        margin-bottom: 30px;
+        padding-left: 15px;
+        border-left: 3px solid #ff4d6d;
+    ">
+        C'est comme si t'avais retourné mon esprit, mon cœur, mon corps, mon zgeg et mon cul ptn.
+    </p>
+
+    <!-- Section 2 : Les piliers (Cœur / Teub / Fiak) -->
+    <div style="
+        background: rgba(255,255,255,0.025); 
+        padding: 22px; 
+        border-radius: 14px; 
+        margin-bottom: 30px;
+        border: 1px solid rgba(255,255,255,0.04);
+    ">
+        <p style="margin: 0 0 16px 0; font-size: 0.98rem;">
+            <strong style="color: #ff4d6d; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.82rem; display: block; margin-bottom: 4px;">Mon cœur ?</strong>
+            Il ne bat que pour toi, j'ai envie de tout t'apporter dans ta vie, t'apporter l'amour, la stabilité, la sécurité et la loyauté.
+        </p>
+        
+        <p style="margin: 0 0 16px 0; font-size: 0.98rem;">
+            <strong style="color: #ff4d6d; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.82rem; display: block; margin-bottom: 4px;">Ma teub ?</strong>
+            Y'a personne qui me donne la barre autant que toi mon gars, t'es trop hot srx.
+        </p>
+
+        <p style="margin: 0; font-size: 0.98rem;">
+            <strong style="color: #ff4d6d; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.82rem; display: block; margin-bottom: 4px;">Et mon fiak ?</strong>
+            T'es le seul gars à me faire mouiller du cul tellement j'ai envie de toi.
+        </p>
+    </div>
+
+    <!-- Section 3 : Déclaration centrale -->
+    <div style="text-align: center; margin-bottom: 35px;">
+        <p style="font-size: 1.15rem; font-weight: 600; color: #ffffff; margin-bottom: 8px;">
+            T'es celui que j'aime, un point c'est tout.
+        </p>
+        <p style="font-size: 0.95rem; color: #9090a0; margin-bottom: 18px;">
+            Meuf ou gars je m'en branle, t'es juste mon humain préféré. Je pourrais mourir pour toi tellement tu occupes une place unique dans mon cœur.
+        </p>
+        <span style="
+            display: inline-block;
+            font-size: 1.15rem; 
+            font-weight: 700; 
+            color: #ff4d6d; 
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        ">
+            Je t'aime frère.
+        </span>
+    </div>
+
+    <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 35px 0;">
+
+    <!-- Section 4 : Soutien & Combat (Guerrier) -->
+    <div style="text-align: center; margin-bottom: 35px;">
+        <p style="font-size: 1.05rem; color: #d0d0dc; margin-bottom: 15px;">
+            Arrête d'être gris stp mon Roms. Je suis là pour toi et je t'aime mec, 
+            <strong style="color: #ffe600; font-weight: 600; display: block; margin-top: 6px;">on peut tout affronter ensemble dans la vie.</strong>
+        </p>
+
+        <p style="
+            font-size: 1.2rem; 
+            font-weight: 700; 
+            color: #ffe600; 
+            letter-spacing: 0.5px;
+            margin: 25px 0 10px 0;
+        ">
+            Je serai toujours là pour toi...
+        </p>
+
+        <p style="font-size: 1.05rem; color: #b0b0c0; font-style: italic; margin-bottom: 20px;">
+            Parce que je suis ton guerrier, ton soldat, ton gava...
+        </p>
+
+        <div style="
+            background: rgba(255, 77, 109, 0.08); 
+            padding: 16px; 
+            border-radius: 12px; 
+            border: 1px solid rgba(255, 77, 109, 0.2);
+            margin: 20px 0;
+        ">
+            <p style="color: #ff4d6d; font-size: 1.1rem; font-weight: 600; margin: 0;">
+                Je t'aime mon Romain, je suis vraiment amoureux de toi 💕
+            </p>
+        </div>
+    </div>
+
+    <!-- Section 5 : Soutien quotidien -->
+    <div style="
+        background: rgba(255,255,255,0.015); 
+        padding: 20px; 
+        border-radius: 12px; 
+        text-align: center;
+        margin-bottom: 35px;
+    ">
+        <p style="font-weight: 600; font-size: 1.05rem; color: #ffffff; margin-bottom: 8px;">
+            Force à toi pour aujourd'hui Romain.
+        </p>
+        <p style="color: #a0a0b0; font-size: 0.95rem; margin: 0;">
+            T'es jamais seul frère, t'es toujours dans mon cœur et mes pensées.<br>
+            <span style="color: #ff80df; font-weight: 600;">Je t'aime, putain qu'est-ce que je t'aime frère 💗</span>
+        </p>
+    </div>
+
+    <!-- Section 6 : Note finale cash & désir -->
+    <div style="
+        text-align: center; 
+        padding: 20px 15px 5px 15px; 
+        border-top: 1px dashed rgba(255,255,255,0.1);
+    ">
+        <p style="color: #ff80df; font-size: 1.05rem; font-weight: 500; margin: 0; line-height: 1.6;">
+            Et si y'a un truc que t'as vite capté aussi,<br>
+            <strong style="font-size: 1.15rem; color: #ffffff; display: block; margin-top: 6px;">
+                c'est que j'ai trop envie de bz avec toi mec 🍑💦🍆🥵
+            </strong>
+        </p>
+    </div>
+
+</div>
+    
+    
+    <div class="mini-gold-player" 
+     data-src="https://audio.jukehost.co.uk/019fbe43-0b01-70bb-9a57-44e7ec58aa51" 
+     data-title="Gris et red à la fois mon gars">
+    </div>
+    
+<div class="mini-gold-player" 
+     data-src="https://audio.jukehost.co.uk/019fa55e-edab-7234-b59d-e5b8645dfb08" 
+     data-title="Je serai toujours là pour toi...">
+</div>
+    
+
+
+
+<script>
+    const audioG = document.getElementById('audioGris');
+    const iconG = document.getElementById('iconGris');
+    const barG = document.getElementById('barGris');
+    const timeG = document.getElementById('timeGris');
+    const progressG = document.getElementById('progressGris');
+
+    function toggleGris() {
+        if (audioG.paused) {
+            audioG.play();
+            iconG.classList.replace('fa-play', 'fa-pause');
+        } else {
+            audioG.pause();
+            iconG.classList.replace('fa-pause', 'fa-play');
+        }
+    }
+
+    audioG.addEventListener('timeupdate', () => {
+        if (!audioG.duration) return;
+        barG.style.width = (audioG.currentTime / audioG.duration * 100) + '%';
+        const min = Math.floor(audioG.currentTime / 60);
+        const sec = Math.floor(audioG.currentTime % 60);
+        timeG.textContent = min + ':' + (sec < 10 ? '0' : '') + sec;
+    });
+
+    audioG.addEventListener('ended', () => {
+        iconG.classList.replace('fa-pause', 'fa-play');
+        barG.style.width = '0%';
+    });
+
+    function seekGris(e) {
+        const rect = progressG.getBoundingClientRect();
+        const percent = (e.clientX - rect.left) / rect.width;
+        audioG.currentTime = percent * audioG.duration;
+    }
+</script>
+
+    <!-- Mini Gold Player intégré -->
+    <div class="mini-gold-player-box" id="flash-player" style="display: none;">
+        <button class="mgp-play-btn" id="flash-play-btn" title="Lecture/Pause">
+            <i class="fa-solid fa-play" id="flash-play-icon"></i>
+        </button>
+        <div class="mgp-content">
+            <div class="mgp-header">
+                <span class="mgp-title">Un jour on sera red mon gars</span>
+                <span class="mgp-time" id="flash-time">0:00 / 0:00</span>
+            </div>
+            <input type="range" id="flash-slider" class="mgp-slider" value="0" min="0" step="0.1">
+        </div>
+    </div>
+
+    <!-- Element Audio -->
+    <audio id="flash-audio" src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" preload="metadata" style="display: none !important;"></audio>
+</div>
+
+<style>
+    .status-message-box-v2 {
+        display: block;
+        text-align: center;
+        background: rgba(15, 13, 10, 0.7);
+        border: 1px solid rgba(255, 215, 0, 0.2);
+        border-radius: 20px;
+        padding: 16px 18px;
+        color: #f0e6d2;
+        font-size: 0.82rem;
+        font-weight: 500;
+        line-height: 1.45;
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 4px 15px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(8px);
+        max-width: 90%;
+        margin: 24px auto;
         box-sizing: border-box;
     }
 
-    .glowy-gold-card p {
-        font-size: 1.02rem;
-        line-height: 1.85;
-        font-weight: 300;
-        margin: 0 0 1.5rem 0;
-        color: rgba(230, 223, 213, 0.9);
-        letter-spacing: 0.015em;
+    .message-text {
+        margin: 0;
+        padding: 0;
     }
 
-    .glowy-gold-card .gold-accent {
-        color: #fbe3b5;
-        font-weight: 400;
-        text-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+    .status-prompt-v2 {
+        display: inline-block;
+        color: #ffd700;
+        font-weight: 800;
+        font-family: monospace, sans-serif;
+        font-size: 0.95rem;
+        margin-right: 6px;
+        vertical-align: middle;
+        text-shadow: 0 0 8px #ffd700;
+        animation: pulsePromptV2 1.8s infinite ease-in-out;
     }
 
-    .glowy-gold-card .gold-emphasis {
-        font-family: 'Cormorant Garamond', Georgia, serif;
-        font-style: italic;
-        font-size: 1.4rem;
-        color: #fbe3b5;
-        text-shadow: 0 0 15px rgba(212, 175, 55, 0.35);
-        text-align: center;
-        margin: 2.2rem 0;
-        letter-spacing: 0.04em;
+    .typewriter-text-v2 {
+        display: inline;
     }
 
-    .glowy-gold-card .gold-divider {
-        width: 35px;
-        height: 1px;
-        background: linear-gradient(90deg, transparent, #d4af37, transparent);
-        margin: 2rem auto;
-        opacity: 0.6;
+    .typewriter-cursor-v2 {
+        display: inline-block;
+        width: 6px;
+        height: 12px;
+        background-color: #ffffff;
+        margin-left: 3px;
+        vertical-align: middle;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        animation: blinkCursorV2 0.7s infinite;
     }
 
-    /* Container vidéo vertical 9:16 */
-    .glowy-gold-card .vimeo-portrait-wrapper {
-        position: relative;
-        width: 100%;
-        padding-top: 177.78%; /* Ratio 9:16 (16/9 = 1.7778) */
-        margin: 2.5rem 0;
-        border-radius: 12px;
-        overflow: hidden;
-        border: 1px solid rgba(212, 175, 55, 0.25);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(212, 175, 55, 0.15);
+    /* ===== MINI GOLD PLAYER INTÉGRÉ ===== */
+    .mini-gold-player-box {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 16px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(255, 215, 0, 0.15);
+        animation: fadeInPlayer 0.5s ease;
+        text-align: left;
     }
 
-    .glowy-gold-card .vimeo-portrait-wrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .mgp-play-btn {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #ffd700, #aa7c11);
         border: none;
+        cursor: pointer;
+        color: #111;
+        font-size: 0.95rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.35);
+        flex-shrink: 0;
     }
 
-    /* Message de fin lumineux */
-    .glowy-gold-card .gold-glow-final {
-        text-align: center;
-        margin-top: 2rem;
-        margin-bottom: 0;
-        color: #fbe3b5;
-        text-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+    .mgp-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        overflow: hidden;
     }
 
-    .glowy-gold-card .win-text {
-        display: block;
-        font-family: 'Cormorant Garamond', Georgia, serif;
-        font-style: italic;
-        font-size: 1.35rem;
-        margin-top: 0.8rem;
-        color: #fff;
-        text-shadow: 0 0 12px rgba(255, 215, 0, 0.5);
+    .mgp-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: #f1d77e;
     }
 
-    @media (max-width: 600px) {
-        .glowy-gold-card {
-            padding: 2rem 1.25rem;
-            margin: 1rem;
-        }
-        .glowy-gold-card p {
-            font-size: 0.95rem;
-            line-height: 1.75;
-        }
-        .glowy-gold-card .gold-emphasis {
-            font-size: 1.25rem;
-        }
+    .mgp-title {
+        white-space: normal;
+        line-height: 1.3;
+        padding-right: 8px;
+    }
+
+    .mgp-time {
+        color: rgba(245, 245, 247, 0.5);
+        font-size: 0.68rem;
+        font-weight: 500;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .mgp-slider {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .mgp-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #ffd700;
+        box-shadow: 0 0 8px #ffd700;
+        cursor: pointer;
+    }
+
+    .mgp-slider::-moz-range-thumb {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #ffd700;
+        border: none;
+        box-shadow: 0 0 8px #ffd700;
+        cursor: pointer;
+    }
+
+    @keyframes pulsePromptV2 {
+        0%, 100% { opacity: 0.5; transform: scale(1); text-shadow: 0 0 4px #ffd700; }
+        50% { opacity: 1; transform: scale(1.15); text-shadow: 0 0 12px #ffd700, 0 0 18px #ffd700; }
+    }
+
+    @keyframes blinkCursorV2 {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
     }
 </style>
-<!-- Fin du composant -->
-    
-<!-- ================= FIN DE LA SECTION ================= -->
-    
-  
 
-                   <nav>
+<script>
+    (function() {
+        const message = "Romain... mon Romain...  Si t'es gris, si tu serres de ouf, rappelle toi juste une chose et dis toi : Antho est là pour moi, Antho m'aime.\n\nOui je suis là pour toi... aujourd'hui, hier comme demain, et tous les demains que Dieu fera pour nous deux. Tous les jours j'ai envie de t'écrire, tous les jours j'ai envie de te parler 💕";
+        const speed = 35;
+        const textContainer = document.getElementById("tw-text-v2");
+        const player = document.getElementById("flash-player");
+        
+        if (!textContainer) return;
+
+        const characters = Array.from(message);
+        let index = 0;
+
+        function typeWriter() {
+            if (index < characters.length) {
+                textContainer.textContent += characters[index];
+                index++;
+                setTimeout(typeWriter, speed);
+            } else {
+                setTimeout(() => {
+                    player.style.display = "flex";
+                }, 400);
+            }
+        }
+
+        setTimeout(typeWriter, 300);
+
+        // ===== PLAYER AUDIO =====
+        const audio = document.getElementById('flash-audio');
+        const playBtn = document.getElementById('flash-play-btn');
+        const icon = document.getElementById('flash-play-icon');
+        const slider = document.getElementById('flash-slider');
+        const timeEl = document.getElementById('flash-time');
+
+        const fmt = t => isNaN(t) || !isFinite(t) ? '0:00' : `${Math.floor(t/60)}:${Math.floor(t%60).toString().padStart(2,'0')}`;
+
+        // Play / Pause
+        playBtn.onclick = () => {
+            if (audio.paused) {
+                audio.play();
+                icon.className = 'fa-solid fa-pause';
+            } else {
+                audio.pause();
+                icon.className = 'fa-solid fa-play';
+            }
+        };
+
+        // Chargement durée
+        audio.onloadedmetadata = () => {
+            slider.max = audio.duration;
+            timeEl.textContent = `0:00 / ${fmt(audio.duration)}`;
+        };
+
+        // Avancement auto
+        audio.ontimeupdate = () => {
+            slider.value = audio.currentTime;
+            timeEl.textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+        };
+
+        // Navigation dans le morceau
+        slider.oninput = () => {
+            audio.currentTime = slider.value;
+        };
+
+        // Fin du vocal
+        audio.onended = () => {
+            icon.className = 'fa-solid fa-play';
+            slider.value = 0;
+            timeEl.textContent = `0:00 / ${fmt(audio.duration)}`;
+        };
+    })();
+</script>
+    
+
+    <!-- ================= FIN DE LA SECTION ================= -->
+    
+   Win Roms, Win ! 💪🏻
+    <p style="
+    max-width: 420px;
+    margin: 25px auto 0;
+    text-align: center;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: #a1a1aa;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+">
+    En plus frère je te vois un peu comme Rocky.<br>
+    Je te vois fort comme lui. Fort physiquement mais aussi mentalement, malgré tes blessures.<br>
+    Et puis t’as un cœur gros comme ça. T’es gentil, archi gentil et t’es un mec formidable.
+    </p><br>
+
+        <p style="color: var(--gold-light); font-family: 'Arial Black', sans-serif; font-size: 1em; letter-spacing: 3px; text-transform: uppercase; margin: 0; text-shadow: 0 0 10px rgba(252, 246, 186, 0.3); text-align: center;">
+    <a href="#Rocky" style="color: inherit; text-decoration: none; border-bottom: 1px dashed rgba(252, 246, 186, 0.5); padding-bottom: 2px;">
+        ⛓️‍💥 NO RETREAT.<br>NO SURRENDER. ⛓️‍💥
+    </a>
+        </p>
+
+    <div style="max-width: 480px; margin: 30px auto; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.5);">
+    <iframe 
+        width="100%" 
+        height="270" 
+        src="https://www.youtube.com/embed/x8HY1FW3KoM?rel=0&modestbranding=1" 
+        title="Going the Distance" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    </div>
+
+
+    
+<!-- Style CSS pour forcer la disposition en grille 2 par 2 + 1 centré en bas -->
+<style>
+    .nav-pill-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
+        gap: 12px; /* Espace entre les boutons */
+        list-style: none;
+        padding: 0;
+        margin: 20px auto;
+        max-width: 480px; /* Aligné avec la largeur de tes cartes */
+    }
+
+    .nav-pill-list li {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Le dernier élément prend toute la largeur */
+    .nav-pill-list li.li-full-width {
+        grid-column: span 2;
+    }
+
+    /* Assure que les liens prennent bien tout le bouton */
+    .nav-pill-list a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+</style>
+
+<nav>
 <ul class="nav-pill-list">
     <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> NOTRE LIEN</a></li>
     <li><a href="#personne-preferee">💕 BFF</a></li>
@@ -665,26 +1303,197 @@
             Status
         </div>
 
-   
+        <a href="https://antho-btx75.github.io/Roms/sex" id="btn-hot-link" class="btn-hot-cyber">
+            <i class="fas fa-fire"></i> PLAISIR ET KIFF HOT 🔥🔞
+        </a>
     </li>
 </ul>
-                   </nav>
+</nav>
+    
 
 <p style="text-align: center; font-size: 1.22rem; color: #ff79c6; font-weight: 700; margin-bottom: 28px; letter-spacing: 0.4px; line-height: 1.45;">
-    T'ES MA PERSONNE PRÉFÉRÉE<br>
-    On est Super BFF depuis un an maintenant mon gars. C'est la preuve que Roms et Antho, c'est pour la vie.
+    T'ES MA PERSONNE PRÉFÉRÉE ET J'AI TROP ENVIE DE TOI 🥵<br>
+    On est Super BFF depuis un an maintenant mon gars. Putain ce badge à lui seul me donne la barre. C'est la preuve que Roms et Antho, c'est pour la vie 💕
 </p>
 
-  <p>T'es un mec tellement important pour moi Romain, je t'ai dans la peau, dans mon esprit et dans mon cœur frère.</p>
+  <p>T'es un mec tellement important pour moi Romain, je t'ai dans la peau, dans mon esprit et dans mon cœur frère 💗</p>
 
     <p style="border-left: 3px solid #ff79c6; padding-left: 16px; margin: 28px 0;">
         J'te kiffe de fou, et stp préserve toi, protège ta santé mentale en mettant les choses au clair avec les personnes toxiques qui vivent en faisant des reproches, qui font câbler et qui cherchent toujours à faire culpabiliser. Entre la fatigue physique et mentale ça doit être archi dur gro et il faut se protéger. Je suis là pour toi mon gars 💪🏻
     </p>
 
-    <p>Je suis ton conseiller, je suis ton mentor, je suis ton avocat. Je suis aussi ton gars sûr, ton Rocher, et je ferai tout pour toi, toujours dispo h24. J'aime tout chez toi gro.</p>
+    <p id="bz">Je suis ton conseiller, je suis ton mentor, je suis ton avocat. Je suis aussi ton gars sûr, ton Rocher, et je ferai tout pour toi, toujours dispo h24. J'aime tout chez toi, je suis aussi ta pute, ton mec, ton esclave sexuel, et en vrai de vrai tu me mènes par le bout du nez et de la teub mon gars 🥵</p>
 
 
-      
+           <div class="grey-box-container">
+  <!-- Section du texte en premier -->
+  <div class="grey-box-content">
+    <blockquote class="grey-box-quote">
+      <span class="quote-mark">“</span>
+      <p>
+        Fuck le gris mon Roms ! Je kifferais faire du sale avec toi putain. Tu me fais bander de fou et je mouille grave du cul frère. Pas de sentiments amoureux, juste des kiffs entre gavas et se faire plaiz entre nous mec 🍑🍆💦🥵
+      </p><br>
+        <p>C'est vrai que j'étais red de fou dans le train. Alors j'étais gris car le voyage touchait à sa fin, mais red de fou malade car nos cuisses se sont bien frottés dans le train et j'ai même juté. C'est tellement puissant l'excitation que tu provoques en moi que j'arrive à juter sans même me toucher le zgeg 💦🍆</p>
+    </blockquote>
+  </div>
+           </div>
+
+        <div class="mini-gold-player" 
+     data-src="https://audio.jukehost.co.uk/019f80b2-cc2d-739c-9b3c-20ca62f1c26e" 
+     data-title="J'ai trop envie de toi mon gars">
+        </div>
+
+
+<!-- Section Vignettes cliquables - 2 rangées de 3 avec légendes -->
+
+<!-- Légende Mon zgeg -->
+<p style="text-align: center; font-size: 1.05rem; color: #c9d1d9; margin: 30px 0 12px 0; font-weight: 500;">Mon zgeg</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; max-width: 520px; margin: 0 auto 40px auto; padding: 0 15px;">
+
+    <a href="https://i.ibb.co/VpB9ns8y/20260617-201047831.jpg" target="_blank" style="text-decoration: none;">
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
+            <img src="https://i.ibb.co/VpB9ns8y/20260617-201047831.jpg" style="width: 100%; height: auto; display: block;" alt="Mon zgeg 1">
+        </div>
+    </a>
+    <a href="https://i.ibb.co/jvRymCNk/20260622-191745111.jpg" target="_blank" style="text-decoration: none;">
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
+            <img src="https://i.ibb.co/jvRymCNk/20260622-191745111.jpg" style="width: 100%; height: auto; display: block;" alt="Mon zgeg 2">
+        </div>
+    </a>
+    <a href="https://i.ibb.co/PZsW5Bn8/IMG-20260517-184414.jpg" target="_blank" style="text-decoration: none;">
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
+            <img src="https://i.ibb.co/PZsW5Bn8/IMG-20260517-184414.jpg" style="width: 100%; height: auto; display: block;" alt="Mon zgeg 3">
+        </div>
+    </a>
+
+</div>
+
+<!-- Légende Mon fiak -->
+<p style="text-align: center; font-size: 1.05rem; color: #c9d1d9; margin: 30px 0 12px 0; font-weight: 500;">Mon fiak</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; max-width: 520px; margin: 0 auto 40px auto; padding: 0 15px;">
+
+    <a href="https://i.ibb.co/JWdt3KHS/IMG-20260713-215829.jpg" target="_blank" style="text-decoration: none;">
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
+            <img src="https://i.ibb.co/JWdt3KHS/IMG-20260713-215829.jpg" style="width: 100%; height: auto; display: block;" alt="Mon fiak 1">
+        </div>
+    </a>
+    <a href="https://i.ibb.co/k2xtD0WB/IMG-20260517-185623.jpg" target="_blank" style="text-decoration: none;">
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
+            <img src="https://i.ibb.co/k2xtD0WB/IMG-20260517-185623.jpg" style="width: 100%; height: auto; display: block;" alt="Mon fiak 2">
+        </div>
+    </a>
+    <a href="https://i.ibb.co/NDsVFKK/IMG-20260506-213341.jpg" target="_blank" style="text-decoration: none;">
+        <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
+            <img src="https://i.ibb.co/NDsVFKK/IMG-20260506-213341.jpg" style="width: 100%; height: auto; display: block;" alt="Mon fiak 3">
+        </div>
+    </a>
+
+</div>
+
+           <a href="https://antho-btx75.github.io/Roms/sex" 
+   onclick="trackVoirPlusClick(); return true;" 
+   style="display: inline-block; padding: 12px 32px; background: rgba(0,0,0,0.85); color: #ff79c6; font-weight: 700; border: 1px solid #ff79c6; border-radius: 50px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 0 20px rgba(255, 121, 198, 0.4); font-size: 1.05rem; letter-spacing: 0.5px;">
+    Voir plus
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+    function trackVoirPlusClick() {
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: "✅ Romain a cliqué sur le bouton 'Voir plus' (vers la page sex)",
+            date: new Date().toLocaleString('fr-FR')
+        });
+    }
+</script>
+
+<!-- Section des 4 GIFs cliquables -->
+<div class="grey-box-media" style="display: flex; flex-direction: column; gap: 18px; max-width: 520px; margin: 30px auto; padding: 0 15px;">
+
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/VYg6wfsL/38153261.gif" alt="GIF d'origine" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
+    </div>
+
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/0pvY9sfn/ezgif-81e35307fb99d6eb-1.gif" alt="GIF 1" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
+    </div>
+
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/tpHZSLcJ/ezgif-88f62753f61adf72.gif" alt="GIF 2" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
+    </div>
+
+    <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4); cursor: pointer;">
+        <img src="https://i.ibb.co/MDk3NkDT/42899911.gif" alt="GIF 3" onclick="openGifModal(this.src)" style="width: 100%; height: auto; display: block; transition: transform 0.2s;" />
+    </div>
+
+</div>
+
+<!-- Lightbox / Modal d'agrandissement -->
+<div id="gifModal" onclick="closeGifModal()" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); backdrop-filter: blur(8px); justify-content: center; align-items: center; cursor: zoom-out;">
+    <span style="position: absolute; top: 20px; right: 25px; color: #ffd700; font-size: 35px; font-weight: bold; cursor: pointer;">&times;</span>
+    <img id="gifModalImg" style="max-width: 90%; max-height: 85vh; border-radius: 16px; border: 1px solid rgba(212, 175, 55, 0.5); box-shadow: 0 0 30px rgba(212, 175, 55, 0.3); object-fit: contain;">
+</div>
+
+<script>
+    function openGifModal(src) {
+        const modal = document.getElementById("gifModal");
+        const modalImg = document.getElementById("gifModalImg");
+        modalImg.src = src;
+        modal.style.display = "flex";
+    }
+
+    function closeGifModal() {
+        document.getElementById("gifModal").style.display = "none";
+    }
+</script>
+    
+
+                      <!-- BOX SANCTUAIRE GOLD - Bouton vers le vote -->
+<div class="box-sanctuaire-gold" style="max-width: 500px; margin: 20px auto; padding: 20px 25px; background: #050505; border: 2px solid; border-image: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%) 1; box-shadow: 0 20px 45px rgba(0,0,0,0.95); font-family: 'Segoe UI', Roboto, sans-serif; text-align: center;">
+
+    <p style="margin: 0 0 14px 0; font-size: 1.15rem; font-weight: 600; line-height: 1.5; background: linear-gradient(135deg, #fcf6ba 0%, #bf953f 50%, #fbf5b7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 0.5px; filter: drop-shadow(0 0 8px rgba(191, 149, 63, 0.2)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        EN SCRED : Tu kiffes ?
+    </p>
+
+    <!-- Lien vers la page vote -->
+    <a href="vote.html" 
+       onclick="trackVoteLinkClick(); return true;" 
+       style="display: inline-block; padding: 10px 24px; background: rgba(191, 149, 63, 0.15); color: #fcf6ba; font-weight: 600; border: 1px solid #bf953f; border-radius: 50px; text-decoration: none; transition: all 0.3s ease;">
+        Parce que ton avis compte pour moi.
+    </a>
+
+</div>
+
+
+<!-- Script EmailJS robuste -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+    function trackVoteLinkClick() {
+        // On désactive le lien pendant l'envoi pour éviter les doubles clics
+        const link = event.currentTarget;
+        link.style.pointerEvents = "none";
+
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: "✅ Romain a cliqué sur le lien vers la page Vote depuis la page principale",
+            date: new Date().toLocaleString('fr-FR')
+        }).then(() => {
+            console.log("✅ Mail envoyé avec succès");
+            // On réactive le lien après succès
+            setTimeout(() => { link.style.pointerEvents = "auto"; }, 800);
+        }).catch((err) => {
+            console.error("❌ Erreur EmailJS :", err);
+            // En cas d'erreur on réactive le lien
+            link.style.pointerEvents = "auto";
+        });
+    }
+</script>
 
 <style>
   .grey-box-container {
@@ -746,7 +1555,7 @@
 
                          <!-- Petite box discrète de transition -->
 <div style="background: rgba(255, 255, 255, 0.01); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.04); border-radius: 16px; padding: 20px 24px; margin: 25px auto; max-width: 560px; width: calc(100% - 40px); text-align: left; font-size: 0.98rem; line-height: 1.7; color: #9ca3af; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); box-sizing: border-box;">
-    C'est pas mon gris qui compte pour moi aujourd'hui, c'est le tien, TON gris... J'ai besoin d'être là pour toi, c'est mon devoir envers toi mon gars. Je me sens tellement mal de savoir que t'es gris. Je vais me calmer sur cette page avec les "je t'aime" et les sentiments. Je sais que ça te rend mal à l'aise. Le côté gava, le côté potes toujours présents l'un pour l'autre va rester. Mais le côté sentimental je vais le mettre en arrière-plan. Je veux pas te mettre mal à l'aise mon gars.
+    C'est pas mon gris qui compte pour moi aujourd'hui, c'est le tien, TON gris... J'ai besoin d'être là pour toi, c'est mon devoir envers toi mon gars. Je me sens tellement mal de savoir que t'es gris. Je vais me calmer sur cette page avec les "je t'aime" et les sentiments. Je sais que ça te rend mal à l'aise. Le côté gava, le côté potes toujours présents l'un pour l'autre va rester, et même les désirs sexuels car je sais que c'est pas un souci en vrai tant qu'il y a pas de sentiments. Mais le côté sentimental je vais le mettre en arrière-plan. Je veux pas te mettre mal à l'aise mon gars.
 </div>
 
            <p style="text-align: center; font-size: 1.1rem; background: linear-gradient(45deg, #ff9a9e, #fecfef); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; margin-bottom: 20px; letter-spacing: 0.3px; line-height: 1.5;">
@@ -1203,12 +2012,12 @@
 </script>
 <!-- ================= FIN DU LECTEUR ================= -->
 
-           <!-- BOX VIDÉO VERTICALE VIMEO - MESSAGE POUR MON ROMAIN -->
-<div style="max-width: 380px; margin: 45px auto; background: #0d1117; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.7);">
+<!-- BOX VIDÉO VERTICALE VIMEO - MESSAGE POUR MON ROMAIN -->
+<div style="max-width: 380px; margin: 35px auto; background: #0d1117; border-radius: 16px; overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.25); box-shadow: 0 15px 40px rgba(0,0,0,0.8);">
 
-    <!-- Étiquette dorée en haut -->
-    <div style="background: linear-gradient(90deg, #bf953f, #fcf6ba, #bf953f); padding: 22px 20px; text-align: center;">
-        <p style="color: #0d1117; font-size: 1.4rem; font-weight: 800; margin: 0; letter-spacing: 0.5px;">
+    <!-- Bandeau discret (Texte doré sur fond noir) -->
+    <div style="background: #080808; padding: 12px 15px; text-align: center; border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+        <p style="background: linear-gradient(135deg, #fcf6ba 0%, #bf953f 50%, #fbf5b7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.95rem; font-weight: 700; margin: 0; letter-spacing: 0.5px; line-height: 1.35; filter: drop-shadow(0 0 6px rgba(191, 149, 63, 0.3));">
              Rester fort pour toi. T'es ma personne préférée mon gars.
         </p>
     </div>
@@ -1224,13 +2033,14 @@
         </iframe>
     </div>
 
-    <!-- Légende -->
-    <div style="padding: 28px 30px; text-align: center;">
-        <p style="color: #58a6ff; font-weight: 600; margin: 0;">
+    <!-- Légende Gold discrète -->
+    <div style="padding: 14px 20px; text-align: center; background: #080808; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+        <p style="color: #e5c060; font-weight: 600; font-size: 0.85rem; margin: 0; opacity: 0.9;">
             Je reste ton gava, sur tous les plans 💪🏻
         </p>
     </div>
 </div>
+    
 
            <!-- ====================== BOX GOLD GLOWY - GRIS MOYEN ====================== -->
 <div style="max-width: 720px; margin: 40px auto; background: linear-gradient(135deg, #161b22, #0d1117); border: 2px solid; border-image: linear-gradient(135deg, #bf953f 0%, #fcf6ba 40%, #b38728 70%, #fbf5b7 100%) 1; border-radius: 24px; padding: 45px 35px; box-shadow: 0 25px 60px rgba(191, 149, 63, 0.35); font-family: 'Segoe UI', Roboto, sans-serif; text-align: center;">
@@ -1328,7 +2138,9 @@
               
         Putain <span style="color: #fcf6ba; font-weight: 600;">t'es trop important dans ma vie</span> et je suis heureux que tu sois présent dans ma vie et moi dans la tienne. Je pense tout le temps à toi frère. Je veux tout le temps être avec toi. <span style="color: #ff80df; font-weight: 700;">Je tiens trop à toi Romaiiin !</span><br><br>
         
-        <span style="color: #fcf6ba; font-weight: 600;">Au delà de certains désirs que j'ai pour toi</span> (qui sont des envies qui se contrôlent pas), y'a aussi la volonté d'être toujours là pour toi, vouloir passer du temps avec toi, je veux tout simplement être ton gars sûr, H24 7j/7 tellement tu comptes pour moi. T'es le seul mec à me faire tout ça putain.<br><br>
+        Ça inclut tout : y'a les envies de baise oui qui sont très fortes, t'es trop hot mon gars, tu me donnes la barre de fou et j'ai envie que tu me pépom la beuteu, envie de baiser ton fiak si c'était dans tes kiffs, mais envie aussi de fou malade de te pépom ta bite (un moment à la villa j'étais à genoux je mettais mes chaussures j'étais à 5 cm de ta queue mdrr), envie que tu me baises le cul jusqu'à sentir ton me-sper dedans.<br><br>
+        
+        <span style="color: #fcf6ba; font-weight: 600;">Mais au delà de ça</span> (qui sont des envies qui se contrôlent pas), y'a aussi la volonté d'être toujours là pour toi, vouloir passer du temps avec toi, je veux tout simplement être ton gars sûr, H24 7j/7 tellement tu comptes pour moi, même si à côté y'a des envies de baise. C'est vraiment 2 choses qui coexistent l'un à côté de l'autre. T'es le seul mec à me faire tout ça putain.<br><br>
         
             </p>
 
@@ -1378,7 +2190,7 @@
     </p>
 
     <p style="text-align: center; color: #c9d1d9; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.05rem; line-height: 1.85; margin-bottom: 35px;">
-        Ne doute jamais de ta valeur mon Roms, t'es un mec génial. La plus belle personne que j'ai rencontrée. Tout simplement ma personne préférée sur Terre. T'es ce gars en OR que j'ai rencontré un jour en automne 2016, et 10 piges plus tard on est toujours là l'un pour l'autre. Et ce sera pour la vie entière mon gars 🙏🏻
+        Ne doute jamais de ta valeur mon Roms, t'es un mec génial. La plus belle personne que j'ai rencontrée. Tout simplement ma personne préférée sur Terre. T'es ce gars en OR que j'ai rencontré un jour en automne 2016, et 10 piges plus tard on est toujours là l'un pour l'autre. Et ce sera pour la vie entière mon gars 🙏🏻🫂
     </p>
 
     <p style="color: #c9d1d9; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.05rem; line-height: 1.85; text-align: center;">
@@ -1414,38 +2226,36 @@
 
     <!-- L'engagement -->
     <p style="text-align: center; font-size: 1.05rem; color: #fff; font-weight: 500; margin-bottom: 30px;">
-        T'es la seule personne que j'aime à ce point. J'me sens bien avec toi, y'a que toi qui comptes pour moi, et <span style="background: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700;">nous deux c'est du solide, c'est pour toujours 💪🏻</span>
+        T'es la seule personne que j'aime à ce point. J'me sens bien avec toi, y'a que toi qui comptes pour moi, et <span style="background: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700;">nous deux c'est du solide, c'est pour toujours 💪🏻💓</span>
     </p>
 
 
     <!-- Conclusion Émotionnelle -->
     <p style="text-align: center; color: #fcf6ba; font-size: 1.1rem; font-weight: 600; letter-spacing: 0.3px; margin-top: 20px;">
-        <span style="text-transform: uppercase; color: #fff; border-bottom: 2px solid #fcf6ba; padding-bottom: 2px;">Je te lâcherai JAMAIS !</span> 💪🏻🙏🏻
+        <span style="text-transform: uppercase; color: #fff; border-bottom: 2px solid #fcf6ba; padding-bottom: 2px;">Je te lâcherai JAMAIS !</span> 💪🏻🙏🏻💕
     </p>
            
+<!-- ================= BOX VOCAL - LA VÉRITÉ POUR MON GAVA ================= -->
+<div style="max-width: 560px; margin: 35px auto; background: #0d1117; border-radius: 16px; overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.25); box-shadow: 0 15px 40px rgba(0,0,0,0.8);">
 
-
-            <!-- BOX VOCAL - LA VÉRITÉ POUR MON GAVA -->
-<div style="max-width: 560px; margin: 45px auto; background: #0d1117; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.7);">
-
-    <!-- Étiquette dorée en haut -->
-    <div style="background: linear-gradient(90deg, #bf953f, #fcf6ba, #bf953f); padding: 22px 20px; text-align: center;">
-        <p style="color: #0d1117; font-size: 1.45rem; font-weight: 800; margin: 0; letter-spacing: 1px;">
+    <!-- Bandeau discret (Texte doré sur fond noir) -->
+    <div style="background: #080808; padding: 12px 15px; text-align: center; border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+        <p style="background: linear-gradient(135deg, #fcf6ba 0%, #bf953f 50%, #fbf5b7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.05rem; font-weight: 800; margin: 0; letter-spacing: 0.5px; filter: drop-shadow(0 0 6px rgba(191, 149, 63, 0.3)); uppercase;">
             La vérité pour mon gava
         </p>
     </div>
 
     <!-- Contenu principal -->
-    <div style="padding: 35px 30px; text-align: center;">
+    <div style="padding: 25px 22px; text-align: center;">
 
         <!-- Player vocal -->
-        <div style="background: rgba(255, 255, 255, 0.06); padding: 14px 20px; border-radius: 50px; margin: 0 auto 25px; max-width: 340px;">
-            <audio controls style="width: 100%; height: 42px; filter: invert(20%) sepia(30%) saturate(800%) hue-rotate(15deg) brightness(1.15);">
+        <div style="background: rgba(255, 255, 255, 0.06); padding: 12px 18px; border-radius: 50px; margin: 0 auto 20px; max-width: 340px; border: 1px solid rgba(212, 175, 55, 0.15);">
+            <audio controls style="width: 100%; height: 40px; filter: invert(20%) sepia(30%) saturate(800%) hue-rotate(15deg) brightness(1.15);">
                 <source src="https://audio.jukehost.co.uk/019ec783-8f9c-70e1-a46a-36dfea9cdf3f" type="audio/mpeg">
             </audio>
         </div>
 
-        <p style="margin-top: 25px; color: #58a6ff; font-weight: 600;">
+        <p style="margin-top: 18px; color: #e5c060; font-weight: 500; font-size: 0.92rem; line-height: 1.6; opacity: 0.95;">
             En vrai gro je sais pas ce que je veux mdrrr. On est bien comme on est tous les deux et je pense pas que j'ai besoin de dire les choses officiellement.<br> 
             Tu sais comment je suis et on est bien toi et moi comme ça en vrai. En parler ce serait relou, je préfère plutôt la plaisanterie et les sous entendus en vrai 😅<br><br>
             Mais y'a une part de moi qui a envie de le dire et d'assumer tout ce que je ressens pour toi mon gars.
@@ -1454,36 +2264,33 @@
 </div>
 <!-- Audio caché -->
 <audio id="vocalJeTaime" src="https://audio.jukehost.co.uk/019ec361-66a8-70b4-9bac-2bf04b987f09" preload="none"></audio>
-            
 
-            <!-- BOX COMPLÈTE - DIEU ROMS -->
-<div style="max-width: 540px; margin: 40px auto; background: #0d1117; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.7);">
 
-    <!-- Étiquette dorée pleine largeur -->
-    <div style="background: linear-gradient(90deg, #bf953f, #fcf6ba, #bf953f); padding: 22px 20px; text-align: center;">
-        <p style="color: #0d1117; font-size: 1.48rem; font-weight: 800; margin: 0; letter-spacing: 1px;">
-            Ce qui se passe dans ma tête 
+<!-- ================= BOX COMPLÈTE - DIEU ROMS ================= -->
+<div style="max-width: 540px; margin: 35px auto; background: #0d1117; border-radius: 16px; overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.25); box-shadow: 0 15px 40px rgba(0,0,0,0.8);">
+
+    <!-- Bandeau discret (Texte doré sur fond noir) -->
+    <div style="background: #080808; padding: 12px 15px; text-align: center; border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+        <p style="background: linear-gradient(135deg, #fcf6ba 0%, #bf953f 50%, #fbf5b7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.05rem; font-weight: 800; margin: 0; letter-spacing: 0.5px; filter: drop-shadow(0 0 6px rgba(191, 149, 63, 0.3));">
+            Ce qui se passe dans ma tête
         </p>
     </div>
 
     <!-- Contenu principal -->
-    <div style="padding: 35px 30px; text-align: center;">
+    <div style="padding: 28px 22px; text-align: center;">
 
-        
-
-        <p style="color: #c9d1d9; margin-bottom: 25px;">
+        <p style="color: #8b949e; margin-bottom: 18px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">
             Message pour mon gars
         </p>
         
         <!-- Deuxième vocal -->
-        <div style="background: rgba(255,255,255,0.06); padding: 12px 20px; border-radius: 50px; margin: 0 auto 30px; max-width: 340px;">
-            <audio controls style="width: 100%; height: 42px; filter: invert(20%) sepia(30%) saturate(800%) hue-rotate(15deg) brightness(1.15);">
+        <div style="background: rgba(255,255,255,0.06); padding: 12px 18px; border-radius: 50px; margin: 0 auto 25px; max-width: 340px; border: 1px solid rgba(212, 175, 55, 0.15);">
+            <audio controls style="width: 100%; height: 40px; filter: invert(20%) sepia(30%) saturate(800%) hue-rotate(15deg) brightness(1.15);">
                 <source src="https://audio.jukehost.co.uk/019ed4da-7984-7243-afda-17ed804661d6" type="audio/mpeg">
             </audio>
         </div>
 
-        <p style="color: #c9d1d9; line-height: 1.75; text-align: left;">
-
+        <p style="color: #c9d1d9; line-height: 1.7; text-align: left; font-size: 0.92rem;">
             Merci Romain...<br><br>
 
             J'ai kiffé ces vacances à tes côtés. J'aurais aimé partager un peu plus de temps le soir avant de se coucher, mais c'est vrai qu'on était guétifa de fou malade.<br><br>
@@ -1497,11 +2304,12 @@
             Encore une fois j'ai kiffé sentir nos cuisses se toucher et faire pression l'un contre l'autre dans le train au retour. Je te kiffe sur tous les plans mon gars.
         </p>
 
-        <p style="margin-top: 35px; color: #58a6ff; font-weight: 600; font-size: 1.2rem;">
+        <p style="margin-top: 30px; color: #ffd700; font-weight: 700; font-size: 1.05rem; line-height: 1.4; text-shadow: 0 0 10px rgba(255, 215, 0, 0.2);">
             Force à toi mon Romain, t'es mon gars sûr et je suis avec toi je t'aime frère.
         </p>
     </div>
 </div>
+    
 
 
 <div class="box-sanctuaire-gold" style="max-width: 620px; margin: 30px auto; padding: 40px 30px; background: #050505; border: 2px solid; border-image: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%) 1; box-shadow: 0 20px 45px rgba(0,0,0,0.95); font-family: 'Segoe UI', Roboto, sans-serif; text-align: center;">
@@ -1533,7 +2341,7 @@
         <p style="margin: 0; color: #a6a6a6; font-size: 1.05rem; line-height: 1.7; font-weight: 300; font-style: italic;">
             Cette page gro, elle est pour toi. Et pour toi seul. <br>
             Ce que je ressens pour toi est si puissant, que personne n'a à savoir ce que je ressens pour toi, à part toi... <br>
-            <span style="color: #fcf6ba; font-weight: 500; font-style: normal; letter-spacing: 0.5px; text-shadow: 0 0 5px rgba(191, 149, 63, 0.3);">Mon Romain.</span>
+            <span style="color: #fcf6ba; font-weight: 500; font-style: normal; letter-spacing: 0.5px; text-shadow: 0 0 5px rgba(191, 149, 63, 0.3);">Mon Romain 💕</span>
         </p>
     </div>
 
@@ -1552,6 +2360,10 @@
             <source src="https://audio.jukehost.co.uk/019e2539-7c51-72e7-9fdf-219dafcd40fd" type="audio/mpeg">
         </audio>
     </div>
+
+    <p style="margin: 0 0 35px 0; color: #cccccc; font-size: 1.05rem; font-weight: 300; line-height: 1.7; border-bottom: 1px solid rgba(191, 149, 63, 0.2); padding-bottom: 25px;">
+        Sur la page Hot je peux donner l'impression d'être un chien en chaleur qui raisonne qu'avec sa bite et son cul, car je bande fort pour toi et les envies de baise sont puissantes, mais en VRAI DE VRAI je suis un vrai romantique et je suis très fleur bleue mdrrr.
+    </p>
 
     <!-- Section Vidéo YouTube & Paroles -->
     <p style="color: #fcf6ba; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 20px;">
@@ -2140,7 +2952,7 @@ function cycleLanguage() {
             <div style="margin-top: 20px; text-align: right; font-size: 0.9em; font-weight: bold; color: var(--gold-main); text-transform: uppercase; letter-spacing: 1px; opacity: 0.8;">— Ton Rocher</div>
         </div>
 
-        <div style="text-align:center; margin: 40px auto; padding: 30px; background: #000; border: 3px solid var(--gold-main); border-radius: 20px; max-width: 85%; box-shadow: 0 0 30px rgba(191, 149, 63, 0.4);">
+        <div id="Rocky" style="text-align:center; margin: 40px auto; padding: 30px; background: #000; border: 3px solid var(--gold-main); border-radius: 20px; max-width: 85%; box-shadow: 0 0 30px rgba(191, 149, 63, 0.4);">
             <h2 style="color: #fff; font-family: 'Arial Black', sans-serif; font-size: 2.2em; text-transform: uppercase; margin-bottom: 25px; border: none; letter-spacing: 4px; text-shadow: 0 0 15px var(--gold-main);">
                 WIN ROMS,<br>WIN.
             </h2>
@@ -2576,6 +3388,82 @@ function cycleLanguage() {
     });
 </script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const fmt = t => isNaN(t) || !isFinite(t) ? '0:00' : `${Math.floor(t/60)}:${Math.floor(t%60).toString().padStart(2,'0')}`;
+
+        document.querySelectorAll('.mini-gold-player').forEach(player => {
+            const audioSrc = player.getAttribute('data-src');
+            const titleText = player.getAttribute('data-title') || 'Audio';
+
+            // Injection HTML interne
+            player.innerHTML = `
+                <button class="mgp-play-btn" title="Lecture/Pause">
+                    <i class="fa-solid fa-play" style="margin-left: 2px;"></i>
+                </button>
+                <div class="mgp-content">
+                    <div class="mgp-header">
+                        <span class="mgp-title">${titleText}</span>
+                        <span class="mgp-time">0:00 / 0:00</span>
+                    </div>
+                    <input type="range" class="mgp-slider" value="0" min="0" step="0.1">
+                </div>
+                <audio src="${audioSrc}" preload="metadata" style="display:none !important;"></audio>
+            `;
+
+            const audio = player.querySelector('audio');
+            const playBtn = player.querySelector('.mgp-play-btn');
+            const icon = playBtn.querySelector('i');
+            const slider = player.querySelector('.mgp-slider');
+            const timeEl = player.querySelector('.mgp-time');
+
+            // Play / Pause
+            playBtn.onclick = () => {
+                if (audio.paused) {
+                    // Optionnel : Met en pause les autres lecteurs quand on en lance un nouveau
+                    document.querySelectorAll('audio').forEach(a => { if (a !== audio) a.pause(); });
+                    document.querySelectorAll('.mgp-play-btn i').forEach(i => {
+                        i.className = 'fa-solid fa-play';
+                        i.style.marginLeft = '2px';
+                    });
+
+                    audio.play();
+                    icon.className = 'fa-solid fa-pause';
+                    icon.style.marginLeft = '0';
+                } else {
+                    audio.pause();
+                    icon.className = 'fa-solid fa-play';
+                    icon.style.marginLeft = '2px';
+                }
+            };
+
+            // Metadata / Durée
+            audio.onloadedmetadata = () => {
+                slider.max = audio.duration;
+                timeEl.textContent = `0:00 / ${fmt(audio.duration)}`;
+            };
+
+            // Progression
+            audio.ontimeupdate = () => {
+                slider.value = audio.currentTime;
+                timeEl.textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+            };
+
+            // Seek
+            slider.oninput = () => {
+                audio.currentTime = slider.value;
+            };
+
+            // Fin
+            audio.onended = () => {
+                icon.className = 'fa-solid fa-play';
+                icon.style.marginLeft = '2px';
+                slider.value = 0;
+            };
+        });
+    });
+    </script>
+    
     
 </body>
 </html>
