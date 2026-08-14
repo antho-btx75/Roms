@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEPS & CALBARD - Pour mon Roms 🔥</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0a0f1a;
+            color: #e6edf3;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #ff2d55;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .thumb {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid #ff2d55;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .thumb:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(255, 45, 85, 0.4);
+        }
+
+        .thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .video-container {
+            margin: 60px auto;
+            max-width: 500px;
+        }
+
+        /* Lightbox */
+        #lightbox {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #lightbox img {
+            max-width: 90%;
+            max-height: 85%;
+            border: 4px solid #ff2d55;
+            border-radius: 8px;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 2.5rem;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            font-size: 3rem;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .prev { left: 20px; }
+        .next { right: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>IEPS & CALBARD 🧦🔥🩲</h1>
+    <p style="color: #c9d1d9; margin-bottom: 40px;">Pour mon Roms 💕</p>
+
+    <!-- Galerie vignettes -->
+    <div class="gallery" id="gallery"></div>
+
+    <!-- Version Hard -->
+    <div class="video-container">
+        <h2 style="color: #ff2d55;">Version Hard 🔥</h2>
+        <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden; background: #000; border-radius: 12px;">
+            <iframe src="https://drive.google.com/file/d/1ucEp6JkWEAYSBY_hDfG0PE53CaFQJv-A/preview" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                    frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Version Soft -->
+    <div class="video-container" style="margin-top: 60px;">
+        <h2 style="color: #ff80df;">Version Soft 🌸</h2>
+        <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden; background: #000; border-radius: 12px;">
+            <iframe src="https://player.vimeo.com/video/1204600069" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox">
+    <span class="lightbox-close" onclick="closeLightbox()">×</span>
+    <span class="lightbox-nav prev" onclick="prevImage()">‹</span>
+    <img id="lightbox-img" onclick="closeLightbox()">
+    <span class="lightbox-nav next" onclick="nextImage()">›</span>
+</div>
+
+<script>
+const images = [
+    "https://i.ibb.co/jkffbxkr/Screenshot-2026-06-25-16-19-12-320-com-miui-gallery.jpg",
+    "https://i.ibb.co/5xSJDzH2/Screenshot-2026-06-25-16-19-22-821-com-miui-gallery.jpg",
+    "https://i.ibb.co/dwpC7Ljk/Screenshot-2026-06-25-16-19-48-986-com-miui-gallery.jpg",
+    "https://i.ibb.co/YTdvXsM7/Screenshot-2026-06-25-16-20-06-593-com-miui-gallery.jpg",
+    "https://i.ibb.co/kkkZ9vK/Screenshot-2026-06-25-16-24-09-858-com-miui-gallery.jpg",
+    "https://i.ibb.co/BHFR5p4M/Screenshot-2026-06-25-16-20-20-668-com-miui-gallery.jpg",
+    "https://i.ibb.co/GfSzkNMc/Screenshot-2026-06-25-16-20-31-488-com-miui-gallery.jpg",
+    "https://i.ibb.co/B25QhXPz/Screenshot-2026-06-25-16-20-47-349-com-miui-gallery.jpg",
+    "https://i.ibb.co/WpVZVjvK/Screenshot-2026-06-25-16-21-04-918-com-miui-gallery.jpg",
+    "https://i.ibb.co/Fk2JZN9Q/Screenshot-2026-06-25-16-21-24-597-com-miui-gallery.jpg"
+];
+
+let currentIndex = 0;
+
+const gallery = document.getElementById('gallery');
+images.forEach((src, index) => {
+    const div = document.createElement('div');
+    div.className = 'thumb';
+    div.innerHTML = `<img src="${src}" alt="Iep ${index+1}">`;
+    div.onclick = () => openLightbox(index);
+    gallery.appendChild(div);
+});
+
+function openLightbox(index) {
+    currentIndex = index;
+    document.getElementById('lightbox').style.display = 'flex';
+    document.getElementById('lightbox-img').src = images[currentIndex];
+}
+
+function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+}
+
+function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    document.getElementById('lightbox-img').src = images[currentIndex];
+}
+
+function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    document.getElementById('lightbox-img').src = images[currentIndex];
+}
+
+// Fermer avec ESC
+document.addEventListener('keydown', e => {
+    if (e.key === "Escape") closeLightbox();
+});
+</script>
+
+</body>
+</html>
