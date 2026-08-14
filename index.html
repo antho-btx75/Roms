@@ -480,6 +480,28 @@
     Je te kiffe de fou mon gars <i class="fa-solid fa-gem"></i>
 </h1>
 
+    <!-- ===== NOTIFICATION VISITE PAGE PRINCIPALE ===== -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+    // Ignore tes propres visites secrètes (online / offline / lastseen)
+    const params = new URLSearchParams(window.location.search);
+    const isSecretVisit = params.has('online') || params.has('offline') || params.has('lastseen');
+
+    if (!isSecretVisit) {
+        emailjs.send("service_quyacff", "template_vekw5ae", {
+            to_email: "ryo.saeba75012@outlook.fr",
+            message: "👁 Visite sur la page principale",
+            date: new Date().toLocaleString('fr-FR')
+        }).then(() => {
+            console.log("Notification visite envoyée");
+        }).catch(err => {
+            console.log("Erreur visite:", err);
+        });
+    }
+</script>
+
 
         <!-- Début du composant -->
 <div class="glowy-gold-card">
