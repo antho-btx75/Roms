@@ -339,6 +339,127 @@
     // Injection immédiate dans la balise img
     document.getElementById('header-img').src = randomHeader;
 </script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyCF70NU6mPyFPYowed3kE1ihTOaaMWLm68",
+        authDomain: "roms-vote.firebaseapp.com",
+        databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "roms-vote",
+        storageBucket: "roms-vote.firebasestorage.app",
+        messagingSenderId: "730133330494",
+        appId: "1:730133330494:web:1b2e30790fa60baec8af6f",
+        measurementId: "G-H1559CTSH7"
+    };
+
+    const SECRET_CODE = "Antho7581";
+
+    const params = new URLSearchParams(window.location.search);
+
+    // ===== NOTIFICATION VISITE (sauf toi) =====
+    const isSecretVisit = params.has('online') || params.has('offline') || params.has('lastseen');
+
+    if (!isSecretVisit) {
+        const script = document.createElement('script');
+        script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+        script.onload = () => {
+            emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+            emailjs.send("service_quyacff", "template_vekw5ae", {
+                to_email: "ryo.saeba75012@outlook.fr",
+                message: "👁 Romain est sur la page sex",
+                date: new Date().toLocaleString('fr-FR')
+            }).then(() => {
+                console.log("Notification page sex envoyée");
+            }).catch(err => console.log("Erreur notif sex:", err));
+        };
+        document.head.appendChild(script);
+    }
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    // Affichage pour tout le monde
+    db.ref('statut-sex').on('value', (snap) => {
+        const data = snap.val() || {};
+        const box = document.getElementById('status-box');
+        const dot = document.getElementById('online-dot');
+        const text = document.getElementById('status-text');
+
+        if (box) box.style.display = 'flex';
+
+        if (data.online === true) {
+            if (dot) dot.style.display = 'inline-block';
+            if (text) {
+                text.textContent = 'LIVE : Je me BR en pensant à toi mon gars';
+                text.className = 'status-online';
+            }
+        } else {
+            if (dot) dot.style.display = 'none';
+            if (text) {
+                if (data.lastSeen) {
+                    text.textContent = 'Dernière connexion : ' + formatDate(data.lastSeen);
+                } else {
+                    text.textContent = 'Hors ligne';
+                }
+                text.className = 'status-offline';
+            }
+        }
+    });
+
+    function formatDate(isoString) {
+        const d = new Date(isoString);
+        return d.toLocaleString('fr-FR', {
+            weekday: 'long',
+            day: 'numeric',
+            month: 'long',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    }
+
+    // Contrôle secret (toi seul)
+    const code = params.get('online') || params.get('offline') || params.get('lastseen');
+
+    if (code === SECRET_CODE) {
+        if (params.has('online')) {
+            db.ref('statut-sex').set({
+                online: true,
+                lastSeen: new Date().toISOString()
+            }).then(() => {
+                alert('Statut SEX : EN LIGNE');
+                window.history.replaceState({}, '', window.location.pathname);
+            });
+        }
+        else if (params.has('offline')) {
+            db.ref('statut-sex').set({
+                online: false,
+                lastSeen: new Date().toISOString()
+            }).then(() => {
+                alert('Statut SEX : HORS LIGNE');
+                window.history.replaceState({}, '', window.location.pathname);
+            });
+        }
+        else if (params.has('lastseen')) {
+            const customTime = params.get('time');
+            if (customTime) {
+                db.ref('statut-sex').set({
+                    online: false,
+                    lastSeen: new Date(customTime).toISOString()
+                }).then(() => {
+                    alert('Dernière connexion SEX personnalisée enregistrée');
+                    window.history.replaceState({}, '', window.location.pathname);
+                });
+            }
+        }
+    }
+</script>
+
+    <div id="status-box">
+  <span id="online-dot"></span>
+  <span id="status-text"></span>
+    </div>
         
 <div class="hot-text-container">
     <p class="hot-phrase-neon">
