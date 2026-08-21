@@ -710,6 +710,37 @@ db.ref('statut').on('value', (snap) => {
      ">
       </div>  
 
+        <nav>
+<ul class="nav-pill-list">
+    <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> NOTRE LIEN</a></li>
+    <li><a href="#personne-preferee">💕 BFF</a></li>
+    <li><a href="#veuchs"><i class="fas fa-scissors"></i> VEUCHS</a></li>
+    
+    <li style="position: relative;">
+        <a href="#voyages"><i class="fas fa-plane"></i> VOYAGES</a>
+        <span style="position: absolute; top: -8px; right: -8px; background: #ff2d55; color: white; font-size: 0.65rem; font-weight: 900; padding: 2px 8px; border-radius: 12px; box-shadow: 0 0 8px rgba(255,45,85,0.8); letter-spacing: 0.5px; text-transform: uppercase;">
+            NEW SÈTE
+        </span>
+    </li>
+    
+    <li><a href="#taff"><i class="fas fa-briefcase"></i> TAFF</a></li>
+    <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> LE ROCHER</a></li>
+    
+    <li><a href="https://antho-btx75.github.io/Roms/mediabox"><i class="fas fa-icons"></i> FUN & CHILL</a></li>
+    <li><a href="#applis"><i class="fas fa-mobile-alt"></i> APPLIS</a></li>
+    
+    <li class="li-full-width" style="position: relative;">
+        <div id="badge-hot-status" style="display: none; position: absolute; top: -8px; right: 12px; font-family: sans-serif; font-size: 0.7rem; font-weight: bold; padding: 2px 7px; border-radius: 10px; z-index: 10; text-transform: uppercase; letter-spacing: 0.5px;">
+            Status
+        </div>
+
+        <a href="https://antho-btx75.github.io/Roms/sex" id="btn-hot-link" class="btn-hot-cyber">
+            <i class="fas fa-fire"></i> PLAISIR ET KIFF HOT 🔥🔞
+        </a>
+    </li>
+</ul>
+        </nav>
+
         <div style="max-width: 320px; margin: 40px auto; text-align: center;">
 
     <p style="
@@ -743,36 +774,6 @@ db.ref('statut').on('value', (snap) => {
 
         </div>
 
-    <nav>
-<ul class="nav-pill-list">
-    <li><a href="#tes-mon-roms"><i class="fas fa-link"></i> NOTRE LIEN</a></li>
-    <li><a href="#personne-preferee">💕 BFF</a></li>
-    <li><a href="#veuchs"><i class="fas fa-scissors"></i> VEUCHS</a></li>
-    
-    <li style="position: relative;">
-        <a href="#voyages"><i class="fas fa-plane"></i> VOYAGES</a>
-        <span style="position: absolute; top: -8px; right: -8px; background: #ff2d55; color: white; font-size: 0.65rem; font-weight: 900; padding: 2px 8px; border-radius: 12px; box-shadow: 0 0 8px rgba(255,45,85,0.8); letter-spacing: 0.5px; text-transform: uppercase;">
-            NEW SÈTE
-        </span>
-    </li>
-    
-    <li><a href="#taff"><i class="fas fa-briefcase"></i> TAFF</a></li>
-    <li><a href="#rocher-avant-tout"><i class="fas fa-anchor"></i> LE ROCHER</a></li>
-    
-    <li><a href="https://antho-btx75.github.io/Roms/mediabox"><i class="fas fa-icons"></i> FUN & CHILL</a></li>
-    <li><a href="#applis"><i class="fas fa-mobile-alt"></i> APPLIS</a></li>
-    
-    <li class="li-full-width" style="position: relative;">
-        <div id="badge-hot-status" style="display: none; position: absolute; top: -8px; right: 12px; font-family: sans-serif; font-size: 0.7rem; font-weight: bold; padding: 2px 7px; border-radius: 10px; z-index: 10; text-transform: uppercase; letter-spacing: 0.5px;">
-            Status
-        </div>
-
-        <a href="https://antho-btx75.github.io/Roms/sex" id="btn-hot-link" class="btn-hot-cyber">
-            <i class="fas fa-fire"></i> PLAISIR ET KIFF HOT 🔥🔞
-        </a>
-    </li>
-</ul>
-    </nav>
 
         Je suis comme un enfant. Je n'ai pas honte de ce que je ressens pour toi et pour moi, c'est normal de te le dire. Ce n'est pas mal de ressentir tout ça pour toi. Tu me plais, sur tous les plans.
     </p>
@@ -793,6 +794,23 @@ db.ref('statut').on('value', (snap) => {
             </strong>
         </p>
     </div>
+
+                          <!-- BOX SANCTUAIRE GOLD - Bouton vers le vote -->
+<div class="box-sanctuaire-gold" style="max-width: 500px; margin: 20px auto; padding: 20px 25px; background: #050505; border: 2px solid; border-image: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%) 1; box-shadow: 0 20px 45px rgba(0,0,0,0.95); font-family: 'Segoe UI', Roboto, sans-serif; text-align: center;">
+
+    <p style="margin: 0 0 14px 0; font-size: 1.15rem; font-weight: 600; line-height: 1.5; background: linear-gradient(135deg, #fcf6ba 0%, #bf953f 50%, #fbf5b7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 0.5px; filter: drop-shadow(0 0 8px rgba(191, 149, 63, 0.2)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        EN SCRED : Tu kiffes ?
+    </p>
+
+    <!-- Lien vers la page vote -->
+    <a href="vote.html" 
+       onclick="trackVoteLinkClick(); return true;" 
+       style="display: inline-block; padding: 10px 24px; background: rgba(191, 149, 63, 0.15); color: #fcf6ba; font-weight: 600; border: 1px solid #bf953f; border-radius: 50px; text-decoration: none; transition: all 0.3s ease;">
+        Parce que ton avis compte pour moi.
+    </a>
+
+</div>
+    
 
     <p>J'ai tellement envie d'être près de toi, pas seulement physiquement mais émotionnellement. Envie de parler avec toi de ce qui te rend gris, sans tabou. Envie de te dire tout ce que je ressens pour toi, et tant pis si c'est pas partagé à 100%. Tout ce que je veux c'est être ton gava, ton gars sûr frère.</p><p>Je te sens gris mon Roms. J'espère que c'est pas de ma faute. Parle moi stp gro, et dis moi ce qui te pèse tant. Je suis le gars en qui tu peux avoir le plus confiance au monde.</p>
 
@@ -1487,23 +1505,6 @@ db.ref('statut').on('value', (snap) => {
         document.getElementById("gifModal").style.display = "none";
     }
 </script>
-    
-
-                      <!-- BOX SANCTUAIRE GOLD - Bouton vers le vote -->
-<div class="box-sanctuaire-gold" style="max-width: 500px; margin: 20px auto; padding: 20px 25px; background: #050505; border: 2px solid; border-image: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%) 1; box-shadow: 0 20px 45px rgba(0,0,0,0.95); font-family: 'Segoe UI', Roboto, sans-serif; text-align: center;">
-
-    <p style="margin: 0 0 14px 0; font-size: 1.15rem; font-weight: 600; line-height: 1.5; background: linear-gradient(135deg, #fcf6ba 0%, #bf953f 50%, #fbf5b7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 0.5px; filter: drop-shadow(0 0 8px rgba(191, 149, 63, 0.2)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-        EN SCRED : Tu kiffes ?
-    </p>
-
-    <!-- Lien vers la page vote -->
-    <a href="vote.html" 
-       onclick="trackVoteLinkClick(); return true;" 
-       style="display: inline-block; padding: 10px 24px; background: rgba(191, 149, 63, 0.15); color: #fcf6ba; font-weight: 600; border: 1px solid #bf953f; border-radius: 50px; text-decoration: none; transition: all 0.3s ease;">
-        Parce que ton avis compte pour moi.
-    </a>
-
-</div>
 
 
 <!-- Script EmailJS robuste -->
