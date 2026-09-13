@@ -642,12 +642,12 @@ db.ref('statut').on('value', (snap) => {
 
     if (data.online === true) {
         dot.style.display = 'inline-block';
-        text.textContent = 'Antho est en ligne pour son gars';
+        text.textContent = 'Je suis en ligne pour toi mon gars';
         text.className = 'status-online';
     } else {
         dot.style.display = 'none';
         if (data.lastSeen) {
-            text.textContent = 'Dernière connexion : ' + formatDate(data.lastSeen);
+            text.textContent = 'En ligne pour toi mon gars le : ' + formatDate(data.lastSeen);
         } else {
             text.textContent = 'Hors ligne';
         }
