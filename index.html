@@ -2006,6 +2006,25 @@ db.ref('statut').on('value', (snap) => {
      data-title="J'ai trop envie de toi mon gars">
         </div>
 
+    <div style="max-width: 680px; margin: 30px auto; text-align: center;">
+  <button onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'; this.textContent = this.textContent.includes('Déroule') ? 'Replier' : 'Déroule uniquement si t\'es dans ces bails mon gars';"
+          style="
+            display: inline-block;
+            padding: 12px 24px;
+            background: #000;
+            color: #fcf6ba;
+            border: 1px solid #bf953f;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+          ">
+    Déroule uniquement si t'es dans ces bails mon gars
+  </button>
+
+  <div style="display: none; margin-top: 20px; text-align: left;">
+
 
 <!-- Section Vignettes cliquables - 2 rangées de 3 avec légendes -->
 
@@ -2204,7 +2223,8 @@ db.ref('statut').on('value', (snap) => {
   }
 </style>
 
-           
+   </div>
+    </div>          
 
                          <!-- Petite box discrète de transition -->
 <div style="background: rgba(255, 255, 255, 0.01); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.04); border-radius: 16px; padding: 20px 24px; margin: 25px auto; max-width: 560px; width: calc(100% - 40px); text-align: left; font-size: 0.98rem; line-height: 1.7; color: #9ca3af; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); box-sizing: border-box;">
