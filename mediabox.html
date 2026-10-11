@@ -136,6 +136,26 @@
 
 <div class="container">
 
+    <h2><i class="fas fa-compact-disc"></i> LES SONS POUR MON GARS</h2>
+<div class="section-box">
+    <div class="video-container">
+        <iframe id="sons-player" src="https://www.youtube.com/embed/EL9S4Q8x6k0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+    </div>
+    <div class="selection-grid">
+        <button class="btn-gold" onclick="playSon('EL9S4Q8x6k0')">Après le taff (v1)</button>
+        <button class="btn-gold" onclick="playSon('0uiXbnndtdU')">Après le taff (v2)</button>
+        <button class="btn-gold" onclick="playSon('6baRDQzA_aA')">C'est déjà ça (v1)</button>
+        <button class="btn-gold" onclick="playSon('CasiGudtTlw')">C'est déjà ça, gava (v2)</button>
+        <button class="btn-gold" onclick="playSon('4P-LNiMJbPA')">C'est déjà ça (v3)</button>
+    </div>
+</div>
+
+<script>
+function playSon(id) {
+    document.getElementById('sons-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0";
+}
+</script>
+
     <h2><i class="fas fa-bolt"></i> BOÎTE À MOOD</h2>
     <div class="section-box">
         <p style="text-align: center; margin-bottom: 15px; font-size: 1em;">Comment tu te sens mon gars ?</p>
