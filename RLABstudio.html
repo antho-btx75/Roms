@@ -60,8 +60,8 @@
     align-items: stretch;
   }
   .clip-item {
-    flex: 0 0 280px;
-    height: 420px;
+    flex: 0 0 270px;
+    height: 360px;
     background: rgba(16, 18, 28, 0.75);
     border: 1px solid rgba(188, 140, 255, 0.18);
     border-radius: 20px;
@@ -81,7 +81,7 @@
   .thumb {
     position: relative;
     flex: 1;
-    min-height: 280px;
+    min-height: 230px;
     background-size: cover;
     background-position: center;
     background-color: #000;
@@ -91,8 +91,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 62px;
-    height: 62px;
+    width: 58px;
+    height: 58px;
     background: rgba(0,0,0,0.65);
     border: 1.5px solid rgba(252, 246, 186, 0.75);
     border-radius: 50%;
@@ -100,64 +100,24 @@
     align-items: center;
     justify-content: center;
     color: #fcf6ba;
-    font-size: 1.45rem;
+    font-size: 1.4rem;
     backdrop-filter: blur(4px);
   }
   .clip-label {
-    padding: 16px 18px 18px;
+    padding: 14px 16px 16px;
     text-align: center;
     font-weight: 600;
     color: #f0e6d2;
-    font-size: 0.95rem;
+    font-size: 0.93rem;
     letter-spacing: 0.2px;
   }
   .version {
     display: block;
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     color: #bc8cff;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: 4px;
     letter-spacing: 0.5px;
-  }
-  #player-modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(5, 5, 7, 0.92);
-    z-index: 1000;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(8px);
-  }
-  #player-modal.active { display: flex; }
-  .player-wrapper {
-    width: 92%;
-    max-width: 900px;
-    aspect-ratio: 16/9;
-    background: #000;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.7);
-  }
-  .player-wrapper iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  .close-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: rgba(252, 246, 186, 0.15);
-    color: #fcf6ba;
-    border: 1px solid rgba(252, 246, 186, 0.4);
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    cursor: pointer;
-    font-weight: bold;
-    backdrop-filter: blur(4px);
   }
 </style>
 </head>
@@ -230,33 +190,12 @@
   </div>
 </div>
 
-<div id="player-modal">
-  <button class="close-btn" onclick="closePlayer()">×</button>
-  <div class="player-wrapper">
-    <iframe id="yt-player" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</div>
-
 <script>
   document.querySelectorAll('.clip-item').forEach(item => {
     item.addEventListener('click', () => {
       const id = item.dataset.id;
-      const modal = document.getElementById('player-modal');
-      const iframe = document.getElementById('yt-player');
-      iframe.src = `https://www.youtube.com/embed/\( {id}?autoplay=1&rel=0&origin= \){encodeURIComponent(window.location.origin)}`;
-      modal.classList.add('active');
+      window.open(`https://www.youtube.com/watch?v=${id}`, '_blank');
     });
-  });
-
-  function closePlayer() {
-    const modal = document.getElementById('player-modal');
-    const iframe = document.getElementById('yt-player');
-    iframe.src = '';
-    modal.classList.remove('active');
-  }
-
-  document.getElementById('player-modal').addEventListener('click', (e) => {
-    if (e.target.id === 'player-modal') closePlayer();
   });
 </script>
 
