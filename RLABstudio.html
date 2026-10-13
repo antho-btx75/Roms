@@ -18,7 +18,7 @@
   }
   .header-gif {
     width: 100%;
-    max-height: 220px;
+    max-height: 200px;
     object-fit: cover;
     display: block;
     filter: brightness(0.85) contrast(1.05);
@@ -26,19 +26,19 @@
   }
   .title-block {
     text-align: center;
-    margin: 24px 0 28px;
+    margin: 20px 0 24px;
     padding: 0 20px;
   }
   h1 {
     color: #fcf6ba;
-    font-size: 1.85rem;
+    font-size: 1.8rem;
     letter-spacing: 3px;
     font-weight: 700;
     text-shadow: 0 0 20px rgba(252, 246, 186, 0.25);
   }
   .subtitle {
     color: #bc8cff;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     margin-top: 6px;
     letter-spacing: 1.5px;
     font-weight: 500;
@@ -47,41 +47,41 @@
   .carousel-wrapper {
     width: 100%;
     overflow-x: auto;
-    padding: 8px 0 50px;
+    padding: 8px 0 40px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
   .carousel-wrapper::-webkit-scrollbar { display: none; }
   .carousel {
     display: flex;
-    gap: 16px;
+    gap: 14px;
     padding: 0 16px;
     width: max-content;
     align-items: stretch;
   }
   .clip-item {
-    flex: 0 0 270px;
-    height: 360px;
+    flex: 0 0 260px;
+    height: 340px;
     background: rgba(16, 18, 28, 0.75);
     border: 1px solid rgba(188, 140, 255, 0.18);
-    border-radius: 20px;
+    border-radius: 18px;
     overflow: hidden;
     cursor: pointer;
     backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
-    box-shadow: 0 6px 24px rgba(0,0,0,0.45);
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.4);
     display: flex;
     flex-direction: column;
+    position: relative;
   }
   .clip-item:hover {
-    transform: translateY(-6px);
-    border-color: rgba(252, 246, 186, 0.5);
-    box-shadow: 0 14px 40px rgba(188, 140, 255, 0.2);
+    transform: translateY(-4px);
+    border-color: rgba(252, 246, 186, 0.45);
   }
   .thumb {
     position: relative;
     flex: 1;
-    min-height: 230px;
+    min-height: 200px;
     background-size: cover;
     background-position: center;
     background-color: #000;
@@ -91,8 +91,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 58px;
-    height: 58px;
+    width: 54px;
+    height: 54px;
     background: rgba(0,0,0,0.65);
     border: 1.5px solid rgba(252, 246, 186, 0.75);
     border-radius: 50%;
@@ -100,24 +100,43 @@
     align-items: center;
     justify-content: center;
     color: #fcf6ba;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     backdrop-filter: blur(4px);
   }
   .clip-label {
-    padding: 14px 16px 16px;
+    padding: 12px 14px 14px;
     text-align: center;
     font-weight: 600;
     color: #f0e6d2;
-    font-size: 0.93rem;
+    font-size: 0.88rem;
     letter-spacing: 0.2px;
   }
   .version {
     display: block;
-    font-size: 0.76rem;
+    font-size: 0.72rem;
     color: #bc8cff;
     font-weight: 500;
-    margin-top: 4px;
+    margin-top: 3px;
     letter-spacing: 0.5px;
+  }
+  .clip-player {
+    position: absolute;
+    inset: 0;
+    background: #000;
+    display: none;
+    z-index: 2;
+  }
+  .clip-player iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .clip-item.playing .clip-player {
+    display: block;
+  }
+  .clip-item.playing .thumb,
+  .clip-item.playing .clip-label {
+    visibility: hidden;
   }
 </style>
 </head>
@@ -137,6 +156,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">Après le taff<span class="version">v1</span></p>
+      <div class="clip-player"></div>
     </div>
 
     <div class="clip-item" data-id="0uiXbnndtdU">
@@ -144,6 +164,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">Après le taff<span class="version">v2</span></p>
+      <div class="clip-player"></div>
     </div>
 
     <div class="clip-item" data-id="fY6YFZj4ig8">
@@ -151,6 +172,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">C'est déjà ça</p>
+      <div class="clip-player"></div>
     </div>
 
     <div class="clip-item" data-id="6baRDQzA_aA">
@@ -158,6 +180,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">C'est déjà ça<span class="version">v1</span></p>
+      <div class="clip-player"></div>
     </div>
 
     <div class="clip-item" data-id="CasiGudtTlw">
@@ -165,6 +188,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">C'est déjà ça, gava<span class="version">v2</span></p>
+      <div class="clip-player"></div>
     </div>
 
     <div class="clip-item" data-id="4P-LNiMJbPA">
@@ -172,6 +196,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">C'est déjà ça<span class="version">v3</span></p>
+      <div class="clip-player"></div>
     </div>
 
     <div class="clip-item" data-id="wpu3iteXJp0">
@@ -179,6 +204,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">Je t'entends mon gars</p>
+      <div class="clip-player"></div>
     </div>
 
     <div class="clip-item" data-id="veDZq-So6Xg">
@@ -186,6 +212,7 @@
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">On se parle sans se dire</p>
+      <div class="clip-player"></div>
     </div>
   </div>
 </div>
@@ -193,8 +220,20 @@
 <script>
   document.querySelectorAll('.clip-item').forEach(item => {
     item.addEventListener('click', () => {
+      // Stop any other playing clip
+      document.querySelectorAll('.clip-item.playing').forEach(el => {
+        if (el !== item) {
+          el.classList.remove('playing');
+          el.querySelector('.clip-player').innerHTML = '';
+        }
+      });
+
+      if (item.classList.contains('playing')) return;
+
       const id = item.dataset.id;
-      window.open(`https://www.youtube.com/watch?v=${id}`, '_blank');
+      const player = item.querySelector('.clip-player');
+      player.innerHTML = `<iframe src="https://www.youtube.com/embed/${id}?autoplay=1&rel=0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>`;
+      item.classList.add('playing');
     });
   });
 </script>
