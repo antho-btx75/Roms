@@ -151,6 +151,16 @@
 
 <div class="carousel-wrapper">
   <div class="carousel">
+    <!-- 1. C'est déjà ça -->
+    <div class="clip-item" data-id="fY6YFZj4ig8">
+      <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/fY6YFZj4ig8/hqdefault.jpg');">
+        <div class="play-btn">▶</div>
+      </div>
+      <p class="clip-label">C'est déjà ça</p>
+      <div class="clip-player"></div>
+    </div>
+
+    <!-- 2. Après le taff v1 -->
     <div class="clip-item" data-id="EL9S4Q8x6k0">
       <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/EL9S4Q8x6k0/hqdefault.jpg');">
         <div class="play-btn">▶</div>
@@ -159,19 +169,30 @@
       <div class="clip-player"></div>
     </div>
 
+    <!-- 3. Je t'entends mon gars -->
+    <div class="clip-item" data-id="wpu3iteXJp0">
+      <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/wpu3iteXJp0/hqdefault.jpg');">
+        <div class="play-btn">▶</div>
+      </div>
+      <p class="clip-label">Je t'entends mon gars</p>
+      <div class="clip-player"></div>
+    </div>
+
+    <!-- 4. On se parle sans se dire -->
+    <div class="clip-item" data-id="veDZq-So6Xg">
+      <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/veDZq-So6Xg/hqdefault.jpg');">
+        <div class="play-btn">▶</div>
+      </div>
+      <p class="clip-label">On se parle sans se dire</p>
+      <div class="clip-player"></div>
+    </div>
+
+    <!-- Les autres -->
     <div class="clip-item" data-id="0uiXbnndtdU">
       <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/0uiXbnndtdU/hqdefault.jpg');">
         <div class="play-btn">▶</div>
       </div>
       <p class="clip-label">Après le taff<span class="version">v2</span></p>
-      <div class="clip-player"></div>
-    </div>
-
-    <div class="clip-item" data-id="fY6YFZj4ig8">
-      <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/fY6YFZj4ig8/hqdefault.jpg');">
-        <div class="play-btn">▶</div>
-      </div>
-      <p class="clip-label">C'est déjà ça</p>
       <div class="clip-player"></div>
     </div>
 
@@ -198,29 +219,12 @@
       <p class="clip-label">C'est déjà ça<span class="version">v3</span></p>
       <div class="clip-player"></div>
     </div>
-
-    <div class="clip-item" data-id="wpu3iteXJp0">
-      <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/wpu3iteXJp0/hqdefault.jpg');">
-        <div class="play-btn">▶</div>
-      </div>
-      <p class="clip-label">Je t'entends mon gars</p>
-      <div class="clip-player"></div>
-    </div>
-
-    <div class="clip-item" data-id="veDZq-So6Xg">
-      <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/veDZq-So6Xg/hqdefault.jpg');">
-        <div class="play-btn">▶</div>
-      </div>
-      <p class="clip-label">On se parle sans se dire</p>
-      <div class="clip-player"></div>
-    </div>
   </div>
 </div>
 
 <script>
   document.querySelectorAll('.clip-item').forEach(item => {
     item.addEventListener('click', () => {
-      // Stop any other playing clip
       document.querySelectorAll('.clip-item.playing').forEach(el => {
         if (el !== item) {
           el.classList.remove('playing');
