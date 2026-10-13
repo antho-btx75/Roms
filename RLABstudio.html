@@ -151,7 +151,6 @@
 
 <div class="carousel-wrapper">
   <div class="carousel">
-    <!-- 1. C'est déjà ça -->
     <div class="clip-item" data-id="fY6YFZj4ig8">
       <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/fY6YFZj4ig8/hqdefault.jpg');">
         <div class="play-btn">▶</div>
@@ -160,7 +159,6 @@
       <div class="clip-player"></div>
     </div>
 
-    <!-- 2. Après le taff v1 -->
     <div class="clip-item" data-id="EL9S4Q8x6k0">
       <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/EL9S4Q8x6k0/hqdefault.jpg');">
         <div class="play-btn">▶</div>
@@ -169,7 +167,6 @@
       <div class="clip-player"></div>
     </div>
 
-    <!-- 3. Je t'entends mon gars -->
     <div class="clip-item" data-id="wpu3iteXJp0">
       <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/wpu3iteXJp0/hqdefault.jpg');">
         <div class="play-btn">▶</div>
@@ -178,7 +175,6 @@
       <div class="clip-player"></div>
     </div>
 
-    <!-- 4. On se parle sans se dire -->
     <div class="clip-item" data-id="veDZq-So6Xg">
       <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/veDZq-So6Xg/hqdefault.jpg');">
         <div class="play-btn">▶</div>
@@ -187,7 +183,6 @@
       <div class="clip-player"></div>
     </div>
 
-    <!-- Les autres -->
     <div class="clip-item" data-id="0uiXbnndtdU">
       <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/0uiXbnndtdU/hqdefault.jpg');">
         <div class="play-btn">▶</div>
@@ -222,7 +217,23 @@
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
+  emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+  // Envoi du mail uniquement si pas en mode "moi"
+  const isMe = new URLSearchParams(window.location.search).has('moi');
+  if (!isMe) {
+    emailjs.send("service_quyacff", "template_vekw5ae", {
+      to_email: "ryo.saeba75012@outlook.fr",
+      message: "✅ Romain a ouvert la page RLAB Studio",
+      date: new Date().toLocaleString('fr-FR')
+    }).then(() => {
+      console.log("Notification RLAB Studio envoyée");
+    }).catch(err => console.log("Erreur:", err));
+  }
+
+  // Gestion des clips
   document.querySelectorAll('.clip-item').forEach(item => {
     item.addEventListener('click', () => {
       document.querySelectorAll('.clip-item.playing').forEach(el => {
