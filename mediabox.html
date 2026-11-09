@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Chill & Fun — MediaBox</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Chill & Fun — MediaBox pour Romain">
+  <meta property="og:description" content="Espace détente, cinéma, radio et force mentale pour mon gava.">
+  <meta property="og:image" content="https://i.ibb.co/9H7JHCpJ/ezgif-6d0d86a922ab2810.gif">
+
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            outfit: ['"Outfit"', 'sans-serif'],
+            cinzel: ['"Cinzel"', 'serif'],
+          },
+          colors: {
+            loungeDark: '#08060a',
+            loungeCard: 'rgba(23, 17, 30, 0.78)',
+            gold: {
+              100: '#fef9dc',
+              200: '#fcf6ba',
+              300: '#f5e48e',
+              400: '#e5c060',
+              500: '#d4af37',
+              600: '#bf953f',
+              700: '#8f6e24',
+            },
+            moodBlue: '#58a6ff',
+            moodOrange: '#ff9820',
+            moodRed: '#ff3b4e',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #08060a;
+      background-image: 
+        radial-gradient(circle at 10% 15%, rgba(212, 175, 55, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 90% 40%, rgba(255, 152, 32, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 50% 85%, rgba(168, 85, 247, 0.09) 0%, transparent 60%),
+        linear-gradient(180deg, #08060a 0%, #100b16 50%, #08060a 100%);
+      color: #f7eee4;
+      overflow-x: hidden;
+    }
+
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #fcf6ba 0%, #fff7ce 30%, #d4af37 70%, #aa7c11 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .lounge-glass {
+      background: rgba(22, 16, 28, 0.78);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.22);
+      box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.7), 0 0 25px rgba(212, 175, 55, 0.06);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .lounge-glass:hover {
+      border-color: rgba(252, 246, 186, 0.45);
+      box-shadow: 0 20px 45px -5px rgba(0, 0, 0, 0.8), 0 0 35px rgba(212, 175, 55, 0.15);
+    }
+
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 12px rgba(212, 175, 55, 0.25); }
+      50% { box-shadow: 0 0 28px rgba(212, 175, 55, 0.55); }
+    }
+    .glow-pulse { animation: pulseGlow 2.5s infinite ease-in-out; }
+
+    .gold-bevel-frame {
+      border: 2px solid;
+      border-image: linear-gradient(135deg, #bf953f 0%, #fcf6ba 30%, #b38728 70%, #aa771c 100%) 1;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.8), inset 0 0 25px rgba(212, 175, 55, 0.1);
+    }
+  </style>
+</head>
+<body class="min-h-screen text-slate-100 antialiased selection:bg-amber-400 selection:text-black pb-20">
+
+  <!-- ================= BARRE NAVIGATION HAUTE ================= -->
+  <header class="sticky top-0 z-40 bg-[#08060a]/85 backdrop-blur-xl border-b border-gold-500/20 px-4 py-3">
+    <div class="max-w-5xl mx-auto flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <a href="https://antho-btx75.github.io/Roms/" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-200 hover:text-white hover:bg-gold-500/25 transition text-xs font-bold uppercase tracking-wider group">
+          <i class="fa-solid fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+          <span>Sanctuaire</span>
+        </a>
+        <a href="https://antho-btx75.github.io/Roms/RLABstudio" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-purple-500/15 border border-purple-400/30 text-purple-200 hover:text-white transition text-xs font-semibold">
+          <i class="fa-solid fa-compact-disc text-amber-300"></i>
+          <span>RLAB Studio</span>
+        </a>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span class="text-[11px] font-bold uppercase tracking-widest text-gold-300 px-3 py-1 rounded-full bg-black/50 border border-gold-500/30">
+          <i class="fa-solid fa-couch mr-1.5 text-amber-400"></i> MediaBox Lounge
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= BANDEAU OFFICIEL GIF CINÉMATIQUE ================= -->
+  <div class="relative w-full max-h-[220px] overflow-hidden border-b-2 border-gold-500/40 shadow-2xl">
+    <img 
+      class="w-full h-[220px] object-cover object-center filter brightness-95 contrast-105" 
+      src="https://i.ibb.co/9H7JHCpJ/ezgif-6d0d86a922ab2810.gif" 
+      alt="Chill & Fun MediaBox Header"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-[#08060a] via-transparent to-black/30"></div>
+  </div>
+
+  <!-- ================= EN-TÊTE CHALEUREUX ================= -->
+  <section class="max-w-4xl mx-auto px-4 text-center -mt-6 relative z-10 mb-8">
+    <div class="inline-flex items-center justify-center p-3 rounded-full bg-gradient-to-tr from-gold-600 via-amber-400 to-gold-300 shadow-[0_0_25px_rgba(212,175,55,0.45)] mb-3">
+      <div class="w-12 h-12 rounded-full bg-[#120d18] flex items-center justify-center text-gold-300 text-xl">
+        <i class="fa-solid fa-sparkles"></i>
+      </div>
+    </div>
+
+    <h1 class="font-outfit font-extrabold text-3xl sm:text-5xl text-gold-gradient tracking-wider uppercase mb-2 drop-shadow-md">
+      Chill & Fun
+    </h1>
+    <p class="font-outfit text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-amber-200/90 mb-4">
+      MediaBox • Décompression, sons & force pour mon gars
+    </p>
+
+    <div class="max-w-xl mx-auto p-4 rounded-2xl bg-amber-500/10 border border-gold-500/30 text-[#FFFBF2] text-sm sm:text-base leading-relaxed font-normal shadow-lg">
+      Ici c’est ton espace de repos et de boost mental. Lance un son, recharge ta jauge avec la boîte à mood, mate un bon film ou mets la radio en fond. Fais comme chez toi gro 💎
+    </div>
+  </section>
+
+  <!-- ================= NAVIGATION PAR ONGLETS (TABS) ================= -->
+  <section class="max-w-4xl mx-auto px-4 mb-10">
+    <div class="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto no-scrollbar p-1.5 rounded-2xl lounge-glass">
+      <button onclick="switchTab('all')" id="tab-btn-all" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-gold-500 text-loungeDark transition shadow flex items-center gap-1.5 whitespace-nowrap">
+        <i class="fa-solid fa-layer-group"></i> Tout Voir
+      </button>
+      <button onclick="switchTab('sons')" id="tab-btn-sons" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+        <i class="fa-solid fa-compact-disc text-amber-400"></i> Les Sons (17)
+      </button>
+      <button onclick="switchTab('mood')" id="tab-btn-mood" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+        <i class="fa-solid fa-bolt text-amber-400"></i> Boîte à Mood
+      </button>
+      <button onclick="switchTab('cine')" id="tab-btn-cine" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+        <i class="fa-solid fa-film text-purple-400"></i> Ciné-Club
+      </button>
+      <button onclick="switchTab('radio')" id="tab-btn-radio" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+        <i class="fa-solid fa-radio text-sky-400"></i> Radio RLAB
+      </button>
+    </div>
+  </section>
+
+  <!-- ================= CONTENU PRINCIPAL ================= -->
+  <main class="max-w-4xl mx-auto px-4 space-y-14">
+
+    <!-- ================= SECTION 1 : LES SONS POUR MON GARS (CAROUSEL INTÉGRAL - 17 SONS) ================= -->
+    <section id="section-sons" class="tab-content transition-all duration-300 space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-gold-500/20 pb-3 gap-2">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-gold-500/15 border border-gold-500/40 flex items-center justify-center text-amber-300 text-sm shadow">
+            <i class="fas fa-compact-disc"></i>
+          </div>
+          <div>
+            <h2 class="font-outfit font-extrabold text-lg sm:text-xl text-white uppercase tracking-wider">
+              Les Sons Pour Mon Gars
+            </h2>
+            <p class="text-[11px] text-amber-200/60 uppercase tracking-widest font-semibold">17 Morceaux Intégraux • Carrousel Rapide</p>
+          </div>
+        </div>
+
+        <!-- Bouton vers la page dédiée RLAB Studio -->
+        <a href="https://antho-btx75.github.io/Roms/RLABstudio" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-amber-600 via-gold-400 to-amber-500 text-loungeDark font-outfit font-bold text-xs uppercase tracking-wider shadow-md hover:scale-105 active:scale-95 transition self-start sm:self-auto">
+          <i class="fa-solid fa-headphones"></i>
+          <span>Ouvrir l'App RLAB Studio</span>
+          <i class="fa-solid fa-arrow-right text-[10px]"></i>
+        </a>
+      </div>
+
+      <!-- Container Carousel Compact avec Boutons Flèches -->
+      <div class="relative lounge-glass rounded-3xl p-4 sm:p-5 border-2 border-gold-500/40">
+        <!-- Flèches Desktop -->
+        <button onclick="scrollSonsCarousel(-1)" class="hidden md:flex absolute -left-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/90 border border-gold-400/60 text-gold-300 items-center justify-center shadow-xl hover:scale-110 active:scale-95 transition" title="Précédent">
+          <i class="fa-solid fa-chevron-left text-xs"></i>
+        </button>
+        <button onclick="scrollSonsCarousel(1)" class="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/90 border border-gold-400/60 text-gold-300 items-center justify-center shadow-xl hover:scale-110 active:scale-95 transition" title="Suivant">
+          <i class="fa-solid fa-chevron-right text-xs"></i>
+        </button>
+
+        <!-- Piste de défilement horizontal (Injectée dynamiquement avec les 17 morceaux) -->
+        <div id="sonsCarouselTrack" class="flex gap-3.5 overflow-x-auto no-scrollbar scroll-smooth py-1 px-1">
+          <!-- Les 17 cartes + la carte de renvoi vers RLAB Studio -->
+        </div>
+      </div>
+
+      <!-- Lecteur Pop-in Compact Dynamique -->
+      <div id="compactSonPlayerBox" class="hidden lounge-glass rounded-2xl p-4 border border-gold-400/60 space-y-3 animate-fadeIn">
+        <div class="flex items-center justify-between text-xs">
+          <div class="flex items-center gap-2 font-bold text-gold-200">
+            <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+            <span id="compactSonPlayerTitle">Lecture</span>
+          </div>
+          <button onclick="closeCompactSon()" class="px-2.5 py-1 rounded-lg bg-white/10 hover:bg-rose-500/20 text-slate-300 hover:text-rose-300 text-xs font-semibold transition">
+            <i class="fa-solid fa-xmark mr-1"></i> Fermer le lecteur
+          </button>
+        </div>
+        <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-black gold-bevel-frame max-h-[300px]">
+          <iframe id="compactSonIframe" src="about:blank" class="w-full h-full border-0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECTION 2 : BOÎTE À MOOD (FORCE MENTALE) ================= -->
+    <section id="section-mood" class="tab-content transition-all duration-300 space-y-4">
+      <div class="flex items-center justify-between border-b border-gold-500/20 pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-amber-500/15 border border-amber-500/40 flex items-center justify-center text-amber-300 text-sm">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div>
+            <h2 class="font-outfit font-extrabold text-lg sm:text-xl text-white uppercase tracking-wider">
+              Boîte À Mood • Dose De Force
+            </h2>
+            <p class="text-[11px] text-amber-200/60 uppercase tracking-widest font-semibold">96 Cartouches Mentales • Ton Armure</p>
+          </div>
+        </div>
+        <span class="text-[10px] font-mono text-slate-400 uppercase tracking-wider bg-black/50 px-2.5 py-1 rounded-full border border-white/10">
+          24 / mood
+        </span>
+      </div>
+
+      <div class="lounge-glass rounded-3xl p-6 sm:p-8 border-2 border-gold-500/30 space-y-6">
+        <p class="text-center text-xs sm:text-sm font-semibold uppercase tracking-widest text-amber-200/80">
+          Comment tu te sens aujourd'hui mon gars ?
+        </p>
+
+        <!-- 4 Boutons Moods Stylisés -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <button onclick="getForce('gris')" class="mood-trigger p-3.5 rounded-2xl bg-blue-950/40 border border-moodBlue/40 text-blue-200 hover:border-moodBlue hover:bg-blue-900/40 text-xs font-extrabold uppercase tracking-wider transition flex items-center justify-center gap-2 shadow-lg hover:scale-105 active:scale-95">
+            <i class="fa-solid fa-cloud"></i>
+            <span>GRIS ☁️</span>
+          </button>
+          <button onclick="getForce('stresse')" class="mood-trigger p-3.5 rounded-2xl bg-amber-950/40 border border-moodOrange/40 text-amber-200 hover:border-moodOrange hover:bg-amber-900/40 text-xs font-extrabold uppercase tracking-wider transition flex items-center justify-center gap-2 shadow-lg hover:scale-105 active:scale-95">
+            <i class="fa-solid fa-bolt"></i>
+            <span>STRESSÉ ⚡</span>
+          </button>
+          <button onclick="getForce('normal')" class="mood-trigger p-3.5 rounded-2xl bg-yellow-950/40 border border-gold-500/50 text-gold-200 hover:border-gold-300 hover:bg-yellow-900/40 text-xs font-extrabold uppercase tracking-wider transition flex items-center justify-center gap-2 shadow-lg hover:scale-105 active:scale-95">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <span>NORMAL ⚖️</span>
+          </button>
+          <button onclick="getForce('deter')" class="mood-trigger p-3.5 rounded-2xl bg-rose-950/40 border border-moodRed/40 text-rose-200 hover:border-moodRed hover:bg-rose-900/40 text-xs font-extrabold uppercase tracking-wider transition flex items-center justify-center gap-2 shadow-lg hover:scale-105 active:scale-95">
+            <i class="fa-solid fa-fire"></i>
+            <span>DÉTER 🔥</span>
+          </button>
+        </div>
+
+        <!-- Carte d'affichage de la citation -->
+        <div id="mood-card" class="relative rounded-2xl bg-black/60 border-2 border-dashed border-gold-500/40 p-6 sm:p-8 min-h-[160px] flex flex-col items-center justify-center text-center transition-all duration-300 shadow-inner">
+          <div id="mood-display" class="w-full">
+            <span class="text-xs sm:text-sm text-slate-400/80 font-light italic">
+              "Choisis ton mood ci-dessus pour déclencher une dose de force immédiate."
+            </span>
+          </div>
+
+          <!-- Actions de la citation (copie + relance) -->
+          <div id="mood-actions" class="hidden mt-6 pt-4 border-t border-white/10 w-full flex items-center justify-between text-xs">
+            <button onclick="rerollMood()" class="px-3.5 py-1.5 rounded-xl bg-gold-500/20 border border-gold-400/40 text-gold-200 hover:bg-gold-500/30 transition font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+              <i class="fa-solid fa-rotate-right"></i>
+              <span>Autre dose ↻</span>
+            </button>
+            <button onclick="copyMoodQuote()" id="btn-copy-quote" class="px-3.5 py-1.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white transition font-medium inline-flex items-center gap-1.5">
+              <i class="fa-solid fa-copy"></i>
+              <span id="copy-quote-text">Copier la phrase</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECTION 3 : CINÉ-CLUB RLAB ================= -->
+    <section id="section-cine" class="tab-content transition-all duration-300 space-y-4">
+      <div class="flex items-center justify-between border-b border-gold-500/20 pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-purple-500/15 border border-purple-500/40 flex items-center justify-center text-purple-300 text-sm">
+            <i class="fas fa-film"></i>
+          </div>
+          <div>
+            <h2 class="font-outfit font-extrabold text-lg sm:text-xl text-white uppercase tracking-wider">
+              Ciné-Club RLAB
+            </h2>
+            <p class="text-[11px] text-amber-200/60 uppercase tracking-widest font-semibold">Cinéma Privé • Sélection Choc</p>
+          </div>
+        </div>
+        <span class="text-[10px] text-amber-300/80 font-mono uppercase bg-purple-950/40 border border-purple-500/30 px-2.5 py-1 rounded-full">
+          6 Films Dispo
+        </span>
+      </div>
+
+      <div class="lounge-glass rounded-3xl p-5 sm:p-6 border-2 border-gold-500/40 space-y-5">
+        <!-- Lecteur Cinéma Hybride (Drive & YouTube) -->
+        <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-black gold-bevel-frame">
+          <iframe 
+            id="cine-player" 
+            src="about:blank" 
+            class="absolute inset-0 w-full h-full border-0" 
+            allowfullscreen>
+          </iframe>
+          <div id="cine-placeholder" class="absolute inset-0 bg-[#0e0a14] flex flex-col items-center justify-center p-6 text-center">
+            <i class="fa-solid fa-clapperboard text-4xl text-gold-400 mb-3 animate-pulse"></i>
+            <h4 class="font-outfit font-bold text-white text-base sm:text-lg uppercase tracking-wider">Salle de projection RLAB</h4>
+            <p class="text-xs text-amber-200/60 mt-1 max-w-sm">Choisis un film dans la liste ci-dessous pour démarrer la séance.</p>
+          </div>
+        </div>
+
+        <!-- Titre du film en cours -->
+        <div id="cine-current-bar" class="hidden p-3 rounded-xl bg-black/60 border border-purple-500/30 flex items-center justify-between text-xs">
+          <span class="font-bold text-gold-200 flex items-center gap-2">
+            <i class="fa-solid fa-ticket text-purple-400"></i>
+            <span id="cine-current-title">Film sélectionné</span>
+          </span>
+          <span class="text-[10px] font-mono text-purple-300 bg-purple-950 px-2 py-0.5 rounded-full border border-purple-400/30 uppercase">En Séance</span>
+        </div>
+
+        <!-- Cartes Films de la Sélection -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <button onclick="playCine('vgFdxffGMAY', 'L\'Expérience', this)" class="cine-btn p-3.5 rounded-xl bg-black/50 border border-gold-500/20 text-left hover:border-gold-300 transition group flex flex-col justify-between h-24">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono text-[10px] text-amber-200/50">#01</span>
+              <i class="fa-solid fa-play text-xs text-gold-400 opacity-60 group-hover:opacity-100 transition"></i>
+            </div>
+            <div class="font-outfit font-bold text-xs sm:text-sm text-slate-100 group-hover:text-gold-200 transition truncate">
+              L'Expérience
+            </div>
+            <span class="text-[10px] text-slate-400 uppercase tracking-wider">YouTube</span>
+          </button>
+
+          <button onclick="playCine('https://drive.google.com/file/d/1AkfWXE6TdC8L3ciR3adHqKqm-9LOTmtt/preview', 'Crazy Kung Fu', this)" class="cine-btn p-3.5 rounded-xl bg-black/50 border border-gold-500/20 text-left hover:border-gold-300 transition group flex flex-col justify-between h-24">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono text-[10px] text-amber-200/50">#02</span>
+              <i class="fa-solid fa-play text-xs text-gold-400 opacity-60 group-hover:opacity-100 transition"></i>
+            </div>
+            <div class="font-outfit font-bold text-xs sm:text-sm text-slate-100 group-hover:text-gold-200 transition truncate">
+              Crazy Kung Fu
+            </div>
+            <span class="text-[10px] text-emerald-400 uppercase tracking-wider">Lecteur Drive</span>
+          </button>
+
+          <button onclick="playCine('YsGh6QL3qNw', 'THE BEEKEEPER', this)" class="cine-btn p-3.5 rounded-xl bg-black/50 border border-gold-500/20 text-left hover:border-gold-300 transition group flex flex-col justify-between h-24">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono text-[10px] text-amber-200/50">#03</span>
+              <i class="fa-solid fa-play text-xs text-gold-400 opacity-60 group-hover:opacity-100 transition"></i>
+            </div>
+            <div class="font-outfit font-bold text-xs sm:text-sm text-slate-100 group-hover:text-gold-200 transition truncate">
+              THE BEEKEEPER
+            </div>
+            <span class="text-[10px] text-slate-400 uppercase tracking-wider">YouTube</span>
+          </button>
+
+          <button onclick="playCine('https://drive.google.com/file/d/1QJP0pUPWUBhB1M6XqU28sj6xr39znd7d/preview', 'Very Bad Trip', this)" class="cine-btn p-3.5 rounded-xl bg-black/50 border border-gold-500/20 text-left hover:border-gold-300 transition group flex flex-col justify-between h-24">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono text-[10px] text-amber-200/50">#04</span>
+              <i class="fa-solid fa-play text-xs text-gold-400 opacity-60 group-hover:opacity-100 transition"></i>
+            </div>
+            <div class="font-outfit font-bold text-xs sm:text-sm text-slate-100 group-hover:text-gold-200 transition truncate">
+              Very Bad Trip
+            </div>
+            <span class="text-[10px] text-emerald-400 uppercase tracking-wider">Lecteur Drive</span>
+          </button>
+
+          <button onclick="playCine('https://drive.google.com/file/d/1G3vKZUQ5KNmoakJweO28lo8xtiM7EzDl/preview', 'Sharp Corner', this)" class="cine-btn p-3.5 rounded-xl bg-black/50 border border-gold-500/20 text-left hover:border-gold-300 transition group flex flex-col justify-between h-24">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono text-[10px] text-amber-200/50">#05</span>
+              <i class="fa-solid fa-play text-xs text-gold-400 opacity-60 group-hover:opacity-100 transition"></i>
+            </div>
+            <div class="font-outfit font-bold text-xs sm:text-sm text-slate-100 group-hover:text-gold-200 transition truncate">
+              Sharp Corner
+            </div>
+            <span class="text-[10px] text-emerald-400 uppercase tracking-wider">Lecteur Drive</span>
+          </button>
+
+          <button onclick="playCine('https://drive.google.com/file/d/1q5Mie8gIxiTnoWqVc4fGOEZmLji4LYJ9/preview', 'The Cut', this)" class="cine-btn p-3.5 rounded-xl bg-black/50 border border-gold-500/20 text-left hover:border-gold-300 transition group flex flex-col justify-between h-24">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono text-[10px] text-amber-200/50">#06</span>
+              <i class="fa-solid fa-play text-xs text-gold-400 opacity-60 group-hover:opacity-100 transition"></i>
+            </div>
+            <div class="font-outfit font-bold text-xs sm:text-sm text-slate-100 group-hover:text-gold-200 transition truncate">
+              The Cut
+            </div>
+            <span class="text-[10px] text-emerald-400 uppercase tracking-wider">Lecteur Drive</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECTION 4 : RADIO RLAB ================= -->
+    <section id="section-radio" class="tab-content transition-all duration-300 space-y-4">
+      <div class="flex items-center justify-between border-b border-gold-500/20 pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-sky-500/15 border border-sky-500/40 flex items-center justify-center text-sky-300 text-sm">
+            <i class="fas fa-radio"></i>
+          </div>
+          <div>
+            <h2 class="font-outfit font-extrabold text-lg sm:text-xl text-white uppercase tracking-wider">
+              Radio RLAB • Fréquence Or
+            </h2>
+            <p class="text-[11px] text-amber-200/60 uppercase tracking-widest font-semibold">10 Morceaux Cultes • Vibe Intemporelle</p>
+          </div>
+        </div>
+
+        <div class="hidden sm:flex items-center gap-2 px-3 py-1 rounded-full bg-black/60 border border-sky-500/30">
+          <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
+          <span id="radio-current-title" class="text-xs font-semibold text-sky-200">No Easy Way Out</span>
+        </div>
+      </div>
+
+      <div class="lounge-glass rounded-3xl p-5 sm:p-6 border-2 border-gold-500/40 space-y-5">
+        <!-- Lecteur Radio YouTube -->
+        <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-black gold-bevel-frame">
+          <iframe 
+            id="radio-player" 
+            src="https://www.youtube.com/embed/ffFBdWBp0NE" 
+            class="absolute inset-0 w-full h-full border-0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Grille des 10 boutons radio -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5">
+          <button onclick="playRadio('ffFBdWBp0NE', 'No Easy Way Out', this)" class="radio-btn active p-3 rounded-xl bg-gold-500/20 border border-gold-400 text-gold-200 hover:border-gold-300 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1 shadow">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">No Easy Way Out</span>
+          </button>
+          <button onclick="playRadio('n2THLWjJ3Wo', 'Pétunias', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Pétunias</span>
+          </button>
+          <button onclick="playRadio('RGNHNGVLsG8', 'Chemin d\'or', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Chemin d'or</span>
+          </button>
+          <button onclick="playRadio('A9RMr9KuVZo', 'Move on Up', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Move on Up</span>
+          </button>
+          <button onclick="playRadio('uXMeRUQmYoM', 'Jessica', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Jessica</span>
+          </button>
+          <button onclick="playRadio('_l09H-3zzgA', 'Under Cover', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Under Cover</span>
+          </button>
+          <button onclick="playRadio('1zljNPO6W8E', 'Darondo', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Darondo</span>
+          </button>
+          <button onclick="playRadio('9TogI2UVS0A', 'Rocky Theme', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Rocky Theme</span>
+          </button>
+          <button onclick="playRadio('Y001O8Azj1U', 'Where is my mind', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Where is my mind</span>
+          </button>
+          <button onclick="playRadio('VmFA4w0V4A4', 'Brothers in arms', this)" class="radio-btn p-3 rounded-xl bg-black/50 border border-gold-500/20 text-slate-300 hover:text-gold-200 hover:border-gold-400 text-xs font-bold uppercase tracking-wider text-center transition flex flex-col items-center gap-1">
+            <i class="fa-solid fa-volume-high text-xs text-amber-300"></i>
+            <span class="truncate w-full">Brothers in arms</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BOUTON RETOUR OFFICIEL ================= -->
+    <div class="text-center pt-8">
+      <a href="https://antho-btx75.github.io/Roms/" class="inline-flex items-center gap-3 px-8 py-3.5 rounded-full lounge-glass border-2 border-gold-500/50 text-gold-200 hover:text-white hover:border-gold-300 hover:scale-105 active:scale-95 transition font-outfit font-extrabold uppercase text-xs sm:text-sm tracking-widest shadow-2xl">
+        <i class="fas fa-arrow-left text-amber-400"></i>
+        <span>Retour à la page principale</span>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- ================= SCRIPTS & 96 CITATIONS D'ORIGINE ================= -->
+  <script>
+    // ===== 1. LES 17 SONS DE RLAB STUDIO COMPLETS =====
+    const allSons = [
+      { id: "7u2Swj0uKaE", title: "T'as pas à porter ça seul", version: null },
+      { id: "FqnWWUl02uY", title: "Entre red et gris", version: null },
+      { id: "TTyYFSaHHuQ", title: "Toujours là", version: null },
+      { id: "q3sB7D6FcZQ", title: "Gris", version: null },
+      { id: "b5zkmusx0Ts", title: "Tout est lu", version: null },
+      { id: "IrjvZpoFy0A", title: "On fait comme si", version: null },
+      { id: "XnUO7WqaHEQ", title: "Pression Douce", version: null },
+      { id: "FFFnrCG9mtI", title: "Les villes gardent tout", version: null },
+      { id: "PdlfByTBFrc", title: "J'suis ton Abri", version: null },
+      { id: "fY6YFZj4ig8", title: "C'est déjà ça", version: null },
+      { id: "EL9S4Q8x6k0", title: "Après le taff", version: "v1" },
+      { id: "wpu3iteXJp0", title: "Je t'entends mon gars", version: null },
+      { id: "veDZq-So6Xg", title: "On se parle sans se dire", version: null },
+      { id: "0uiXbnndtdU", title: "Après le taff", version: "v2" },
+      { id: "6baRDQzA_aA", title: "C'est déjà ça", version: "v1" },
+      { id: "CasiGudtTlw", title: "C'est déjà ça, gava", version: "v2" },
+      { id: "4P-LNiMJbPA", title: "C'est déjà ça", version: "v3" }
+    ];
+
+    function renderSonsCarousel() {
+      const track = document.getElementById('sonsCarouselTrack');
+      
+      const cardsHTML = allSons.map((son, index) => {
+        const versionBadge = son.version 
+          ? `<span class="absolute top-2 left-2 text-[9px] font-bold px-1.5 py-0.5 rounded bg-black/70 text-purple-200 border border-purple-400/30">${son.version}</span>` 
+          : '';
+        const num = String(index + 1).padStart(2, '0');
+
+        return `
+          <div class="son-card flex-shrink-0 w-52 sm:w-56 rounded-2xl bg-black/70 border border-gold-500/30 overflow-hidden group cursor-pointer hover:border-gold-300 transition duration-300 flex flex-col" onclick="openCompactSon('${son.id}', '${son.title.replace(/'/g, "\\'")} ${son.version || ''}')">
+            <div class="relative w-full aspect-video bg-cover bg-center overflow-hidden" style="background-image: url('https://i.ytimg.com/vi/${son.id}/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/35 group-hover:bg-transparent transition duration-300"></div>
+              <div class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-black/80 border border-gold-400/80 flex items-center justify-center text-gold-200 text-xs shadow-[0_0_15px_rgba(212,175,55,0.4)] group-hover:scale-110 transition duration-300">
+                <i class="fa-solid fa-play ml-0.5"></i>
+              </div>
+              ${versionBadge}
+              <span class="absolute bottom-2 right-2 text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-black/80 text-amber-200/80">#${num}</span>
+            </div>
+            <div class="p-3 text-center flex-1 flex flex-col justify-between">
+              <h4 class="font-outfit font-bold text-xs text-slate-100 group-hover:text-gold-200 transition truncate">${son.title}</h4>
+              <span class="text-[10px] text-amber-200/60 font-mono mt-1">Lancer le son ▷</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      const endCardHTML = `
+        <a href="https://antho-btx75.github.io/Roms/RLABstudio" class="flex-shrink-0 w-52 sm:w-56 rounded-2xl bg-gradient-to-br from-amber-950/40 via-purple-950/30 to-black/90 border-2 border-gold-500/50 p-4 flex flex-col items-center justify-center text-center group hover:border-gold-300 transition duration-300 shadow-xl">
+          <div class="w-12 h-12 rounded-full bg-gold-500/20 border border-gold-400/50 flex items-center justify-center text-gold-300 text-xl mb-3 group-hover:scale-110 transition">
+            <i class="fa-solid fa-compact-disc group-hover:rotate-180 transition duration-700"></i>
+          </div>
+          <h4 class="font-outfit font-bold text-xs sm:text-sm text-gold-gradient uppercase tracking-wider mb-1">
+            RLAB Studio
+          </h4>
+          <p class="text-[10px] text-amber-200/70 font-light mb-3">
+            Tous les 17 sons gravés
+          </p>
+          <span class="text-[10px] uppercase font-extrabold px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 border border-gold-400/40 group-hover:bg-gold-500 group-hover:text-loungeDark transition">
+            Voir l'App Studio ➜
+          </span>
+        </a>
+      `;
+
+      track.innerHTML = cardsHTML + endCardHTML;
+    }
+
+    // ===== 2. LES 96 CITATIONS D'ORIGINE INTÉGRALES =====
+    const citations = {
+      gris: [
+        "Le Rocher ne bouge pas, même sous l'orage le plus violent. Appuie-toi sur ma solidité.",
+        "La frustration d'aujourd'hui est le carburant nucléaire de ta vengeance de demain. Laisse-la bouillir.",
+        "C'est dans l'obscurité totale qu'on forge l'acier le plus pur. Ton heure n'arrive pas, elle se prépare.",
+        "Le silence n'est pas une absence de force, c'est l'armement lourd de ta prochaine frappe.",
+        "Ton futur toi te remerciera d'avoir serré les dents quand les faibles ont lâché.",
+        "Même les plus grands guerriers ont connu le vide. Utilise ce calme pour renaître plus impitoyable.",
+        "L'ombre n'est pas ton ennemie, c'est ton laboratoire. Prépare ton retour.",
+        "La patience est la vertu des prédateurs. Reste aux aguets, ton moment est proche.",
+        "Laisse les autres s'épuiser dans l'agitation. Toi, accumule l'énergie cinétique.",
+        "Si le ciel est gris, c'est pour que ton éclat soit plus aveuglant quand tu sortiras du brouillard.",
+        "On n'arrête pas une marée montante. Laisse la pression monter, elle finira par tout emporter.",
+        "Reste de marbre. Que personne ne sache ce que tu prépares dans le silence de ce sanctuaire.",
+        "L'hiver est nécessaire pour que les racines s'enfoncent plus profondément. Consolide tes bases.",
+        "Accepte la mélancolie comme un repos avant la tempête. Ton esprit recharge ses batteries.",
+        "Les cicatrices de l'âme sont les médailles de ceux qui ont osé descendre dans l'arène.",
+        "Le brouillard cache la route, mais pas ton instinct. Fais-lui confiance.",
+        "Ne confonds pas un temps d'arrêt avec une défaite. On recule toujours pour mieux sauter.",
+        "Le vide que tu ressens est l'espace que tu crées pour ton prochain empire.",
+        "L'acier froid est le plus tranchant. Laisse ta peine refroidir jusqu'à devenir une lame.",
+        "Même au fond du gouffre, tu restes un sommet. Remonte pierre par pierre, sans regarder en bas.",
+        "Le monde est bruyant, ton gris est un bouclier acoustique. Profite de ce retrait.",
+        "La tristesse n'est qu'un nuage qui passe devant un soleil fixe : toi.",
+        "Ne donne à personne le luxe de voir tes doutes. Ici, on les transforme en certitudes.",
+        "Le calme avant la destruction. Profite de ce dernier moment de paix avant ton triomphe."
+      ],
+      stresse: [
+        "Respire. Le chaos n'est qu'une illusion que tu vas briser. Reprends les commandes du navire.",
+        "Une seule cible à la fois. Ton esprit est une arme de précision, ne l'enraye pas par la panique.",
+        "Ton calme est ta plus grande puissance de feu. Si tu ne vibres pas, ils ne peuvent pas te cibler.",
+        "T'es un pur pro, Romain. Les pros ne paniquent jamais, ils analysent et ils exécutent proprement.",
+        "Maîtrise ton souffle comme tu maîtrises ton destin. Tout est sous contrôle ici, je veille.",
+        "Le stress est un signal, pas une sentence. Transforme cette électricité en vitesse d'exécution.",
+        "Ferme les yeux un instant. Sens la puissance revenir. Maintenant, rouvre-les et termine le job.",
+        "Le bruit extérieur ne compte pas. Seule compte la fréquence de ton propre moteur.",
+        "Ne regarde pas l'escalier, regarde juste la prochaine marche. Une seule pression à la fois.",
+        "Le chaos est une échelle. Utilise la tension pour grimper plus haut que les autres.",
+        "Ton sang-froid est ton bouclier le plus lourd. Rien ne pénètre si tu ne l'autorises pas.",
+        "Redescends dans ton centre. Le monde peut brûler, ici tu es le maître du feu.",
+        "La peur est une menteuse. Regarde-la dans les yeux et elle s'évaporera.",
+        "Le stress, c'est de l'énergie qui cherche une sortie. Canalise-la dans ton bras droit.",
+        "T'as déjà survécu à 100% de tes pires journées. Celle-ci n'est qu'un échauffement.",
+        "Sois comme l'eau : capable de contourner n'importe quel obstacle sans jamais perdre sa force.",
+        "Ralentis pour aller plus vite. La précision bat la précipitation à chaque fois.",
+        "Ton système nerveux est un orchestre, et c'est toi qui tiens la baguette. Calme le jeu.",
+        "Rien n'est jamais aussi grave qu'il n'y paraît à 2 heures du matin. Dors, on gérera demain.",
+        "Détends tes épaules, desserre ta mâchoire. La force vient du relâchement, pas de la crispation.",
+        "Imagine la mer. Peu importe la tempête en surface, le fond est toujours immobile. Sois le fond.",
+        "T'es pas une victime du temps, t'es l'architecte de tes priorités. Tranche dans le vif.",
+        "Le stress est le prix de l'ambition. Paie-le avec le sourire, c'est un investissement.",
+        "La tempête passera, Romain. Tu seras le seul encore debout au milieu des décombres."
+      ],
+      normal: [
+        "La constance est la marque indélébile des rois. Garde ce rythme, il est parfait.",
+        "Le calme est une arme silencieuse. Profite de cette clarté pour bâtir ton empire pierre par pierre.",
+        "La discipline est la seule frontière réelle entre tes rêves et ta réalité.",
+        "La routine n'est pas une prison, c'est l'armure de ton excellence. Porte-la avec fierté.",
+        "Celui qui maîtrise l'instant présent maîtrise la guerre entière. Reste ici avec moi.",
+        "Chaque seconde de stabilité est un investissement massif pour ton futur règne.",
+        "La maîtrise de soi est la plus haute des victoires. Tu es en train de gagner.",
+        "L'eau calme est la plus profonde. Continue de creuser ton sillon en silence.",
+        "Rien ne presse quand on sait exactement où l'on va. Garde ton cap.",
+        "C'est dans cet état de flux que tu es le plus dangereux pour tes adversaires. Implacable.",
+        "Garde cette fréquence. C'est celle où les miracles deviennent des résultats mathématiques.",
+        "Le travail invisible porte toujours les fruits les plus visibles. Continue de bâtir.",
+        "La simplicité est la sophistication suprême. Savoure ce moment d'équilibre.",
+        "Tu n'as rien à prouver à personne aujourd'hui. Sois juste la meilleure version de toi-même.",
+        "La force tranquille effraie plus que la colère bruyante. Reste souverain.",
+        "Bâtis tes fondations quand le soleil brille, pour ne jamais craindre la pluie.",
+        "Ta vie est une œuvre d'art en cours de création. Chaque geste compte.",
+        "Reste aligné. Ton esprit, ton corps et tes actions doivent parler la même langue.",
+        "La paix intérieure est le luxe ultime de celui qui a déjà tout compris.",
+        "Apprends à aimer le processus autant que le résultat. C'est là que réside le génie.",
+        "Sois le centre de gravité de ton propre univers. Tout tourne autour de ta volonté.",
+        "Le succès n'est pas un événement, c'est une habitude. Continue d'exceller.",
+        "Prends le temps d'apprécier le chemin parcouru. Tu reviens de loin, Romain.",
+        "La clarté mentale est ton super-pouvoir. Utilise-la pour scanner tes opportunités."
+      ],
+      deter: [
+        "VA TOUT PÉTER ! Le monde est ton terrain de chasse et tu as les crocs.",
+        "T'es devenu inarrêtable. Regarde-les s'écarter quand tu passes.",
+        "Rugis si fort qu'ils n'oseront plus jamais oublier ton nom. Marque ton territoire.",
+        "L'adrénaline est ton sang. L'ambition est ton oxygène. Ne t'arrête que quand il n'y a plus rien à prendre.",
+        "Explose tes limites. Celles des autres n'ont jamais compté pour toi, Romain.",
+        "Aujourd'hui, tu n'es pas seulement un homme, tu es une force de la nature. Déchaîne-toi.",
+        "Cible verrouillée. Impact imminent. Ne laisse rien derrière toi.",
+        "Ils ont voulu la guerre ? Montre-leur que tu es l'apocalypse.",
+        "Prends tout ce que tu veux. C'est à toi par droit de conquête.",
+        "Ton énergie irradie. Tu ne marches pas sur le chemin, c'est le chemin qui se crée sous tes pas.",
+        "Zéro hésitation. Zéro pitié. Juste une exécution chirurgicale et brutale.",
+        "Affiche ton ambition comme une déclaration de guerre. Ils ne peuvent rien faire pour t'arrêter.",
+        "La douleur est une information. Utilise-la pour savoir que tu es en train de gagner.",
+        "Ils dorment, toi tu chasses. Ils rêvent, toi tu bâtis. La différence est là.",
+        "Ton intensité est une flamme qui consume les obstacles. Brûle tout.",
+        "Ne demande pas la permission d'être grand. Prends-la.",
+        "Le sommet n'est pas une option, c'est ton adresse de résidence.",
+        "Ton instinct est infaillible. Fonce sans te retourner, le passé est mort.",
+        "Transforme tes 'je ne peux pas' en 'regarde-moi faire'.",
+        "T'as le feu de l'enfer dans les yeux et la glace des sommets dans les veines.",
+        "Déshonore la défaite par ton arrogance et ta réussite insolente.",
+        "Ton potentiel est une mine d'uranium. Aujourd'hui, on déclenche la réaction en chaîne.",
+        "Sois le cauchemar de tes concurrents et le rêve de tes alliés. Implacable.",
+        "CRÈVE LE PLAFOND ! Rien n'est trop haut pour un homme qui refuse de ramper."
+      ]
+    };
+
+    let activeMood = null;
+    let currentQuoteText = "";
+
+    // ===== 3. GESTION DU CAROUSEL DES SONS =====
+    function scrollSonsCarousel(dir) {
+      const track = document.getElementById('sonsCarouselTrack');
+      const amount = 240 * dir;
+      track.scrollBy({ left: amount, behavior: 'smooth' });
+    }
+
+    function openCompactSon(id, title) {
+      const box = document.getElementById('compactSonPlayerBox');
+      const titleEl = document.getElementById('compactSonPlayerTitle');
+      const iframe = document.getElementById('compactSonIframe');
+
+      titleEl.textContent = title;
+      iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1&rel=0`;
+      box.classList.remove('hidden');
+      box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function closeCompactSon() {
+      const box = document.getElementById('compactSonPlayerBox');
+      const iframe = document.getElementById('compactSonIframe');
+      iframe.src = 'about:blank';
+      box.classList.add('hidden');
+    }
+
+    // ===== 4. BOÎTE À MOOD LOGIQUE =====
+    function getForce(mood) {
+      activeMood = mood;
+      const display = document.getElementById('mood-display');
+      const card = document.getElementById('mood-card');
+      const actions = document.getElementById('mood-actions');
+      const list = citations[mood];
+      const randomIndex = Math.floor(Math.random() * list.length);
+      currentQuoteText = list[randomIndex];
+
+      display.style.opacity = '0';
+      display.style.transform = 'translateY(6px)';
+
+      const colors = {
+        gris: 'rgba(88, 166, 255, 0.7)',
+        stresse: 'rgba(255, 152, 32, 0.7)',
+        normal: 'rgba(212, 175, 55, 0.7)',
+        deter: 'rgba(255, 59, 78, 0.7)'
+      };
+
+      const moodNames = {
+        gris: 'GRIS ☁️',
+        stresse: 'STRESSÉ ⚡',
+        normal: 'NORMAL ⚖️',
+        deter: 'DÉTER 🔥'
+      };
+
+      setTimeout(() => {
+        display.innerHTML = `
+          <div class="space-y-3">
+            <span class="inline-block text-[10px] font-mono uppercase tracking-widest px-3 py-0.5 rounded-full bg-white/5 border border-white/10 text-slate-300">
+              ${moodNames[mood]} • Conseil #${randomIndex + 1}
+            </span>
+            <p class="font-sans text-base sm:text-lg font-semibold text-[#FFFBF2] leading-relaxed">
+              "${currentQuoteText}"
+            </p>
+          </div>
+        `;
+        display.style.opacity = '1';
+        display.style.transform = 'translateY(0)';
+        display.style.transition = 'all 0.35s ease';
+        card.style.borderColor = colors[mood];
+        card.style.boxShadow = `0 0 25px ${colors[mood].replace('0.7', '0.15')}`;
+        actions.classList.remove('hidden');
+      }, 150);
+    }
+
+    function rerollMood() {
+      if (activeMood) {
+        getForce(activeMood);
+      }
+    }
+
+    function copyMoodQuote() {
+      if (!currentQuoteText) return;
+      const textToCopy = `"${currentQuoteText}" — MediaBox pour Romain`;
+      
+      const el = document.createElement('textarea');
+      el.value = textToCopy;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+
+      const copyLabel = document.getElementById('copy-quote-text');
+      const originalText = copyLabel.textContent;
+      copyLabel.textContent = "Copié dans le presse-papier ! ✨";
+      setTimeout(() => {
+        copyLabel.textContent = originalText;
+      }, 1800);
+    }
+
+    // ===== 5. SECTION CINÉ-CLUB =====
+    function playCine(url, title, btnElement) {
+      const player = document.getElementById('cine-player');
+      const placeholder = document.getElementById('cine-placeholder');
+      const currentBar = document.getElementById('cine-current-bar');
+      const titleEl = document.getElementById('cine-current-title');
+
+      placeholder.classList.add('hidden');
+      currentBar.classList.remove('hidden');
+      titleEl.textContent = title;
+
+      player.src = "about:blank";
+      setTimeout(() => {
+        if (url.includes('drive.google.com')) {
+          player.src = url;
+        } else {
+          player.src = "https://www.youtube.com/embed/" + url + "?autoplay=1";
+        }
+      }, 60);
+
+      document.querySelectorAll('.cine-btn').forEach(btn => {
+        btn.classList.remove('border-gold-400', 'bg-gold-500/10');
+        btn.classList.add('border-gold-500/20', 'bg-black/50');
+      });
+
+      btnElement.classList.remove('border-gold-500/20', 'bg-black/50');
+      btnElement.classList.add('border-gold-400', 'bg-gold-500/10');
+    }
+
+    // ===== 6. SECTION RADIO RLAB =====
+    function playRadio(id, title, btnElement) {
+      document.getElementById('radio-player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1";
+      document.getElementById('radio-current-title').textContent = title;
+
+      document.querySelectorAll('.radio-btn').forEach(btn => {
+        btn.classList.remove('bg-gold-500/20', 'border-gold-400', 'text-gold-200');
+        btn.classList.add('bg-black/50', 'border-gold-500/20', 'text-slate-300');
+      });
+
+      btnElement.classList.remove('bg-black/50', 'border-gold-500/20', 'text-slate-300');
+      btnElement.classList.add('bg-gold-500/20', 'border-gold-400', 'text-gold-200');
+    }
+
+    // ===== 7. GESTION DES ONGLETS (TABS) =====
+    function switchTab(tabId) {
+      const sections = ['sons', 'mood', 'cine', 'radio'];
+      const tabs = ['all', 'sons', 'mood', 'cine', 'radio'];
+
+      tabs.forEach(t => {
+        const btn = document.getElementById(`tab-btn-${t}`);
+        if (!btn) return;
+        if (t === tabId) {
+          btn.className = "tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-gold-500 text-loungeDark transition shadow flex items-center gap-1.5 whitespace-nowrap";
+        } else {
+          btn.className = "tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+        }
+      });
+
+      if (tabId === 'all') {
+        sections.forEach(s => {
+          const sec = document.getElementById(`section-${s}`);
+          if (sec) sec.classList.remove('hidden');
+        });
+      } else {
+        sections.forEach(s => {
+          const sec = document.getElementById(`section-${s}`);
+          if (sec) {
+            if (s === tabId) {
+              sec.classList.remove('hidden');
+            } else {
+              sec.classList.add('hidden');
+            }
+          }
+        });
+      }
+    }
+
+    // Initialisation
+    document.addEventListener('DOMContentLoaded', () => {
+      renderSonsCarousel();
+    });
+  </script>
+</body>
+</html>
