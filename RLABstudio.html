@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>RLAB Studio — Du kiff pour les oreilles</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="RLAB Studio — Les sons pour mon gars">
+  <meta property="og:description" content="Studio musical privé dédié à Romain — Morceaux exclusifs, force et fraternité.">
+  <meta property="og:image" content="https://pub-e764700388504ae499be09ba060a2f3f.r2.dev/ezgif-1d5e6284f922fe74.gif">
+
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            outfit: ['"Outfit"', 'sans-serif'],
+            cinzel: ['"Cinzel"', 'serif'],
+          },
+          colors: {
+            studioDark: '#070509',
+            studioCard: 'rgba(20, 15, 26, 0.78)',
+            gold: {
+              100: '#fef9dc',
+              200: '#fcf6ba',
+              300: '#f5e48e',
+              400: '#e5c060',
+              500: '#d4af37',
+              600: '#bf953f',
+              700: '#8f6e24',
+            },
+            warmAmber: '#ff9820',
+            violetGlow: '#a855f7'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Halo chaleureux feutré façon lounge studio */
+    body {
+      background-color: #070509;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(212, 175, 55, 0.14) 0%, transparent 45%),
+        radial-gradient(circle at 85% 35%, rgba(168, 85, 247, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 50% 80%, rgba(255, 152, 32, 0.08) 0%, transparent 55%),
+        linear-gradient(180deg, #070509 0%, #0d0912 50%, #070509 100%);
+      color: #f7eee4;
+      overflow-x: hidden;
+    }
+
+    /* Dégradé or signature */
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #fcf6ba 0%, #fff7ce 30%, #d4af37 70%, #aa7c11 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Cartes Glassmorphism avec liseré or chaud */
+    .studio-glass {
+      background: rgba(22, 16, 28, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.22);
+      box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.65), 0 0 25px rgba(212, 175, 55, 0.06);
+      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .studio-glass:hover {
+      border-color: rgba(252, 246, 186, 0.55);
+      box-shadow: 0 20px 45px -5px rgba(0, 0, 0, 0.75), 0 0 35px rgba(212, 175, 55, 0.25);
+    }
+
+    /* Scrollbar invisible pour carousel */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Disque Vinyle animé */
+    @keyframes spinDisc {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .spin-vinyl {
+      animation: spinDisc 9s linear infinite;
+    }
+    .spin-vinyl.paused {
+      animation-play-state: paused;
+    }
+
+    /* Pulsation halo studio */
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); }
+      50% { box-shadow: 0 0 30px rgba(212, 175, 55, 0.6); }
+    }
+    .glow-pulse {
+      animation: pulseGlow 2.5s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="min-h-screen text-slate-100 antialiased selection:bg-amber-400 selection:text-black pb-28">
+
+  <!-- ================= BANDEAU SUPÉRIEUR / RETOUR ================= -->
+  <header class="sticky top-0 z-40 bg-[#070509]/80 backdrop-blur-xl border-b border-gold-500/20 px-4 py-3">
+    <div class="max-w-6xl mx-auto flex items-center justify-between gap-3">
+      <a href="https://antho-btx75.github.io/Roms/" class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-200 hover:text-white hover:bg-gold-500/25 transition text-xs font-bold uppercase tracking-wider group">
+        <i class="fa-solid fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+        <span>Retour au Sanctuaire</span>
+      </a>
+
+      <div class="flex items-center gap-2">
+        <span class="text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full bg-purple-500/15 border border-purple-400/30 text-purple-200">
+          <i class="fa-solid fa-headphones mr-1 text-gold-300"></i> 17 Sons Gravés
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= IMAGE D'EN-TÊTE CINÉMATIQUE ================= -->
+  <div class="relative w-full max-h-[220px] overflow-hidden">
+    <img 
+      class="w-full h-[220px] object-cover object-center filter brightness-90 contrast-105" 
+      src="https://pub-e764700388504ae499be09ba060a2f3f.r2.dev/ezgif-1d5e6284f922fe74.gif" 
+      alt="RLAB Studio Header"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-[#070509] via-transparent to-black/30"></div>
+  </div>
+
+  <!-- ================= TITRE & INTRO CHALEUREUSE ================= -->
+  <section class="max-w-4xl mx-auto px-4 text-center -mt-6 relative z-10">
+    <div class="inline-flex items-center justify-center p-3 rounded-full bg-gradient-to-tr from-gold-600 via-amber-400 to-gold-300 shadow-[0_0_30px_rgba(212,175,55,0.45)] mb-3">
+      <div class="w-12 h-12 rounded-full bg-[#120d18] flex items-center justify-center text-gold-300 text-xl">
+        <i class="fa-solid fa-compact-disc"></i>
+      </div>
+    </div>
+
+    <h1 class="font-outfit font-extrabold text-3xl sm:text-5xl text-gold-gradient tracking-wider uppercase mb-2 drop-shadow-md">
+      RLAB Studio
+    </h1>
+
+    <p class="font-outfit text-xs sm:text-sm font-semibold tracking-[0.28em] uppercase text-purple-200/90 mb-4 drop-shadow">
+      Du kiff pour les oreilles • Rien que pour mon gars
+    </p>
+
+    <div class="max-w-xl mx-auto p-4 sm:p-5 rounded-2xl bg-amber-500/10 border border-gold-500/30 text-[#FFFBF2] text-sm sm:text-base leading-relaxed font-normal shadow-lg">
+      Installe-toi, mets tes écouteurs et laisse tourner le son. Chaque morceau ici porte notre vécu, nos forces, nos délires et notre alliance. Pas de prise de tête, que de la bonne vibe 💎
+    </div>
+  </section>
+
+  <!-- ================= BARRE DE RECHERCHE & SWITCH DE VUE ================= -->
+  <section class="max-w-5xl mx-auto px-4 mt-8 mb-6">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-3 p-2 rounded-2xl studio-glass">
+      
+      <!-- Champ de recherche instantanée -->
+      <div class="relative w-full sm:w-72">
+        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-xs text-amber-200/60"></i>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Rechercher un son, v1, v2..." 
+          class="w-full bg-black/40 border border-gold-500/25 rounded-xl pl-9 pr-4 py-2 text-xs text-slate-100 placeholder-amber-200/40 focus:outline-none focus:border-gold-300 transition"
+        />
+      </div>
+
+      <!-- Bascule Carousel / Grille -->
+      <div class="flex items-center gap-2 w-full sm:w-auto justify-end">
+        <span class="text-xs text-amber-200/70 font-semibold mr-1">Affichage :</span>
+        <button 
+          id="btnViewCarousel" 
+          onclick="setViewMode('carousel')" 
+          class="px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-gold-500 text-studioDark transition shadow flex items-center gap-1.5">
+          <i class="fa-solid fa-arrows-left-right"></i>
+          <span>Carousel</span>
+        </button>
+        <button 
+          id="btnViewGrid" 
+          onclick="setViewMode('grid')" 
+          class="px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+          <i class="fa-solid fa-grip"></i>
+          <span>Grille</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= VUE 1 : CAROUSEL HORIZONTAL FLUIDE ================= -->
+  <section id="viewCarouselSection" class="relative w-full py-4 transition-opacity duration-300">
+    <!-- Contrôles flèches de défilement (Desktop/Tablet) -->
+    <button 
+      onclick="scrollCarousel(-1)" 
+      class="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full studio-glass border border-gold-500/40 items-center justify-center text-gold-300 hover:scale-110 active:scale-95 transition shadow-2xl"
+      title="Morceau précédent">
+      <i class="fa-solid fa-chevron-left text-sm"></i>
+    </button>
+    <button 
+      onclick="scrollCarousel(1)" 
+      class="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full studio-glass border border-gold-500/40 items-center justify-center text-gold-300 hover:scale-110 active:scale-95 transition shadow-2xl"
+      title="Morceau suivant">
+      <i class="fa-solid fa-chevron-right text-sm"></i>
+    </button>
+
+    <div id="carouselWrapper" class="flex gap-4 overflow-x-auto no-scrollbar px-4 sm:px-12 py-4 scroll-smooth">
+      <!-- Les cartes de morceaux du carousel seront injectées / gérées ici -->
+    </div>
+  </section>
+
+  <!-- ================= VUE 2 : GRILLE BENTO COMPLÈTE ================= -->
+  <section id="viewGridSection" class="max-w-6xl mx-auto px-4 py-4 hidden transition-opacity duration-300">
+    <div id="gridWrapper" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+      <!-- Les cartes en mode grille -->
+    </div>
+  </section>
+
+  <!-- Message aucun résultat -->
+  <div id="noResults" class="hidden text-center py-16 text-amber-200/60 font-semibold text-sm">
+    <i class="fa-solid fa-music text-3xl mb-3 block text-gold-500/40"></i>
+    Aucun morceau ne correspond à cette recherche.
+  </div>
+
+  <!-- ================= BARRE NOW PLAYING FIXÉE EN BAS ================= -->
+  <aside id="nowPlayingBar" class="fixed bottom-0 left-0 right-0 z-50 bg-[#120a16]/95 backdrop-blur-2xl border-t border-gold-500/30 px-4 py-2.5 shadow-[0_-10px_35px_rgba(0,0,0,0.85)] transition-transform duration-300 translate-y-full">
+    <div class="max-w-6xl mx-auto flex items-center justify-between gap-3">
+      
+      <!-- Infos du morceau en cours -->
+      <div class="flex items-center gap-3 min-w-0">
+        <!-- Vinyle rotatif miniature -->
+        <div class="relative w-11 h-11 flex-shrink-0 flex items-center justify-center">
+          <div id="miniVinylDisc" class="w-full h-full rounded-full bg-[#181120] border-2 border-gold-500/60 spin-vinyl flex items-center justify-center shadow-lg">
+            <div class="w-3.5 h-3.5 rounded-full bg-gold-400 border border-black flex items-center justify-center">
+              <div class="w-1.5 h-1.5 rounded-full bg-black"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="min-w-0">
+          <div class="text-[10px] font-bold uppercase tracking-widest text-amber-300 font-cinzel">Lecture En Cours</div>
+          <h4 id="nowPlayingTitle" class="text-xs sm:text-sm font-bold text-white truncate max-w-[190px] sm:max-w-md">
+            Sélectionne un morceau
+          </h4>
+        </div>
+      </div>
+
+      <!-- Égaliseur visuel animé -->
+      <div class="hidden sm:flex items-end gap-1 h-6 px-3">
+        <span class="w-1 bg-amber-400 rounded-full animate-bounce h-4"></span>
+        <span class="w-1 bg-gold-300 rounded-full animate-bounce h-6" style="animation-delay: 150ms;"></span>
+        <span class="w-1 bg-purple-400 rounded-full animate-bounce h-3" style="animation-delay: 300ms;"></span>
+        <span class="w-1 bg-amber-300 rounded-full animate-bounce h-5" style="animation-delay: 75ms;"></span>
+      </div>
+
+      <!-- Contrôles rapides -->
+      <div class="flex items-center gap-2 flex-shrink-0">
+        <button 
+          id="btnStopNowPlaying" 
+          onclick="stopCurrentTrack()" 
+          class="px-3 py-1.5 rounded-full bg-white/10 hover:bg-rose-500/20 text-slate-200 hover:text-rose-300 text-xs font-semibold transition flex items-center gap-1.5">
+          <i class="fa-solid fa-stop"></i>
+          <span class="hidden sm:inline">Fermer</span>
+        </button>
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- ================= SCRIPTS & EMAILJS ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // ===== 1. EMAILJS NOTIFICATION (CONSERVÉ À L'IDENTIQUE) =====
+    emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+
+    const isMe = new URLSearchParams(window.location.search).has('moi');
+    if (!isMe) {
+      emailjs.send("service_quyacff", "template_vekw5ae", {
+        to_email: "ryo.saeba75012@outlook.fr",
+        message: "✅ Romain a ouvert la page RLAB Studio",
+        date: new Date().toLocaleString('fr-FR')
+      }).then(() => {
+        console.log("Notification RLAB Studio envoyée");
+      }).catch(err => console.log("Erreur:", err));
+    }
+
+    // ===== 2. DONNÉES DES 17 MORCEAUX ORIGINAUX =====
+    const tracks = [
+      { id: "7u2Swj0uKaE", title: "T'as pas à porter ça seul", version: null },
+      { id: "FqnWWUl02uY", title: "Entre red et gris", version: null },
+      { id: "TTyYFSaHHuQ", title: "Toujours là", version: null },
+      { id: "q3sB7D6FcZQ", title: "Gris", version: null },
+      { id: "b5zkmusx0Ts", title: "Tout est lu", version: null },
+      { id: "IrjvZpoFy0A", title: "On fait comme si", version: null },
+      { id: "XnUO7WqaHEQ", title: "Pression Douce", version: null },
+      { id: "FFFnrCG9mtI", title: "Les villes gardent tout", version: null },
+      { id: "PdlfByTBFrc", title: "J'suis ton Abri", version: null },
+      { id: "fY6YFZj4ig8", title: "C'est déjà ça", version: null },
+      { id: "EL9S4Q8x6k0", title: "Après le taff", version: "v1" },
+      { id: "wpu3iteXJp0", title: "Je t'entends mon gars", version: null },
+      { id: "veDZq-So6Xg", title: "On se parle sans se dire", version: null },
+      { id: "0uiXbnndtdU", title: "Après le taff", version: "v2" },
+      { id: "6baRDQzA_aA", title: "C'est déjà ça", version: "v1" },
+      { id: "CasiGudtTlw", title: "C'est déjà ça, gava", version: "v2" },
+      { id: "4P-LNiMJbPA", title: "C'est déjà ça", version: "v3" }
+    ];
+
+    let currentPlayingId = null;
+    let currentView = 'carousel';
+
+    // ===== 3. GÉNÉRATION DU HTML D'UNE CARTE =====
+    function buildCardHTML(track, mode = 'carousel') {
+      const isCardCarousel = mode === 'carousel';
+      const widthClasses = isCardCarousel 
+        ? "flex-shrink-0 w-[270px] sm:w-[290px] h-[370px]" 
+        : "w-full h-[370px]";
+
+      const versionBadge = track.version 
+        ? `<span class="inline-block text-[11px] font-bold px-2 py-0.5 rounded-full bg-purple-500/25 border border-purple-400/40 text-purple-200 uppercase tracking-wider ml-1.5">${track.version}</span>` 
+        : '';
+
+      return `
+        <div class="clip-item ${widthClasses} studio-glass rounded-3xl overflow-hidden flex flex-col relative group cursor-pointer" data-id="${track.id}" data-title="${track.title} ${track.version || ''}">
+          
+          <!-- Miniature Vidéo / Jaquette -->
+          <div class="thumb relative flex-1 bg-cover bg-center overflow-hidden bg-black" style="background-image: url('https://i.ytimg.com/vi/${track.id}/hqdefault.jpg');">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#140f1c] via-black/30 to-black/20 group-hover:via-transparent transition duration-300"></div>
+
+            <!-- Bouton Play Glowy -->
+            <div class="play-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-black/70 border-2 border-gold-400/80 flex items-center justify-center text-gold-200 text-lg shadow-[0_0_20px_rgba(212,175,55,0.4)] backdrop-blur-md group-hover:scale-110 group-hover:border-gold-300 group-hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] transition duration-300">
+              <i class="fa-solid fa-play ml-1"></i>
+            </div>
+
+            <!-- Badge HD Audio -->
+            <span class="absolute top-3 left-3 text-[10px] font-black uppercase tracking-widest px-2 py-1 rounded-md bg-black/60 border border-gold-500/30 text-amber-200 backdrop-blur-md">
+              RLAB • HQ
+            </span>
+          </div>
+
+          <!-- Titre & Info -->
+          <div class="clip-label p-4 text-center bg-[#140f1c]/95 border-t border-gold-500/20">
+            <h3 class="font-outfit font-bold text-slate-100 text-sm sm:text-base tracking-wide flex items-center justify-center flex-wrap">
+              <span>${track.title}</span>
+              ${versionBadge}
+            </h3>
+            <p class="text-[11px] text-amber-200/60 font-semibold tracking-wider uppercase mt-1">
+              Spécialement pour Roms
+            </p>
+          </div>
+
+          <!-- Conteneur Lecteur Iframe Injecté -->
+          <div class="clip-player absolute inset-0 bg-black hidden z-30"></div>
+        </div>
+      `;
+    }
+
+    // Carte retour au sanctuaire pour la fin du carousel
+    function buildBackCardHTML() {
+      return `
+        <a href="https://antho-btx75.github.io/Roms/" class="flex-shrink-0 w-[270px] sm:w-[290px] h-[370px] studio-glass rounded-3xl p-6 flex flex-col items-center justify-center text-center group border-2 border-gold-500/40 hover:border-gold-300 transition duration-300 shadow-xl">
+          <div class="w-16 h-16 rounded-full bg-gold-500/15 border border-gold-400/40 flex items-center justify-center text-gold-300 text-2xl mb-4 group-hover:-translate-x-1 group-hover:scale-110 transition duration-300">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <span class="font-outfit font-extrabold text-base sm:text-lg text-gold-gradient uppercase tracking-wider mb-2">
+            Retour au Sanctuaire
+          </span>
+          <p class="text-xs text-amber-200/70 font-light leading-relaxed">
+            Retrouver les souvenirs, vocaux & la page principale pour mon gars.
+          </p>
+        </a>
+      `;
+    }
+
+    // Rendu Initial
+    function renderApp() {
+      const carouselEl = document.getElementById('carouselWrapper');
+      const gridEl = document.getElementById('gridWrapper');
+
+      // Carousel
+      carouselEl.innerHTML = tracks.map(t => buildCardHTML(t, 'carousel')).join('') + buildBackCardHTML();
+
+      // Grille
+      gridEl.innerHTML = tracks.map(t => buildCardHTML(t, 'grid')).join('') + `
+        <div class="col-span-full pt-4">
+          <a href="https://antho-btx75.github.io/Roms/" class="w-full py-4 rounded-2xl studio-glass border-2 border-gold-500/40 flex items-center justify-center gap-3 text-gold-200 font-bold text-sm uppercase tracking-wider hover:border-gold-300 transition">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Retour à la page principale</span>
+          </a>
+        </div>
+      `;
+
+      attachPlayerEvents();
+    }
+
+    // ===== 4. GESTION DU LECTEUR VIDÉO INTERACTIF =====
+    function attachPlayerEvents() {
+      document.querySelectorAll('.clip-item').forEach(item => {
+        item.addEventListener('click', function(e) {
+          // Si on clique déjà sur le lecteur en cours, on ne recharge pas
+          if (this.classList.contains('playing')) return;
+
+          const trackId = this.dataset.id;
+          const trackTitle = this.dataset.title;
+
+          playTrack(trackId, trackTitle, this);
+        });
+      });
+    }
+
+    function playTrack(id, title, clickedCard) {
+      // 1. Coupe les autres lecteurs existants
+      document.querySelectorAll('.clip-item.playing').forEach(el => {
+        el.classList.remove('playing');
+        const p = el.querySelector('.clip-player');
+        if (p) {
+          p.classList.add('hidden');
+          p.innerHTML = '';
+        }
+      });
+
+      // 2. Active la carte en cours
+      currentPlayingId = id;
+      clickedCard.classList.add('playing');
+      const playerContainer = clickedCard.querySelector('.clip-player');
+      playerContainer.classList.remove('hidden');
+      playerContainer.innerHTML = `
+        <iframe 
+          class="w-full h-full border-0" 
+          src="https://www.youtube.com/embed/${id}?autoplay=1&rel=0&modestbranding=1" 
+          allow="autoplay; encrypted-media; fullscreen" 
+          allowfullscreen>
+        </iframe>
+      `;
+
+      // 3. Met à jour et affiche la barre inférieure
+      const nowBar = document.getElementById('nowPlayingBar');
+      const nowTitle = document.getElementById('nowPlayingTitle');
+      const miniDisc = document.getElementById('miniVinylDisc');
+
+      nowTitle.textContent = title;
+      miniDisc.classList.remove('paused');
+      nowBar.classList.remove('translate-y-full');
+    }
+
+    function stopCurrentTrack() {
+      document.querySelectorAll('.clip-item.playing').forEach(el => {
+        el.classList.remove('playing');
+        const p = el.querySelector('.clip-player');
+        if (p) {
+          p.classList.add('hidden');
+          p.innerHTML = '';
+        }
+      });
+
+      currentPlayingId = null;
+      document.getElementById('nowPlayingBar').classList.add('translate-y-full');
+      document.getElementById('miniVinylDisc').classList.add('paused');
+    }
+
+    // ===== 5. CHANGEMENT DE VUE (CAROUSEL / GRILLE) =====
+    function setViewMode(mode) {
+      currentView = mode;
+      const carouselSec = document.getElementById('viewCarouselSection');
+      const gridSec = document.getElementById('viewGridSection');
+      const btnC = document.getElementById('btnViewCarousel');
+      const btnG = document.getElementById('btnViewGrid');
+
+      if (mode === 'carousel') {
+        carouselSec.classList.remove('hidden');
+        gridSec.classList.add('hidden');
+        btnC.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-gold-500 text-studioDark transition shadow flex items-center gap-1.5";
+        btnG.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5";
+      } else {
+        carouselSec.classList.add('hidden');
+        gridSec.classList.remove('hidden');
+        btnG.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-gold-500 text-studioDark transition shadow flex items-center gap-1.5";
+        btnC.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition flex items-center gap-1.5";
+      }
+    }
+
+    function scrollCarousel(direction) {
+      const container = document.getElementById('carouselWrapper');
+      const scrollAmount = 320 * direction;
+      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+
+    // ===== 6. RECHERCHE INSTANTANÉE =====
+    document.getElementById('searchInput').addEventListener('input', function(e) {
+      const query = e.target.value.toLowerCase().trim();
+      let matches = 0;
+
+      document.querySelectorAll('.clip-item').forEach(item => {
+        const title = (item.dataset.title || '').toLowerCase();
+        if (title.includes(query)) {
+          item.classList.remove('hidden');
+          matches++;
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+
+      const noRes = document.getElementById('noResults');
+      if (matches === 0 && query !== '') {
+        noRes.classList.remove('hidden');
+      } else {
+        noRes.classList.add('hidden');
+      }
+    });
+
+    // Lancement au chargement du DOM
+    document.addEventListener('DOMContentLoaded', renderApp);
+  </script>
+</body>
+</html>
