@@ -329,43 +329,49 @@ const headers = [
     document.getElementById('header-img').src = randomHeader;
 </script>
 
-<style>
+    <style>
   #status-box {
     display: none;
     align-items: center;
-    gap: 10px;
-    background: #1a1a1a;
-    padding: 12px 20px;
-    border-radius: 12px;
-    margin: 20px auto;
+    gap: 12px;
+    background: linear-gradient(135deg, rgba(18, 8, 16, 0.95), rgba(28, 10, 22, 0.9));
+    padding: 14px 22px;
+    border-radius: 50px;
+    margin: 28px auto;
     width: fit-content;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border: 1px solid #333;
+    border: 1px solid rgba(255, 45, 85, 0.35);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45), 0 0 22px rgba(255, 0, 127, 0.15);
+    backdrop-filter: blur(10px);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
   #online-dot {
-    width: 12px;
-    height: 12px;
-    background: #22c55e;
+    width: 10px;
+    height: 10px;
+    background: #ff2d55;
     border-radius: 50%;
     display: none;
-    box-shadow: 0 0 10px #22c55e;
-    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 12px #ff2d55, 0 0 22px rgba(255, 45, 85, 0.6);
+    animation: sensualPulse 1.8s infinite ease-in-out;
   }
 
-  @keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.3); opacity: 0.7; }
-    100% { transform: scale(1); opacity: 1; }
+  @keyframes sensualPulse {
+    0%, 100% { transform: scale(1); opacity: 1; box-shadow: 0 0 10px #ff2d55; }
+    50% { transform: scale(1.45); opacity: 0.7; box-shadow: 0 0 18px #ff2d55, 0 0 32px rgba(255, 45, 85, 0.5); }
   }
 
   .status-online {
-    color: #ff2d55 !important;
+    color: #ff80df !important;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-size: 0.95rem;
   }
 
   .status-offline {
-    color: #9ca3af !important;
+    color: #b8a8a8 !important;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-style: italic;
   }
 </style>
 
@@ -422,12 +428,12 @@ const headers = [
 
     if (data.online === true) {
       dot.style.display = 'inline-block';
-      text.textContent = 'En train de me BR en pensant à toi mon gars';
+      text.textContent = 'En train de me branler en pensant à toi mon gars...';
       text.className = 'status-online';
     } else {
       dot.style.display = 'none';
       if (data.lastSeen) {
-        text.textContent = 'Ma dernière BR pour toi mon gars le : ' + formatDate(data.lastSeen);
+        text.textContent = 'Dernière fois que j’ai pensé à toi : ' + formatDate(data.lastSeen);
       } else {
         text.textContent = 'Hors ligne';
       }
@@ -469,7 +475,7 @@ const headers = [
       });
     }
   }
-          </script>
+</script>
         
 <div class="hot-text-container">
     <p class="hot-phrase-neon">
