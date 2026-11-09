@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+  <title>ROMS, mon gars en OR 💎 — Sanctuaire Privé</title>
+
+  <!-- Open Graph -->
+  <meta content="ROMS - Mon gars en OR" property="og:title"/>
+  <meta content="Notre sanctuaire privé — Antho & Romain pour toujours." property="og:description"/>
+  <meta content="https://i.ibb.co/Q7ffXLz7/IMG-20260901-150822.jpg" property="og:image"/>
+  <meta content="https://antho-btx75.github.io/Roms/" property="og:url"/>
+  <meta content="website" property="og:type"/>
+
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=STKaiti&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            cinzel: ['"Cinzel"', 'serif'],
+            chinese: ['"STKaiti"', '"KaiTi"', 'serif']
+          },
+          colors: {
+            warmDark: '#120d14',
+            velvet: '#1a101a',
+            gold: {
+              100: '#fef8d8',
+              200: '#fcf2b0',
+              300: '#f8e078',
+              400: '#eac54f',
+              500: '#d4af37',
+              600: '#b89224',
+              700: '#8c6c13'
+            },
+            amberWarm: '#ff9e2c',
+            warmRose: '#ff4d79'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Halo d'ambiance ultra-chaleureux en fond */
+    body {
+      background-color: #120d14;
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.15) 0%, transparent 60%),
+        radial-gradient(circle at 10% 30%, rgba(255, 110, 60, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 90% 70%, rgba(184, 80, 160, 0.08) 0%, transparent 55%),
+        linear-gradient(180deg, #120d14 0%, #170f1a 50%, #120d14 100%);
+      color: #f7eee4;
+      overflow-x: hidden;
+    }
+
+    /* Dégradé or chaud pour texte */
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #fff7cc 0%, #ffd447 40%, #d4af37 70%, #aa7c11 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .text-sunset-gradient {
+      background: linear-gradient(135deg, #ff9a8b 0%, #ff6a88 55%, #ff99ac 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Cartes Glassmorphism avec lueur chaleureuse */
+    .warm-glass {
+      background: rgba(28, 19, 29, 0.72);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.22);
+      box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.55), 0 0 25px rgba(212, 175, 55, 0.08);
+    }
+
+    .warm-glass-hover {
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .warm-glass-hover:hover {
+      transform: translateY(-3px);
+      border-color: rgba(255, 215, 0, 0.5);
+      box-shadow: 0 20px 45px -5px rgba(0, 0, 0, 0.65), 0 0 35px rgba(212, 175, 55, 0.22);
+    }
+
+    /* Glow pulsations */
+    @keyframes warmPulse {
+      0%, 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.25); }
+      50% { box-shadow: 0 0 30px rgba(212, 175, 55, 0.55); }
+    }
+    .warm-pulse {
+      animation: warmPulse 3s infinite ease-in-out;
+    }
+
+    /* Disque Vinyle Haute Couture */
+    @keyframes spinVinyl {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .spinning-vinyl {
+      animation: spinVinyl 12s linear infinite;
+    }
+    .spinning-vinyl.paused {
+      animation-play-state: paused;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #120d14;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #8c6c13;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #d4af37;
+    }
+
+    /* Curseur Custom Audio Scrubber */
+    input[type=range].gold-range {
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 9999px;
+      height: 6px;
+      cursor: pointer;
+    }
+    input[type=range].gold-range::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #ffd700;
+      box-shadow: 0 0 10px #ffd700;
+      cursor: pointer;
+    }
+
+    /* Animation Néon Bouton Hot */
+    @keyframes hotNeonGlow {
+      0%, 100% { border-color: #ff3377; box-shadow: 0 0 15px rgba(255, 51, 119, 0.35); }
+      50% { border-color: #ff80bf; box-shadow: 0 0 28px rgba(255, 51, 119, 0.65); }
+    }
+    .btn-hot-animated {
+      animation: hotNeonGlow 2.5s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="min-h-screen text-slate-100 antialiased selection:bg-amber-500 selection:text-black">
+
+  <!-- ================= AUDIO ACCUEIL ================= -->
+  <audio id="audio-accueil" preload="auto" src="https://audio.jukehost.co.uk/019e5bc7-d88b-7369-b0f9-4e6420d3e208"></audio>
+
+  <!-- ================= RIDEAU D'ENTRÉE CINÉMATIQUE ================= -->
+  <div id="entree-accueil" class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#0d070f] p-6 text-center select-none cursor-pointer transition-all duration-700">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.18)_0%,transparent_70%)] pointer-events-none"></div>
+    
+    <div class="relative z-10 max-w-lg mx-auto flex flex-col items-center">
+      <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-300 text-xs font-semibold uppercase tracking-widest mb-6 backdrop-blur-md">
+        <i class="fa-solid fa-sparkles text-amber-400"></i> Espace Sacré & Authentique
+      </span>
+
+      <h1 class="font-serif italic text-3xl sm:text-4xl text-gold-gradient tracking-wide mb-3 drop-shadow-lg">
+        Pour mon Roms, mon gava 💪🏻
+      </h1>
+
+      <p class="text-gold-200/90 text-lg tracking-widest mb-8">
+        <span class="font-serif italic">Oua ai leu,</span>
+        <span class="font-chinese tracking-[0.35em] ml-2 text-xl font-bold text-amber-300">羅羅曼</span>
+      </p>
+
+      <!-- Cercle Radieux Chaleureux -->
+      <div class="w-64 h-64 sm:w-72 sm:h-72 rounded-full border border-gold-400/40 bg-gradient-to-b from-amber-500/10 via-amber-950/20 to-black/50 p-6 flex flex-col items-center justify-center warm-pulse backdrop-blur-lg hover:scale-105 transition-transform duration-500 shadow-[0_0_50px_rgba(212,175,55,0.25)]">
+        <i class="fa-solid fa-gem text-3xl text-gold-400 mb-3 drop-shadow-[0_0_12px_rgba(255,215,0,0.6)]"></i>
+        <p class="text-white text-xs sm:text-sm font-semibold uppercase tracking-widest leading-relaxed">
+          Entre dans notre<br/>sanctuaire privé
+        </p>
+        <div class="w-12 h-[1px] bg-gradient-to-r from-transparent via-gold-400 to-transparent my-2"></div>
+        <p class="text-gold-200/90 font-serif italic text-xs tracking-wider">
+          réservé seulement à nous deux 💕
+        </p>
+        <span class="mt-4 text-[10px] text-amber-200/60 font-mono tracking-widest uppercase flex items-center gap-1.5">
+          <i class="fa-solid fa-fingerprint text-gold-400"></i> Touche pour ouvrir
+        </span>
+      </div>
+
+      <div class="mt-8 flex items-center gap-2 text-rose-300 font-semibold tracking-wide text-sm bg-rose-950/40 border border-rose-500/30 px-5 py-2 rounded-full shadow-lg">
+        <span>Fuck le gris</span>
+        <span>🖕🏻</span>
+        <span class="text-xs text-rose-200/70 font-normal">| Place à la chaleur & à l'OR</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= NAVIGATION FLOTTANTE VERRE DORÉ ================= -->
+  <header class="sticky top-0 z-50 warm-glass border-b border-gold-500/20 px-4 py-3">
+    <div class="max-w-6xl mx-auto flex items-center justify-between gap-4">
+      <a href="#" class="flex items-center gap-2 group">
+        <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-gold-600 to-amber-300 flex items-center justify-center text-warmDark font-black text-sm shadow-[0_0_15px_rgba(212,175,55,0.5)] group-hover:scale-110 transition-transform">
+          💎
+        </div>
+        <div class="leading-tight">
+          <div class="text-xs font-bold tracking-widest text-gold-300 uppercase font-cinzel">ROMS & ANTHO</div>
+          <div class="text-[10px] text-amber-200/60 tracking-wider">Mon gars en OR</div>
+        </div>
+      </a>
+
+      <!-- Quick Nav Pills (Desktop / Tablet) -->
+      <nav class="hidden md:flex items-center gap-2">
+        <a href="#tes-mon-roms" class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-gold-200 hover:bg-gold-500/10 transition">Notre Lien</a>
+        <a href="#lecteur-roms" class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-gold-200 hover:bg-gold-500/10 transition">Vocal Principal</a>
+        <a href="#voyages" class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-gold-200 hover:bg-gold-500/10 transition">Voyages</a>
+        <a href="#taff" class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-gold-200 hover:bg-gold-500/10 transition">Taff</a>
+        <a href="#rocher-avant-tout" class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-gold-200 hover:bg-gold-500/10 transition">Le Rocher</a>
+        <a href="#applis" class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-gold-200 hover:bg-gold-500/10 transition">Applis</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="https://antho-btx75.github.io/Roms/sex" id="nav-btn-hot" class="text-xs font-bold px-3.5 py-1.5 rounded-full bg-gradient-to-r from-rose-600 to-pink-600 text-white shadow-[0_0_15px_rgba(244,63,94,0.4)] hover:brightness-110 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-fire text-amber-300"></i>
+          <span>HOT 18+</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO IMMERSIF ================= -->
+  <section class="relative pt-6 pb-12 px-4 overflow-hidden">
+    <div class="max-w-4xl mx-auto flex flex-col items-center">
+
+      <!-- Badge Réseaux & Liens d'honneur -->
+      <div class="flex flex-wrap items-center justify-center gap-3 mb-6">
+        <a href="https://antho-btx75.github.io/Roms/" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-300 text-xs font-semibold tracking-wider hover:bg-gold-500/20 hover:border-gold-400 transition backdrop-blur-md">
+          <i class="fa-solid fa-globe text-gold-400"></i> Notre Sanctuaire
+        </a>
+        <a href="https://www.tiktok.com/@antho.btx" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-500/10 border border-rose-500/30 text-rose-200 text-xs font-semibold tracking-wider hover:bg-rose-500/20 hover:border-rose-400 transition backdrop-blur-md">
+          <i class="fa-brands fa-tiktok text-rose-400"></i> TikTok
+        </a>
+      </div>
+
+      <!-- STATUS BAR DYNAMIQUE (FIREBASE) -->
+      <div id="status-box" class="flex items-center justify-center gap-2.5 px-4 py-1.5 rounded-full warm-glass mb-8 max-w-md w-full border border-gold-500/30">
+        <span id="online-dot" class="w-3 h-3 rounded-full bg-emerald-400 shadow-[0_0_12px_#34d399] animate-pulse hidden"></span>
+        <span id="status-text" class="text-xs font-semibold tracking-wide text-amber-200">
+          Chargement du statut...
+        </span>
+      </div>
+
+      <!-- Image Hero Pleine Largeur avec Encadrement Or Luxueux -->
+      <div class="w-full relative rounded-3xl overflow-hidden warm-glass border border-gold-400/40 shadow-[0_20px_60px_rgba(0,0,0,0.8)] mb-8">
+        <img src="https://pub-e764700388504ae499be09ba060a2f3f.r2.dev/ezgif-26addb53d44f7c2c.gif" alt="Force à toi mon Roms" class="w-full h-auto object-cover max-h-[460px] opacity-95 hover:opacity-100 transition duration-500" />
+        <div class="absolute inset-0 bg-gradient-to-t from-[#120d14] via-transparent to-transparent"></div>
+        <div class="absolute bottom-4 left-4 right-4 text-center sm:text-left sm:bottom-6 sm:left-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+          <div>
+            <span class="text-xs uppercase tracking-[0.25em] text-gold-300 font-cinzel font-bold">Alliance éternelle</span>
+            <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white drop-shadow-md">Antho & Romain</h2>
+          </div>
+          <span class="text-xs text-amber-200/80 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full border border-gold-500/30 self-center sm:self-auto">
+            10 ans de fraternité & passion 💎
+          </span>
+        </div>
+      </div>
+
+      <!-- Titre d'Amour Majestueux -->
+      <h1 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-tight text-center text-gold-gradient font-cinzel mb-4 drop-shadow-[0_0_25px_rgba(212,175,55,0.4)]">
+        Je t'aime de fou mec <i class="fa-solid fa-gem text-amber-300 ml-2"></i>
+      </h1>
+
+      <p class="text-center text-slate-200/90 font-light text-base sm:text-lg max-w-2xl leading-relaxed mb-8">
+        Je t'aime d'une force mon gars <span class="drop-shadow-[0_0_8px_rgba(255,105,180,0.8)]">💕</span> et merci d'être le mec formidable que tu es, mon Roms. Je serai toujours là pour toi.
+      </p>
+
+      <!-- MINI GOLD PLAYER HEADER -->
+      <div class="w-full max-w-md mb-8">
+        <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019ff73f-99b4-724d-aa70-75186d887b13" data-title="Toujours là pour toi, mon Roms"></div>
+      </div>
+
+      <!-- Navigation Grille en Pastilles Chaudes -->
+      <div class="w-full max-w-xl grid grid-cols-2 sm:grid-cols-4 gap-2.5 mb-10">
+        <a href="#tes-mon-roms" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-gold-300 tracking-wider flex items-center justify-center gap-2 border border-gold-500/30">
+          <i class="fas fa-link text-amber-400"></i> NOTRE LIEN
+        </a>
+        <a href="#personne-preferee" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-pink-300 tracking-wider flex items-center justify-center gap-2 border border-pink-500/30">
+          💕 BFF
+        </a>
+        <a href="#veuchs" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-gold-300 tracking-wider flex items-center justify-center gap-2 border border-gold-500/30">
+          <i class="fas fa-scissors text-amber-400"></i> VEUCHS
+        </a>
+        <a href="#voyages" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-sky-300 tracking-wider flex items-center justify-center gap-2 border border-sky-500/30 relative">
+          <i class="fas fa-plane text-sky-400"></i> VOYAGES
+          <span class="absolute -top-2 -right-1 text-[9px] bg-rose-600 text-white font-black px-1.5 py-0.5 rounded-full shadow">SÈTE</span>
+        </a>
+        <a href="#taff" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-emerald-300 tracking-wider flex items-center justify-center gap-2 border border-emerald-500/30">
+          <i class="fas fa-briefcase text-emerald-400"></i> TAFF
+        </a>
+        <a href="#rocher-avant-tout" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-gold-300 tracking-wider flex items-center justify-center gap-2 border border-gold-500/30">
+          <i class="fas fa-anchor text-amber-400"></i> LE ROCHER
+        </a>
+        <a href="https://antho-btx75.github.io/Roms/mediabox" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-purple-300 tracking-wider flex items-center justify-center gap-2 border border-purple-500/30">
+          <i class="fas fa-icons text-purple-400"></i> FUN & CHILL
+        </a>
+        <a href="#applis" class="warm-glass warm-glass-hover p-2.5 rounded-xl text-center text-xs font-bold text-gold-300 tracking-wider flex items-center justify-center gap-2 border border-gold-500/30">
+          <i class="fas fa-mobile-alt text-amber-400"></i> APPLIS
+        </a>
+
+        <!-- Bouton Cyber / Hot plein format -->
+        <div class="col-span-2 sm:col-span-4 mt-2">
+          <a href="https://antho-btx75.github.io/Roms/sex" id="btn-hot-link" class="btn-hot-animated block w-full py-3.5 px-4 rounded-2xl bg-gradient-to-r from-rose-950/80 via-pink-900/60 to-purple-950/80 border-2 border-rose-500 text-center font-bold text-rose-200 text-sm tracking-widest uppercase hover:brightness-125 transition shadow-lg">
+            <span class="inline-flex items-center gap-2">
+              <i class="fas fa-fire text-amber-300 text-base"></i>
+              PLAISIR ET KIFF HOT 🔥🔞
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- CARTE JUKEBOX RLAB STUDIO CHALEUREUSE -->
+      <div class="w-full max-w-md">
+        <a href="https://antho-btx75.github.io/Roms/RLABstudio" class="group block relative overflow-hidden rounded-3xl warm-glass border-2 border-gold-500/50 p-6 text-center hover:border-gold-300 transition duration-500 shadow-[0_10px_35px_rgba(0,0,0,0.6)]">
+          <div class="absolute -inset-1 bg-gradient-to-r from-amber-500/20 via-rose-500/20 to-amber-500/20 blur-xl opacity-50 group-hover:opacity-100 transition duration-700"></div>
+          
+          <div class="relative z-10 flex flex-col items-center">
+            <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-amber-600 via-gold-400 to-amber-200 p-[3px] shadow-[0_0_25px_rgba(212,175,55,0.4)] mb-4 group-hover:scale-105 transition-transform">
+              <div class="w-full h-full rounded-full bg-[#160e18] flex items-center justify-center">
+                <i class="fa-solid fa-compact-disc text-3xl text-gold-300 group-hover:rotate-180 transition duration-1000"></i>
+              </div>
+            </div>
+            <h3 class="text-lg font-cinzel font-bold text-gold-gradient tracking-widest uppercase">
+              Les sons pour mon gars
+            </h3>
+            <p class="text-xs text-amber-200/70 mt-1 tracking-wide">
+              RLAB Studio & Playlists exclusives pour Roms
+            </p>
+            <div class="w-16 h-0.5 bg-gradient-to-r from-transparent via-gold-400 to-transparent mt-3"></div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= LECTEUR VINYLE OR HAUTE FIDÉLITÉ ================= -->
+  <section id="lecteur-roms" class="py-12 px-4">
+    <div class="max-w-xl mx-auto warm-glass rounded-3xl p-6 sm:p-8 border-2 border-gold-500/40 shadow-[0_20px_50px_rgba(0,0,0,0.7)] relative">
+      <div class="absolute top-4 right-4">
+        <span class="text-[10px] uppercase font-bold tracking-widest px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-300">
+          Vocal d'Or Privé
+        </span>
+      </div>
+
+      <!-- Disque Vinyle Animé -->
+      <div class="relative w-48 h-48 sm:w-56 sm:h-56 mx-auto mb-6 flex items-center justify-center">
+        <!-- Glow circulaire -->
+        <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-amber-500/30 via-rose-500/20 to-gold-400/30 blur-lg"></div>
+        <!-- Vinyle physique -->
+        <div id="vinyl-disc" class="spinning-vinyl paused relative w-full h-full rounded-full bg-gradient-to-br from-[#0c090e] via-[#1a141d] to-[#0a070c] border-4 border-amber-900/60 p-2 shadow-2xl flex items-center justify-center">
+          <!-- Sillons -->
+          <div class="w-full h-full rounded-full border border-white/5 flex items-center justify-center">
+            <div class="w-4/5 h-4/5 rounded-full border border-white/5 flex items-center justify-center">
+              <div class="w-3/5 h-3/5 rounded-full border border-white/5 flex items-center justify-center">
+                <!-- Macaron Central Doré -->
+                <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-gold-600 via-amber-400 to-gold-300 p-1 shadow-[0_0_15px_rgba(212,175,55,0.6)] flex items-center justify-center">
+                  <div class="w-full h-full rounded-full bg-[#1f1512] flex items-center justify-center text-amber-300">
+                    <i class="fa-solid fa-heart text-2xl animate-pulse text-rose-400"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Titres & Sous-titres -->
+      <div class="text-center mb-6">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-gold-gradient">
+          T'es ma personne préférée mon gars
+        </h2>
+        <p class="text-xs uppercase tracking-widest text-amber-200/60 mt-1">
+          Spécialement gravé pour toi • Voix & Cœur
+        </p>
+      </div>
+
+      <!-- Visualiseur Audio Interactif (Égaliseur Animé) -->
+      <div id="visualizer-bars" class="flex items-end justify-center gap-1.5 h-10 mb-6 px-4">
+        <!-- 16 barres générées dynamiquement -->
+      </div>
+
+      <!-- Barre de Progression & Temps -->
+      <div class="space-y-1.5 mb-6">
+        <div class="flex justify-between text-xs font-mono text-amber-200/70">
+          <span id="player-current-time">0:00</span>
+          <span id="player-duration">0:00</span>
+        </div>
+        <div id="player-progress-container" class="relative w-full h-2 rounded-full bg-white/10 cursor-pointer overflow-hidden">
+          <div id="player-progress-bar" class="absolute left-0 top-0 bottom-0 w-0 bg-gradient-to-r from-amber-500 to-gold-300 rounded-full shadow-[0_0_10px_#ffd700]"></div>
+        </div>
+      </div>
+
+      <!-- Contrôles Principaux -->
+      <div class="flex items-center justify-center gap-6 mb-6">
+        <button id="player-mute-btn" class="w-10 h-10 rounded-full warm-glass border border-gold-500/30 flex items-center justify-center text-amber-300 hover:text-white transition" title="Muet">
+          <i class="fa-solid fa-volume-high text-sm"></i>
+        </button>
+
+        <button id="player-play-btn" class="w-16 h-16 rounded-full bg-gradient-to-tr from-amber-600 via-gold-400 to-amber-300 text-warmDark flex items-center justify-center text-2xl shadow-[0_0_25px_rgba(212,175,55,0.6)] hover:scale-105 active:scale-95 transition" title="Lecture / Pause">
+          <i class="fa-solid fa-play ml-1"></i>
+        </button>
+
+        <button id="player-loop-btn" class="w-10 h-10 rounded-full warm-glass border border-gold-500/30 flex items-center justify-center text-amber-300 hover:text-white transition" title="Boucle">
+          <i class="fa-solid fa-repeat text-sm"></i>
+        </button>
+      </div>
+
+      <!-- Slider Volume -->
+      <div class="flex items-center justify-center gap-3 max-w-xs mx-auto">
+        <i class="fa-solid fa-volume-low text-xs text-amber-300/60"></i>
+        <input type="range" id="player-volume" min="0" max="1" step="0.02" value="0.85" class="gold-range w-36">
+        <i class="fa-solid fa-volume-high text-xs text-amber-300/60"></i>
+      </div>
+
+      <!-- Audio Element masqué -->
+      <audio id="audio-principal" src="https://audio.jukehost.co.uk/019f5ca3-703f-7209-90c2-322a8a1a03e2"></audio>
+    </div>
+  </section>
+
+  <!-- ================= BENTO GRID - DÉCLARATIONS & VÉRICITÉ ================= -->
+  <main class="max-w-4xl mx-auto px-4 py-8 space-y-12">
+
+    <!-- Section 1 : Déclaration d'amour inconditionnelle -->
+    <section class="warm-glass rounded-3xl p-6 sm:p-10 border border-gold-500/30 text-center relative overflow-hidden">
+      <div class="absolute -right-16 -top-16 w-48 h-48 rounded-full bg-rose-500/10 blur-3xl pointer-events-none"></div>
+
+      <span class="text-xs uppercase font-bold tracking-[0.25em] text-rose-300 font-cinzel">Amour Absolu & Fraternité</span>
+      <h3 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-2 mb-4">
+        T'es celui que j'aime, un point c'est tout.
+      </h3>
+      <p class="text-slate-200/95 leading-relaxed text-base sm:text-lg max-w-2xl mx-auto font-normal mb-6">
+        Meuf ou gars je m'en branle, t'es juste mon humain préféré. Je pourrais mourir pour toi tellement tu occupes une place unique dans mon cœur.
+      </p>
+      <div class="inline-block px-6 py-2.5 rounded-full bg-gradient-to-r from-rose-600/30 to-amber-600/30 border border-rose-500/50 text-rose-200 font-bold uppercase tracking-widest text-sm shadow-[0_0_15px_rgba(244,63,94,0.3)]">
+        Je t'aime frère 💕
+      </div>
+
+      <!-- Message affectif anti-grisaille -->
+      <div class="mt-8 p-6 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-100 font-normal text-base sm:text-lg leading-[1.85] text-center max-w-2xl mx-auto">
+        J'aimerais enlever tout le gris en toi mon Romain et t'offrir tout ce que tu mérites. T'offrir de l'attention, de l'affection, et même des cadeaux mdrr. Je voudrais faire de toi le mec le plus heureux du monde.
+      </div>
+    </section>
+
+    <!-- Vidéos Vimeo Verticales Format Téléphone Stylisées -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Vidéo 1 : "J'ai trop envie mon gars..." -->
+      <div class="warm-glass rounded-3xl p-5 border border-pink-500/30 flex flex-col items-center shadow-xl">
+        <div class="w-full flex items-center justify-between mb-3 px-2">
+          <span class="text-xs font-bold text-pink-300 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-fire text-rose-400"></i> Désir & Fusion
+          </span>
+          <span class="text-[10px] text-pink-200/60 font-mono">Privé</span>
+        </div>
+        
+        <div class="w-full relative rounded-2xl overflow-hidden shadow-2xl bg-black border border-white/10" style="padding-bottom: 177.77%;">
+          <iframe src="https://player.vimeo.com/video/1228611185?title=0&byline=0&portrait=0" class="absolute inset-0 w-full h-full border-0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-300 text-center mt-4 leading-relaxed font-light">
+          Envie de m'allonger sur toi. Sentir ton corps, ta chaleur. Rester collé. Te faire kiffer. Comme deux gavas.
+        </p>
+      </div>
+
+      <!-- Vidéo 2 : "Rester fort pour toi" -->
+      <div class="warm-glass rounded-3xl p-5 border border-gold-500/30 flex flex-col items-center shadow-xl">
+        <div class="w-full flex items-center justify-between mb-3 px-2">
+          <span class="text-xs font-bold text-gold-300 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-shield text-amber-400"></i> Soutien de Roc
+          </span>
+          <span class="text-[10px] text-amber-200/60 font-mono">Pour Roms</span>
+        </div>
+
+        <div class="w-full relative rounded-2xl overflow-hidden shadow-2xl bg-black border border-white/10" style="padding-bottom: 177.77%;">
+          <iframe src="https://player.vimeo.com/video/1201926383?h=2592b430d4" class="absolute inset-0 w-full h-full border-0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <p class="text-xs sm:text-sm text-amber-200 text-center mt-4 leading-relaxed font-medium">
+          Je reste ton gava, sur tous les plans 💪🏻
+        </p>
+      </div>
+
+    </section>
+
+    <!-- Vidéo Vimeo 3 : "Pour toi mon gars" -->
+    <div class="max-w-sm mx-auto warm-glass rounded-3xl p-4 border border-gold-500/30 shadow-2xl">
+      <div class="text-center font-bold text-gold-300 text-sm tracking-wider uppercase mb-3">
+        Pour toi mon gars 💎
+      </div>
+      <div class="w-full relative rounded-2xl overflow-hidden bg-black" style="padding-bottom: 177.77%;">
+        <iframe src="https://player.vimeo.com/video/1219300541?badge=0&autopause=0&player_id=0&app_id=58479" class="absolute inset-0 w-full h-full border-0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- BOÎTE VOTE SANCTUAIRE GOLD -->
+    <div class="warm-glass rounded-3xl p-6 sm:p-8 text-center border-2 border-gold-500/50 shadow-[0_10px_35px_rgba(212,175,55,0.2)]">
+      <h3 class="text-lg sm:text-xl font-bold font-serif text-gold-gradient uppercase tracking-wider mb-2">
+        EN SCRED : Tu kiffes ?
+      </h3>
+      <p class="text-xs text-amber-200/70 mb-5">
+        Parce que ton avis compte plus que tout pour moi.
+      </p>
+      <a href="vote.html" onclick="trackVoteLinkClick(); return true;" class="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-gradient-to-r from-amber-600 via-gold-400 to-amber-500 text-warmDark font-extrabold uppercase text-xs tracking-widest shadow-lg hover:scale-105 active:scale-95 transition">
+        <span>Accéder au Vote</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+
+    <!-- SÉRIE DE VOCAUX MINI-GOLD INTÉGRÉS -->
+    <div class="space-y-4">
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019fd38d-781a-7272-b1ed-653afb38d7dc" data-title="Je suis à toi mon gars"></div>
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019fbe43-0b01-70bb-9a57-44e7ec58aa51" data-title="Gris et red à la fois mon gars"></div>
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019fa55e-edab-7234-b59d-e5b8645dfb08" data-title="Je serai toujours là pour toi..."></div>
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019f80b2-cc2d-739c-9b3c-20ca62f1c26e" data-title="J'ai trop envie de toi mon gars"></div>
+    </div>
+
+    <!-- TYPEWRITER & MESSAGE DE PROTECTION -->
+    <div class="warm-glass rounded-3xl p-6 sm:p-8 border border-gold-500/30">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-3 h-3 rounded-full bg-amber-400 animate-ping"></div>
+        <span class="text-xs uppercase tracking-widest font-bold text-gold-300">Message Instantané du Cœur</span>
+      </div>
+      <p id="tw-text-v2" class="font-serif italic text-base sm:text-lg text-slate-100 leading-relaxed min-h-[80px]">
+        <!-- Texte tapé par JS -->
+      </p>
+
+      <!-- Player audio flash auto-révélé -->
+      <div id="flash-player" class="mini-gold-player mt-4 hidden" data-src="https://audio.jukehost.co.uk/019f9a76-4d37-72c6-8824-4948992781d8" data-title="Un jour on sera red mon gars"></div>
+    </div>
+
+    <!-- ROCKY / NO RETREAT NO SURRENDER -->
+    <section id="Rocky" class="warm-glass rounded-3xl p-6 sm:p-8 border-2 border-gold-500/40 text-center shadow-2xl">
+      <span class="text-xs uppercase font-extrabold tracking-[0.3em] text-gold-400 font-cinzel">Mental d'Acier & Détermination</span>
+      <h2 class="text-2xl sm:text-4xl font-extrabold uppercase tracking-wider text-white mt-1 mb-4 font-cinzel">
+        WIN ROMS, WIN ! 💪🏻
+      </h2>
+      <p class="text-slate-200/90 text-sm sm:text-base max-w-lg mx-auto font-light leading-relaxed mb-6">
+        En plus frère je te vois un peu comme Rocky. Fort physiquement mais aussi mentalement, malgré tes blessures. T’es archi gentil et t’es un mec formidable.
+      </p>
+
+      <div class="w-full max-w-lg mx-auto rounded-2xl overflow-hidden border border-gold-500/40 shadow-xl mb-6 aspect-video bg-black">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/x8HY1FW3KoM?rel=0&modestbranding=1" title="Going the Distance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="text-xs tracking-[0.3em] font-extrabold uppercase text-gold-gradient font-cinzel">
+        ⛓️‍💥 NO RETREAT. NO SURRENDER. ⛓️‍💥
+      </div>
+    </section>
+
+    <!-- ================= ACCORDÉON / SECTION PRIVÉE DEROULE ================= -->
+    <div class="text-center pt-4">
+      <button id="toggle-prive-btn" onclick="toggleSectionPrivee()" class="px-6 py-3.5 rounded-full warm-glass border border-gold-400/50 text-gold-200 font-bold text-xs uppercase tracking-wider hover:border-gold-300 hover:bg-gold-500/10 transition shadow-lg inline-flex items-center gap-2">
+        <i class="fa-solid fa-lock text-amber-400"></i>
+        <span id="toggle-prive-text">Déroule uniquement si t'es dans ces bails mon gars</span>
+        <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300" id="toggle-prive-icon"></i>
+      </button>
+
+      <!-- Contenu Déroulable -->
+      <div id="section-privee" class="hidden mt-8 text-left space-y-8 animate-fadeIn">
+        
+        <!-- Galerie Vignettes 1 : Mon zgeg -->
+        <div class="warm-glass rounded-3xl p-6 border border-rose-500/30">
+          <h4 class="text-center font-bold text-rose-300 text-sm tracking-wider uppercase mb-4">
+            Galerie Intime • Mon zgeg
+          </h4>
+          <div class="grid grid-cols-3 gap-3 max-w-md mx-auto">
+            <a href="https://i.ibb.co/3yVXS4hQ/IMG-20260901-002120.jpg" target="_blank" class="rounded-xl overflow-hidden border border-rose-500/30 group aspect-square bg-black">
+              <img src="https://i.ibb.co/3yVXS4hQ/IMG-20260901-002120.jpg" alt="Photo 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            </a>
+            <a href="https://i.ibb.co/wN1y2sD9/20260906-233643963.jpg" target="_blank" class="rounded-xl overflow-hidden border border-rose-500/30 group aspect-square bg-black">
+              <img src="https://i.ibb.co/wN1y2sD9/20260906-233643963.jpg" alt="Photo 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            </a>
+            <a href="https://i.ibb.co/84dXnz75/Peachy-20260828-234545378.jpg" target="_blank" class="rounded-xl overflow-hidden border border-rose-500/30 group aspect-square bg-black">
+              <img src="https://i.ibb.co/84dXnz75/Peachy-20260828-234545378.jpg" alt="Photo 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            </a>
+          </div>
+        </div>
+
+        <!-- Galerie Vignettes 2 : Mon fiak -->
+        <div class="warm-glass rounded-3xl p-6 border border-pink-500/30">
+          <h4 class="text-center font-bold text-pink-300 text-sm tracking-wider uppercase mb-4">
+            Galerie Intime • Mon fiak
+          </h4>
+          <div class="grid grid-cols-3 gap-3 max-w-md mx-auto">
+            <a href="https://i.ibb.co/RkL08h8j/IMG-20260901-071312.jpg" target="_blank" class="rounded-xl overflow-hidden border border-pink-500/30 group aspect-square bg-black">
+              <img src="https://i.ibb.co/RkL08h8j/IMG-20260901-071312.jpg" alt="Fiak 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            </a>
+            <a href="https://i.ibb.co/W46KcqTd/26-09-08-09-29-50-255.jpg" target="_blank" class="rounded-xl overflow-hidden border border-pink-500/30 group aspect-square bg-black">
+              <img src="https://i.ibb.co/W46KcqTd/26-09-08-09-29-50-255.jpg" alt="Fiak 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            </a>
+            <a href="https://i.ibb.co/DPjhqfG5/Screenshot-2026-08-28-23-19-48-701-com-miui-gallery.jpg" target="_blank" class="rounded-xl overflow-hidden border border-pink-500/30 group aspect-square bg-black">
+              <img src="https://i.ibb.co/DPjhqfG5/Screenshot-2026-08-28-23-19-48-701-com-miui-gallery.jpg" alt="Fiak 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+            </a>
+          </div>
+
+          <div class="text-center mt-6">
+            <a href="https://antho-btx75.github.io/Roms/sex" onclick="trackVoirPlusClick(); return true;" class="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-gradient-to-r from-rose-600 to-pink-600 text-white font-extrabold uppercase text-xs tracking-wider shadow-lg hover:brightness-110 transition">
+              <span>Voir Plus sur la page Hot</span>
+              <i class="fa-solid fa-fire text-amber-300"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- GIFs animés intimes avec Modal Zoom -->
+        <div class="warm-glass rounded-3xl p-6 border border-white/10">
+          <h4 class="text-center font-bold text-slate-300 text-xs tracking-wider uppercase mb-4">
+            Animations & Fantasmes (Clique pour agrandir)
+          </h4>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div class="rounded-xl overflow-hidden border border-white/10 cursor-pointer hover:border-gold-400 transition" onclick="openGifModal('https://i.ibb.co/VYg6wfsL/38153261.gif')">
+              <img src="https://i.ibb.co/VYg6wfsL/38153261.gif" alt="Gif 1" class="w-full h-32 object-cover">
+            </div>
+            <div class="rounded-xl overflow-hidden border border-white/10 cursor-pointer hover:border-gold-400 transition" onclick="openGifModal('https://i.ibb.co/0pvY9sfn/ezgif-81e35307fb99d6eb-1.gif')">
+              <img src="https://i.ibb.co/0pvY9sfn/ezgif-81e35307fb99d6eb-1.gif" alt="Gif 2" class="w-full h-32 object-cover">
+            </div>
+            <div class="rounded-xl overflow-hidden border border-white/10 cursor-pointer hover:border-gold-400 transition" onclick="openGifModal('https://i.ibb.co/tpHZSLcJ/ezgif-88f62753f61adf72.gif')">
+              <img src="https://i.ibb.co/tpHZSLcJ/ezgif-88f62753f61adf72.gif" alt="Gif 3" class="w-full h-32 object-cover">
+            </div>
+            <div class="rounded-xl overflow-hidden border border-white/10 cursor-pointer hover:border-gold-400 transition" onclick="openGifModal('https://i.ibb.co/MDk3NkDT/42899911.gif')">
+              <img src="https://i.ibb.co/MDk3NkDT/42899911.gif" alt="Gif 4" class="w-full h-32 object-cover">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- MODAL LIGHTBOX POUR GIFS -->
+    <div id="gifModal" onclick="closeGifModal()" class="fixed inset-0 z-[110] bg-black/90 backdrop-blur-md hidden items-center justify-center p-4 cursor-zoom-out">
+      <button class="absolute top-6 right-6 text-gold-300 text-3xl font-bold">&times;</button>
+      <img id="gifModalImg" src="" alt="Agrandissement" class="max-w-[90vw] max-h-[85vh] rounded-2xl border-2 border-gold-400/50 shadow-2xl object-contain">
+    </div>
+
+    <!-- VIDÉO VERTICALE VIMEO : DÉCLARATION -->
+    <div class="max-w-sm mx-auto warm-glass rounded-3xl p-4 border border-gold-500/30 shadow-2xl">
+      <div class="w-full relative rounded-2xl overflow-hidden bg-black" style="padding-bottom: 177.78%;">
+        <iframe src="https://player.vimeo.com/video/1207928129" class="absolute inset-0 w-full h-full border-0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- BOX HARMONIE & CONNEXION PROFONDE (RESTAURÉE) -->
+    <div class="warm-glass rounded-3xl p-6 sm:p-10 border-2 border-gold-500/40 text-center space-y-6 shadow-2xl">
+      <div class="w-full max-w-lg mx-auto rounded-2xl overflow-hidden shadow-xl border border-gold-400/30">
+        <img alt="Gris craquelé révélant l'arc-en-ciel" src="https://i.ibb.co/wFzC9XWG/ezgif-7ce1e28a3d50ef6d.gif" class="w-full h-auto object-cover" />
+      </div>
+      <div class="p-6 rounded-2xl bg-amber-500/10 border-l-4 border-gold-400 text-[#FFFBF2] text-left font-normal text-base sm:text-lg leading-[1.85]">
+        Au fond, encore plus que l'amour réciproque avec toi, ce que je veux absolument ressentir avec toi c'est une <strong>connexion profonde</strong>. Je veux ressentir des liens de confiance tels que l'on peut absolument tout se dire sans crainte. C'est ce que j'aimerais trouver chez une autre personne, c'est donc normal pour moi de vouloir offrir ça à quelqu'un d'autre. Et toi mon Romain putain... Tu es spécial. T'es réellement... <strong>MA PERSONNE PRÉFÉRÉE</strong>.
+      </div>
+      <p class="text-slate-200 text-base sm:text-lg leading-relaxed font-light">
+        Sans aller jusqu'à former un couple, je trouve que tous les deux on se complète bien, on s'équilibre l'un et l'autre. <span class="text-white font-bold border-b border-gold-400/50">Ensemble tous les deux on peut avancer très loin mon gars.</span>
+      </p>
+      <div class="text-xl sm:text-2xl font-serif font-bold text-white tracking-wide">
+        J'ai besoin de toi <span class="text-gold-gradient font-bold">mon Romain</span> <span class="text-sm font-light text-amber-200/70 block sm:inline">(rien que d'écrire ton prénom j'ai le cœur qui se noue)</span>, autant que j'ai besoin d'être présent dans ta vie.
+      </div>
+      <div class="text-rose-300 font-extrabold uppercase tracking-widest text-base">
+        Je suis TON Antho, frère 💪🏻🫂
+      </div>
+    </div>
+
+    <!-- BOX VOCALE & TÉMOIGNAGE 10 PIGES : JE SUIS AVEC TOI MON GARS -->
+    <div class="warm-glass rounded-3xl p-6 sm:p-8 border border-gold-500/40 space-y-6">
+      <div class="text-center">
+        <h3 class="text-xl sm:text-2xl font-bold font-serif text-gold-gradient uppercase tracking-wide">
+          Je suis avec toi mon gars 💪🏻🙏🏻
+        </h3>
+        <p class="text-xs text-amber-200/70 mt-1 uppercase tracking-wider">
+          Force à toi et désolé d'être qui je suis 🥺
+        </p>
+      </div>
+
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019f0f84-219b-7228-8748-1367089a07f8" data-title="Je suis avec toi mon gars"></div>
+
+      <div class="p-6 rounded-2xl bg-black/40 border border-gold-500/20 text-[#FFFBF2] text-base sm:text-lg leading-[1.85] text-center font-normal">
+        Ne doute jamais de ta valeur mon Roms, t'es un mec génial. La plus belle personne que j'ai rencontrée. Tout simplement ma personne préférée sur Terre. T'es ce gars en OR que j'ai rencontré un jour en automne 2016, et 10 piges plus tard on est toujours là l'un pour l'autre. Et ce sera pour la vie entière mon gars 🙏🏻🫂
+      </div>
+
+      <!-- Photo souvenir et bonne nuit -->
+      <div class="max-w-md mx-auto text-center space-y-3 pt-2">
+        <p class="text-xs text-slate-300">
+          Il est 1h30 (nuit de dimanche à lundi) je vais me coucher et je kiffe toujours autant cette image mon Romain 💕 Bonne nuit, je te kiffe trop Roms.
+        </p>
+        <a href="https://i.ibb.co/gMCkbxsM/Screenshot-2026-06-29-01-31-00-802-com-miui-gallery.jpg" target="_blank" class="block rounded-2xl overflow-hidden border border-gold-500/30 hover:border-gold-300 transition shadow-lg">
+          <img alt="Souvenir Romain" src="https://i.ibb.co/gMCkbxsM/Screenshot-2026-06-29-01-31-00-802-com-miui-gallery.jpg" class="w-full h-auto object-cover" />
+        </a>
+      </div>
+    </div>
+
+    <!-- VIDÉO FORMAT TÉLÉPHONE (VIMEO) -->
+    <div class="max-w-sm mx-auto warm-glass rounded-3xl p-4 border border-gold-500/30 shadow-2xl">
+      <div class="w-full relative rounded-2xl overflow-hidden bg-black" style="padding-bottom: 177.78%;">
+        <iframe src="https://player.vimeo.com/video/1205573882" class="absolute inset-0 w-full h-full border-0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- BOX VOCAL : LA VÉRITÉ POUR MON GAVA -->
+    <div class="warm-glass rounded-3xl p-6 sm:p-8 border border-gold-500/30 space-y-4">
+      <div class="text-center border-b border-gold-500/20 pb-3">
+        <h3 class="text-lg font-cinzel font-bold text-gold-gradient uppercase tracking-wider">
+          La vérité pour mon gava
+        </h3>
+      </div>
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019ec783-8f9c-70e1-a46a-36dfea9cdf3f" data-title="La vérité pour mon gava"></div>
+      <div class="p-6 rounded-2xl bg-amber-500/10 border-l-4 border-amber-400 text-[#FFFBF2] text-sm sm:text-base leading-[1.85] font-normal">
+        En vrai gro je sais pas ce que je veux mdrrr. On est bien comme on est tous les deux et je pense pas que j'ai besoin de dire les choses officiellement.<br/><br/>
+        Tu sais comment je suis et on est bien toi et moi comme ça en vrai. En parler ce serait relou, je préfère plutôt la plaisanterie et les sous-entendus en vrai 😅<br/><br/>
+        Mais y'a une part de moi qui a envie de le dire et d'assumer tout ce que je ressens pour toi mon gars.
+      </div>
+    </div>
+
+    <!-- BOX VOCAL : CE QUI SE PASSE DANS MA TÊTE (VACANCES & REPRISE) -->
+    <div class="warm-glass rounded-3xl p-6 sm:p-8 border border-gold-500/30 space-y-4">
+      <div class="text-center border-b border-gold-500/20 pb-3">
+        <h3 class="text-lg font-cinzel font-bold text-gold-gradient uppercase tracking-wider">
+          Ce qui se passe dans ma tête
+        </h3>
+        <p class="text-xs text-slate-400 uppercase tracking-widest mt-1">Message pour mon gars</p>
+      </div>
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019ed4da-7984-7243-afda-17ed804661d6" data-title="Ce qui se passe dans ma tête"></div>
+      <div class="p-6 rounded-2xl bg-black/40 border border-gold-500/20 text-[#FFFBF2] text-sm sm:text-base leading-[1.85] font-normal space-y-3">
+        <p>Merci Romain...</p>
+        <p>J'ai kiffé ces vacances à tes côtés. J'aurais aimé partager un peu plus de temps le soir avant de se coucher, mais c'est vrai qu'on était guétifa de fou malade.</p>
+        <p>Stp... ne dis plus jamais gro que je suis un menteur mdr. J'ai trop d'estime pour toi pour te mentir. En vrai de vrai quand tu m'entends dire « ouais ouais » en fait c'est parce que je suis d'accord avec toi à 100%. Pareil quand tu me demandes mon avis sur ton flow ou ta dégaine et que je te dis que tu es bien, stp crois-moi quand je dis que c'est vrai.</p>
+        <p>Je te kiffe mon gars et c'est vrai que t'as une dégaine de fou, t'as un putain de corps, bien stoc et tu sais t'habiller. Bien sûr que t'as du flow ! Et t'es grave sexy, t'as des épaules bien massives, le dos bien dessiné et un cul de malade… mais sur ce point je sais pas trop comment le dire sinon tu vas dire que ça fait pédé et que tu veux l'entendre d'une meuf mdr.</p>
+        <p>J'ai kiffé ces vacances et je suis archi gris, surtout pour toi je vais penser à toi mec pour ta reprise. Encore une fois j'ai kiffé sentir nos cuisses se toucher et faire pression l'un contre l'autre dans le train au retour. Je te kiffe sur tous les plans mon gars.</p>
+      </div>
+      <div class="text-center text-gold-300 font-bold text-sm tracking-wide">
+        Force à toi mon Romain, t'es mon gars sûr et je suis avec toi je t'aime frère.
+      </div>
+    </div>
+
+    <!-- BOX DÉDICACE ROMAIN & WORDS DON'T COME EASY -->
+    <div class="warm-glass rounded-3xl p-6 sm:p-10 border-2 border-gold-500/40 text-center space-y-6 shadow-2xl">
+      <h3 class="text-xl sm:text-2xl font-serif font-bold text-gold-gradient leading-relaxed">
+        J'ai tellement envie de balayer ton gris mon gars. Je te kiffe de fou. Je veux te donner tout ce dont tu as besoin. Sans blabla, sans drama, sans prise de tête.
+      </h3>
+      <p class="text-slate-200 text-base sm:text-lg leading-relaxed font-light">
+        Juste en étant là pour toi, à t'écouter, en étant près de toi, et te faire sentir ma présence. Je veux tout faire pour toi, sans rien attendre en retour. T'es tellement un mec en <strong class="text-gold-300 font-bold">OR</strong> que je veux te donner tout ce que tu mérites.
+      </p>
+
+      <div class="p-6 rounded-2xl bg-amber-500/10 border border-gold-500/30 text-amber-200 font-serif italic text-base sm:text-lg">
+        « Cette page gro, elle est pour toi. Et pour toi seul. Ce que je ressens pour toi est si puissant, que personne n'a à savoir ce que je ressens pour toi, à part toi... Mon Romain 💕 »
+      </div>
+
+      <!-- Vocal un gars en or -->
+      <div class="mini-gold-player" data-src="https://audio.jukehost.co.uk/019e2539-7c51-72e7-9fdf-219dafcd40fd" data-title="🌟 Un message pour mon Roms, un gars en or 🌟"></div>
+
+      <!-- Vidéo YouTube Words Don't Come Easy -->
+      <div class="pt-4 space-y-3">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-300 font-cinzel font-bold">Ce que je ressens pour toi...</span>
+        <div class="aspect-video w-full max-w-lg mx-auto rounded-2xl overflow-hidden border border-gold-500/40 shadow-xl bg-black">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/oZaDX7cgJEo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="text-xs text-amber-200/80 italic max-w-md mx-auto">
+          C'était le meilleur moment du concert pour moi aussi. « Words don't come easy to me... How can I find a way to make you see I love You? »
+        </p>
+      </div>
+    </div>
+
+    <!-- PAROLES & TRADUCTION MULTILINGUE (TAI CONG MING) -->
+    <section class="warm-glass rounded-3xl p-6 sm:p-8 border border-gold-500/30">
+      <div class="text-center mb-6">
+        <h3 class="font-chinese text-3xl text-gold-gradient font-bold tracking-widest mb-1">太聪明</h3>
+        <p class="text-xs uppercase tracking-widest text-amber-200/70 font-semibold">(Tiah tsag miah)</p>
+        <p class="text-xs text-slate-300 mt-2 font-light">
+          太聪明 (Mandarin) • Tiah tsag-miah (Teochew) • Trop Intelligent (Français)
+        </p>
+      </div>
+
+      <!-- Vidéo Vimeo 太聪明 -->
+      <div class="w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border border-gold-500/40 mb-6 bg-black">
+        <iframe src="https://player.vimeo.com/video/1194808675?badge=0&autopause=0&player_id=0&app_id=58479" class="w-full h-full border-0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <!-- Vocal Court Hia-Di -->
+      <div class="text-center mb-6">
+        <audio id="vocalHiaDi" src="https://audio.jukehost.co.uk/019e5129-d71b-729c-8753-17b245735812"></audio>
+        <button id="btnVocalHiaDi" onclick="playVocalShort()" class="px-5 py-2.5 rounded-full warm-glass border border-gold-400/40 text-gold-200 text-xs font-semibold tracking-wider hover:border-gold-300 transition inline-flex items-center gap-2">
+          <i class="fas fa-play text-amber-400" id="iconVocalHiaDi"></i>
+          <span id="textVocalHiaDi">Lou si oua é hia-di</span>
+        </button>
+      </div>
+
+      <!-- Onglets Sélecteurs de Langue Stylisés -->
+      <div class="flex items-center justify-center gap-2 mb-6">
+        <button onclick="setLanguage('zh')" id="tab-zh" class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-gold-500 text-warmDark transition shadow">
+          🇨🇳 Mandarin
+        </button>
+        <button onclick="setLanguage('tc')" id="tab-tc" class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition">
+          📜 Teochew
+        </button>
+        <button onclick="setLanguage('fr')" id="tab-fr" class="px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition">
+          🇫🇷 Français
+        </button>
+      </div>
+
+      <!-- Contenu des paroles -->
+      <div class="bg-black/40 rounded-2xl p-6 border border-gold-500/20 max-w-lg mx-auto font-light leading-relaxed text-sm sm:text-base space-y-2">
+        
+        <!-- Mandarin -->
+        <div id="lyrics-zh" class="space-y-2 font-chinese tracking-wider text-amber-100">
+          <p class="font-bold text-center text-gold-300 mb-4">【 太聪明 】</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">1</span>总以为谜一般难懂的我</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">2</span>在你了解以后 其实也没什么</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">3</span>我总是忽冷又忽热隐藏我的感受</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">4</span>只是怕爱你的心被你看透</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">5</span>猜得没错想的太多不会有...结果</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">6</span>被你看穿了以后我更无处可躲</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">7</span>我开始后悔不应该太聪明的卖弄</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">8</span>只是怕亲手将我的真心葬送</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">9</span>我猜着你的心</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">10</span>要再一次确定</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">11</span>遥远的距离都是因为太过聪明</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">12</span>要猜着你的心</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">13</span>要再一次确定</p>
+          <p><span class="text-xs text-amber-400 font-mono mr-2">14</span>混乱的思绪都是因为太想靠近你</p>
+        </div>
+
+        <!-- Teochew -->
+        <div id="lyrics-tc" class="space-y-2 hidden text-slate-200 font-mono text-xs sm:text-sm">
+          <p class="font-bold text-center text-white mb-4">【 Tiah tsag-miah 】</p>
+          <p><span class="text-amber-400 mr-2">1</span>Dzong rek siou-oua dziou ho dzeui gak mi yek ia bien nang dong</p>
+          <p><span class="text-amber-400 mr-2">2</span>Deng lu liao gui liao ao, gui sek ia mo sim houon</p>
+          <p><span class="text-amber-400 mr-2">3</span>Oua si deng tsek é leng tsek é houah kang va oua gao sou</p>
+          <p><span class="text-amber-400 mr-2">4</span>Dzé si giann aïn lu gao sim ho lu kouan tao tao</p>
+          <p><span class="text-amber-400 mr-2">5</span>Gou bhen tso siou-hia dzoi ia bue ou guieh gouo</p>
+          <p><span class="text-amber-400 mr-2">6</span>Ho lu kouan tsoueng liao ao oua geng mo di houeng ho do</p>
+          <p><span class="text-amber-400 mr-2">7</span>Oua kaï tsi hou houon bue eng gaï tiah tsag miah gao bue lang</p>
+          <p><span class="text-amber-400 mr-2">8</span>Dzé si giann tsing tsiou dziang oua gao dzing sim sang diao</p>
+          <p><span class="text-amber-400 mr-2">9</span>Oua doï gou lu gao sim</p>
+          <p><span class="text-amber-400 mr-2">10</span>Aï dzaï tsek tsouon kag deng</p>
+          <p><span class="text-amber-400 mr-2">11</span>Ia heng gao sim lou long si eng ouoi tiah gouo tsag miah</p>
+          <p><span class="text-amber-400 mr-2">12</span>Aï gou dioh lu gao sim</p>
+          <p><span class="text-amber-400 mr-2">13</span>Aï dzaï tsek tsouon kag deng</p>
+          <p><span class="text-amber-400 mr-2">14</span>Louang dzao dzao gao sim tseng long si eng ouoi duat siou moua lu goung goung</p>
+        </div>
+
+        <!-- Français -->
+        <div id="lyrics-fr" class="space-y-2 hidden text-amber-200 font-serif italic text-sm">
+          <p class="font-bold text-center text-gold-300 not-italic font-sans mb-4">【 Trop Intelligent 】</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">1</span>Moi qui ai toujours pensé être aussi insaisissable qu'un mystère,</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">2</span>Une fois que tu m'as compris, au fond, il n'y avait rien de spécial.</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">3</span>Je souffle toujours le chaud et le froid pour cacher mes sentiments,</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">4</span>Juste par peur que tu ne voies à quel point je t'aime.</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">5</span>Tu as deviné juste : à trop réfléchir, on n'aboutit à rien,</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">6</span>Maintenant que tu m'as percé à jour, je n'ai plus aucun endroit où me cacher.</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">7</span>Je commence à regretter d'avoir joué les plus malins,</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">8</span>C'était juste par peur d'enterrer mon propre cœur de mes propres mains.</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">9</span>Je cherche à deviner ce qu'il y a dans ton cœur,</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">10</span>Pour me rassurer encore une fois.</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">11</span>Cette distance immense entre nous n'existe que parce que j'ai voulu être trop intelligent.</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">12</span>Je veux deviner ce qu'il y a dans ton cœur,</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">13</span>Pour me rassurer encore une fois.</p>
+          <p><span class="not-italic text-amber-400 font-mono mr-2">14</span>Si mes pensées sont si confuses, c'est juste parce que je veux tellement me rapprocher de toi.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION : NOTRE HISTOIRE & SOUVENIRS PROFONDS -->
+    <section id="tes-mon-roms" class="warm-glass rounded-3xl p-6 sm:p-10 border border-gold-500/30 space-y-6">
+      <div class="border-b border-gold-500/20 pb-4">
+        <span class="text-xs uppercase font-extrabold tracking-widest text-gold-400 font-cinzel">Fraternité Inébranlable</span>
+        <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-1">T'es mon Roms, et je suis ton Antho</h2>
+        <p class="text-amber-200 text-xs font-bold tracking-wider mt-1">TON SOLDAT, ton gars sûr 💪🏻🫡</p>
+      </div>
+
+      <p class="leading-relaxed text-slate-200 font-light">
+        Je vais me coucher, avec toi en tête comme chaque nuit et chaque jour à mon réveil. Stp mon gars... dors, et arrête de te faire du mal. Arrête d'avoir peur du lendemain. Et reste confiant en toute occasion 🙏🏻💙💜
+      </p>
+
+      <div class="p-6 rounded-2xl bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-rose-500/15 border-l-4 border-gold-400 text-[#FFFBF2] not-italic font-sans text-base sm:text-lg leading-[1.85] tracking-[0.015em] shadow-[0_4px_25px_rgba(0,0,0,0.4)]">
+        « J’étais heureux d’être avec toi mon gars. J’ai kiffé sentir encore tout ton poids contre moi sur le canapé, quand tu m'expliquais les buffs apportés par certains persos avec des teams mixtes et que tu m'as dit "t'as rien capté" car t'as bien vu que ton corps collé au mien me faisait grave du bien mdrr. J'étais guétifa de fou, et c'est vrai que je devenais guedin en sentant ton corps pressé contre le mien mais tqt j'ai quand même capté frère 😅🤣🤣 »
+      </div>
+
+      <p class="leading-relaxed text-slate-200 font-light">
+        Le matin souvent je me réveillais une heure avant toi, j'essayais de faire le moins de bruit possible pour que tu dormes tranquille frère. Je faisais la vaisselle, les recherches sur le net pour le programme du jour, je checkais si tes vêtements étaient humides ou secs. Je préparais le petit dej. J'ai essayé de faire le max pour rendre tes vacs le plus agréable possible gro. Et c'était vraiment de beaux moments putain...
+      </p>
+
+      <div class="p-4 rounded-2xl bg-black/40 border border-gold-500/20 text-center">
+        <a href="https://drive.google.com/file/d/1p4TobYgpPdw15lXyLkDfOgvOS7WtsbTV/view?usp=drivesdk" target="_blank" class="text-xs sm:text-sm font-semibold text-amber-300 hover:underline inline-flex items-center gap-2">
+          <i class="fa-solid fa-volume-high text-gold-400"></i> Et la nuit je kiffais trop t'entendre ronfler mon gars 😅🥹🥹
+        </a>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-rose-500/15 border-l-4 border-gold-400 text-[#FFFBF2] not-italic font-sans text-base sm:text-lg leading-[1.85] tracking-[0.015em] shadow-[0_4px_25px_rgba(0,0,0,0.4)]">
+        « Faut savoir que moi de base je suis pas pédé, juste des tendances bi, mais comme je dis plus bas depuis que je te connais je suis Romainsexuel mdrrr. Faut dire t'as tout pour toi : t'es gentil, t'es drôle, t'es beau, t'es sexy (t'as de belles fesses mec, t'as un cul d'enfer comme avait dit Zinedine un jour à Carrefour mdr !), surtout t'es vrai, t'es profond et t'es le seul mec avec qui je peux être moi-même. T'as ce truc qui balaye tout le gris autour de moi. T'es ma personne préférée parce que t'es unique, tout simplement. »
+      </div>
+
+      <!-- Anecdote Maman & Valeurs Communes Restaurée -->
+      <div class="p-6 rounded-2xl bg-black/40 border border-gold-500/30 text-[#FFFBF2] text-sm sm:text-base leading-[1.85] font-normal space-y-3">
+        <p>Il y une anecdote qui m'a fait vraiment plaisir mon gars quand on était à Barcelone, c'est quand tu étais au téléphone avec ta maman et tu m'as dit qu'elle me passait son bonjour. Ça m'a énormément touché de savoir que ta mère pensait à moi. Et son prénom, <strong>Chheng</strong>, est un très joli prénom. Il s'écrit <strong>清</strong> en chinois, et ça veut dire Pureté, Sérénité et Honnêteté.</p>
+        <p>Roms, quand on parlait de nos daronnes à Barcelone... le fait que tu donnes 1000 balles tous les mois à ta mère, je trouve ça tellement noble gro. Et quand je t'ai dit que c'était pareil pour moi, que c'était normal... c'est là que j'ai compris qu'on était vraiment pareil toi et moi. On a les mêmes valeurs, le même respect. T'es vraiment un mec bien, et c'est aussi pour ça que je te kiffe sur tous les plans.</p>
+      </div>
+
+      <!-- Section Frères d'Armes & Bouclier Restaurée -->
+      <div class="p-6 rounded-2xl bg-gradient-to-r from-amber-950/40 via-gold-950/20 to-black/60 border-2 border-gold-500/40 text-center space-y-3 shadow-xl">
+        <i class="fas fa-shield-halved text-gold-400 text-2xl"></i>
+        <p class="text-[#FFFBF2] text-base sm:text-lg leading-[1.85] font-normal max-w-xl mx-auto">
+          « Le bruit et les tensions sont du passé ; seul compte maintenant le <span class="text-gold-300 font-bold uppercase">Sommet</span>. La grandeur naît quand deux âmes voient se rencontrer l'ambition de l'un et le <span class="text-gold-300 font-bold">soutien indéfectible</span> de l'autre. C'est dans cette puissance mutuelle que se trace la route vers le <span class="text-gold-300 font-bold uppercase">Succès</span>.<br/><br/>
+          Avance sans crainte. Je suis ton soutien, ton bouclier mon Romain 🛡️💪🏻 »
+        </p>
+        <div class="text-xs text-gold-400 font-cinzel font-bold tracking-[0.3em] uppercase pt-2">
+          — FRÈRES D'ARMES —
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION : VOYAGES (MONACO, BARCELONE, SÈTE) -->
+    <section id="voyages" class="warm-glass rounded-3xl overflow-hidden border-2 border-sky-500/40 shadow-2xl">
+      <!-- Header Voyages -->
+      <div class="relative h-64 sm:h-72 w-full flex items-center justify-center text-center p-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(10,15,30,0.4), rgba(18,13,20,0.9)), url('https://i.ibb.co/0pc3rTjN/barceloneta-1.jpg');">
+        <div class="relative z-10">
+          <span class="text-xs uppercase font-extrabold tracking-[0.3em] text-sky-300 font-cinzel">Échappées & Liberté</span>
+          <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-wider text-white drop-shadow-lg">
+            Voyages
+          </h2>
+          <p class="text-sky-200 font-serif italic text-sm sm:text-base mt-2">
+            Nos souvenirs, de Monaco à Barcelone, et d'autres à venir !
+          </p>
+        </div>
+      </div>
+
+      <div class="p-6 sm:p-8 space-y-8">
+        
+        <!-- Vidéo Sète -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2 text-sky-300 font-bold uppercase text-xs tracking-wider">
+            <i class="fas fa-heart text-sky-400"></i> Souvenirs de Sète avec toi 💙
+          </div>
+          <div class="aspect-video w-full rounded-2xl overflow-hidden border border-sky-500/40 bg-black shadow-lg">
+            <iframe src="https://drive.google.com/file/d/1hCisDDMfK1iD2Y9OLPSQzwXhHvaoakkM/preview" class="w-full h-full border-0" allow="autoplay"></iframe>
+          </div>
+        </div>
+
+        <!-- Vidéo Barcelone -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2 text-sky-300 font-bold uppercase text-xs tracking-wider">
+            <i class="fas fa-plane-departure text-sky-400"></i> Vidéo Barcelona 💙❤️
+          </div>
+          <div class="aspect-video w-full rounded-2xl overflow-hidden border border-sky-500/40 bg-black shadow-lg">
+            <iframe src="https://drive.google.com/file/d/1xPh1cDWQiba3nYJi-Xdo8PsUkXcKHH9C/preview" class="w-full h-full border-0" allow="autoplay"></iframe>
+          </div>
+        </div>
+
+        <!-- Vidéo "Tout me manque frère" -->
+        <div class="p-6 rounded-2xl bg-black/60 border border-gold-500/40 text-center space-y-4 shadow-xl">
+          <h3 class="text-gold-200 font-cinzel font-bold text-sm sm:text-base tracking-widest uppercase">
+            <i class="fas fa-subway mr-2 text-gold-400"></i> Tout me manque frère
+          </h3>
+          <div class="aspect-video w-full rounded-xl overflow-hidden border border-gold-500/30">
+            <iframe src="https://drive.google.com/file/d/1o4gXYPuqvvfuALsJLXjiOMG5ieyQdEO7/preview" class="w-full h-full border-0" allow="autoplay" allowfullscreen></iframe>
+          </div>
+          <p class="text-xs text-slate-400 italic">Barcelone 2026 — Ces moments-là n'ont pas de prix.</p>
+        </div>
+
+        <!-- Liens Vimeo Sanremo & Menton -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <a href="https://vimeo.com/1112710905?fl=pl&fe=sh" target="_blank" class="p-3.5 rounded-2xl warm-glass border border-sky-500/30 text-sky-200 hover:border-sky-300 text-xs font-bold tracking-wider text-center flex items-center justify-center gap-2 transition">
+            <i class="fas fa-motorcycle text-sky-400"></i> Vidéo Sanremo (mdp : Gfcarrefour)
+          </a>
+          <a href="https://vimeo.com/1112712825?fl=pl&fe=sh" target="_blank" class="p-3.5 rounded-2xl warm-glass border border-sky-500/30 text-sky-200 hover:border-sky-300 text-xs font-bold tracking-wider text-center flex items-center justify-center gap-2 transition">
+            <i class="fas fa-gem text-amber-400"></i> Vidéo Menton / Monaco (mdp : Gfcarrefour)
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION : TAFF & STRATÉGIE PRO -->
+    <section id="taff" class="warm-glass rounded-3xl overflow-hidden border-2 border-emerald-500/40 shadow-2xl">
+      <div class="relative h-56 sm:h-64 w-full flex items-center justify-center text-center p-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(10,30,20,0.5), rgba(18,13,20,0.9)), url('https://i.ibb.co/LDmf1SQr/image-18.jpg');">
+        <div class="relative z-10">
+          <span class="text-xs uppercase font-extrabold tracking-[0.3em] text-emerald-300 font-cinzel">Carrière & Avenir</span>
+          <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-wider text-white drop-shadow-lg">
+            Taff
+          </h2>
+          <p class="text-emerald-200 font-serif italic text-sm sm:text-base mt-2">
+            Dossiers, Juridique & Stratégie Pro
+          </p>
+        </div>
+      </div>
+
+      <div class="p-6 sm:p-8 space-y-3">
+        <a href="https://www.canva.com/design/DAG1l3Q93Q8/Ec3nsaCsAQVJWXkuAJq9Mw/edit" target="_blank" class="block p-4 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 font-bold text-xs uppercase tracking-wider text-center hover:bg-emerald-900/50 hover:border-emerald-400 transition shadow">
+          📄 CV Romain
+        </a>
+        <a href="https://antho-btx75.github.io/Roms/39hgfc.html" class="block p-4 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 font-bold text-xs uppercase tracking-wider text-center hover:bg-emerald-900/50 hover:border-emerald-400 transition shadow">
+          ⏱️ Retour aux 39h contractuelles
+        </a>
+        <a href="https://antho-btx75.github.io/Roms/RomainGFC.html" class="block p-4 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 font-bold text-xs uppercase tracking-wider text-center hover:bg-emerald-900/50 hover:border-emerald-400 transition shadow">
+          💼 Négociations GFC : 39h et maintien de salaire
+        </a>
+        <a href="https://antho-btx75.github.io/Roms/RomainLic.html" class="block p-4 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 font-bold text-xs uppercase tracking-wider text-center hover:bg-emerald-900/50 hover:border-emerald-400 transition shadow">
+          ⚖️ Analyse des différentes ruptures
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION : VEUCHS & ANGLAIS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Veuchs -->
+      <section id="veuchs" class="warm-glass rounded-3xl p-6 border border-gold-500/30 flex flex-col justify-between">
+        <div>
+          <span class="text-xs uppercase font-extrabold tracking-widest text-gold-400 font-cinzel">Style & Soin</span>
+          <h3 class="text-xl font-bold font-serif text-white mt-1 mb-3">Veuchs</h3>
+          <p class="text-xs text-slate-300 font-light leading-relaxed mb-6">
+            Dossier complet et stratégie capillaire : Collagène + Romarin pour une densité optimale.
+          </p>
+        </div>
+        <a href="https://antho-btx75.github.io/Roms/Veuchs.html" class="p-3.5 rounded-2xl bg-gold-500/10 border border-gold-500/30 text-gold-300 text-xs font-bold uppercase tracking-wider text-center hover:bg-gold-500/20 transition flex items-center justify-center gap-2">
+          <i class="fas fa-scissors text-amber-400"></i> Voir la Stratégie Capillaire
+        </a>
+      </section>
+
+      <!-- Anglais -->
+      <section id="anglais" class="warm-glass rounded-3xl p-6 border border-sky-500/30 flex flex-col justify-between">
+        <div>
+          <span class="text-xs uppercase font-extrabold tracking-widest text-sky-400 font-cinzel">International & Flow</span>
+          <h3 class="text-xl font-bold font-serif text-white mt-1 mb-3">Anglais</h3>
+          <p class="text-xs text-slate-300 font-light leading-relaxed mb-6">
+            Busuu, la meilleure app pour se perfectionner tranquillement et avoir une aisance totale comme évoqué à Barcelone.
+          </p>
+        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.busuu.android.enc" target="_blank" class="p-3.5 rounded-2xl bg-sky-500/10 border border-sky-500/30 text-sky-300 text-xs font-bold uppercase tracking-wider text-center hover:bg-sky-500/20 transition flex items-center justify-center gap-2">
+          <i class="fas fa-language text-sky-400"></i> Télécharger Busuu
+        </a>
+      </section>
+
+    </div>
+
+    <!-- SECTION : JE SUIS TON ROCHER AVANT TOUT -->
+    <section id="rocher-avant-tout" class="warm-glass rounded-3xl p-6 sm:p-10 border-2 border-gold-500/40 relative shadow-2xl">
+      <div class="text-center mb-8">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-gold-600 to-amber-300 flex items-center justify-center mx-auto text-warmDark text-xl mb-3 shadow-[0_0_20px_rgba(212,175,55,0.4)]">
+          <i class="fas fa-anchor"></i>
+        </div>
+        <span class="text-xs uppercase font-extrabold tracking-[0.25em] text-gold-400 font-cinzel">Forteresse Émotionnelle</span>
+        <h2 class="text-2xl sm:text-4xl font-serif font-bold text-white mt-1">
+          Je suis ton Rocher avant tout 💪🏻⚓
+        </h2>
+        <p class="text-slate-300 text-xs sm:text-sm max-w-lg mx-auto mt-2 font-light">
+          Je serai toujours là pour toi tu le sais, tu es tellement spécial pour moi, tu comptes énormément mon gars.
+        </p>
+      </div>
+
+      <!-- 2 Boîtes Vocales Spéciales Rocher -->
+      <div class="space-y-4 mb-8">
+        
+        <div class="p-5 rounded-2xl bg-black/40 border border-blue-500/40 text-center space-y-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-blue-300">
+            Je serai toujours ton Rocher ⚓
+          </span>
+          <audio controls class="w-full h-9 rounded-full">
+            <source src="https://audio.jukehost.co.uk/019e27b4-15f7-722a-b0ea-f9afbb36f7ce" type="audio/mpeg">
+          </audio>
+          <p class="text-sm text-[#e8f3ff] not-italic font-sans leading-relaxed">
+            « Il y a qu'un Antho frère, le chaud et le gava, c'est le même au fond 💪🏻 »
+          </p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-black/40 border border-cyan-500/40 text-center space-y-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-cyan-300">
+            J'aime tout chez toi 🫶🏻
+          </span>
+          <audio controls class="w-full h-9 rounded-full">
+            <source src="https://audio.jukehost.co.uk/019e27b0-a78b-71d8-ad5a-e2f3ca573786" type="audio/mpeg">
+          </audio>
+          <p class="text-sm text-[#e8f9ff] not-italic font-sans leading-relaxed">
+            « T'es tout le temps dans ma tête et dans mon cœur mec »
+          </p>
+        </div>
+
+      </div>
+
+      <div class="p-6 rounded-2xl bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-rose-500/15 border-l-4 border-gold-400 text-[#FFFBF2] not-italic font-sans text-base sm:text-lg leading-[1.85] tracking-[0.015em] shadow-[0_4px_25px_rgba(0,0,0,0.4)] mb-6">
+        « Toi de ton côté t’as rien à faire, rien à dire, aucune question à te poser. T’es libre de consommer ça en mode fantôme, au calme, sans aucune pression. Je suis ton rocher, pas un juge qui attend une réaction à tout ça. Dors tranquille mon gars, t'es en sécurité de ouf ici 💪🏻 »
+      </div>
+
+      <!-- Lecteur vocal embed de protection -->
+      <div class="text-center pt-2">
+        <p class="text-xs uppercase tracking-widest text-gold-300 font-bold mb-3 flex items-center justify-center gap-2">
+          <i class="fas fa-hand-holding-heart text-rose-400"></i> Protège toi, t'es un gars en OR
+        </p>
+        <div class="w-full max-w-md mx-auto rounded-full overflow-hidden border border-gold-500/40 bg-black/60 shadow-lg">
+          <iframe src="https://drive.google.com/file/d/1I31vLRxp7n2oXJv-r2grzhXIrHxqPP91/preview" class="w-full h-12 border-0"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION : SOMMEIL & COGITATIONS -->
+    <section id="sommeil" class="warm-glass rounded-3xl p-6 sm:p-8 border border-purple-500/30">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 rounded-2xl bg-purple-500/20 border border-purple-400/40 flex items-center justify-center text-purple-300 text-lg">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div>
+          <span class="text-xs uppercase font-extrabold tracking-widest text-purple-300 font-cinzel">Santé Mentale & Nuits Paisibles</span>
+          <h3 class="text-xl font-bold font-serif text-white">Sommeil et cogitations</h3>
+        </div>
+      </div>
+
+      <p class="text-slate-200 text-xs sm:text-sm font-light leading-relaxed mb-6">
+        J'espère que tu n'es pas trop gris mon Roms, ou en tout cas que tu arrives à te protéger des ruminations. Voici la méthode de cohérence cardiaque 4-7-8 pour calmer instantanément le rythme cérébral :
+      </p>
+
+      <div class="grid grid-cols-3 gap-3 text-center mb-6">
+        <div class="p-3 rounded-2xl bg-black/40 border border-purple-500/30">
+          <div class="text-lg font-bold text-purple-300 font-mono">4s</div>
+          <div class="text-[10px] uppercase font-bold text-slate-400 mt-1">Inspiration Nez</div>
+        </div>
+        <div class="p-3 rounded-2xl bg-black/40 border border-purple-500/30">
+          <div class="text-lg font-bold text-purple-300 font-mono">7s</div>
+          <div class="text-[10px] uppercase font-bold text-slate-400 mt-1">Blocage</div>
+        </div>
+        <div class="p-3 rounded-2xl bg-black/40 border border-purple-500/30">
+          <div class="text-lg font-bold text-purple-300 font-mono">8s</div>
+          <div class="text-[10px] uppercase font-bold text-slate-400 mt-1">Expiration Bouche</div>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="https://vm.tiktok.com/ZNRmNnDjM/" target="_blank" class="flex-1 p-3 rounded-2xl bg-purple-950/40 border border-purple-500/30 text-purple-200 text-xs font-bold uppercase tracking-wider text-center hover:bg-purple-900/50 transition">
+          <i class="fa-brands fa-tiktok mr-1"></i> Tuto Vidéo TikTok
+        </a>
+        <a href="https://m.youtube.com/watch?v=gJnxtjE1FY0" target="_blank" class="flex-1 p-3 rounded-2xl bg-amber-950/40 border border-amber-500/30 text-amber-200 text-xs font-bold uppercase tracking-wider text-center hover:bg-amber-900/50 transition">
+          <i class="fa-brands fa-youtube mr-1 text-rose-400"></i> Sons Marrons (Brown Noise)
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION : APPLIS UTILES (BENTO GRID MODERNE) -->
+    <section id="applis" class="warm-glass rounded-3xl p-6 sm:p-8 border border-gold-500/30">
+      <div class="text-center mb-8">
+        <span class="text-xs uppercase font-extrabold tracking-[0.25em] text-gold-400 font-cinzel">Boîte à Outils Sélecte</span>
+        <h3 class="text-2xl font-serif font-bold text-white mt-1">Applis & Liens Utiles</h3>
+        <p class="text-xs text-slate-300 font-light mt-1">Toutes vérifiées, ultra sécurisées et efficaces pour toi mon gars.</p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        
+        <!-- Brave -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://www.bleepstatic.com/content/hl-images/2019/02/10/brave-browser-header.jpg" alt="Brave" class="w-12 h-12 rounded-xl object-cover mb-2">
+          <span class="text-xs font-bold text-white">Brave</span>
+          <span class="text-[10px] text-slate-400 mb-3">Sans pub, son en tâche de fond.</span>
+          <a href="https://play.google.com/store/apps/details?id=com.brave.browser" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Installer</a>
+        </div>
+
+        <!-- V Video -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://cdn.aptoide.com/imgs/1/4/c/14c554cc2bfde63425afbd78f5384c55_feature_graphic.png" alt="V Video" class="w-12 h-12 rounded-xl object-cover mb-2">
+          <span class="text-xs font-bold text-white">V Video</span>
+          <span class="text-[10px] text-slate-400 mb-3">Télécharge TOUTES les vidéos.</span>
+          <a href="https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Installer</a>
+        </div>
+
+        <!-- Proton VPN -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Proton_VPN_Logo.svg/3840px-Proton_VPN_Logo.svg.png" alt="Proton" class="w-12 h-12 rounded-xl object-contain mb-2 bg-white/5 p-1">
+          <span class="text-xs font-bold text-white">Proton VPN</span>
+          <span class="text-[10px] text-slate-400 mb-3">Le meilleur VPN suisse gratuit.</span>
+          <a href="https://play.google.com/store/apps/details?id=ch.protonvpn.android" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Installer</a>
+        </div>
+
+        <!-- Gemini AI -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://1000marcas.net/wp-content/uploads/2024/02/Gemini-Logo.jpg" alt="Gemini" class="w-12 h-12 rounded-xl object-cover mb-2">
+          <span class="text-xs font-bold text-white">Gemini AI</span>
+          <span class="text-[10px] text-slate-400 mb-3">L'IA de Google puissante.</span>
+          <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Lancer</a>
+        </div>
+
+        <!-- Claude IA -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://www.jean-marie-corda.com/wp-content/uploads/2025/07/guide-complet-claude-ai-1.jpg" alt="Claude" class="w-12 h-12 rounded-xl object-cover mb-2">
+          <span class="text-xs font-bold text-white">Claude IA</span>
+          <span class="text-[10px] text-slate-400 mb-3">Raisonnement fluide & naturel.</span>
+          <a href="https://play.google.com/store/apps/details?id=com.anthropic.claude" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Lancer</a>
+        </div>
+
+        <!-- Pluto TV -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://deadline.com/wp-content/uploads/2020/01/pluto-logo.png" alt="Pluto" class="w-12 h-12 rounded-xl object-contain mb-2 bg-white/5 p-1">
+          <span class="text-xs font-bold text-white">Pluto TV</span>
+          <span class="text-[10px] text-slate-400 mb-3">Séries, films, Olive & Tom 24/7.</span>
+          <a href="https://play.google.com/store/apps/details?id=tv.pluto.android" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Regarder</a>
+        </div>
+
+        <!-- Free Convert -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://cdn.freeconvert.com/logo_theme.svg" alt="FreeConvert" class="w-12 h-12 rounded-xl object-contain mb-2 bg-white/5 p-1">
+          <span class="text-xs font-bold text-white">Free Convert</span>
+          <span class="text-[10px] text-slate-400 mb-3">Convertisseur fichiers ultime.</span>
+          <a href="https://www.freeconvert.com/fr" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Ouvrir</a>
+        </div>
+
+        <!-- WhatTCSay3 Teochew -->
+        <div class="p-4 rounded-2xl bg-black/40 border border-white/10 flex flex-col items-center text-center justify-between warm-glass-hover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdtMDo7icL1chCDggFxuh1rwuUrCRboP5riKn3Kn_Rw&s" alt="Teochew" class="w-12 h-12 rounded-xl object-cover mb-2">
+          <span class="text-xs font-bold text-white">WhatTCSay3</span>
+          <span class="text-[10px] text-slate-400 mb-3">Dico Teochew (tu gères déjà 🤣).</span>
+          <a href="https://play.google.com/store/apps/details?id=com.tcknow.whattcsay3" target="_blank" class="w-full py-1.5 rounded-lg bg-gold-500/20 text-gold-300 text-[10px] font-bold uppercase hover:bg-gold-500/30 transition">Pratiquer</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER CHALEUREUX ================= -->
+  <footer class="mt-20 py-12 px-4 border-t border-gold-500/20 warm-glass text-center">
+    <div class="max-w-md mx-auto space-y-4">
+      <div class="w-10 h-10 rounded-full bg-gold-500/20 border border-gold-400/40 flex items-center justify-center mx-auto text-amber-300 text-lg">
+        💎
+      </div>
+      <h4 class="font-serif italic text-xl text-gold-gradient">
+        Antho & Romain — Pour la Vie
+      </h4>
+      <p class="text-xs text-amber-200/60 font-light leading-relaxed">
+        Ce sanctuaire est ton refuge intemporel. Tout ce qui est écrit ici est gravé dans le marbre et dans l'or.
+      </p>
+      <div class="text-[10px] text-slate-500 font-mono tracking-widest uppercase pt-4">
+        © 2026 • Sanctuaire Privé • Confidentiel
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= SCRIPTS & LOGIQUE APPLICATIVE ================= -->
+  <!-- Firebase Compat pour la présence & statut -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+  <!-- EmailJS pour le tracking bienveillant -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script>
+    // ===== 1. GESTION DU RIDEAU D'ENTRÉE & AUDIO D'ACCUEIL =====
+    document.getElementById('entree-accueil').addEventListener('click', function() {
+      const audioAccueil = document.getElementById('audio-accueil');
+      const maintenant = Date.now();
+      const derniereEcoute = localStorage.getItem('timestampDernierSon');
+      const quatreHeures = 4 * 60 * 60 * 1000;
+
+      if (!derniereEcoute || (maintenant - derniereEcoute > quatreHeures)) {
+        if (audioAccueil) {
+          audioAccueil.volume = 0.9;
+          audioAccueil.play().catch(e => console.log("Audio bloqué ou non disponible :", e));
+        }
+        localStorage.setItem('timestampDernierSon', maintenant);
+      }
+
+      this.style.opacity = '0';
+      this.style.transform = 'scale(1.03)';
+      setTimeout(() => {
+        this.style.display = 'none';
+      }, 700);
+    });
+
+    // ===== 2. CONFIGURATION FIREBASE & STATUT TEMPS RÉEL =====
+    const firebaseConfig = {
+      apiKey: "AIzaSyCF70NU6mPyFPYowed3kE1ihTOaaMWLm68",
+      authDomain: "roms-vote.firebaseapp.com",
+      databaseURL: "https://roms-vote-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "roms-vote",
+      storageBucket: "roms-vote.firebasestorage.app",
+      messagingSenderId: "730133330494",
+      appId: "1:730133330494:web:1b2e30790fa60baec8af6f",
+      measurementId: "G-H1559CTSH7"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    const params = new URLSearchParams(window.location.search);
+    const SECRET_CODE = "Antho7581";
+
+    // Écoute du statut
+    db.ref('statut').on('value', (snap) => {
+      const data = snap.val() || {};
+      const dot = document.getElementById('online-dot');
+      const text = document.getElementById('status-text');
+
+      if (data.online === true) {
+        dot.classList.remove('hidden');
+        text.textContent = "Je suis en ligne pour toi mon gars ✨";
+        text.className = "text-xs font-bold text-emerald-300";
+      } else {
+        dot.classList.add('hidden');
+        if (data.lastSeen) {
+          text.textContent = "En ligne pour toi le : " + formatRelativeDate(data.lastSeen);
+        } else {
+          text.textContent = "Hors ligne — toujours présent dans mon cœur";
+        }
+        text.className = "text-xs font-medium text-amber-200/80";
+      }
+    });
+
+    function formatRelativeDate(isoString) {
+      const d = new Date(isoString);
+      return d.toLocaleString('fr-FR', {
+        weekday: 'short',
+        day: 'numeric',
+        month: 'short',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    }
+
+    // Gestion secrète du statut si code présent dans l'URL
+    const secretParam = params.get('online') || params.get('offline') || params.get('lastseen');
+    if (secretParam === SECRET_CODE) {
+      if (params.has('online')) {
+        db.ref('statut').set({ online: true, lastSeen: new Date().toISOString() });
+      } else if (params.has('offline')) {
+        db.ref('statut').set({ online: false, lastSeen: new Date().toISOString() });
+      }
+      window.history.replaceState({}, '', window.location.pathname);
+    }
+
+    // EmailJS Notification Visite
+    const isSecretVisit = params.has('online') || params.has('offline') || params.has('lastseen');
+    if (!isSecretVisit) {
+      emailjs.init({ publicKey: "5m3HlCIUn6OkqDYMy" });
+      emailjs.send("service_quyacff", "template_vekw5ae", {
+        to_email: "ryo.saeba75012@outlook.fr",
+        message: "👁 Visite sur le Sanctuaire d'Or de Roms",
+        date: new Date().toLocaleString('fr-FR')
+      }).catch(err => console.log("Tracking notif :", err));
+    }
+
+    function trackVoirPlusClick() {
+      emailjs.send("service_quyacff", "template_vekw5ae", {
+        to_email: "ryo.saeba75012@outlook.fr",
+        message: "✅ Clic sur Voir Plus (Page Hot) par Romain",
+        date: new Date().toLocaleString('fr-FR')
+      });
+    }
+
+    function trackVoteLinkClick() {
+      emailjs.send("service_quyacff", "template_vekw5ae", {
+        to_email: "ryo.saeba75012@outlook.fr",
+        message: "✅ Clic vers la Page Vote par Romain",
+        date: new Date().toLocaleString('fr-FR')
+      });
+    }
+
+    // ===== 3. LECTEUR VINYLE OR INTERACTIF =====
+    (function initVinylPlayer() {
+      const audio = document.getElementById('audio-principal');
+      const playBtn = document.getElementById('player-play-btn');
+      const disc = document.getElementById('vinyl-disc');
+      const progressBar = document.getElementById('player-progress-bar');
+      const progressContainer = document.getElementById('player-progress-container');
+      const currentTimeEl = document.getElementById('player-current-time');
+      const durationEl = document.getElementById('player-duration');
+      const volumeSlider = document.getElementById('player-volume');
+      const muteBtn = document.getElementById('player-mute-btn');
+      const loopBtn = document.getElementById('player-loop-btn');
+      const visualizerContainer = document.getElementById('visualizer-bars');
+
+      // Création des 18 barres d'égaliseur
+      const bars = [];
+      for (let i = 0; i < 18; i++) {
+        const bar = document.createElement('div');
+        bar.className = 'w-1.5 bg-gradient-to-t from-amber-600 to-gold-300 rounded-full transition-all duration-75';
+        bar.style.height = '6px';
+        visualizerContainer.appendChild(bar);
+        bars.push(bar);
+      }
+
+      let isPlaying = false;
+      let animId;
+
+      const fmt = t => isNaN(t) || !isFinite(t) ? '0:00' : `${Math.floor(t/60)}:${Math.floor(t%60).toString().padStart(2,'0')}`;
+
+      function playAudio() {
+        audio.play().then(() => {
+          isPlaying = true;
+          playBtn.innerHTML = '<i class="fa-solid fa-pause"></i>';
+          disc.classList.remove('paused');
+          animateBars();
+        }).catch(e => console.log("Lecture restreinte :", e));
+      }
+
+      function pauseAudio() {
+        audio.pause();
+        isPlaying = false;
+        playBtn.innerHTML = '<i class="fa-solid fa-play ml-1"></i>';
+        disc.classList.add('paused');
+        cancelAnimationFrame(animId);
+        bars.forEach(b => b.style.height = '6px');
+      }
+
+      playBtn.addEventListener('click', () => isPlaying ? pauseAudio() : playAudio());
+
+      audio.addEventListener('timeupdate', () => {
+        if (!audio.duration) return;
+        const pct = (audio.currentTime / audio.duration) * 100;
+        progressBar.style.width = pct + '%';
+        currentTimeEl.textContent = fmt(audio.currentTime);
+        durationEl.textContent = fmt(audio.duration);
+      });
+
+      audio.addEventListener('loadedmetadata', () => {
+        durationEl.textContent = fmt(audio.duration);
+      });
+
+      progressContainer.addEventListener('click', (e) => {
+        const rect = progressContainer.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        if (audio.duration) {
+          audio.currentTime = pos * audio.duration;
+          if (!isPlaying) playAudio();
+        }
+      });
+
+      volumeSlider.addEventListener('input', (e) => {
+        audio.volume = e.target.value;
+      });
+
+      muteBtn.addEventListener('click', () => {
+        audio.muted = !audio.muted;
+        muteBtn.innerHTML = audio.muted ? '<i class="fa-solid fa-volume-xmark text-rose-400"></i>' : '<i class="fa-solid fa-volume-high"></i>';
+      });
+
+      let isLoop = false;
+      loopBtn.addEventListener('click', () => {
+        isLoop = !isLoop;
+        audio.loop = isLoop;
+        loopBtn.classList.toggle('text-gold-300', isLoop);
+        loopBtn.classList.toggle('border-gold-300', isLoop);
+      });
+
+      audio.addEventListener('ended', () => {
+        if (!isLoop) pauseAudio();
+      });
+
+      function animateBars() {
+        if (!isPlaying) return;
+        bars.forEach(bar => {
+          const rand = Math.floor(Math.random() * 32) + 6;
+          bar.style.height = `${rand}px`;
+        });
+        animId = requestAnimationFrame(animateBars);
+      }
+    })();
+
+    // ===== 4. MINI GOLD PLAYERS DYNAMIQUES & HOMOGÈNES =====
+    document.querySelectorAll('.mini-gold-player').forEach(player => {
+      const src = player.getAttribute('data-src');
+      const title = player.getAttribute('data-title') || 'Message Vocal';
+
+      player.className = "flex items-center gap-3 p-2.5 sm:p-3 rounded-2xl warm-glass border border-gold-500/30 max-w-lg mx-auto shadow-md";
+      player.innerHTML = `
+        <button class="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-600 via-gold-400 to-amber-300 text-warmDark flex items-center justify-center text-sm shadow-[0_0_12px_rgba(212,175,55,0.4)] flex-shrink-0 hover:scale-105 active:scale-95 transition">
+          <i class="fa-solid fa-play ml-0.5"></i>
+        </button>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center justify-between text-xs mb-1">
+            <span class="font-bold text-gold-200 truncate pr-2">${title}</span>
+            <span class="time-label font-mono text-[10px] text-amber-200/60">0:00</span>
+          </div>
+          <input type="range" min="0" step="0.1" value="0" class="gold-range w-full h-1.5">
+        </div>
+        <audio src="${src}" preload="metadata" class="hidden"></audio>
+      `;
+
+      const audio = player.querySelector('audio');
+      const btn = player.querySelector('button');
+      const icon = btn.querySelector('i');
+      const slider = player.querySelector('input');
+      const timeLbl = player.querySelector('.time-label');
+
+      const fmt = t => isNaN(t) || !isFinite(t) ? '0:00' : `${Math.floor(t/60)}:${Math.floor(t%60).toString().padStart(2,'0')}`;
+
+      btn.onclick = () => {
+        if (audio.paused) {
+          document.querySelectorAll('audio').forEach(a => { if (a !== audio) a.pause(); });
+          document.querySelectorAll('.mini-gold-player button i').forEach(i => i.className = 'fa-solid fa-play ml-0.5');
+          audio.play();
+          icon.className = 'fa-solid fa-pause ml-0';
+        } else {
+          audio.pause();
+          icon.className = 'fa-solid fa-play ml-0.5';
+        }
+      };
+
+      audio.onloadedmetadata = () => {
+        slider.max = audio.duration;
+        timeLbl.textContent = `0:00 / ${fmt(audio.duration)}`;
+      };
+
+      audio.ontimeupdate = () => {
+        slider.value = audio.currentTime;
+        timeLbl.textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+      };
+
+      slider.oninput = () => {
+        audio.currentTime = slider.value;
+      };
+
+      audio.onended = () => {
+        icon.className = 'fa-solid fa-play ml-0.5';
+        slider.value = 0;
+      };
+    });
+
+    // ===== 5. TYPEWRITER MESSAGE =====
+    (function initTypewriter() {
+      const msg = "Romain... mon Romain... Si t'es gris, si tu serres de ouf, rappelle-toi juste une chose et dis-toi : Antho est là pour moi, Antho m'aime.\n\nOui je suis là pour toi... aujourd'hui, hier comme demain, et tous les demains que la vie fera pour nous deux. Tous les jours j'ai envie de t'écrire, tous les jours j'ai envie de te parler 💕";
+      const container = document.getElementById('tw-text-v2');
+      const playerBox = document.getElementById('flash-player');
+      if (!container) return;
+
+      const chars = Array.from(msg);
+      let idx = 0;
+
+      function type() {
+        if (idx < chars.length) {
+          container.textContent += chars[idx];
+          idx++;
+          setTimeout(type, 30);
+        } else {
+          if (playerBox) playerBox.classList.remove('hidden');
+        }
+      }
+      setTimeout(type, 400);
+    })();
+
+    // ===== 6. VOCAL COURT TEOCHEW HIA-DI =====
+    function playVocalShort() {
+      const audio = document.getElementById('vocalHiaDi');
+      const icon = document.getElementById('iconVocalHiaDi');
+      const txt = document.getElementById('textVocalHiaDi');
+      audio.currentTime = 0;
+      audio.play();
+      icon.className = "fas fa-volume-high text-amber-300";
+      txt.textContent = "Écoute en cours...";
+      audio.onended = () => {
+        icon.className = "fas fa-play text-amber-400";
+        txt.textContent = "Lou si oua é hia-di";
+      };
+    }
+
+    // ===== 7. TRADUCTEUR ONGLET PAROLES =====
+    function setLanguage(lang) {
+      ['zh', 'tc', 'fr'].forEach(l => {
+        const block = document.getElementById(`lyrics-${l}`);
+        const tab = document.getElementById(`tab-${l}`);
+        if (l === lang) {
+          block.classList.remove('hidden');
+          tab.className = "px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-gold-500 text-warmDark transition shadow";
+        } else {
+          block.classList.add('hidden');
+          tab.className = "px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-slate-300 hover:text-white transition";
+        }
+      });
+    }
+
+    // ===== 8. ACCORDÉON SECTION PRIVÉE =====
+    function toggleSectionPrivee() {
+      const sec = document.getElementById('section-privee');
+      const txt = document.getElementById('toggle-prive-text');
+      const icon = document.getElementById('toggle-prive-icon');
+      const isHidden = sec.classList.contains('hidden');
+
+      if (isHidden) {
+        sec.classList.remove('hidden');
+        txt.textContent = "Replier la section intime";
+        icon.style.transform = "rotate(180deg)";
+      } else {
+        sec.classList.add('hidden');
+        txt.textContent = "Déroule uniquement si t'es dans ces bails mon gars";
+        icon.style.transform = "rotate(0deg)";
+      }
+    }
+
+    // ===== 9. MODALE LIGHTBOX POUR GIFS =====
+    function openGifModal(src) {
+      const modal = document.getElementById('gifModal');
+      const img = document.getElementById('gifModalImg');
+      img.src = src;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeGifModal() {
+      const modal = document.getElementById('gifModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    // ===== 10. GESTION HEURE BOUTON HOT =====
+    document.addEventListener("DOMContentLoaded", () => {
+      const hr = new Date().getHours();
+      const hotBtn = document.getElementById('btn-hot-link');
+      const navBtn = document.getElementById('nav-btn-hot');
+
+      if (hr >= 9 && hr < 19) {
+        if (hotBtn) {
+          hotBtn.href = "https://antho-btx75.github.io/Roms/closed";
+          hotBtn.innerHTML = '<i class="fa-solid fa-lock text-rose-400 mr-2"></i> Période Zen (Ouvre ce soir)';
+          hotBtn.style.opacity = '0.7';
+        }
+        if (navBtn) navBtn.href = "https://antho-btx75.github.io/Roms/closed";
+      }
+    });
+  </script>
+</body>
+</html>
